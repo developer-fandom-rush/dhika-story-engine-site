@@ -15,7 +15,7 @@
   <script>
   (async()=>{
     try{
-      const count=12, parts=[];
+      const count=10, parts=[];
       for(let i=1;i<=count;i++){
         const n=String(i).padStart(3,'0');
         const r=await fetch(`payload/part-${n}.txt`,{cache:'no-store'});
