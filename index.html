@@ -49,7 +49,7 @@
 .story-media img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
 .story-caption{font-size:12px;color:var(--muted);margin:8px 2px 0}.story-pending{display:grid;place-items:center;min-height:170px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);text-align:center;padding:22px;background:#faf9f4}
 .story-source-ref{font-size:11px;color:var(--muted);margin-top:10px}.story-visual-head .range{white-space:nowrap}
-.story-fixed{margin:-6px 0 18px;padding:10px 13px;border:1px solid #b9d9c7;background:#edf8f1;color:#244d3e;border-radius:9px;font-size:12px;font-weight:650}.story-brief{min-height:170px;border:1px dashed var(--gold);border-radius:10px;padding:18px;background:#fffaf0;color:var(--ink)}.story-brief strong{display:block;color:var(--gold);margin-bottom:7px}.story-brief small{display:block;color:var(--muted);margin-top:9px}
+.story-brief{min-height:170px;border:1px dashed var(--gold);border-radius:10px;padding:18px;background:#fffaf0;color:var(--ink)}.story-brief strong{display:block;color:var(--gold);margin-bottom:7px}.story-brief small{display:block;color:var(--muted);margin-top:9px}
 @media(max-width:1000px){.prologue-grid{grid-template-columns:1fr 1fr}.dhika-ref{grid-column:1/-1;border-top:1px solid var(--line)}.prologue-col:nth-child(2){border-right:0}.story-visual-body{grid-template-columns:1fr}.story-local{border-right:0;border-bottom:1px solid var(--line)}}
 @media(max-width:680px){.prologue-grid{grid-template-columns:1fr}.prologue-col{border-right:0;border-bottom:1px solid var(--line)}.dhika-ref{grid-column:auto}.story-visual-head{display:block}.story-visual-head .range{margin-top:8px}}
 `;
@@ -58,6 +58,11 @@
       function patchRuntime(){
         const dhikaImage='assets/images/e01/characters/dhika-reference.webp';
         const scene1718='assets/images/e01/scenes/e01-l017-018.webp';
+        const scene1921='assets/images/e01/scenes/e01-l019-021.webp';
+        const scene2225='assets/images/e01/scenes/e01-l022-025.webp';
+        const scene2630='assets/images/e01/scenes/e01-l026-030.webp';
+        const scene3135='assets/images/e01/scenes/e01-l031-035.webp';
+        const scene3639='assets/images/e01/scenes/e01-l036-039.webp';
 
         const reviewFixes={
           'E01-L019-021':{
@@ -119,9 +124,8 @@
         function storyImages(parent){
           title(parent,'Story + Images');
           const intro=document.createElement('div');intro.className='story-images-intro';
-          intro.textContent='This is the visual reading layer. It keeps narrative images away from the 20% decoding column. Source text remains unchanged in the 40/40/20 view.';
+          intro.textContent='Visual reading layer: local-language story and scene images. Source text and analytical 40/40/20 remain separate.';
           parent.append(intro);
-          const fixed=document.createElement('div');fixed.className='story-fixed';fixed.textContent='FIXED CANDIDATE · Source untouched · translation/tag audit applied through Line 39. Story visuals remain separate from the 20% decoding column.';parent.append(fixed);
 
           const prologueBlocks=data.decodeBlocks.filter(e=>e.sourceRange.end<=16);
           const prologue=document.createElement('section');prologue.className='story-visual-card';
@@ -142,19 +146,19 @@
             const h=document.createElement('div');h.className='story-visual-head';h.append(el('h3','',`Lines ${e.sourceRange.start}–${e.sourceRange.end}`));
             h.append(btn(`Open source · L${e.sourceRange.start}–${e.sourceRange.end}`,()=>goRange(e.sourceRange.start,e.sourceRange.end),'range'));
             const body=document.createElement('div');body.className='story-visual-body';
-            const local=document.createElement('div');local.className='story-local';local.append(el('div','prologue-label','Local-language story'),el('div','translate',e.translation),el('div','story-source-ref',`Source reference: ${e.id} · ${e.reviewStatus==='FIXED_CANDIDATE'?'FIXED CANDIDATE':'review candidate'}`));
+            const local=document.createElement('div');local.className='story-local';local.append(el('div','prologue-label','Local-language story'),el('div','translate',e.translation),el('div','story-source-ref',`Source reference: ${e.id}`));
             const media=document.createElement('div');media.className='story-media';
             if(imageSrc){const img=document.createElement('img');img.src=imageSrc;img.alt=caption;media.append(img,el('div','story-caption',caption));}
-            else{const pending=document.createElement('div');pending.className='story-brief';pending.innerHTML='<strong>Visual brief ready</strong>'+visualBrief+'<small>Single-scene asset only; no collage/UI image should be inserted here.</small>';media.append(pending);}
+            else{const pending=document.createElement('div');pending.className='story-brief';pending.innerHTML='<strong>Image not generated</strong>'+visualBrief;media.append(pending);}
             body.append(local,media);card.append(h,body);parent.append(card);
           }
 
-          addChunk('E01-L017-018',scene1718,'Lines 17–18 · Dhika arrives at the next-door doorway carrying sleeping Pappu; Uncle is present and Aunty is not visible.','');
-          addChunk('E01-L019-021','','','Early-60s Aunty and Uncle in their next-door home with Dhika in a familiar neighbour setting. Public family-like comfort is visible; Uncle’s private attention is only a subtle glance and nobody reacts to it.');
-          addChunk('E01-L022-025','','','Dhika in the same pink cotton saree hands sleeping Pappu to Uncle at the next-door doorway/interior. Uncle accepts the child; Aunty is absent.');
-          addChunk('E01-L026-030','','','Uncle remains near the doorway with Pappu while Dhika, handbag on shoulder, hurries down the apartment stairs and calls back to inform Aunty.');
-          addChunk('E01-L031-035','','','08:35 college parking. Dhika stands beside her bike in the same pink cotton saree. Adult student Bantu is behind her giving a familiar compliment; she blushes and glances around to check whether anyone else is nearby.');
-          addChunk('E01-L036-039','','','Same college parking. Bantu stands near Dhika while she turns and waves to adult student Bobby farther away, who is struggling to push his bike.');
+          addChunk('E01-L017-018',scene1718,'Lines 17–18 · Dhika arrives carrying sleeping Pappu; Uncle is present and Aunty is not visible.','');
+          addChunk('E01-L019-021',scene1921,'Lines 19–21 · Context visual for the family-like next-door relationship; Uncle’s private attention remains hidden.','');
+          addChunk('E01-L022-025',scene2225,'Lines 22–25 · Dhika hands sleeping Pappu to Uncle; Aunty is absent.','');
+          addChunk('E01-L026-030',scene2630,'Lines 26–30 · Dhika leaves in a hurry after giving childcare instructions; Uncle remains with Pappu.','');
+          addChunk('E01-L031-035',scene3135,'Lines 31–35 · 08:35 college parking; Bantu compliments Dhika and she glances around.','');
+          addChunk('E01-L036-039',scene3639,'Lines 36–39 · Dhika stands with Bantu and waves to Bobby farther away near his bike.','');
         }
 
         render=function(){
