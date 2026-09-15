@@ -1,7 +1,145 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DHIKA Story Engine — E01</title><style>body{margin:0;background:#0f172a;color:#e5e7eb;font-family:system-ui,-apple-system,Segoe UI,sans-serif;display:grid;place-items:center;min-height:100vh}.box{max-width:680px;padding:28px;border:1px solid #334155;border-radius:16px;background:#111827;box-shadow:0 20px 60px #0005}.muted{color:#94a3b8}.err{color:#fca5a5;white-space:pre-wrap}</style></head>
-<body><div class="box" id="status"><strong>Loading Episode 01 review UI…</strong><div class="muted">Static GitHub Pages build</div></div>
-<script>
-(async()=>{try{const count=10,parts=[];for(let i=1;i<=count;i++){const n=String(i).padStart(3,'0');const r=await fetch(`payload/part-${n}.txt`,{cache:'no-store'});if(!r.ok)throw new Error(`Missing payload part ${n} (${r.status})`);parts.push((await r.text()).trim());}const b64=parts.join('');const bin=atob(b64),bytes=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);if(typeof DecompressionStream==='undefined')throw new Error('This browser does not support gzip decompression.');const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));let html=await new Response(stream).text();html=html.replace('</style>',"\n.prologue-wrap{margin:18px 0 26px;border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}.prologue-head{padding:16px 18px;background:var(--tint);border-bottom:1px solid var(--line)}.prologue-head h3{margin:0 0 4px;font:600 20px Georgia,serif;color:var(--green)}.prologue-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 290px}.prologue-col,.dhika-ref{padding:16px 18px}.prologue-col{border-right:1px solid var(--line)}.prologue-label{font-size:11px;text-transform:uppercase;letter-spacing:1.1px;color:var(--muted);font-weight:700;margin-bottom:10px}.prologue-note{font-size:12px;color:var(--muted);margin:0}.dhika-ref img{width:100%;display:block;border-radius:10px;border:1px solid var(--line);margin-bottom:12px}.dhika-ref h4{font:600 19px Georgia,serif;margin:0 0 8px}.dhika-ref dl{display:grid;grid-template-columns:110px 1fr;gap:5px 8px;margin:0}.dhika-ref dt{color:var(--muted);font-size:12px}.dhika-ref dd{margin:0;font-size:13px}.visual-inference{margin-top:12px;padding:10px;border-left:3px solid var(--gold);background:#f4edde;font-size:12px}.story-start{margin:12px 0 8px;font-weight:700;color:var(--green)}@media(max-width:1000px){.prologue-grid{grid-template-columns:1fr 1fr}.dhika-ref{grid-column:1/-1;border-top:1px solid var(--line)}.prologue-col:nth-child(2){border-right:0}}@media(max-width:680px){.prologue-grid{grid-template-columns:1fr}.prologue-col{border-right:0;border-bottom:1px solid var(--line)}.dhika-ref{grid-column:auto}}\n"+'</style>');html=html.replace('</body>','<script>'+"\n(()=>{\n  const baseReading=reading;\n  reading=function(parent){\n    baseReading(parent);\n    const rows=['E01-L001-012','E01-L013-013','E01-L014-016'];\n    for(const id of rows){const n=document.getElementById('block-'+id);if(n)n.style.display='none';}\n    const scroll=parent.querySelector('.read-scroll');\n    if(!scroll||parent.querySelector('#prologue-general'))return;\n    const prologueBlocks=data.decodeBlocks.filter(e=>e.sourceRange.end<=16);\n    const wrap=document.createElement('section');wrap.className='prologue-wrap';wrap.id='prologue-general';\n    const head=document.createElement('div');head.className='prologue-head';head.innerHTML='<h3>Prologue / General Context · Lines 1–16</h3><p class=\"prologue-note\">General episode wrapper, title/profile, introductory context, source notes and section heading. Kept outside the 40/40/20 story-review categorization. Episode review starts at Line 17.</p>';\n    const grid=document.createElement('div');grid.className='prologue-grid';\n    const original=document.createElement('div');original.className='prologue-col';original.innerHTML='<div class=\"prologue-label\">Original / read only</div>';\n    for(let i=1;i<=16;i++){const line=document.createElement('div');line.className='source-line';const ln=document.createElement('span');ln.className='ln';ln.textContent=String(i);const lit=document.createElement('span');lit.className='literal';lit.textContent=data.source.episodeLines[i-1]||'\\u200b';line.append(ln,lit);original.append(line);}\n    const local=document.createElement('div');local.className='prologue-col';local.innerHTML='<div class=\"prologue-label\">Complete local transformation</div>';\n    for(const e of prologueBlocks){const d=document.createElement('div');d.className='translate';d.textContent=e.translation;local.append(d);}\n    const ref=document.createElement('aside');ref.className='dhika-ref';ref.innerHTML=`<div class=\"prologue-label\">Character visual reference</div><img alt=\"Fictional Dhika visual reference\" src=\"data:image/webp;base64,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\"><h4>This is Dhika</h4><dl><dt>Source age</dt><dd>29</dd><dt>Source height</dt><dd>5'6''</dd><dt>Source weight</dt><dd>56 kg</dd><dt>Source role</dt><dd>Physics teacher · married · mother</dd><dt>Source appearance</dt><dd>Oval face, expressive eyes, small sharp nose, full lips; conservative styling</dd><dt>Figure reference</dt><dd>36–28–38 in</dd><dt>Body type</dt><dd>Slim, softly curvy</dd></dl><div class=\"visual-inference\"><strong>Visual-reference only:</strong> 36–28–38 and body-type wording are inferred for image consistency; exact body measurements are not stated in the source.</div>`;\n    grid.append(original,local,ref);wrap.append(head,grid);\n    const note=parent.querySelector('.sub');if(note)note.textContent='Lines 1–16 are shown as Prologue / General Context. The 40/40/20 episode-review grid begins at Line 17.';\n    parent.insertBefore(wrap,scroll);\n    const start=document.createElement('div');start.className='story-start';start.textContent='Episode 01 story review starts from Line 17';parent.insertBefore(start,scroll);\n  };\n  if(state&&state.tab==='40/40/20 Reading')show('40/40/20 Reading');\n})();\n"+'<\/script></body>');document.open();document.write(html);document.close();}catch(e){document.getElementById('status').innerHTML='<strong>Unable to load E01 UI</strong><div class="err"></div>';document.querySelector('.err').textContent=String(e&&e.stack||e);}})();
-</script></body></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DHIKA Story Engine — E01</title>
+  <style>
+    body{margin:0;background:#0f172a;color:#e5e7eb;font-family:system-ui,-apple-system,Segoe UI,sans-serif;display:grid;place-items:center;min-height:100vh}
+    .box{max-width:680px;padding:28px;border:1px solid #334155;border-radius:16px;background:#111827;box-shadow:0 20px 60px #0005}
+    .muted{color:#94a3b8}.err{color:#fca5a5;white-space:pre-wrap}
+  </style>
+</head>
+<body>
+  <div class="box" id="status"><strong>Loading Episode 01 review UI…</strong><div class="muted">Static GitHub Pages build</div></div>
+  <script>
+  (async()=>{
+    try{
+      const count=10,parts=[];
+      for(let i=1;i<=count;i++){
+        const n=String(i).padStart(3,'0');
+        const r=await fetch(`payload/part-${n}.txt`,{cache:'no-store'});
+        if(!r.ok) throw new Error(`Missing payload part ${n} (${r.status})`);
+        parts.push((await r.text()).trim());
+      }
+      const b64=parts.join('');
+      const bin=atob(b64),bytes=new Uint8Array(bin.length);
+      for(let i=0;i<bin.length;i++) bytes[i]=bin.charCodeAt(i);
+      if(typeof DecompressionStream==='undefined') throw new Error('This browser does not support gzip decompression.');
+      const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+      let html=await new Response(stream).text();
+
+      const css=`
+.prologue-wrap{margin:18px 0 26px;border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}
+.prologue-head{padding:16px 18px;background:var(--tint);border-bottom:1px solid var(--line)}
+.prologue-head h3{margin:0 0 4px;font:600 20px Georgia,serif;color:var(--green)}
+.prologue-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 290px}
+.prologue-col,.dhika-ref{padding:16px 18px}.prologue-col{border-right:1px solid var(--line)}
+.prologue-label{font-size:11px;text-transform:uppercase;letter-spacing:1.1px;color:var(--muted);font-weight:700;margin-bottom:10px}
+.prologue-note{font-size:12px;color:var(--muted);margin:0}.dhika-ref img{width:100%;display:block;border-radius:10px;border:1px solid var(--line);margin-bottom:12px}
+.dhika-ref h4{font:600 19px Georgia,serif;margin:0 0 8px}.dhika-ref dl{display:grid;grid-template-columns:110px 1fr;gap:5px 8px;margin:0}
+.dhika-ref dt{color:var(--muted);font-size:12px}.dhika-ref dd{margin:0;font-size:13px}.visual-inference{margin-top:12px;padding:10px;border-left:3px solid var(--gold);background:#f4edde;font-size:12px}
+.story-start{margin:12px 0 8px;font-weight:700;color:var(--green)}
+.story-images-intro{margin-bottom:18px;padding:13px 15px;border-left:3px solid var(--gold);background:#f4edde;border-radius:0 8px 8px 0;font-size:12px}
+.story-visual-card{border:1px solid var(--line);background:var(--card);border-radius:12px;overflow:hidden;margin:0 0 20px}
+.story-visual-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:15px 18px;background:var(--tint);border-bottom:1px solid var(--line)}
+.story-visual-head h3{margin:0}.story-visual-body{display:grid;grid-template-columns:minmax(0,.95fr) minmax(340px,1.35fr);gap:0}
+.story-local{padding:18px;border-right:1px solid var(--line)}.story-local .translate{font-size:15px;line-height:1.9}
+.story-local .translate+.translate{margin-top:12px}.story-media{padding:18px;background:#fbfaf6}
+.story-media img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+.story-caption{font-size:12px;color:var(--muted);margin:8px 2px 0}.story-pending{display:grid;place-items:center;min-height:170px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);text-align:center;padding:22px;background:#faf9f4}
+.story-source-ref{font-size:11px;color:var(--muted);margin-top:10px}.story-visual-head .range{white-space:nowrap}
+@media(max-width:1000px){.prologue-grid{grid-template-columns:1fr 1fr}.dhika-ref{grid-column:1/-1;border-top:1px solid var(--line)}.prologue-col:nth-child(2){border-right:0}.story-visual-body{grid-template-columns:1fr}.story-local{border-right:0;border-bottom:1px solid var(--line)}}
+@media(max-width:680px){.prologue-grid{grid-template-columns:1fr}.prologue-col{border-right:0;border-bottom:1px solid var(--line)}.dhika-ref{grid-column:auto}.story-visual-head{display:block}.story-visual-head .range{margin-top:8px}}
+`;
+      html=html.replace('</style>',css+'</style>');
+
+      function patchRuntime(){
+        const dhikaImage='assets/images/e01/characters/dhika-reference.webp';
+        const scene1718='assets/images/e01/scenes/e01-l017-018.webp';
+
+        if(!tabs.includes('Story + Images')) tabs.splice(2,0,'Story + Images');
+        descriptions['Story + Images']='Local-language story flow with approved visual references. Analytical 40/40/20 remains separate and uncluttered.';
+
+        const baseReading=reading;
+        reading=function(parent){
+          baseReading(parent);
+          const rows=['E01-L001-012','E01-L013-013','E01-L014-016'];
+          for(const id of rows){const n=document.getElementById('block-'+id);if(n)n.style.display='none';}
+          const scroll=parent.querySelector('.read-scroll');
+          if(!scroll||parent.querySelector('#prologue-general'))return;
+          const prologueBlocks=data.decodeBlocks.filter(e=>e.sourceRange.end<=16);
+          const wrap=document.createElement('section');wrap.className='prologue-wrap';wrap.id='prologue-general';
+          const head=document.createElement('div');head.className='prologue-head';
+          head.innerHTML='<h3>Prologue / General Context · Lines 1–16</h3><p class="prologue-note">General episode wrapper, title/profile, introductory context, source notes and section heading. Kept outside the 40/40/20 story-review categorization. Episode review starts at Line 17.</p>';
+          const grid=document.createElement('div');grid.className='prologue-grid';
+          const original=document.createElement('div');original.className='prologue-col';original.innerHTML='<div class="prologue-label">Original / read only</div>';
+          for(let i=1;i<=16;i++){const line=document.createElement('div');line.className='source-line';const ln=document.createElement('span');ln.className='ln';ln.textContent=String(i);const lit=document.createElement('span');lit.className='literal';lit.textContent=data.source.episodeLines[i-1]||'\u200b';line.append(ln,lit);original.append(line);}
+          const local=document.createElement('div');local.className='prologue-col';local.innerHTML='<div class="prologue-label">Complete local transformation</div>';
+          for(const e of prologueBlocks){const d=document.createElement('div');d.className='translate';d.textContent=e.translation;local.append(d);}
+          const ref=document.createElement('aside');ref.className='dhika-ref';
+          ref.innerHTML='<div class="prologue-label">Character visual reference</div><img alt="Fictional Dhika visual reference" src="'+dhikaImage+'"><h4>Dhika</h4><dl><dt>Source age</dt><dd>29</dd><dt>Source height</dt><dd>5\'6\"</dd><dt>Source weight</dt><dd>56 kg</dd><dt>Visual reference</dt><dd>36–28–38 in · slim, softly curvy</dd></dl><div class="visual-inference"><strong>Visual-reference only:</strong> body measurements are inferred for image consistency; they are not stated by the source.</div>';
+          grid.append(original,local,ref);wrap.append(head,grid);scroll.before(wrap);
+          const start=document.createElement('div');start.className='story-start';start.textContent='Story review begins below at Line 17.';scroll.before(start);
+        };
+
+        function storyImages(parent){
+          title(parent,'Story + Images');
+          const intro=document.createElement('div');intro.className='story-images-intro';
+          intro.textContent='This is the visual reading layer. It keeps narrative images away from the 20% decoding column. Source text remains unchanged in the 40/40/20 view.';
+          parent.append(intro);
+
+          const prologueBlocks=data.decodeBlocks.filter(e=>e.sourceRange.end<=16);
+          const prologue=document.createElement('section');prologue.className='story-visual-card';
+          const ph=document.createElement('div');ph.className='story-visual-head';ph.append(el('h3','','Prologue / General Context'));
+          ph.append(btn('Open source · L1–16',()=>goRange(1,16),'range'));
+          const pb=document.createElement('div');pb.className='story-visual-body';
+          const pl=document.createElement('div');pl.className='story-local';pl.append(el('div','prologue-label','Local-language reading'));
+          for(const e of prologueBlocks){pl.append(el('div','translate',e.translation));}
+          pl.append(el('div','story-source-ref','Source reference: Episode 01 · Lines 1–16'));
+          const pm=document.createElement('div');pm.className='story-media';
+          const pimg=document.createElement('img');pimg.src=dhikaImage;pimg.alt='Dhika character reference for the Episode 01 prologue';
+          pm.append(pimg,el('div','story-caption','Prologue reference · Dhika visual identity'));
+          pb.append(pl,pm);prologue.append(ph,pb);parent.append(prologue);
+
+          function addChunk(id,imageSrc,caption){
+            const e=data.decodeBlocks.find(x=>x.id===id);if(!e)return;
+            const card=document.createElement('section');card.className='story-visual-card';
+            const h=document.createElement('div');h.className='story-visual-head';h.append(el('h3','',`Lines ${e.sourceRange.start}–${e.sourceRange.end}`));
+            h.append(btn(`Open source · L${e.sourceRange.start}–${e.sourceRange.end}`,()=>goRange(e.sourceRange.start,e.sourceRange.end),'range'));
+            const body=document.createElement('div');body.className='story-visual-body';
+            const local=document.createElement('div');local.className='story-local';local.append(el('div','prologue-label','Local-language story'),el('div','translate',e.translation),el('div','story-source-ref',`Source reference: ${e.id}`));
+            const media=document.createElement('div');media.className='story-media';
+            if(imageSrc){const img=document.createElement('img');img.src=imageSrc;img.alt=caption;media.append(img,el('div','story-caption',caption));}
+            else{const pending=document.createElement('div');pending.className='story-pending';pending.textContent='Visual proposal pending review. No image has been inserted for this chunk yet.';media.append(pending);}
+            body.append(local,media);card.append(h,body);parent.append(card);
+          }
+
+          addChunk('E01-L017-018',scene1718,'Lines 17–18 · Dhika arrives at the next-door doorway carrying sleeping Pappu; Uncle is present and Aunty is not visible.');
+          addChunk('E01-L019-021','', '');
+        }
+
+        render=function(){
+          const nav=$('nav');nav.replaceChildren();
+          for(const tab of tabs){let b=btn(tab,()=>show(tab),state.tab===tab?'active':'');b.setAttribute('aria-current',state.tab===tab?'page':'false');nav.append(b);}
+          const parent=$('content');parent.replaceChildren();
+          if(state.tab==='Overview')overview(parent);
+          else if(state.tab==='40/40/20 Reading')reading(parent);
+          else if(state.tab==='Story + Images')storyImages(parent);
+          else if(state.tab==='Reader Questions')questions(parent);
+          else moduleView(parent);
+        };
+        render();
+      }
+
+      const patch='('+patchRuntime.toString()+')();';
+      html=html.replace('</body>','<script>'+patch+'<\/script></body>');
+      document.open();document.write(html);document.close();
+    }catch(e){
+      document.getElementById('status').innerHTML='<strong>Unable to load E01 UI</strong><div class="err"></div>';
+      document.querySelector('.err').textContent=String(e&&e.stack||e);
+    }
+  })();
+  </script>
+</body>
+</html>
