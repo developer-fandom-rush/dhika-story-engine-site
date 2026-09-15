@@ -49,6 +49,7 @@
 .story-media img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
 .story-caption{font-size:12px;color:var(--muted);margin:8px 2px 0}.story-pending{display:grid;place-items:center;min-height:170px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);text-align:center;padding:22px;background:#faf9f4}
 .story-source-ref{font-size:11px;color:var(--muted);margin-top:10px}.story-visual-head .range{white-space:nowrap}
+.story-fixed{margin:-6px 0 18px;padding:10px 13px;border:1px solid #b9d9c7;background:#edf8f1;color:#244d3e;border-radius:9px;font-size:12px;font-weight:650}.story-brief{min-height:170px;border:1px dashed var(--gold);border-radius:10px;padding:18px;background:#fffaf0;color:var(--ink)}.story-brief strong{display:block;color:var(--gold);margin-bottom:7px}.story-brief small{display:block;color:var(--muted);margin-top:9px}
 @media(max-width:1000px){.prologue-grid{grid-template-columns:1fr 1fr}.dhika-ref{grid-column:1/-1;border-top:1px solid var(--line)}.prologue-col:nth-child(2){border-right:0}.story-visual-body{grid-template-columns:1fr}.story-local{border-right:0;border-bottom:1px solid var(--line)}}
 @media(max-width:680px){.prologue-grid{grid-template-columns:1fr}.prologue-col{border-right:0;border-bottom:1px solid var(--line)}.dhika-ref{grid-column:auto}.story-visual-head{display:block}.story-visual-head .range{margin-top:8px}}
 `;
@@ -57,6 +58,38 @@
       function patchRuntime(){
         const dhikaImage='assets/images/e01/characters/dhika-reference.webp';
         const scene1718='assets/images/e01/scenes/e01-l017-018.webp';
+
+        const reviewFixes={
+          'E01-L019-021':{
+            translation:`Uncle retired military veteran the. Halaanki Dhika ko pata nahi tha ki military mein unki position kya thi, kyunki ghar mein toh Aunty hi unhe sergeant ki tarah idhar-udhar drill karwati rehti thi.\nAunty aur Uncle dono apne early 60s mein the. Bagal mein rehne wala yeh joda Dhika aur John ke liye lagbhag doosre guardians jaisa tha. Unki apni koi aulaad nahi thi; Aunty Dhika aur John ko apne bachchon ki tarah maanti thi. Uncle ke liye Dhika us family-jaisi equation se thodi zyada thi. Unki shaadishuda zindagi feeki pad chuki thi, aur bagal mein Dhika jaisi khoobsurat ladki rehti thi… use taadne ka koi mauka woh nahi chhodte the.\nLekin unhone Dhika ya John ko iska pata nahi chalne diya tha—aur khaaskar apni patni ko toh bilkul nahi.`,
+            samajh:'Publicly family-like neighbour trust hai; privately Uncle ki hidden attraction hai. Dhika unki exact military rank nahi jaanti, aur Dhika, John aur Aunty ko Uncle ke hidden interest ka pata nahi hai.',
+            tags:['Characters','Relationships','Knowledge','Style']
+          },
+          'E01-L022-025':{
+            samajh:'Aunty neeche gayi hain; Uncle Pappu ko lene ki zimmedari lete hain aur Dhika unhe child handoff karti hai.',
+            tags:['Relationships','Sequences','Knowledge']
+          },
+          'E01-L026-030':{
+            translation:`Dhika: Maine Pappu ka doodh fridge mein rakh diya hai.\nDhika: Aur jab woh uth jaaye toh… *\nUncle: Samajh gaya, Dhika. Chinta mat karo.\nDhika: Phir se thanks, Uncle… mujhe der ho rahi hai… Aunty ko bata dijiyega…\nUski baat poori hoti, usse pehle hi Dhika seedhiyon se neeche gayab ho chuki thi.`,
+            samajh:'Dhika milk aur childcare context Uncle ko dekar, Aunty ko inform karne ko kehti hai aur late hone ki wajah se jaldi nikal jaati hai.',
+            tags:['Sequences','Hooks','Knowledge','Pace']
+          },
+          'E01-L031-035':{
+            samajh:'08:35 college parking mein Bantu ki familiar compliment par Dhika blush karti hai, speaker ko mudne se pehle pehchan leti hai aur chahti hai ki koi aur aas-paas na ho.',
+            tags:['Characters','Relationships','Style','Visibility','Knowledge']
+          },
+          'E01-L036-039':{
+            samajh:'Bantu aur Bobby ko Dhika ke saath specific social chhoot hai; Dhika Bobby ko thodi door bike dhakka dete dekhkar wave karti hai.',
+            tags:['Characters','Relationships','Consent','Visibility']
+          }
+        };
+        for(const [id,fix] of Object.entries(reviewFixes)){
+          const e=data.decodeBlocks.find(x=>x.id===id); if(!e) continue;
+          if(fix.translation)e.translation=fix.translation;
+          if(fix.samajh)e.samajh=fix.samajh;
+          if(fix.tags)e.mapping.moduleTags=fix.tags;
+          e.reviewStatus='FIXED_CANDIDATE';
+        }
 
         if(!tabs.includes('Story + Images')) tabs.splice(2,0,'Story + Images');
         descriptions['Story + Images']='Local-language story flow with approved visual references. Analytical 40/40/20 remains separate and uncluttered.';
@@ -88,6 +121,7 @@
           const intro=document.createElement('div');intro.className='story-images-intro';
           intro.textContent='This is the visual reading layer. It keeps narrative images away from the 20% decoding column. Source text remains unchanged in the 40/40/20 view.';
           parent.append(intro);
+          const fixed=document.createElement('div');fixed.className='story-fixed';fixed.textContent='FIXED CANDIDATE · Source untouched · translation/tag audit applied through Line 39. Story visuals remain separate from the 20% decoding column.';parent.append(fixed);
 
           const prologueBlocks=data.decodeBlocks.filter(e=>e.sourceRange.end<=16);
           const prologue=document.createElement('section');prologue.className='story-visual-card';
@@ -102,21 +136,25 @@
           pm.append(pimg,el('div','story-caption','Prologue reference · Dhika visual identity'));
           pb.append(pl,pm);prologue.append(ph,pb);parent.append(prologue);
 
-          function addChunk(id,imageSrc,caption){
+          function addChunk(id,imageSrc,caption,visualBrief){
             const e=data.decodeBlocks.find(x=>x.id===id);if(!e)return;
             const card=document.createElement('section');card.className='story-visual-card';
             const h=document.createElement('div');h.className='story-visual-head';h.append(el('h3','',`Lines ${e.sourceRange.start}–${e.sourceRange.end}`));
             h.append(btn(`Open source · L${e.sourceRange.start}–${e.sourceRange.end}`,()=>goRange(e.sourceRange.start,e.sourceRange.end),'range'));
             const body=document.createElement('div');body.className='story-visual-body';
-            const local=document.createElement('div');local.className='story-local';local.append(el('div','prologue-label','Local-language story'),el('div','translate',e.translation),el('div','story-source-ref',`Source reference: ${e.id}`));
+            const local=document.createElement('div');local.className='story-local';local.append(el('div','prologue-label','Local-language story'),el('div','translate',e.translation),el('div','story-source-ref',`Source reference: ${e.id} · ${e.reviewStatus==='FIXED_CANDIDATE'?'FIXED CANDIDATE':'review candidate'}`));
             const media=document.createElement('div');media.className='story-media';
             if(imageSrc){const img=document.createElement('img');img.src=imageSrc;img.alt=caption;media.append(img,el('div','story-caption',caption));}
-            else{const pending=document.createElement('div');pending.className='story-pending';pending.textContent='Visual proposal pending review. No image has been inserted for this chunk yet.';media.append(pending);}
+            else{const pending=document.createElement('div');pending.className='story-brief';pending.innerHTML='<strong>Visual brief ready</strong>'+visualBrief+'<small>Single-scene asset only; no collage/UI image should be inserted here.</small>';media.append(pending);}
             body.append(local,media);card.append(h,body);parent.append(card);
           }
 
-          addChunk('E01-L017-018',scene1718,'Lines 17–18 · Dhika arrives at the next-door doorway carrying sleeping Pappu; Uncle is present and Aunty is not visible.');
-          addChunk('E01-L019-021','', '');
+          addChunk('E01-L017-018',scene1718,'Lines 17–18 · Dhika arrives at the next-door doorway carrying sleeping Pappu; Uncle is present and Aunty is not visible.','');
+          addChunk('E01-L019-021','','','Early-60s Aunty and Uncle in their next-door home with Dhika in a familiar neighbour setting. Public family-like comfort is visible; Uncle’s private attention is only a subtle glance and nobody reacts to it.');
+          addChunk('E01-L022-025','','','Dhika in the same pink cotton saree hands sleeping Pappu to Uncle at the next-door doorway/interior. Uncle accepts the child; Aunty is absent.');
+          addChunk('E01-L026-030','','','Uncle remains near the doorway with Pappu while Dhika, handbag on shoulder, hurries down the apartment stairs and calls back to inform Aunty.');
+          addChunk('E01-L031-035','','','08:35 college parking. Dhika stands beside her bike in the same pink cotton saree. Adult student Bantu is behind her giving a familiar compliment; she blushes and glances around to check whether anyone else is nearby.');
+          addChunk('E01-L036-039','','','Same college parking. Bantu stands near Dhika while she turns and waves to adult student Bobby farther away, who is struggling to push his bike.');
         }
 
         render=function(){
