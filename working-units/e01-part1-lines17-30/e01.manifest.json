@@ -1,0 +1,29 @@
+{
+  "episode": "E01",
+  "router": "index.html",
+  "components": {
+    "prologue": {
+      "path": "prologue.html",
+      "range": "L1-L16",
+      "status": "FINAL_FROZEN",
+      "frozen_blob_sha": "6b8edf8b31ddccf2a5ad2bc4a9dcf7d596be4bf8"
+    },
+    "part1": {
+      "path": "part1.html",
+      "range": "L17-L30",
+      "status": "FINAL_FROZEN",
+      "frozen_blob_sha": "a1ad250e63776ebe5622b7470492be6021237bae"
+    },
+    "part2": {
+      "path": "part2.html",
+      "range": "L31-L64",
+      "status": "WORKING_EDITABLE"
+    }
+  },
+  "write_policy": {
+    "default_edit_target": "part2.html",
+    "frozen_components_require_explicit_reopen": true,
+    "router_contains_story_content": false,
+    "future_parts_get_separate_files": true
+  }
+}
