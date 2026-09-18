@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": "1.0",
+  "branchId": "original-dhika",
+  "episode": "E01",
+  "phase": "PHASE_2_PART_1_ONLY",
+  "asOfPart": "P01",
+  "sourceAuthority": {
+    "title": "98 — RAW SOURCE — EPISODE 01",
+    "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
+    "rule": "RAW source remains factual authority. Unknown stays unknown. Later-Part facts are excluded from this as-of state."
+  },
+  "sourceScope": {
+    "baseline": "L1-L16",
+    "currentPart": "L17-L30",
+    "nextUnprocessedRange": "L31-L64"
+  },
+  "cumulativeDefinition": "Prologue baseline L1-L16 plus verified Part 1 evidence L17-L30 only.",
+  "baselineState": {
+    "sourceRange": "L1-L16",
+    "sourceSupportedFacts": [
+      "Dhika John is 29 years old.",
+      "Dhika is a Physics teacher for senior college students.",
+      "Dhika is described as kind-hearted and as helping students in need.",
+      "John is Dhika's husband.",
+      "Dhika has a 2-year-old son.",
+      "Dhika lives with her family in an apartment on the outskirts of a city."
+    ],
+    "negativeCanon": [
+      "The Prologue does not establish Uncle, Aunty, Bantu, Bobby, Sharmi, Chotu or their later encounter history.",
+      "Marriage is a relationship baseline and is not blanket permission for any later act."
+    ]
+  },
+  "eventTypeDefinitions": [
+    "LIVE_ENCOUNTER",
+    "NARRATED_HISTORY",
+    "OFFSCREEN_EVENT",
+    "REFERENCE_ONLY",
+    "INTERNAL_THOUGHT",
+    "OBSERVATION",
+    "DISCLOSURE",
+    "RELATIONSHIP_BASELINE"
+  ],
+  "events": [
+    {
+      "eventId": "E01-P01-E001",
+      "episode": "E01",
+      "part": "P01",
+      "sourceRange": "L17-L18",
+      "chronologyOrder": 1,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "morning",
+      "location": "next-door doorway / neighbour entrance",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-PAPPU",
+        "CHAR-UNCLE"
+      ],
+      "referencedCharacters": [
+        "CHAR-AUNTY"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-UNCLE"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika arrives in front of next-door Uncle while holding sleeping Pappu in one hand and carrying a slipping handbag on the other shoulder.",
+        "Dhika asks Uncle where Aunty is."
+      ],
+      "derivedInterpretations": [],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Uncle",
+          "actionType": "spoken_question",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Uncle is present and hears the question."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Pappu",
+          "actionType": "carrying_sleeping_child",
+          "intentionality": "intentional caregiving",
+          "physicality": "caregiving hold",
+          "visibility": "Uncle can see Dhika carrying Pappu."
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika is looking for Aunty while arriving with sleeping Pappu."
+      ],
+      "emotionalStateBefore": [
+        "No explicit emotional state about Uncle is stated."
+      ],
+      "emotionalStateAfter": [
+        "No explicit emotional change is stated."
+      ],
+      "visibilityAndObservers": [
+        "Dhika, Pappu and Uncle are in the live scene. Aunty is referenced but not present in these lines."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows Aunty/Uncle as next-door neighbours; Part 1 has not yet revealed the hidden Uncle state to the reader before L19-L21."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns only that Uncle is the person currently at the doorway; Aunty's location is not yet answered until L24."
+      ],
+      "knowledgeAfter": [
+        "No hidden-attraction knowledge is transferred in L17-L18."
+      ],
+      "boundaryPermissionControl": [
+        "No adult intimate permission is created. Dhika's current action is ordinary arrival while caring for Pappu."
+      ],
+      "relationshipDelta": [
+        "Live neighbour interaction begins; no relationship change beyond ordinary familiarity is stated in L17-L18."
+      ],
+      "secrecyState": [
+        "No new secret is disclosed in this event."
+      ],
+      "escalationOrNormalization": [
+        "No escalation is established."
+      ],
+      "hooksOpened": [
+        "Where Aunty is becomes an immediate scene question answered at L24."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No current-time sexual or romantic physical interaction occurs in L17-L18."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P01-E002",
+      "episode": "E01",
+      "part": "P01",
+      "sourceRange": "L19-L21",
+      "chronologyOrder": 2,
+      "eventType": "NARRATED_HISTORY",
+      "sceneTime": "narrated pre-existing history inserted into the live morning scene",
+      "location": "relationship/background narration",
+      "presentCharacters": [],
+      "referencedCharacters": [
+        "CHAR-UNCLE",
+        "CHAR-AUNTY",
+        "CHAR-DHIKA",
+        "CHAR-JOHN"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-UNCLE",
+        "REL-JOHN-AUNTY-UNCLE",
+        "REL-AUNTY-UNCLE"
+      ],
+      "sourceSupportedFacts": [
+        "Uncle is a retired military veteran.",
+        "Dhika does not know what position Uncle held in the military.",
+        "Aunty and Uncle are both in their early 60s and live next door.",
+        "Aunty and Uncle are described as almost second guardians for Dhika and John.",
+        "Aunty and Uncle have no heir; Aunty treats Dhika and John like her own children.",
+        "The narrator states that Dhika is 'a little more than that' to Uncle, describes his marital life as stale, and says he never missed a chance to ogle at Dhika.",
+        "Uncle has not let Dhika or John know about this hidden state and especially has not let Aunty know."
+      ],
+      "derivedInterpretations": [
+        "Public surface state is near-family/guardian trust, while the reader is given a hidden Uncle-side attraction/ogling layer.",
+        "The habitual-ogling wording describes a pre-existing pattern; it does not prove that Uncle performs a specific stare during the L17-L30 handoff."
+      ],
+      "actions": [
+        {
+          "actor": "Narrator",
+          "target": "Reader",
+          "actionType": "reveals_background",
+          "intentionality": "narrative disclosure",
+          "physicality": "none",
+          "visibility": "Reader receives information that Dhika, John and Aunty are stated not to know."
+        },
+        {
+          "actor": "Uncle",
+          "target": "Dhika",
+          "actionType": "habitual_ogling_described_by_narrator",
+          "intentionality": "narrated habitual conduct",
+          "physicality": "looking only",
+          "visibility": "Exact dates, count and a specific L17-L30 stare are not supplied."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Uncle's attraction/ogling is narrated as pre-existing, not as beginning at this moment."
+      ],
+      "emotionalStateAfter": [
+        "No source-supported emotional change during the current handoff is stated."
+      ],
+      "visibilityAndObservers": [
+        "The reader is the explicit recipient of the hidden-history narration.",
+        "Dhika, John and Aunty are stated not to know Uncle's hidden state."
+      ],
+      "knowledgeBefore": [
+        "Prologue does not establish Uncle's hidden state.",
+        "Uncle necessarily knows his own concealed attraction/ogling."
+      ],
+      "knowledgeDelta": [
+        "Reader learns the hidden Uncle-side attraction/ogling history.",
+        "Reader learns Dhika and John do not know it.",
+        "Reader learns Aunty, especially, does not know it."
+      ],
+      "knowledgeAfter": [
+        "Uncle knows his hidden state.",
+        "Reader knows the hidden state.",
+        "Dhika does not know it.",
+        "John does not know it.",
+        "Aunty does not know it."
+      ],
+      "boundaryPermissionControl": [
+        "Guardian-like neighbour trust does not establish permission for Uncle's private ogling.",
+        "No unrelated personal or intimate access is granted in L19-L21."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Aunty: near-family maternal-neighbour baseline is first established.",
+        "Dhika↔Uncle: publicly trusted elder/near-guardian surface plus concealed Uncle-side attraction is first established for the reader.",
+        "John↔Aunty/Uncle: almost-second-guardians relationship is first established.",
+        "Aunty↔Uncle: marriage is established together with an Uncle-side secret that Aunty does not know."
+      ],
+      "secrecyState": [
+        "Uncle's attraction/ogling is concealed from Dhika, John and Aunty.",
+        "Reader knows the concealed state."
+      ],
+      "escalationOrNormalization": [
+        "Habitual ogling is disclosed as pre-existing narration.",
+        "No physical escalation involving Dhika is shown in this source range."
+      ],
+      "hooksOpened": [
+        "The contrast between public guardian-like trust and Uncle's concealed private state becomes an unresolved continuity issue."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Uncle's exact military position/rank is unknown.",
+        "No reciprocal Dhika→Uncle attraction is established.",
+        "No exact current-time stare during the handoff is established by the habitual-history wording.",
+        "The source does not provide dates or a count for prior ogling."
+      ],
+      "qaAmbiguities": [
+        "Exact military position is unknown to Dhika and not supplied by the source.",
+        "The narration establishes habitual ogling but does not enumerate prior incidents."
+      ]
+    },
+    {
+      "eventId": "E01-P01-E003",
+      "episode": "E01",
+      "part": "P01",
+      "sourceRange": "L22-L25",
+      "chronologyOrder": 3,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same morning",
+      "location": "next-door doorway / neighbour entrance",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-PAPPU",
+        "CHAR-UNCLE"
+      ],
+      "referencedCharacters": [
+        "CHAR-AUNTY"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-UNCLE",
+        "REL-PAPPU-AUNTY-UNCLE"
+      ],
+      "sourceSupportedFacts": [
+        "Uncle asks whether Pappu is still sleeping.",
+        "Dhika says yes and again asks whether Aunty is there.",
+        "Uncle says Aunty just went down and asks Dhika to give Pappu to him.",
+        "Dhika hands Pappu into Uncle's care and thanks him."
+      ],
+      "derivedInterpretations": [
+        "The live handoff demonstrates practical childcare trust.",
+        "Aunty's exact destination after going down is not stated."
+      ],
+      "actions": [
+        {
+          "actor": "Uncle",
+          "target": "Dhika",
+          "actionType": "offers_childcare_handoff",
+          "intentionality": "intentional",
+          "physicality": "caregiving",
+          "visibility": "Dhika is present."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Uncle",
+          "actionType": "entrusts_Pappu_for_childcare",
+          "intentionality": "intentional",
+          "physicality": "childcare handoff",
+          "visibility": "Uncle is present."
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika is checking for Aunty, but accepts Uncle as the immediate caregiver when told Aunty has gone down."
+      ],
+      "emotionalStateBefore": [
+        "No explicit fear, suspicion, attraction or discomfort is stated for Dhika."
+      ],
+      "emotionalStateAfter": [
+        "Dhika thanks Uncle; no additional emotional change is stated."
+      ],
+      "visibilityAndObservers": [
+        "Dhika and Uncle are present for the handoff. Pappu is sleeping. Aunty is absent from the live handoff."
+      ],
+      "knowledgeBefore": [
+        "Dhika does not know Uncle's concealed attraction/ogling."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns Aunty 'just went down'. Exact destination remains unknown."
+      ],
+      "knowledgeAfter": [
+        "Dhika still does not know Uncle's concealed attraction/ogling."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika explicitly permits Uncle to care for Pappu through the handoff.",
+        "This permission is act-specific: childcare only. It is not permission for unrelated personal, intimate or private conduct."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle practical trust becomes live/operational through the childcare handoff.",
+        "Pappu↔Aunty/Uncle neighbour-caregiver relationship is established in action."
+      ],
+      "secrecyState": [
+        "Uncle's concealed attraction remains undisclosed during the childcare handoff."
+      ],
+      "escalationOrNormalization": [
+        "Childcare trust is enacted; no sexual/romantic physical interaction occurs."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [
+        "Immediate question 'where is Aunty?' is partially answered: she has gone down; exact destination remains unknown."
+      ],
+      "negativeCanon": [
+        "Aunty is not present during the handoff.",
+        "Childcare permission does not broaden into unrelated permission."
+      ],
+      "qaAmbiguities": [
+        "Aunty's exact downstairs destination is not stated."
+      ]
+    },
+    {
+      "eventId": "E01-P01-E004",
+      "episode": "E01",
+      "part": "P01",
+      "sourceRange": "L26-L30",
+      "chronologyOrder": 4,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same morning",
+      "location": "next-door doorway / departure",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-UNCLE"
+      ],
+      "referencedCharacters": [
+        "CHAR-PAPPU",
+        "CHAR-AUNTY"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-UNCLE",
+        "REL-DHIKA-AUNTY",
+        "REL-PAPPU-AUNTY-UNCLE"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika says she stored milk for Pappu in the fridge.",
+        "Dhika begins an instruction: 'And when he wakes up..... *'; the source does not provide the completion.",
+        "Uncle says he understands and tells Dhika not to worry.",
+        "Dhika thanks Uncle again, says she is running late, and asks him to inform Aunty.",
+        "Dhika leaves down the stairs before her voice fully trails off."
+      ],
+      "derivedInterpretations": [
+        "Dhika's departure urgency is work/time-related because she explicitly says she is running late.",
+        "The exact missing content after L27 must remain unknown."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Uncle",
+          "actionType": "gives_childcare_instruction",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Uncle hears the instructions."
+        },
+        {
+          "actor": "Uncle",
+          "target": "Dhika",
+          "actionType": "reassures",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Dhika hears the reassurance."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Aunty",
+          "actionType": "requests_message_via_Uncle",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Aunty is not present; Uncle receives the request."
+        },
+        {
+          "actor": "Dhika",
+          "target": "scene",
+          "actionType": "leaves_downstairs",
+          "intentionality": "intentional departure",
+          "physicality": "movement",
+          "visibility": "Uncle remains behind."
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika supplies Pappu-care logistics before leaving.",
+        "Uncle accepts responsibility for the instructions.",
+        "Dhika asks that Aunty be informed."
+      ],
+      "emotionalStateBefore": [
+        "Dhika is running late; no other explicit emotional state is stated."
+      ],
+      "emotionalStateAfter": [
+        "No emotional aftermath is stated before the scene ends."
+      ],
+      "visibilityAndObservers": [
+        "Dhika and Uncle complete the instruction exchange.",
+        "Aunty is still not present.",
+        "No source-supported exact handoff-time ogling action is added here."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows Pappu's milk is stored and that Aunty has gone down."
+      ],
+      "knowledgeDelta": [
+        "Uncle receives the milk/care information and the request to inform Aunty."
+      ],
+      "knowledgeAfter": [
+        "Dhika leaves trusting the childcare arrangement.",
+        "Uncle retains his concealed attraction/ogling secret.",
+        "Dhika, John and Aunty remain unaware of that hidden state."
+      ],
+      "boundaryPermissionControl": [
+        "The explicit permission/state concerns Pappu's care, stored milk and communication with Aunty.",
+        "The unfinished L27 cannot be expanded into any additional permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle childcare trust is carried through departure.",
+        "Dhika↔Aunty expected co-caregiver/near-family trust remains active through the request to inform her."
+      ],
+      "secrecyState": [
+        "No disclosure of Uncle's hidden attraction occurs before Dhika leaves."
+      ],
+      "escalationOrNormalization": [
+        "No physical or sexual escalation occurs in L26-L30."
+      ],
+      "hooksOpened": [
+        "The unfinished L27 instruction remains an explicit source ambiguity."
+      ],
+      "hooksResolved": [
+        "The immediate childcare handoff concludes with Dhika leaving."
+      ],
+      "negativeCanon": [
+        "The completion of L27 is unknown and must not be invented.",
+        "No reciprocal attraction, intimate physical interaction or explicit current-time stare is established."
+      ],
+      "qaAmbiguities": [
+        "L27 is textually incomplete in the authoritative RAW source."
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipId": "REL-DHIKA-JOHN",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN"
+      ],
+      "relationshipType": "married spouses",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P00",
+        "sourceRange": "L8-L13"
+      },
+      "eventIds": [
+        "E01-P01-E002"
+      ],
+      "publicSurfaceState": "Dhika and John are already married before live Episode 01 action begins.",
+      "privateState": "No marital conflict or private rupture is established through Part 1.",
+      "readerKnownState": "Reader knows Uncle hides his attraction/ogling from both Dhika and John.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows John as her husband; does not know Uncle's concealed attraction/ogling.",
+        "John": "Knows Dhika as his wife; source states Uncle has not let John know his concealed attraction/ogling."
+      },
+      "trustState": "Marriage baseline retained; Part 1 adds no new Dhika↔John interaction.",
+      "boundaryState": "Marriage does not imply blanket permission for unrelated later acts.",
+      "secrecyState": "A third-party secret exists: Uncle's hidden state is unknown to both Dhika and John.",
+      "currentCeiling": "Married-spouse baseline only as of Part 1; no new interaction in L17-L30.",
+      "unresolvedHooks": [
+        "Uncle's concealed state remains undisclosed."
+      ],
+      "negativeCanon": [
+        "No marital conflict is established in Part 1."
+      ],
+      "latestVerifiedState": "HOLD / UNCHANGED from Prologue marriage baseline; Part 1 only adds the fact that Uncle keeps his secret from John.",
+      "lastChangedAt": "E01-P00:L8-L13"
+    },
+    {
+      "relationshipId": "REL-DHIKA-PAPPU",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-PAPPU"
+      ],
+      "relationshipType": "mother-child caregiving",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P00",
+        "sourceRange": "L13"
+      },
+      "eventIds": [
+        "E01-P01-E001",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "publicSurfaceState": "Dhika is Pappu's mother and active caregiver.",
+      "privateState": "No hidden relationship state is established.",
+      "readerKnownState": "Reader sees Dhika carry sleeping Pappu, arrange neighbour childcare, specify stored milk and begin wake-up instructions.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows Pappu is sleeping, has milk stored for him and needs care while she leaves.",
+        "Pappu": "Sleeping during the handoff; no source-supported knowledge state should be invented."
+      },
+      "trustState": "Active maternal care continues while she temporarily delegates childcare.",
+      "boundaryState": "Dhika deliberately entrusts Pappu to Uncle for childcare.",
+      "secrecyState": "None in this relationship through Part 1.",
+      "currentCeiling": "Maternal caregiving plus temporary trusted-neighbour childcare delegation.",
+      "unresolvedHooks": [
+        "L27 wake-up instruction is incomplete in RAW."
+      ],
+      "negativeCanon": [
+        "Do not invent Pappu's awareness while he is sleeping."
+      ],
+      "latestVerifiedState": "CHANGED in Part 1: caregiving is enacted through the handoff and care instructions.",
+      "lastChangedAt": "E01-P01-E004"
+    },
+    {
+      "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
+      "participants": [
+        "CHAR-DHIKA",
+        "GROUP-STUDENTS-GENERAL"
+      ],
+      "relationshipType": "teacher-student group",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P00",
+        "sourceRange": "L13"
+      },
+      "eventIds": [],
+      "publicSurfaceState": "Dhika is a kind/helpful Physics teacher and is described as a favourite of students.",
+      "privateState": "No additional student relationship state is processed as of Part 1.",
+      "readerKnownState": "Only the Prologue teacher/student baseline is in scope.",
+      "characterKnowledgeStates": {
+        "Dhika": "Teacher role baseline only as of this snapshot."
+      },
+      "trustState": "General positive teacher-student baseline.",
+      "boundaryState": "No Part 1 student encounter.",
+      "secrecyState": "None established in scope.",
+      "currentCeiling": "Prologue teacher/student baseline.",
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "No Part 2 student-specific facts may be imported backward."
+      ],
+      "latestVerifiedState": "HOLD / UNCHANGED from Prologue.",
+      "lastChangedAt": "E01-P00:L13"
+    },
+    {
+      "relationshipId": "REL-DHIKA-AUNTY",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-AUNTY"
+      ],
+      "relationshipType": "near-family neighbour / maternal-trust relationship",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L20-L21"
+      },
+      "eventIds": [
+        "E01-P01-E002",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "publicSurfaceState": "Aunty treats Dhika and John like her own children; Dhika seeks Aunty during the childcare handoff.",
+      "privateState": "No hidden Dhika↔Aunty conflict is established.",
+      "readerKnownState": "Reader knows Aunty is unaware of Uncle's concealed attraction/ogling.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows Aunty as trusted near-family neighbour; does not know Uncle's hidden state.",
+        "Aunty": "Treats Dhika and John like her own children; source states Uncle has especially not told Aunty his hidden state."
+      },
+      "trustState": "Near-family/maternal-neighbour trust with childcare cooperation.",
+      "boundaryState": "Part 1 supports childcare/communication trust; no broader intimate permission is established.",
+      "secrecyState": "Uncle's hidden state is concealed from both Dhika and Aunty.",
+      "currentCeiling": "Trusted near-family neighbour/co-caregiver relationship.",
+      "unresolvedHooks": [
+        "Aunty's exact downstairs destination is unknown."
+      ],
+      "negativeCanon": [
+        "Aunty does not witness the L22-L30 handoff in the source."
+      ],
+      "latestVerifiedState": "NEW in Part 1.",
+      "lastChangedAt": "E01-P01-E004"
+    },
+    {
+      "relationshipId": "REL-DHIKA-UNCLE",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-UNCLE"
+      ],
+      "relationshipType": "trusted elder/near-family neighbour with hidden asymmetric Uncle-side state",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L17-L21"
+      },
+      "eventIds": [
+        "E01-P01-E001",
+        "E01-P01-E002",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "publicSurfaceState": "Dhika treats Uncle as a trusted next-door elder in a household described as almost second guardians for her and John.",
+      "privateState": "Narrator states Uncle has concealed one-sided attraction/ogling toward Dhika and hides it from her.",
+      "readerKnownState": "Reader knows both the guardian-like public surface and Uncle's hidden attraction/ogling history.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows the trusted-neighbour/childcare surface; does not know Uncle's hidden attraction/ogling.",
+        "Uncle": "Knows his own hidden attraction/ogling and accepts Pappu's childcare handoff."
+      },
+      "trustState": "Dhika demonstrates practical childcare trust.",
+      "boundaryState": "Childcare permission is specific to caring for Pappu. It does not authorize Uncle's private ogling or unrelated access.",
+      "secrecyState": "Uncle hides his attraction/ogling from Dhika, John and Aunty.",
+      "currentCeiling": "Public: trusted elder/near-guardian. Hidden: narrator-established habitual ogling. No current-time intimate physical act in L17-L30.",
+      "unresolvedHooks": [
+        "Whether the hidden state is ever discovered remains unresolved after Part 1.",
+        "L27 remains incomplete but is a childcare-instruction ambiguity, not permission to fill gaps."
+      ],
+      "negativeCanon": [
+        "No reciprocal Dhika attraction is established.",
+        "No specific handoff-time stare is established.",
+        "No adult intimate physical interaction occurs in Part 1."
+      ],
+      "latestVerifiedState": "NEW in Part 1: public trust plus hidden reader-known asymmetry; childcare handoff occurs without disclosure.",
+      "lastChangedAt": "E01-P01-E004"
+    },
+    {
+      "relationshipId": "REL-JOHN-AUNTY-UNCLE",
+      "participants": [
+        "CHAR-JOHN",
+        "CHAR-AUNTY",
+        "CHAR-UNCLE"
+      ],
+      "relationshipType": "near-family neighbour / guardian group relationship",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L20-L21"
+      },
+      "eventIds": [
+        "E01-P01-E002"
+      ],
+      "publicSurfaceState": "Aunty and Uncle are described as almost second guardians for Dhika and John; Aunty treats both like her own children.",
+      "privateState": "Uncle hides his Dhika-related attraction/ogling from John and Aunty.",
+      "readerKnownState": "Reader knows the public near-family bond and Uncle's secret.",
+      "characterKnowledgeStates": {
+        "John": "Not shown knowing Uncle's hidden state.",
+        "Aunty": "Not shown knowing Uncle's hidden state.",
+        "Uncle": "Knows and conceals his own hidden state."
+      },
+      "trustState": "Near-family/guardian baseline.",
+      "boundaryState": "No specific John↔neighbour permission event occurs in Part 1.",
+      "secrecyState": "Uncle-side secret from John and Aunty.",
+      "currentCeiling": "Reference/background relationship only in Part 1.",
+      "unresolvedHooks": [
+        "Uncle's secret remains undisclosed."
+      ],
+      "negativeCanon": [
+        "Do not infer John or Aunty awareness from the reader's knowledge."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 1.",
+      "lastChangedAt": "E01-P01-E002"
+    },
+    {
+      "relationshipId": "REL-PAPPU-AUNTY-UNCLE",
+      "participants": [
+        "CHAR-PAPPU",
+        "CHAR-AUNTY",
+        "CHAR-UNCLE"
+      ],
+      "relationshipType": "neighbour-caregiver group relationship",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L22-L30"
+      },
+      "eventIds": [
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "publicSurfaceState": "Uncle accepts sleeping Pappu for childcare; Aunty is expected within the household care arrangement and is to be informed.",
+      "privateState": "No hidden Pappu relationship state is established.",
+      "readerKnownState": "Reader sees Uncle take over immediate care while Aunty is downstairs.",
+      "characterKnowledgeStates": {
+        "Pappu": "Sleeping; no unsupported awareness is assigned.",
+        "Uncle": "Receives childcare instructions.",
+        "Aunty": "Absent from the live exchange; exact knowledge of the instructions is not shown before Part 1 ends."
+      },
+      "trustState": "Trusted neighbour-caregiver arrangement.",
+      "boundaryState": "Care permission covers Pappu's childcare, milk and related instructions.",
+      "secrecyState": "No Pappu-related secret is created.",
+      "currentCeiling": "Practical neighbour childcare.",
+      "unresolvedHooks": [
+        "L27's unfinished wake-up instruction remains unknown."
+      ],
+      "negativeCanon": [
+        "Do not invent Aunty hearing the instructions off-screen before source confirms it."
+      ],
+      "latestVerifiedState": "NEW in Part 1.",
+      "lastChangedAt": "E01-P01-E004"
+    },
+    {
+      "relationshipId": "REL-AUNTY-UNCLE",
+      "participants": [
+        "CHAR-AUNTY",
+        "CHAR-UNCLE"
+      ],
+      "relationshipType": "married couple",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L19-L21"
+      },
+      "eventIds": [
+        "E01-P01-E002",
+        "E01-P01-E003"
+      ],
+      "publicSurfaceState": "Aunty and Uncle are married next-door neighbours in their early 60s.",
+      "privateState": "Narrator describes Uncle's marital life as stale and states he conceals his Dhika-related attraction/ogling especially from Aunty.",
+      "readerKnownState": "Reader knows the marriage plus Uncle's secret.",
+      "characterKnowledgeStates": {
+        "Aunty": "Does not know Uncle's concealed Dhika-related state according to L21.",
+        "Uncle": "Knows his hidden state and keeps it from Aunty."
+      },
+      "trustState": "Marriage is on-page background; quality beyond the narrator's 'stale' description must not be expanded.",
+      "boundaryState": "No live spouse interaction is shown in L17-L30.",
+      "secrecyState": "Uncle-side secret from Aunty.",
+      "currentCeiling": "Married-couple baseline plus concealed Uncle-side secret.",
+      "unresolvedHooks": [
+        "Whether Aunty ever learns the secret is unresolved after Part 1."
+      ],
+      "negativeCanon": [
+        "Do not invent Aunty's suspicions or reactions."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 1.",
+      "lastChangedAt": "E01-P01-E002"
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "CHAR-DHIKA",
+      "canonicalName": "Dhika John",
+      "aliases": [
+        "Dhika"
+      ],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P00",
+        "sourceRange": "L8-L13"
+      },
+      "eventIds": [
+        "E01-P01-E001",
+        "E01-P01-E002",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-STUDENTS-GENERAL",
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-UNCLE"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Age 29.",
+        "Physics teacher for senior students.",
+        "Kind-hearted/helpful baseline.",
+        "John's wife.",
+        "Mother of a 2-year-old son."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P01-E002",
+          "state": "Reader learns Uncle hides attraction/ogling from Dhika; Dhika does not know it."
+        },
+        {
+          "at": "E01-P01-E003",
+          "state": "Dhika learns Aunty has gone down and entrusts Pappu to Uncle."
+        },
+        {
+          "at": "E01-P01-E004",
+          "state": "Dhika leaves after care instructions; Uncle's hidden state remains unknown to her."
+        }
+      ],
+      "evolutionTimeline": [
+        {
+          "at": "E01-P01-E003",
+          "delta": "Prologue caregiver identity becomes live action through Pappu's childcare handoff."
+        },
+        {
+          "at": "E01-P01-E004",
+          "delta": "She supplies care logistics and leaves because she is running late; no source-supported Uncle-related emotional change occurs."
+        }
+      ],
+      "currentVerifiedState": "Working mother/teacher baseline intact; trusts neighbour household for Pappu's care; unaware of Uncle's concealed attraction/ogling.",
+      "activeSecrets": [
+        "Uncle's hidden attraction/ogling exists outside Dhika's knowledge."
+      ],
+      "unresolvedHooks": [
+        "L27 care instruction is incomplete."
+      ],
+      "negativeCanon": [
+        "No reciprocal attraction toward Uncle is established.",
+        "No specific knowledge of Uncle's hidden state."
+      ]
+    },
+    {
+      "characterId": "CHAR-JOHN",
+      "canonicalName": "John",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P00",
+        "sourceRange": "L12-L13"
+      },
+      "eventIds": [
+        "E01-P01-E002"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-JOHN-AUNTY-UNCLE"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Dhika's husband.",
+        "Included with Dhika in the narrator's 'almost second guardians' description for Aunty and Uncle."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P01-E002",
+          "state": "Source states Uncle has not let John know his concealed attraction/ogling."
+        }
+      ],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Off-screen/reference-only in Part 1; marriage baseline retained; unaware of Uncle's hidden state.",
+      "activeSecrets": [
+        "Uncle's hidden state is concealed from him."
+      ],
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "No Part 1 interaction with John occurs."
+      ]
+    },
+    {
+      "characterId": "CHAR-PAPPU",
+      "canonicalName": "Pappu",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P00",
+        "sourceRange": "L13"
+      },
+      "eventIds": [
+        "E01-P01-E001",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-PAPPU",
+        "REL-PAPPU-AUNTY-UNCLE"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Dhika's young son; Prologue gives age 2 years.",
+        "Sleeping during the Part 1 handoff."
+      ],
+      "knowledgeTimeline": [],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Sleeping child temporarily entrusted to neighbour care; milk stored for him; wake-up instruction is incomplete in RAW.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "Incomplete L27 instruction."
+      ],
+      "negativeCanon": [
+        "Do not assign awareness, consent or adult-role interpretation to sleeping Pappu."
+      ]
+    },
+    {
+      "characterId": "CHAR-UNCLE",
+      "canonicalName": "Uncle",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L17-L21"
+      },
+      "eventIds": [
+        "E01-P01-E001",
+        "E01-P01-E002",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-UNCLE",
+        "REL-JOHN-AUNTY-UNCLE",
+        "REL-PAPPU-AUNTY-UNCLE",
+        "REL-AUNTY-UNCLE"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Retired military veteran.",
+        "Exact military position is unknown to Dhika and not supplied.",
+        "Early 60s.",
+        "Lives next door with Aunty.",
+        "Narrator describes habitual ogling of Dhika and concealment from Dhika, John and Aunty."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P01-E002",
+          "state": "Knows his own hidden attraction/ogling; conceals it."
+        },
+        {
+          "at": "E01-P01-E004",
+          "state": "Receives Pappu-care instructions and request to inform Aunty."
+        }
+      ],
+      "evolutionTimeline": [
+        {
+          "at": "E01-P01-E002",
+          "delta": "Reader receives pre-existing hidden-state history; this is disclosure of an existing state, not proof that attraction begins in Part 1."
+        }
+      ],
+      "currentVerifiedState": "Publicly trusted elder/near-guardian and immediate childcare receiver; privately carries concealed narrator-established attraction/ogling.",
+      "activeSecrets": [
+        "Concealed attraction/ogling toward Dhika."
+      ],
+      "unresolvedHooks": [
+        "Whether secret is later discovered."
+      ],
+      "negativeCanon": [
+        "No exact military rank.",
+        "No specific current handoff stare is established.",
+        "No intimate physical act with Dhika in Part 1."
+      ]
+    },
+    {
+      "characterId": "CHAR-AUNTY",
+      "canonicalName": "Aunty",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P01",
+        "sourceRange": "L19-L21"
+      },
+      "eventIds": [
+        "E01-P01-E002",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-AUNTY",
+        "REL-JOHN-AUNTY-UNCLE",
+        "REL-PAPPU-AUNTY-UNCLE",
+        "REL-AUNTY-UNCLE"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Early 60s.",
+        "Lives next door with Uncle.",
+        "No heir with Uncle.",
+        "Treats Dhika and John like her own children.",
+        "Has gone down during the live handoff."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P01-E002",
+          "state": "Source states Uncle especially has not let Aunty know his hidden Dhika-related attraction/ogling."
+        }
+      ],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Trusted near-family neighbour/co-caregiver, absent from the immediate handoff; unaware of Uncle's hidden state.",
+      "activeSecrets": [
+        "Uncle's hidden state is concealed from her."
+      ],
+      "unresolvedHooks": [
+        "Exact downstairs destination unknown.",
+        "Whether she receives Dhika's message is not shown before Part 1 ends."
+      ],
+      "negativeCanon": [
+        "Do not invent her witnessing the handoff or knowing Uncle's secret."
+      ]
+    }
+  ],
+  "partSnapshots": {
+    "E01-P01": {
+      "sourceRange": "L17-L30",
+      "previousVerifiedState": {
+        "characterState": "Prologue L1-L16 establishes Dhika's age, profession, kindness/helpfulness, marriage to John, motherhood and family-home baseline.",
+        "relationshipState": [
+          "Dhika↔John married-spouse baseline.",
+          "Dhika↔Pappu mother-child baseline.",
+          "Dhika↔general students positive teacher/student baseline."
+        ],
+        "knowledgeState": "No Uncle/Aunty hidden-state information exists in the Prologue.",
+        "boundaryState": "No Part 1 childcare permission has yet occurred."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P01-E001",
+          "E01-P01-E002",
+          "E01-P01-E003",
+          "E01-P01-E004"
+        ],
+        "exactChanges": [
+          "Reader learns Uncle/Aunty are near-family neighbours and almost second guardians for Dhika and John.",
+          "Reader learns Uncle has a pre-existing concealed attraction/habitual-ogling state toward Dhika and hides it from Dhika, John and Aunty.",
+          "Dhika entrusts sleeping Pappu to Uncle for childcare after learning Aunty has gone down.",
+          "Dhika gives milk/care instructions; L27 remains incomplete; Uncle reassures her; Dhika asks him to inform Aunty and leaves because she is running late."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika's Prologue identity remains intact; she is shown actively managing Pappu's care and trusting the neighbour household. She remains unaware of Uncle's hidden state.",
+        "relationshipState": "Public near-family childcare trust and reader-known hidden Uncle-side asymmetry now coexist. No reciprocal Dhika attraction or adult intimate physical interaction is established.",
+        "knowledgeState": "Uncle + reader know the hidden attraction/ogling state. Dhika, John and Aunty do not. Aunty is absent from the live handoff.",
+        "boundaryState": "Permission is specific to Pappu's childcare and care logistics. It does not authorize unrelated conduct.",
+        "secrecyState": "Uncle's hidden state carries forward undisclosed.",
+        "sourceAmbiguities": [
+          "Uncle's exact military position is unknown.",
+          "Aunty's exact downstairs destination is unknown.",
+          "L27 instruction is incomplete.",
+          "Habitual ogling is not a quantified incident list and does not establish a specific current-time stare."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-UNCLE",
+        "REL-JOHN-AUNTY-UNCLE",
+        "REL-PAPPU-AUNTY-UNCLE",
+        "REL-AUNTY-UNCLE"
+      ],
+      "relationshipRowsHeld": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-STUDENTS-GENERAL"
+      ],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-UNCLE"
+      ],
+      "knowledgeChanges": [
+        "E01-P01-E002",
+        "E01-P01-E003",
+        "E01-P01-E004"
+      ],
+      "escalationChanges": [
+        "E01-P01-E002 reveals pre-existing habitual ogling; no current physical escalation."
+      ],
+      "hooksOpened": [
+        "Public trust vs hidden Uncle state.",
+        "Incomplete L27 care instruction."
+      ],
+      "hooksResolved": [
+        "Aunty's immediate presence question is partially resolved: she has gone down; exact destination remains unknown."
+      ],
+      "hooksCarried": [
+        "Uncle's secret remains undisclosed.",
+        "L27 remains incomplete."
+      ],
+      "negativeCanonIntroduced": [
+        "No reciprocal Dhika→Uncle attraction.",
+        "No exact current-time stare during the handoff is established.",
+        "No adult intimate physical interaction in L17-L30.",
+        "No invented completion of L27.",
+        "Exact military rank/position remains unknown."
+      ],
+      "negativeCanonCarried": [
+        "No later-Part facts may be imported backward into Part 1."
+      ]
+    }
+  },
+  "traversalGuide": [
+    "Identify characterId or relationshipId.",
+    "Read ordered eventIds chronologically.",
+    "For each event, inspect sourceRange and sourceSupportedFacts before derivedInterpretations.",
+    "Keep action, observation, narration, thought and knowledge categories separate.",
+    "Compare reader knowledge with each character's knowledgeAfter state.",
+    "Read act-specific boundaryPermissionControl; never convert trust or comfort into blanket permission.",
+    "Load the latest processed partSnapshot.",
+    "Apply only the next Part delta; preserve unchanged active states.",
+    "Keep unresolved hooks, secrecy and negative canon active until later RAW explicitly changes them.",
+    "Report ambiguity instead of filling gaps."
+  ]
+}
