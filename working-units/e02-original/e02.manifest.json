@@ -10,24 +10,24 @@
   },
   "components": {
     "part1": {"path": "part1.html", "range": "L9-L17", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
-    "part2": {"range": "L18-L24", "status": "PLANNED"},
-    "part3": {"range": "L25-L36", "status": "PLANNED"},
-    "part4": {"range": "L37-L48", "status": "PLANNED"},
-    "part5": {"range": "L49-L57", "status": "PLANNED"},
-    "part6": {"range": "L58-L67", "status": "PLANNED"},
-    "part7": {"range": "L68-L76", "status": "PLANNED"},
-    "part8": {"range": "L77-L82", "status": "PLANNED"},
-    "part9": {"range": "L83-L103", "status": "PLANNED"},
-    "part10": {"range": "L104-L113", "status": "PLANNED"},
-    "part11": {"range": "L114-L119", "status": "PLANNED"},
-    "part12": {"range": "L120-L139", "status": "PLANNED"},
-    "part13": {"range": "L140-L153", "status": "PLANNED"},
-    "part14": {"range": "L154-L159", "status": "PLANNED_EPISODE_END"}
+    "part2": {"path": "part2.html", "range": "L18-L24", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part3": {"path": "part3.html", "range": "L25-L36", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part4": {"path": "part4.html", "range": "L37-L48", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part5": {"path": "part5.html", "range": "L49-L57", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part6": {"path": "part6.html", "range": "L58-L67", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part7": {"path": "part7.html", "range": "L68-L76", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part8": {"path": "part8.html", "range": "L77-L82", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part9": {"path": "part9.html", "range": "L83-L103", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part10": {"path": "part10.html", "range": "L104-L113", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part11": {"path": "part11.html", "range": "L114-L119", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part12": {"path": "part12.html", "range": "L120-L139", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part13": {"path": "part13.html", "range": "L140-L153", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part14": {"path": "part14.html", "range": "L154-L159", "status": "CONTENT_COMPLETE_IMAGES_PENDING_EPISODE_END"}
   },
   "imageHandoff": {
     "instructions": "IMAGE_PROMPTS.md",
     "targetFolder": "assets/images/e02/scenes/",
-    "requiredPart1Assets": 3
+    "requiredEpisodeAssets": 33
   },
   "writePolicy": {
     "episode01ReadOnly": true,
