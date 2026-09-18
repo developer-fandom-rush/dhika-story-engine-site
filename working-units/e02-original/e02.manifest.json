@@ -1,0 +1,38 @@
+{
+  "episode": "E02",
+  "router": "index.html",
+  "source": {
+    "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
+    "registeredEntries": 160,
+    "wrapperRange": "L1-L8",
+    "storyRange": "L9-L159",
+    "emptyTerminator": "L160"
+  },
+  "components": {
+    "part1": {"path": "part1.html", "range": "L9-L17", "status": "CONTENT_COMPLETE_IMAGES_PENDING"},
+    "part2": {"range": "L18-L24", "status": "PLANNED"},
+    "part3": {"range": "L25-L36", "status": "PLANNED"},
+    "part4": {"range": "L37-L48", "status": "PLANNED"},
+    "part5": {"range": "L49-L57", "status": "PLANNED"},
+    "part6": {"range": "L58-L67", "status": "PLANNED"},
+    "part7": {"range": "L68-L76", "status": "PLANNED"},
+    "part8": {"range": "L77-L82", "status": "PLANNED"},
+    "part9": {"range": "L83-L103", "status": "PLANNED"},
+    "part10": {"range": "L104-L113", "status": "PLANNED"},
+    "part11": {"range": "L114-L119", "status": "PLANNED"},
+    "part12": {"range": "L120-L139", "status": "PLANNED"},
+    "part13": {"range": "L140-L153", "status": "PLANNED"},
+    "part14": {"range": "L154-L159", "status": "PLANNED_EPISODE_END"}
+  },
+  "imageHandoff": {
+    "instructions": "IMAGE_PROMPTS.md",
+    "targetFolder": "assets/images/e02/scenes/",
+    "requiredPart1Assets": 3
+  },
+  "writePolicy": {
+    "episode01ReadOnly": true,
+    "routerContainsStoryContent": false,
+    "futurePartsGetSeparateFiles": true,
+    "part1ContentMustNotBeRewrittenByImageHandoff": true
+  }
+}
