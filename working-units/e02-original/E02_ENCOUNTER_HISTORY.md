@@ -171,3 +171,18 @@
 **Cumulative state through Part 9:** Tuition route opens. Bantu = genuine ambition + hidden access strategy. Bobby = separate gaze/awkward route. No new touch.
 
 **Evidence:** `E02-P09-E020` L83–88; `E021` L89–97; `E022` L98–103.
+
+---
+
+## Part 10 · L104–113
+**Previous verified state:** Tuition request accepted in principle; Bantu hidden extra-access motive reader-known only.
+
+**Current Part delta:** `E023` Dhika alternate weekdays, Wednesday start, 3–4 PM set karti hai after Bantu reports father-approved 3-days/week plan. `E024` same day house-location show karne ke liye agree karti hai. `E025` John ko call karke overt academic arrangement batati hai; John supports her choice.
+
+**Knowledge split:** Dhika + John academic plan jaante hain. Reader/Bantu hidden access strategy jaante hain. John/Dhika us motive ko nahi jaante.
+
+**Boundary state:** Schedule/home orientation/tuition = academic access only. John ka approval undisclosed motives ko authorize nahi karta.
+
+**Cumulative state through Part 10:** Recurring home tuition approved under explicit academic frame; home access concrete hai but purpose-limited.
+
+**Evidence:** `E02-P10-E023` L104–109; `E024` L110–112; `E025` L113.

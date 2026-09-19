@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_9_ONLY",
-  "asOfPart": "P09",
+  "phase": "PHASE_2_PART_10_ONLY",
+  "asOfPart": "P10",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -653,6 +653,85 @@
       "negativeCanon": [
         "Twins are not interchangeable: Bantu has explicit access plan; Bobby's exact knowledge of that full plan is not established."
       ]
+    },
+    {
+      "eventId": "E02-P10-E023",
+      "episode": "E02",
+      "part": "P10",
+      "sourceRange": "L104-L109",
+      "chronologyOrder": 23,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Bobby bluntly asks when tuition can start.",
+        "Dhika has not thought through timing and does not want to work weekends, though she does not tell them that.",
+        "Bantu says their father approved one hour, three days a week, while wanting them to focus on current subjects otherwise.",
+        "Dhika is initially surprised by three days a week but decides she is free after college and Pappu sleeps then.",
+        "Dhika proposes alternate weekdays, starting Wednesday, 3–4 PM."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows the stated father-approved academic schedule. Reader still knows Bantu's hidden extra-access motive from Part 9."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika controls timing/frequency and frames it as teaching time only."
+      ],
+      "relationshipDelta": [
+        "Dhika↔twins gains concrete recurring academic schedule."
+      ],
+      "negativeCanon": [
+        "Pappu's nap is logistics only.",
+        "No tuition has occurred yet."
+      ]
+    },
+    {
+      "eventId": "E02-P10-E024",
+      "episode": "E02",
+      "part": "P10",
+      "sourceRange": "L110-L112",
+      "chronologyOrder": 24,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Bantu asks whether they can come with Dhika that day because they do not know where she lives.",
+        "Dhika thinks and agrees to show them her house so they can come from Wednesday.",
+        "The twins thank her and leave for class."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows she is giving location orientation; she does not know Bantu's hidden access strategy."
+      ],
+      "boundaryPermissionControl": [
+        "Today's home visit is for location/showing the house; recurring access is for tuition. Neither implies non-academic permission."
+      ],
+      "relationshipDelta": [
+        "Future home access route becomes concretely approved under academic/logistics framing."
+      ],
+      "negativeCanon": [
+        "Home orientation is not a tuition session and not romantic/sexual permission."
+      ]
+    },
+    {
+      "eventId": "E02-P10-E025",
+      "episode": "E02",
+      "part": "P10",
+      "sourceRange": "L113",
+      "chronologyOrder": 25,
+      "eventType": "PHONE_DISCLOSURE",
+      "sourceSupportedFacts": [
+        "Dhika realizes she did not ask John about the arrangement and calls him.",
+        "John says it is her choice and he has no problem.",
+        "John already knows about the twins and is surprised/impressed by their ambition.",
+        "They speak briefly and end the call."
+      ],
+      "knowledgeAfter": [
+        "John knows the overt academic tuition/home arrangement. He does not know Bantu's hidden access motive or Bobby's covert gaze behavior."
+      ],
+      "boundaryPermissionControl": [
+        "John's support is for the overt academic arrangement; he cannot consent to undisclosed motives on Dhika's behalf."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John gains transparent discussion/approval of tuition plan under the academic frame."
+      ],
+      "negativeCanon": [
+        "John's approval does not authorize hidden motives or future non-academic behavior."
+      ]
     }
   ],
   "relationships": [
@@ -671,11 +750,12 @@
         "E02-P04-E009",
         "E02-P04-E010",
         "E02-P07-E018",
-        "E02-P08-E019"
+        "E02-P08-E019",
+        "E02-P10-E025"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P8: Dhika independently initiates a familiar marital position and appears less shy; John enjoys/notices change but hidden causes remain undisclosed.",
-      "knowledgeSplit": "John knows behavior changed; he does not know Uncle or Chotu secrets.",
+      "latestVerifiedState": "E02 P10: Dhika proactively checks tuition arrangement with John; John supports her choice based on overt academic facts.",
+      "knowledgeSplit": "Both know academic plan; neither shares/knows Bantu hidden motive.",
       "boundaryState": "Voluntary marital participation only; no third-party permission."
     },
     {
@@ -764,24 +844,28 @@
       "e02EventIds": [
         "E02-P09-E020",
         "E02-P09-E021",
-        "E02-P09-E022"
+        "E02-P09-E022",
+        "E02-P10-E023",
+        "E02-P10-E024"
       ],
       "previousVerifiedState": "E01: recurring compliment familiarity + deceptive proximity-seeking history.",
-      "latestVerifiedState": "E02 P9: compliment routine reaffirmed; Bantu combines genuine academic ambition with a reader-known plan for more time/access; Dhika is unaware of hidden plan.",
+      "latestVerifiedState": "E02 P10: Bantu secures a recurring tuition schedule and same-day home orientation under academic framing; hidden access motive remains unknown to Dhika.",
       "knowledgeSplit": "Reader/Bantu know access strategy; Dhika does not.",
-      "boundaryState": "Compliment/academic help are not broader permission."
+      "boundaryState": "Academic/home access only."
     },
     {
       "relationshipId": "REL-DHIKA-BOBBY",
       "inheritedFromE01": true,
       "e02EventIds": [
         "E02-P09-E021",
-        "E02-P09-E022"
+        "E02-P09-E022",
+        "E02-P10-E023",
+        "E02-P10-E024"
       ],
       "previousVerifiedState": "E01: slight preference + visibility/proximity/contact history.",
-      "latestVerifiedState": "E02 P9: Dhika remembers prior ride contact and teases him; Bobby tries to catch a hip glimpse; he joins tuition request. No new touch.",
+      "latestVerifiedState": "E02 P10: Bobby is included in three-days-per-week tuition and home orientation; no new gaze/touch event.",
       "knowledgeSplit": "Dhika does not know current hidden glance attempt.",
-      "boundaryState": "No new body-contact permission."
+      "boundaryState": "Academic/home access only."
     },
     {
       "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
@@ -791,6 +875,16 @@
       ],
       "previousVerifiedState": "Positive teacher-student goodwill.",
       "latestVerifiedState": "Dhika sincerely supports advanced Physics ambitions and offers extra help."
+    },
+    {
+      "relationshipId": "REL-BANTU-FATHER",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P10-E023"
+      ],
+      "previousVerifiedState": "E01 reference-only father relation.",
+      "latestVerifiedState": "E02 P10: Bantu reports father approved one hour three days weekly while prioritizing current subjects.",
+      "knowledgeSplit": "This is Bantu-reported approval; source does not independently show father speaking."
     }
   ],
   "characters": [
@@ -816,9 +910,12 @@
         "E02-P08-E019",
         "E02-P09-E020",
         "E02-P09-E021",
-        "E02-P09-E022"
+        "E02-P09-E022",
+        "E02-P10-E023",
+        "E02-P10-E024",
+        "E02-P10-E025"
       ],
-      "currentVerifiedState": "Returns to attentive teacher role; enjoys/deflects Bantu compliment, remembers Bobby ride, and sincerely supports twins' academic ambition without knowing hidden access motive.",
+      "currentVerifiedState": "Sets practical tuition limits, agrees to home orientation, then checks plan with John; unaware of Bantu hidden strategy.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -838,9 +935,10 @@
         "E02-P03-E008",
         "E02-P04-E009",
         "E02-P04-E010",
-        "E02-P08-E019"
+        "E02-P08-E019",
+        "E02-P10-E025"
       ],
-      "currentVerifiedState": "Notices Dhika thoughtful during day and less shy/more initiative during sex; enjoys it but does not know hidden context."
+      "currentVerifiedState": "Supports Dhika's tuition choice based on overt academic request and twins' ambition."
     },
     {
       "characterId": "CHAR-PAPPU",
@@ -1040,6 +1138,23 @@
         ]
       },
       "cumulativeStateThroughPart": "Teacher goodwill opens a tuition route. Bantu's academic ambition and hidden access motive coexist; Dhika knows only overt academics. Bobby remains a separate covert-gaze/awkward route; no new touch."
+    },
+    "E02-P10": {
+      "sourceRange": "L104-L113",
+      "previousVerifiedState": "Part 9: twins' academic request accepted in principle; Bantu hidden extra-access plan remains reader-known only.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P10-E023",
+          "E02-P10-E024",
+          "E02-P10-E025"
+        ],
+        "exactChanges": [
+          "Dhika sets alternate weekdays Wednesday start, 3–4 PM.",
+          "Dhika agrees to show home address today.",
+          "Dhika calls John; John supports the overt academic plan."
+        ]
+      },
+      "cumulativeStateThroughPart": "Recurring home tuition is approved within an academic frame. Dhika controls schedule/location access; John knows/approves overt plan. Hidden Bantu motive remains undisclosed; no sexual/romantic permission."
     }
   }
 }
