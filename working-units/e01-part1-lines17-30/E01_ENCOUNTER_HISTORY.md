@@ -750,3 +750,19 @@
 **Delta:** First ambiguous visibility/reaction event + first mixed fear/excitement.
 
 **Cumulative:** Exact view unresolved. Dhika surface trust retain karti hai; private uncertainty active. Accidental visibility ko retroactive deliberate display mat banao.
+
+
+---
+
+# Part 9 Encounter Events
+
+- **E01-P09-E032 · L159–165:** John call se overnight absence ka exact reason production issue establish hota hai. Marriage affectionate/playful rehti hai; source explicitly “banana” line ko childish play bolta hai. Work absence ≠ marital conflict.
+- **E01-P09-E033 · L166–170:** Bedtime mein Dhika prior no-dupatta bend yaad karti hai. Initial self-reproach ke baad possibility of being seen usme private excitement/tingle + involuntary smile create karti hai; woh thought suppress karke so jaati hai. Yeh internal thought hai, action nahi; Chotu present nahi.
+
+# Part 9 cumulative snapshot
+
+**Previous:** Ambiguous Part 8 event + mixed response, then rationalization.
+
+**Delta:** Memory independently returns and excitement becomes self-recognized for a moment; marriage simultaneously stable/affectionate reaffirmed.
+
+**Cumulative:** Dhika private curiosity now canonically exists but remains undisclosed and unacted upon. Exact prior view still unresolved.

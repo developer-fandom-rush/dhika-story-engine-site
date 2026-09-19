@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_8",
-  "asOfPart": "P08",
+  "phase": "PHASE_2_PART_9",
+  "asOfPart": "P09",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L141",
-    "currentPart": "L142-L158",
-    "nextUnprocessedRange": "L159-L170"
+    "previousProcessedParts": "L17-L158",
+    "currentPart": "L159-L170",
+    "nextUnprocessedRange": "L171-L194"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -2881,6 +2881,188 @@
       "qaAmbiguities": [
         "What Chotu actually saw remains unknown in Part 8."
       ]
+    },
+    {
+      "eventId": "E01-P09-E032",
+      "episode": "E01",
+      "part": "P09",
+      "sourceRange": "L159-L165",
+      "chronologyOrder": 32,
+      "eventType": "LIVE_PHONE_AND_HOME_ROUTINE",
+      "sceneTime": "8 PM Friday evening",
+      "location": "Dhika home / phone",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN",
+        "CHAR-PAPPU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-PAPPU"
+      ],
+      "sourceSupportedFacts": [
+        "At 8 PM John still has not come home; Dhika notes he usually tries to come early on Friday nights to spend time with her.",
+        "John calls and says he will not come home because of a huge production issue and everyone is staying back to fix it; he apologizes.",
+        "Narrator says John is always sweet/caring toward Dhika.",
+        "Dhika understands but playfully complains in their usual childish style; source explicitly says the 'banana' line is childish play, not naughty play.",
+        "John says he will come next morning, sends kisses and ends the call.",
+        "Dhika reflects that John is a good worker, loves his job and her, and this is something she has admired since early marriage.",
+        "Dhika eats dinner with Pappu, puts him in his own bed/room, changes into pajamas/T-shirt and lies in bed."
+      ],
+      "derivedInterpretations": [
+        "John's absence is work-related, not marital withdrawal. Marriage remains affectionate/stable through this event."
+      ],
+      "actions": [
+        {
+          "actor": "John",
+          "target": "Dhika",
+          "actionType": "calls_and_explains_overnight_work",
+          "intentionality": "intentional communication",
+          "physicality": "none",
+          "visibility": "phone"
+        },
+        {
+          "actor": "Dhika",
+          "target": "John",
+          "actionType": "playful_childish_response",
+          "intentionality": "usual playful banter",
+          "physicality": "none",
+          "visibility": "phone"
+        }
+      ],
+      "dialogueMeaning": [
+        "Work issue explains absence; affection/playfulness remain."
+      ],
+      "emotionalStateBefore": [
+        "Dhika waiting/misses expected Friday time."
+      ],
+      "emotionalStateAfter": [
+        "Understands work situation; marriage admiration intact."
+      ],
+      "visibilityAndObservers": [
+        "No third-party relationship event."
+      ],
+      "knowledgeBefore": [
+        "Dhika suspects urgent office issue."
+      ],
+      "knowledgeDelta": [
+        "John confirms production issue and overnight stay."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows absence is work-related."
+      ],
+      "boundaryPermissionControl": [
+        "No new adult-intimate permission state."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John affectionate/stable marriage reaffirmed; absence is logistical/work-driven."
+      ],
+      "secrecyState": [
+        "Dhika has not disclosed Part 8 private thoughts to John."
+      ],
+      "escalationOrNormalization": [
+        "No marital escalation/conflict."
+      ],
+      "hooksOpened": [
+        "John remains away overnight."
+      ],
+      "hooksResolved": [
+        "Reason for late absence is resolved."
+      ],
+      "negativeCanon": [
+        "Do not turn work absence into marital conflict.",
+        "'Banana' line is explicitly childish play."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P09-E033",
+      "episode": "E01",
+      "part": "P09",
+      "sourceRange": "L166-L170",
+      "chronologyOrder": 33,
+      "eventType": "INTERNAL_THOUGHT",
+      "sceneTime": "bedtime",
+      "location": "Dhika bedroom",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Lying in bed without John, Dhika remembers bending without dupatta and initially scolds herself, wondering what Chotu may have seen.",
+        "She then asks herself 'What if he saw...' and a thought enters her mind not from fear but from excitement.",
+        "She feels a tingle, wonders whether he saw parts of her breast, and an unconscious smile appears.",
+        "Dhika returns to reality, pushes the thoughts away and goes to sleep.",
+        "Narrator states she did not grow up thinking dirty things, had not watched porn, had not had sex talk with anyone, had not seen anyone before marriage, and had only mild naughty movie-scene experience."
+      ],
+      "derivedInterpretations": [
+        "The Part 8 mixed reaction returns independently in private and shifts toward acknowledged excitement for a moment.",
+        "This is private thought/imagination only; no new Chotu encounter or action occurs."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "recalls_and_imagines_possible_visibility",
+          "intentionality": "private thought after memory returns",
+          "physicality": "none",
+          "visibility": "reader-only internal state"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Self-reproach/uncertainty."
+      ],
+      "emotionalStateAfter": [
+        "Excitement + involuntary smile, then deliberate suppression and sleep."
+      ],
+      "visibilityAndObservers": [
+        "No Chotu present; no new observation event."
+      ],
+      "knowledgeBefore": [
+        "Dhika remains unsure what Chotu saw."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns about her own capacity to feel excitement at the possibility."
+      ],
+      "knowledgeAfter": [
+        "She knows she had that private response; nobody else is shown knowing."
+      ],
+      "boundaryPermissionControl": [
+        "Private excitement does not grant permission to Chotu or convert the prior accidental event into a deliberate act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu gains a private Dhika-side curiosity/excitement state without any mutual encounter or disclosure."
+      ],
+      "secrecyState": [
+        "Dhika's private excitement is known only to Dhika + reader."
+      ],
+      "escalationOrNormalization": [
+        "Internal escalation: in-the-moment mixed response → later recollection that independently produces excitement/smile. Still no behavior repetition."
+      ],
+      "hooksOpened": [
+        "What happens when Dhika sees Chotu again."
+      ],
+      "hooksResolved": [
+        "Memory does return."
+      ],
+      "negativeCanon": [
+        "Thought ≠ action.",
+        "Private excitement ≠ attraction/permission automatically.",
+        "No marital conflict created by the thought.",
+        "No new Chotu encounter."
+      ],
+      "qaAmbiguities": [
+        "Exact Part 8 view remains unresolved."
+      ]
     }
   ],
   "relationships": [
@@ -2897,27 +3079,29 @@
         "sourceRange": "L8-L13"
       },
       "eventIds": [
-        "E01-P01-E002"
+        "E01-P01-E002",
+        "E01-P09-E032",
+        "E01-P09-E033"
       ],
-      "publicSurfaceState": "Dhika and John are already married before live Episode 01 action begins.",
-      "privateState": "No marital conflict or private rupture is established through Part 1.",
-      "readerKnownState": "Reader knows Uncle hides his attraction/ogling from both Dhika and John.",
+      "publicSurfaceState": "Affectionate married couple; John communicates overnight work problem, apologizes, and their usual playful/affectionate tone continues.",
+      "privateState": "Dhika has a new private recollection/excitement state about the prior Chotu ambiguity, but source does not show disclosure to John or marital conflict.",
+      "readerKnownState": "Reader knows marriage remains stable and work absence is genuine while Dhika's private thought remains undisclosed.",
       "characterKnowledgeStates": {
-        "Dhika": "Knows John as her husband; does not know Uncle's concealed attraction/ogling.",
-        "John": "Knows Dhika as his wife; source states Uncle has not let John know his concealed attraction/ogling."
+        "Dhika": "Knows John's absence is work-related; privately remembers prior Chotu ambiguity and suppresses thought.",
+        "John": "Knows work situation; source gives no knowledge of Dhika's private Chotu-related thought."
       },
       "trustState": "Marriage baseline retained; Part 1 adds no new Dhika↔John interaction.",
       "boundaryState": "Marriage does not imply blanket permission for unrelated later acts.",
-      "secrecyState": "A third-party secret exists: Uncle's hidden state is unknown to both Dhika and John.",
-      "currentCeiling": "Married-spouse baseline only as of Part 1; no new interaction in L17-L30.",
+      "secrecyState": "Dhika's Part 9 private excitement is not disclosed to John.",
+      "currentCeiling": "Stable/affectionate marriage with work-related overnight absence; private Dhika thought exists but no conflict/behavioral breach.",
       "unresolvedHooks": [
         "Uncle's concealed state remains undisclosed."
       ],
       "negativeCanon": [
         "No marital conflict is established in Part 1."
       ],
-      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. No direct Dhika↔John relationship event occurs in L31-L64; Uncle secret remains unknown to them. HOLD through Part 3.",
-      "lastChangedAt": "E01-P00:L8-L13"
+      "latestVerifiedState": "CHANGED only by reaffirmed affectionate work-context + undisclosed private Dhika thought; marriage remains stable.",
+      "lastChangedAt": "E01-P09-E033"
     },
     {
       "relationshipId": "REL-DHIKA-PAPPU",
@@ -3549,19 +3733,20 @@
         "E01-P07-E028",
         "E01-P08-E029",
         "E01-P08-E030",
-        "E01-P08-E031"
+        "E01-P08-E031",
+        "E01-P09-E033"
       ],
       "publicSurfaceState": "Brother-like trust continues; second visit moves from expected outside handoff to accepted indoor presence, water/juice and brief stay.",
-      "privateState": "Part 8 adds an accidental/uncertain visibility event from Dhika's perspective and a private mixed fear/excitement response; Chotu's exact perception remains unstated.",
-      "readerKnownState": "Reader sees Dhika's ordinary bend, Chotu's stunned reaction/evasion, Dhika's uncertainty among cleavage/bra/more, and later family-based rationalization.",
+      "privateState": "Dhika privately recalls the ambiguous Part 8 event and, after initial self-reproach, experiences excitement at the possibility Chotu saw part of her breast; no Chotu encounter or disclosure.",
+      "readerKnownState": "Reader knows Dhika's memory returns and produces private excitement/smile; exact Part 8 view remains unresolved.",
       "characterKnowledgeStates": {
-        "Dhika": "Knows she bent without dupatta, sees Chotu stunned, and is unsure what he saw; privately feels fear + excitement, then rationalizes.",
-        "Chotu": "His reaction/evasion is shown, but exact perceived detail and internal reasoning are not stated."
+        "Dhika": "Still unsure what Chotu saw, but now knows the possibility can excite her.",
+        "Chotu": "Absent in Part 9; no new knowledge."
       },
       "trustState": "High practical/familial familiarity.",
       "boundaryState": "Visibility condition is accidental from Dhika's perspective; no deliberate display or spoken invitation. Mixed response does not retroactively change that.",
-      "secrecyState": "Dhika's mixed response private; Chotu's exact perception undisclosed.",
-      "currentCeiling": "Trusted brother-like surface + first uncertain visibility event + private Dhika mixed response; exact view remains unresolved.",
+      "secrecyState": "Dhika's excitement remains private; Chotu does not know it.",
+      "currentCeiling": "Ambiguous prior visibility + private Dhika recollection/excitement; no deliberate act yet.",
       "unresolvedHooks": [
         "Second noodles return.",
         "Exact meaning of Chotu's 'something different' notice.",
@@ -3572,8 +3757,8 @@
       "negativeCanon": [
         "Hospitality ≠ unlimited access."
       ],
-      "latestVerifiedState": "CHANGED in Part 8: ambiguous visibility/reaction event + Dhika fear/excitement, with exact perception unresolved.",
-      "lastChangedAt": "E01-P08-E031"
+      "latestVerifiedState": "CHANGED internally in Part 9; no new encounter.",
+      "lastChangedAt": "E01-P09-E033"
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -3720,7 +3905,9 @@
         "E01-P07-E028",
         "E01-P08-E029",
         "E01-P08-E030",
-        "E01-P08-E031"
+        "E01-P08-E031",
+        "E01-P09-E032",
+        "E01-P09-E033"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -3819,6 +4006,14 @@
         {
           "at": "E01-P08-E031",
           "state": "Remains unsure whether cleavage/bra/more was visible; learns Chotu left early/helped mother; adopts family-situation rationalization."
+        },
+        {
+          "at": "E01-P09-E032",
+          "state": "Learns John will stay at office because of production issue; marriage affection remains explicit."
+        },
+        {
+          "at": "E01-P09-E033",
+          "state": "Recognizes her own private excitement at the possibility Chotu saw part of her breast, then suppresses it."
         }
       ],
       "evolutionTimeline": [
@@ -3865,9 +4060,13 @@
         {
           "at": "E01-P08-E031",
           "delta": "First source-shown mixed fear/excitement around possible visibility, then suppression/rationalization."
+        },
+        {
+          "at": "E01-P09-E033",
+          "delta": "Mixed response becomes a private self-recognized curiosity/excitement on recollection, still without action."
         }
       ],
-      "currentVerifiedState": "Through Part 8: trusts Chotu on surface but now has private uncertainty + first mixed fear/excitement about possible accidental visibility; exact view unknown.",
+      "currentVerifiedState": "Through Part 9: affectionate/stable wife/mother baseline intact; privately recognizes a new excitement/curiosity tied to possible Chotu visibility, then suppresses it.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -3897,7 +4096,8 @@
         "sourceRange": "L12-L13"
       },
       "eventIds": [
-        "E01-P01-E002"
+        "E01-P01-E002",
+        "E01-P09-E032"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -3905,7 +4105,8 @@
       ],
       "sourceConfirmedCharacterFacts": [
         "Dhika's husband.",
-        "Included with Dhika in the narrator's 'almost second guardians' description for Aunty and Uncle."
+        "Included with Dhika in the narrator's 'almost second guardians' description for Aunty and Uncle.",
+        "Part 9: stays overnight at work for a huge production issue; narrator describes him as sweet/caring and a good worker who loves his job and Dhika."
       ],
       "knowledgeTimeline": [
         {
@@ -3914,7 +4115,7 @@
         }
       ],
       "evolutionTimeline": [],
-      "currentVerifiedState": "Off-screen/reference-only in Part 1; marriage baseline retained; unaware of Uncle's hidden state.",
+      "currentVerifiedState": "Affectionate husband; overnight absence is production-issue/work-driven, not conflict.",
       "activeSecrets": [
         "Uncle's hidden state is concealed from him."
       ],
@@ -5119,6 +5320,73 @@
         "Accidental bend not planned display.",
         "Fear/excitement coexist.",
         "Rationalization not proof."
+      ],
+      "negativeCanonCarried": [
+        "Prior limits remain."
+      ]
+    },
+    "E01-P09": {
+      "sourceRange": "L159-L170",
+      "previousVerifiedState": {
+        "characterState": "Dhika has Part 8 ambiguous visibility + mixed fear/excitement but rationalized/shelved it.",
+        "relationshipState": [
+          "Dhika↔John stable marriage.",
+          "Dhika↔Chotu ambiguous event, exact view unresolved."
+        ],
+        "knowledgeState": "Dhika private response not known to Chotu/John.",
+        "boundaryState": "Prior event accidental from Dhika perspective."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P09-E032",
+          "E01-P09-E033"
+        ],
+        "exactChanges": [
+          "John's overnight absence confirmed as production issue; affection/playful marriage tone reaffirmed.",
+          "At bedtime Dhika recalls prior bend, shifts from self-reproach to private excitement at possibility of being seen, smiles involuntarily, then suppresses thought.",
+          "Narrator supplies limited sexual-experience background for Dhika."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika remains affectionate wife/mother while privately recognizing a new excitement/curiosity state.",
+        "relationshipState": "Dhika↔John stable; Dhika↔Chotu changes only in Dhika's internal state, no new encounter.",
+        "knowledgeState": "Dhika + reader know her private excitement; John/Chotu do not.",
+        "boundaryState": "Private thought does not retroactively create permission/action.",
+        "secrecyState": "New self-secret beside unresolved visibility question.",
+        "sourceAmbiguities": [
+          "Exact Part 8 view still unresolved."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-CHOTU"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN"
+      ],
+      "knowledgeChanges": [
+        "E01-P09-E032",
+        "E01-P09-E033"
+      ],
+      "escalationChanges": [
+        "Internal recollection independently produces excitement; no behavioral repetition."
+      ],
+      "hooksOpened": [
+        "Next Chotu meeting."
+      ],
+      "hooksResolved": [
+        "Memory returns.",
+        "John absence reason resolved."
+      ],
+      "hooksCarried": [
+        "Exact prior visibility remains unresolved."
+      ],
+      "negativeCanonIntroduced": [
+        "Thought ≠ action.",
+        "Work absence ≠ marital conflict.",
+        "Private excitement ≠ blanket permission/romance."
       ],
       "negativeCanonCarried": [
         "Prior limits remain."
