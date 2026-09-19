@@ -783,3 +783,20 @@
 **Delta:** Covered/ordinary hospitality plan + Chotu lie + first shared lunch/longer visit.
 
 **Cumulative:** Dhika↔Chotu social comfort/access grows, but prior private meanings remain undisclosed. John marriage/work state stable.
+
+
+---
+
+# Part 11 Encounter Events
+
+- **E01-P11-E037 · L195–200:** Chotu Dhika ka sleeveless home dress notice karta hai aur first time use beautiful bolta hai. Dhika little shy hoti hai aur Bantu ke daily compliments + apni compliment-liking yaad karti hai.
+- **E01-P11-E038 · L201–205:** Dhika kehti hai woh sleeveless outside nahi pehenti; Chotu visible arms ko “just hands” frame karta hai. Dhika blush karke explicitly kehti hai ki woh usse trust karti hai aur use “innocent Chotu Babu” bolti hai. Chotu deeper “proved” meaning samajhta nahi.
+- **E01-P11-E039 · L206–207:** Chotu privately Dhika ko first time beautiful woman ke roop mein dekhta hai aur **little crush** feel karta hai. Dhika ko crush ka knowledge nahi. No confession/touch. Chotu hall sofa par wait karta hai.
+
+# Part 11 cumulative snapshot
+
+**Surface:** Dhika trust + compliment pleasure + innocent framing.
+
+**Hidden:** Chotu little crush; Dhika prior private curiosity. Dono ek-dusre ka full internal state nahi jaante.
+
+**Boundary:** Ordinary sleeveless-arm visibility ke around trust statement blanket consent nahi.

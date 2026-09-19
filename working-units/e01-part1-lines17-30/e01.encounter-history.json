@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_10",
-  "asOfPart": "P10",
+  "phase": "PHASE_2_PART_11",
+  "asOfPart": "P11",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L170",
-    "currentPart": "L171-L194",
-    "nextUnprocessedRange": "L195-L207"
+    "previousProcessedParts": "L17-L194",
+    "currentPart": "L195-L207",
+    "nextUnprocessedRange": "L208-L225"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -3352,6 +3352,274 @@
         "No new physical intimacy."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P11-E037",
+      "episode": "E01",
+      "part": "P11",
+      "sourceRange": "L195-L200",
+      "chronologyOrder": 37,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "after lunch",
+      "location": "kitchen",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-BANTU"
+      ],
+      "sourceSupportedFacts": [
+        "Standing behind Dhika in kitchen, Chotu notices she is wearing a sleeveless dress.",
+        "He asks if it is new and says he has never seen her dressed like this before.",
+        "Dhika feels a little shy that he noticed and says it is not new but she wears it only at home.",
+        "Chotu says it is a nice dress and she looks beautiful, asking why she does not wear it outside.",
+        "Dhika realizes this is the first time Chotu has called her beautiful.",
+        "She remembers Bantu calling her pretty every day and that she likes being complimented."
+      ],
+      "derivedInterpretations": [
+        "Chotu's compliment is a new appearance-focused verbal event in their relationship; Dhika's positive response is linked by source to her established compliment-liking history."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "notices_sleeveless_homewear_and_compliments_beauty",
+          "intentionality": "intentional observation/dialogue",
+          "physicality": "none",
+          "visibility": "direct"
+        },
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "recalls_Bantu_compliment_history",
+          "intentionality": "private thought",
+          "physicality": "none",
+          "visibility": "reader-only internal"
+        }
+      ],
+      "dialogueMeaning": [
+        "Chotu explicitly frames homewear as nice/beautiful; Dhika explains it is home-only."
+      ],
+      "emotionalStateBefore": [
+        "Comfortable post-meal interaction."
+      ],
+      "emotionalStateAfter": [
+        "Dhika feels little shy and registers pleasure/meaning of compliment."
+      ],
+      "visibilityAndObservers": [
+        "Chotu notices sleeveless arms/homewear; no other observer."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows she generally likes compliments; Chotu has not previously called her beautiful."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns Chotu sees her as beautiful in this dress."
+      ],
+      "knowledgeAfter": [
+        "Chotu knows she keeps this dress for home; Dhika knows he complimented her."
+      ],
+      "boundaryPermissionControl": [
+        "Ordinary homewear visibility inside an invited visit does not automatically create permission for broader appearance access."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu shifts from care/familiarity to first explicit beauty compliment."
+      ],
+      "secrecyState": [
+        "Dhika's recalled compliment-liking is private."
+      ],
+      "escalationOrNormalization": [
+        "Appearance talk becomes explicit between them for first time."
+      ],
+      "hooksOpened": [
+        "How Dhika interprets/trusts Chotu's reaction."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Compliment pleasure ≠ Dhika crush.",
+        "No physical contact."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P11-E038",
+      "episode": "E01",
+      "part": "P11",
+      "sourceRange": "L201-L205",
+      "chronologyOrder": 38,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same kitchen conversation",
+      "location": "kitchen",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika says the dress is casual, she does not wear sleeveless outside, and people would see her hands/arms fully.",
+        "Chotu laughs and says they are just hands and that he can see them now.",
+        "Dhika blushes and says she knows/trusts him and he has proved she can trust him.",
+        "Chotu asks what she means; Dhika says he said they are just hands and calls him her innocent Chotu Babu.",
+        "Chotu does not understand the deeper implication and does not ask further."
+      ],
+      "derivedInterpretations": [
+        "Dhika explicitly verbalizes trust tied to his non-sexual framing of visible arms; this trust is act-specific and based on her interpretation of him as innocent.",
+        "Chotu does not understand what she means by 'proved' and therefore does not share her full reasoning."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "explicitly_states_trust",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "direct conversation"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "frames_visible_arms_as_ordinary",
+          "intentionality": "intentional dialogue",
+          "physicality": "none",
+          "visibility": "direct"
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika treats his 'just hands' response as confirmation of her innocent/trust model."
+      ],
+      "emotionalStateBefore": [
+        "Little shy after compliment."
+      ],
+      "emotionalStateAfter": [
+        "Blushing but reassured/pleased; Chotu confused."
+      ],
+      "visibilityAndObservers": [
+        "Only ordinary sleeveless arm visibility is verbally discussed."
+      ],
+      "knowledgeBefore": [
+        "Dhika believes Chotu trustworthy/innocent."
+      ],
+      "knowledgeDelta": [
+        "She states that trust aloud; Chotu hears but does not understand the deeper test/reference."
+      ],
+      "knowledgeAfter": [
+        "Dhika's trust model strengthens; Chotu knows she says she trusts him but not why fully."
+      ],
+      "boundaryPermissionControl": [
+        "Trust here is specifically about ordinary sleeveless-arm visibility; it is not blanket permission for intimate looking/touching."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu gets explicit verbal trust confirmation."
+      ],
+      "secrecyState": [
+        "Dhika's earlier private curiosity remains undisclosed; Chotu does not understand her 'proved' reference."
+      ],
+      "escalationOrNormalization": [
+        "Social/emotional trust is verbalized; no physical escalation."
+      ],
+      "hooksOpened": [
+        "How Chotu privately reacts to seeing her differently."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Trust ≠ blanket consent.",
+        "Only arms/sleeveless visibility is discussed explicitly."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P11-E039",
+      "episode": "E01",
+      "part": "P11",
+      "sourceRange": "L206-L207",
+      "chronologyOrder": 39,
+      "eventType": "INTERNAL_THOUGHT_PLUS_POSITIONING",
+      "sceneTime": "same visit",
+      "location": "kitchen → hall sofa",
+      "presentCharacters": [
+        "CHAR-CHOTU",
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu does not understand Dhika's remark but does not ask further.",
+        "He realizes Dhika looks very beautiful and her skin looks white/soft.",
+        "He feels a little crush on her.",
+        "Narrator says he had always liked her because of her kindness, but this is the first time he sees her as a beautiful woman.",
+        "There are 30 minutes left of his hour; Dhika asks him to wash hands and wait in hall; he follows instructions and sits/leans on sofa."
+      ],
+      "derivedInterpretations": [
+        "A first Chotu-side crush is explicitly source-confirmed and remains private; it is distinct from the earlier brother-like way Dhika views him.",
+        "Dhika has no source-supported knowledge of this crush."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "privately_forms_little_crush",
+          "intentionality": "internal feeling",
+          "physicality": "none",
+          "visibility": "reader-only internal state"
+        },
+        {
+          "actor": "Chotu",
+          "target": "hall_sofa",
+          "actionType": "follows_instruction_and_waits",
+          "intentionality": "intentional",
+          "physicality": "movement",
+          "visibility": "ordinary positioning"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Grateful/comfortable; confused by trust comment."
+      ],
+      "emotionalStateAfter": [
+        "Little crush/appearance appreciation privately formed."
+      ],
+      "visibilityAndObservers": [
+        "Dhika does not observe the private crush state."
+      ],
+      "knowledgeBefore": [
+        "Chotu knows Dhika trusts him; Dhika knows he complimented her."
+      ],
+      "knowledgeDelta": [
+        "Reader learns Chotu's first crush."
+      ],
+      "knowledgeAfter": [
+        "Chotu + reader know crush; Dhika does not."
+      ],
+      "boundaryPermissionControl": [
+        "Private crush does not create permission or mutuality."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu hidden asymmetry changes: Chotu-side little crush begins while Dhika continues trust/innocent framing."
+      ],
+      "secrecyState": [
+        "Chotu's crush is concealed/unspoken."
+      ],
+      "escalationOrNormalization": [
+        "Emotional/interpretive escalation on Chotu side; no physical action."
+      ],
+      "hooksOpened": [
+        "What happens while Chotu waits in hall and Dhika moves to clean."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Crush is not mutual by source.",
+        "No confession/touch occurs."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -3684,7 +3952,8 @@
         "E01-P04-E014",
         "E01-P04-E016",
         "E01-P04-E017",
-        "E01-P04-E019"
+        "E01-P04-E019",
+        "E01-P11-E037"
       ],
       "publicSurfaceState": "Bantu is one of Dhika's favourite twin students; he is charming/talkative and gives her daily appearance compliments.",
       "privateState": "Dhika privately blushes at intensified praise; Bantu deliberately fabricates transport pretext to ride with her and privately wants the close seat.",
@@ -3706,8 +3975,8 @@
         "L44 speaker label must not be silently reassigned.",
         "Fabricated ride pretext does not mean Dhika knowingly invited proximity."
       ],
-      "latestVerifiedState": "CHANGED in Part 4.",
-      "lastChangedAt": "E01-P04-E019"
+      "latestVerifiedState": "HOLD with reference: Dhika recalls Bantu's daily compliments as the established reason she likes compliments.",
+      "lastChangedAt": "E01-P11-E037"
     },
     {
       "relationshipId": "REL-DHIKA-BOBBY",
@@ -4028,19 +4297,22 @@
         "E01-P09-E033",
         "E01-P10-E034",
         "E01-P10-E035",
-        "E01-P10-E036"
+        "E01-P10-E036",
+        "E01-P11-E037",
+        "E01-P11-E038",
+        "E01-P11-E039"
       ],
-      "publicSurfaceState": "Trusted brother-like delivery relation now includes a deliberate payment visit and first shared meal/family conversation.",
-      "privateState": "Dhika's prior private curiosity remains undisclosed; Chotu lies about why he left earlier and wants a quick exit before accepting meal.",
-      "readerKnownState": "Reader knows both private accounts remain unspoken: Dhika's prior thought and Chotu's false explanation.",
+      "publicSurfaceState": "Trusted relationship now includes first explicit beauty compliment and Dhika's verbal statement that she trusts Chotu; she frames him as innocent.",
+      "privateState": "Chotu privately develops a little crush and first sees Dhika as a beautiful woman; Dhika's prior curiosity remains private and she does not know his crush.",
+      "readerKnownState": "Reader knows both asymmetries: Dhika's trust/compliment pleasure and Chotu's unspoken first crush.",
       "characterKnowledgeStates": {
-        "Dhika": "Accepts Chotu's stated mother-task explanation; plans/extends ordinary hospitality; does not know source-labelled lie.",
-        "Chotu": "Knows his explanation is false; accepts meal/hospitality; no new disclosed knowledge of Dhika's prior thoughts."
+        "Dhika": "Knows Chotu called her beautiful; explicitly says she trusts him and interprets his 'just hands' response as innocent. Does not know crush.",
+        "Chotu": "Knows Dhika says she trusts him; does not understand her deeper 'proved' reasoning; privately knows his own little crush."
       },
       "trustState": "High practical/familial familiarity.",
-      "boundaryState": "Visit/social permission expands to payment, food, floor seating and conversation; Dhika planned to use a good dupatta. No blanket permission for unrelated observation.",
-      "secrecyState": "Two unspoken accounts coexist: Chotu lie + Dhika private prior thoughts.",
-      "currentCeiling": "Comfortable trusted relation with first shared meal and longer private home time; no declared attraction from Dhika/Chotu in Part 10.",
+      "boundaryState": "Trust is specifically articulated around ordinary sleeveless-arm visibility; no broader looking/touch permission.",
+      "secrecyState": "Chotu crush hidden from Dhika; Dhika prior private curiosity still undisclosed.",
+      "currentCeiling": "Explicit trust + first Chotu beauty compliment + private Chotu little crush; no mutual declared attraction or physical intimacy.",
       "unresolvedHooks": [
         "Second noodles return.",
         "Exact meaning of Chotu's 'something different' notice.",
@@ -4049,10 +4321,12 @@
         "What happens at next Chotu meeting."
       ],
       "negativeCanon": [
-        "Hospitality ≠ unlimited access."
+        "Hospitality ≠ unlimited access.",
+        "Dhika trust is not blanket consent.",
+        "Chotu crush is private and not mutual by source."
       ],
-      "latestVerifiedState": "CHANGED in Part 10: longer social access/meal + Chotu lie, while ordinary care framing remains.",
-      "lastChangedAt": "E01-P10-E036"
+      "latestVerifiedState": "CHANGED in Part 11.",
+      "lastChangedAt": "E01-P11-E039"
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -4204,7 +4478,10 @@
         "E01-P09-E033",
         "E01-P10-E034",
         "E01-P10-E035",
-        "E01-P10-E036"
+        "E01-P10-E036",
+        "E01-P11-E037",
+        "E01-P11-E038",
+        "E01-P11-E039"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -4319,6 +4596,14 @@
         {
           "at": "E01-P10-E035",
           "state": "Accepts Chotu's false mother-task explanation as ordinary forgetfulness."
+        },
+        {
+          "at": "E01-P11-E037",
+          "state": "Knows Chotu has called her beautiful for first time and recalls her established liking of Bantu compliments."
+        },
+        {
+          "at": "E01-P11-E038",
+          "state": "Explicitly states she trusts Chotu and interprets his 'just hands' response as proof of innocence."
         }
       ],
       "evolutionTimeline": [
@@ -4373,9 +4658,13 @@
         {
           "at": "E01-P10-E036",
           "delta": "After private curiosity in Part 9, current behaviour returns to ordinary care/hospitality and first shared meal."
+        },
+        {
+          "at": "E01-P11-E038",
+          "delta": "Trust in Chotu becomes verbally explicit after appearance discussion."
         }
       ],
-      "currentVerifiedState": "Through Part 10: private curiosity exists but behaviour is ordinary/covered hospitality; Chotu relation gains first shared lunch; she does not know his exit explanation is false.",
+      "currentVerifiedState": "Through Part 11: pleased/shy at Chotu's first beauty compliment; explicitly trusts him around ordinary sleeveless-arm visibility; unaware of his private little crush.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -4912,7 +5201,10 @@
         "E01-P08-E031",
         "E01-P10-E034",
         "E01-P10-E035",
-        "E01-P10-E036"
+        "E01-P10-E036",
+        "E01-P11-E037",
+        "E01-P11-E038",
+        "E01-P11-E039"
       ],
       "relationshipIds": [
         "REL-DHIKA-CHOTU",
@@ -4946,15 +5238,27 @@
         {
           "at": "E01-P10-E035",
           "state": "Knowingly gives false reason for prior abrupt exit; Dhika accepts it."
+        },
+        {
+          "at": "E01-P11-E038",
+          "state": "Hears Dhika say she trusts him but does not understand what she means by having 'proved' it."
+        },
+        {
+          "at": "E01-P11-E039",
+          "state": "Privately realizes a little crush; Dhika does not know."
         }
       ],
       "evolutionTimeline": [
         {
           "at": "E01-P10-E036",
           "delta": "Reluctant quick visit becomes longer shared meal/family conversation; he feels moved by Dhika joining floor seating."
+        },
+        {
+          "at": "E01-P11-E039",
+          "delta": "Kindness-based regard changes: first time he sees Dhika as a beautiful woman and forms a little crush."
         }
       ],
-      "currentVerifiedState": "Trusted adult delivery acquaintance; hides true prior-exit reason, accepts first shared meal after persuasion, comfortable/grateful social closeness grows.",
+      "currentVerifiedState": "Through Part 11: trusted adult acquaintance with private first crush; complimented Dhika, heard her trust statement, did not confess or touch.",
       "activeSecrets": [],
       "unresolvedHooks": [
         "Second noodles delivery."
@@ -5776,6 +6080,73 @@
         "Do not silently fix 10 PM.",
         "Meal/hospitality ≠ romance.",
         "Chotu lie does not by itself resolve exact prior view."
+      ],
+      "negativeCanonCarried": [
+        "Prior limits remain."
+      ]
+    },
+    "E01-P11": {
+      "sourceRange": "L195-L207",
+      "previousVerifiedState": {
+        "characterState": "Dhika/Chotu comfortable after first shared meal; prior private meanings undisclosed.",
+        "relationshipState": [
+          "Dhika↔Chotu trusted/brother-like surface + ambiguous prior event.",
+          "No explicit Chotu crush yet."
+        ],
+        "knowledgeState": "Chotu lie known to reader; Dhika private curiosity undisclosed.",
+        "boundaryState": "Dhika planned covered ordinary hospitality."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P11-E037",
+          "E01-P11-E038",
+          "E01-P11-E039"
+        ],
+        "exactChanges": [
+          "Chotu notices sleeveless home dress and calls Dhika beautiful for first time; Dhika feels shy and recalls she likes compliments.",
+          "Dhika explains she does not wear sleeveless outside, then explicitly says she trusts Chotu because he treats visible arms as ordinary; Chotu does not understand deeper meaning.",
+          "Chotu privately forms a little crush and first sees her as a beautiful woman; Dhika does not know; he waits in hall."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika self-esteem/compliment pleasure reinforced; trust in Chotu verbalized. Chotu private crush begins.",
+        "relationshipState": "Surface relationship = trust/innocent framing; hidden state = Chotu little crush + Dhika earlier private curiosity, neither mutually disclosed.",
+        "knowledgeState": "Dhika knows compliment/trust dialogue, not crush. Chotu knows his crush, not Dhika prior private thoughts.",
+        "boundaryState": "Trust is act-specific to ordinary visible arms/homewear; no blanket consent.",
+        "secrecyState": "Two-sided private meanings remain asymmetric/unspoken.",
+        "sourceAmbiguities": []
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-BANTU"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "knowledgeChanges": [
+        "E01-P11-E037",
+        "E01-P11-E038",
+        "E01-P11-E039"
+      ],
+      "escalationChanges": [
+        "Appearance talk + verbal trust + Chotu-side first crush."
+      ],
+      "hooksOpened": [
+        "What happens after compliment/trust boost while Chotu waits."
+      ],
+      "hooksResolved": [
+        "Chotu's first crush is now explicitly confirmed."
+      ],
+      "hooksCarried": [
+        "Dhika prior curiosity remains private."
+      ],
+      "negativeCanonIntroduced": [
+        "Dhika blush/compliment pleasure ≠ crush.",
+        "Trust ≠ blanket consent.",
+        "Chotu crush unspoken/not mutual.",
+        "No touch/confession."
       ],
       "negativeCanonCarried": [
         "Prior limits remain."
