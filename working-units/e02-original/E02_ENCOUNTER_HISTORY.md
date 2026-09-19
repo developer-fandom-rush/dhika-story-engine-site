@@ -156,3 +156,18 @@
 **Cumulative state through Part 8:** Marriage mein initiative delta add hota hai, disclosure nahi. Hidden external-route thoughts remain private; causal overclaim prohibited.
 
 **Evidence:** `E02-P08-E019` L77–80.
+
+---
+
+## Part 9 · L83–103
+**Previous verified state:** College route resumes; E01 Bantu/Bobby histories remain active.
+
+**Current Part delta:** `E020` Bantu compliment routine repeat hota hai with Dhika's public-volume boundary. `E021` Dhika prior Bobby ride/contact remember karke tease karti hai; Bobby hidden hip glimpse try karta hai; twins academic ambition batate hain; reader ko Bantu ka extra-time/access plan reveal hota hai. `E022` extra tuition request clear hota hai aur Dhika sincerely help agree karti hai.
+
+**Knowledge split:** Dhika overt academics jaanti hai. Reader/Bantu hidden access plan jaante hain. Bobby ka current hidden glance Dhika ko pata nahi. Bobby ko Bantu ke full plan ka exact knowledge source expand nahi karta.
+
+**Boundary state:** Academic help/compliment familiarity ≠ hidden-access consent, gaze permission ya physical permission.
+
+**Cumulative state through Part 9:** Tuition route opens. Bantu = genuine ambition + hidden access strategy. Bobby = separate gaze/awkward route. No new touch.
+
+**Evidence:** `E02-P09-E020` L83–88; `E021` L89–97; `E022` L98–103.

@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_8_ONLY",
-  "asOfPart": "P08",
+  "phase": "PHASE_2_PART_9_ONLY",
+  "asOfPart": "P09",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -572,6 +572,87 @@
         "Do not state a specific Uncle or Chotu fantasy; source does not name one.",
         "The position is not first-ever historically; the initiative is new."
       ]
+    },
+    {
+      "eventId": "E02-P09-E020",
+      "episode": "E02",
+      "part": "P09",
+      "sourceRange": "L83-L88",
+      "chronologyOrder": 20,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "At about noon Dhika is working attentively in staff room.",
+        "Bantu gives the familiar beauty compliment; Dhika recognizes him without looking up.",
+        "Dhika giggles/shushes him and asks him not to embarrass her by saying it loudly in front of others.",
+        "Bantu repeats the compliment quietly/near her; Dhika tells him enough/stop."
+      ],
+      "knowledgeAfter": [
+        "Dhika and Bantu share the established compliment routine. No third party is confirmed hearing the quieter exchange."
+      ],
+      "boundaryPermissionControl": [
+        "Verbal familiarity remains context-limited; Dhika explicitly manages public volume/embarrassment."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu recurring compliment route is reaffirmed in E02."
+      ],
+      "negativeCanon": [
+        "Compliment familiarity is not romantic/physical permission."
+      ]
+    },
+    {
+      "eventId": "E02-P09-E021",
+      "episode": "E02",
+      "part": "P09",
+      "sourceRange": "L89-L97",
+      "chronologyOrder": 21,
+      "eventType": "LIVE_ENCOUNTER_PLUS_NARRATED_MOTIVE",
+      "sourceSupportedFacts": [
+        "Bantu says they want to ask a favor.",
+        "Dhika remembers the prior ride and Bobby's waist/stomach contact and teases Bobby about needing another ride.",
+        "Bobby is startled and is trying to catch a glimpse of Dhika's hips.",
+        "Bantu explains both boys want to study Physics beyond the current curriculum and aim to become theoretical physicists.",
+        "Dhika is genuinely impressed and asks how she can help.",
+        "Narrator reveals Bantu already has a plan to spend more time with Dhika and needs Bobby's help; Bantu knows Dhika has a soft spot for Bobby because of his introvert nature and teasing dynamic."
+      ],
+      "knowledgeAfter": [
+        "Reader knows Bantu's dual academic/access motive and Bobby's hidden glance attempt. Dhika knows only the overt request/ambition and her own ride memory; she does not know Bantu's plan or Bobby's current glance attempt."
+      ],
+      "boundaryPermissionControl": [
+        "Academic admiration/helpfulness does not consent to hidden access motives or covert gaze."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu gains hidden access-planning layer; Dhika↔Bobby prior ride/contact history is consciously remembered by Dhika and Bobby attempts another covert glance."
+      ],
+      "negativeCanon": [
+        "Academic goal can be genuine while access motive is also hidden; do not collapse one into the other.",
+        "No new Bobby touch occurs."
+      ]
+    },
+    {
+      "eventId": "E02-P09-E022",
+      "episode": "E02",
+      "part": "P09",
+      "sourceRange": "L98-L103",
+      "chronologyOrder": 22,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Bobby bluntly asks if Dhika can teach them; Dhika is initially puzzled because she already teaches them.",
+        "Bantu clarifies they mean extra tuition after college.",
+        "Dhika regards both as polite/studious and is genuinely happy about their future plans.",
+        "Dhika says she would be very happy to help her two favorite students."
+      ],
+      "knowledgeAfter": [
+        "Dhika understands the academic tuition request, not Bantu's hidden access strategy."
+      ],
+      "boundaryPermissionControl": [
+        "Agreement in principle is academic help only; no home/sexual/romantic permission yet."
+      ],
+      "relationshipDelta": [
+        "Teacher-student goodwill advances into extra-tuition willingness."
+      ],
+      "negativeCanon": [
+        "Twins are not interchangeable: Bantu has explicit access plan; Bobby's exact knowledge of that full plan is not established."
+      ]
     }
   ],
   "relationships": [
@@ -676,6 +757,40 @@
         "E02-P05-E011"
       ],
       "latestVerifiedState": "Aunty hosts family and gives Uncle a stern look after his compliment; broader awareness remains unspecified."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BANTU",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P09-E020",
+        "E02-P09-E021",
+        "E02-P09-E022"
+      ],
+      "previousVerifiedState": "E01: recurring compliment familiarity + deceptive proximity-seeking history.",
+      "latestVerifiedState": "E02 P9: compliment routine reaffirmed; Bantu combines genuine academic ambition with a reader-known plan for more time/access; Dhika is unaware of hidden plan.",
+      "knowledgeSplit": "Reader/Bantu know access strategy; Dhika does not.",
+      "boundaryState": "Compliment/academic help are not broader permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BOBBY",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P09-E021",
+        "E02-P09-E022"
+      ],
+      "previousVerifiedState": "E01: slight preference + visibility/proximity/contact history.",
+      "latestVerifiedState": "E02 P9: Dhika remembers prior ride contact and teases him; Bobby tries to catch a hip glimpse; he joins tuition request. No new touch.",
+      "knowledgeSplit": "Dhika does not know current hidden glance attempt.",
+      "boundaryState": "No new body-contact permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P09-E022"
+      ],
+      "previousVerifiedState": "Positive teacher-student goodwill.",
+      "latestVerifiedState": "Dhika sincerely supports advanced Physics ambitions and offers extra help."
     }
   ],
   "characters": [
@@ -698,9 +813,12 @@
         "E02-P07-E016",
         "E02-P07-E017",
         "E02-P07-E018",
-        "E02-P08-E019"
+        "E02-P08-E019",
+        "E02-P09-E020",
+        "E02-P09-E021",
+        "E02-P09-E022"
       ],
-      "currentVerifiedState": "Shows new independent marital initiative after carrying undisclosed external-route thoughts; specific fantasy/cause is not stated.",
+      "currentVerifiedState": "Returns to attentive teacher role; enjoys/deflects Bantu compliment, remembers Bobby ride, and sincerely supports twins' academic ambition without knowing hidden access motive.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -745,6 +863,27 @@
         "E02-P06-E014"
       ],
       "currentVerifiedState": "Repeats/escalates covert garment misuse in current E02 time; unaware Dhika witnessed him."
+    },
+    {
+      "characterId": "CHAR-BANTU",
+      "canonicalName": "Bantu",
+      "eventIds": [
+        "E02-P09-E020",
+        "E02-P09-E021",
+        "E02-P09-E022"
+      ],
+      "currentVerifiedState": "Adult student; recurring complimenter; genuine theoretical-physics ambition coexists with planned extra access to Dhika.",
+      "activeSecrets": []
+    },
+    {
+      "characterId": "CHAR-BOBBY",
+      "canonicalName": "Bobby",
+      "eventIds": [
+        "E02-P09-E021",
+        "E02-P09-E022"
+      ],
+      "currentVerifiedState": "Adult student; startled by Dhika's ride tease, covertly attempts hip glimpse, and bluntly asks for extra teaching.",
+      "activeSecrets": []
     }
   ],
   "partSnapshots": {
@@ -883,6 +1022,24 @@
         ]
       },
       "cumulativeStateThroughPart": "Marriage gains a new voluntary initiative/reduced-shyness behavior change. John notices but does not know why. Chronology allows hidden emotional context to precede the change, but no specific fantasy/cause is stated."
+    },
+    "E02-P09": {
+      "sourceRange": "L83-L103",
+      "previousVerifiedState": "Part 8 ends with marriage initiative delta; college route resumes with E01 Bantu/Bobby histories still active.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P09-E020",
+          "E02-P09-E021",
+          "E02-P09-E022"
+        ],
+        "exactChanges": [
+          "Bantu compliment route returns.",
+          "Dhika remembers Bobby ride contact; Bobby attempts hidden hip glimpse.",
+          "Twins reveal theoretical-physics ambition; Bantu's hidden extra-time plan is reader-known.",
+          "Dhika sincerely agrees to help her favorite students in principle."
+        ]
+      },
+      "cumulativeStateThroughPart": "Teacher goodwill opens a tuition route. Bantu's academic ambition and hidden access motive coexist; Dhika knows only overt academics. Bobby remains a separate covert-gaze/awkward route; no new touch."
     }
   }
 }
