@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_6",
-  "asOfPart": "P06",
+  "phase": "PHASE_2_PART_7",
+  "asOfPart": "P07",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L117",
-    "currentPart": "L118-L128",
-    "nextUnprocessedRange": "L129-L141"
+    "previousProcessedParts": "L17-L128",
+    "currentPart": "L129-L141",
+    "nextUnprocessedRange": "L142-L158"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -2334,6 +2334,278 @@
         "Do not treat return as a preplanned personal setup."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P07-E026",
+      "episode": "E01",
+      "part": "P07",
+      "sourceRange": "L129-L132",
+      "chronologyOrder": 26,
+      "eventType": "LIVE_ENCOUNTER_PLUS_SOURCE_ANNOTATION",
+      "sceneTime": "about 10 minutes later",
+      "location": "Dhika's apartment",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-PAPPU"
+      ],
+      "sourceSupportedFacts": [
+        "While arranging groceries, Dhika becomes annoyed by the dupatta getting in the way and throws it onto the sofa where Pappu is sitting.",
+        "Pappu wraps the cloth around himself playfully; Dhika laughs with him and continues working.",
+        "When Chotu returns and rings the bell, Dhika tries to retrieve the dupatta but Pappu will not let go; she avoids pulling harder because he may fall.",
+        "Dhika thinks it is only her innocent Chotu, expects him to collect money/hand over the packet from outside and leave, and opens the door without recovering the dupatta.",
+        "L132 is an editorial/source visual reminder about the kurti image; it is not an in-story action."
+      ],
+      "derivedInterpretations": [
+        "Dhika's choice to open without the dupatta is situational and based on expected outside handoff + trust, not a planned visibility test."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "dupatta",
+          "actionType": "throws_on_sofa_then_attempts_retrieval",
+          "intentionality": "ordinary household action",
+          "physicality": "clothing handling",
+          "visibility": "Pappu present."
+        },
+        {
+          "actor": "Dhika",
+          "target": "door",
+          "actionType": "opens_without_dupatta",
+          "intentionality": "intentional based on outside-handoff expectation",
+          "physicality": "door opening",
+          "visibility": "Chotu outside."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Playful/ordinary home mood."
+      ],
+      "emotionalStateAfter": [
+        "Mild reluctance but trusts Chotu will leave quickly."
+      ],
+      "visibilityAndObservers": [
+        "Dhika knows she lacks dupatta. Exact Chotu visibility not yet established here."
+      ],
+      "knowledgeBefore": [
+        "Dhika expects outside handoff."
+      ],
+      "knowledgeDelta": [
+        "No confirmed clothing observation yet."
+      ],
+      "knowledgeAfter": [
+        "Dhika still expects practical short interaction at opening."
+      ],
+      "boundaryPermissionControl": [
+        "Opening door for expected packet/money exchange is not permission for unplanned entry or specific observation."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu practical trust expands situationally but remains bounded by her expected outside handoff."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "Condition changes from covered prior visit to no-dupatta opening because of circumstance/trust; not deliberate testing."
+      ],
+      "hooksOpened": [
+        "What Chotu notices/does on entry."
+      ],
+      "hooksResolved": [
+        "Chotu returns."
+      ],
+      "negativeCanon": [
+        "No deliberate display plan in L129-L132.",
+        "L132 editorial image reminder is not in-universe action."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P07-E027",
+      "episode": "E01",
+      "part": "P07",
+      "sourceRange": "L133-L136",
+      "chronologyOrder": 27,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same return visit",
+      "location": "Dhika's apartment entrance/hall",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU"
+      ],
+      "sourceSupportedFacts": [
+        "As soon as Dhika opens, Chotu goes inside without looking at her face, carrying noodles and chocolate for Pappu.",
+        "He goes to Pappu and starts playing; Dhika wonders why he ran inside, reluctantly closes the door, then receives noodles.",
+        "Chotu asks for water.",
+        "Chotu notices something a little different in Dhika's dress but does not mind it much.",
+        "Dhika is relieved that Chotu did not mind or notice and goes to the kitchen."
+      ],
+      "derivedInterpretations": [
+        "Chotu's entry differs from Dhika's outside-handoff expectation.",
+        "The source gives only an unspecified 'something different' notice; it does not yet confirm a specific view."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "apartment",
+          "actionType": "enters_and_goes_to_Pappu",
+          "intentionality": "intentional",
+          "physicality": "movement",
+          "visibility": "Dhika present."
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika's dress",
+          "actionType": "notices_unspecified_difference",
+          "intentionality": "observation",
+          "physicality": "none",
+          "visibility": "Exact feature not named."
+        }
+      ],
+      "dialogueMeaning": [
+        "Noodles delivered; water requested."
+      ],
+      "emotionalStateBefore": [
+        "Dhika expected outside handoff."
+      ],
+      "emotionalStateAfter": [
+        "Initially reluctant about entry, then relieved he seems not to meaningfully notice."
+      ],
+      "visibilityAndObservers": [
+        "Chotu notices an unspecified difference; no exact intimate visibility is confirmed in L133-L136."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows she lacks dupatta."
+      ],
+      "knowledgeDelta": [
+        "Dhika sees Chotu go inside; Chotu registers something different."
+      ],
+      "knowledgeAfter": [
+        "Dhika believes he did not meaningfully notice; source does not prove her belief is fully accurate."
+      ],
+      "boundaryPermissionControl": [
+        "Entry is initially unplanned from Dhika's perspective; after he is inside she closes door and continues interaction. This still does not create permission for specific observation."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves from expected outside handoff to accepted indoor presence under existing trust."
+      ],
+      "secrecyState": [
+        "Exact perception remains uncertain."
+      ],
+      "escalationOrNormalization": [
+        "Access condition expands; no confirmed appearance-focused route yet."
+      ],
+      "hooksOpened": [
+        "What happens during water/juice handoff."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "'Something different' ≠ confirmed exact intimate visibility.",
+        "Chotu does not enter while staring at her face/body in source."
+      ],
+      "qaAmbiguities": [
+        "Exact noticed difference is unspecified."
+      ]
+    },
+    {
+      "eventId": "E01-P07-E028",
+      "episode": "E01",
+      "part": "P07",
+      "sourceRange": "L137-L141",
+      "chronologyOrder": 28,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same visit",
+      "location": "kitchen/hall",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": [
+        "CHAR-BINDU-MAAMI"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU",
+        "REL-BINDU-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu follows to kitchen asking for water.",
+        "Dhika offers lemon juice as well; Chotu initially says no and says Maami may be looking for him.",
+        "Dhika insists it will not take long and tells him to sit with Pappu.",
+        "Chotu agrees, plays/wrestles with Pappu in hall while Dhika makes two glasses of juice and brings them."
+      ],
+      "derivedInterpretations": [
+        "After the unplanned entry, Dhika voluntarily extends ordinary hospitality and time together."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "offers_and_insists_on_juice",
+          "intentionality": "intentional hospitality",
+          "physicality": "none",
+          "visibility": "Chotu present."
+        },
+        {
+          "actor": "Chotu",
+          "target": "Pappu",
+          "actionType": "plays_in_hall",
+          "intentionality": "ordinary friendly play",
+          "physicality": "play",
+          "visibility": "Dhika nearby/in kitchen."
+        }
+      ],
+      "dialogueMeaning": [
+        "Chotu says he should leave; Dhika intentionally asks him to stay briefly for juice."
+      ],
+      "emotionalStateBefore": [
+        "Relief/ordinary trust."
+      ],
+      "emotionalStateAfter": [
+        "Visit becomes voluntarily extended."
+      ],
+      "visibilityAndObservers": [
+        "No confirmed specific visibility event yet."
+      ],
+      "knowledgeBefore": [
+        "Both know visit can end."
+      ],
+      "knowledgeDelta": [
+        "Chotu learns Dhika wants him to stay briefly."
+      ],
+      "knowledgeAfter": [
+        "Indoor presence/hospitality is now voluntarily accepted."
+      ],
+      "boundaryPermissionControl": [
+        "Permission expands socially to water/juice and brief stay; it does not establish permission for appearance-focused observation."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu ordinary hospitality/access expands in duration."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "Social access/time expands, not yet a confirmed appearance event."
+      ],
+      "hooksOpened": [
+        "Juice handoff while Chotu is floor-seated."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Hospitality ≠ specific observation permission.",
+        "Keep Pappu route ordinary family context."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -2995,27 +3267,32 @@
       "eventIds": [
         "E01-P06-E023",
         "E01-P06-E024",
-        "E01-P06-E025"
+        "E01-P06-E025",
+        "E01-P07-E026",
+        "E01-P07-E027",
+        "E01-P07-E028"
       ],
-      "publicSurfaceState": "Almost-year delivery familiarity, tips/tea, occasional invited entry, family advice; Dhika thinks of him like a brother.",
-      "privateState": "No later personal-interest meaning established through Part 6.",
-      "readerKnownState": "Trust history + active shawl choice.",
+      "publicSurfaceState": "Brother-like trust continues; second visit moves from expected outside handoff to accepted indoor presence, water/juice and brief stay.",
+      "privateState": "Dhika believes Chotu remains innocent and not meaningfully noticing the clothing difference; source gives only an unspecified difference notice.",
+      "readerKnownState": "Reader knows Dhika lacked dupatta, expected outside handoff, Chotu entered, noticed something unspecified, and Dhika then voluntarily extended hospitality.",
       "characterKnowledgeStates": {
-        "Dhika": "Brother-like trusted delivery acquaintance.",
-        "Chotu": "Polite/familiar; shares family problems."
+        "Dhika": "Knows she lacks dupatta; expected quick outside exchange; later accepts indoor stay and believes Chotu did not meaningfully notice.",
+        "Chotu": "Notices something a little different in dress but source does not specify exact perception."
       },
       "trustState": "High practical/familial familiarity.",
-      "boundaryState": "Entry/tea/delivery permission contextual; Dhika still consciously covers.",
+      "boundaryState": "Outside handoff expectation ≠ entry permission; after entry Dhika voluntarily accepts presence and extends juice hospitality. No specific observation permission.",
       "secrecyState": "None.",
-      "currentCeiling": "Brother-like trust + delivery/hospitality routine.",
+      "currentCeiling": "Brother-like trust with voluntarily extended indoor hospitality under changed clothing condition; exact visibility still unconfirmed.",
       "unresolvedHooks": [
-        "Second noodles return."
+        "Second noodles return.",
+        "Exact meaning of Chotu's 'something different' notice.",
+        "Juice handoff visibility outcome."
       ],
       "negativeCanon": [
         "Hospitality ≠ unlimited access."
       ],
-      "latestVerifiedState": "NEW in Part 6.",
-      "lastChangedAt": "E01-P06-E025"
+      "latestVerifiedState": "CHANGED in Part 7: situational no-dupatta opening + unplanned entry becomes voluntarily extended hospitality; exact visibility not yet confirmed.",
+      "lastChangedAt": "E01-P07-E028"
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -3030,7 +3307,9 @@
         "sourceRange": "L119-L120"
       },
       "eventIds": [
-        "E01-P06-E023"
+        "E01-P06-E023",
+        "E01-P07-E027",
+        "E01-P07-E028"
       ],
       "publicSurfaceState": "Chotu brings Pappu chocolate and briefly plays during visits.",
       "privateState": "No hidden state.",
@@ -3047,8 +3326,8 @@
       "negativeCanon": [
         "Keep this route in ordinary family context."
       ],
-      "latestVerifiedState": "NEW in Part 6.",
-      "lastChangedAt": "E01-P06-E023"
+      "latestVerifiedState": "CHANGED only by another ordinary play/chocolate visit in Part 7.",
+      "lastChangedAt": "E01-P07-E028"
     },
     {
       "relationshipId": "REL-BINDU-CHOTU",
@@ -3120,7 +3399,10 @@
         "E01-P05-E022",
         "E01-P06-E023",
         "E01-P06-E024",
-        "E01-P06-E025"
+        "E01-P06-E025",
+        "E01-P07-E026",
+        "E01-P07-E027",
+        "E01-P07-E028"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -3199,6 +3481,18 @@
         {
           "at": "E01-P06-E024",
           "state": "Consciously chooses shawl before opening."
+        },
+        {
+          "at": "E01-P07-E026",
+          "state": "Knows she lacks dupatta and expects only outside handoff."
+        },
+        {
+          "at": "E01-P07-E027",
+          "state": "Sees Chotu enter; believes he did not meaningfully notice clothing difference."
+        },
+        {
+          "at": "E01-P07-E028",
+          "state": "Voluntarily extends hospitality after entry."
         }
       ],
       "evolutionTimeline": [
@@ -3237,9 +3531,13 @@
         {
           "at": "E01-P05-E021",
           "delta": "Direct trace does not break neighbour trust because she rationalizes it as accidental."
+        },
+        {
+          "at": "E01-P07-E026",
+          "delta": "Trust creates a situational exception to usual covering because she expects a quick outside exchange."
         }
       ],
-      "currentVerifiedState": "Through Part 6: prior state + Chotu brother-like trusted delivery relation; presentation control active.",
+      "currentVerifiedState": "Through Part 7: still sees Chotu as innocent/brother-like; allows brief indoor hospitality despite no dupatta due situational trust; exact visibility remains uncertain.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -3765,7 +4063,10 @@
       "eventIds": [
         "E01-P06-E023",
         "E01-P06-E024",
-        "E01-P06-E025"
+        "E01-P06-E025",
+        "E01-P07-E026",
+        "E01-P07-E027",
+        "E01-P07-E028"
       ],
       "relationshipIds": [
         "REL-DHIKA-CHOTU",
@@ -3783,10 +4084,14 @@
         {
           "at": "E01-P06-E023",
           "state": "Shared brother-like/hospitality routine; later developments not yet present."
+        },
+        {
+          "at": "E01-P07-E027",
+          "state": "Notices something little different in Dhika's dress; exact noticed detail not stated."
         }
       ],
       "evolutionTimeline": [],
-      "currentVerifiedState": "Adult delivery worker; trusted/polite, brother-like in Dhika's view; familiar with Pappu.",
+      "currentVerifiedState": "Trusted adult delivery acquaintance; returns with noodles, enters, notices unspecified dress difference, then stays briefly for juice/play. No exact visibility confirmed through Part 7.",
       "activeSecrets": [],
       "unresolvedHooks": [
         "Second noodles delivery."
@@ -4302,6 +4607,74 @@
         "Chotu adult 19.",
         "No later attraction route in Part 6.",
         "Heavy-bag near-push ≠ aggression."
+      ],
+      "negativeCanonCarried": [
+        "Prior limits remain."
+      ]
+    },
+    "E01-P07": {
+      "sourceRange": "L129-L141",
+      "previousVerifiedState": {
+        "characterState": "Dhika trusts Chotu as innocent/brother-like and normally controls presentation with shawl.",
+        "relationshipState": [
+          "Dhika↔Chotu trusted delivery/hospitality routine.",
+          "Chotu↔Pappu ordinary familiarity."
+        ],
+        "knowledgeState": "No exact appearance-focused perception route yet.",
+        "boundaryState": "Prior indoor access contextual."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P07-E026",
+          "E01-P07-E027",
+          "E01-P07-E028"
+        ],
+        "exactChanges": [
+          "Dupatta becomes unavailable because Pappu keeps it; Dhika opens based on expectation of quick outside exchange.",
+          "Chotu unexpectedly enters and notices an unspecified difference; Dhika believes he did not meaningfully notice.",
+          "Dhika then voluntarily extends water/juice hospitality and brief stay."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika maintains innocence/trust model and situationally relaxes covering under a narrow practical assumption.",
+        "relationshipState": "Dhika↔Chotu access/duration expands socially; no confirmed intimate visibility yet.",
+        "knowledgeState": "Dhika knows she lacks dupatta; Chotu knows some dress difference; exact perception unresolved.",
+        "boundaryState": "Separate outside-handoff expectation, unplanned entry, and later voluntary hospitality. None equals blanket observation permission.",
+        "secrecyState": "Exact perception uncertain.",
+        "sourceAmbiguities": [
+          "L132 is source/editorial image reminder, not story action.",
+          "Exact 'something different' not named."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "knowledgeChanges": [
+        "E01-P07-E026",
+        "E01-P07-E027"
+      ],
+      "escalationChanges": [
+        "Social access/duration expands; no confirmed appearance event."
+      ],
+      "hooksOpened": [
+        "Juice-handoff visibility outcome."
+      ],
+      "hooksResolved": [
+        "Chotu returns with noodles."
+      ],
+      "hooksCarried": [
+        "Prior routes remain."
+      ],
+      "negativeCanonIntroduced": [
+        "No deliberate display plan.",
+        "Unplanned entry ≠ pre-authorized access.",
+        "'Something different' ≠ exact visibility fact."
       ],
       "negativeCanonCarried": [
         "Prior limits remain."

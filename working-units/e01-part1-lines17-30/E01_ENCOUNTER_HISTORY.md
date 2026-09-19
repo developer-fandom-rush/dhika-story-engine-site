@@ -718,3 +718,18 @@
 **Delta:** Adult Chotu identity + brother-like delivery history + contextual home-entry/hospitality + return hook.
 
 **Cumulative:** Dhika↔Chotu trust high but contextual. Later developments ko backward import nahi karna.
+
+
+---
+
+# Part 7 Encounter Events
+
+- **E01-P07-E026 · L129–132:** Dupatta groceries arrange karte waqt sofa par chala jata hai; Pappu playful way mein use pakad leta hai. Chotu return par Dhika retrieve nahi kar pati. Woh sirf quick outside handoff expect karke door kholti hai. L132 editorial visual reminder hai, story action nahi.
+- **E01-P07-E027 · L133–136:** Chotu unexpectedly andar chala jata hai, Pappu ke paas; noodles deta hai; “something little different” notice karta hai but exact detail source name nahi karta. Dhika relieved hai aur believe karti hai ki usne meaningfully notice nahi kiya.
+- **E01-P07-E028 · L137–141:** Water se juice hospitality tak visit voluntarily extend hoti hai; Chotu initially leave keh raha tha, Dhika insist karke brief stay karwati hai. Pappu route ordinary family play hi hai.
+
+# Part 7 cumulative snapshot
+
+**Boundary sequence:** expected outside handoff → unplanned entry → later voluntary indoor hospitality. In teen states ko merge mat karo.
+
+**Knowledge:** Dhika knows no dupatta; Chotu notices unspecified difference; exact visibility unresolved through L141.
