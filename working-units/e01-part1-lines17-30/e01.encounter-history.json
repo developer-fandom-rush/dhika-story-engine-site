@@ -6536,5 +6536,17 @@
       "rawStatus": "The exact referent is not named in E01 RAW L61-L64; this resolution comes from author/user canon clarification, not RAW."
     }
   ],
-  "episodeStatus": "CUMULATIVE_CANON_REPAIRED_THROUGH_E01_END"
+  "episodeStatus": "CUMULATIVE_CANON_REPAIRED_THROUGH_E01_END",
+  "imagePromptHandoff": {
+    "path": "working-units/e01-part1-lines17-30/E01_MISSING_IMAGE_PROMPTS.md",
+    "policy": "ADDITIONAL_ONLY_EXISTING_IMAGES_LOCKED",
+    "manualPriorityEventIds": [
+      "E01-P03-E012",
+      "E01-P08-E030",
+      "E01-P12-E041"
+    ],
+    "optionalContinuityEventIds": [
+      "E01-P04-E017"
+    ]
+  }
 }
