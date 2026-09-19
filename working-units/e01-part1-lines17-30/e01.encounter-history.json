@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_11_ONLY",
-  "asOfPart": "P11",
+  "phase": "PHASE_2_EPISODE_01_COMPLETE",
+  "asOfPart": "P12",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,7 +11,7 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "processedThrough": "L195-L207",
+    "processedThrough": "L208-L225",
     "currentPart": "L65-L70",
     "nextUnprocessedRange": null
   },
@@ -6535,5 +6535,6 @@
       "renderingRule": "Do not expose this exact referent in reader-facing Part HTML or E01_ENCOUNTER_HISTORY.md unless RAW/source text later names it explicitly. Reader-facing text should preserve the joke as an unnamed shared-context comparison.",
       "rawStatus": "The exact referent is not named in E01 RAW L61-L64; this resolution comes from author/user canon clarification, not RAW."
     }
-  ]
+  ],
+  "episodeStatus": "CUMULATIVE_CANON_REPAIRED_THROUGH_E01_END"
 }
