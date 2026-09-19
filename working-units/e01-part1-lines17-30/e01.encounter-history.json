@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_4",
-  "asOfPart": "P04",
+  "phase": "PHASE_2_PART_5",
+  "asOfPart": "P05",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L70",
-    "currentPart": "L71-L107",
-    "nextUnprocessedRange": "L108-L117"
+    "previousProcessedParts": "L17-L107",
+    "currentPart": "L108-L117",
+    "nextUnprocessedRange": "L118-L128"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -1847,6 +1847,256 @@
       "qaAmbiguities": [
         "Intent behind each micro-contact remains partly ambiguous."
       ]
+    },
+    {
+      "eventId": "E01-P05-E020",
+      "episode": "E01",
+      "part": "P05",
+      "sourceRange": "L108-L113",
+      "chronologyOrder": 20,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "about 5 PM",
+      "location": "apartment entrance/home",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-AUNTY",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN",
+        "CHAR-DHIKA-MOTHER"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-MOTHER"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika reaches her apartment; Aunty brings Pappu and Pappu runs/jumps to his mother.",
+        "Aunty says Pappu drank milk only in morning and later ate rice/curd.",
+        "Dhika says Pappu is 2.3 years old and she wants more solid food but her mother asked her to keep giving milk.",
+        "Aunty says mother's milk is good and she should continue.",
+        "Dhika politely says bye, goes inside with Pappu; John is expected at 7 PM; Pappu uses TV/YouTube; Dhika goes to refresh."
+      ],
+      "derivedInterpretations": [
+        "This is ordinary family/childcare handoff and feeding discussion; it does not reveal Uncle's hidden incident."
+      ],
+      "actions": [
+        {
+          "actor": "Aunty",
+          "target": "Dhika",
+          "actionType": "returns_Pappu_and_reports_feeding",
+          "intentionality": "intentional caregiving handoff",
+          "physicality": "child handoff context",
+          "visibility": "Dhika/Pappu present."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Pappu",
+          "actionType": "takes_child_home",
+          "intentionality": "intentional caregiving",
+          "physicality": "caregiving",
+          "visibility": "Aunty present."
+        }
+      ],
+      "dialogueMeaning": [
+        "Feeding routine is discussed; Dhika references her own mother's advice."
+      ],
+      "emotionalStateBefore": [
+        "No suspicion of neighbour wrongdoing."
+      ],
+      "emotionalStateAfter": [
+        "Normal/polite family routine continues."
+      ],
+      "visibilityAndObservers": [
+        "Aunty and Dhika share childcare info; Uncle not present."
+      ],
+      "knowledgeBefore": [
+        "Dhika unaware of bra incident."
+      ],
+      "knowledgeDelta": [
+        "No hidden-incident knowledge transfer."
+      ],
+      "knowledgeAfter": [
+        "Dhika remains unaware."
+      ],
+      "boundaryPermissionControl": [
+        "Childcare trust remains ordinary and separate from Uncle's hidden act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Aunty childcare trust reaffirmed.",
+        "Dhika↔Pappu maternal care resumes.",
+        "Dhika↔Mother reference added through feeding advice."
+      ],
+      "secrecyState": [
+        "Uncle incident remains hidden."
+      ],
+      "escalationOrNormalization": [
+        "No sexual/relationship escalation."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [
+        "Pappu returns to Dhika."
+      ],
+      "negativeCanon": [
+        "Aunty does not disclose or appear to know Uncle incident."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P05-E021",
+      "episode": "E01",
+      "part": "P05",
+      "sourceRange": "L114-L115",
+      "chronologyOrder": 21,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "shortly after returning home",
+      "location": "Dhika's bathroom",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-AUNTY",
+        "CHAR-UNCLE"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-UNCLE",
+        "REL-DHIKA-AUNTY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika sees one bra drying in sink and another lying on bathroom floor.",
+        "She moves the floor bra to the side of the tap on the sink.",
+        "She thinks only Aunty or Uncle come into her house to take milk from fridge.",
+        "She takes it lightly and assumes the bra may have slipped and fallen slowly; source says she does not suspect anything else."
+      ],
+      "derivedInterpretations": [
+        "Dhika discovers the physical trace from Part 3 but forms a false accidental explanation rather than identifying Uncle's act."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "bra_on_floor",
+          "actionType": "discovers_and_moves_to_sink_side",
+          "intentionality": "intentional after noticing",
+          "physicality": "object handling",
+          "visibility": "Dhika alone."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Unaware of cause."
+      ],
+      "emotionalStateAfter": [
+        "Mild question, then reassurance through accidental-slip assumption; no suspicion."
+      ],
+      "visibilityAndObservers": [
+        "Dhika sees trace; no witness."
+      ],
+      "knowledgeBefore": [
+        "Reader/Uncle know true cause; Dhika does not."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns bra was on floor but not why."
+      ],
+      "knowledgeAfter": [
+        "Dhika holds accidental-slip belief; reader knows it is false relative to E013."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika's innocent explanation does not retroactively create permission for the earlier act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle conscious trust remains unchanged despite direct trace; hidden asymmetry persists."
+      ],
+      "secrecyState": [
+        "True cause remains hidden."
+      ],
+      "escalationOrNormalization": [
+        "Consequence/knowledge beat, not a second Uncle incident."
+      ],
+      "hooksOpened": [
+        "Whether false explanation is later challenged."
+      ],
+      "hooksResolved": [
+        "Bra-floor discovery hook resolves: yes, she notices it."
+      ],
+      "negativeCanon": [
+        "Dhika does not suspect Uncle.",
+        "Trace discovery ≠ forgiveness/permission.",
+        "No second incident."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P05-E022",
+      "episode": "E01",
+      "part": "P05",
+      "sourceRange": "L116-L117",
+      "chronologyOrder": 22,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same evening",
+      "location": "Dhika's home",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": [
+        "CHAR-BINDU-MAAMI"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BINDU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika refreshes, changes into a kurti, realizes she forgot groceries, and phones Bindu Maami.",
+        "Bindu Maami is 53 and owns a small departmental store next to Dhika's apartment.",
+        "Dhika places the grocery order and returns to TV with Pappu."
+      ],
+      "derivedInterpretations": [
+        "This opens the grocery/delivery route that introduces Chotu in the next Part."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Bindu Maami",
+          "actionType": "places_grocery_order_by_phone",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Phone interaction."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Practical realization she forgot groceries."
+      ],
+      "emotionalStateAfter": [
+        "Order placed."
+      ],
+      "visibilityAndObservers": [
+        "Bindu referenced/phone contact; Chotu not yet present."
+      ],
+      "knowledgeBefore": [],
+      "knowledgeDelta": [
+        "Reader learns Bindu's age/store role."
+      ],
+      "knowledgeAfter": [],
+      "boundaryPermissionControl": [
+        "No home-entry permission for delivery person is created yet."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bindu practical customer/store relation introduced."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "No escalation."
+      ],
+      "hooksOpened": [
+        "Who delivers the order."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Chotu is not yet physically present in Part 5."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -1900,9 +2150,11 @@
       "eventIds": [
         "E01-P01-E001",
         "E01-P01-E003",
-        "E01-P01-E004"
+        "E01-P01-E004",
+        "E01-P05-E020",
+        "E01-P05-E022"
       ],
-      "publicSurfaceState": "Dhika is Pappu's mother and active caregiver.",
+      "publicSurfaceState": "Pappu returns to Dhika; maternal care/feeding/home routine resumes.",
       "privateState": "No hidden relationship state is established.",
       "readerKnownState": "Reader sees Dhika carry sleeping Pappu, arrange neighbour childcare, specify stored milk and begin wake-up instructions.",
       "characterKnowledgeStates": {
@@ -1919,8 +2171,8 @@
       "negativeCanon": [
         "Do not invent Pappu's awareness while he is sleeping."
       ],
-      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. Part 1 maternal/childcare state remains active; no new Pappu encounter in L31-L64. HOLD through Part 3.",
-      "lastChangedAt": "E01-P01-E004"
+      "latestVerifiedState": "CHANGED in Part 5: reunion after neighbour care + normal home routine.",
+      "lastChangedAt": "E01-P05-E020"
     },
     {
       "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
@@ -1970,11 +2222,13 @@
         "E01-P01-E002",
         "E01-P01-E003",
         "E01-P01-E004",
-        "E01-P02-E008"
+        "E01-P02-E008",
+        "E01-P05-E020",
+        "E01-P05-E021"
       ],
-      "publicSurfaceState": "Aunty treats Dhika and John like her own children; Dhika seeks Aunty during the childcare handoff.",
+      "publicSurfaceState": "Near-family neighbour/co-caregiver trust reaffirmed through Pappu return/feeding report; L52 clothing-visibility history remains.",
       "privateState": "No hidden Dhika↔Aunty conflict is established.",
-      "readerKnownState": "Reader knows Aunty is a trusted near-family neighbour and, as of L52, has not seen Dhika without a shawl in their apartments. Aunty remains unaware of Uncle's hidden state.",
+      "readerKnownState": "Reader knows Aunty caregiving role and that true bra-floor cause is Uncle's Part 3 act; Dhika/Aunty do not.",
       "characterKnowledgeStates": {
         "Dhika": "Knows Aunty as trusted near-family neighbour; does not know Uncle's hidden state.",
         "Aunty": "Treats Dhika and John like her own children; source states Uncle has especially not told Aunty his hidden state."
@@ -1982,15 +2236,15 @@
       "trustState": "Near-family/maternal-neighbour trust with childcare cooperation.",
       "boundaryState": "Near-family/childcare trust remains, while L52 adds a specific clothing/visibility history: even Aunty has not seen Dhika without a shawl in the apartments.",
       "secrecyState": "Uncle's hidden state is concealed from both Dhika and Aunty.",
-      "currentCeiling": "Trusted near-family neighbour/co-caregiver relationship plus explicit historical clothing-visibility boundary.",
+      "currentCeiling": "Trusted near-family/co-caregiver relation; no evidence Aunty knows bra incident.",
       "unresolvedHooks": [
         "Aunty's exact downstairs destination is unknown."
       ],
       "negativeCanon": [
         "Aunty does not witness the L22-L30 handoff in the source."
       ],
-      "latestVerifiedState": "CHANGED in Part 2 only by added visibility history: L52 says even Aunty has not seen Dhika without a shawl in their apartments; trust otherwise remains intact. HOLD through Part 3.",
-      "lastChangedAt": "E01-P02-E008"
+      "latestVerifiedState": "CHANGED in Part 5 by live childcare return/feeding discussion; no hidden-incident knowledge.",
+      "lastChangedAt": "E01-P05-E020"
     },
     {
       "relationshipId": "REL-DHIKA-UNCLE",
@@ -2010,19 +2264,20 @@
         "E01-P01-E003",
         "E01-P01-E004",
         "E01-P03-E012",
-        "E01-P03-E013"
+        "E01-P03-E013",
+        "E01-P05-E021"
       ],
       "publicSurfaceState": "Dhika treats Uncle as a trusted next-door elder in a household described as almost second guardians for her and John.",
       "privateState": "Concealed attraction/ogling now includes one documented covert used-bra handling/sniffing incident; breast-touch content is private imagination only.",
-      "readerKnownState": "Reader knows public trust, hidden attraction, Part 3 bra incident and bathroom-floor trace; Dhika remains unaware through L70.",
+      "readerKnownState": "Reader knows Uncle caused bra-floor trace; Dhika sees trace but assumes accidental fall and does not suspect him.",
       "characterKnowledgeStates": {
         "Dhika": "Knows the trusted-neighbour/childcare surface; does not know Uncle's hidden attraction/ogling.",
         "Uncle": "Knows his own hidden attraction/ogling and accepts Pappu's childcare handoff."
       },
       "trustState": "Dhika demonstrates practical childcare trust.",
       "boundaryState": "Childcare/milk/fridge access does not authorize underwear handling/sniffing.",
-      "secrecyState": "Uncle hides his attraction/ogling from Dhika, John and Aunty.",
-      "currentCeiling": "Public trusted elder; hidden habitual ogling + one covert used-bra incident; no repeat pattern yet.",
+      "secrecyState": "True Part 3 cause remains hidden despite Dhika discovering the trace.",
+      "currentCeiling": "Public trust still intact for Dhika; hidden reader-known breach + discovered-but-misinterpreted trace.",
       "unresolvedHooks": [
         "Whether the hidden state is ever discovered remains unresolved after Part 1.",
         "L27 remains incomplete but is a childcare-instruction ambiguity, not permission to fill gaps.",
@@ -2036,8 +2291,8 @@
         "Fantasy about breasts is not physical contact with Dhika.",
         "One incident is not normalized repetition."
       ],
-      "latestVerifiedState": "CHANGED in Part 3: hidden layer reaches one covert used-bra incident while Dhika remains absent/unaware.",
-      "lastChangedAt": "E01-P03-E013"
+      "latestVerifiedState": "CHANGED in knowledge consequence only: Dhika discovers trace but not cause; no second Uncle act.",
+      "lastChangedAt": "E01-P05-E021"
     },
     {
       "relationshipId": "REL-JOHN-AUNTY-UNCLE",
@@ -2419,6 +2674,72 @@
       ],
       "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 4.",
       "lastChangedAt": "E01-P04-E016"
+    },
+    {
+      "relationshipId": "REL-DHIKA-MOTHER",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-DHIKA-MOTHER"
+      ],
+      "relationshipType": "mother-daughter reference",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P05",
+        "sourceRange": "L110"
+      },
+      "eventIds": [
+        "E01-P05-E020"
+      ],
+      "publicSurfaceState": "Dhika cites her mother's feeding advice for Pappu.",
+      "privateState": "No additional state shown.",
+      "readerKnownState": "Reference only.",
+      "characterKnowledgeStates": {
+        "Dhika": "Remembers/follows mother's advice.",
+        "Mother": "Off-screen; exact current knowledge not shown."
+      },
+      "trustState": "Advice influence only.",
+      "boundaryState": "No direct event.",
+      "secrecyState": "None.",
+      "currentCeiling": "REFERENCE-ONLY.",
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "Do not invent broader dynamics."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 5.",
+      "lastChangedAt": "E01-P05-E020"
+    },
+    {
+      "relationshipId": "REL-DHIKA-BINDU",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-BINDU-MAAMI"
+      ],
+      "relationshipType": "neighbourhood customer/store-owner relation",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P05",
+        "sourceRange": "L116-L117"
+      },
+      "eventIds": [
+        "E01-P05-E022"
+      ],
+      "publicSurfaceState": "Dhika phones Bindu Maami's nearby store to order groceries.",
+      "privateState": "No hidden state.",
+      "readerKnownState": "Practical order relation.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows Maami/store.",
+        "Bindu": "Receives order."
+      },
+      "trustState": "Routine practical familiarity.",
+      "boundaryState": "Order does not itself grant home access to anyone.",
+      "secrecyState": "None.",
+      "currentCeiling": "Customer/store-owner relation.",
+      "unresolvedHooks": [
+        "Delivery pending."
+      ],
+      "negativeCanon": [],
+      "latestVerifiedState": "NEW in Part 5.",
+      "lastChangedAt": "E01-P05-E022"
     }
   ],
   "characters": [
@@ -2450,7 +2771,10 @@
         "E01-P04-E016",
         "E01-P04-E017",
         "E01-P04-E018",
-        "E01-P04-E019"
+        "E01-P04-E019",
+        "E01-P05-E020",
+        "E01-P05-E021",
+        "E01-P05-E022"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -2516,6 +2840,10 @@
         {
           "at": "E01-P04-E019",
           "state": "Experiences additional contact; does not know Bobby's full private motive/withholding."
+        },
+        {
+          "at": "E01-P05-E021",
+          "state": "Sees bra on floor, knows only Aunty/Uncle enter for milk, but adopts accidental-slip explanation and does not suspect wrongdoing."
         }
       ],
       "evolutionTimeline": [
@@ -2550,9 +2878,13 @@
         {
           "at": "E01-P04-E019",
           "delta": "First significant student-contact sequence produces chill/shyness without establishing romance or broader permission."
+        },
+        {
+          "at": "E01-P05-E021",
+          "delta": "Direct trace does not break neighbour trust because she rationalizes it as accidental."
         }
       ],
-      "currentVerifiedState": "Through Part 4: prior domestic/college baseline + awareness of Bobby's gaze/contact; Bantu's false ride motive remains unknown to her; teacher/student frame remains.",
+      "currentVerifiedState": "Through Part 5: prior college/contact history + normal maternal/home routine; discovers bra trace but falsely explains it as accidental, so Uncle secret remains hidden.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -2732,7 +3064,8 @@
         "E01-P01-E003",
         "E01-P01-E004",
         "E01-P02-E008",
-        "E01-P03-E013"
+        "E01-P03-E013",
+        "E01-P05-E020"
       ],
       "relationshipIds": [
         "REL-DHIKA-AUNTY",
@@ -2763,7 +3096,7 @@
         }
       ],
       "evolutionTimeline": [],
-      "currentVerifiedState": "Trusted near-family neighbour/co-caregiver; unaware of Uncle hidden state/Part 3 incident through L70.",
+      "currentVerifiedState": "Trusted caregiver; returns Pappu and reports feeding; no knowledge of Uncle incident established.",
       "activeSecrets": [
         "Uncle's hidden state is concealed from her."
       ],
@@ -2999,6 +3332,63 @@
       "negativeCanon": [
         "Do not treat Bantu's father-scolding claim as independently verified fact."
       ]
+    },
+    {
+      "characterId": "CHAR-DHIKA-MOTHER",
+      "canonicalName": "Dhika's mother",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P05",
+        "sourceRange": "L110"
+      },
+      "eventIds": [
+        "E01-P05-E020"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-MOTHER"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Dhika reports that her mother advised her to continue giving Pappu milk."
+      ],
+      "knowledgeTimeline": [],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "REFERENCE-ONLY via Dhika's feeding-advice report.",
+      "activeSecrets": [],
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "No broader mother-daughter state may be invented from this single reference."
+      ]
+    },
+    {
+      "characterId": "CHAR-BINDU-MAAMI",
+      "canonicalName": "Bindu Maami",
+      "aliases": [
+        "Maami"
+      ],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P05",
+        "sourceRange": "L116-L117"
+      },
+      "eventIds": [
+        "E01-P05-E022"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BINDU"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "53 years old.",
+        "Owns a small departmental store next to Dhika's apartment."
+      ],
+      "knowledgeTimeline": [],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Practical neighbourhood store contact; grocery order received.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "Delivery fulfillment."
+      ],
+      "negativeCanon": []
     }
   ],
   "partSnapshots": {
@@ -3368,6 +3758,77 @@
       ],
       "negativeCanonCarried": [
         "Prior Part 1-3 limits remain."
+      ]
+    },
+    "E01-P05": {
+      "sourceRange": "L108-L117",
+      "previousVerifiedState": {
+        "characterState": "Dhika returns from Part 4 ride/contact experience; Uncle incident remains hidden; bra trace exists on bathroom floor.",
+        "relationshipState": [
+          "Dhika↔Aunty childcare trust active.",
+          "Dhika↔Uncle public trust + hidden breach."
+        ],
+        "knowledgeState": "Reader/Uncle know bra cause; Dhika/Aunty/John do not.",
+        "boundaryState": "Prior Uncle act unpermitted."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P05-E020",
+          "E01-P05-E021",
+          "E01-P05-E022"
+        ],
+        "exactChanges": [
+          "Pappu returned by Aunty; feeding discussion and mother's advice reference.",
+          "Dhika discovers bra-floor trace but assumes accidental slip and does not suspect wrongdoing.",
+          "Dhika orders groceries from 53-year-old Bindu Maami."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Maternal/home routine restored; innocence/trust now includes false explanation of suspicious trace.",
+        "relationshipState": "Aunty childcare trust reaffirmed; Dhika↔Uncle conscious trust survives trace discovery; Bindu practical relation introduced.",
+        "knowledgeState": "Dhika knows bra was on floor but not true cause; reader retains cause advantage.",
+        "boundaryState": "False explanation does not retroactively create permission.",
+        "secrecyState": "Uncle incident remains concealed.",
+        "sourceAmbiguities": [
+          "Dhika's accidental-slip explanation is a belief, not source-confirmed physical cause."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-UNCLE",
+        "REL-DHIKA-MOTHER",
+        "REL-DHIKA-BINDU"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-AUNTY",
+        "CHAR-DHIKA-MOTHER",
+        "CHAR-BINDU-MAAMI"
+      ],
+      "knowledgeChanges": [
+        "E01-P05-E021"
+      ],
+      "escalationChanges": [
+        "No new Uncle act; this is consequence/knowledge beat."
+      ],
+      "hooksOpened": [
+        "Grocery delivery."
+      ],
+      "hooksResolved": [
+        "Bra-floor discovery: yes, but cause not discovered."
+      ],
+      "hooksCarried": [
+        "Uncle accountability/disclosure remains open."
+      ],
+      "negativeCanonIntroduced": [
+        "Dhika does not suspect Uncle.",
+        "Accidental-slip belief ≠ objective cause.",
+        "No second Uncle incident."
+      ],
+      "negativeCanonCarried": [
+        "All prior limits remain."
       ]
     }
   },

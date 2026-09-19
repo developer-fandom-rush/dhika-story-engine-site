@@ -684,3 +684,20 @@
 **Current Part delta:** Bantu access-seeking deception + twin proximity competition + Bobby gaze/contact sequence.
 
 **Cumulative state through Part 4:** Teacher/student frame intact, but knowledge/boundary history ab exact hai: Dhika Bantu lie nahi jaanti; Bobby contact experience jaanti hai; Bantu full Bobby details nahi jaanta. Transport/balance permission act-specific hai.
+
+
+---
+
+# Part 5 Encounter Events
+
+- **E01-P05-E020 · L108–113:** Aunty Pappu ko return karti hai, feeding report deti hai; Dhika apni mother ka milk-advice reference karti hai. John 7 PM expected hai; normal home routine resumes. Uncle incident disclose nahi hota.
+- **E01-P05-E021 · L114–115:** Dhika bathroom-floor bra trace discover karti hai. Woh jaanti hai Aunty/Uncle milk ke liye ghar aate hain, but source explicitly kehta hai woh accidental slip explanation accept karti hai aur suspect nahi karti. Reader true cause jaanta hai.
+- **E01-P05-E022 · L116–117:** Dhika groceries bhoolne par 53-year-old Bindu Maami ko order karti hai; delivery route open hota hai.
+
+# Part 5 cumulative snapshot
+
+**Previous:** Bra-floor trace exists; cause reader-known/ Dhika-unknown.
+
+**Delta:** Trace discovered but misinterpreted; childcare trust reaffirmed; Bindu route introduced.
+
+**Cumulative:** Dhika ka conscious neighbour trust intact. Trace discovery permission/forgiveness nahi; true cause still secret.
