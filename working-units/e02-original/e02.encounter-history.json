@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_13_ONLY",
-  "asOfPart": "P13",
+  "phase": "PHASE_2_EPISODE_02_COMPLETE",
+  "asOfPart": "P14",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -947,6 +947,112 @@
         "Private arousal ≠ authorization.",
         "Do not infer Dhika shares his reaction."
       ]
+    },
+    {
+      "eventId": "E02-P14-E034",
+      "episode": "E02",
+      "part": "P14",
+      "sourceRange": "L154-L155",
+      "chronologyOrder": 34,
+      "eventType": "LIVE_MORNING_SETUP",
+      "sourceSupportedFacts": [
+        "Dhika wakes still embarrassed about the twins incident and does not want to face them at college.",
+        "She applies for leave and wants something to change her mind; the one person she thinks of is Chotu.",
+        "She continues household work, breastfeeds/bathes/gets Pappu ready.",
+        "Aunty and Uncle are taking Pappu to a temple, as they often do; Aunty picks him up around 10 AM and they will return in the evening."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows she is avoiding twins and thinking of Chotu; Pappu/Aunty/Uncle are not shown receiving that internal reason."
+      ],
+      "boundaryPermissionControl": [
+        "Pappu's temple outing is ordinary childcare logistics and remains nonsexual."
+      ],
+      "relationshipDelta": [
+        "Dhika↔twins avoidance becomes behavior; Dhika↔Chotu becomes the chosen mental alternative; Aunty/Pappu childcare trust is reaffirmed."
+      ],
+      "negativeCanon": [
+        "Pappu remains strictly nonsexual household node.",
+        "No Chotu contact yet."
+      ]
+    },
+    {
+      "eventId": "E02-P14-E035",
+      "episode": "E02",
+      "part": "P14",
+      "sourceRange": "L156-L157",
+      "chronologyOrder": 35,
+      "eventType": "DELIBERATE_OPPORTUNITY_CREATION",
+      "sourceSupportedFacts": [
+        "After Pappu leaves, Dhika decides she wants to invite Chotu and ask about his sudden leave.",
+        "She calls Maami and orders items for delivery before confirming who is available.",
+        "Maami's response makes Dhika smile.",
+        "Dhika adds two Chocobars and a small cup of vanilla ice cream to the order."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows she is intentionally creating a delivery/conversation opportunity with Chotu. The exact content of Maami's response beyond causing a smile is not reproduced in these lines."
+      ],
+      "boundaryPermissionControl": [
+        "Creating a delivery/conversation opportunity is not consent to unshown physical/sexual behavior."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves from attempted check-in to deliberate opportunity creation for a future meeting."
+      ],
+      "negativeCanon": [
+        "Chotu still has not appeared on-page.",
+        "Do not invent Maami's exact words."
+      ]
+    },
+    {
+      "eventId": "E02-P14-E036",
+      "episode": "E02",
+      "part": "P14",
+      "sourceRange": "L158",
+      "chronologyOrder": 36,
+      "eventType": "INTERNAL_REFLECTION",
+      "sourceSupportedFacts": [
+        "Dhika expects Chotu will take at least 20 minutes and bathes before the delivery.",
+        "While bathing she remembers what she did to Chotu last time and worries she may have offended/frightened him, while also feeling some excitement.",
+        "She explicitly compares her reaction with Bantu/Bobby: she is excited around Chotu but horrified by the twins incident.",
+        "She reasons that she is very comfortable with Chotu because he confides worries and asks her advice."
+      ],
+      "knowledgeAfter": [
+        "Dhika recognizes her comfort is person-specific. She still does not know Chotu's actual leave reason/reaction."
+      ],
+      "boundaryPermissionControl": [
+        "Person-specific comfort/excitement does not create blanket future consent."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu internal route becomes explicitly differentiated from Dhika↔twins route."
+      ],
+      "negativeCanon": [
+        "Comfort ≠ consent.",
+        "Speculation about offending/frightening Chotu remains unverified."
+      ]
+    },
+    {
+      "eventId": "E02-P14-E037",
+      "episode": "E02",
+      "part": "P14",
+      "sourceRange": "L159",
+      "chronologyOrder": 37,
+      "eventType": "CLIFFHANGER_SETUP",
+      "sourceSupportedFacts": [
+        "Dhika finishes bathing, dries, puts on bra and panties, keeps wet hair, reaches for a kurti, then notices another dress she had recently seen."
+      ],
+      "knowledgeAfter": [
+        "Reader knows an outfit choice is about to occur, but the final outer outfit is not stated before Episode 02 ends."
+      ],
+      "boundaryPermissionControl": [
+        "No future clothing choice or permission may be inferred beyond the line."
+      ],
+      "relationshipDelta": [
+        "Episode ends before Chotu arrives and before final outfit selection."
+      ],
+      "negativeCanon": [
+        "Final outer outfit unknown.",
+        "No Chotu arrival in E02.",
+        "No future act or permission established."
+      ]
     }
   ],
   "relationships": [
@@ -1008,12 +1114,16 @@
       "e02EventIds": [
         "E02-P01-E001",
         "E02-P04-E010",
-        "E02-P11-E026"
+        "E02-P11-E026",
+        "E02-P14-E034",
+        "E02-P14-E035",
+        "E02-P14-E036",
+        "E02-P14-E037"
       ],
       "previousVerifiedState": "E01 end: one deliberate Dhika-side visual test + Chotu gaze + mutually noticed eye contact; no touch/confession/romance; full motives asymmetric.",
-      "latestVerifiedState": "E02 P11: Dhika actively tries to see/check Chotu via normal delivery request; learns he is on sudden leave; reason unknown.",
-      "knowledgeSplit": "Dhika speculates; Maami knows leave fact only; twins do not know her thought.",
-      "boundaryState": "No new contact/permission occurs."
+      "latestVerifiedState": "E02 end: Dhika deliberately creates an opportunity to meet/talk with Chotu and explicitly recognizes person-specific comfort/excitement; Chotu has not yet arrived and his leave reason remains unknown.",
+      "knowledgeSplit": "Dhika knows her intent/comfort; Chotu's reason/reaction unknown.",
+      "boundaryState": "Opportunity/comfort is not future blanket consent."
     },
     {
       "relationshipId": "REL-JOHN-UNCLE",
@@ -1053,9 +1163,10 @@
       "relationshipId": "REL-DHIKA-AUNTY",
       "inheritedFromE01": true,
       "e02EventIds": [
-        "E02-P05-E011"
+        "E02-P05-E011",
+        "E02-P14-E034"
       ],
-      "latestVerifiedState": "Aunty hosts family and gives Uncle a stern look after his compliment; broader awareness remains unspecified."
+      "latestVerifiedState": "E02 P14: Aunty takes Pappu to temple as part of established childcare/family routine."
     },
     {
       "relationshipId": "REL-DHIKA-BANTU",
@@ -1157,9 +1268,13 @@
         "E02-P12-E030",
         "E02-P13-E031",
         "E02-P13-E032",
-        "E02-P13-E033"
+        "E02-P13-E033",
+        "E02-P14-E034",
+        "E02-P14-E035",
+        "E02-P14-E036",
+        "E02-P14-E037"
       ],
-      "currentVerifiedState": "Chooses marital disclosure for twins accident, rejects John's 'nice show' joke, remains embarrassed despite reassurance; continues withholding Chotu/Uncle secrets.",
+      "currentVerifiedState": "Ends E02 avoiding twins, deliberately seeking a Chotu conversation opportunity, explicitly recognizing Chotu-specific comfort/excitement, while final outfit and next encounter remain unresolved.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -1197,7 +1312,7 @@
     {
       "characterId": "CHAR-CHOTU",
       "eventIds": [],
-      "currentVerifiedState": "Physically absent from E02 through Part 11; sudden leave is reported, reason unknown."
+      "currentVerifiedState": "Expected by Dhika via delivery setup but still absent by E02 end; sudden leave reason unknown."
     },
     {
       "characterId": "CHAR-UNCLE",
@@ -1461,6 +1576,27 @@
         ]
       },
       "cumulativeStateThroughPart": "Marriage supports disclosure of twins accident. John now knows that route, but Chotu and Uncle secrets remain withheld. His reassurance/joke/private arousal do not change consent status or erase Dhika's embarrassment."
+    },
+    "E02-P14": {
+      "sourceRange": "L154-L159",
+      "previousVerifiedState": "Part 13: Dhika disclosed twins accident to John but remains embarrassed; Chotu sudden leave reason unknown.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P14-E034",
+          "E02-P14-E035",
+          "E02-P14-E036",
+          "E02-P14-E037"
+        ],
+        "exactChanges": [
+          "Dhika takes college leave and thinks of Chotu as distraction.",
+          "Aunty/Uncle take Pappu to temple, creating a household window.",
+          "Dhika deliberately creates a Chotu delivery/conversation opportunity and adds treats.",
+          "Dhika explicitly contrasts Chotu-specific comfort/excitement with twins horror.",
+          "Episode ends before final outfit choice or Chotu arrival."
+        ]
+      },
+      "cumulativeStateThroughPart": "Episode 02 ends with active opportunity creation, not completed encounter. Chotu leave reason, final outfit, Chotu arrival/reaction, and future twins tuition consequences remain open. Person-specific comfort is recognized but not blanket consent."
     }
-  }
+  },
+  "episodeStatus": "CUMULATIVE_CANON_REPAIRED_THROUGH_E02_END"
 }

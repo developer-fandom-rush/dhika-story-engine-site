@@ -231,3 +231,18 @@
 **Cumulative state through Part 13:** Marriage disclosure channel strong hai, but selective secrecy persists. Dhika's embarrassment fully resolve nahi hoti.
 
 **Evidence:** `E02-P13-E031` L140–146; `E032` L147–152; `E033` L153.
+
+---
+
+## Part 14 · L154–159 · EPISODE END
+**Previous verified state:** Twins accident John ko disclose ho chuka hai; Dhika still embarrassed hai. Chotu sudden leave reason unknown.
+
+**Current Part delta:** `E034` Dhika college leave leti hai, twins face nahi karna chahti aur mind divert karne ke liye Chotu ko think karti hai; Aunty/Uncle Pappu ko temple le jaate hain. `E035` Dhika intentionally Chotu delivery/conversation opportunity create karti hai aur treats add karti hai. `E036` bath mein woh explicitly compare karti hai: Chotu ke saath comfort/excitement, twins accident par horror; reason woh Chotu ki trust/confiding familiarity ko maanta hai. `E037` final outfit-choice cliffhanger set hota hai.
+
+**Knowledge split:** Dhika apna intent/comfort jaanti hai. Chotu ka leave reason/reaction still unknown. Final outfit source mein nahi aata.
+
+**Boundary state:** Conversation/delivery opportunity + person-specific comfort ≠ future sexual/physical consent.
+
+**Cumulative state through Episode 02:** Episode completed encounter par nahi, deliberate opportunity setup par end hota hai. Open: Chotu arrival/reason/reaction, final outfit, twins Wednesday tuition consequence.
+
+**Evidence:** `E02-P14-E034` L154–155; `E035` L156–157; `E036` L158; `E037` L159.
