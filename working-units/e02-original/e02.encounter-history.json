@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_11_ONLY",
-  "asOfPart": "P11",
+  "phase": "PHASE_2_PART_12_ONLY",
+  "asOfPart": "P12",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -760,6 +760,116 @@
         "Chotu does not appear in Part 11.",
         "Twins do not learn the E01 Chotu event."
       ]
+    },
+    {
+      "eventId": "E02-P12-E027",
+      "episode": "E02",
+      "part": "P12",
+      "sourceRange": "L120-L125",
+      "chronologyOrder": 27,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Dhika carries groceries herself while twins follow to apartment; she refuses their offer because she does not want to trouble students.",
+        "At the door Dhika asks Bobby to find the key in her handbag because her hands are occupied.",
+        "Bobby stands close at her side, searches the bag, privately notices she smells like baby powder, and opens the door.",
+        "Dhika lets Bantu and Bobby enter first."
+      ],
+      "knowledgeAfter": [
+        "Bobby privately notices Dhika's scent; he does not say it. Dhika is not shown knowing this thought."
+      ],
+      "boundaryPermissionControl": [
+        "Key retrieval and entering the apartment are practical/logistical permissions only."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bobby gains close-proximity key-access moment without body touch; twins enter home under location/tuition logistics."
+      ],
+      "negativeCanon": [
+        "Private scent thought is not spoken.",
+        "No intimate permission is created by handbag/key access."
+      ]
+    },
+    {
+      "eventId": "E02-P12-E028",
+      "episode": "E02",
+      "part": "P12",
+      "sourceRange": "L126-L130",
+      "chronologyOrder": 28,
+      "eventType": "ACCIDENTAL_VISIBILITY_EVENT",
+      "sourceSupportedFacts": [
+        "In kitchen/entry transition, Dhika's bag slips and pulls down her saree pallu.",
+        "RAW says approximately one-third of her breasts become visible through the blouse/pallu accident; when she nervously bends to pick the bag first, exposure increases before she fixes the pallu seconds later.",
+        "Dhika is horrified; Bobby is wide-eyed/open-mouthed and continues looking toward her chest.",
+        "Bantu feels awkward and averts his gaze.",
+        "Dhika excuses herself and runs into bedroom."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows both students witnessed the accident. Bobby and Bantu each know what they saw and their own reactions. John does not know yet."
+      ],
+      "boundaryPermissionControl": [
+        "Exposure is accidental and unwanted. Academic/home access does not authorize looking; Dhika restores coverage and withdraws."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bobby gains a witnessed accidental exposure with Bobby staring; Dhika↔Bantu gains the same accident but Bantu averts gaze."
+      ],
+      "negativeCanon": [
+        "Exposure is not deliberate.",
+        "Nipple visibility is not established.",
+        "Exact maximum beyond the RAW approximate description should not be invented.",
+        "No new body touch occurs."
+      ]
+    },
+    {
+      "eventId": "E02-P12-E029",
+      "episode": "E02",
+      "part": "P12",
+      "sourceRange": "L131-L137",
+      "chronologyOrder": 29,
+      "eventType": "AFTERMATH_LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "The boys stand outside/inside not knowing what to do while Dhika is in bedroom nearly crying and blaming herself for grabbing bag before pallu.",
+        "After fixing her clothing Dhika returns.",
+        "Bantu says it is getting late and they will leave; Bobby is already gone.",
+        "Bantu falsely/coveringly says Bobby went to get the bike ready because he cannot tell Dhika Bobby ran out.",
+        "Dhika does not believe him but says nothing; Bantu leaves quickly."
+      ],
+      "knowledgeAfter": [
+        "Bantu knows Bobby ran out and conceals that from Dhika. Dhika suspects his explanation is false but does not know exact reason beyond the accident."
+      ],
+      "boundaryPermissionControl": [
+        "After accidental exposure Dhika repairs clothing and the students leave; no permission expands."
+      ],
+      "relationshipDelta": [
+        "Bantu takes a damage-control/exit role; Bobby withdraws abruptly; a new knowledge/concealment layer appears between twins and Dhika."
+      ],
+      "negativeCanon": [
+        "Bobby does not remain for discussion.",
+        "Bantu's 'bike ready' explanation is not objective truth."
+      ]
+    },
+    {
+      "eventId": "E02-P12-E030",
+      "episode": "E02",
+      "part": "P12",
+      "sourceRange": "L138-L139",
+      "chronologyOrder": 30,
+      "eventType": "INTERNAL_REACTION",
+      "sourceSupportedFacts": [
+        "Dhika worries that both boys saw her breasts and fears they might tell someone.",
+        "She reassures herself they are sweet boys and will not get her into trouble; she interprets Bobby as probably frightened and Bantu as trustworthy.",
+        "She spends the evening thinking about what to say next time and wants to tell John, while feeling embarrassed and afraid of his reaction."
+      ],
+      "knowledgeAfter": [
+        "Dhika has an internal fear/trust model; she still does not know each boy's exact private motive/reaction beyond what she saw."
+      ],
+      "boundaryPermissionControl": [
+        "Trust that they will keep quiet does not convert the accidental exposure into permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔twins now carries accidental-exposure secrecy/reputation concern; Dhika plans marital disclosure."
+      ],
+      "negativeCanon": [
+        "Fear/trust about secrecy is not consent to future visibility."
+      ]
     }
   ],
   "relationships": [
@@ -875,12 +985,16 @@
         "E02-P09-E021",
         "E02-P09-E022",
         "E02-P10-E023",
-        "E02-P10-E024"
+        "E02-P10-E024",
+        "E02-P12-E027",
+        "E02-P12-E028",
+        "E02-P12-E029",
+        "E02-P12-E030"
       ],
       "previousVerifiedState": "E01: recurring compliment familiarity + deceptive proximity-seeking history.",
-      "latestVerifiedState": "E02 P10: Bantu secures a recurring tuition schedule and same-day home orientation under academic framing; hidden access motive remains unknown to Dhika.",
-      "knowledgeSplit": "Reader/Bantu know access strategy; Dhika does not.",
-      "boundaryState": "Academic/home access only."
+      "latestVerifiedState": "E02 P12: Bantu witnesses accidental exposure, averts gaze, then manages exit/cover explanation. Dhika fears but trusts him not to create trouble.",
+      "knowledgeSplit": "Bantu knows accident/Bobby ran; Dhika knows accident but not full private reactions.",
+      "boundaryState": "Exposure unwanted/accidental; no future permission."
     },
     {
       "relationshipId": "REL-DHIKA-BOBBY",
@@ -889,12 +1003,16 @@
         "E02-P09-E021",
         "E02-P09-E022",
         "E02-P10-E023",
-        "E02-P10-E024"
+        "E02-P10-E024",
+        "E02-P12-E027",
+        "E02-P12-E028",
+        "E02-P12-E029",
+        "E02-P12-E030"
       ],
       "previousVerifiedState": "E01: slight preference + visibility/proximity/contact history.",
-      "latestVerifiedState": "E02 P10: Bobby is included in three-days-per-week tuition and home orientation; no new gaze/touch event.",
-      "knowledgeSplit": "Dhika does not know current hidden glance attempt.",
-      "boundaryState": "Academic/home access only."
+      "latestVerifiedState": "E02 P12: close key retrieval + private scent thought precede accidental exposure; Bobby stares, becomes overwhelmed and runs out.",
+      "knowledgeSplit": "Bobby knows what he saw; Dhika knows he was staring; his full inner motive is not expanded beyond source.",
+      "boundaryState": "No intimate permission; exposure accidental and immediately repaired."
     },
     {
       "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
@@ -952,9 +1070,13 @@
         "E02-P10-E023",
         "E02-P10-E024",
         "E02-P10-E025",
-        "E02-P11-E026"
+        "E02-P11-E026",
+        "E02-P12-E027",
+        "E02-P12-E028",
+        "E02-P12-E029",
+        "E02-P12-E030"
       ],
-      "currentVerifiedState": "Actively checks for Chotu and worries his sudden leave may be connected to E01 event; recognizes no verified reason.",
+      "currentVerifiedState": "Accidental unwanted exposure to twins causes horror/shame/reputation fear; she distinguishes this sharply from Chotu-specific comfort and plans to tell John.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -1007,9 +1129,13 @@
       "eventIds": [
         "E02-P09-E020",
         "E02-P09-E021",
-        "E02-P09-E022"
+        "E02-P09-E022",
+        "E02-P12-E027",
+        "E02-P12-E028",
+        "E02-P12-E029",
+        "E02-P12-E030"
       ],
-      "currentVerifiedState": "Adult student; recurring complimenter; genuine theoretical-physics ambition coexists with planned extra access to Dhika.",
+      "currentVerifiedState": "Witnesses accident, averts gaze, handles exit and conceals Bobby's abrupt run-out with a cover explanation.",
       "activeSecrets": []
     },
     {
@@ -1017,9 +1143,13 @@
       "canonicalName": "Bobby",
       "eventIds": [
         "E02-P09-E021",
-        "E02-P09-E022"
+        "E02-P09-E022",
+        "E02-P12-E027",
+        "E02-P12-E028",
+        "E02-P12-E029",
+        "E02-P12-E030"
       ],
-      "currentVerifiedState": "Adult student; startled by Dhika's ride tease, covertly attempts hip glimpse, and bluntly asks for extra teaching.",
+      "currentVerifiedState": "Private scent notice during key retrieval; stares during accidental exposure; leaves abruptly before discussion.",
       "activeSecrets": []
     }
   ],
@@ -1209,6 +1339,25 @@
         ]
       },
       "cumulativeStateThroughPart": "Chotu absence becomes a live mystery. Dhika actively seeks/checks him, but her explanation remains speculation. Twins remain outside and uninformed."
+    },
+    "E02-P12": {
+      "sourceRange": "L120-L139",
+      "previousVerifiedState": "Twins are being shown Dhika's home for future tuition; Chotu is absent; academic/home access is purpose-limited.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P12-E027",
+          "E02-P12-E028",
+          "E02-P12-E029",
+          "E02-P12-E030"
+        ],
+        "exactChanges": [
+          "Bobby key retrieval + private scent observation.",
+          "Bag/pallu accident creates accidental breast visibility; Bobby stares, Bantu averts; Dhika horrified.",
+          "Bobby runs out; Bantu gives cover explanation and exits.",
+          "Dhika fears reputation impact and plans to tell John."
+        ]
+      },
+      "cumulativeStateThroughPart": "Twins share knowledge of an accidental unwanted exposure, but reactions diverge. Dhika's Chotu-specific comfort does not generalize; she is horrified with twins. No touch/permission. John remains uninformed until Part 13."
     }
   }
 }

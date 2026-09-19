@@ -201,3 +201,18 @@
 **Cumulative state through Part 11:** Chotu absence becomes an unresolved mystery; Dhika passive memory se active check-in attempt tak aati hai.
 
 **Evidence:** `E02-P11-E026` L114–119.
+
+---
+
+## Part 12 · L120–139
+**Previous verified state:** Twins home-location dekhne aa rahe hain under academic/tuition frame. Home access purpose-limited hai.
+
+**Current Part delta:** `E027` Bobby practical key retrieval karta hai aur privately baby-powder scent notice karta hai. `E028` bag/pallu accident se unwanted breast visibility hoti hai; RAW approx one-third initial visibility describe karta hai aur nervous bend se exposure momentarily increase hota hai before Dhika fixes pallu. Bobby stares; Bantu gaze avert karta hai; Dhika horrified hokar bedroom run karti hai. `E029` Bobby bahar nikal jata hai, Bantu cover explanation deta hai aur exit manage karta hai. `E030` Dhika reputation/secrecy fear process karti hai aur John ko batane ka plan banati hai.
+
+**Knowledge split:** Dhika + both twins know accident occurred. Each boy knows own reaction. Bantu knows Bobby ran out; Dhika suspects his bike explanation. John abhi nahi jaanta.
+
+**Boundary state:** Accident = unwanted/accidental visibility. No body touch, no permission, no nipple visibility established. Home/academic access ≠ gaze permission.
+
+**Cumulative state through Part 12:** Same visibility category Chotu-route jaisa treat nahi karna: twins incident par Dhika horror/fear feel karti hai. Reactions diverge—Bobby stares/runs, Bantu averts/manages exit.
+
+**Evidence:** `E02-P12-E027` L120–125; `E028` L126–130; `E029` L131–137; `E030` L138–139.
