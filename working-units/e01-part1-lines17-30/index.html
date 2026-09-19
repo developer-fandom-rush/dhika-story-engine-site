@@ -12,7 +12,7 @@
 <script>
 const buttons=[...document.querySelectorAll('.parts button')],frame=document.getElementById('partView'),valid=new Set(buttons.map(b=>b.dataset.key));
 function currentKey(){return buttons.find(b=>b.classList.contains('active'))?.dataset.key||'part1'}
-const BUILD_REV='e01-p9p11-progression-b6fc8452-8c30a5ab-ba0d3d89-r1';
+const BUILD_REV='e01-p9p12-4040-align-7c339f37-r1';
 function openPart(key){if(!valid.has(key))key='part1';const button=buttons.find(b=>b.dataset.key===key);buttons.forEach(b=>b.classList.toggle('active',b===button));const src=/^part\d+$/.test(key)?button.dataset.file+'?v='+BUILD_REV:button.dataset.file;if(frame.getAttribute('src')!==src)frame.src=src;history.replaceState(null,'','#'+key)}
 buttons.forEach(b=>b.addEventListener('click',()=>openPart(b.dataset.key)));
 frame.addEventListener('load',()=>{try{const doc=frame.contentDocument,key=currentKey();if(key.startsWith('part')){['Scope / Status','QA'].forEach(name=>{doc.querySelector(`nav button[data-tab="${name}"]`)?.remove();doc.querySelector(`.panel[data-panel="${name}"]`)?.remove();});const hash=decodeURIComponent(doc.location.hash.slice(1));if(hash==='Scope / Status'||hash==='QA'){doc.querySelector('nav button[data-tab="40/40 Reading"]')?.click();}}
