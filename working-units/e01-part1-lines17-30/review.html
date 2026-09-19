@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DHIKA Story Engine · Episode 01 Review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f2e9;color:#24302b;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:20;background:#1d332b;color:#fff;padding:16px 20px;box-shadow:0 2px 8px #0002}
+h1{margin:0;font-size:20px}header p{margin:5px 0 0;color:#cbd8d2;font-size:12px}
+.parts{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.parts button{border:1px solid #507166;background:#29473c;color:#fff;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:800;cursor:pointer}.parts button.active{background:#fff;color:#1d332b}
+.status{padding:9px 20px;background:#ebe6da;border-bottom:1px solid #d9d2c4;font-size:12px;color:#59645f}.status b{color:#315b4c}
+#loading{padding:24px;font-weight:700}.error{margin:18px;padding:16px;background:#fee;border:1px solid #d88;border-radius:10px;white-space:pre-wrap}
+iframe{display:none;width:100%;min-height:900px;border:0;background:#f5f2e9}
+</style>
+</head>
+<body>
+<header><h1>DHIKA Story Engine · Episode 01</h1><p>Commit-pinned review router · story/source files are loaded read-only from GitHub raw content.</p><div class="parts"><button class="active" data-file="prologue.html">Prologue · L1–16</button>
+<button data-file="part1.html">Part 1</button>
+<button data-file="part2.html">Part 2</button>
+<button data-file="part3.html">Part 3</button>
+<button data-file="part4.html">Part 4</button>
+<button data-file="part5.html">Part 5</button>
+<button data-file="part6.html">Part 6</button>
+<button data-file="part7.html">Part 7</button>
+<button data-file="part8.html">Part 8</button>
+<button data-file="part9.html">Part 9</button>
+<button data-file="part10.html">Part 10</button>
+<button data-file="part11.html">Part 11</button>
+<button data-file="part12.html">Part 12</button></div></header>
+<div class="status"><b>Review source:</b> e01b794cb3af · Prologue + 12 Parts</div>
+<div id="loading">Loading first Part…</div>
+<iframe id="partView" title="Episode 01 story review"></iframe>
+<script>
+const SOURCE_SHA="e01b794cb3af0b3d986f0a8f5d3901b5144a6ac2";
+const ROOT='https://raw.githubusercontent.com/developer-fandom-rush/dhika-story-engine-site/'+SOURCE_SHA+'/working-units/e01-part1-lines17-30/';
+const REPO_RAW='https://raw.githubusercontent.com/developer-fandom-rush/dhika-story-engine-site/'+SOURCE_SHA+'/';
+const buttons=[...document.querySelectorAll('.parts button')];
+const frame=document.getElementById('partView'),loading=document.getElementById('loading');
+function utf8Text(res){return res.text()}
+async function openPart(button){
+  buttons.forEach(b=>b.classList.toggle('active',b===button));
+  loading.className=''; loading.textContent='Loading '+button.textContent+'…'; loading.style.display='block'; frame.style.display='none';
+  try{
+    const url=ROOT+button.dataset.file;
+    const res=await fetch(url,{cache:'no-store'});
+    if(!res.ok) throw new Error('GitHub raw returned '+res.status+' for '+url);
+    let html=await utf8Text(res);
+    const base='<base href="'+ROOT+'">';
+    html=html.replace(/<head([^>]*)>/i,'<head$1>'+base);
+    html=html.replaceAll('https://developer-fandom-rush.github.io/dhika-story-engine-site/',REPO_RAW);
+    frame.srcdoc=html;
+    frame.style.display='block'; loading.style.display='none';
+    history.replaceState(null,'','#'+button.dataset.file.replace('.html',''));
+  }catch(err){
+    loading.className='error'; loading.textContent='Could not load this Part.\n'+err.message;
+    loading.style.display='block';
+  }
+}
+buttons.forEach(b=>b.addEventListener('click',()=>openPart(b)));
+frame.addEventListener('load',()=>{
+  try{
+    const doc=frame.contentDocument;
+    const resize=()=>frame.style.height=Math.max(900,doc.documentElement.scrollHeight||0,doc.body?.scrollHeight||0)+'px';
+    resize(); new ResizeObserver(resize).observe(doc.body);
+  }catch(e){}
+});
+const initial=buttons.find(b=>b.dataset.file===location.hash.slice(1)+'.html')||buttons[0];
+openPart(initial);
+</script>
+</body></html>
