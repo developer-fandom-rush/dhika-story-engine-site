@@ -186,3 +186,18 @@
 **Cumulative state through Part 10:** Recurring home tuition approved under explicit academic frame; home access concrete hai but purpose-limited.
 
 **Evidence:** `E02-P10-E023` L104–109; `E024` L110–112; `E025` L113.
+
+---
+
+## Part 11 · L114–119
+**Previous verified state:** Twins Dhika ke ghar ka location dekhne follow kar rahe hain; Chotu E02 mein abhi physically appear nahi hua.
+
+**Current Part delta:** `E026` Dhika store par groceries ke saath specifically Chotu ko deliver karne bolti hai. Maami sudden leave report karti hai. Dhika privately sochti hai ki shayad E01 mein jo usne dekha usse Chotu afraid hua ho—but yeh speculation hai.
+
+**Knowledge split:** Maami knows leave fact. Dhika has a theory, not proof. Twins outside wait karte hain aur Chotu-related thought nahi jaante.
+
+**Boundary state:** Normal delivery/check-in attempt only; no new permission/contact.
+
+**Cumulative state through Part 11:** Chotu absence becomes an unresolved mystery; Dhika passive memory se active check-in attempt tak aati hai.
+
+**Evidence:** `E02-P11-E026` L114–119.

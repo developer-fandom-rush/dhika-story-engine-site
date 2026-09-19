@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_10_ONLY",
-  "asOfPart": "P10",
+  "phase": "PHASE_2_PART_11_ONLY",
+  "asOfPart": "P11",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -732,6 +732,34 @@
       "negativeCanon": [
         "John's approval does not authorize hidden motives or future non-academic behavior."
       ]
+    },
+    {
+      "eventId": "E02-P11-E026",
+      "episode": "E02",
+      "part": "P11",
+      "sourceRange": "L114-L119",
+      "chronologyOrder": 26,
+      "eventType": "LIVE_ENCOUNTER_PLUS_INTERNAL_SPECULATION",
+      "sourceSupportedFacts": [
+        "Dhika rides home with twins following and stops at Bindu Maami's store for groceries and to check on Chotu.",
+        "She tells twins to wait outside, orders items and asks Maami to have Chotu deliver them.",
+        "Maami says Chotu is on sudden leave.",
+        "Dhika privately wonders whether he became afraid of what he saw and took leave, then decides to carry the items herself."
+      ],
+      "knowledgeAfter": [
+        "Maami provides only the fact of sudden leave. Dhika's fear-based explanation is speculation. Twins do not receive the Chotu-related thought."
+      ],
+      "boundaryPermissionControl": [
+        "Attempting to arrange a normal delivery/check-in does not create any new physical/sexual permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu shifts from passive memory to active check-in attempt; his absence becomes an unresolved route."
+      ],
+      "negativeCanon": [
+        "Chotu's leave reason is unknown.",
+        "Chotu does not appear in Part 11.",
+        "Twins do not learn the E01 Chotu event."
+      ]
     }
   ],
   "relationships": [
@@ -789,12 +817,13 @@
       "inheritedFromE01": true,
       "e02EventIds": [
         "E02-P01-E001",
-        "E02-P04-E010"
+        "E02-P04-E010",
+        "E02-P11-E026"
       ],
       "previousVerifiedState": "E01 end: one deliberate Dhika-side visual test + Chotu gaze + mutually noticed eye contact; no touch/confession/romance; full motives asymmetric.",
-      "latestVerifiedState": "No live E02 contact yet; Chotu's E01 compliment/test history privately influences Dhika's confidence and excitement.",
-      "knowledgeSplit": "Dhika knows this influence; Chotu has no new E02 knowledge.",
-      "boundaryState": "E01 act-specific visibility does not create future/general permission."
+      "latestVerifiedState": "E02 P11: Dhika actively tries to see/check Chotu via normal delivery request; learns he is on sudden leave; reason unknown.",
+      "knowledgeSplit": "Dhika speculates; Maami knows leave fact only; twins do not know her thought.",
+      "boundaryState": "No new contact/permission occurs."
     },
     {
       "relationshipId": "REL-JOHN-UNCLE",
@@ -885,6 +914,15 @@
       "previousVerifiedState": "E01 reference-only father relation.",
       "latestVerifiedState": "E02 P10: Bantu reports father approved one hour three days weekly while prioritizing current subjects.",
       "knowledgeSplit": "This is Bantu-reported approval; source does not independently show father speaking."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BINDU",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P11-E026"
+      ],
+      "previousVerifiedState": "Practical store/customer relation.",
+      "latestVerifiedState": "E02 P11: Dhika orders groceries and asks for Chotu delivery; Maami reports his sudden leave."
     }
   ],
   "characters": [
@@ -913,9 +951,10 @@
         "E02-P09-E022",
         "E02-P10-E023",
         "E02-P10-E024",
-        "E02-P10-E025"
+        "E02-P10-E025",
+        "E02-P11-E026"
       ],
-      "currentVerifiedState": "Sets practical tuition limits, agrees to home orientation, then checks plan with John; unaware of Bantu hidden strategy.",
+      "currentVerifiedState": "Actively checks for Chotu and worries his sudden leave may be connected to E01 event; recognizes no verified reason.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -950,7 +989,7 @@
     {
       "characterId": "CHAR-CHOTU",
       "eventIds": [],
-      "currentVerifiedState": "Absent from E02 P1; E01 final gaze-awareness state carries forward."
+      "currentVerifiedState": "Physically absent from E02 through Part 11; sudden leave is reported, reason unknown."
     },
     {
       "characterId": "CHAR-UNCLE",
@@ -1155,6 +1194,21 @@
         ]
       },
       "cumulativeStateThroughPart": "Recurring home tuition is approved within an academic frame. Dhika controls schedule/location access; John knows/approves overt plan. Hidden Bantu motive remains undisclosed; no sexual/romantic permission."
+    },
+    "E02-P11": {
+      "sourceRange": "L114-L119",
+      "previousVerifiedState": "Part 10: twins are following Dhika home for location orientation; Chotu has not appeared in E02 but remains psychologically active.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P11-E026"
+        ],
+        "exactChanges": [
+          "Dhika deliberately checks store/asks for Chotu delivery.",
+          "Maami reports sudden leave.",
+          "Dhika speculates leave may be connected to E01 visual event, but source does not confirm reason."
+        ]
+      },
+      "cumulativeStateThroughPart": "Chotu absence becomes a live mystery. Dhika actively seeks/checks him, but her explanation remains speculation. Twins remain outside and uninformed."
     }
   }
 }
