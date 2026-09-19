@@ -623,3 +623,44 @@
 **Current Part delta:** Dhika attention-aware/modest baseline, Bantu normalized verbal route, Bobby shy/slight-favourite state, Sharmi best-friend contrast aur Raj reference add hote hain.
 
 **Cumulative state through Part 2:** Future Part ko domestic history aur college/social history dono carry karne hain; HOLD ka matlab forgotten nahi. Exact ambiguities ko resolve kiye bina carry karo.
+
+
+---
+
+# Part 3 Encounter Events
+
+## E01-P03-E012 — L65–67 — LIVE_ENCOUNTER
+
+**Previous verified state:** Part 1 se Uncle ka concealed attraction + habitual ogling reader-known hai; Part 2 mein route HOLD raha. Dhika/John/Aunty unaware hain.
+
+**Exactly kya hua:** Uncle Dhika ki used bra handle/fiddle karta hai; Dhika ke breasts aur imagined touching ka private fantasy dekhta hai; phir bra ke inside sniff karta hai.
+
+**Critical distinction:** Breast-touch imagery **imagination** hai. Real physical act bra handling/sniffing hai; Dhika scene mein present nahi.
+
+**Knowledge split:** Uncle + reader know; Dhika/John/Aunty do not.
+
+**Boundary state:** Childcare/milk/fridge access underwear handling/sniffing ki permission nahi.
+
+**Carry-forward:** First documented covert garment incident; one incident only.
+
+**Evidence:** `E01-P03-E012` · **L65–67**
+
+## E01-P03-E013 — L68–70 — INTERRUPTION / TRACE
+
+**Exactly kya hua:** Aunty bulati hai; Uncle response deta hai; Dhika ki bra bathroom floor par drop karta hai; milk bottle lekar apne ghar chala jata hai.
+
+**Who saw what:** Aunty ki call interruption hai, witness evidence nahi.
+
+**Knowledge split:** Uncle + reader trace know; Dhika ne L70 tak discover nahi kiya.
+
+**Carry-forward:** Bathroom-floor bra physical trace.
+
+**Evidence:** `E01-P03-E013` · **L68–70**
+
+# Part 3 cumulative snapshot
+
+**Previous verified state:** Public trusted-neighbour surface + hidden attraction/habitual ogling.
+
+**Current Part delta:** `E012` covert used-bra incident; `E013` interruption + trace.
+
+**Cumulative state through Part 3:** Reader actual covert incident jaanta hai; Dhika/John/Aunty nahi. One incident ko repeat pattern mat banao.
