@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_7",
-  "asOfPart": "P07",
+  "phase": "PHASE_2_PART_8",
+  "asOfPart": "P08",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L128",
-    "currentPart": "L129-L141",
-    "nextUnprocessedRange": "L142-L158"
+    "previousProcessedParts": "L17-L141",
+    "currentPart": "L142-L158",
+    "nextUnprocessedRange": "L159-L170"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -2606,6 +2606,281 @@
         "Keep Pappu route ordinary family context."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P08-E029",
+      "episode": "E01",
+      "part": "P08",
+      "sourceRange": "L142-L145",
+      "chronologyOrder": 29,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same visit",
+      "location": "hall",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika giggles and bends down to hand juice to floor-seated Chotu.",
+        "She sees Chotu's laugh vanish and sees him take the glass with a deep/thoughtful look.",
+        "Dhika does not realize the clothing issue until she stands up; then she remembers she bent without dupatta and wonders if he saw inside her dress.",
+        "She looks at Chotu, who is still in a dream-like/stunned state, and realizes something is wrong but cannot be sure."
+      ],
+      "derivedInterpretations": [
+        "From Dhika's perspective the bend was an ordinary juice handoff, not a planned exposure.",
+        "Chotu's reaction supports that he noticed something, but exact visible anatomy remains unconfirmed in this range."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "bends_to_hand_juice",
+          "intentionality": "ordinary hospitality",
+          "physicality": "movement",
+          "visibility": "Chotu faces her."
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "reaction_changes_to_stunned/deep_thought",
+          "intentionality": "reaction",
+          "physicality": "none",
+          "visibility": "Dhika notices after/during handoff."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Dhika is giggling/comfortable."
+      ],
+      "emotionalStateAfter": [
+        "Delayed realization → uncertainty/concern."
+      ],
+      "visibilityAndObservers": [
+        "Dhika knows she bent without dupatta only after standing; Chotu's exact view is not specified."
+      ],
+      "knowledgeBefore": [
+        "Dhika does not anticipate visibility issue."
+      ],
+      "knowledgeDelta": [
+        "Dhika suspects he may have seen inside her dress based on own realization + his reaction."
+      ],
+      "knowledgeAfter": [
+        "Dhika uncertain; Chotu's exact perception remains unstated."
+      ],
+      "boundaryPermissionControl": [
+        "Ordinary bend/hospitality does not constitute deliberate display or permission to inspect clothing."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu acquires first uncertain appearance/visibility event."
+      ],
+      "secrecyState": [
+        "Exact perception is withheld."
+      ],
+      "escalationOrNormalization": [
+        "First uncertain visibility event on Chotu route; not deliberate repetition."
+      ],
+      "hooksOpened": [
+        "What exactly Chotu saw and why he is stunned."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No planned display.",
+        "Exact visible anatomy not confirmed."
+      ],
+      "qaAmbiguities": [
+        "Reaction implies notice but exact view remains unspecified."
+      ]
+    },
+    {
+      "eventId": "E01-P08-E030",
+      "episode": "E01",
+      "part": "P08",
+      "sourceRange": "L146-L151",
+      "chronologyOrder": 30,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "immediately after",
+      "location": "hall",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika repeatedly asks Chotu why he looks stunned, including calling his name louder.",
+        "Chotu initially does not respond, then says nothing happened, gulps the juice, says it is getting late and leaves.",
+        "Chotu leaves without taking the money owed for the groceries."
+      ],
+      "derivedInterpretations": [
+        "Chotu avoids explaining his reaction; this preserves a knowledge gap rather than confirming exact content of what he saw."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "questions_stunned_reaction",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "direct conversation"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "avoids_explanation_and_leaves",
+          "intentionality": "intentional exit",
+          "physicality": "movement",
+          "visibility": "Dhika present"
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika seeks explanation; Chotu gives none."
+      ],
+      "emotionalStateBefore": [
+        "Dhika uncertain/concerned."
+      ],
+      "emotionalStateAfter": [
+        "Chotu evasive and leaves abruptly; Dhika remains unsure."
+      ],
+      "visibilityAndObservers": [
+        "No new exact-view detail is verbalized."
+      ],
+      "knowledgeBefore": [
+        "Dhika suspects something was seen."
+      ],
+      "knowledgeDelta": [
+        "Chotu does not disclose perception."
+      ],
+      "knowledgeAfter": [
+        "Dhika remains uncertain; reader also lacks exact anatomy confirmation."
+      ],
+      "boundaryPermissionControl": [
+        "No new permission state."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu now includes an unspoken ambiguous event + abrupt exit."
+      ],
+      "secrecyState": [
+        "Chotu's exact perception/reason remains private/unstated."
+      ],
+      "escalationOrNormalization": [
+        "Ambiguity/avoidance deepens; no new physical act."
+      ],
+      "hooksOpened": [
+        "Why Chotu left without payment."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not convert silence/evasion into exact anatomy certainty."
+      ],
+      "qaAmbiguities": [
+        "Exact reason for abrupt exit is not verbally stated."
+      ]
+    },
+    {
+      "eventId": "E01-P08-E031",
+      "episode": "E01",
+      "part": "P08",
+      "sourceRange": "L152-L158",
+      "chronologyOrder": 31,
+      "eventType": "INTERNAL_REFLECTION_PLUS_PHONE",
+      "sceneTime": "after Chotu leaves",
+      "location": "Dhika's home / phone call",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU",
+        "CHAR-BINDU-MAAMI",
+        "CHAR-CHOTU-MOTHER"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-BINDU",
+        "REL-BINDU-CHOTU",
+        "REL-CHOTU-MOTHER"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika is unsure whether Chotu saw cleavage, bra, or something more.",
+        "She feels a little frightened and at the same time a little excited; it is a new experience and she does not know what to feel.",
+        "She realizes Chotu left without taking payment and calls Maami.",
+        "Maami says payment can wait, Chotu wanted to leave soon, and he works hard/goes home to help his mother.",
+        "Dhika feels bad for him and rationalizes that his dream-like state was probably about his family situation; she stops pursuing the thought and returns to work."
+      ],
+      "derivedInterpretations": [
+        "Fear and excitement coexist; neither cancels the other.",
+        "Dhika's later family-based explanation is a comforting rationalization, not proof of what Chotu was thinking or saw."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "considers_possible_visibility",
+          "intentionality": "private thought",
+          "physicality": "none",
+          "visibility": "reader sees internal narration"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Bindu Maami",
+          "actionType": "calls_about_unpaid_money/Chotu",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "phone call"
+        }
+      ],
+      "dialogueMeaning": [
+        "Maami supplies practical work/family explanation; Dhika uses it to stop worrying."
+      ],
+      "emotionalStateBefore": [
+        "Uncertainty + fear/excitement."
+      ],
+      "emotionalStateAfter": [
+        "Concern for Chotu + rationalization; thought shelved."
+      ],
+      "visibilityAndObservers": [
+        "No new evidence resolves what Chotu saw."
+      ],
+      "knowledgeBefore": [
+        "Dhika uncertain; Chotu perception unstated."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns Chotu left store early and helps his mother."
+      ],
+      "knowledgeAfter": [
+        "Dhika adopts family-situation explanation; exact visibility still unresolved."
+      ],
+      "boundaryPermissionControl": [
+        "Her later mixed response does not retroactively turn accidental visibility into deliberate permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu gains a private Dhika-side mixed reaction but no mutual spoken interpretation."
+      ],
+      "secrecyState": [
+        "Dhika keeps her fear/excitement private; Chotu perception remains undisclosed."
+      ],
+      "escalationOrNormalization": [
+        "First Dhika-side mixed bodily/emotional response to possible visibility; no deliberate repeat yet."
+      ],
+      "hooksOpened": [
+        "Whether memory returns; future meeting."
+      ],
+      "hooksResolved": [
+        "Unpaid money temporarily deferred until later."
+      ],
+      "negativeCanon": [
+        "Exact view unresolved.",
+        "Fear and excitement coexist.",
+        "Rationalization ≠ objective proof."
+      ],
+      "qaAmbiguities": [
+        "What Chotu actually saw remains unknown in Part 8."
+      ]
     }
   ],
   "relationships": [
@@ -3232,7 +3507,8 @@
       "eventIds": [
         "E01-P05-E022",
         "E01-P06-E023",
-        "E01-P06-E025"
+        "E01-P06-E025",
+        "E01-P08-E031"
       ],
       "publicSurfaceState": "Dhika phones Bindu Maami's nearby store to order groceries.",
       "privateState": "No hidden state.",
@@ -3249,8 +3525,8 @@
         "Delivery pending."
       ],
       "negativeCanon": [],
-      "latestVerifiedState": "CHANGED in Part 6 through order fulfillment and missing-item correction.",
-      "lastChangedAt": "E01-P06-E025"
+      "latestVerifiedState": "CHANGED in Part 8: payment deferred after Dhika calls; Maami says Chotu left early.",
+      "lastChangedAt": "E01-P08-E031"
     },
     {
       "relationshipId": "REL-DHIKA-CHOTU",
@@ -3270,29 +3546,34 @@
         "E01-P06-E025",
         "E01-P07-E026",
         "E01-P07-E027",
-        "E01-P07-E028"
+        "E01-P07-E028",
+        "E01-P08-E029",
+        "E01-P08-E030",
+        "E01-P08-E031"
       ],
       "publicSurfaceState": "Brother-like trust continues; second visit moves from expected outside handoff to accepted indoor presence, water/juice and brief stay.",
-      "privateState": "Dhika believes Chotu remains innocent and not meaningfully noticing the clothing difference; source gives only an unspecified difference notice.",
-      "readerKnownState": "Reader knows Dhika lacked dupatta, expected outside handoff, Chotu entered, noticed something unspecified, and Dhika then voluntarily extended hospitality.",
+      "privateState": "Part 8 adds an accidental/uncertain visibility event from Dhika's perspective and a private mixed fear/excitement response; Chotu's exact perception remains unstated.",
+      "readerKnownState": "Reader sees Dhika's ordinary bend, Chotu's stunned reaction/evasion, Dhika's uncertainty among cleavage/bra/more, and later family-based rationalization.",
       "characterKnowledgeStates": {
-        "Dhika": "Knows she lacks dupatta; expected quick outside exchange; later accepts indoor stay and believes Chotu did not meaningfully notice.",
-        "Chotu": "Notices something a little different in dress but source does not specify exact perception."
+        "Dhika": "Knows she bent without dupatta, sees Chotu stunned, and is unsure what he saw; privately feels fear + excitement, then rationalizes.",
+        "Chotu": "His reaction/evasion is shown, but exact perceived detail and internal reasoning are not stated."
       },
       "trustState": "High practical/familial familiarity.",
-      "boundaryState": "Outside handoff expectation ≠ entry permission; after entry Dhika voluntarily accepts presence and extends juice hospitality. No specific observation permission.",
-      "secrecyState": "None.",
-      "currentCeiling": "Brother-like trust with voluntarily extended indoor hospitality under changed clothing condition; exact visibility still unconfirmed.",
+      "boundaryState": "Visibility condition is accidental from Dhika's perspective; no deliberate display or spoken invitation. Mixed response does not retroactively change that.",
+      "secrecyState": "Dhika's mixed response private; Chotu's exact perception undisclosed.",
+      "currentCeiling": "Trusted brother-like surface + first uncertain visibility event + private Dhika mixed response; exact view remains unresolved.",
       "unresolvedHooks": [
         "Second noodles return.",
         "Exact meaning of Chotu's 'something different' notice.",
-        "Juice handoff visibility outcome."
+        "Juice handoff visibility outcome.",
+        "Whether memory returns after rationalization.",
+        "What happens at next Chotu meeting."
       ],
       "negativeCanon": [
         "Hospitality ≠ unlimited access."
       ],
-      "latestVerifiedState": "CHANGED in Part 7: situational no-dupatta opening + unplanned entry becomes voluntarily extended hospitality; exact visibility not yet confirmed.",
-      "lastChangedAt": "E01-P07-E028"
+      "latestVerifiedState": "CHANGED in Part 8: ambiguous visibility/reaction event + Dhika fear/excitement, with exact perception unresolved.",
+      "lastChangedAt": "E01-P08-E031"
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -3343,7 +3624,8 @@
       },
       "eventIds": [
         "E01-P06-E023",
-        "E01-P06-E025"
+        "E01-P06-E025",
+        "E01-P08-E031"
       ],
       "publicSurfaceState": "Chotu works at the store and handles deliveries.",
       "privateState": "No hidden state.",
@@ -3360,8 +3642,41 @@
         "Missing noodles correction."
       ],
       "negativeCanon": [],
-      "latestVerifiedState": "NEW in Part 6.",
-      "lastChangedAt": "E01-P06-E025"
+      "latestVerifiedState": "CHANGED in Part 8: Maami reports Chotu asked to leave early and she let him go.",
+      "lastChangedAt": "E01-P08-E031"
+    },
+    {
+      "relationshipId": "REL-CHOTU-MOTHER",
+      "participants": [
+        "CHAR-CHOTU",
+        "CHAR-CHOTU-MOTHER"
+      ],
+      "relationshipType": "family support/reference",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P08",
+        "sourceRange": "L156"
+      },
+      "eventIds": [
+        "E01-P08-E031"
+      ],
+      "publicSurfaceState": "Maami says Chotu goes home to help his mother.",
+      "privateState": "No additional state.",
+      "readerKnownState": "Family responsibility reference.",
+      "characterKnowledgeStates": {
+        "Chotu": "Family responsibility implied by his actions/background.",
+        "Mother": "Off-screen."
+      },
+      "trustState": "Family support context.",
+      "boundaryState": "N/A",
+      "secrecyState": "None.",
+      "currentCeiling": "REFERENCE-ONLY.",
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "Do not invent broader family dynamics."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 8.",
+      "lastChangedAt": "E01-P08-E031"
     }
   ],
   "characters": [
@@ -3402,7 +3717,10 @@
         "E01-P06-E025",
         "E01-P07-E026",
         "E01-P07-E027",
-        "E01-P07-E028"
+        "E01-P07-E028",
+        "E01-P08-E029",
+        "E01-P08-E030",
+        "E01-P08-E031"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -3493,6 +3811,14 @@
         {
           "at": "E01-P07-E028",
           "state": "Voluntarily extends hospitality after entry."
+        },
+        {
+          "at": "E01-P08-E029",
+          "state": "After standing, realizes she bent without dupatta and suspects Chotu may have seen inside dress."
+        },
+        {
+          "at": "E01-P08-E031",
+          "state": "Remains unsure whether cleavage/bra/more was visible; learns Chotu left early/helped mother; adopts family-situation rationalization."
         }
       ],
       "evolutionTimeline": [
@@ -3535,9 +3861,13 @@
         {
           "at": "E01-P07-E026",
           "delta": "Trust creates a situational exception to usual covering because she expects a quick outside exchange."
+        },
+        {
+          "at": "E01-P08-E031",
+          "delta": "First source-shown mixed fear/excitement around possible visibility, then suppression/rationalization."
         }
       ],
-      "currentVerifiedState": "Through Part 7: still sees Chotu as innocent/brother-like; allows brief indoor hospitality despite no dupatta due situational trust; exact visibility remains uncertain.",
+      "currentVerifiedState": "Through Part 8: trusts Chotu on surface but now has private uncertainty + first mixed fear/excitement about possible accidental visibility; exact view unknown.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -4066,7 +4396,10 @@
         "E01-P06-E025",
         "E01-P07-E026",
         "E01-P07-E027",
-        "E01-P07-E028"
+        "E01-P07-E028",
+        "E01-P08-E029",
+        "E01-P08-E030",
+        "E01-P08-E031"
       ],
       "relationshipIds": [
         "REL-DHIKA-CHOTU",
@@ -4088,10 +4421,18 @@
         {
           "at": "E01-P07-E027",
           "state": "Notices something little different in Dhika's dress; exact noticed detail not stated."
+        },
+        {
+          "at": "E01-P08-E029",
+          "state": "Shows a stunned/deep-thought reaction after Dhika bends; source does not state exact perception."
+        },
+        {
+          "at": "E01-P08-E030",
+          "state": "Does not explain reaction and leaves without payment."
         }
       ],
       "evolutionTimeline": [],
-      "currentVerifiedState": "Trusted adult delivery acquaintance; returns with noodles, enters, notices unspecified dress difference, then stays briefly for juice/play. No exact visibility confirmed through Part 7.",
+      "currentVerifiedState": "Trusted adult delivery acquaintance; Part 8 shows stunned reaction/evasion after juice handoff, but exact perception/internal meaning remains unstated.",
       "activeSecrets": [],
       "unresolvedHooks": [
         "Second noodles delivery."
@@ -4099,6 +4440,35 @@
       "negativeCanon": [
         "Adult, not minor.",
         "Do not backfill later developments."
+      ]
+    },
+    {
+      "characterId": "CHAR-CHOTU-MOTHER",
+      "canonicalName": "Chotu's mother",
+      "aliases": [
+        "Mom"
+      ],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P08",
+        "sourceRange": "L156"
+      },
+      "eventIds": [
+        "E01-P08-E031"
+      ],
+      "relationshipIds": [
+        "REL-CHOTU-MOTHER"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Maami says Chotu goes home to help his mother and works hard."
+      ],
+      "knowledgeTimeline": [],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "REFERENCE-ONLY family responsibility context.",
+      "activeSecrets": [],
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "No broader mother-son details beyond source."
       ]
     }
   ],
@@ -4675,6 +5045,80 @@
         "No deliberate display plan.",
         "Unplanned entry ≠ pre-authorized access.",
         "'Something different' ≠ exact visibility fact."
+      ],
+      "negativeCanonCarried": [
+        "Prior limits remain."
+      ]
+    },
+    "E01-P08": {
+      "sourceRange": "L142-L158",
+      "previousVerifiedState": {
+        "characterState": "Dhika trusts Chotu and believes he did not meaningfully notice her no-dupatta state in Part 7.",
+        "relationshipState": [
+          "Dhika↔Chotu extended ordinary hospitality; exact visibility unresolved."
+        ],
+        "knowledgeState": "Chotu noticed unspecified difference; Dhika believed no meaningful notice.",
+        "boundaryState": "No deliberate display; social hospitality only."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P08-E029",
+          "E01-P08-E030",
+          "E01-P08-E031"
+        ],
+        "exactChanges": [
+          "Ordinary bend to hand juice produces Chotu stunned reaction; Dhika realizes only after standing that she bent without dupatta.",
+          "Dhika questions him; he gives no explanation and leaves without payment.",
+          "Dhika remains unsure what was visible, feels fear + excitement, calls Maami, then rationalizes his reaction as family concern and shelves thought."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika now has first private mixed response to possible visibility while maintaining surface trust.",
+        "relationshipState": "Dhika↔Chotu gains an ambiguous unspoken event; no mutual interpretation stated.",
+        "knowledgeState": "Dhika uncertain; Chotu exact perception unstated; reader does not receive exact anatomy confirmation.",
+        "boundaryState": "Accidental visibility from Dhika perspective; no deliberate display/consent to look.",
+        "secrecyState": "Dhika mixed response private; Chotu perception private/unstated.",
+        "sourceAmbiguities": [
+          "Exact view remains unresolved.",
+          "Family-based explanation is Dhika's rationalization, not objective proof."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-BINDU",
+        "REL-BINDU-CHOTU",
+        "REL-CHOTU-MOTHER"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU",
+        "CHAR-CHOTU-MOTHER"
+      ],
+      "knowledgeChanges": [
+        "E01-P08-E029",
+        "E01-P08-E030",
+        "E01-P08-E031"
+      ],
+      "escalationChanges": [
+        "First Dhika-side mixed response; no deliberate repetition yet."
+      ],
+      "hooksOpened": [
+        "Memory return.",
+        "Next Chotu meeting.",
+        "Exact perception remains unresolved."
+      ],
+      "hooksResolved": [
+        "Chotu leaves; payment deferred."
+      ],
+      "hooksCarried": [
+        "Prior routes remain."
+      ],
+      "negativeCanonIntroduced": [
+        "Exact anatomy not confirmed.",
+        "Accidental bend not planned display.",
+        "Fear/excitement coexist.",
+        "Rationalization not proof."
       ],
       "negativeCanonCarried": [
         "Prior limits remain."

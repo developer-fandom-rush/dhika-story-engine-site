@@ -733,3 +733,20 @@
 **Boundary sequence:** expected outside handoff → unplanned entry → later voluntary indoor hospitality. In teen states ko merge mat karo.
 
 **Knowledge:** Dhika knows no dupatta; Chotu notices unspecified difference; exact visibility unresolved through L141.
+
+
+---
+
+# Part 8 Encounter Events
+
+- **E01-P08-E029 · L142–145:** Dhika ordinary juice handoff ke liye bend karti hai; Chotu ka laugh vanish/stunned reaction hota hai. Dhika standing ke baad realize karti hai ki dupatta nahi tha. Exact visible detail source confirm nahi karta.
+- **E01-P08-E030 · L146–151:** Dhika explanation poochti hai; Chotu avoid karta hai aur payment liye bina nikal jata hai. Silence/evasion ko exact-view proof mat banao.
+- **E01-P08-E031 · L152–158:** Dhika cleavage/bra/“something more” possibilities ke beech unsure hai; little fear + little excitement dono feel karti hai. Maami call se Chotu family-help context milta hai; Dhika usse comforting explanation bana kar thought shelve karti hai. Yeh objective proof nahi.
+
+# Part 8 cumulative snapshot
+
+**Previous:** Trust + uncertain no-dupatta condition.
+
+**Delta:** First ambiguous visibility/reaction event + first mixed fear/excitement.
+
+**Cumulative:** Exact view unresolved. Dhika surface trust retain karti hai; private uncertainty active. Accidental visibility ko retroactive deliberate display mat banao.
