@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_5",
-  "asOfPart": "P05",
+  "phase": "PHASE_2_PART_6",
+  "asOfPart": "P06",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L107",
-    "currentPart": "L108-L117",
-    "nextUnprocessedRange": "L118-L128"
+    "previousProcessedParts": "L17-L117",
+    "currentPart": "L118-L128",
+    "nextUnprocessedRange": "L129-L141"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -2097,6 +2097,243 @@
         "Chotu is not yet physically present in Part 5."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P06-E023",
+      "episode": "E01",
+      "part": "P06",
+      "sourceRange": "L118-L120",
+      "chronologyOrder": 23,
+      "eventType": "NARRATED_HISTORY_WITH_LIVE_ARRIVAL",
+      "sceneTime": "20 minutes after order",
+      "location": "apartment doorway/history",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-PAPPU",
+        "CHAR-BINDU-MAAMI"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU",
+        "REL-BINDU-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Doorbell rings; Dhika sees Chotu through peephole.",
+        "Chotu's real name is Babu, age 19, store delivery worker.",
+        "Dhika has known him almost a year; he left studies to support family.",
+        "Dhika gives tips and tea/coffee; he is polite and brings Pappu chocolate.",
+        "Over months Dhika invited him inside for tea, he briefly played with Pappu, shared family problems, and Dhika came to think of him like a brother."
+      ],
+      "derivedInterpretations": [
+        "This is a pre-existing practical/familial trust history. Later developments must not be backfilled."
+      ],
+      "actions": [
+        {
+          "actor": "Narrator",
+          "target": "Reader",
+          "actionType": "reveals_Chotu_history",
+          "intentionality": "narrative disclosure",
+          "physicality": "none",
+          "visibility": "reader"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Dhika sees Chotu as trusted brother-like delivery acquaintance."
+      ],
+      "emotionalStateAfter": [
+        "No new personal-interest state."
+      ],
+      "visibilityAndObservers": [
+        "Chotu is 19 and adult."
+      ],
+      "knowledgeBefore": [
+        "Shared routine already exists."
+      ],
+      "knowledgeDelta": [
+        "Reader learns its history."
+      ],
+      "knowledgeAfter": [
+        "No later attraction state is established yet."
+      ],
+      "boundaryPermissionControl": [
+        "Occasional invited entry/tea is contextual, not unlimited access."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu trust established.",
+        "Chotu↔Pappu ordinary friendly familiarity.",
+        "Bindu↔Chotu work relation."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "Door delivery → occasional tea/play → advice/trust is social normalization."
+      ],
+      "hooksOpened": [
+        "Current delivery and possible correction visit."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Chotu is adult (19).",
+        "Do not import later attraction into Part 6."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P06-E024",
+      "episode": "E01",
+      "part": "P06",
+      "sourceRange": "L121-L126",
+      "chronologyOrder": 24,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same delivery",
+      "location": "apartment entrance",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika puts on her shawl and covers modestly before opening.",
+        "Chotu asks her to move because the bag is heavy and almost pushes past as he enters and unpacks.",
+        "They joke about the nickname 'Chotu Babu'."
+      ],
+      "derivedInterpretations": [
+        "Shawl choice shows active presentation control.",
+        "Near-push is tied to heavy-bag urgency, not established aggression."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "puts_on_shawl",
+          "intentionality": "intentional presentation choice",
+          "physicality": "clothing",
+          "visibility": "before opening"
+        },
+        {
+          "actor": "Chotu",
+          "target": "doorway",
+          "actionType": "quick_entry_with_heavy_bag",
+          "intentionality": "practical urgency",
+          "physicality": "near-contact",
+          "visibility": "Dhika present"
+        }
+      ],
+      "dialogueMeaning": [
+        "Nickname banter = familiarity."
+      ],
+      "emotionalStateBefore": [
+        "ordinary trusted delivery"
+      ],
+      "emotionalStateAfter": [
+        "playful comfort"
+      ],
+      "visibilityAndObservers": [
+        "No appearance-focused gaze described."
+      ],
+      "knowledgeBefore": [
+        "Dhika consciously covers."
+      ],
+      "knowledgeDelta": [],
+      "knowledgeAfter": [],
+      "boundaryPermissionControl": [
+        "Entry/unpacking permission tied to delivery; shawl choice preserves presentation control."
+      ],
+      "relationshipDelta": [
+        "Existing trust enacted."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "No new route."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not inflate heavy-bag near-push into aggression."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P06-E025",
+      "episode": "E01",
+      "part": "P06",
+      "sourceRange": "L127-L128",
+      "chronologyOrder": 25,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "end of first delivery",
+      "location": "apartment",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-BINDU",
+        "REL-BINDU-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika notices noodles missing.",
+        "Chotu apologizes, asks for 10 minutes, and runs out."
+      ],
+      "derivedInterpretations": [
+        "Missing noodles creates practical second-visit reason."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "promises_return_with_noodles",
+          "intentionality": "corrective errand",
+          "physicality": "none",
+          "visibility": "Dhika"
+        }
+      ],
+      "dialogueMeaning": [
+        "Return is order correction."
+      ],
+      "emotionalStateBefore": [
+        "friendly delivery"
+      ],
+      "emotionalStateAfter": [
+        "quick corrective exit"
+      ],
+      "visibilityAndObservers": [],
+      "knowledgeBefore": [
+        "Both know noodles missing."
+      ],
+      "knowledgeDelta": [
+        "Both know return expected."
+      ],
+      "knowledgeAfter": [
+        "Second visit expected."
+      ],
+      "boundaryPermissionControl": [
+        "Promised return does not expand access."
+      ],
+      "relationshipDelta": [
+        "Practical trust continues."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "No new route."
+      ],
+      "hooksOpened": [
+        "Return in 10 minutes."
+      ],
+      "hooksResolved": [
+        "First delivery ends."
+      ],
+      "negativeCanon": [
+        "Do not treat return as a preplanned personal setup."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -2721,7 +2958,9 @@
         "sourceRange": "L116-L117"
       },
       "eventIds": [
-        "E01-P05-E022"
+        "E01-P05-E022",
+        "E01-P06-E023",
+        "E01-P06-E025"
       ],
       "publicSurfaceState": "Dhika phones Bindu Maami's nearby store to order groceries.",
       "privateState": "No hidden state.",
@@ -2738,8 +2977,112 @@
         "Delivery pending."
       ],
       "negativeCanon": [],
-      "latestVerifiedState": "NEW in Part 5.",
-      "lastChangedAt": "E01-P05-E022"
+      "latestVerifiedState": "CHANGED in Part 6 through order fulfillment and missing-item correction.",
+      "lastChangedAt": "E01-P06-E025"
+    },
+    {
+      "relationshipId": "REL-DHIKA-CHOTU",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "relationshipType": "trusted delivery acquaintance / Dhika-side brother-like bond",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P06",
+        "sourceRange": "L118-L120"
+      },
+      "eventIds": [
+        "E01-P06-E023",
+        "E01-P06-E024",
+        "E01-P06-E025"
+      ],
+      "publicSurfaceState": "Almost-year delivery familiarity, tips/tea, occasional invited entry, family advice; Dhika thinks of him like a brother.",
+      "privateState": "No later personal-interest meaning established through Part 6.",
+      "readerKnownState": "Trust history + active shawl choice.",
+      "characterKnowledgeStates": {
+        "Dhika": "Brother-like trusted delivery acquaintance.",
+        "Chotu": "Polite/familiar; shares family problems."
+      },
+      "trustState": "High practical/familial familiarity.",
+      "boundaryState": "Entry/tea/delivery permission contextual; Dhika still consciously covers.",
+      "secrecyState": "None.",
+      "currentCeiling": "Brother-like trust + delivery/hospitality routine.",
+      "unresolvedHooks": [
+        "Second noodles return."
+      ],
+      "negativeCanon": [
+        "Hospitality ≠ unlimited access."
+      ],
+      "latestVerifiedState": "NEW in Part 6.",
+      "lastChangedAt": "E01-P06-E025"
+    },
+    {
+      "relationshipId": "REL-CHOTU-PAPPU",
+      "participants": [
+        "CHAR-CHOTU",
+        "CHAR-PAPPU"
+      ],
+      "relationshipType": "ordinary friendly delivery-visit familiarity",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P06",
+        "sourceRange": "L119-L120"
+      },
+      "eventIds": [
+        "E01-P06-E023"
+      ],
+      "publicSurfaceState": "Chotu brings Pappu chocolate and briefly plays during visits.",
+      "privateState": "No hidden state.",
+      "readerKnownState": "Ordinary family-friendly familiarity.",
+      "characterKnowledgeStates": {
+        "Chotu": "Knows Pappu from visits.",
+        "Pappu": "Source supports ordinary play/chocolate familiarity only."
+      },
+      "trustState": "Warm practical familiarity.",
+      "boundaryState": "Ordinary family context.",
+      "secrecyState": "None.",
+      "currentCeiling": "Friendly visit/play familiarity.",
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "Keep this route in ordinary family context."
+      ],
+      "latestVerifiedState": "NEW in Part 6.",
+      "lastChangedAt": "E01-P06-E023"
+    },
+    {
+      "relationshipId": "REL-BINDU-CHOTU",
+      "participants": [
+        "CHAR-BINDU-MAAMI",
+        "CHAR-CHOTU"
+      ],
+      "relationshipType": "store-owner / worker",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P06",
+        "sourceRange": "L119"
+      },
+      "eventIds": [
+        "E01-P06-E023",
+        "E01-P06-E025"
+      ],
+      "publicSurfaceState": "Chotu works at the store and handles deliveries.",
+      "privateState": "No hidden state.",
+      "readerKnownState": "Operational work relation.",
+      "characterKnowledgeStates": {
+        "Bindu": "Store owner.",
+        "Chotu": "Worker/delivery role."
+      },
+      "trustState": "Work relation.",
+      "boundaryState": "No special issue.",
+      "secrecyState": "None.",
+      "currentCeiling": "Operational relation.",
+      "unresolvedHooks": [
+        "Missing noodles correction."
+      ],
+      "negativeCanon": [],
+      "latestVerifiedState": "NEW in Part 6.",
+      "lastChangedAt": "E01-P06-E025"
     }
   ],
   "characters": [
@@ -2774,7 +3117,10 @@
         "E01-P04-E019",
         "E01-P05-E020",
         "E01-P05-E021",
-        "E01-P05-E022"
+        "E01-P05-E022",
+        "E01-P06-E023",
+        "E01-P06-E024",
+        "E01-P06-E025"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -2785,7 +3131,8 @@
         "REL-DHIKA-BANTU",
         "REL-DHIKA-BOBBY",
         "REL-DHIKA-SHARMI",
-        "REL-DHIKA-RAJ"
+        "REL-DHIKA-RAJ",
+        "REL-DHIKA-CHOTU"
       ],
       "sourceConfirmedCharacterFacts": [
         "Age 29.",
@@ -2844,6 +3191,14 @@
         {
           "at": "E01-P05-E021",
           "state": "Sees bra on floor, knows only Aunty/Uncle enter for milk, but adopts accidental-slip explanation and does not suspect wrongdoing."
+        },
+        {
+          "at": "E01-P06-E023",
+          "state": "Knows Chotu as almost-year brother-like trusted delivery acquaintance."
+        },
+        {
+          "at": "E01-P06-E024",
+          "state": "Consciously chooses shawl before opening."
         }
       ],
       "evolutionTimeline": [
@@ -2884,7 +3239,7 @@
           "delta": "Direct trace does not break neighbour trust because she rationalizes it as accidental."
         }
       ],
-      "currentVerifiedState": "Through Part 5: prior college/contact history + normal maternal/home routine; discovers bra trace but falsely explains it as accidental, so Uncle secret remains hidden.",
+      "currentVerifiedState": "Through Part 6: prior state + Chotu brother-like trusted delivery relation; presentation control active.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -2956,7 +3311,8 @@
       ],
       "relationshipIds": [
         "REL-DHIKA-PAPPU",
-        "REL-PAPPU-AUNTY-UNCLE"
+        "REL-PAPPU-AUNTY-UNCLE",
+        "REL-CHOTU-PAPPU"
       ],
       "sourceConfirmedCharacterFacts": [
         "Dhika's young son; Prologue gives age 2 years.",
@@ -3372,10 +3728,13 @@
         "sourceRange": "L116-L117"
       },
       "eventIds": [
-        "E01-P05-E022"
+        "E01-P05-E022",
+        "E01-P06-E023",
+        "E01-P06-E025"
       ],
       "relationshipIds": [
-        "REL-DHIKA-BINDU"
+        "REL-DHIKA-BINDU",
+        "REL-BINDU-CHOTU"
       ],
       "sourceConfirmedCharacterFacts": [
         "53 years old.",
@@ -3389,6 +3748,53 @@
         "Delivery fulfillment."
       ],
       "negativeCanon": []
+    },
+    {
+      "characterId": "CHAR-CHOTU",
+      "canonicalName": "Chotu / Babu",
+      "aliases": [
+        "Chotu",
+        "Babu",
+        "Chotu Babu"
+      ],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P06",
+        "sourceRange": "L118-L120"
+      },
+      "eventIds": [
+        "E01-P06-E023",
+        "E01-P06-E024",
+        "E01-P06-E025"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU",
+        "REL-BINDU-CHOTU"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Age 19 (adult).",
+        "Store delivery worker.",
+        "Left studies to support family.",
+        "Polite; brings Pappu chocolate.",
+        "Known to Dhika almost a year; shares family problems."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P06-E023",
+          "state": "Shared brother-like/hospitality routine; later developments not yet present."
+        }
+      ],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Adult delivery worker; trusted/polite, brother-like in Dhika's view; familiar with Pappu.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "Second noodles delivery."
+      ],
+      "negativeCanon": [
+        "Adult, not minor.",
+        "Do not backfill later developments."
+      ]
     }
   ],
   "partSnapshots": {
@@ -3829,6 +4235,76 @@
       ],
       "negativeCanonCarried": [
         "All prior limits remain."
+      ]
+    },
+    "E01-P06": {
+      "sourceRange": "L118-L128",
+      "previousVerifiedState": {
+        "characterState": "Dhika home/practical trust baseline; grocery order placed.",
+        "relationshipState": [
+          "Dhika↔Bindu practical store relation."
+        ],
+        "knowledgeState": "Prior secrets/routes remain active but unchanged.",
+        "boundaryState": "Dhika modesty self-management established."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P06-E023",
+          "E01-P06-E024",
+          "E01-P06-E025"
+        ],
+        "exactChanges": [
+          "Chotu/Babu introduced as adult 19-year-old delivery worker with almost-year brother-like trust history.",
+          "Dhika deliberately wears shawl before opening; delivery entry/unpacking + nickname banter.",
+          "Missing noodles triggers promised return."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Chotu adult/trusted/polite baseline; Dhika kindness includes mentoring/hospitality.",
+        "relationshipState": "Dhika↔Chotu brother-like trust; Chotu↔Pappu ordinary familiarity; Bindu↔Chotu work relation.",
+        "knowledgeState": "No later attraction route yet.",
+        "boundaryState": "Entry/tea/delivery contextual; Dhika controls presentation.",
+        "secrecyState": "No new secret.",
+        "sourceAmbiguities": [
+          "Near-push linked to heavy bag; not aggression."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU",
+        "REL-BINDU-CHOTU",
+        "REL-DHIKA-BINDU"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU",
+        "CHAR-PAPPU",
+        "CHAR-BINDU-MAAMI"
+      ],
+      "knowledgeChanges": [
+        "E01-P06-E023",
+        "E01-P06-E024"
+      ],
+      "escalationChanges": [
+        "Social familiarity normalization only."
+      ],
+      "hooksOpened": [
+        "Second noodles visit."
+      ],
+      "hooksResolved": [
+        "First delivery mostly completed."
+      ],
+      "hooksCarried": [
+        "Prior routes remain."
+      ],
+      "negativeCanonIntroduced": [
+        "Chotu adult 19.",
+        "No later attraction route in Part 6.",
+        "Heavy-bag near-push ≠ aggression."
+      ],
+      "negativeCanonCarried": [
+        "Prior limits remain."
       ]
     }
   },

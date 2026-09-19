@@ -701,3 +701,20 @@
 **Delta:** Trace discovered but misinterpreted; childcare trust reaffirmed; Bindu route introduced.
 
 **Cumulative:** Dhika ka conscious neighbour trust intact. Trace discovery permission/forgiveness nahi; true cause still secret.
+
+
+---
+
+# Part 6 Encounter Events
+
+- **E01-P06-E023 · L118–120:** Chotu/Babu introduced: 19-year-old adult delivery worker, almost one-year history, family-support motive; Dhika tips/tea/advice deti hai, Pappu ko chocolate; Dhika use brother-like dekhti hai. Later attraction state abhi present nahi.
+- **E01-P06-E024 · L121–126:** Dhika consciously shawl pehenkar door kholti hai. Heavy-bag urgency mein quick entry/almost push + unpacking + “Chotu Babu” banter. Near-push ko aggression mat banao.
+- **E01-P06-E025 · L127–128:** noodles missing; Chotu 10-minute return promise karke nikal jata hai. Second visit practical correction reason se open hoti hai.
+
+# Part 6 cumulative snapshot
+
+**Previous:** Grocery order pending; Dhika presentation-control active.
+
+**Delta:** Adult Chotu identity + brother-like delivery history + contextual home-entry/hospitality + return hook.
+
+**Cumulative:** Dhika↔Chotu trust high but contextual. Later developments ko backward import nahi karna.
