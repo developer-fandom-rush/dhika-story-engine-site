@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_4_ONLY",
-  "asOfPart": "P04",
+  "phase": "PHASE_2_PART_5_ONLY",
+  "asOfPart": "P05",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -331,6 +331,61 @@
         "No generic boldness is established.",
         "John does not know Chotu influenced the choice."
       ]
+    },
+    {
+      "eventId": "E02-P05-E011",
+      "episode": "E02",
+      "part": "P05",
+      "sourceRange": "L49-L55",
+      "chronologyOrder": 11,
+      "eventType": "LIVE_ENCOUNTER_PLUS_HISTORY",
+      "sourceSupportedFacts": [
+        "Family enters Aunty's house.",
+        "Uncle is visibly struck by Dhika's first skirt/tight sleeveless-top appearance.",
+        "John knowingly chose a tight top; Dhika understands it mainly as coverage and does not recognize how strongly it outlines her body.",
+        "Uncle blurts a beauty compliment; Aunty gives him a stern look; Dhika accepts the compliment innocently.",
+        "Narrator explains John learned Dhika likes compliments and strategically compliments new/more revealing clothes rather than repeating praise every time.",
+        "John internally understands Uncle's meaning and grins without saying so."
+      ],
+      "knowledgeAfter": [
+        "Uncle, John and reader recognize the visual/compliment subtext differently. Aunty notices enough to give a stern look. Dhika does not understand the full gaze/body-outline subtext."
+      ],
+      "boundaryPermissionControl": [
+        "Outfit choice and accepting a compliment do not authorize covert looking or body access."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle public compliment occurs while hidden attraction intensifies; John/Aunty each react with different knowledge."
+      ],
+      "negativeCanon": [
+        "No cleavage is visible in the source.",
+        "Dhika is not knowingly displaying herself to Uncle."
+      ]
+    },
+    {
+      "eventId": "E02-P05-E012",
+      "episode": "E02",
+      "part": "P05",
+      "sourceRange": "L56-L57",
+      "chronologyOrder": 12,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "During lunch Uncle sits opposite John and repeatedly steals quick glances at Dhika's chest.",
+        "John notices the glances; Dhika has no idea.",
+        "Pappu asks for food; Dhika is about to stand for milk when Uncle volunteers to get it and proceeds to Dhika's home without waiting for her answer."
+      ],
+      "knowledgeAfter": [
+        "John knows Uncle is looking. Dhika does not. Aunty's exact awareness of the lunch glances is not stated."
+      ],
+      "boundaryPermissionControl": [
+        "Family lunch and clothing do not authorize covert looking. Uncle's milk errand is practical access only; he does not wait for Dhika's answer before leaving."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle hidden gaze route becomes active in current E02 time; Pappu milk logistics create unsupervised access."
+      ],
+      "negativeCanon": [
+        "John notices but does not explicitly authorize Uncle's conduct.",
+        "No private bathroom act occurs until Part 6."
+      ]
     }
   ],
   "relationships": [
@@ -396,16 +451,37 @@
       "relationshipId": "REL-JOHN-UNCLE",
       "inheritedFromE01": false,
       "e02EventIds": [
-        "E02-P03-E007"
+        "E02-P03-E007",
+        "E02-P05-E011",
+        "E02-P05-E012"
       ],
       "firstEvidence": {
         "episode": "E02",
         "part": "P03",
         "sourceRange": "L33"
       },
-      "latestVerifiedState": "John has repeatedly noticed Uncle gazing at Dhika and is not angry because of his own show-off preference.",
+      "latestVerifiedState": "John continues to observe/understand Uncle's gaze without confrontation.",
       "knowledgeSplit": "John knows the gaze pattern; Uncle is not shown knowing John has noticed.",
       "boundaryState": "John's tolerance does not authorize Uncle."
+    },
+    {
+      "relationshipId": "REL-DHIKA-UNCLE",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P05-E011",
+        "E02-P05-E012"
+      ],
+      "latestVerifiedState": "E02 P5: public family-like bond continues while Uncle compliments and repeatedly glances; Dhika remains unaware.",
+      "knowledgeSplit": "Uncle knows his attraction; John sees the gaze; Dhika does not.",
+      "boundaryState": "Outfit/lunch/milk logistics do not authorize covert looking or personal access."
+    },
+    {
+      "relationshipId": "REL-DHIKA-AUNTY",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P05-E011"
+      ],
+      "latestVerifiedState": "Aunty hosts family and gives Uncle a stern look after his compliment; broader awareness remains unspecified."
     }
   ],
   "characters": [
@@ -420,9 +496,11 @@
         "E02-P03-E006",
         "E02-P03-E008",
         "E02-P04-E009",
-        "E02-P04-E010"
+        "E02-P04-E010",
+        "E02-P05-E011",
+        "E02-P05-E012"
       ],
-      "currentVerifiedState": "Voluntarily chooses a more open but still self-selected outfit; Chotu memory contributes to confidence/excitement; John is unaware of that influence.",
+      "currentVerifiedState": "Receives Uncle compliment innocently; remains unaware of repeated lunch glances; continues caregiving.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John."
       ]
@@ -454,6 +532,14 @@
       "characterId": "CHAR-CHOTU",
       "eventIds": [],
       "currentVerifiedState": "Absent from E02 P1; E01 final gaze-awareness state carries forward."
+    },
+    {
+      "characterId": "CHAR-UNCLE",
+      "eventIds": [
+        "E02-P05-E011",
+        "E02-P05-E012"
+      ],
+      "currentVerifiedState": "Current E02 gaze/compliment route active; takes milk errand without waiting for Dhika's reply."
     }
   ],
   "partSnapshots": {
@@ -529,6 +615,22 @@
         ]
       },
       "cumulativeStateThroughPart": "Dhika voluntarily expands clothing comfort in a limited next-door context. John accepts the compromise. Her choice is influenced by Chotu memory and John's preferences, but remains her own; no gaze/touch permission is created."
+    },
+    "E02-P05": {
+      "sourceRange": "L49-L57",
+      "previousVerifiedState": "Dhika has voluntarily chosen full skirt + sleeveless top. John knows Uncle gaze pattern; Dhika does not.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P05-E011",
+          "E02-P05-E012"
+        ],
+        "exactChanges": [
+          "Uncle reacts/compliments; Aunty gives stern look; John understands hidden meaning.",
+          "During lunch Uncle repeatedly glances; John notices; Dhika remains unaware.",
+          "Pappu milk need creates Uncle's unsupervised errand to Dhika's home."
+        ]
+      },
+      "cumulativeStateThroughPart": "Public family-like relation continues, but gaze triangle is now active: Uncle looks, John notices, Dhika does not. Aunty has at least one visible stern reaction. Milk errand gives practical access, not personal-item permission."
     }
   }
 }

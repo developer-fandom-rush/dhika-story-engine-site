@@ -94,3 +94,18 @@
 **Cumulative state through Part 4:** Limited clothing-comfort expansion, not generic boldness. Dhika↔John negotiation resolves in compromise; Dhika↔Chotu route remains private-memory only.
 
 **Evidence:** `E02-P04-E009` L37–44; `E010` L45–48.
+
+---
+
+## Part 5 · L49–57
+**Previous verified state:** Dhika full skirt + sleeveless top khud choose kar chuki hai; John Uncle gaze pattern jaanta hai; Dhika nahi.
+
+**Current Part delta:** `E011` Uncle strong visual reaction + compliment, Aunty stern look, John hidden meaning samajhta hai. `E012` lunch ke dauran Uncle quick glances karta hai, John notice karta hai, Dhika unaware rehti hai; Pappu milk need se Uncle Dhika ke ghar jaane ka practical access le leta hai.
+
+**Knowledge split:** Uncle knows attraction; John sees gaze; Dhika does not. Aunty compliment par stern react karti hai, but exact lunch-gaze knowledge unspecified.
+
+**Boundary state:** Outfit, compliment acceptance aur family lunch covert looking authorize nahi karte. Milk errand = practical access only.
+
+**Cumulative state through Part 5:** Public family-like surface + hidden gaze triangle. Immediate next hook = Uncle alone in Dhika's home.
+
+**Evidence:** `E02-P05-E011` L49–55; `E012` L56–57.
