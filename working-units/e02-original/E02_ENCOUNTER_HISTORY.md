@@ -64,3 +64,18 @@
 **Cumulative state through Part 2:** Warm marriage + slow comfort history + persistent Dhika shyness + John voluntary-openness preference. Yeh narrated history hai, current action nahi.
 
 **Evidence:** `E02-P02-E003` L18–20; `E004` L21–22; `E005` L23–24.
+
+---
+
+## Part 3 · L25–36
+**Previous verified state:** John voluntary openness/show-off preference reader-known; Dhika shy; E01 Chotu history John se hidden.
+
+**Current Part delta:** `E006` Sunday routine, brief Chotu thought, lunch invitation; `E007` John repeatedly Uncle ko Dhika par gaze karte dekh chuka hai while Dhika never noticed; `E008` Uncle-related teasing joke ka double meaning Dhika miss karti hai.
+
+**Knowledge split:** John knows Uncle gaze. Dhika does not. Reader knows both states. Uncle ko John ne notice kiya hai—source uski awareness establish nahi karta.
+
+**Boundary state:** John ka tolerance/show-off preference Uncle ko permission nahi deta. Dhika past outfit suggestions repeatedly refuse kar chuki hai.
+
+**Cumulative state through Part 3:** Playful marriage + unequal knowledge. Chotu absent but Dhika ke mind mein briefly present. Lunch/wardrobe route next.
+
+**Evidence:** `E02-P03-E006` L25–32; `E007` L33; `E008` L34–36.

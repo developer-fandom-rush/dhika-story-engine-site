@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_2_ONLY",
-  "asOfPart": "P02",
+  "phase": "PHASE_2_PART_3_ONLY",
+  "asOfPart": "P03",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -201,6 +201,82 @@
         "Dhika↔John gains a reader-known preference asymmetry: John favors voluntary openness; Dhika remains shy."
       ],
       "negativeCanon": []
+    },
+    {
+      "eventId": "E02-P03-E006",
+      "episode": "E02",
+      "part": "P03",
+      "sourceRange": "L25-L32",
+      "chronologyOrder": 6,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "John has no memory of going to bed the previous night.",
+        "Dhika follows her morning routine, checks Pappu, and briefly thinks of Chotu, remembering it is his store off-day.",
+        "Dhika wakes/pulls John toward bath and says Aunty invited them for lunch because Uncle insisted on a gathering."
+      ],
+      "knowledgeAfter": [
+        "Dhika privately remembers Chotu; John is not shown knowing this thought."
+      ],
+      "boundaryPermissionControl": [
+        "Ordinary spouse/family morning actions only."
+      ],
+      "relationshipDelta": [
+        "Chotu remains mentally active for Dhika without contact; Aunty/Uncle lunch route opens."
+      ],
+      "negativeCanon": [
+        "No Chotu contact occurs."
+      ]
+    },
+    {
+      "eventId": "E02-P03-E007",
+      "episode": "E02",
+      "part": "P03",
+      "sourceRange": "L33",
+      "chronologyOrder": 7,
+      "eventType": "NARRATED_HISTORY",
+      "sourceSupportedFacts": [
+        "John knows who has a crush on Dhika.",
+        "John has many times seen Uncle gazing at Dhika; Dhika has never noticed.",
+        "John is not angry because he secretly likes exhibiting Dhika.",
+        "John has previously asked Dhika to wear sleeveless salwar or skirt/top when visiting Aunty/Uncle; she never agreed."
+      ],
+      "knowledgeAfter": [
+        "John knows Uncle's gaze pattern; Dhika does not. Reader now knows John knows. Uncle is not shown knowing John has noticed."
+      ],
+      "boundaryPermissionControl": [
+        "John's tolerance/show-off preference does not authorize Uncle's gaze or body access; Dhika previously refused the outfits."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John gains a knowledge asymmetry; John↔Uncle gaze-awareness becomes explicit."
+      ],
+      "negativeCanon": [
+        "John's tolerance is not permission from Dhika."
+      ]
+    },
+    {
+      "eventId": "E02-P03-E008",
+      "episode": "E02",
+      "part": "P03",
+      "sourceRange": "L34-L36",
+      "chronologyOrder": 8,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "John jokes about Aunty's food; Dhika teases him back.",
+        "John jokes that Uncle can come and live with Dhika.",
+        "Dhika does not understand the meaning behind that joke."
+      ],
+      "knowledgeAfter": [
+        "John's line has reader-known double meaning; Dhika misses it."
+      ],
+      "boundaryPermissionControl": [
+        "No permission or intimate action is created by teasing."
+      ],
+      "relationshipDelta": [
+        "Playful marriage continues while hidden knowledge difference becomes visible in dialogue."
+      ],
+      "negativeCanon": [
+        "Teasing does not imply agreement with Uncle's conduct."
+      ]
     }
   ],
   "relationships": [
@@ -212,11 +288,14 @@
         "E02-P01-E002",
         "E02-P02-E003",
         "E02-P02-E004",
-        "E02-P02-E005"
+        "E02-P02-E005",
+        "E02-P03-E006",
+        "E02-P03-E007",
+        "E02-P03-E008"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P2: detailed marriage origin/slow-comfort history; John prefers voluntary openness/show-off; Dhika remains shy.",
-      "knowledgeSplit": "Reader knows John's private show-off framing; Dhika knowledge of every element is not fully specified.",
+      "latestVerifiedState": "E02 P3: playful Sunday marriage; John knows Uncle's gaze pattern while Dhika does not.",
+      "knowledgeSplit": "John knows Uncle gazes; Dhika does not; John also does not know her brief Chotu thought.",
       "boundaryState": "Historical marital comfort is relationship-specific; no outsider permission."
     },
     {
@@ -255,6 +334,21 @@
       "latestVerifiedState": "No new contact in E02 P1; E01 history survives only as Dhika's private emotional antecedent.",
       "knowledgeSplit": "Dhika knows she staged the test and Chotu looked; Chotu knows gaze was mutually noticed; John does not know.",
       "boundaryState": "E01 act-specific visibility does not create future/general permission."
+    },
+    {
+      "relationshipId": "REL-JOHN-UNCLE",
+      "inheritedFromE01": false,
+      "e02EventIds": [
+        "E02-P03-E007"
+      ],
+      "firstEvidence": {
+        "episode": "E02",
+        "part": "P03",
+        "sourceRange": "L33"
+      },
+      "latestVerifiedState": "John has repeatedly noticed Uncle gazing at Dhika and is not angry because of his own show-off preference.",
+      "knowledgeSplit": "John knows the gaze pattern; Uncle is not shown knowing John has noticed.",
+      "boundaryState": "John's tolerance does not authorize Uncle."
     }
   ],
   "characters": [
@@ -265,9 +359,11 @@
         "E02-P01-E002",
         "E02-P02-E003",
         "E02-P02-E004",
-        "E02-P02-E005"
+        "E02-P02-E005",
+        "E02-P03-E006",
+        "E02-P03-E008"
       ],
-      "currentVerifiedState": "Orthodox upbringing + persistent shyness contextualize current behavior; marital comfort developed slowly.",
+      "currentVerifiedState": "Routine caregiver/wife; briefly remembers Chotu; unaware of Uncle gaze and joke meaning.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John."
       ]
@@ -279,9 +375,12 @@
         "E02-P01-E002",
         "E02-P02-E003",
         "E02-P02-E004",
-        "E02-P02-E005"
+        "E02-P02-E005",
+        "E02-P03-E006",
+        "E02-P03-E007",
+        "E02-P03-E008"
       ],
-      "currentVerifiedState": "31-year-old caring/workaholic/charming husband; high drive; historical restraint and preference for Dhika's voluntary openness."
+      "currentVerifiedState": "Playful husband who knowingly recognizes Uncle's gaze and carries double-meaning context."
     },
     {
       "characterId": "CHAR-PAPPU",
@@ -336,6 +435,23 @@
         ]
       },
       "cumulativeStateThroughPart": "Marriage warm/stable hai aur source gradual consent/comfort history preserve karta hai. Dhika shy baseline retain karti hai. John ka private show-off preference reader-known hai, lekin yeh outsider access ya blanket consent nahi. Part 2 history narration hai, current-time sexual event nahi."
+    },
+    "E02-P03": {
+      "sourceRange": "L25-L36",
+      "previousVerifiedState": "Part 2 se John ka show-off preference reader-known hai; Dhika ki shyness aur warm marriage active hai; Chotu/Uncle private routes separate hain.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P03-E006",
+          "E02-P03-E007",
+          "E02-P03-E008"
+        ],
+        "exactChanges": [
+          "Chotu remains mentally active for Dhika without contact; Aunty/Uncle lunch route opens.",
+          "Dhika↔John gains a knowledge asymmetry; John↔Uncle gaze-awareness becomes explicit.",
+          "Playful marriage continues while hidden knowledge difference becomes visible in dialogue."
+        ]
+      },
+      "cumulativeStateThroughPart": "John knows Uncle gazes and tolerates it within his own private preference; Dhika Uncle gaze aur joke meaning se unaware hai. Chotu physically absent hai. Marriage playful hai, but knowledge symmetry nahi."
     }
   }
 }
