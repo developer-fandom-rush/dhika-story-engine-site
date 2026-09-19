@@ -311,3 +311,315 @@
 **Current Part delta:** Part 1 adds trusted-neighbour childcare, hidden Uncle-side state, knowledge asymmetry, act-specific childcare permission aur incomplete L27.
 
 **Cumulative state through Part 1:** Next Part ko isi state se start hona chahiye. Part 2 ke facts Part 1 mein backfill nahi karne.
+
+
+---
+
+# Part 2 Encounter Events
+
+## E01-P02-E005 — L31–39 — LIVE_ENCOUNTER
+
+**Previous verified state:** Part 1 ke end tak Dhika ka domestic/caregiver baseline active hai; Uncle ka hidden state usse pata nahi.
+
+**Exactly kya hua:** Dhika subah lagbhag 8:35 par college parking mein bike lagati hai. Bantu peeche se use pretty bolta hai aur kehta hai ki woh kal aur usse pehle bhi pretty thi. Dhika blush karke “shush” bolti hai; mudne se pehle hi Bantu ko pehchan leti hai aur hope karti hai ki aas-paas koi aur na ho. Woh Bobby ke baare mein poochti hai; Bantu uski taraf point karta hai; Dhika door bike push karte Bobby ko wave karti hai.
+
+**Action / observation:** Bantu ka compliment intentional spoken action hai. Dhika ka blush/shush response visible hai. Third observer confirm nahi hai.
+
+**Knowledge split:** Dhika routine ko pehle se recognize karti hai. Is event mein Bantu ko Dhika ki private compliment-expectation ka knowledge establish nahi hota.
+
+**Boundary state:** Favourite-student conversational familiarity context-specific hai. Dhika ka “shush” aur no-one-around hope dikhata hai ki comfort ≠ public blanket permission.
+
+**Emotional delta:** Live scene mein Dhika blush karti hai aur exchange ko low-profile rakhna chahti hai.
+
+**Carry-forward:** Bantu compliment history ka exact normalization next narrated event mein establish hota hai.
+
+**Evidence:** `E01-P02-E005` · E01 Part 2 · **L31–39**
+
+---
+
+## E01-P02-E006 — L40–43 — NARRATED_HISTORY
+
+**Exactly kya reveal hota hai:** Bantu aur Bobby twins hain, very studious aur Dhika ke favourite students. Bantu charming/talkative hai; Bobby very shy hai but explicitly timid nahi. Bobby mostly Bantu ke saath freely bolta hai, jo Dhika ko intrigue karta hai. Dhika Bobby ko thoda zyada pasand karti hai because he is a little chubby aur uske saamne zyada shy hai. Bantu daily compliment karta hai. Dhika pehle “pretty” sun kar uncomfortable hoti thi; repetition/familiarity ke saath use achha lagne laga aur ab woh secretly expect karti hai.
+
+**Thought/history vs action distinction:** Yeh current single action nahi, narrator-revealed relationship history hai.
+
+**Knowledge split:** Dhika apni private expectation aur Bobby preference jaanti hai. Source Bantu ko compliment-expectation ka knowledge nahi deta; Bantu/Bobby ko slight Bobby preference ka knowledge bhi establish nahi.
+
+**Boundary state:** Verbal compliment enjoy karna unrelated physical/social permission nahi.
+
+**Relationship delta:** Dhika↔Bantu compliment route normalize hota hai; Dhika↔Bobby slight internal preference establish hoti hai; Bantu↔Bobby twin/social contrast establish hota hai.
+
+**Evidence:** `E01-P02-E006` · **L40–43**
+
+---
+
+## E01-P02-E007 — L44–46 — RAW ATTRIBUTION QA EVENT
+
+**Exactly source kya kehta hai:** L44 RAW speaker label **Dhika** hai aur line “The saree looks so good on you, miss....” hai. L45 bhi Dhika label ke saath “Ai,.. stop it. Run to the class now...” hai. L46 narrator kehta hai “Well, he was not wrong....”
+
+**QA state:** L44 wording contextually odd hai because “miss” address hota hai, lekin canonical tracker speaker ko silently Bantu mein change nahi karega.
+
+**Knowledge/boundary:** L45 Dhika ka deflect/stop response continue karta hai. L44 se koi extra relationship fact infer nahi kiya jayega beyond RAW.
+
+**Negative Canon:** **Do not silently repair speaker identity.**
+
+**Evidence:** `E01-P02-E007` · **L44–46**
+
+---
+
+## E01-P02-E008 — L47–52 — NARRATED_HISTORY / CHARACTER BASELINE
+
+**Exactly kya reveal hota hai:** Dhika pink cotton saree aur free curls mein hai. Narrator uski appearance describe karta hai; woh smiling/positive, kind-hearted, shy aur thodi innocent hai, lekin completely unaware nahi. Use unwanted attention milti hai aur woh jaanti hai ki log use turn karke dekhte hain. Woh manners/attire consciously manage karti hai taaki unnecessary feeling provoke na kare. Ghar ke alawa full saree ya kurti-with-shawl baseline hai. L52 explicitly kehta hai ki apartment mein **Aunty ne bhi use bina shawl nahi dekha**.
+
+**Action vs narration:** Yeh ek current gaze-event nahi; narrator-provided character/presentation history hai.
+
+**Knowledge split:** Dhika apni attention-awareness jaanti hai. Reader self-management baseline aur Aunty visibility ceiling jaanta hai.
+
+**Boundary state:** Conservative presentation Dhika ka self-control baseline hai. Near-family trust with Aunty ne bhi clothing boundary erase nahi ki.
+
+**Relationship delta:** General students goodwill reaffirm hoti hai; Dhika↔Aunty mein visibility-history detail add hoti hai.
+
+**Evidence:** `E01-P02-E008` · **L47–52**
+
+---
+
+## E01-P02-E009 — L53–55 — LIVE_ENCOUNTER
+
+**Exactly kya hua:** Sharmi “Oi, Big Girl” bolkar aati hai; Dhika warm response deti hai; Sharmi Dhika ki waist pinch karke uske paas pull hoti hai.
+
+**Action type:** Intentional playful physical greeting.
+
+**Knowledge split:** No secret transfer. Close-friend context following narration mein explain hota hai.
+
+**Boundary state:** Yeh exact waist pinch source-supported hai; ek specific friendship act ko universal physical permission nahi banana.
+
+**Emotional delta:** Playful/warm.
+
+**Evidence:** `E01-P02-E009` · **L53–55**
+
+---
+
+## E01-P02-E010 — L56–60 — NARRATED_HISTORY
+
+**Exactly kya reveal hota hai:** Sharmi Dhika ki childhood friend, college mate/colleague aur best friend hai. Good-hearted but less shy; bubbly/naughty/modern; rich background ko Dhika ke saamne show off nahi karti; Dhika ke saath rehne ke liye same college job leti hai. Woh Dhika se less conservative hai aur sleeveless blouses pehenti hai. Raj Sharmi ka husband hai. Raj ne Dhika ki beauty compliment ki thi; Sharmi jaanti hai ki Raj ko impress karna mushkil hai.
+
+**Knowledge split:** Sharmi definitely Raj compliment jaanti hai. Reader jaanta hai. **Dhika ko Raj compliment pata hai ya nahi, source nahi batata.**
+
+**Relationship delta:** Dhika↔Sharmi longstanding best-friend/colleague baseline; Sharmi↔Raj marriage reference; Dhika↔Raj reference-only past compliment.
+
+**Boundary state:** Raj ke compliment se koi active relationship/permission create nahi hoti.
+
+**Negative Canon:** Raj compliment ≠ affair; broader Raj feelings/intent unknown.
+
+**Evidence:** `E01-P02-E010` · **L56–60**
+
+---
+
+## E01-P02-E011 — L61–64 — LIVE_ENCOUNTER
+
+**Exactly kya hua:** Narrator kehta hai Sharmi playful way mein Dhika ko tease karti hai ki Dhika ke paas koi cheez usse much bigger hai. Dhika subah-subah start na karne ko kehti hai, phir Sharmi ko reciprocal tease karti hai ki uske paas bhi kuch most logon se bigger hai, tongue out karti hai; dono giggle/laugh karte college enter karte hain.
+
+**Meaning-preservation:** Exact compared body feature RAW name nahi karta.
+
+**Knowledge split:** Reciprocal banter shared context signal karta hai, lekin reader exact referent canonically identify nahi kar sakta.
+
+**Boundary state:** Teasing friendship-specific hai; unrelated permission nahi.
+
+**Carry-forward:** Exact “something bigger” referent unresolved.
+
+**Evidence:** `E01-P02-E011` · **L61–64**
+
+---
+
+# Complete relationship ledger through Part 2
+
+## Relationship: Dhika ↔ John
+**Status:** HOLD / UNCHANGED  
+**Previous history:** Prologue marriage baseline; Part 1 Uncle secret both spouses se hidden.  
+**Current encounter:** No new direct encounter in L31–64.  
+**Knowledge split:** Uncle secret state unchanged.  
+**Boundary state:** No new permission.  
+**Emotional delta:** None source-supported.  
+**Carry-forward:** Marriage baseline intact.  
+**Evidence:** P00 L8–13 + `E01-P01-E002`.
+
+## Relationship: Dhika ↔ Pappu
+**Status:** HOLD / UNCHANGED  
+**Previous history:** Mother-child caregiving + Part 1 neighbour childcare handoff.  
+**Current encounter:** No new Part 2 encounter.  
+**Carry-forward:** Part 1 maternal state retained.  
+**Evidence:** Part 1 `E001/E003/E004`.
+
+## Relationship: Dhika ↔ Students (general)
+**Status:** CHANGED  
+**Previous history:** Prologue positive teacher/student baseline.  
+**Current encounter:** `E008` narrator says Dhika smiles, does not scold students, and students love her; attention-aware self-management is also explicit.  
+**Knowledge split:** Reader/Dhika know her self-management; no specific student is shown knowing that internal rule.  
+**Boundary state:** Positive goodwill ≠ relaxed boundary with everyone.  
+**Carry-forward:** General goodwill + professional/modest self-management.  
+**Evidence:** `E01-P02-E008` L47–52.
+
+## Relationship: Dhika ↔ Aunty
+**Status:** CHANGED  
+**Previous history:** Part 1 near-family maternal-neighbour/childcare trust.  
+**Current encounter:** No live meeting, but `E008` adds that even Aunty has not seen Dhika without a shawl in their apartments.  
+**Knowledge split:** Reader knows visibility history; Aunty remains unaware of Uncle secret.  
+**Boundary state:** Near-family trust ke bawajood clothing/visibility boundary historically maintained hai.  
+**Carry-forward:** Trust intact + explicit no-shawl visibility ceiling.  
+**Evidence:** Part 1 `E002–E004` + Part 2 `E008` L52.
+
+## Relationship: Dhika ↔ Uncle
+**Status:** HOLD / UNCHANGED  
+**Previous history:** Part 1 public guardian-like trust + hidden Uncle-side attraction/ogling; Dhika unaware.  
+**Current encounter:** No Part 2 Uncle encounter.  
+**Carry-forward:** Exact same state.  
+**Evidence:** Part 1 `E001–E004`.
+
+## Relationship: John ↔ Aunty/Uncle
+**Status:** HOLD / UNCHANGED  
+**Previous history:** Near-family guardian relation; Uncle secret John se hidden.  
+**Current encounter:** No new evidence.  
+**Carry-forward:** Same.  
+**Evidence:** Part 1 `E002`.
+
+## Relationship: Pappu ↔ Aunty/Uncle
+**Status:** HOLD / UNCHANGED  
+**Previous history:** Part 1 trusted neighbour-caregiver arrangement.  
+**Current encounter:** No new evidence.  
+**Carry-forward:** Same.  
+**Evidence:** Part 1 `E003–E004`.
+
+## Relationship: Aunty ↔ Uncle
+**Status:** HOLD / UNCHANGED  
+**Previous history:** Marriage + Uncle-side secret.  
+**Current encounter:** No new relationship event.  
+**Carry-forward:** Same.  
+**Evidence:** Part 1 `E002`.
+
+## Relationship: Dhika ↔ Bantu
+**Status:** NEW  
+**Previous history:** Not established before Part 2.  
+**Current encounter:** `E005` live compliment; `E006` daily compliment history + discomfort→liking→secret expectation. `E007` keeps L44 speaker anomaly unresolved rather than assigning it.  
+**Knowledge split:** Dhika knows/likes/expects routine privately; Bantu is not shown knowing that.  
+**Boundary state:** Conversational exception/familiarity only; shush/privacy response shows limits.  
+**Emotional delta:** Specific compliment route normalized over time.  
+**Carry-forward:** Favourite teacher/student + normalized verbal compliment routine; no romance/physical route yet.  
+**Evidence:** `E005` L31–39; `E006` L40–43; `E007` L44–46.
+
+## Relationship: Dhika ↔ Bobby
+**Status:** NEW  
+**Previous history:** Not established before Part 2.  
+**Current encounter:** `E005` Dhika asks for/waves to Bobby; `E006` says he is favourite, shy but not timid, and slightly more favoured by Dhika.  
+**Knowledge split:** Dhika knows her preference; Bobby/Bantu are not shown knowing it.  
+**Boundary state:** No physical/romantic permission or encounter.  
+**Emotional delta:** Dhika-side mild preference/intrigue only.  
+**Carry-forward:** Teacher/student bond with hidden slight preference; Bobby-side feelings unknown.  
+**Evidence:** `E005–E006`.
+
+## Relationship: Bantu ↔ Bobby
+**Status:** NEW  
+**Previous history:** Not established.  
+**Current encounter:** `E006` twins; Bantu talkative/charming; Bobby shy-but-not-timid, usually following/talking with Bantu.  
+**Knowledge split:** No hidden pair state.  
+**Boundary state:** N/A.  
+**Emotional delta:** None.  
+**Carry-forward:** Twin/social contrast baseline.  
+**Evidence:** `E006` L40–43.
+
+## Relationship: Dhika ↔ Sharmi
+**Status:** NEW  
+**Previous history:** Not established before Part 2.  
+**Current encounter:** `E009` playful greeting/waist pinch; `E010` childhood-friend/best-friend/colleague history; `E011` reciprocal teasing.  
+**Knowledge split:** High familiarity is shared; exact “bigger” referent remains unspecified to reader.  
+**Boundary state:** Specific waist pinch supported; no blanket physical permission.  
+**Emotional delta:** Playful/warm; no hostile jealousy.  
+**Carry-forward:** Longstanding high-trust best-friend/colleague bond.  
+**Evidence:** `E009–E011`.
+
+## Relationship: Sharmi ↔ Raj
+**Status:** NEW / REFERENCE-ONLY  
+**Previous history:** Not established.  
+**Current encounter:** `E010` Raj is Sharmi's husband; she knows he complimented Dhika and considers him hard to impress.  
+**Knowledge split:** Sharmi + reader know compliment; Raj not present.  
+**Boundary state:** No live event.  
+**Emotional delta:** None stated.  
+**Carry-forward:** Marriage reference only.  
+**Evidence:** `E010` L56–60.
+
+## Relationship: Dhika ↔ Raj
+**Status:** NEW / REFERENCE-ONLY  
+**Previous history:** Not established.  
+**Current encounter:** `E010` historical Raj→Dhika beauty compliment is reported.  
+**Knowledge split:** Sharmi + reader know; Dhika knowledge unknown.  
+**Boundary state:** No active contact/permission.  
+**Emotional delta:** None.  
+**Carry-forward:** Reference-only; no affair or broader Raj intent.  
+**Evidence:** `E010` L60.
+
+---
+
+# Part 2 cumulative snapshot
+
+## Character Evolution
+
+**Previous verified state:** Part 1 tak Dhika caregiver/teacher baseline + neighbour childcare trust + Uncle-secret unawareness carry karti hai.
+
+**Current Part delta:** `E005–E008` college presentation/attention/student dynamics establish karte hain; `E009–E011` Sharmi friendship/social contrast add karte hain.
+
+**Cumulative state through Part 2:** Dhika ko sirf “innocent teacher” reduce nahi karna. Woh kind + positive + shy + somewhat innocent hai, **but attention-aware**; public attire/manners consciously manage karti hai; Bantu compliment privately expect karti hai; Bobby ko slightly prefer karti hai; Sharmi ke saath longstanding playful best-friend bond hai. Part 1 domestic/Uncle knowledge state unchanged active hai.
+
+## Knowledge / Secrecy
+
+**Previous verified state:** Part 1 Uncle + reader know hidden state; Dhika/John/Aunty unaware.
+
+**Current Part delta:** `E006` Dhika private compliment-expectation + Bobby preference reveal karta hai; twins ko knowledge establish nahi. `E010` Sharmi Raj compliment jaanti hai; Dhika knowledge unspecified. `E011` exact “bigger” referent reader ke liye unresolved. `E008` Aunty no-shawl visibility history add karta hai.
+
+**Cumulative state through Part 2:** Part 1 Uncle secrecy intact + new college/social private states added without knowledge leakage.
+
+## Boundary / Permission / Control
+
+**Previous verified state:** Part 1 childcare permission act-specific thi.
+
+**Current Part delta:** Bantu ko conversational exception hai but Dhika public visibility se conscious hai; Sharmi ka waist pinch specific close-friend act hai; Dhika self-presentation consciously control karti hai.
+
+**Cumulative state through Part 2:** Trust/comfort har relationship mein act-specific hai. Compliment enjoy karna, friendship teasing, waist pinch history ya near-family trust blanket consent nahi.
+
+## Escalation / Normalization
+
+**Previous verified state:** Uncle route = concealed attraction + habitual ogling history only.
+
+**Current Part delta:** Uncle route HOLD. Bantu verbal compliment route explicitly normalizes: initial discomfort → repeated familiarity → liking → secret expectation. No student physical-contact route Part 2 mein establish nahi.
+
+**Cumulative state through Part 2:** Domestic hidden route unchanged; college verbal familiarity route added. No physical escalation with students yet.
+
+## Hooks
+
+**Previous verified state:** Uncle secret and Part 1 ambiguities remain open.
+
+**Current Part delta:** Twins ko Dhika ki internal expectation/preference pata chalega ya nahi; Raj compliment context + Dhika knowledge; exact “something bigger” referent — new open items.
+
+**Cumulative state through Part 2:** Earlier unresolved state retain hota hai; new college/social hooks add hote hain.
+
+## Negative Canon
+
+**Previous verified state:** No reciprocal Dhika→Uncle attraction; no exact handoff stare; childcare ≠ unrelated permission.
+
+**Current Part delta:**  
+- Bobby slight preference ≠ romance.  
+- Bantu does not know compliment expectation unless later source says so.  
+- Twins do not know Bobby slight preference unless later source says so.  
+- Raj compliment ≠ affair or established broader attraction.  
+- “Something bigger” exact body part unknown.  
+- L44 speaker label RAW mein Dhika hai; silently repair nahi karna.  
+- Dhika attention-aware hai; “innocent” ko total unawareness mein convert nahi karna.  
+- L65+ Part 3 hai, Part 2 nahi.
+
+**Cumulative state through Part 2:** Part 1 + Part 2 negatives simultaneously active.
+
+## Writer Guidance
+
+**Previous verified state:** Part 1 neighbour trust + Uncle knowledge asymmetry preserve karni hai.
+
+**Current Part delta:** Dhika attention-aware/modest baseline, Bantu normalized verbal route, Bobby shy/slight-favourite state, Sharmi best-friend contrast aur Raj reference add hote hain.
+
+**Cumulative state through Part 2:** Future Part ko domestic history aur college/social history dono carry karne hain; HOLD ka matlab forgotten nahi. Exact ambiguities ko resolve kiye bina carry karo.

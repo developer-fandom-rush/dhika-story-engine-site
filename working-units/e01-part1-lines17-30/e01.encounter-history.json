@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_1_ONLY",
-  "asOfPart": "P01",
+  "phase": "PHASE_2_PART_2_ONLY",
+  "asOfPart": "P02",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,10 +11,11 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "currentPart": "L17-L30",
-    "nextUnprocessedRange": "L31-L64"
+    "previousProcessedPart": "L17-L30",
+    "currentPart": "L31-L64",
+    "nextUnprocessedRange": "L65-L70"
   },
-  "cumulativeDefinition": "Prologue baseline L1-L16 plus verified Part 1 evidence L17-L30 only.",
+  "cumulativeDefinition": "Prologue L1-L16 plus verified Part 1 L17-L30 plus verified Part 2 L31-L64 only.",
   "baselineState": {
     "sourceRange": "L1-L16",
     "sourceSupportedFacts": [
@@ -459,6 +460,633 @@
       "qaAmbiguities": [
         "L27 is textually incomplete in the authoritative RAW source."
       ]
+    },
+    {
+      "eventId": "E01-P02-E005",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L31-L39",
+      "chronologyOrder": 5,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "08:35 morning",
+      "location": "college parking",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-BOBBY"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika parks her bike at college at about 8:35 in the morning and hears Bantu behind her.",
+        "Bantu tells Dhika she looks very pretty, adding that she did yesterday and the day before too.",
+        "Dhika blushes, tells him to shush, recognizes him before turning, and hopes nobody else is around.",
+        "The narrator states that not everyone can speak to Dhika this way, but her favourite twins have some exceptions with her.",
+        "Dhika asks where Bobby is; Bantu points him out, and Dhika waves at Bobby while he is farther away pushing his bike."
+      ],
+      "derivedInterpretations": [
+        "Bantu has context-specific conversational familiarity with Dhika.",
+        "Dhika's blush/shush and hope that nobody else is around show that her comfort with Bantu's compliment is not the same as wanting public visibility of that exchange."
+      ],
+      "actions": [
+        {
+          "actor": "Bantu",
+          "target": "Dhika",
+          "actionType": "appearance_compliment",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Dhika and Bantu are mutually present; no third observer is confirmed."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Bantu",
+          "actionType": "blushes_and_shushes",
+          "intentionality": "response",
+          "physicality": "none",
+          "visibility": "Bantu is present."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Bobby",
+          "actionType": "waves",
+          "intentionality": "intentional greeting",
+          "physicality": "non-contact gesture",
+          "visibility": "Directed toward Bobby farther away."
+        }
+      ],
+      "dialogueMeaning": [
+        "Bantu's compliment is familiar/repeated rather than a first-time compliment.",
+        "Dhika permits some verbal familiarity from the favourite twins but remains conscious of who else might hear/see it."
+      ],
+      "emotionalStateBefore": [
+        "Dhika already recognizes Bantu's familiar compliment pattern."
+      ],
+      "emotionalStateAfter": [
+        "Dhika blushes and wants the exchange kept low-profile in public."
+      ],
+      "visibilityAndObservers": [
+        "Dhika and Bantu are confirmed present; Bobby is farther away. Dhika hopes nobody else is around, but no third observer is confirmed."
+      ],
+      "knowledgeBefore": [
+        "Dhika already knows Bantu's compliment routine from prior days, as clarified by the narration that follows."
+      ],
+      "knowledgeDelta": [
+        "Reader sees the routine operating live in the college parking."
+      ],
+      "knowledgeAfter": [
+        "Bantu has no source-confirmed knowledge yet that Dhika secretly expects his compliments; that private fact is disclosed in E006."
+      ],
+      "boundaryPermissionControl": [
+        "Conversational exception is context-specific. Dhika's shush/privacy response means familiarity is not blanket public or personal permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu live favourite-teacher/student familiarity becomes visible.",
+        "Dhika↔Bobby is introduced as an expected member of the favourite-twin pair through Dhika asking for him and waving."
+      ],
+      "secrecyState": [
+        "Dhika's private expectation of the compliment is not yet stated in these lines."
+      ],
+      "escalationOrNormalization": [
+        "The live scene confirms a repeated compliment pattern, but the history of normalization is explained in E006."
+      ],
+      "hooksOpened": [
+        "Why Bantu/Bobby are favourite students and how the compliment routine developed are answered by the following narration."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No romantic relationship is established.",
+        "No third-party observer of the compliment is confirmed.",
+        "Dhika's blush does not equal blanket permission."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P02-E006",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L40-L43",
+      "chronologyOrder": 6,
+      "eventType": "NARRATED_HISTORY",
+      "sceneTime": "background narration inserted into college-arrival scene",
+      "location": "college relationship background",
+      "presentCharacters": [],
+      "referencedCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-BANTU-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Bantu and Bobby are twins, very studious, and Dhika's most favourite students.",
+        "Bantu is described as charming and always talking; Bobby is very shy but explicitly not timid.",
+        "Bobby talks freely mostly with Bantu, which intrigues Dhika.",
+        "Dhika likes Bobby a little more than Bantu because Bobby is a little chubby and more shy around her.",
+        "Bantu compliments Dhika every day.",
+        "Dhika initially felt uncomfortable when Bantu called her pretty; over time she started liking it and now secretly expects the compliment."
+      ],
+      "derivedInterpretations": [
+        "Bantu and Bobby have a lead/follow social contrast, not a source-stated dominance hierarchy.",
+        "Dhika's private liking/expectation concerns the recurring verbal compliment; it does not itself establish romance, consent to touch, or permission for unrelated conduct."
+      ],
+      "actions": [
+        {
+          "actor": "Narrator",
+          "target": "Reader",
+          "actionType": "reveals_relationship_history",
+          "intentionality": "narrative disclosure",
+          "physicality": "none",
+          "visibility": "Reader receives internal/history information."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Dhika's initial historical response to being called pretty was discomfort."
+      ],
+      "emotionalStateAfter": [
+        "Repeated familiarity has shifted that specific verbal compliment to something she likes and secretly expects."
+      ],
+      "visibilityAndObservers": [
+        "This is narrator-provided history, not a single current observable act."
+      ],
+      "knowledgeBefore": [
+        "Bantu repeatedly gives compliments; Dhika has privately developed a changed response over time."
+      ],
+      "knowledgeDelta": [
+        "Reader learns Dhika's private compliment expectation and her slight preference for Bobby."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows her own private liking/expectation and her own slight preference for Bobby.",
+        "Source does not establish that Bantu knows Dhika secretly expects the compliment.",
+        "Source does not establish that Bantu or Bobby knows Dhika slightly favours Bobby."
+      ],
+      "boundaryPermissionControl": [
+        "Verbal compliment familiarity remains act-specific; private enjoyment is not blanket permission for other behaviour."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu: daily compliment routine has normalized from initial discomfort to private liking/expectation.",
+        "Dhika↔Bobby: teacher/student bond includes a Dhika-side slight preference and intrigue at his shy-but-not-timid reserve.",
+        "Bantu↔Bobby: twin relationship and social contrast are established."
+      ],
+      "secrecyState": [
+        "Dhika's compliment expectation and slight Bobby preference are internal/private unless later source says otherwise."
+      ],
+      "escalationOrNormalization": [
+        "Bantu compliment route explicitly normalizes: discomfort → repetition/familiarity → liking → secret expectation."
+      ],
+      "hooksOpened": [
+        "Whether either twin ever learns Dhika's private preference/expectation remains open."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Bobby's slight-favourite status does not establish romance.",
+        "Bantu is not shown knowing Dhika secretly expects his compliments.",
+        "Neither twin is shown knowing Dhika slightly favours Bobby."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P02-E007",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L44-L46",
+      "chronologyOrder": 7,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same college-arrival sequence",
+      "location": "college parking/entry",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU"
+      ],
+      "sourceSupportedFacts": [
+        "RAW L44 is explicitly labelled 'Dhika:' and reads 'The saree looks so good on you, miss....'.",
+        "RAW L45 is labelled 'Dhika:' and reads 'Ai,.. stop it. Run to the class now...'.",
+        "L46 narrator says the compliment/statement was not wrong."
+      ],
+      "derivedInterpretations": [
+        "L44 is contextually anomalous because the wording addresses 'miss' while the source labels the speaker as Dhika.",
+        "The source label must be preserved; this tracker does not silently reassign L44 to Bantu."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika (RAW speaker label)",
+          "target": "ambiguous due to source wording",
+          "actionType": "spoken_line_with_source_attribution_anomaly",
+          "intentionality": "unknown beyond source text",
+          "physicality": "none",
+          "visibility": "Current college scene."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Bantu/contextual interlocutor",
+          "actionType": "tells_to_stop_and_go_to_class",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Current college scene."
+        }
+      ],
+      "dialogueMeaning": [
+        "L45 clearly continues Dhika's modest/shushing response.",
+        "L44 speaker identity is not normalized beyond the RAW label."
+      ],
+      "emotionalStateBefore": [
+        "Dhika is already blushing/shushing from E005."
+      ],
+      "emotionalStateAfter": [
+        "She continues to deflect the appearance-focused exchange and sends the student toward class."
+      ],
+      "visibilityAndObservers": [
+        "No new observer is confirmed."
+      ],
+      "knowledgeBefore": [
+        "Reader has the compliment-history context from E006."
+      ],
+      "knowledgeDelta": [
+        "No reliable new hidden knowledge is created by the anomalous L44 label."
+      ],
+      "knowledgeAfter": [
+        "The speaker anomaly remains a QA issue rather than a repaired canon fact."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika's 'stop it/run to class' line reinforces that conversational familiarity still has situational limits."
+      ],
+      "relationshipDelta": [
+        "No separate relationship escalation is assigned solely from the anomalous L44 line."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "No new route beyond the already-established compliment familiarity."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not silently change the L44 speaker label to Bantu in canonical evidence."
+      ],
+      "qaAmbiguities": [
+        "L44 speaker attribution is internally/contextually inconsistent in RAW and must remain flagged."
+      ]
+    },
+    {
+      "eventId": "E01-P02-E008",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L47-L52",
+      "chronologyOrder": 8,
+      "eventType": "NARRATED_HISTORY",
+      "sceneTime": "character-description narration within college sequence",
+      "location": "college / character baseline",
+      "presentCharacters": [],
+      "referencedCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-AUNTY",
+        "GROUP-STUDENTS-GENERAL"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-STUDENTS-GENERAL",
+        "REL-DHIKA-AUNTY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika is wearing a pink cotton saree with her hair free in curls.",
+        "Narrator describes her as attractive even in conservative dress and gives facial-feature description.",
+        "Narrator says Dhika is always smiling, has a positive vibe, never scolds anyone, and students love her.",
+        "Dhika is described as kind-hearted, shy, a little innocent, but not completely unaware.",
+        "Dhika receives unwanted attention and knows she turns heads.",
+        "She consciously manages her manners and attire so she does not provoke unnecessary feelings in others.",
+        "Except at home, she always wears a full saree or a kurti with shawl.",
+        "Narrator states that even Aunty has not seen Dhika without a shawl in their apartments."
+      ],
+      "derivedInterpretations": [
+        "Dhika's modest clothing is an active self-management baseline, not evidence that she is unaware of attention.",
+        "The Aunty line creates a specific historical visibility ceiling: near-family trust has not erased Dhika's clothing boundary."
+      ],
+      "actions": [
+        {
+          "actor": "Narrator",
+          "target": "Reader",
+          "actionType": "defines_character_baseline",
+          "intentionality": "narrative disclosure",
+          "physicality": "none",
+          "visibility": "Reader receives appearance/nature/presentation history."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Dhika's public self-presentation is already conservative and attention-aware."
+      ],
+      "emotionalStateAfter": [
+        "No current emotional change is stated; this event clarifies the pre-existing baseline."
+      ],
+      "visibilityAndObservers": [
+        "No single current observer event is created. Aunty's historical visibility limit is explicitly stated."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows she receives unwanted attention and turns heads."
+      ],
+      "knowledgeDelta": [
+        "Reader learns the extent of her self-conscious presentation management and the Aunty no-shawl visibility ceiling."
+      ],
+      "knowledgeAfter": [
+        "Dhika remains attention-aware.",
+        "Reader knows her outside-home clothing baseline.",
+        "Reader knows Aunty has not seen her without a shawl in their apartments as of this history."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika controls her own public presentation through conservative attire and manners.",
+        "Near-family trust with Aunty does not mean unrestricted clothing visibility."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Students general: positive goodwill is reaffirmed through students loving her because of her smiling/non-scolding nature.",
+        "Dhika↔Aunty: relationship remains trusted, while an explicit clothing/visibility boundary history is added."
+      ],
+      "secrecyState": [
+        "No new interpersonal secret; this is narrator/reader baseline information."
+      ],
+      "escalationOrNormalization": [
+        "No sexual or physical escalation occurs; this is presentation/attention baseline."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Dhika is not completely unaware of attention.",
+        "Conservative clothing does not mean absence of attention awareness.",
+        "Aunty has not seen Dhika without a shawl in the apartment history described here."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P02-E009",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L53-L55",
+      "chronologyOrder": 9,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same morning",
+      "location": "college entrance",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-SHARMI"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-SHARMI"
+      ],
+      "sourceSupportedFacts": [
+        "Sharmi calls out 'Oi, Big Girl'.",
+        "Dhika responds warmly.",
+        "Sharmi pinches Dhika's waist and pulls beside her."
+      ],
+      "derivedInterpretations": [
+        "The waist pinch occurs within an already-close friendship context that the following narration explains."
+      ],
+      "actions": [
+        {
+          "actor": "Sharmi",
+          "target": "Dhika",
+          "actionType": "waist_pinch_and_pull_beside",
+          "intentionality": "intentional playful greeting",
+          "physicality": "waist pinch/contact",
+          "visibility": "Dhika and Sharmi are mutually involved; no third observer confirmed."
+        }
+      ],
+      "dialogueMeaning": [
+        "Greeting is playful/familiar."
+      ],
+      "emotionalStateBefore": [
+        "No conflict is stated."
+      ],
+      "emotionalStateAfter": [
+        "Interaction remains playful."
+      ],
+      "visibilityAndObservers": [
+        "Dhika and Sharmi mutually observe/participate; public bystanders are not confirmed."
+      ],
+      "knowledgeBefore": [
+        "Their long friendship is explained immediately after this live beat."
+      ],
+      "knowledgeDelta": [
+        "Reader sees established physical/social familiarity in action."
+      ],
+      "knowledgeAfter": [
+        "No new secret is created."
+      ],
+      "boundaryPermissionControl": [
+        "This specific playful waist pinch is source-supported within their close-friend context; it is not universal permission for unrelated physical acts."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Sharmi live playful/high-familiarity interaction is established."
+      ],
+      "secrecyState": [],
+      "escalationOrNormalization": [
+        "One source-shown playful physical interaction; repeated-touch history is not quantified here."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not generalize one waist pinch into blanket physical permission."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P02-E010",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L56-L60",
+      "chronologyOrder": 10,
+      "eventType": "NARRATED_HISTORY",
+      "sceneTime": "friendship/background narration inserted into live college scene",
+      "location": "college relationship background",
+      "presentCharacters": [],
+      "referencedCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-SHARMI",
+        "CHAR-RAJ"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-SHARMI",
+        "REL-SHARMI-RAJ",
+        "REL-DHIKA-RAJ"
+      ],
+      "sourceSupportedFacts": [
+        "Sharmi is Dhika's childhood friend, college mate/colleague and best friend.",
+        "Sharmi is described as good-hearted like Dhika but less shy, bubbly, naughty and modern.",
+        "Sharmi comes from a rich background but does not show it off to Dhika.",
+        "Wanting to be with Dhika, Sharmi took a job at the same college.",
+        "Sharmi is less conservative and wears sleeveless blouses to college.",
+        "Sharmi is described as attractive and playfully a little envious that Dhika draws more attention while covered.",
+        "Raj is Sharmi's husband.",
+        "Raj has complimented Dhika's beauty, and Sharmi knows Raj is hard to impress."
+      ],
+      "derivedInterpretations": [
+        "Sharmi functions as a social/style contrast to Dhika while remaining a trusted best friend.",
+        "Raj's compliment is a historical third-party reference; it does not by itself establish an active Dhika↔Raj relationship or broader feelings."
+      ],
+      "actions": [
+        {
+          "actor": "Narrator",
+          "target": "Reader",
+          "actionType": "reveals_friendship_and_reference_history",
+          "intentionality": "narrative disclosure",
+          "physicality": "none",
+          "visibility": "Reader receives background information."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Sharmi's playful comparison/envious note is historical/contextual."
+      ],
+      "emotionalStateAfter": [
+        "No current conflict is established."
+      ],
+      "visibilityAndObservers": [
+        "Raj is not present in Part 2."
+      ],
+      "knowledgeBefore": [
+        "Sharmi knows Raj's standards and his prior compliment."
+      ],
+      "knowledgeDelta": [
+        "Reader learns the Dhika↔Sharmi history and the Raj reference."
+      ],
+      "knowledgeAfter": [
+        "Sharmi knows Raj complimented Dhika.",
+        "Reader knows Raj complimented Dhika.",
+        "Source does not state whether Dhika knows about Raj's compliment."
+      ],
+      "boundaryPermissionControl": [
+        "No new permission state involving Raj is created.",
+        "Friendship closeness does not erase Dhika's separate public-presentation boundaries."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Sharmi: longstanding childhood-friend/best-friend/colleague relationship established.",
+        "Sharmi↔Raj: marriage established by reference.",
+        "Dhika↔Raj: reference-only connection through a past beauty compliment."
+      ],
+      "secrecyState": [
+        "Dhika's knowledge of Raj's compliment is explicitly unconfirmed."
+      ],
+      "escalationOrNormalization": [
+        "No active Dhika↔Raj route is established."
+      ],
+      "hooksOpened": [
+        "When/where Raj complimented Dhika and whether Dhika knows are unresolved."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Raj compliment ≠ affair.",
+        "Raj's broader attraction/intent is not established.",
+        "Raj is not present in the Part 2 scene."
+      ],
+      "qaAmbiguities": [
+        "The source does not state whether Dhika heard or knows about Raj's compliment."
+      ]
+    },
+    {
+      "eventId": "E01-P02-E011",
+      "episode": "E01",
+      "part": "P02",
+      "sourceRange": "L61-L64",
+      "chronologyOrder": 11,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same morning",
+      "location": "college entrance / entering college",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-SHARMI"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-SHARMI"
+      ],
+      "sourceSupportedFacts": [
+        "Narrator says Sharmi constantly teases Dhika that she is playfully jealous of something Dhika has much bigger than her own.",
+        "Dhika tells Sharmi not to start in the morning.",
+        "Dhika teases back that Sharmi also has something bigger than most and sticks out her tongue.",
+        "Both giggle and laugh as they enter the college."
+      ],
+      "derivedInterpretations": [
+        "The exchange indicates a shared teasing context between the friends.",
+        "The exact body feature/referent is not named by the RAW source and must remain unresolved for the reader."
+      ],
+      "actions": [
+        {
+          "actor": "Sharmi",
+          "target": "Dhika",
+          "actionType": "playful_body_feature_teasing",
+          "intentionality": "intentional teasing",
+          "physicality": "none",
+          "visibility": "Dhika and Sharmi share the exchange."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Sharmi",
+          "actionType": "reciprocal_teasing_and_tongue_out",
+          "intentionality": "intentional playful response",
+          "physicality": "gesture only",
+          "visibility": "Sharmi observes."
+        },
+        {
+          "actor": "Dhika and Sharmi",
+          "target": "scene",
+          "actionType": "enter_college_laughing",
+          "intentionality": "ordinary movement",
+          "physicality": "movement",
+          "visibility": "No third observer confirmed."
+        }
+      ],
+      "dialogueMeaning": [
+        "Both participate in reciprocal playful comparison; exact compared feature remains unnamed."
+      ],
+      "emotionalStateBefore": [
+        "Playful friendship mood."
+      ],
+      "emotionalStateAfter": [
+        "They remain laughing/giggling while entering college."
+      ],
+      "visibilityAndObservers": [
+        "Dhika and Sharmi mutually observe each other; no bystander is confirmed."
+      ],
+      "knowledgeBefore": [
+        "Their banter implies they share the joke's context."
+      ],
+      "knowledgeDelta": [
+        "Reader learns only that a comparative body-feature joke exists; exact referent is withheld."
+      ],
+      "knowledgeAfter": [
+        "Dhika and Sharmi appear to understand the joke; reader cannot canonically identify the exact body part."
+      ],
+      "boundaryPermissionControl": [
+        "Reciprocal teasing is specific to their friendship context and does not create unrelated permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Sharmi playful best-friend familiarity is reinforced."
+      ],
+      "secrecyState": [
+        "Exact referent is unresolved for the reader, not converted into a guessed anatomy fact."
+      ],
+      "escalationOrNormalization": [
+        "Teasing familiarity is established; no new physical escalation."
+      ],
+      "hooksOpened": [
+        "Exact 'something bigger' referent remains unresolved."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not name a specific body part unless later RAW explicitly resolves it."
+      ],
+      "qaAmbiguities": [
+        "Exact referent of 'something bigger' is not specified by RAW."
+      ]
     }
   ],
   "relationships": [
@@ -494,7 +1122,7 @@
       "negativeCanon": [
         "No marital conflict is established in Part 1."
       ],
-      "latestVerifiedState": "HOLD / UNCHANGED from Prologue marriage baseline; Part 1 only adds the fact that Uncle keeps his secret from John.",
+      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. No direct Dhika↔John relationship event occurs in L31-L64; Uncle secret remains unknown to them.",
       "lastChangedAt": "E01-P00:L8-L13"
     },
     {
@@ -531,7 +1159,7 @@
       "negativeCanon": [
         "Do not invent Pappu's awareness while he is sleeping."
       ],
-      "latestVerifiedState": "CHANGED in Part 1: caregiving is enacted through the handoff and care instructions.",
+      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. Part 1 maternal/childcare state remains active; no new Pappu encounter in L31-L64.",
       "lastChangedAt": "E01-P01-E004"
     },
     {
@@ -546,23 +1174,25 @@
         "part": "P00",
         "sourceRange": "L13"
       },
-      "eventIds": [],
-      "publicSurfaceState": "Dhika is a kind/helpful Physics teacher and is described as a favourite of students.",
+      "eventIds": [
+        "E01-P02-E008"
+      ],
+      "publicSurfaceState": "Dhika is a kind/helpful Physics teacher; narrator says she smiles, does not scold students, and students love her.",
       "privateState": "No additional student relationship state is processed as of Part 1.",
-      "readerKnownState": "Only the Prologue teacher/student baseline is in scope.",
+      "readerKnownState": "Reader knows her positive teacher-student goodwill coexists with conscious attention/modesty self-management.",
       "characterKnowledgeStates": {
         "Dhika": "Teacher role baseline only as of this snapshot."
       },
       "trustState": "General positive teacher-student baseline.",
       "boundaryState": "No Part 1 student encounter.",
       "secrecyState": "None established in scope.",
-      "currentCeiling": "Prologue teacher/student baseline.",
+      "currentCeiling": "Positive teacher-student goodwill reaffirmed; Bantu/Bobby-specific dynamics are tracked separately.",
       "unresolvedHooks": [],
       "negativeCanon": [
         "No Part 2 student-specific facts may be imported backward."
       ],
-      "latestVerifiedState": "HOLD / UNCHANGED from Prologue.",
-      "lastChangedAt": "E01-P00:L13"
+      "latestVerifiedState": "CHANGED in Part 2: L47-L51 explicitly reaffirms that students love Dhika while she consciously manages attention and presentation.",
+      "lastChangedAt": "E01-P02-E008"
     },
     {
       "relationshipId": "REL-DHIKA-AUNTY",
@@ -579,27 +1209,28 @@
       "eventIds": [
         "E01-P01-E002",
         "E01-P01-E003",
-        "E01-P01-E004"
+        "E01-P01-E004",
+        "E01-P02-E008"
       ],
       "publicSurfaceState": "Aunty treats Dhika and John like her own children; Dhika seeks Aunty during the childcare handoff.",
       "privateState": "No hidden Dhika↔Aunty conflict is established.",
-      "readerKnownState": "Reader knows Aunty is unaware of Uncle's concealed attraction/ogling.",
+      "readerKnownState": "Reader knows Aunty is a trusted near-family neighbour and, as of L52, has not seen Dhika without a shawl in their apartments. Aunty remains unaware of Uncle's hidden state.",
       "characterKnowledgeStates": {
         "Dhika": "Knows Aunty as trusted near-family neighbour; does not know Uncle's hidden state.",
         "Aunty": "Treats Dhika and John like her own children; source states Uncle has especially not told Aunty his hidden state."
       },
       "trustState": "Near-family/maternal-neighbour trust with childcare cooperation.",
-      "boundaryState": "Part 1 supports childcare/communication trust; no broader intimate permission is established.",
+      "boundaryState": "Near-family/childcare trust remains, while L52 adds a specific clothing/visibility history: even Aunty has not seen Dhika without a shawl in the apartments.",
       "secrecyState": "Uncle's hidden state is concealed from both Dhika and Aunty.",
-      "currentCeiling": "Trusted near-family neighbour/co-caregiver relationship.",
+      "currentCeiling": "Trusted near-family neighbour/co-caregiver relationship plus explicit historical clothing-visibility boundary.",
       "unresolvedHooks": [
         "Aunty's exact downstairs destination is unknown."
       ],
       "negativeCanon": [
         "Aunty does not witness the L22-L30 handoff in the source."
       ],
-      "latestVerifiedState": "NEW in Part 1.",
-      "lastChangedAt": "E01-P01-E004"
+      "latestVerifiedState": "CHANGED in Part 2 only by added visibility history: L52 says even Aunty has not seen Dhika without a shawl in their apartments; trust otherwise remains intact.",
+      "lastChangedAt": "E01-P02-E008"
     },
     {
       "relationshipId": "REL-DHIKA-UNCLE",
@@ -639,7 +1270,7 @@
         "No specific handoff-time stare is established.",
         "No adult intimate physical interaction occurs in Part 1."
       ],
-      "latestVerifiedState": "NEW in Part 1: public trust plus hidden reader-known asymmetry; childcare handoff occurs without disclosure.",
+      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. No new relationship event changes the prior Part 1 state.",
       "lastChangedAt": "E01-P01-E004"
     },
     {
@@ -676,7 +1307,7 @@
       "negativeCanon": [
         "Do not infer John or Aunty awareness from the reader's knowledge."
       ],
-      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 1.",
+      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. No new relationship event changes the prior Part 1 state.",
       "lastChangedAt": "E01-P01-E002"
     },
     {
@@ -714,7 +1345,7 @@
       "negativeCanon": [
         "Do not invent Aunty hearing the instructions off-screen before source confirms it."
       ],
-      "latestVerifiedState": "NEW in Part 1.",
+      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. No new relationship event changes the prior Part 1 state.",
       "lastChangedAt": "E01-P01-E004"
     },
     {
@@ -750,8 +1381,231 @@
       "negativeCanon": [
         "Do not invent Aunty's suspicions or reactions."
       ],
-      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 1.",
+      "latestVerifiedState": "HOLD / UNCHANGED through Part 2. No new relationship event changes the prior Part 1 state.",
       "lastChangedAt": "E01-P01-E002"
+    },
+    {
+      "relationshipId": "REL-DHIKA-BANTU",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU"
+      ],
+      "relationshipType": "teacher-student favourite / recurring verbal compliment familiarity",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L31-L43"
+      },
+      "eventIds": [
+        "E01-P02-E005",
+        "E01-P02-E006",
+        "E01-P02-E007"
+      ],
+      "publicSurfaceState": "Bantu is one of Dhika's favourite twin students; he is charming/talkative and gives her daily appearance compliments.",
+      "privateState": "Dhika initially felt uncomfortable with 'pretty' compliments, later started liking them and now secretly expects them.",
+      "readerKnownState": "Reader knows the live compliment routine and Dhika's private normalization history.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows and privately likes/expects the recurring compliment; still shushes Bantu in public.",
+        "Bantu": "Knows he routinely compliments Dhika; source does not establish that he knows she secretly expects it."
+      },
+      "trustState": "Context-specific favourite-student conversational familiarity.",
+      "boundaryState": "Verbal familiarity is permitted in context, but Dhika's shush/privacy response shows limits. Private liking of compliments is not blanket permission.",
+      "secrecyState": "Dhika's secret expectation is not shown known to Bantu.",
+      "currentCeiling": "Normalized verbal compliment routine within teacher-student frame; no romance or physical route established through Part 2.",
+      "unresolvedHooks": [
+        "Whether Bantu ever learns Dhika privately expects his compliment."
+      ],
+      "negativeCanon": [
+        "Compliment routine ≠ romance.",
+        "Secret expectation ≠ consent to unrelated conduct.",
+        "L44 speaker label must not be silently reassigned."
+      ],
+      "latestVerifiedState": "NEW in Part 2: daily compliment route is shown live and its history normalizes from initial discomfort to private liking/expectation.",
+      "lastChangedAt": "E01-P02-E006"
+    },
+    {
+      "relationshipId": "REL-DHIKA-BOBBY",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY"
+      ],
+      "relationshipType": "teacher-student favourite / Dhika-side slight preference",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L37-L43"
+      },
+      "eventIds": [
+        "E01-P02-E005",
+        "E01-P02-E006"
+      ],
+      "publicSurfaceState": "Bobby is one of Dhika's favourite twin students; shy but explicitly not timid.",
+      "privateState": "Dhika likes Bobby a little more than Bantu because he is a little chubby and more shy around her; his reserve intrigues her.",
+      "readerKnownState": "Reader knows Dhika's slight internal preference.",
+      "characterKnowledgeStates": {
+        "Dhika": "Knows her own slight preference/intrigue.",
+        "Bobby": "Source does not establish that Bobby knows he is slightly more favoured.",
+        "Bantu": "Source does not establish that Bantu knows Dhika slightly favours Bobby."
+      },
+      "trustState": "Favourite teacher-student baseline.",
+      "boundaryState": "No physical or romantic permission/event in Part 2.",
+      "secrecyState": "Dhika's relative preference is internal/private unless later source says otherwise.",
+      "currentCeiling": "Teacher-student bond with Dhika-side slight preference; Bobby-side attraction/relationship meaning not established.",
+      "unresolvedHooks": [
+        "Whether either twin learns the slight preference."
+      ],
+      "negativeCanon": [
+        "Slight-favourite status ≠ romance.",
+        "Bobby is shy but not timid."
+      ],
+      "latestVerifiedState": "NEW in Part 2.",
+      "lastChangedAt": "E01-P02-E006"
+    },
+    {
+      "relationshipId": "REL-BANTU-BOBBY",
+      "participants": [
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "relationshipType": "twins / student peer pair",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L40-L42"
+      },
+      "eventIds": [
+        "E01-P02-E006"
+      ],
+      "publicSurfaceState": "Bantu and Bobby are twins, very studious, and usually around Dhika; Bantu is the talkative/charming one and Bobby often follows.",
+      "privateState": "No hidden conflict is established in Part 2.",
+      "readerKnownState": "Reader knows their twin relationship and social-style contrast.",
+      "characterKnowledgeStates": {
+        "Bantu": "Twin relationship baseline.",
+        "Bobby": "Twin relationship baseline."
+      },
+      "trustState": "Close twin/peer baseline.",
+      "boundaryState": "No boundary issue in Part 2.",
+      "secrecyState": "No pair secret established in Part 2.",
+      "currentCeiling": "Twin bond with lead/follow social contrast only.",
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "Do not convert social contrast into dominance or conflict without source evidence."
+      ],
+      "latestVerifiedState": "NEW in Part 2.",
+      "lastChangedAt": "E01-P02-E006"
+    },
+    {
+      "relationshipId": "REL-DHIKA-SHARMI",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-SHARMI"
+      ],
+      "relationshipType": "childhood friends / best friends / colleagues",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L53-L60"
+      },
+      "eventIds": [
+        "E01-P02-E009",
+        "E01-P02-E010",
+        "E01-P02-E011"
+      ],
+      "publicSurfaceState": "Sharmi is Dhika's childhood friend, college mate/colleague and best friend; they share playful high-familiarity banter.",
+      "privateState": "Sharmi has a playful comparison/envy layer around Dhika's attractiveness/attention; no hostile jealousy is established.",
+      "readerKnownState": "Reader sees a playful waist pinch, friendship history, social/style contrast and reciprocal teasing.",
+      "characterKnowledgeStates": {
+        "Dhika": "Participates comfortably in playful friendship teasing.",
+        "Sharmi": "Knows Dhika closely, knows Raj previously complimented Dhika, and participates in the 'bigger' joke."
+      },
+      "trustState": "High-trust longstanding friendship/colleague relationship.",
+      "boundaryState": "L55 waist pinch is a source-supported specific playful act; it does not establish blanket physical permission.",
+      "secrecyState": "Exact referent of 'something bigger' remains unnamed to the reader, though their reciprocal banter implies shared context.",
+      "currentCeiling": "Longstanding best-friend/colleague bond with playful teasing and style contrast.",
+      "unresolvedHooks": [
+        "Exact 'something bigger' referent.",
+        "How the playful comparison develops, if at all."
+      ],
+      "negativeCanon": [
+        "Playful envy ≠ hostility.",
+        "Waist pinch ≠ universal permission.",
+        "Exact teased body feature is not specified."
+      ],
+      "latestVerifiedState": "NEW in Part 2.",
+      "lastChangedAt": "E01-P02-E011"
+    },
+    {
+      "relationshipId": "REL-SHARMI-RAJ",
+      "participants": [
+        "CHAR-SHARMI",
+        "CHAR-RAJ"
+      ],
+      "relationshipType": "married spouses (reference-only in Part 2)",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L60"
+      },
+      "eventIds": [
+        "E01-P02-E010"
+      ],
+      "publicSurfaceState": "Raj is Sharmi's husband.",
+      "privateState": "No additional private spouse state is supplied in Part 2.",
+      "readerKnownState": "Reader knows Sharmi considers Raj hard to impress and knows he once complimented Dhika's beauty.",
+      "characterKnowledgeStates": {
+        "Sharmi": "Knows Raj's standards and the prior compliment.",
+        "Raj": "Only the historical compliment is attributed to him; no current Part 2 internal state is shown."
+      },
+      "trustState": "Marriage reference only; no live interaction.",
+      "boundaryState": "No boundary event in Part 2.",
+      "secrecyState": "No spouse secret is established by this reference.",
+      "currentCeiling": "Married-couple reference; Raj not present.",
+      "unresolvedHooks": [
+        "Context/time of Raj's compliment is not shown."
+      ],
+      "negativeCanon": [
+        "No additional Raj behaviour or motive may be invented."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 2.",
+      "lastChangedAt": "E01-P02-E010"
+    },
+    {
+      "relationshipId": "REL-DHIKA-RAJ",
+      "participants": [
+        "CHAR-DHIKA",
+        "CHAR-RAJ"
+      ],
+      "relationshipType": "reference-only social connection through Sharmi",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L60"
+      },
+      "eventIds": [
+        "E01-P02-E010"
+      ],
+      "publicSurfaceState": "Raj previously complimented Dhika's beauty; he is Sharmi's husband and is not present in Part 2.",
+      "privateState": "Dhika-side knowledge or relationship meaning is not stated.",
+      "readerKnownState": "Reader learns only the historical compliment through narrator/Sharmi context.",
+      "characterKnowledgeStates": {
+        "Dhika": "Source does not state whether she knows about Raj's compliment.",
+        "Raj": "Source attributes a past beauty compliment to him; broader feelings are not stated.",
+        "Sharmi": "Knows the compliment."
+      },
+      "trustState": "No active Dhika↔Raj relationship is established.",
+      "boundaryState": "No permission or live encounter in Part 2.",
+      "secrecyState": "Dhika's knowledge of the compliment is unconfirmed.",
+      "currentCeiling": "Reference-only connection; no affair, active relationship or broader attraction established.",
+      "unresolvedHooks": [
+        "When/where the compliment occurred.",
+        "Whether Dhika knows about it."
+      ],
+      "negativeCanon": [
+        "Beauty compliment ≠ affair.",
+        "Broader Raj attraction/intent is not established."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 2.",
+      "lastChangedAt": "E01-P02-E010"
     }
   ],
   "characters": [
@@ -770,21 +1624,38 @@
         "E01-P01-E001",
         "E01-P01-E002",
         "E01-P01-E003",
-        "E01-P01-E004"
+        "E01-P01-E004",
+        "E01-P02-E005",
+        "E01-P02-E006",
+        "E01-P02-E007",
+        "E01-P02-E008",
+        "E01-P02-E009",
+        "E01-P02-E010",
+        "E01-P02-E011"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
         "REL-DHIKA-PAPPU",
         "REL-DHIKA-STUDENTS-GENERAL",
         "REL-DHIKA-AUNTY",
-        "REL-DHIKA-UNCLE"
+        "REL-DHIKA-UNCLE",
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-DHIKA-SHARMI",
+        "REL-DHIKA-RAJ"
       ],
       "sourceConfirmedCharacterFacts": [
         "Age 29.",
         "Physics teacher for senior students.",
         "Kind-hearted/helpful baseline.",
         "John's wife.",
-        "Mother of a 2-year-old son."
+        "Mother of a 2-year-old son.",
+        "Bantu and Bobby are her favourite twin students; she likes Bobby a little more.",
+        "Bantu's daily 'pretty' compliment moved historically from discomfort to private liking/secret expectation.",
+        "She is shy and somewhat innocent but explicitly not unaware of attention.",
+        "She knows she turns heads and consciously manages manners/attire.",
+        "Except at home she wears a full saree or kurti with shawl; L52 says even Aunty has not seen her without a shawl in their apartments.",
+        "Sharmi is her childhood friend, college mate/colleague and best friend."
       ],
       "knowledgeTimeline": [
         {
@@ -798,6 +1669,18 @@
         {
           "at": "E01-P01-E004",
           "state": "Dhika leaves after care instructions; Uncle's hidden state remains unknown to her."
+        },
+        {
+          "at": "E01-P02-E006",
+          "state": "Dhika privately knows she now likes/expects Bantu's recurring compliment and slightly favours Bobby; twins are not shown knowing those internal states."
+        },
+        {
+          "at": "E01-P02-E008",
+          "state": "Dhika knows she attracts unwanted attention and consciously manages her public presentation."
+        },
+        {
+          "at": "E01-P02-E010",
+          "state": "Source does not establish whether Dhika knows Raj once complimented her beauty."
         }
       ],
       "evolutionTimeline": [
@@ -808,18 +1691,37 @@
         {
           "at": "E01-P01-E004",
           "delta": "She supplies care logistics and leaves because she is running late; no source-supported Uncle-related emotional change occurs."
+        },
+        {
+          "at": "E01-P02-E006",
+          "delta": "College/student layer becomes specific: Bantu compliment normalization and Bobby slight-favourite state are established."
+        },
+        {
+          "at": "E01-P02-E008",
+          "delta": "Attention-aware modesty baseline is made explicit; innocence does not equal unawareness."
+        },
+        {
+          "at": "E01-P02-E009",
+          "delta": "Sharmi high-familiarity best-friend interaction is shown live."
         }
       ],
-      "currentVerifiedState": "Working mother/teacher baseline intact; trusts neighbour household for Pappu's care; unaware of Uncle's concealed attraction/ogling.",
+      "currentVerifiedState": "Through Part 2: Prologue working-mother/teacher baseline + Part 1 neighbour-childcare trust/Uncle-secret unawareness + Part 2 attention-aware conservative self-management, normalized Bantu compliment expectation, slight Bobby preference and longstanding Sharmi friendship.",
       "activeSecrets": [
-        "Uncle's hidden attraction/ogling exists outside Dhika's knowledge."
+        "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
+        "Her secret expectation of Bantu's daily compliment is not shown known to him.",
+        "Her slight preference for Bobby is not shown known to either twin."
       ],
       "unresolvedHooks": [
-        "L27 care instruction is incomplete."
+        "L27 care instruction is incomplete.",
+        "Whether Dhika knows Raj's past compliment.",
+        "Exact referent of Sharmi's 'something bigger' teasing."
       ],
       "negativeCanon": [
         "No reciprocal attraction toward Uncle is established.",
-        "No specific knowledge of Uncle's hidden state."
+        "No specific knowledge of Uncle's hidden state.",
+        "Attention-aware ≠ sexually permissive.",
+        "Bobby slight preference ≠ romance.",
+        "Enjoying Bantu's compliment ≠ blanket permission."
       ]
     },
     {
@@ -960,7 +1862,8 @@
       "eventIds": [
         "E01-P01-E002",
         "E01-P01-E003",
-        "E01-P01-E004"
+        "E01-P01-E004",
+        "E01-P02-E008"
       ],
       "relationshipIds": [
         "REL-DHIKA-AUNTY",
@@ -973,16 +1876,21 @@
         "Lives next door with Uncle.",
         "No heir with Uncle.",
         "Treats Dhika and John like her own children.",
-        "Has gone down during the live handoff."
+        "Has gone down during the live handoff.",
+        "As of L52, narrator says even Aunty has not seen Dhika without a shawl in their apartments."
       ],
       "knowledgeTimeline": [
         {
           "at": "E01-P01-E002",
           "state": "Source states Uncle especially has not let Aunty know his hidden Dhika-related attraction/ogling."
+        },
+        {
+          "at": "E01-P02-E008",
+          "state": "Reader learns a historical visibility limit: Aunty has not seen Dhika without a shawl in the apartments."
         }
       ],
       "evolutionTimeline": [],
-      "currentVerifiedState": "Trusted near-family neighbour/co-caregiver, absent from the immediate handoff; unaware of Uncle's hidden state.",
+      "currentVerifiedState": "Trusted near-family neighbour/co-caregiver; unaware of Uncle's hidden state; Part 2 adds that even she has not seen Dhika without a shawl in the apartments.",
       "activeSecrets": [
         "Uncle's hidden state is concealed from her."
       ],
@@ -992,6 +1900,187 @@
       ],
       "negativeCanon": [
         "Do not invent her witnessing the handoff or knowing Uncle's secret."
+      ]
+    },
+    {
+      "characterId": "CHAR-BANTU",
+      "canonicalName": "Bantu",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L31-L43"
+      },
+      "eventIds": [
+        "E01-P02-E005",
+        "E01-P02-E006",
+        "E01-P02-E007"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-BANTU-BOBBY"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Bobby's twin.",
+        "One of Dhika's most favourite students.",
+        "Very studious.",
+        "Charming and always talking.",
+        "Knows how to make someone smile.",
+        "Compliments Dhika every day."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P02-E006",
+          "state": "Source does not establish that Bantu knows Dhika secretly expects his compliment or slightly favours Bobby."
+        }
+      ],
+      "evolutionTimeline": [
+        {
+          "at": "E01-P02-E006",
+          "delta": "Reader learns his daily compliment routine has become normalized for Dhika over time."
+        }
+      ],
+      "currentVerifiedState": "Favourite/talkative twin student with a recurring daily compliment routine; no romance or physical route established through Part 2.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "Whether he ever learns Dhika privately expects his compliment."
+      ],
+      "negativeCanon": [
+        "No knowledge of Dhika's secret expectation is established.",
+        "No romance established.",
+        "L44 speaker anomaly must not be silently assigned to him."
+      ]
+    },
+    {
+      "characterId": "CHAR-BOBBY",
+      "canonicalName": "Bobby",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L37-L43"
+      },
+      "eventIds": [
+        "E01-P02-E005",
+        "E01-P02-E006"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BOBBY",
+        "REL-BANTU-BOBBY"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Bantu's twin.",
+        "One of Dhika's most favourite students.",
+        "Very studious.",
+        "Very shy but explicitly not timid.",
+        "Talks freely mostly with Bantu.",
+        "Dhika likes him a little more because he is a little chubby and more shy around her."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P02-E006",
+          "state": "Source does not establish that Bobby knows Dhika slightly favours him."
+        }
+      ],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Favourite twin student; shy but not timid; Dhika-side slight preference exists, while Bobby-side attraction/relationship meaning is not established.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "Whether he ever learns Dhika's slight preference."
+      ],
+      "negativeCanon": [
+        "Slight-favourite status ≠ romance.",
+        "Do not add Bobby-side feelings before source evidence."
+      ]
+    },
+    {
+      "characterId": "CHAR-SHARMI",
+      "canonicalName": "Sharmi",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L53-L60"
+      },
+      "eventIds": [
+        "E01-P02-E009",
+        "E01-P02-E010",
+        "E01-P02-E011"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-SHARMI",
+        "REL-SHARMI-RAJ"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Dhika's childhood friend, college mate/colleague and best friend.",
+        "Good-hearted like Dhika but less shy.",
+        "Bubbly, naughty and modern.",
+        "From a rich background but does not show it off to Dhika.",
+        "Took a job at the same college wanting to be with Dhika.",
+        "Wears sleeveless blouses to college.",
+        "Raj's wife.",
+        "Knows Raj previously complimented Dhika's beauty."
+      ],
+      "knowledgeTimeline": [
+        {
+          "at": "E01-P02-E010",
+          "state": "Knows Raj's prior compliment of Dhika and considers Raj hard to impress."
+        },
+        {
+          "at": "E01-P02-E011",
+          "state": "Participates in a reciprocal 'something bigger' joke whose exact referent is not stated to the reader."
+        }
+      ],
+      "evolutionTimeline": [
+        {
+          "at": "E01-P02-E009",
+          "delta": "Longstanding friendship is shown live through playful waist pinch/greeting."
+        }
+      ],
+      "currentVerifiedState": "Longstanding best-friend/colleague and modern social contrast to Dhika; playful comparison/envy is explicitly light, not hostile.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "Exact referent of 'something bigger' teasing.",
+        "Context of Raj's compliment."
+      ],
+      "negativeCanon": [
+        "Playful envy ≠ hostility.",
+        "Exact teased body part is not specified.",
+        "One waist pinch ≠ blanket permission."
+      ]
+    },
+    {
+      "characterId": "CHAR-RAJ",
+      "canonicalName": "Raj",
+      "aliases": [],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P02",
+        "sourceRange": "L60"
+      },
+      "eventIds": [
+        "E01-P02-E010"
+      ],
+      "relationshipIds": [
+        "REL-SHARMI-RAJ",
+        "REL-DHIKA-RAJ"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Sharmi's husband.",
+        "Previously complimented Dhika's beauty.",
+        "Sharmi considers him hard to impress."
+      ],
+      "knowledgeTimeline": [],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "Reference-only in Part 2; absent from the scene. Only the historical beauty compliment is established.",
+      "activeSecrets": [],
+      "unresolvedHooks": [
+        "When/where he complimented Dhika.",
+        "Whether Dhika knows about it."
+      ],
+      "negativeCanon": [
+        "No affair or active Dhika↔Raj relationship established.",
+        "Broader feelings/motives not established."
       ]
     }
   ],
@@ -1079,6 +2168,114 @@
       ],
       "negativeCanonCarried": [
         "No later-Part facts may be imported backward into Part 1."
+      ]
+    },
+    "E01-P02": {
+      "sourceRange": "L31-L64",
+      "previousVerifiedState": {
+        "characterState": "Through Part 1, Dhika's Prologue identity is intact; neighbour childcare trust is active; she remains unaware of Uncle's concealed attraction/ogling.",
+        "relationshipState": [
+          "Dhika↔John married baseline HOLD.",
+          "Dhika↔Pappu maternal/childcare baseline active.",
+          "Dhika↔Aunty/Uncle near-family trust established.",
+          "Uncle hidden state remains reader-known but Dhika/John/Aunty-unknown."
+        ],
+        "knowledgeState": "Part 1 knowledge asymmetry remains active: Uncle + reader know his hidden state; Dhika/John/Aunty do not.",
+        "boundaryState": "Part 1 permission is limited to Pappu childcare/care logistics."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P02-E005",
+          "E01-P02-E006",
+          "E01-P02-E007",
+          "E01-P02-E008",
+          "E01-P02-E009",
+          "E01-P02-E010",
+          "E01-P02-E011"
+        ],
+        "exactChanges": [
+          "L31-L39 shows Bantu's recurring appearance compliment live; Dhika blushes/shushes and hopes nobody else is around, then asks for/waves to Bobby.",
+          "L40-L43 reveals Bantu/Bobby twin/favourite-student history, Bobby's shy-but-not-timid baseline, Dhika's slight Bobby preference, and Bantu compliment normalization from discomfort to private liking/expectation.",
+          "L44-L46 contains a RAW speaker-attribution anomaly at L44; canonical evidence preserves the label instead of silently changing it.",
+          "L47-L52 establishes Dhika's attention-aware conservative self-management, general student goodwill, and the fact that even Aunty has not seen her without a shawl in the apartments.",
+          "L53-L55 shows Sharmi's playful greeting and waist pinch.",
+          "L56-L60 establishes Sharmi as childhood friend/best friend/colleague, modern contrast, Raj's wife, and holder of a past Raj→Dhika beauty-compliment reference.",
+          "L61-L64 shows reciprocal 'something bigger' teasing; exact referent remains unspecified; Dhika and Sharmi enter college laughing."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika now carries both domestic trust/caregiver state and an explicit college/social baseline: attention-aware, conservative self-presentation, normalized private enjoyment of Bantu's recurring compliment, slight Bobby preference, and longstanding playful friendship with Sharmi.",
+        "relationshipState": "All Part 1 relationships remain active. Part 2 adds Dhika↔Bantu, Dhika↔Bobby, Bantu↔Bobby, Dhika↔Sharmi, Sharmi↔Raj, and reference-only Dhika↔Raj. Dhika↔Aunty also gains a clothing/visibility history at L52.",
+        "knowledgeState": "Dhika privately knows/holds her compliment expectation and Bobby preference; twins are not shown knowing. Sharmi knows Raj complimented Dhika; Dhika's knowledge of that compliment is not stated. Uncle secret remains unchanged from Part 1.",
+        "boundaryState": "Bantu conversational familiarity is context-limited; Sharmi's waist pinch is a specific close-friend act, not blanket permission; Dhika actively manages public presentation; Part 1 childcare permission remains separate.",
+        "secrecyState": "Uncle secret persists; Dhika's compliment expectation and slight Bobby preference are private; Dhika's knowledge of Raj's compliment is unknown.",
+        "sourceAmbiguities": [
+          "L44 speaker attribution is contextually anomalous but RAW labels it Dhika.",
+          "Exact body feature in Sharmi's 'something bigger' teasing is not specified.",
+          "Dhika's knowledge of Raj's prior compliment is not stated."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-STUDENTS-GENERAL",
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-BANTU-BOBBY",
+        "REL-DHIKA-SHARMI",
+        "REL-SHARMI-RAJ",
+        "REL-DHIKA-RAJ"
+      ],
+      "relationshipRowsHeld": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-UNCLE",
+        "REL-JOHN-AUNTY-UNCLE",
+        "REL-PAPPU-AUNTY-UNCLE",
+        "REL-AUNTY-UNCLE"
+      ],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-AUNTY",
+        "CHAR-BANTU",
+        "CHAR-BOBBY",
+        "CHAR-SHARMI",
+        "CHAR-RAJ"
+      ],
+      "knowledgeChanges": [
+        "E01-P02-E006",
+        "E01-P02-E008",
+        "E01-P02-E010",
+        "E01-P02-E011"
+      ],
+      "escalationChanges": [
+        "Bantu verbal compliment route is explicitly normalized from initial discomfort to private liking/secret expectation; no student physical-contact route is established in Part 2."
+      ],
+      "hooksOpened": [
+        "Whether twins learn Dhika's private expectation/preference.",
+        "Context and Dhika-knowledge of Raj's compliment.",
+        "Exact 'something bigger' referent."
+      ],
+      "hooksResolved": [
+        "Bantu/Bobby favourite-twin baseline and Sharmi friendship baseline are established."
+      ],
+      "hooksCarried": [
+        "Uncle's hidden state remains undisclosed.",
+        "L27 Part 1 ambiguity remains historical but unresolved unless later RAW addresses it."
+      ],
+      "negativeCanonIntroduced": [
+        "Bobby slight preference does not establish romance.",
+        "Bantu is not shown knowing Dhika secretly expects his compliment.",
+        "Neither twin is shown knowing Dhika slightly favours Bobby.",
+        "Raj compliment does not establish affair or broader Raj intent.",
+        "Exact 'something bigger' body feature remains unknown.",
+        "L44 speaker label must not be silently changed.",
+        "Dhika is attention-aware; innocence must not be rewritten as total unawareness.",
+        "No Part 3 L65+ fact belongs in Part 2."
+      ],
+      "negativeCanonCarried": [
+        "No reciprocal Dhika→Uncle attraction.",
+        "No exact Part 1 handoff-time stare established.",
+        "Part 1 childcare access is not unrelated permission."
       ]
     }
   },
