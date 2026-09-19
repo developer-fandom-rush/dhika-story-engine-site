@@ -216,3 +216,18 @@
 **Cumulative state through Part 12:** Same visibility category Chotu-route jaisa treat nahi karna: twins incident par Dhika horror/fear feel karti hai. Reactions diverge—Bobby stares/runs, Bantu averts/manages exit.
 
 **Evidence:** `E02-P12-E027` L120–125; `E028` L126–130; `E029` L131–137; `E030` L138–139.
+
+---
+
+## Part 13 · L140–153
+**Previous verified state:** Twins accident John ko abhi nahi pata; Dhika embarrassed/fearful hai aur disclose karna chahti hai.
+
+**Current Part delta:** `E031` Dhika nervous hokar complete twins accident John ko batati hai. `E032` John laugh/joke karta hai, Dhika “nice show” framing reject karti hai, phir John accident bolkar reassure karta hai. `E033` reader ko John ka private arousal pata chalta hai; Dhika still worried rehti hai.
+
+**Knowledge split:** John now knows twins accident. Chotu visual test aur Uncle bathroom discovery still hidden. Reader John ka private arousal jaanta hai; source full private framing Dhika ko spoken form mein nahi deta.
+
+**Boundary state:** Disclosure, joke, reassurance ya arousal accident ko consent mein convert nahi karte. John twins ko future permission nahi deta.
+
+**Cumulative state through Part 13:** Marriage disclosure channel strong hai, but selective secrecy persists. Dhika's embarrassment fully resolve nahi hoti.
+
+**Evidence:** `E02-P13-E031` L140–146; `E032` L147–152; `E033` L153.

@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_12_ONLY",
-  "asOfPart": "P12",
+  "phase": "PHASE_2_PART_13_ONLY",
+  "asOfPart": "P13",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -870,6 +870,83 @@
       "negativeCanon": [
         "Fear/trust about secrecy is not consent to future visibility."
       ]
+    },
+    {
+      "eventId": "E02-P13-E031",
+      "episode": "E02",
+      "part": "P13",
+      "sourceRange": "L140-L146",
+      "chronologyOrder": 31,
+      "eventType": "MARITAL_DISCLOSURE",
+      "sourceSupportedFacts": [
+        "Later that night Dhika nervously tells John she has something embarrassing to share.",
+        "John initially worries something bad happened.",
+        "Dhika narrates the twins incident through their departure and says they saw her breasts; she is embarrassed and worried about facing them."
+      ],
+      "knowledgeAfter": [
+        "John now knows the twins accidental exposure event as Dhika reports it. He still does not know the E01 Chotu deliberate visual test or E02 Uncle bathroom discovery."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika voluntarily discloses an accidental unwanted exposure; disclosure does not change its accidental/non-permitted nature."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John gains direct disclosure about the twins route while other secrets remain withheld."
+      ],
+      "negativeCanon": [
+        "John's new knowledge is limited to what Dhika tells him; Chotu/Uncle secrets remain undisclosed."
+      ]
+    },
+    {
+      "eventId": "E02-P13-E032",
+      "episode": "E02",
+      "part": "P13",
+      "sourceRange": "L147-L152",
+      "chronologyOrder": 32,
+      "eventType": "LIVE_MARITAL_REACTION",
+      "sourceSupportedFacts": [
+        "John briefly looks at Dhika, then bursts into laughter.",
+        "He jokes that she frightened two boys and that they got a 'nice show'.",
+        "Dhika gets angry at the joke, hits him playfully/angrily and rejects the 'nice show' framing.",
+        "John then tells her to relax, says it was just an accident and that the boys will forget it."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows John's outward laughter/joking and reassurance. John knows she is genuinely embarrassed/upset."
+      ],
+      "boundaryPermissionControl": [
+        "John's joke does not reclassify the accident as consent or authorize future visibility."
+      ],
+      "relationshipDelta": [
+        "Marriage shows tension-through-teasing followed by reassurance; Dhika pushes back on sexualized framing."
+      ],
+      "negativeCanon": [
+        "John's joke is not permission to twins.",
+        "Dhika's anger/embarrassment is not erased by reassurance."
+      ]
+    },
+    {
+      "eventId": "E02-P13-E033",
+      "episode": "E02",
+      "part": "P13",
+      "sourceRange": "L153",
+      "chronologyOrder": 33,
+      "eventType": "NARRATED_PRIVATE_STATE",
+      "sourceSupportedFacts": [
+        "Narrator states John is privately turned on by the situation because he has long wanted Dhika to look sexy in front of his friends and now two adult students saw what he thought would never happen.",
+        "Dhika remains worried and keeps talking about how she will face them."
+      ],
+      "knowledgeAfter": [
+        "Reader knows John's private arousal. Source does not establish that John explicitly tells Dhika the full private arousal framing."
+      ],
+      "boundaryPermissionControl": [
+        "John's private arousal is not spoken approval to the students and does not create future permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John retains reassurance surface while reader sees John's show-off preference activated privately."
+      ],
+      "negativeCanon": [
+        "Private arousal ≠ authorization.",
+        "Do not infer Dhika shares his reaction."
+      ]
     }
   ],
   "relationships": [
@@ -889,12 +966,15 @@
         "E02-P04-E010",
         "E02-P07-E018",
         "E02-P08-E019",
-        "E02-P10-E025"
+        "E02-P10-E025",
+        "E02-P13-E031",
+        "E02-P13-E032",
+        "E02-P13-E033"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P10: Dhika proactively checks tuition arrangement with John; John supports her choice based on overt academic facts.",
-      "knowledgeSplit": "Both know academic plan; neither shares/knows Bantu hidden motive.",
-      "boundaryState": "Voluntary marital participation only; no third-party permission."
+      "latestVerifiedState": "E02 P13: Dhika fully discloses twins accident; John jokes then reassures her. He privately feels aroused, but Chotu/Uncle secrets remain withheld.",
+      "knowledgeSplit": "John now knows twins accident; still does not know Chotu test or Uncle discovery. Dhika may not know full narrator-stated private arousal.",
+      "boundaryState": "Disclosure/joke/arousal do not authorize future exposure."
     },
     {
       "relationshipId": "REL-JOHN-PAPPU",
@@ -1074,9 +1154,12 @@
         "E02-P12-E027",
         "E02-P12-E028",
         "E02-P12-E029",
-        "E02-P12-E030"
+        "E02-P12-E030",
+        "E02-P13-E031",
+        "E02-P13-E032",
+        "E02-P13-E033"
       ],
-      "currentVerifiedState": "Accidental unwanted exposure to twins causes horror/shame/reputation fear; she distinguishes this sharply from Chotu-specific comfort and plans to tell John.",
+      "currentVerifiedState": "Chooses marital disclosure for twins accident, rejects John's 'nice show' joke, remains embarrassed despite reassurance; continues withholding Chotu/Uncle secrets.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -1097,9 +1180,12 @@
         "E02-P04-E009",
         "E02-P04-E010",
         "E02-P08-E019",
-        "E02-P10-E025"
+        "E02-P10-E025",
+        "E02-P13-E031",
+        "E02-P13-E032",
+        "E02-P13-E033"
       ],
-      "currentVerifiedState": "Supports Dhika's tuition choice based on overt academic request and twins' ambition."
+      "currentVerifiedState": "Learns twins accident, responds with laughter/joke then reassurance; privately aroused consistent with show-off preference, while unaware of other secrets."
     },
     {
       "characterId": "CHAR-PAPPU",
@@ -1358,6 +1444,23 @@
         ]
       },
       "cumulativeStateThroughPart": "Twins share knowledge of an accidental unwanted exposure, but reactions diverge. Dhika's Chotu-specific comfort does not generalize; she is horrified with twins. No touch/permission. John remains uninformed until Part 13."
+    },
+    "E02-P13": {
+      "sourceRange": "L140-L153",
+      "previousVerifiedState": "Part 12: Dhika is embarrassed/fearful after accidental twins exposure and plans to tell John; John does not know yet.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P13-E031",
+          "E02-P13-E032",
+          "E02-P13-E033"
+        ],
+        "exactChanges": [
+          "Dhika discloses twins accident to John.",
+          "John laughs/jokes, Dhika pushes back, then John reassures it was accidental.",
+          "Reader learns John is privately aroused; Dhika remains worried."
+        ]
+      },
+      "cumulativeStateThroughPart": "Marriage supports disclosure of twins accident. John now knows that route, but Chotu and Uncle secrets remain withheld. His reassurance/joke/private arousal do not change consent status or erase Dhika's embarrassment."
     }
   }
 }
