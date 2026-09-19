@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_9",
-  "asOfPart": "P09",
+  "phase": "PHASE_2_PART_10",
+  "asOfPart": "P10",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L158",
-    "currentPart": "L159-L170",
-    "nextUnprocessedRange": "L171-L194"
+    "previousProcessedParts": "L17-L170",
+    "currentPart": "L171-L194",
+    "nextUnprocessedRange": "L195-L207"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -3063,6 +3063,295 @@
       "qaAmbiguities": [
         "Exact Part 8 view remains unresolved."
       ]
+    },
+    {
+      "eventId": "E01-P10-E034",
+      "episode": "E01",
+      "part": "P10",
+      "sourceRange": "L171-L174",
+      "chronologyOrder": 34,
+      "eventType": "HOME_ROUTINE_AND_PREPARATION",
+      "sceneTime": "next day; RAW contains a '10 PM' timing anomaly inside morning/daytime sequence",
+      "location": "Dhika home / phone",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN",
+        "CHAR-BINDU-MAAMI",
+        "CHAR-CHOTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-BINDU",
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika wakes next morning, checks Pappu, calls John but he does not answer, and assumes he may be resting at office.",
+        "L172 says 'around 10 PM' when John calls while Dhika feeds Pappu; John says issue continues and he will come by evening.",
+        "Dhika and John exchange ordinary playful teasing about him refreshing at office.",
+        "Dhika handles Pappu's bath/home routine and wears a casual sleeveless low-cut salwar that John bought; source says she wears it only at home.",
+        "In the afternoon after Pappu sleeps, Dhika remembers she has not paid Maami, does not want to change/go out, and calls Maami asking to send Chotu if free.",
+        "Dhika decides to wear a good dupatta when Chotu arrives; bored from being home with Pappu, she decides to talk with Chotu for a while and give him something to eat."
+      ],
+      "derivedInterpretations": [
+        "The '10 PM' label is chronologically inconsistent with the surrounding next-morning/afternoon sequence; preserve as RAW anomaly rather than silently correcting.",
+        "Dhika's plan combines practical payment, deliberate coverage plan and ordinary hospitality; it is not a stated test or seduction."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Bindu Maami",
+          "actionType": "asks_to_send_Chotu_for_payment",
+          "intentionality": "practical payment/hospitality",
+          "physicality": "none",
+          "visibility": "phone"
+        },
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "decides_to_wear_good_dupatta_for_Chotu",
+          "intentionality": "intentional presentation plan",
+          "physicality": "clothing plan",
+          "visibility": "private decision"
+        }
+      ],
+      "dialogueMeaning": [
+        "John's work delay continues; Dhika invites a practical payment visit and plans brief social hospitality."
+      ],
+      "emotionalStateBefore": [
+        "Bored at home; prior private curiosity suppressed."
+      ],
+      "emotionalStateAfter": [
+        "Plans normal covered hospitality."
+      ],
+      "visibilityAndObservers": [
+        "No Chotu present yet."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows payment is owed; private prior thoughts remain undisclosed."
+      ],
+      "knowledgeDelta": [
+        "John confirms issue continues; Maami receives request to send Chotu."
+      ],
+      "knowledgeAfter": [
+        "Dhika expects Chotu and plans dupatta/food/chat."
+      ],
+      "boundaryPermissionControl": [
+        "Planned visit covers payment, conversation and food. Decision to use dupatta shows active boundary/presentation control."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu practical/social access planned; Dhika↔John stable work-context continues."
+      ],
+      "secrecyState": [
+        "Dhika's Part 9 private thoughts remain undisclosed."
+      ],
+      "escalationOrNormalization": [
+        "No appearance-focused action yet; planned ordinary hospitality."
+      ],
+      "hooksOpened": [
+        "Chotu payment visit."
+      ],
+      "hooksResolved": [
+        "John continues work; return delayed to evening."
+      ],
+      "negativeCanon": [
+        "Do not silently change RAW '10 PM' to 10 AM.",
+        "Invitation is payment/food/chat, not stated as a visibility test."
+      ],
+      "qaAmbiguities": [
+        "L172 time is internally inconsistent."
+      ]
+    },
+    {
+      "eventId": "E01-P10-E035",
+      "episode": "E01",
+      "part": "P10",
+      "sourceRange": "L175-L182",
+      "chronologyOrder": 35,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same day",
+      "location": "Dhika apartment",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU-MOTHER"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu arrives joyfully and asks Dhika to open the door.",
+        "Dhika reminds him he left without taking money the previous day.",
+        "Chotu says he suddenly remembered a task his mother gave and had to run; narrator explicitly says he lied.",
+        "Dhika accepts the explanation and jokes that he is forgetful.",
+        "Chotu comes inside but is in a hurry to get money and leave because it is his lunch time and he has one hour to go home, eat and return.",
+        "Dhika thinks she has never given him food before."
+      ],
+      "derivedInterpretations": [
+        "Reader knows Chotu's stated reason for the prior abrupt exit is false; Dhika does not challenge it and has no source-confirmed knowledge of the lie."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "lies_about_previous_exit_reason",
+          "intentionality": "intentional deception",
+          "physicality": "none",
+          "visibility": "spoken to Dhika"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "accepts_explanation_and_prepares_payment",
+          "intentionality": "ordinary interaction",
+          "physicality": "none",
+          "visibility": "direct"
+        }
+      ],
+      "dialogueMeaning": [
+        "Chotu wants quick practical exit; Dhika treats explanation as ordinary forgetfulness."
+      ],
+      "emotionalStateBefore": [
+        "Chotu hurried; Dhika friendly."
+      ],
+      "emotionalStateAfter": [
+        "Dhika considers offering food."
+      ],
+      "visibilityAndObservers": [
+        "No new appearance event described."
+      ],
+      "knowledgeBefore": [
+        "Reader knows Part 8 abrupt-exit context; Dhika does not know exact reason."
+      ],
+      "knowledgeDelta": [
+        "Reader learns Chotu's new explanation is a lie."
+      ],
+      "knowledgeAfter": [
+        "Chotu + reader know lie; Dhika is not shown knowing."
+      ],
+      "boundaryPermissionControl": [
+        "Indoor visit is practical payment visit; no broader permission inferred."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu normal conversation resumes over an undisclosed lie."
+      ],
+      "secrecyState": [
+        "Chotu's true reason for prior exit remains hidden from Dhika."
+      ],
+      "escalationOrNormalization": [
+        "Social contact resumes; no new appearance-focused step."
+      ],
+      "hooksOpened": [
+        "Will he stay for food."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not treat lie as confirmed confession of exact Part 8 view; source only marks stated explanation false."
+      ],
+      "qaAmbiguities": [
+        "True complete reason for prior exit is not directly verbalized by Chotu."
+      ]
+    },
+    {
+      "eventId": "E01-P10-E036",
+      "episode": "E01",
+      "part": "P10",
+      "sourceRange": "L183-L194",
+      "chronologyOrder": 36,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "lunch period",
+      "location": "Dhika apartment dining/floor → kitchen",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN",
+        "CHAR-CHOTU-MOTHER"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika asks Chotu if he would like to eat with her; he initially says his mother would have made food.",
+        "Dhika says John is at office and food made for him will not be eaten; after repeated asking Chotu agrees.",
+        "Chotu helps with plates/food, refuses to sit at dining table, and Dhika chooses to sit on floor with him because she wants to eat with him politely.",
+        "Chotu is moved by her choice.",
+        "They eat; Chotu praises her food, comparing it favourably while still saying his mother's food is good.",
+        "They talk about family and many things; after eating he helps carry items to kitchen/sink."
+      ],
+      "derivedInterpretations": [
+        "The first shared meal grows out of hospitality/care and Chotu's reluctance, not a source-stated romantic invitation.",
+        "Sitting on floor is Dhika's politeness response to Chotu refusing the table."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "invites_to_share_meal_and_joins_floor_seating",
+          "intentionality": "hospitality/politeness",
+          "physicality": "social meal",
+          "visibility": "direct"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "accepts_meal_and_helps",
+          "intentionality": "after persuasion",
+          "physicality": "ordinary household help",
+          "visibility": "direct"
+        }
+      ],
+      "dialogueMeaning": [
+        "Shared meal centers hospitality, food and family conversation."
+      ],
+      "emotionalStateBefore": [
+        "Chotu hurried/reluctant."
+      ],
+      "emotionalStateAfter": [
+        "Chotu moved/grateful; interaction comfortable."
+      ],
+      "visibilityAndObservers": [
+        "Private home setting but no new appearance observation stated."
+      ],
+      "knowledgeBefore": [
+        "Dhika privately knows prior curiosity; Chotu hides prior-exit reason."
+      ],
+      "knowledgeDelta": [
+        "No hidden states are verbally disclosed."
+      ],
+      "knowledgeAfter": [
+        "Both share ordinary meal/family talk while prior private meanings remain separate."
+      ],
+      "boundaryPermissionControl": [
+        "Permission/social closeness expands to meal, floor sitting and conversation only."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu social duration/comfort grows through first shared meal."
+      ],
+      "secrecyState": [
+        "Chotu lie and Dhika prior private thoughts remain undisclosed."
+      ],
+      "escalationOrNormalization": [
+        "Social closeness/access increases; no direct appearance/physical route in Part 10."
+      ],
+      "hooksOpened": [
+        "What Chotu notices once they are standing in kitchen."
+      ],
+      "hooksResolved": [
+        "He stays and eats."
+      ],
+      "negativeCanon": [
+        "Shared meal/floor seating ≠ romance.",
+        "No new physical intimacy."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -3081,9 +3370,11 @@
       "eventIds": [
         "E01-P01-E002",
         "E01-P09-E032",
-        "E01-P09-E033"
+        "E01-P09-E033",
+        "E01-P10-E034",
+        "E01-P10-E036"
       ],
-      "publicSurfaceState": "Affectionate married couple; John communicates overnight work problem, apologizes, and their usual playful/affectionate tone continues.",
+      "publicSurfaceState": "Affectionate marriage; John's work issue continues and Dhika uses uneaten food made for him when inviting Chotu to lunch.",
       "privateState": "Dhika has a new private recollection/excitement state about the prior Chotu ambiguity, but source does not show disclosure to John or marital conflict.",
       "readerKnownState": "Reader knows marriage remains stable and work absence is genuine while Dhika's private thought remains undisclosed.",
       "characterKnowledgeStates": {
@@ -3100,8 +3391,8 @@
       "negativeCanon": [
         "No marital conflict is established in Part 1."
       ],
-      "latestVerifiedState": "CHANGED only by reaffirmed affectionate work-context + undisclosed private Dhika thought; marriage remains stable.",
-      "lastChangedAt": "E01-P09-E033"
+      "latestVerifiedState": "HOLD/REAFFIRMED in Part 10: work delay continues, no conflict.",
+      "lastChangedAt": "E01-P10-E034"
     },
     {
       "relationshipId": "REL-DHIKA-PAPPU",
@@ -3734,19 +4025,22 @@
         "E01-P08-E029",
         "E01-P08-E030",
         "E01-P08-E031",
-        "E01-P09-E033"
+        "E01-P09-E033",
+        "E01-P10-E034",
+        "E01-P10-E035",
+        "E01-P10-E036"
       ],
-      "publicSurfaceState": "Brother-like trust continues; second visit moves from expected outside handoff to accepted indoor presence, water/juice and brief stay.",
-      "privateState": "Dhika privately recalls the ambiguous Part 8 event and, after initial self-reproach, experiences excitement at the possibility Chotu saw part of her breast; no Chotu encounter or disclosure.",
-      "readerKnownState": "Reader knows Dhika's memory returns and produces private excitement/smile; exact Part 8 view remains unresolved.",
+      "publicSurfaceState": "Trusted brother-like delivery relation now includes a deliberate payment visit and first shared meal/family conversation.",
+      "privateState": "Dhika's prior private curiosity remains undisclosed; Chotu lies about why he left earlier and wants a quick exit before accepting meal.",
+      "readerKnownState": "Reader knows both private accounts remain unspoken: Dhika's prior thought and Chotu's false explanation.",
       "characterKnowledgeStates": {
-        "Dhika": "Still unsure what Chotu saw, but now knows the possibility can excite her.",
-        "Chotu": "Absent in Part 9; no new knowledge."
+        "Dhika": "Accepts Chotu's stated mother-task explanation; plans/extends ordinary hospitality; does not know source-labelled lie.",
+        "Chotu": "Knows his explanation is false; accepts meal/hospitality; no new disclosed knowledge of Dhika's prior thoughts."
       },
       "trustState": "High practical/familial familiarity.",
-      "boundaryState": "Visibility condition is accidental from Dhika's perspective; no deliberate display or spoken invitation. Mixed response does not retroactively change that.",
-      "secrecyState": "Dhika's excitement remains private; Chotu does not know it.",
-      "currentCeiling": "Ambiguous prior visibility + private Dhika recollection/excitement; no deliberate act yet.",
+      "boundaryState": "Visit/social permission expands to payment, food, floor seating and conversation; Dhika planned to use a good dupatta. No blanket permission for unrelated observation.",
+      "secrecyState": "Two unspoken accounts coexist: Chotu lie + Dhika private prior thoughts.",
+      "currentCeiling": "Comfortable trusted relation with first shared meal and longer private home time; no declared attraction from Dhika/Chotu in Part 10.",
       "unresolvedHooks": [
         "Second noodles return.",
         "Exact meaning of Chotu's 'something different' notice.",
@@ -3757,8 +4051,8 @@
       "negativeCanon": [
         "Hospitality ≠ unlimited access."
       ],
-      "latestVerifiedState": "CHANGED internally in Part 9; no new encounter.",
-      "lastChangedAt": "E01-P09-E033"
+      "latestVerifiedState": "CHANGED in Part 10: longer social access/meal + Chotu lie, while ordinary care framing remains.",
+      "lastChangedAt": "E01-P10-E036"
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -3907,7 +4201,10 @@
         "E01-P08-E030",
         "E01-P08-E031",
         "E01-P09-E032",
-        "E01-P09-E033"
+        "E01-P09-E033",
+        "E01-P10-E034",
+        "E01-P10-E035",
+        "E01-P10-E036"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -4014,6 +4311,14 @@
         {
           "at": "E01-P09-E033",
           "state": "Recognizes her own private excitement at the possibility Chotu saw part of her breast, then suppresses it."
+        },
+        {
+          "at": "E01-P10-E034",
+          "state": "Knows John work issue continues; plans Chotu payment visit and good dupatta."
+        },
+        {
+          "at": "E01-P10-E035",
+          "state": "Accepts Chotu's false mother-task explanation as ordinary forgetfulness."
         }
       ],
       "evolutionTimeline": [
@@ -4064,9 +4369,13 @@
         {
           "at": "E01-P09-E033",
           "delta": "Mixed response becomes a private self-recognized curiosity/excitement on recollection, still without action."
+        },
+        {
+          "at": "E01-P10-E036",
+          "delta": "After private curiosity in Part 9, current behaviour returns to ordinary care/hospitality and first shared meal."
         }
       ],
-      "currentVerifiedState": "Through Part 9: affectionate/stable wife/mother baseline intact; privately recognizes a new excitement/curiosity tied to possible Chotu visibility, then suppresses it.",
+      "currentVerifiedState": "Through Part 10: private curiosity exists but behaviour is ordinary/covered hospitality; Chotu relation gains first shared lunch; she does not know his exit explanation is false.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -4600,7 +4909,10 @@
         "E01-P07-E028",
         "E01-P08-E029",
         "E01-P08-E030",
-        "E01-P08-E031"
+        "E01-P08-E031",
+        "E01-P10-E034",
+        "E01-P10-E035",
+        "E01-P10-E036"
       ],
       "relationshipIds": [
         "REL-DHIKA-CHOTU",
@@ -4630,10 +4942,19 @@
         {
           "at": "E01-P08-E030",
           "state": "Does not explain reaction and leaves without payment."
+        },
+        {
+          "at": "E01-P10-E035",
+          "state": "Knowingly gives false reason for prior abrupt exit; Dhika accepts it."
         }
       ],
-      "evolutionTimeline": [],
-      "currentVerifiedState": "Trusted adult delivery acquaintance; Part 8 shows stunned reaction/evasion after juice handoff, but exact perception/internal meaning remains unstated.",
+      "evolutionTimeline": [
+        {
+          "at": "E01-P10-E036",
+          "delta": "Reluctant quick visit becomes longer shared meal/family conversation; he feels moved by Dhika joining floor seating."
+        }
+      ],
+      "currentVerifiedState": "Trusted adult delivery acquaintance; hides true prior-exit reason, accepts first shared meal after persuasion, comfortable/grateful social closeness grows.",
       "activeSecrets": [],
       "unresolvedHooks": [
         "Second noodles delivery."
@@ -5387,6 +5708,74 @@
         "Thought ≠ action.",
         "Work absence ≠ marital conflict.",
         "Private excitement ≠ blanket permission/romance."
+      ],
+      "negativeCanonCarried": [
+        "Prior limits remain."
+      ]
+    },
+    "E01-P10": {
+      "sourceRange": "L171-L194",
+      "previousVerifiedState": {
+        "characterState": "Dhika privately recognized curiosity in Part 9 but suppressed it; John remains at work; Chotu payment pending.",
+        "relationshipState": [
+          "Dhika↔John stable.",
+          "Dhika↔Chotu trusted/brother-like but ambiguous prior event exists."
+        ],
+        "knowledgeState": "Dhika private thought and Chotu exact prior perception are undisclosed.",
+        "boundaryState": "Prior visibility accidental; no deliberate test."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P10-E034",
+          "E01-P10-E035",
+          "E01-P10-E036"
+        ],
+        "exactChanges": [
+          "Next-day home routine; RAW time anomaly '10 PM' inside daytime sequence; John work issue continues.",
+          "Dhika calls Maami for payment visit, decides on good dupatta, wants conversation/food.",
+          "Chotu returns and lies about prior exit reason; Dhika accepts.",
+          "First shared meal/floor seating/family talk occurs after Dhika persuades him to stay."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika behaves with ordinary care/hospitality despite private curiosity; Chotu relation becomes more comfortable/social.",
+        "relationshipState": "Dhika↔Chotu gains first shared meal/longer home duration; Dhika↔John stable.",
+        "knowledgeState": "Reader knows Chotu lie; Dhika does not. Dhika private thoughts remain unknown to Chotu/John.",
+        "boundaryState": "Visit permission expands socially only; planned dupatta reflects active presentation control.",
+        "secrecyState": "Two unspoken internal accounts coexist.",
+        "sourceAmbiguities": [
+          "L172 '10 PM' conflicts with surrounding next-morning/afternoon sequence; preserve as RAW anomaly."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-JOHN"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "knowledgeChanges": [
+        "E01-P10-E034",
+        "E01-P10-E035"
+      ],
+      "escalationChanges": [
+        "Social closeness/duration increases; no new appearance/physical route."
+      ],
+      "hooksOpened": [
+        "Kitchen clothing notice next."
+      ],
+      "hooksResolved": [
+        "Payment visit occurs; Chotu stays for meal."
+      ],
+      "hooksCarried": [
+        "Prior visibility/private-thought state remains undisclosed."
+      ],
+      "negativeCanonIntroduced": [
+        "Do not silently fix 10 PM.",
+        "Meal/hospitality ≠ romance.",
+        "Chotu lie does not by itself resolve exact prior view."
       ],
       "negativeCanonCarried": [
         "Prior limits remain."

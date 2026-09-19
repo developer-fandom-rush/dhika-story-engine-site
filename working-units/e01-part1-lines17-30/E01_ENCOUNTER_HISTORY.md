@@ -766,3 +766,20 @@
 **Delta:** Memory independently returns and excitement becomes self-recognized for a moment; marriage simultaneously stable/affectionate reaffirmed.
 
 **Cumulative:** Dhika private curiosity now canonically exists but remains undisclosed and unacted upon. Exact prior view still unresolved.
+
+
+---
+
+# Part 10 Encounter Events
+
+- **E01-P10-E034 · L171–174:** Next-day home routine. RAW L172 “around 10 PM” likhta hai even though surrounding sequence morning→afternoon hai; time ko silently 10 AM mat karo. John work issue continues. Dhika payment ke liye Chotu ko bulwati hai, good dupatta plan karti hai, aur ordinary chat/food decide karti hai.
+- **E01-P10-E035 · L175–182:** Chotu previous abrupt exit ka mother-task reason deta hai; narrator explicitly says **he lied**. Dhika explanation accept karti hai. Reader knows lie; Dhika does not.
+- **E01-P10-E036 · L183–194:** Dhika first time Chotu ko meal offer karti hai; persuasion ke baad woh accept karta hai. Table refuse karne par Dhika floor par saath baithti hai out of politeness. Food/family talk + kitchen cleanup. Social closeness grows; romance source establish nahi karta.
+
+# Part 10 cumulative snapshot
+
+**Previous:** Private curiosity suppressed; payment pending.
+
+**Delta:** Covered/ordinary hospitality plan + Chotu lie + first shared lunch/longer visit.
+
+**Cumulative:** Dhika↔Chotu social comfort/access grows, but prior private meanings remain undisclosed. John marriage/work state stable.
