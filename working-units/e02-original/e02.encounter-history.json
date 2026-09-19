@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_7_ONLY",
-  "asOfPart": "P07",
+  "phase": "PHASE_2_PART_8_ONLY",
+  "asOfPart": "P08",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -543,6 +543,35 @@
       "negativeCanon": [
         "No confrontation or disclosure occurs."
       ]
+    },
+    {
+      "eventId": "E02-P08-E019",
+      "episode": "E02",
+      "part": "P08",
+      "sourceRange": "L77-L80",
+      "chronologyOrder": 19,
+      "eventType": "LIVE_MARITAL_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "John notices Dhika has been thoughtful all day.",
+        "During consensual marital sex, Dhika independently moves on top and initiates a position that existed historically in their marriage.",
+        "John likes the initiative and is intrigued because she has not initiated it before.",
+        "John notices her facial expressions are less shy than usual.",
+        "Dhika has a strong orgasm."
+      ],
+      "knowledgeAfter": [
+        "John knows her behavior/initiative changed but does not know the Uncle incident or Chotu visual-test secret.",
+        "Dhika knows her own hidden external-route thoughts, but the source does not state a specific fantasy during sex."
+      ],
+      "boundaryPermissionControl": [
+        "This is voluntary marital participation initiated by Dhika. It does not grant permission concerning Uncle, Chotu, twins or outsiders."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John gains a new initiative/reduced-shyness delta without disclosure of underlying secrets."
+      ],
+      "negativeCanon": [
+        "Do not state a specific Uncle or Chotu fantasy; source does not name one.",
+        "The position is not first-ever historically; the initiative is new."
+      ]
     }
   ],
   "relationships": [
@@ -560,12 +589,13 @@
         "E02-P03-E008",
         "E02-P04-E009",
         "E02-P04-E010",
-        "E02-P07-E018"
+        "E02-P07-E018",
+        "E02-P08-E019"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P7: marriage surface warm, but Dhika deliberately withholds Uncle incident to protect his image.",
-      "knowledgeSplit": "Dhika knows Uncle incident; John does not.",
-      "boundaryState": "Dhika rejects the short-skirt option and chooses the final outfit herself."
+      "latestVerifiedState": "E02 P8: Dhika independently initiates a familiar marital position and appears less shy; John enjoys/notices change but hidden causes remain undisclosed.",
+      "knowledgeSplit": "John knows behavior changed; he does not know Uncle or Chotu secrets.",
+      "boundaryState": "Voluntary marital participation only; no third-party permission."
     },
     {
       "relationshipId": "REL-JOHN-PAPPU",
@@ -667,9 +697,10 @@
         "E02-P06-E015",
         "E02-P07-E016",
         "E02-P07-E017",
-        "E02-P07-E018"
+        "E02-P07-E018",
+        "E02-P08-E019"
       ],
-      "currentVerifiedState": "Conceals Uncle discovery, rationalizes/minimizes it, feels self-blame and private excitement, and introduces a milk-logistics safeguard.",
+      "currentVerifiedState": "Shows new independent marital initiative after carrying undisclosed external-route thoughts; specific fantasy/cause is not stated.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
@@ -688,9 +719,10 @@
         "E02-P03-E007",
         "E02-P03-E008",
         "E02-P04-E009",
-        "E02-P04-E010"
+        "E02-P04-E010",
+        "E02-P08-E019"
       ],
-      "currentVerifiedState": "Pushes for more open clothing but accepts Dhika's compromise; privately links Uncle to his show-off framing."
+      "currentVerifiedState": "Notices Dhika thoughtful during day and less shy/more initiative during sex; enjoys it but does not know hidden context."
     },
     {
       "characterId": "CHAR-PAPPU",
@@ -838,6 +870,19 @@
         ]
       },
       "cumulativeStateThroughPart": "Dhika consciously preserves public trust through rationalization and secrecy, but adds a practical safeguard. Uncle thinks secret intact. John/Aunty remain unaware. Self-blame is not objective causation; no anger/non-disclosure do not equal consent."
+    },
+    "E02-P08": {
+      "sourceRange": "L77-L82",
+      "previousVerifiedState": "Part 7: Dhika concealed the Uncle incident from John and carries both Uncle and E01 Chotu-related private layers.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P08-E019"
+        ],
+        "exactChanges": [
+          "Dhika↔John gains a new initiative/reduced-shyness delta without disclosure of underlying secrets."
+        ]
+      },
+      "cumulativeStateThroughPart": "Marriage gains a new voluntary initiative/reduced-shyness behavior change. John notices but does not know why. Chronology allows hidden emotional context to precede the change, but no specific fantasy/cause is stated."
     }
   }
 }

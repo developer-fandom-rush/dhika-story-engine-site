@@ -141,3 +141,18 @@
 **Cumulative state through Part 7:** Public trust consciously preserve hota hai through concealment, hidden breach still active. Marriage mein knowledge gap aur deepen hota hai.
 
 **Evidence:** `E02-P07-E016` L68–70; `E017` L71–74; `E018` L75–76.
+
+---
+
+## Part 8 · L77–82
+**Previous verified state:** Dhika ne Uncle incident John se hide kiya hai; E01 Chotu after-effect bhi undisclosed hai.
+
+**Current Part delta:** `E019` mein John notice karta hai ki Dhika thoughtful hai. Consensual marital sex mein Dhika khud top position initiate karti hai—position history mein new nahi, but initiative uske liye new hai. John less-shy expressions notice karta hai; Dhika strong orgasm experience karti hai.
+
+**Knowledge split:** John behavior change jaanta hai, cause nahi. Source kisi specific Uncle/Chotu fantasy ko name nahi karta.
+
+**Boundary state:** Voluntary marital initiative = Dhika↔John context only. Isse Uncle/Chotu/twins ko koi permission nahi milti.
+
+**Cumulative state through Part 8:** Marriage mein initiative delta add hota hai, disclosure nahi. Hidden external-route thoughts remain private; causal overclaim prohibited.
+
+**Evidence:** `E02-P08-E019` L77–80.
