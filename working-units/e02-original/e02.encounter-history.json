@@ -1598,5 +1598,17 @@
       "cumulativeStateThroughPart": "Episode 02 ends with active opportunity creation, not completed encounter. Chotu leave reason, final outfit, Chotu arrival/reaction, and future twins tuition consequences remain open. Person-specific comfort is recognized but not blanket consent."
     }
   },
-  "episodeStatus": "CUMULATIVE_CANON_REPAIRED_THROUGH_E02_END"
+  "episodeStatus": "CUMULATIVE_CANON_REPAIRED_THROUGH_E02_END",
+  "imagePromptHandoff": {
+    "path": "working-units/e02-original/E02_MISSING_IMAGE_PROMPTS.md",
+    "policy": "ADDITIONAL_ONLY_EXISTING_IMAGES_LOCKED",
+    "manualPriorityEventIds": [
+      "E02-P06-E013",
+      "E02-P06-E014",
+      "E02-P12-E028"
+    ],
+    "optionalContinuityEventIds": [
+      "E02-P07-E017"
+    ]
+  }
 }
