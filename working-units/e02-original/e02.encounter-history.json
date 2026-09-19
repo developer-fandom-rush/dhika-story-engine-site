@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_5_ONLY",
-  "asOfPart": "P05",
+  "phase": "PHASE_2_PART_6_ONLY",
+  "asOfPart": "P06",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -386,6 +386,86 @@
         "John notices but does not explicitly authorize Uncle's conduct.",
         "No private bathroom act occurs until Part 6."
       ]
+    },
+    {
+      "eventId": "E02-P06-E013",
+      "episode": "E02",
+      "part": "P06",
+      "sourceRange": "L58",
+      "chronologyOrder": 13,
+      "eventType": "LIVE_ENCOUNTER_WITH_PRIVATE_IMAGINATION",
+      "sourceSupportedFacts": [
+        "Uncle rushes into Dhika's home, leaves front door open, goes straight to bathroom, takes her white bra from sink, sniffs it and licks it.",
+        "With eyes closed he imagines Dhika wearing only the bra and imagines what the cups touched.",
+        "He becomes visibly aroused under his shorts."
+      ],
+      "knowledgeAfter": [
+        "Uncle knows his own act/fantasy. At this instant Dhika/John/Aunty are not yet shown knowing. Reader knows."
+      ],
+      "boundaryPermissionControl": [
+        "No source-supported permission exists for garment handling, sniffing or licking. Milk access does not authorize this."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle hidden breach escalates from gaze/history to another current covert garment misuse incident."
+      ],
+      "negativeCanon": [
+        "Private imagination is not a physical act on Dhika.",
+        "No naked genitals are shown."
+      ]
+    },
+    {
+      "eventId": "E02-P06-E014",
+      "episode": "E02",
+      "part": "P06",
+      "sourceRange": "L59-L64",
+      "chronologyOrder": 14,
+      "eventType": "OBSERVATION",
+      "sourceSupportedFacts": [
+        "Dhika follows Uncle seconds later because he left without waiting and she wants to stop him/get the milk herself.",
+        "She enters through the open door, does not find him in kitchen, hears a slight moan from bathroom and slowly peeks out of curiosity.",
+        "She sees Uncle with her bra near his nose, sees him smelling and licking inside the cups, blushes and averts her eyes.",
+        "While moving her gaze away she unintentionally notices a large twitching erection-bulge through his shorts.",
+        "She silently leaves and catches her breath outside."
+      ],
+      "knowledgeAfter": [
+        "Dhika now knows the bra act and the clothed arousal evidence. Uncle does not know she saw him. John/Aunty remain unshown knowing."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika's curiosity-driven peek is observation of an already ongoing act; it is not permission for Uncle's prior behavior."
+      ],
+      "relationshipDelta": [
+        "The Uncle secret changes from reader/Uncle-known to Dhika-known while Uncle remains unaware of her knowledge."
+      ],
+      "negativeCanon": [
+        "Dhika does not announce herself or confront him.",
+        "She does not intentionally seek the clothed bulge; the source says she did not mean to see it."
+      ]
+    },
+    {
+      "eventId": "E02-P06-E015",
+      "episode": "E02",
+      "part": "P06",
+      "sourceRange": "L65-L67",
+      "chronologyOrder": 15,
+      "eventType": "INTERNAL_REACTION",
+      "sourceSupportedFacts": [
+        "Outside, Dhika reacts to having seen something large in Uncle's shorts and gives a subtle smile while scolding herself for looking.",
+        "She initially feels worse about looking at Uncle, then recognizes that Uncle was the one doing something wrong.",
+        "She feels no anger; she reimagines what she saw and feels a little excited, comparing the feeling to her Chotu-related excitement."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows the act, recognizes wrongdoing, and knows her own mixed non-angry/excited reaction. Uncle/John/Aunty do not know her reaction."
+      ],
+      "boundaryPermissionControl": [
+        "Lack of anger and private excitement do not retroactively approve Uncle's unauthorized act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle conscious internal state changes: she now knows the breach and has a mixed shock/blush/excitement response without confrontation."
+      ],
+      "negativeCanon": [
+        "No anger ≠ consent.",
+        "Excitement ≠ approval or future permission."
+      ]
     }
   ],
   "relationships": [
@@ -469,11 +549,14 @@
       "inheritedFromE01": true,
       "e02EventIds": [
         "E02-P05-E011",
-        "E02-P05-E012"
+        "E02-P05-E012",
+        "E02-P06-E013",
+        "E02-P06-E014",
+        "E02-P06-E015"
       ],
-      "latestVerifiedState": "E02 P5: public family-like bond continues while Uncle compliments and repeatedly glances; Dhika remains unaware.",
-      "knowledgeSplit": "Uncle knows his attraction; John sees the gaze; Dhika does not.",
-      "boundaryState": "Outfit/lunch/milk logistics do not authorize covert looking or personal access."
+      "latestVerifiedState": "E02 P6: Dhika secretly witnesses Uncle's unauthorized bra misuse and clothed arousal; she retreats without confrontation and has a mixed shock/blush/excitement response.",
+      "knowledgeSplit": "Dhika + reader know; Uncle thinks secret remains intact; John/Aunty do not know.",
+      "boundaryState": "No permission for garment act; observation/reaction do not authorize it."
     },
     {
       "relationshipId": "REL-DHIKA-AUNTY",
@@ -498,11 +581,14 @@
         "E02-P04-E009",
         "E02-P04-E010",
         "E02-P05-E011",
-        "E02-P05-E012"
+        "E02-P05-E012",
+        "E02-P06-E014",
+        "E02-P06-E015"
       ],
-      "currentVerifiedState": "Receives Uncle compliment innocently; remains unaware of repeated lunch glances; continues caregiving.",
+      "currentVerifiedState": "Now knows Uncle's secret act; mixed shock/blush/excitement and no anger, but recognizes he was doing wrong; keeps knowledge private so far.",
       "activeSecrets": [
-        "E01 Chotu visual-test motive/after-effect remains undisclosed to John."
+        "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
+        "She has witnessed Uncle's bra act and clothed arousal without his knowledge."
       ]
     },
     {
@@ -537,9 +623,11 @@
       "characterId": "CHAR-UNCLE",
       "eventIds": [
         "E02-P05-E011",
-        "E02-P05-E012"
+        "E02-P05-E012",
+        "E02-P06-E013",
+        "E02-P06-E014"
       ],
-      "currentVerifiedState": "Current E02 gaze/compliment route active; takes milk errand without waiting for Dhika's reply."
+      "currentVerifiedState": "Repeats/escalates covert garment misuse in current E02 time; unaware Dhika witnessed him."
     }
   ],
   "partSnapshots": {
@@ -631,6 +719,23 @@
         ]
       },
       "cumulativeStateThroughPart": "Public family-like relation continues, but gaze triangle is now active: Uncle looks, John notices, Dhika does not. Aunty has at least one visible stern reaction. Milk errand gives practical access, not personal-item permission."
+    },
+    "E02-P06": {
+      "sourceRange": "L58-L67",
+      "previousVerifiedState": "Part 5: Uncle gaze route active; John notices; Dhika unaware. Uncle has practical milk access to Dhika's home.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P06-E013",
+          "E02-P06-E014",
+          "E02-P06-E015"
+        ],
+        "exactChanges": [
+          "Uncle covertly reuses/sniffs/licks bra and privately imagines Dhika.",
+          "Dhika follows, peeks, witnesses garment act and accidental clothed arousal-bulge.",
+          "Dhika retreats, recognizes Uncle's wrong act, but feels no anger and some excitement."
+        ]
+      },
+      "cumulativeStateThroughPart": "Knowledge flips: Dhika now knows Uncle's breach; Uncle does not know she knows; John/Aunty remain unaware. No direct body touch/confrontation/permission. Dhika's lack of anger/private excitement does not authorize the act."
     }
   }
 }

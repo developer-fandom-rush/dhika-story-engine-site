@@ -109,3 +109,20 @@
 **Cumulative state through Part 5:** Public family-like surface + hidden gaze triangle. Immediate next hook = Uncle alone in Dhika's home.
 
 **Evidence:** `E02-P05-E011` L49–55; `E012` L56–57.
+
+---
+
+## Part 6 · L58–67
+**Previous verified state:** Uncle gaze reader/John-known tha; Dhika unaware. Milk errand ne practical home access diya tha.
+
+**Current Part delta:** `E013` Uncle bra ko sniff/lick karta hai aur private imagination + clothed arousal hoti hai. `E014` Dhika follow karke curiosity se peek karti hai, act witness karti hai aur accidentally shorts bulge notice karti hai. `E015` outside woh shock/blush ke saath process karti hai, Uncle ko wrong recognize karti hai, phir bhi anger nahi feel karti aur thoda excitement compare karti hai Chotu feeling se.
+
+**Action vs imagination:** Uncle ka bra handling/sniff/lick physical action hai; Dhika-in-bra image private imagination hai. Dhika ka bulge dekhna source ke mutabik unintended observation hai.
+
+**Knowledge split:** Dhika + reader know. Uncle ko nahi pata ki Dhika ne dekha. John/Aunty unaware.
+
+**Boundary state:** Milk access ≠ underwear permission. Dhika curiosity/observation, no anger, ya excitement retroactive approval nahi.
+
+**Cumulative state through Part 6:** Uncle secret ab Dhika-known hai but concealment asymmetry ulta ho gaya: Uncle thinks secret intact. No direct touch/confrontation.
+
+**Evidence:** `E02-P06-E013` L58; `E014` L59–64; `E015` L65–67.
