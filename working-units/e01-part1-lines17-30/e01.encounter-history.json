@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_11",
-  "asOfPart": "P11",
+  "phase": "PHASE_2_EPISODE_01_COMPLETE",
+  "asOfPart": "P12",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,11 +11,11 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L194",
-    "currentPart": "L195-L207",
-    "nextUnprocessedRange": "L208-L225"
+    "processedParts": "L17-L225",
+    "currentPart": "L208-L225",
+    "nextUnprocessedRange": null
   },
-  "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
+  "cumulativeDefinition": "Episode 01 cumulative canon through final non-empty RAW line L225.",
   "baselineState": {
     "sourceRange": "L1-L16",
     "sourceSupportedFacts": [
@@ -3620,6 +3620,291 @@
         "No confession/touch occurs."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P12-E040",
+      "episode": "E01",
+      "part": "P12",
+      "sourceRange": "L208-L214",
+      "chronologyOrder": 40,
+      "eventType": "INTERNAL_THOUGHT_TO_DELIBERATE_SETUP",
+      "sceneTime": "same visit after lunch",
+      "location": "bedroom/bathroom mirror → hall",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika notices spilled food where they ate and goes to fetch a cloth from bedroom/bathroom.",
+        "In the bathroom mirror she thinks about Chotu also calling her beautiful and wonders whether she is still beautiful after having one child.",
+        "She remembers the prior day's bend and her nighttime thoughts, becomes very excited, slowly removes her dupatta and looks at herself in the mirror.",
+        "She sees her own cleavage in the deep-cut dress, feels excitement, bites her lip and smiles/blushes.",
+        "She thinks about not knowing whether Chotu saw inside her dress before and feels a strong urge to find out whether he would look.",
+        "She takes a waste cloth and goes to the hall without the dupatta."
+      ],
+      "derivedInterpretations": [
+        "This is the first source-supported transition from private curiosity to a deliberate visual test/setup.",
+        "The source's 'something took over her' language does not erase the subsequent intentional actions: she removes the dupatta, considers testing whether Chotu would look, and goes to hall without it."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "removes_dupatta_and_mirror_checks",
+          "intentionality": "intentional action during excited internal state",
+          "physicality": "clothing removal",
+          "visibility": "private mirror"
+        },
+        {
+          "actor": "Dhika",
+          "target": "future_Chotu_observation",
+          "actionType": "decides/acts_on_urge_to_test_whether_he_will_look",
+          "intentionality": "deliberate test setup supported by thought + action",
+          "physicality": "none yet",
+          "visibility": "reader-only motive"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Self-esteem boosted by Chotu compliment; prior curiosity exists."
+      ],
+      "emotionalStateAfter": [
+        "Very excited, nervous/uncertain about own behavior, proceeds with test setup."
+      ],
+      "visibilityAndObservers": [
+        "No Chotu in bathroom; setup motive is private to Dhika + reader."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows she never confirmed prior view; Chotu does not know her prior private curiosity."
+      ],
+      "knowledgeDelta": [
+        "Dhika chooses to find out whether Chotu will look."
+      ],
+      "knowledgeAfter": [
+        "Dhika + reader know test motive; Chotu does not yet."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika deliberately controls her own visibility setup. This does not create permission for touch or imply any verbal invitation beyond the visual test."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu private state changes: Dhika moves from curiosity to one deliberate visual experiment."
+      ],
+      "secrecyState": [
+        "Test motive is Dhika-private/reader-known."
+      ],
+      "escalationOrNormalization": [
+        "Internal curiosity becomes deliberate behavior for first time."
+      ],
+      "hooksOpened": [
+        "Will Chotu look; will Dhika confirm it."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No touch or spoken invitation.",
+        "Do not generalize one test into ongoing pattern."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P12-E041",
+      "episode": "E01",
+      "part": "P12",
+      "sourceRange": "L215-L219",
+      "chronologyOrder": 41,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "immediately after",
+      "location": "hall",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu sees Dhika enter without dupatta but initially assumes she forgot/left it in bedroom or bathroom.",
+        "Chotu is sitting exactly opposite her.",
+        "Dhika feels very nervous and excited; narrator states she is openly showing cleavage outside her husband for the first time and cannot understand what is driving her.",
+        "Dhika bends down, gets on all fours and starts wiping the floor.",
+        "Chotu is shocked and wide-eyed; source says he can see approximately one-third of her breasts and is stunned/lost looking.",
+        "Dhika is very nervous, does not dare look up at Chotu, and keeps wiping for about one minute while Chotu continues looking."
+      ],
+      "derivedInterpretations": [
+        "The deliberate test created in E040 becomes an actual visual exposure event in E041.",
+        "Chotu initially interprets missing dupatta as accidental; source does not say he knows the setup was deliberate.",
+        "Approximately one-third visibility is an explicit source estimate and should remain approximate."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu's potential gaze",
+          "actionType": "bends/wipes_in_deliberate_test_context",
+          "intentionality": "deliberate test context established in E040",
+          "physicality": "movement only",
+          "visibility": "Chotu opposite her"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika's exposed upper chest/breast area",
+          "actionType": "looks/stares_wide_eyed",
+          "intentionality": "source-supported looking after visibility occurs",
+          "physicality": "none",
+          "visibility": "Dhika does not initially look up"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Dhika nervous + excited; Chotu assumes dupatta absence accidental."
+      ],
+      "emotionalStateAfter": [
+        "Chotu stunned/lost; Dhika very nervous/excited and avoids looking up."
+      ],
+      "visibilityAndObservers": [
+        "Source explicitly estimates about one-third of breast visible to Chotu; no third observer."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows test motive; Chotu only notices no dupatta and assumes accidental omission."
+      ],
+      "knowledgeDelta": [
+        "Chotu sees the exposed area; Dhika still has not visually confirmed his gaze because she avoids looking up."
+      ],
+      "knowledgeAfter": [
+        "Chotu knows what he is seeing; Dhika strongly expects/test context but confirmation comes in E042."
+      ],
+      "boundaryPermissionControl": [
+        "Deliberate visibility/test is established. No touch permission, verbal invitation, or broader consent is stated."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves from ambiguity/private curiosity to one deliberate visual exposure test with actual gaze."
+      ],
+      "secrecyState": [
+        "Dhika's deliberate motive still not shown known to Chotu."
+      ],
+      "escalationOrNormalization": [
+        "One deliberate visual test; no repetition/normalization established."
+      ],
+      "hooksOpened": [
+        "Will eye contact confirm gaze."
+      ],
+      "hooksResolved": [
+        "Will Chotu look? YES."
+      ],
+      "negativeCanon": [
+        "Deliberate visual exposure ≠ permission for touch.",
+        "Chotu does not yet know test motive by source.",
+        "Approximate one-third visibility must not be exaggerated."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P12-E042",
+      "episode": "E01",
+      "part": "P12",
+      "sourceRange": "L220-L225",
+      "chronologyOrder": 42,
+      "eventType": "LIVE_ENCOUNTER_AND_AFTEREFFECT",
+      "sceneTime": "after about one minute",
+      "location": "hall",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika gathers courage and looks toward Chotu; their eyes meet.",
+        "Chotu is wide-eyed; Dhika's eyes show excitement and nervousness and she subtly bites her lips.",
+        "Chotu immediately stands, takes the money she had given earlier and leaves with a distant-sounding goodbye.",
+        "Dhika cannot believe what she did, remains very excited, drops the cloth, lies back on the floor, covers her face with excitement/blushing/shyness.",
+        "She feels a stronger bodily tingle in her genital area."
+      ],
+      "derivedInterpretations": [
+        "Eye contact confirms to Dhika that Chotu was looking and confirms to Chotu that she saw him looking; it does not prove Chotu knows her full prior motive/setup.",
+        "The episode ends on shared awareness of the gaze plus Dhika's private strong bodily response, not on physical intimacy or verbal agreement."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "looks_up_and_establishes_eye_contact",
+          "intentionality": "intentional confirmation",
+          "physicality": "none",
+          "visibility": "mutual"
+        },
+        {
+          "actor": "Chotu",
+          "target": "scene",
+          "actionType": "takes_money_and_leaves",
+          "intentionality": "immediate exit",
+          "physicality": "movement",
+          "visibility": "Dhika present"
+        },
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "post_event_excited_bodily_response",
+          "intentionality": "involuntary/aftereffect",
+          "physicality": "self-experienced",
+          "visibility": "reader-only/private"
+        }
+      ],
+      "dialogueMeaning": [
+        "No sexual dialogue/confession occurs; Chotu leaves with a brief goodbye."
+      ],
+      "emotionalStateBefore": [
+        "Dhika nervous/excited; Chotu stunned."
+      ],
+      "emotionalStateAfter": [
+        "Dhika shocked by her own action, strongly excited/blushing/shy; Chotu exits immediately."
+      ],
+      "visibilityAndObservers": [
+        "Mutual eye contact makes the gaze mutually known."
+      ],
+      "knowledgeBefore": [
+        "Dhika has not yet confirmed gaze with her own eyes; Chotu does not know full test motive."
+      ],
+      "knowledgeDelta": [
+        "Dhika sees Chotu looking; Chotu knows Dhika saw him looking."
+      ],
+      "knowledgeAfter": [
+        "Shared knowledge = gaze occurred and was mutually noticed. Dhika knows test worked. Chotu's knowledge of her deliberate setup remains unestablished."
+      ],
+      "boundaryPermissionControl": [
+        "No touch, verbal invitation, confession, or general future permission is created by eye contact/shared awareness."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu now has one mutually known gaze event after a Dhika-side deliberate visual test; hidden motives remain asymmetric."
+      ],
+      "secrecyState": [
+        "Dhika's full motive remains private; Chotu crush remains private unless inferred only by reader from prior event."
+      ],
+      "escalationOrNormalization": [
+        "Deliberate visual experiment completed once; no physical escalation/repetition."
+      ],
+      "hooksOpened": [
+        "How each behaves at next meeting; whether event is discussed."
+      ],
+      "hooksResolved": [
+        "Dhika confirms he looked; test outcome known to her."
+      ],
+      "negativeCanon": [
+        "No physical contact.",
+        "No verbal sexual invitation/confession.",
+        "No affair/romance established.",
+        "Shared gaze awareness ≠ broader consent.",
+        "Do not infer Chotu knows Dhika staged the test."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -4300,19 +4585,22 @@
         "E01-P10-E036",
         "E01-P11-E037",
         "E01-P11-E038",
-        "E01-P11-E039"
+        "E01-P11-E039",
+        "E01-P12-E040",
+        "E01-P12-E041",
+        "E01-P12-E042"
       ],
-      "publicSurfaceState": "Trusted relationship now includes first explicit beauty compliment and Dhika's verbal statement that she trusts Chotu; she frames him as innocent.",
-      "privateState": "Chotu privately develops a little crush and first sees Dhika as a beautiful woman; Dhika's prior curiosity remains private and she does not know his crush.",
-      "readerKnownState": "Reader knows both asymmetries: Dhika's trust/compliment pleasure and Chotu's unspoken first crush.",
+      "publicSurfaceState": "Trusted relationship ends Episode 01 with no verbal confession or physical contact; Chotu leaves after a mutually noticed gaze event.",
+      "privateState": "Dhika deliberately stages one visual test to see whether Chotu will look; Chotu privately has a little crush from Part 11. Their full motives remain undisclosed to each other.",
+      "readerKnownState": "Reader knows Dhika's deliberate test motive, approximate visibility, Chotu gaze, mutual eye contact, immediate exit, and Dhika's strong private aftereffect.",
       "characterKnowledgeStates": {
-        "Dhika": "Knows Chotu called her beautiful; explicitly says she trusts him and interprets his 'just hands' response as innocent. Does not know crush.",
-        "Chotu": "Knows Dhika says she trusts him; does not understand her deeper 'proved' reasoning; privately knows his own little crush."
+        "Dhika": "Knows she deliberately tested whether Chotu would look and confirms through eye contact that he did; does not know his full private crush history unless later source states it.",
+        "Chotu": "Knows he looked and that Dhika saw him looking; source does not establish that he knows she deliberately staged the test."
       },
       "trustState": "High practical/familial familiarity.",
-      "boundaryState": "Trust is specifically articulated around ordinary sleeveless-arm visibility; no broader looking/touch permission.",
-      "secrecyState": "Chotu crush hidden from Dhika; Dhika prior private curiosity still undisclosed.",
-      "currentCeiling": "Explicit trust + first Chotu beauty compliment + private Chotu little crush; no mutual declared attraction or physical intimacy.",
+      "boundaryState": "One deliberate visual exposure/test is established. No touch, verbal invitation, confession or blanket future permission.",
+      "secrecyState": "Dhika's full motive remains private; Chotu's crush remains private; shared knowledge is limited to the gaze being mutually noticed.",
+      "currentCeiling": "One deliberate visual test + actual gaze + mutual awareness; no touch/sexual dialogue/declared romance.",
       "unresolvedHooks": [
         "Second noodles return.",
         "Exact meaning of Chotu's 'something different' notice.",
@@ -4323,10 +4611,12 @@
       "negativeCanon": [
         "Hospitality ≠ unlimited access.",
         "Dhika trust is not blanket consent.",
-        "Chotu crush is private and not mutual by source."
+        "Chotu crush is private and not mutual by source.",
+        "Shared gaze awareness does not prove Chotu knows Dhika's setup motive.",
+        "One deliberate test does not establish a repeated pattern."
       ],
-      "latestVerifiedState": "CHANGED in Part 11.",
-      "lastChangedAt": "E01-P11-E039"
+      "latestVerifiedState": "CHANGED in Part 12 / Episode-end.",
+      "lastChangedAt": "E01-P12-E042"
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -4481,7 +4771,10 @@
         "E01-P10-E036",
         "E01-P11-E037",
         "E01-P11-E038",
-        "E01-P11-E039"
+        "E01-P11-E039",
+        "E01-P12-E040",
+        "E01-P12-E041",
+        "E01-P12-E042"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -4604,6 +4897,14 @@
         {
           "at": "E01-P11-E038",
           "state": "Explicitly states she trusts Chotu and interprets his 'just hands' response as proof of innocence."
+        },
+        {
+          "at": "E01-P12-E040",
+          "state": "Privately decides to find out whether Chotu will look and removes dupatta for one test."
+        },
+        {
+          "at": "E01-P12-E042",
+          "state": "Through eye contact confirms Chotu was looking; knows her test worked."
         }
       ],
       "evolutionTimeline": [
@@ -4662,9 +4963,17 @@
         {
           "at": "E01-P11-E038",
           "delta": "Trust in Chotu becomes verbally explicit after appearance discussion."
+        },
+        {
+          "at": "E01-P12-E040",
+          "delta": "Private curiosity becomes first deliberate visual experiment."
+        },
+        {
+          "at": "E01-P12-E042",
+          "delta": "Recognizes strong excitement/aftereffect after confirming gaze and is shocked by her own action."
         }
       ],
-      "currentVerifiedState": "Through Part 11: pleased/shy at Chotu's first beauty compliment; explicitly trusts him around ordinary sleeveless-arm visibility; unaware of his private little crush.",
+      "currentVerifiedState": "Episode-end: affectionate wife/mother baseline remains; attention-aware/self-conscious history now includes one deliberate visual test toward Chotu and a strong private aftereffect, without touch/confession/declared romance.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -5204,7 +5513,10 @@
         "E01-P10-E036",
         "E01-P11-E037",
         "E01-P11-E038",
-        "E01-P11-E039"
+        "E01-P11-E039",
+        "E01-P12-E040",
+        "E01-P12-E041",
+        "E01-P12-E042"
       ],
       "relationshipIds": [
         "REL-DHIKA-CHOTU",
@@ -5246,6 +5558,14 @@
         {
           "at": "E01-P11-E039",
           "state": "Privately realizes a little crush; Dhika does not know."
+        },
+        {
+          "at": "E01-P12-E041",
+          "state": "Initially assumes no-dupatta omission accidental, then sees exposed area and looks."
+        },
+        {
+          "at": "E01-P12-E042",
+          "state": "Knows Dhika saw him looking; immediately takes payment and leaves. Full knowledge of her deliberate setup is not established."
         }
       ],
       "evolutionTimeline": [
@@ -5256,9 +5576,13 @@
         {
           "at": "E01-P11-E039",
           "delta": "Kindness-based regard changes: first time he sees Dhika as a beautiful woman and forms a little crush."
+        },
+        {
+          "at": "E01-P12-E041",
+          "delta": "Private crush encounters a deliberate-but-unexplained visibility event; he looks and becomes stunned."
         }
       ],
-      "currentVerifiedState": "Through Part 11: trusted adult acquaintance with private first crush; complimented Dhika, heard her trust statement, did not confess or touch.",
+      "currentVerifiedState": "Episode-end: trusted adult acquaintance with private little crush; looked during Part 12 visual test, mutually noticed via eye contact, then left; no confession/touch.",
       "activeSecrets": [],
       "unresolvedHooks": [
         "Second noodles delivery."
@@ -6150,6 +6474,79 @@
       ],
       "negativeCanonCarried": [
         "Prior limits remain."
+      ]
+    },
+    "E01-P12": {
+      "sourceRange": "L208-L225",
+      "previousVerifiedState": {
+        "characterState": "Dhika has private curiosity from Part 9, ordinary hospitality/trust from Parts 10-11, and Chotu's first beauty compliment; Chotu has private little crush.",
+        "relationshipState": [
+          "Dhika↔Chotu surface trust/innocent framing + hidden asymmetric private states."
+        ],
+        "knowledgeState": "Dhika does not know Chotu crush; Chotu does not know Dhika prior curiosity.",
+        "boundaryState": "Trust around ordinary homewear/arms is not blanket permission."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P12-E040",
+          "E01-P12-E041",
+          "E01-P12-E042"
+        ],
+        "exactChanges": [
+          "Dhika mirror reflection/compliment memory turns private curiosity into one deliberate visual test setup.",
+          "Chotu initially assumes missing dupatta accidental; actual visibility occurs and source estimates roughly one-third breast visible; he looks while Dhika avoids looking up.",
+          "Dhika eventually looks up; eye contact confirms gaze was mutually noticed; Chotu takes payment and leaves; Dhika has strong private excitement/aftereffect."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika moves from accidental ambiguity→private curiosity→one deliberate visual test. Chotu private crush exists and he looks during the test.",
+        "relationshipState": "Dhika↔Chotu has one mutually known gaze event but no touch, confession, romantic agreement or affair.",
+        "knowledgeState": "Dhika knows test worked and Chotu looked. Chotu knows Dhika saw him looking. Chotu's knowledge of her deliberate motive is not established; Dhika does not know his full crush state.",
+        "boundaryState": "Deliberate visibility is act-specific. No touch/verbal invitation/broader future permission.",
+        "secrecyState": "Full motives remain asymmetric even though gaze itself becomes mutually known.",
+        "sourceAmbiguities": [
+          "Chotu's inference about Dhika's intent is not stated.",
+          "One event does not establish future repetition/normalization."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "relationshipRowsHeld": [],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "knowledgeChanges": [
+        "E01-P12-E040",
+        "E01-P12-E041",
+        "E01-P12-E042"
+      ],
+      "escalationChanges": [
+        "Accidental ambiguity → private recollection → deliberate visual test → mutual gaze awareness."
+      ],
+      "hooksOpened": [
+        "Next meeting consequences.",
+        "Whether event is ever discussed."
+      ],
+      "hooksResolved": [
+        "Will Dhika act on curiosity? YES, one visual test.",
+        "Will Chotu look? YES.",
+        "Will Dhika confirm it? YES via eye contact."
+      ],
+      "hooksCarried": [
+        "No discussion/touch/romance resolution within Episode 01."
+      ],
+      "negativeCanonIntroduced": [
+        "No touch.",
+        "No verbal sexual invitation/confession.",
+        "No affair/declared romance.",
+        "Shared gaze awareness ≠ blanket consent.",
+        "Do not infer Chotu knows setup motive.",
+        "One test ≠ repeated pattern."
+      ],
+      "negativeCanonCarried": [
+        "All earlier unresolved routes/limits remain unless explicitly closed by source."
       ]
     }
   },

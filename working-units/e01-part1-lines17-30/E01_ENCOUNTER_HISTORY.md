@@ -800,3 +800,20 @@
 **Hidden:** Chotu little crush; Dhika prior private curiosity. Dono ek-dusre ka full internal state nahi jaante.
 
 **Boundary:** Ordinary sleeveless-arm visibility ke around trust statement blanket consent nahi.
+
+
+---
+
+# Part 12 Encounter Events
+
+- **E01-P12-E040 · L208–214:** Chotu compliment + prior memory/night thought combine hoke Dhika ko mirror ke saamne strong excitement dete hain. Woh dupatta remove karti hai, apni visible cleavage dekhti hai, aur specifically sochti hai ki woh find out karna chahti hai whether Chotu would look. Cloth lekar bina dupatta hall jaati hai. **Private curiosity → first deliberate visual-test setup.**
+- **E01-P12-E041 · L215–219:** Chotu initially no-dupatta ko accidental omission samajhta hai. Dhika opposite position mein nervous/excited hai, bend/all-fours cleaning action karti hai. RAW approximately **one-third breast visibility** describe karta hai; Chotu wide-eyed/stunned dekh raha hai. Approximate amount ko exaggerate mat karo. Deliberate visual test ≠ touch permission.
+- **E01-P12-E042 · L220–225:** Dhika courage karke dekhti hai; eye contact hota hai. Isse Dhika confirm karti hai ki Chotu looked, aur Chotu jaanta hai Dhika ne use looking dekha. Yeh **shared gaze awareness** hai—not proof that Chotu knows the setup was deliberate. Chotu payment lekar immediately leaves. Dhika strong excitement/blushing/shyness + bodily aftereffect feel karti hai.
+
+# Part 12 cumulative snapshot / Episode 01 end
+
+**Arc:** accidental ambiguity (Part 8) → private recollection/curiosity (Part 9) → ordinary covered hospitality (Part 10) → compliment + explicit trust + Chotu private crush (Part 11) → one deliberate visual test + confirmed gaze (Part 12).
+
+**Relationship ceiling:** one mutually noticed gaze event. No touch, no sexual dialogue, no confession, no declared romance, no affair, no blanket future consent.
+
+**Knowledge split:** Dhika knows test motive + result. Chotu knows gaze happened and Dhika saw him looking, but source does not establish he knows she staged the test. Dhika does not know full Chotu crush state.
