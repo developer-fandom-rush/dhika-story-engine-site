@@ -664,3 +664,23 @@
 **Current Part delta:** `E012` covert used-bra incident; `E013` interruption + trace.
 
 **Cumulative state through Part 3:** Reader actual covert incident jaanta hai; Dhika/John/Aunty nahi. One incident ko repeat pattern mat banao.
+
+
+---
+
+# Part 4 Encounter Events
+
+- **E01-P04-E014 · L71–79:** 4 PM staff-room compliment scene. Bantu praise intensify karta hai; Dhika spoken modesty maintain karti hai but internally blushes. Bantu ko uski private reaction ka knowledge establish nahi.
+- **E01-P04-E015 · L80–81:** Bobby accidental visible hip skin dekhta hai; Dhika gaze notice karke issue identify karti hai, embarrassed hoti hai, but Bobby ko embarrass na karne ke liye immediately cover nahi karti. **Accidental visibility ≠ deliberate display.**
+- **E01-P04-E016 · L82–90:** Bantu lift ke liye false scooter/petrol/no-money pretext use karta hai. Reader knows bike mein problem nahi; Dhika true motive nahi jaanti. Permission = lift only.
+- **E01-P04-E017 · L91–94:** Bantu/Bobby Dhika ke peeche dekhte hain; mutual cue/wink; dono close seat chahte; Bobby middle seat le leta hai. Dhika in private motives se unaware.
+- **E01-P04-E018 · L95–100:** Dhika Bobby ko balance ke liye hold karne deti hai, internally shoulders expect karti hai. Bobby hip/stomach hold choose karta hai. Dhika surprised but usse innocent rationalize karke embarrass nahi karna chahti aur silent rehti hai. **Silence ≠ blanket consent.**
+- **E01-P04-E019 · L101–107:** stomach tapping + hand movement/rubbing at bare hip; Dhika chill/shyness feel karti hai. Ride ends. Bantu sadness reason Dhika se hide karta hai; Bobby detailed ride actions Bantu se hide karta hai. Exact intent of every micro-contact source fully specify nahi karta.
+
+# Part 4 cumulative snapshot
+
+**Previous verified state:** Bantu verbal compliment route; Bobby slight-favourite/shy baseline; no student physical route.
+
+**Current Part delta:** Bantu access-seeking deception + twin proximity competition + Bobby gaze/contact sequence.
+
+**Cumulative state through Part 4:** Teacher/student frame intact, but knowledge/boundary history ab exact hai: Dhika Bantu lie nahi jaanti; Bobby contact experience jaanti hai; Bantu full Bobby details nahi jaanta. Transport/balance permission act-specific hai.

@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_3",
-  "asOfPart": "P03",
+  "phase": "PHASE_2_PART_4",
+  "asOfPart": "P04",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,9 +11,9 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "previousProcessedParts": "L17-L64",
-    "currentPart": "L65-L70",
-    "nextUnprocessedRange": "L71-L107"
+    "previousProcessedParts": "L17-L70",
+    "currentPart": "L71-L107",
+    "nextUnprocessedRange": "L108-L117"
   },
   "cumulativeDefinition": "Prologue L1-L16 plus verified Parts 1-3 through L70 only.",
   "baselineState": {
@@ -1283,6 +1283,570 @@
         "Trace not yet discovered by Dhika."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P04-E014",
+      "episode": "E01",
+      "part": "P04",
+      "sourceRange": "L71-L79",
+      "chronologyOrder": 14,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "4 PM",
+      "location": "college staff room",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika is alone in the staff room at 4 PM when Bantu and Bobby approach.",
+        "Bantu says he came to say goodbye to his 'beautiful miss' and intensifies the compliment to 'most beautiful person' he has seen.",
+        "Dhika verbally deflects the praise but internally blushes that an 18-year-old thinks she is beautiful.",
+        "Bobby remains quiet and smiling while observing."
+      ],
+      "derivedInterpretations": [
+        "Bantu's established compliment route intensifies verbally in this scene; Dhika's private positive response remains separate from her spoken deflection."
+      ],
+      "actions": [
+        {
+          "actor": "Bantu",
+          "target": "Dhika",
+          "actionType": "intensified_appearance_compliment",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Dhika and Bobby present."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Bantu",
+          "actionType": "verbal_deflection",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Bantu/Bobby present."
+        }
+      ],
+      "dialogueMeaning": [
+        "Bantu reinforces his prior appearance-focused compliment pattern."
+      ],
+      "emotionalStateBefore": [
+        "Dhika already privately likes/expects Bantu's recurring compliment."
+      ],
+      "emotionalStateAfter": [
+        "Dhika blushes internally but continues verbal modesty/deflection."
+      ],
+      "visibilityAndObservers": [
+        "Dhika, Bantu and Bobby present; Bobby watches."
+      ],
+      "knowledgeBefore": [
+        "Bantu not shown knowing Dhika secretly expects compliments."
+      ],
+      "knowledgeDelta": [
+        "Reader sees Dhika's private blush at this stronger compliment."
+      ],
+      "knowledgeAfter": [
+        "Bantu still is not shown knowing Dhika's internal response."
+      ],
+      "boundaryPermissionControl": [
+        "Verbal familiarity continues; private enjoyment does not grant unrelated permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu compliment route intensifies verbally but remains teacher/student."
+      ],
+      "secrecyState": [
+        "Dhika's private blush/liking remains internal."
+      ],
+      "escalationOrNormalization": [
+        "Verbal compliment route advances in intensity, not physicality."
+      ],
+      "hooksOpened": [],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No romance is established.",
+        "Internal blush ≠ blanket consent."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P04-E015",
+      "episode": "E01",
+      "part": "P04",
+      "sourceRange": "L80-L81",
+      "chronologyOrder": 15,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "same staff-room encounter",
+      "location": "college staff room",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Bobby notices a small area of Dhika's hip skin visible because her saree sits a little low.",
+        "Source says Bobby likes his teacher 'just like Bantu'.",
+        "Dhika notices Bobby looking down from the corner of his eye, checks and realizes some hip skin is visible.",
+        "Dhika feels embarrassed but chooses not to cover it because she does not want to embarrass Bobby; she turns a little pink."
+      ],
+      "derivedInterpretations": [
+        "Dhika's non-covering is an embarrassment-management choice after accidental visibility, not a deliberate display or blanket permission to keep looking."
+      ],
+      "actions": [
+        {
+          "actor": "Bobby",
+          "target": "Dhika's visible hip skin",
+          "actionType": "looks/peeks",
+          "intentionality": "observation; exact duration/motive beyond source not expanded",
+          "physicality": "none",
+          "visibility": "Dhika notices his gaze."
+        },
+        {
+          "actor": "Dhika",
+          "target": "own clothing",
+          "actionType": "does_not_cover_immediately",
+          "intentionality": "intentional embarrassment-management",
+          "physicality": "none",
+          "visibility": "Bobby present."
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Dhika unaware hip skin is showing."
+      ],
+      "emotionalStateAfter": [
+        "Embarrassed, slightly pink, chooses not to embarrass Bobby."
+      ],
+      "visibilityAndObservers": [
+        "Bobby sees exposed hip skin; Dhika sees Bobby looking and then sees the clothing issue."
+      ],
+      "knowledgeBefore": [
+        "Dhika does not know hip is visible until she follows Bobby's gaze."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns Bobby is looking at exposed hip skin; Bobby knows he has seen it."
+      ],
+      "knowledgeAfter": [
+        "Both know the visibility event occurred; no spoken discussion occurs."
+      ],
+      "boundaryPermissionControl": [
+        "Accidental visibility + decision not to embarrass Bobby ≠ permission for unrelated contact."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bobby moves from shy/favourite baseline to first source-shown gaze/visibility event."
+      ],
+      "secrecyState": [
+        "No disclosure to Bantu is established in these lines."
+      ],
+      "escalationOrNormalization": [
+        "First source-shown Bobby gaze at exposed hip skin."
+      ],
+      "hooksOpened": [
+        "How Bobby/Dhika interpret the event later."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Not a deliberate display.",
+        "No romance automatically established."
+      ],
+      "qaAmbiguities": [
+        "Source says Bobby 'liked his teacher just like Bantu' but does not yet define the full meaning/extent of either boy's feelings."
+      ]
+    },
+    {
+      "eventId": "E01-P04-E016",
+      "episode": "E01",
+      "part": "P04",
+      "sourceRange": "L82-L90",
+      "chronologyOrder": 16,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "after staff-room exchange",
+      "location": "college → parking setup",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU-FATHER"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-BANTU-BOBBY",
+        "REL-BANTU-FATHER"
+      ],
+      "sourceSupportedFacts": [
+        "Bantu asks Dhika to take both twins with her because they live near her house.",
+        "He claims their scooter has no petrol and they did not bring money; Dhika offers petrol money.",
+        "Bantu refuses and says his father would scold if he knew Bantu took money from others.",
+        "Narrator explicitly says there was nothing wrong with the bike and Bantu wanted to ride with Dhika.",
+        "Dhika agrees to take both twins."
+      ],
+      "derivedInterpretations": [
+        "The scooter/petrol/no-money explanation is a deliberate pretext to obtain ride/proximity access; the truth of the separate 'Dad will scold' claim is not independently established."
+      ],
+      "actions": [
+        {
+          "actor": "Bantu",
+          "target": "Dhika",
+          "actionType": "fabricates_ride_pretext",
+          "intentionality": "intentional deception",
+          "physicality": "none",
+          "visibility": "Dhika/Bobby present."
+        },
+        {
+          "actor": "Dhika",
+          "target": "Bantu/Bobby",
+          "actionType": "agrees_to_give_lift",
+          "intentionality": "intentional",
+          "physicality": "transport permission",
+          "visibility": "Both twins present."
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika first offers money; Bantu steers the solution toward a ride."
+      ],
+      "emotionalStateBefore": [
+        "Bantu wants closeness/ride access."
+      ],
+      "emotionalStateAfter": [
+        "Dhika agrees without knowing the narrator-revealed true motive."
+      ],
+      "visibilityAndObservers": [
+        "Bobby is present; narrator reveals Bantu's true motive to reader."
+      ],
+      "knowledgeBefore": [
+        "Dhika believes practical transport problem."
+      ],
+      "knowledgeDelta": [
+        "Reader learns the practical story is false and motive is riding with Dhika."
+      ],
+      "knowledgeAfter": [
+        "Bantu knows his deception; reader knows; Dhika is not shown knowing."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika grants a lift. Permission is transport-specific and does not imply other physical access beyond what she explicitly instructs later."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu route adds deliberate proximity-seeking via deception."
+      ],
+      "secrecyState": [
+        "Bantu's true motive is hidden from Dhika."
+      ],
+      "escalationOrNormalization": [
+        "Bantu route moves from verbal compliments to deliberate access-seeking setup."
+      ],
+      "hooksOpened": [
+        "Who will sit closest to Dhika."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "The bike/petrol story is false per narrator.",
+        "Father-scolding claim is only Bantu's statement inside the false-pretext conversation; do not independently canonize father's rule."
+      ],
+      "qaAmbiguities": [
+        "Truth of father-scolding claim is not independently verified."
+      ]
+    },
+    {
+      "eventId": "E01-P04-E017",
+      "episode": "E01",
+      "part": "P04",
+      "sourceRange": "L91-L94",
+      "chronologyOrder": 17,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "walking to/at parking",
+      "location": "college parking",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-BANTU-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Both boys follow slightly behind Dhika.",
+        "Bantu looks at Dhika's backside while she walks and notices Bobby also looking; Bantu lightly hits Bobby's shoulder and winks; Bobby blushes and smiles back.",
+        "Dhika instructs Bobby to sit in the middle and Bantu behind him.",
+        "Bobby secretly wants to sit close to Dhika and runs to take the middle seat before Bantu; Bantu also wanted the close seat and internally scolds."
+      ],
+      "derivedInterpretations": [
+        "The twins have a concealed proximity competition around sitting close to Dhika; Dhika is not shown knowing their motives."
+      ],
+      "actions": [
+        {
+          "actor": "Bantu",
+          "target": "Dhika",
+          "actionType": "looks_at_backside",
+          "intentionality": "intentional observation",
+          "physicality": "none",
+          "visibility": "Bobby present; Dhika not shown noticing."
+        },
+        {
+          "actor": "Bobby",
+          "target": "Dhika",
+          "actionType": "looks_at_backside",
+          "intentionality": "intentional observation",
+          "physicality": "none",
+          "visibility": "Bantu notices."
+        },
+        {
+          "actor": "Bobby",
+          "target": "bike_seat",
+          "actionType": "takes_middle_seat_quickly",
+          "intentionality": "intentional to sit close",
+          "physicality": "movement",
+          "visibility": "Bantu sees."
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika's seat plan is functional/safety-oriented; twins attach private proximity motives to it."
+      ],
+      "emotionalStateBefore": [
+        "Both boys want the close seat."
+      ],
+      "emotionalStateAfter": [
+        "Bobby succeeds; Bantu feels frustrated."
+      ],
+      "visibilityAndObservers": [
+        "Bantu sees Bobby looking; Dhika does not appear aware of their gaze/proximity competition."
+      ],
+      "knowledgeBefore": [
+        "Each boy knows his own desire; Bantu discovers Bobby is also looking/competing."
+      ],
+      "knowledgeDelta": [
+        "Bobby's seat move reveals competition to Bantu."
+      ],
+      "knowledgeAfter": [
+        "Dhika remains unaware of private motives."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika's seating instruction is transport logistics, not invitation for sexualized looking or unrelated contact."
+      ],
+      "relationshipDelta": [
+        "Bantu↔Bobby gains rivalry/competition over proximity; Dhika↔both twins gains hidden asymmetry of motive."
+      ],
+      "secrecyState": [
+        "Twins' proximity motives are hidden from Dhika."
+      ],
+      "escalationOrNormalization": [
+        "Visual interest + proximity competition intensify; still no contact beyond seating logistics yet."
+      ],
+      "hooksOpened": [
+        "How Bobby will physically hold for balance."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Dhika is not shown deliberately presenting herself to them.",
+        "Seat permission is not blanket body-contact permission."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E01-P04-E018",
+      "episode": "E01",
+      "part": "P04",
+      "sourceRange": "L95-L100",
+      "chronologyOrder": 18,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "start of bike ride",
+      "location": "Dhika's bike",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-BOBBY",
+        "REL-DHIKA-BANTU",
+        "REL-BANTU-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika tells Bobby he may hold her so he does not lose balance and tells Bantu to hold Bobby.",
+        "Bobby places both hands around Dhika's hip and holds her stomach tightly instead of holding her shoulders.",
+        "Dhika internally reacts that she meant him to hold her shoulders.",
+        "Dhika rationalizes Bobby as innocent/childlike, does not want to embarrass him, stays quiet and begins driving."
+      ],
+      "derivedInterpretations": [
+        "Permission to hold for balance is explicit, but Dhika's internal expectation was shoulders; the actual hip/stomach hold exceeds that expected form even though she does not verbally object in the moment.",
+        "Her silence is explained by innocence-rationalization and embarrassment-management, not by an explicit new permission statement."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Bobby",
+          "actionType": "permits_hold_for_balance",
+          "intentionality": "intentional",
+          "physicality": "permission for support hold",
+          "visibility": "Bobby/Bantu hear."
+        },
+        {
+          "actor": "Bobby",
+          "target": "Dhika",
+          "actionType": "wraps_arms_around_hip_and_holds_stomach",
+          "intentionality": "intentional placement; sexual intent not separately stated",
+          "physicality": "body contact",
+          "visibility": "Dhika feels/notices."
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika's instruction is safety-related."
+      ],
+      "emotionalStateBefore": [
+        "Dhika expects a shoulder hold."
+      ],
+      "emotionalStateAfter": [
+        "Surprised; rationalizes as innocent; stays quiet to avoid embarrassing Bobby."
+      ],
+      "visibilityAndObservers": [
+        "Dhika knows the actual contact; Bantu's exact awareness of placement is not explicitly described here."
+      ],
+      "knowledgeBefore": [
+        "Bobby hears permission to hold for balance."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns he chose hip/stomach rather than shoulders."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows contact; source does not show Bantu knowing all details."
+      ],
+      "boundaryPermissionControl": [
+        "Act-specific permission = hold for balance. Dhika expected shoulders. Silence after unexpected hip/stomach placement is not equivalent to explicit permission for every later movement."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bobby gains first significant body-contact event and a mismatch between expected vs actual hold."
+      ],
+      "secrecyState": [
+        "Detailed contact is not shown being disclosed to Bantu."
+      ],
+      "escalationOrNormalization": [
+        "Bobby route moves from visual observation to close-seat initiative and body contact."
+      ],
+      "hooksOpened": [
+        "Whether contact changes during ride."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not label every movement sexual intent without source.",
+        "Comfort/silence ≠ blanket consent."
+      ],
+      "qaAmbiguities": [
+        "Bobby's exact motive for choosing hip/stomach is not explicitly stated."
+      ]
+    },
+    {
+      "eventId": "E01-P04-E019",
+      "episode": "E01",
+      "part": "P04",
+      "sourceRange": "L101-L107",
+      "chronologyOrder": 19,
+      "eventType": "LIVE_ENCOUNTER",
+      "sceneTime": "during ride → drop-off",
+      "location": "bike ride / twins' stop",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BOBBY",
+        "REL-DHIKA-BANTU",
+        "REL-BANTU-BOBBY",
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika feels a light tapping on her stomach from Bobby's finger.",
+        "She observes that his hands at her hips move slowly and rub against bare hip as this happens.",
+        "Dhika feels a chill, becomes very shy, and notes no one except her husband has touched her hips before.",
+        "They reach the twins' place; Bobby thanks her with a shy smile; Bantu thanks her sadly.",
+        "Dhika asks why Bantu is sad; he refuses to say.",
+        "After Dhika leaves, Bantu curses Bobby for rushing to sit close; source says only Bobby knows 'what all he did' and he does not want to tell Bantu."
+      ],
+      "derivedInterpretations": [
+        "The source confirms contact/rubbing and Dhika's bodily/emotional reaction, but does not unambiguously assign deliberate sexual intent to every micro-movement.",
+        "Bobby withholds the detailed ride experience from Bantu, creating an information asymmetry between twins."
+      ],
+      "actions": [
+        {
+          "actor": "Bobby",
+          "target": "Dhika",
+          "actionType": "finger_tapping_and_hands_move/rub_at_hip",
+          "intentionality": "tapping intentional; exact intent of resulting hip rubbing not fully specified",
+          "physicality": "body contact",
+          "visibility": "Dhika feels/observes."
+        },
+        {
+          "actor": "Bantu",
+          "target": "Bobby",
+          "actionType": "asks/complains_after_ride",
+          "intentionality": "intentional",
+          "physicality": "none",
+          "visibility": "Bobby present."
+        }
+      ],
+      "dialogueMeaning": [
+        "Bantu hides why he is sad from Dhika; Bobby hides detailed ride actions from Bantu."
+      ],
+      "emotionalStateBefore": [
+        "Dhika already surprised/shy about close hold."
+      ],
+      "emotionalStateAfter": [
+        "Dhika feels chill + shyness; Bantu sad/frustrated; Bobby shy/smiling and withholding."
+      ],
+      "visibilityAndObservers": [
+        "Dhika knows contact; Bobby knows what he did; Bantu is not shown knowing full details."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows unexpected hold; Bantu knows Bobby got close seat."
+      ],
+      "knowledgeDelta": [
+        "Dhika experiences/recognizes additional contact; reader learns Bobby withholds ride details from Bantu."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows her own experience; Bobby knows his actions; Bantu lacks full detail."
+      ],
+      "boundaryPermissionControl": [
+        "Earlier balance-hold permission does not automatically authorize all later tapping/rubbing; source records Dhika's surprise/shyness and lack of explicit renegotiation."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bobby contact route deepens; Bantu↔Bobby rivalry/secrecy increases."
+      ],
+      "secrecyState": [
+        "Bobby withholds 'what all he did' from Bantu; Bantu withholds sadness reason from Dhika."
+      ],
+      "escalationOrNormalization": [
+        "Bobby route reaches first significant sustained contact sequence; one ride only, not normalized repetition."
+      ],
+      "hooksOpened": [
+        "Whether future encounters reinterpret or repeat the ride."
+      ],
+      "hooksResolved": [
+        "Immediate ride ends."
+      ],
+      "negativeCanon": [
+        "No broader Dhika↔Bobby romance established.",
+        "One ride/contact sequence is not a normalized pattern.",
+        "Do not overstate intent beyond source."
+      ],
+      "qaAmbiguities": [
+        "Intent behind each micro-contact remains partly ambiguous."
+      ]
     }
   ],
   "relationships": [
@@ -1602,29 +2166,34 @@
       "eventIds": [
         "E01-P02-E005",
         "E01-P02-E006",
-        "E01-P02-E007"
+        "E01-P02-E007",
+        "E01-P04-E014",
+        "E01-P04-E016",
+        "E01-P04-E017",
+        "E01-P04-E019"
       ],
       "publicSurfaceState": "Bantu is one of Dhika's favourite twin students; he is charming/talkative and gives her daily appearance compliments.",
-      "privateState": "Dhika initially felt uncomfortable with 'pretty' compliments, later started liking them and now secretly expects them.",
-      "readerKnownState": "Reader knows the live compliment routine and Dhika's private normalization history.",
+      "privateState": "Dhika privately blushes at intensified praise; Bantu deliberately fabricates transport pretext to ride with her and privately wants the close seat.",
+      "readerKnownState": "Reader knows compliment route, Dhika's private positive response, Bantu's false ride pretext and proximity motive.",
       "characterKnowledgeStates": {
-        "Dhika": "Knows and privately likes/expects the recurring compliment; still shushes Bantu in public.",
-        "Bantu": "Knows he routinely compliments Dhika; source does not establish that he knows she secretly expects it."
+        "Dhika": "Knows Bantu compliments her and asks for a lift; does not know the bike/pretext is false.",
+        "Bantu": "Knows he fabricated the practical reason and wants proximity; not shown knowing Dhika's private compliment expectation."
       },
       "trustState": "Context-specific favourite-student conversational familiarity.",
-      "boundaryState": "Verbal familiarity is permitted in context, but Dhika's shush/privacy response shows limits. Private liking of compliments is not blanket permission.",
-      "secrecyState": "Dhika's secret expectation is not shown known to Bantu.",
-      "currentCeiling": "Normalized verbal compliment routine within teacher-student frame; no romance or physical route established through Part 2.",
+      "boundaryState": "Verbal familiarity + transport permission are specific; no blanket permission for gaze/contact.",
+      "secrecyState": "Bantu's true ride motive hidden from Dhika; later sadness reason hidden from her.",
+      "currentCeiling": "Teacher/student familiarity + normalized compliments + deliberate access-seeking/proximity setup; no romance/physical contact with Bantu in Part 4.",
       "unresolvedHooks": [
         "Whether Bantu ever learns Dhika privately expects his compliment."
       ],
       "negativeCanon": [
         "Compliment routine ≠ romance.",
         "Secret expectation ≠ consent to unrelated conduct.",
-        "L44 speaker label must not be silently reassigned."
+        "L44 speaker label must not be silently reassigned.",
+        "Fabricated ride pretext does not mean Dhika knowingly invited proximity."
       ],
-      "latestVerifiedState": "NEW in Part 2: daily compliment route is shown live and its history normalizes from initial discomfort to private liking/expectation. HOLD through Part 3.",
-      "lastChangedAt": "E01-P02-E006"
+      "latestVerifiedState": "CHANGED in Part 4.",
+      "lastChangedAt": "E01-P04-E019"
     },
     {
       "relationshipId": "REL-DHIKA-BOBBY",
@@ -1640,29 +2209,35 @@
       },
       "eventIds": [
         "E01-P02-E005",
-        "E01-P02-E006"
+        "E01-P02-E006",
+        "E01-P04-E015",
+        "E01-P04-E017",
+        "E01-P04-E018",
+        "E01-P04-E019"
       ],
       "publicSurfaceState": "Bobby is one of Dhika's favourite twin students; shy but explicitly not timid.",
-      "privateState": "Dhika likes Bobby a little more than Bantu because he is a little chubby and more shy around her; his reserve intrigues her.",
-      "readerKnownState": "Reader knows Dhika's slight internal preference.",
+      "privateState": "Dhika slight preference continues; Bobby looks at exposed hip, wants close seat, chooses hip/stomach hold instead of expected shoulders, and withholds ride details from Bantu.",
+      "readerKnownState": "Reader knows gaze, seating motive, unexpected hold/contact, Dhika's embarrassment/rationalization/chill/shyness, and Bobby's withholding.",
       "characterKnowledgeStates": {
-        "Dhika": "Knows her own slight preference/intrigue.",
-        "Bobby": "Source does not establish that Bobby knows he is slightly more favoured.",
+        "Dhika": "Knows Bobby looked at exposed hip and later felt his hip/stomach hold/tapping/rubbing; she does not know all Bobby motives.",
+        "Bobby": "Knows his gaze, proximity motive and his own ride actions; source says only Bobby knows 'what all he did'.",
         "Bantu": "Source does not establish that Bantu knows Dhika slightly favours Bobby."
       },
       "trustState": "Favourite teacher-student baseline.",
-      "boundaryState": "No physical or romantic permission/event in Part 2.",
-      "secrecyState": "Dhika's relative preference is internal/private unless later source says otherwise.",
-      "currentCeiling": "Teacher-student bond with Dhika-side slight preference; Bobby-side attraction/relationship meaning not established.",
+      "boundaryState": "Dhika permits a hold for balance and internally expects shoulders; actual hip/stomach contact exceeds that expected form. Silence is tied to not embarrassing him, not blanket consent.",
+      "secrecyState": "Bobby withholds ride details from Bantu.",
+      "currentCeiling": "Teacher/student bond + Dhika-side slight preference + one gaze/close-seat/contact sequence; no normalized repetition or declared romance.",
       "unresolvedHooks": [
         "Whether either twin learns the slight preference."
       ],
       "negativeCanon": [
         "Slight-favourite status ≠ romance.",
-        "Bobby is shy but not timid."
+        "Bobby is shy but not timid.",
+        "Do not infer consent from silence.",
+        "Do not assign sexual intent to every micro-contact beyond source."
       ],
-      "latestVerifiedState": "NEW in Part 2. HOLD through Part 3.",
-      "lastChangedAt": "E01-P02-E006"
+      "latestVerifiedState": "CHANGED in Part 4.",
+      "lastChangedAt": "E01-P04-E019"
     },
     {
       "relationshipId": "REL-BANTU-BOBBY",
@@ -1677,25 +2252,27 @@
         "sourceRange": "L40-L42"
       },
       "eventIds": [
-        "E01-P02-E006"
+        "E01-P02-E006",
+        "E01-P04-E017",
+        "E01-P04-E019"
       ],
       "publicSurfaceState": "Bantu and Bobby are twins, very studious, and usually around Dhika; Bantu is the talkative/charming one and Bobby often follows.",
-      "privateState": "No hidden conflict is established in Part 2.",
-      "readerKnownState": "Reader knows their twin relationship and social-style contrast.",
+      "privateState": "Twin baseline now includes rivalry over sitting close to Dhika and a knowledge gap because Bobby withholds ride details.",
+      "readerKnownState": "Reader sees mutual gaze cue/wink, proximity competition and post-ride withholding.",
       "characterKnowledgeStates": {
         "Bantu": "Twin relationship baseline.",
         "Bobby": "Twin relationship baseline."
       },
       "trustState": "Close twin/peer baseline.",
       "boundaryState": "No boundary issue in Part 2.",
-      "secrecyState": "No pair secret established in Part 2.",
-      "currentCeiling": "Twin bond with lead/follow social contrast only.",
+      "secrecyState": "Bobby does not tell Bantu what all he did during the ride.",
+      "currentCeiling": "Close twins + emerging Dhika-related rivalry/secrecy.",
       "unresolvedHooks": [],
       "negativeCanon": [
         "Do not convert social contrast into dominance or conflict without source evidence."
       ],
-      "latestVerifiedState": "NEW in Part 2. HOLD through Part 3.",
-      "lastChangedAt": "E01-P02-E006"
+      "latestVerifiedState": "CHANGED in Part 4.",
+      "lastChangedAt": "E01-P04-E019"
     },
     {
       "relationshipId": "REL-DHIKA-SHARMI",
@@ -1809,6 +2386,39 @@
       ],
       "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 2. HOLD through Part 3.",
       "lastChangedAt": "E01-P02-E010"
+    },
+    {
+      "relationshipId": "REL-BANTU-FATHER",
+      "participants": [
+        "CHAR-BANTU",
+        "CHAR-BANTU-FATHER"
+      ],
+      "relationshipType": "parent-child reference through Bantu's claim",
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P04",
+        "sourceRange": "L86"
+      },
+      "eventIds": [
+        "E01-P04-E016"
+      ],
+      "publicSurfaceState": "Bantu references his father ('Dad') while refusing offered petrol money.",
+      "privateState": "No independent father-side state shown.",
+      "readerKnownState": "Reader knows the broader bike/petrol/no-money story is false; father-scolding subclaim is unverified.",
+      "characterKnowledgeStates": {
+        "Bantu": "Makes the claim.",
+        "Father": "Not present."
+      },
+      "trustState": "Not established.",
+      "boundaryState": "No direct event.",
+      "secrecyState": "None independently established.",
+      "currentCeiling": "REFERENCE-ONLY.",
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "Do not independently canonize the father-scolding claim."
+      ],
+      "latestVerifiedState": "NEW / REFERENCE-ONLY in Part 4.",
+      "lastChangedAt": "E01-P04-E016"
     }
   ],
   "characters": [
@@ -1834,7 +2444,13 @@
         "E01-P02-E008",
         "E01-P02-E009",
         "E01-P02-E010",
-        "E01-P02-E011"
+        "E01-P02-E011",
+        "E01-P04-E014",
+        "E01-P04-E015",
+        "E01-P04-E016",
+        "E01-P04-E017",
+        "E01-P04-E018",
+        "E01-P04-E019"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -1884,6 +2500,22 @@
         {
           "at": "E01-P02-E010",
           "state": "Source does not establish whether Dhika knows Raj once complimented her beauty."
+        },
+        {
+          "at": "E01-P04-E015",
+          "state": "Dhika notices Bobby looking at exposed hip and realizes the visibility."
+        },
+        {
+          "at": "E01-P04-E016",
+          "state": "Dhika does not know Bantu's ride pretext is false."
+        },
+        {
+          "at": "E01-P04-E018",
+          "state": "Dhika gives balance-hold permission but internally expects shoulders; learns actual hip/stomach hold."
+        },
+        {
+          "at": "E01-P04-E019",
+          "state": "Experiences additional contact; does not know Bobby's full private motive/withholding."
         }
       ],
       "evolutionTimeline": [
@@ -1906,9 +2538,21 @@
         {
           "at": "E01-P02-E009",
           "delta": "Sharmi high-familiarity best-friend interaction is shown live."
+        },
+        {
+          "at": "E01-P04-E014",
+          "delta": "Private positive response to Bantu praise continues while verbal modesty remains."
+        },
+        {
+          "at": "E01-P04-E015",
+          "delta": "Manages accidental visibility by avoiding Bobby's embarrassment."
+        },
+        {
+          "at": "E01-P04-E019",
+          "delta": "First significant student-contact sequence produces chill/shyness without establishing romance or broader permission."
         }
       ],
-      "currentVerifiedState": "Through Part 3: Part 2 baseline remains; consciously trusts neighbours and does not know Uncle hidden attraction or bra incident.",
+      "currentVerifiedState": "Through Part 4: prior domestic/college baseline + awareness of Bobby's gaze/contact; Bantu's false ride motive remains unknown to her; teacher/student frame remains.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -2143,7 +2787,11 @@
       "eventIds": [
         "E01-P02-E005",
         "E01-P02-E006",
-        "E01-P02-E007"
+        "E01-P02-E007",
+        "E01-P04-E014",
+        "E01-P04-E016",
+        "E01-P04-E017",
+        "E01-P04-E019"
       ],
       "relationshipIds": [
         "REL-DHIKA-BANTU",
@@ -2155,7 +2803,9 @@
         "Very studious.",
         "Charming and always talking.",
         "Knows how to make someone smile.",
-        "Compliments Dhika every day."
+        "Compliments Dhika every day.",
+        "Adult student; L78 refers to an 18-year-old in the compliment context.",
+        "Narrator says his bike was fine and he fabricated the ride reason because he wanted to ride with Dhika."
       ],
       "knowledgeTimeline": [
         {
@@ -2169,8 +2819,10 @@
           "delta": "Reader learns his daily compliment routine has become normalized for Dhika over time."
         }
       ],
-      "currentVerifiedState": "Favourite/talkative twin student with a recurring daily compliment routine; no romance or physical route established through Part 2.",
-      "activeSecrets": [],
+      "currentVerifiedState": "Favourite/talkative adult twin student; compliment route + deliberate ride-access/proximity seeking; frustrated Bobby got close seat; does not know all Bobby ride details.",
+      "activeSecrets": [
+        "False ride pretext from Dhika."
+      ],
       "unresolvedHooks": [
         "Whether he ever learns Dhika privately expects his compliment."
       ],
@@ -2191,7 +2843,11 @@
       },
       "eventIds": [
         "E01-P02-E005",
-        "E01-P02-E006"
+        "E01-P02-E006",
+        "E01-P04-E015",
+        "E01-P04-E017",
+        "E01-P04-E018",
+        "E01-P04-E019"
       ],
       "relationshipIds": [
         "REL-DHIKA-BOBBY",
@@ -2203,7 +2859,8 @@
         "Very studious.",
         "Very shy but explicitly not timid.",
         "Talks freely mostly with Bantu.",
-        "Dhika likes him a little more because he is a little chubby and more shy around her."
+        "Dhika likes him a little more because he is a little chubby and more shy around her.",
+        "Adult student; Part 4 shows hip gaze, desire for close seat, hip/stomach hold and ride contact sequence."
       ],
       "knowledgeTimeline": [
         {
@@ -2212,8 +2869,10 @@
         }
       ],
       "evolutionTimeline": [],
-      "currentVerifiedState": "Favourite twin student; shy but not timid; Dhika-side slight preference exists, while Bobby-side attraction/relationship meaning is not established.",
-      "activeSecrets": [],
+      "currentVerifiedState": "Favourite shy-but-not-timid adult twin; Dhika-side slight preference + first gaze/proximity/contact route; withholds ride details from Bantu.",
+      "activeSecrets": [
+        "Full details of ride actions withheld from Bantu."
+      ],
       "unresolvedHooks": [
         "Whether he ever learns Dhika's slight preference."
       ],
@@ -2310,6 +2969,35 @@
       "negativeCanon": [
         "No affair or active Dhika↔Raj relationship established.",
         "Broader feelings/motives not established."
+      ]
+    },
+    {
+      "characterId": "CHAR-BANTU-FATHER",
+      "canonicalName": "Bantu's father",
+      "aliases": [
+        "Dad"
+      ],
+      "firstEvidence": {
+        "episode": "E01",
+        "part": "P04",
+        "sourceRange": "L86"
+      },
+      "eventIds": [
+        "E01-P04-E016"
+      ],
+      "relationshipIds": [
+        "REL-BANTU-FATHER"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Bantu says his Dad would scold him if he knew Bantu took money from others; this statement occurs inside a ride-pretext conversation whose practical bike/petrol story narrator says is false."
+      ],
+      "knowledgeTimeline": [],
+      "evolutionTimeline": [],
+      "currentVerifiedState": "REFERENCE-ONLY; father's actual rule/reaction is not independently verified.",
+      "activeSecrets": [],
+      "unresolvedHooks": [],
+      "negativeCanon": [
+        "Do not treat Bantu's father-scolding claim as independently verified fact."
       ]
     }
   ],
@@ -2584,6 +3272,102 @@
       ],
       "negativeCanonCarried": [
         "All prior limits remain."
+      ]
+    },
+    "E01-P04": {
+      "sourceRange": "L71-L107",
+      "previousVerifiedState": {
+        "characterState": "Through Part 3, Dhika retains trusted/public baselines; Uncle secret deepened off-screen; Part 2 Bantu/Bobby teacher-student baselines exist.",
+        "relationshipState": [
+          "Dhika↔Bantu normalized compliment route.",
+          "Dhika↔Bobby slight preference/no physical route yet.",
+          "Bantu↔Bobby twin contrast."
+        ],
+        "knowledgeState": "Dhika private Bantu expectation/Bobby preference not known to twins; Uncle secret unrelated and still active.",
+        "boundaryState": "No student physical-contact permission beyond ordinary teacher/student interaction before this Part."
+      },
+      "currentPartDelta": {
+        "eventIds": [
+          "E01-P04-E014",
+          "E01-P04-E015",
+          "E01-P04-E016",
+          "E01-P04-E017",
+          "E01-P04-E018",
+          "E01-P04-E019"
+        ],
+        "exactChanges": [
+          "Bantu praise intensifies; Dhika privately blushes.",
+          "Bobby sees exposed hip; Dhika notices and chooses not to cover immediately to avoid embarrassing him.",
+          "Bantu fabricates transport pretext; true motive is ride/proximity.",
+          "Twins look/compete for close seat.",
+          "Dhika permits balance hold expecting shoulders; Bobby chooses hip/stomach hold.",
+          "Ride adds tapping/hip rubbing; Dhika feels chill/shyness; Bobby withholds details from Bantu."
+        ]
+      },
+      "cumulativeStateThroughPart": {
+        "characterState": "Dhika remains teacher/modest/attention-aware but now has first student visibility/contact experience; Bantu access-seeking and Bobby contact route are active.",
+        "relationshipState": "Dhika↔Bantu advances from verbal routine to deceptive proximity-seeking; Dhika↔Bobby advances from slight preference to gaze/close-seat/contact; Bantu↔Bobby gains rivalry/secrecy.",
+        "knowledgeState": "Dhika does not know Bantu pretext is false; Bobby ride details not fully known to Bantu; reader knows all described layers.",
+        "boundaryState": "Transport and balance-hold permissions are act-specific; Dhika expected shoulders; silence to avoid embarrassment is not blanket consent.",
+        "secrecyState": "Bantu hides true ride motive from Dhika; Bobby hides ride details from Bantu.",
+        "sourceAmbiguities": [
+          "Bobby's exact sexual intent behind every micro-contact is not fully specified.",
+          "Father-scolding claim is not independently verified."
+        ]
+      },
+      "relationshipRowsChanged": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-BANTU-BOBBY",
+        "REL-BANTU-FATHER"
+      ],
+      "relationshipRowsHeld": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-PAPPU",
+        "REL-DHIKA-STUDENTS-GENERAL",
+        "REL-DHIKA-AUNTY",
+        "REL-DHIKA-UNCLE",
+        "REL-JOHN-AUNTY-UNCLE",
+        "REL-PAPPU-AUNTY-UNCLE",
+        "REL-AUNTY-UNCLE",
+        "REL-DHIKA-SHARMI",
+        "REL-SHARMI-RAJ",
+        "REL-DHIKA-RAJ"
+      ],
+      "characterChanges": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY",
+        "CHAR-BANTU-FATHER"
+      ],
+      "knowledgeChanges": [
+        "E01-P04-E015",
+        "E01-P04-E016",
+        "E01-P04-E018",
+        "E01-P04-E019"
+      ],
+      "escalationChanges": [
+        "Bantu: verbal compliments→deceptive access-seeking.",
+        "Bobby: observation→close-seat initiative→first significant contact sequence."
+      ],
+      "hooksOpened": [
+        "Future interpretation/repetition of ride.",
+        "Twin rivalry/withheld details."
+      ],
+      "hooksResolved": [
+        "Immediate lift request and ride complete."
+      ],
+      "hooksCarried": [
+        "All prior hidden-state hooks remain."
+      ],
+      "negativeCanonIntroduced": [
+        "Accidental hip visibility ≠ deliberate display.",
+        "Lift/balance permission ≠ blanket contact permission.",
+        "Silence ≠ consent.",
+        "Do not overstate Bobby intent."
+      ],
+      "negativeCanonCarried": [
+        "Prior Part 1-3 limits remain."
       ]
     }
   },
