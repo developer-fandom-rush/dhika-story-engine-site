@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_1_ONLY",
-  "asOfPart": "P01",
+  "phase": "PHASE_2_PART_2_ONLY",
+  "asOfPart": "P02",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -131,6 +131,76 @@
         "No sexual act occurs in Part 1.",
         "John's bath is off-page; no unsupported visibility is established."
       ]
+    },
+    {
+      "eventId": "E02-P02-E003",
+      "episode": "E02",
+      "part": "P02",
+      "sourceRange": "L18-L20",
+      "chronologyOrder": 3,
+      "eventType": "NARRATED_HISTORY",
+      "sourceSupportedFacts": [
+        "Dhika grew up as an only child in an orthodox environment and formed a belief that sex belongs only within marriage and masturbation is wrong.",
+        "John was her first suitor; she liked his caring nature and married him; he was her first sexual partner.",
+        "John is 31, caring, charming, work-focused with work-life balance, high sexual drive, and the narrator says he did not force Dhika.",
+        "On the first wedding night Dhika was extremely nervous/tired; John spoke gently, kissed her forehead and let her sleep on his lap instead of initiating sex."
+      ],
+      "knowledgeAfter": [
+        "Dhika and John share the lived marital history; reader receives the backstory. This is historical narration, not a present-time act."
+      ],
+      "boundaryPermissionControl": [
+        "The source explicitly frames first-night restraint and non-force; no third-party permission follows from marriage history."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John gains detailed origin/first-night trust history."
+      ],
+      "negativeCanon": []
+    },
+    {
+      "eventId": "E02-P02-E004",
+      "episode": "E02",
+      "part": "P02",
+      "sourceRange": "L21-L22",
+      "chronologyOrder": 4,
+      "eventType": "NARRATED_HISTORY",
+      "sourceSupportedFacts": [
+        "It took about a week for Dhika to become physically comfortable with John.",
+        "John let her take her own time and wanted her to want him, not merely submit.",
+        "Over years their sex life is good but Dhika remains shy; changes such as daytime sex, showering together, modern home clothes and cowgirl position came gradually over months."
+      ],
+      "knowledgeAfter": [
+        "Reader learns a gradual marital comfort timeline. These milestones happened historically before current E02 time."
+      ],
+      "boundaryPermissionControl": [
+        "Comfort developed incrementally within the marriage; historical participation is not blanket consent for future or third-party acts."
+      ],
+      "relationshipDelta": [
+        "Marriage history adds gradual comfort and persistent shyness."
+      ],
+      "negativeCanon": []
+    },
+    {
+      "eventId": "E02-P02-E005",
+      "episode": "E02",
+      "part": "P02",
+      "sourceRange": "L23-L24",
+      "chronologyOrder": 5,
+      "eventType": "NARRATED_HISTORY",
+      "sourceSupportedFacts": [
+        "John wants Dhika to be more open in public clothing/affection/sexual variety.",
+        "He knows friends admire Dhika and he enjoys/show-off arousal from others wanting to see some skin.",
+        "The source says he never forced her and prefers changes she chooses herself."
+      ],
+      "knowledgeAfter": [
+        "Reader knows John's private show-off/exhibition preference. Source does not establish that Dhika knows every element of this third-party framing."
+      ],
+      "boundaryPermissionControl": [
+        "John's preference/arousal is not permission for outsiders and does not override Dhika's clothing/body choices."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John gains a reader-known preference asymmetry: John favors voluntary openness; Dhika remains shy."
+      ],
+      "negativeCanon": []
     }
   ],
   "relationships": [
@@ -139,12 +209,15 @@
       "inheritedFromE01": true,
       "e02EventIds": [
         "E02-P01-E001",
-        "E02-P01-E002"
+        "E02-P01-E002",
+        "E02-P02-E003",
+        "E02-P02-E004",
+        "E02-P02-E005"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P1: John returns; Dhika hides guilt; caring spouse routine and shoulder-sleeping warmth continue. Marriage intact; information asymmetry persists.",
-      "knowledgeSplit": "Dhika knows her Chotu-related cause/guilt; John does not.",
-      "boundaryState": "Ordinary spouse/domestic contact only."
+      "latestVerifiedState": "E02 P2: detailed marriage origin/slow-comfort history; John prefers voluntary openness/show-off; Dhika remains shy.",
+      "knowledgeSplit": "Reader knows John's private show-off framing; Dhika knowledge of every element is not fully specified.",
+      "boundaryState": "Historical marital comfort is relationship-specific; no outsider permission."
     },
     {
       "relationshipId": "REL-JOHN-PAPPU",
@@ -189,9 +262,12 @@
       "characterId": "CHAR-DHIKA",
       "eventIds": [
         "E02-P01-E001",
-        "E02-P01-E002"
+        "E02-P01-E002",
+        "E02-P02-E003",
+        "E02-P02-E004",
+        "E02-P02-E005"
       ],
-      "currentVerifiedState": "E01 Chotu-related excitement shifts to guilt when John returns; she conceals the cause and resumes caring wife/mother behavior.",
+      "currentVerifiedState": "Orthodox upbringing + persistent shyness contextualize current behavior; marital comfort developed slowly.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John."
       ]
@@ -200,9 +276,12 @@
       "characterId": "CHAR-JOHN",
       "eventIds": [
         "E02-P01-E001",
-        "E02-P01-E002"
+        "E02-P01-E002",
+        "E02-P02-E003",
+        "E02-P02-E004",
+        "E02-P02-E005"
       ],
-      "currentVerifiedState": "Returns exhausted from work, affectionate with Pappu, comfortable with Dhika; unaware of Chotu-related hidden context."
+      "currentVerifiedState": "31-year-old caring/workaholic/charming husband; high drive; historical restraint and preference for Dhika's voluntary openness."
     },
     {
       "characterId": "CHAR-PAPPU",
@@ -240,6 +319,23 @@
         "No new Chotu contact.",
         "No sexual act in L9-L17."
       ]
+    },
+    "E02-P02": {
+      "sourceRange": "L18-L24",
+      "previousVerifiedState": "Part 1 ke end par warm family routine intact hai; Dhika ka E01 Chotu-related guilt John se hidden hai.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P02-E003",
+          "E02-P02-E004",
+          "E02-P02-E005"
+        ],
+        "exactChanges": [
+          "Dhika↔John gains detailed origin/first-night trust history.",
+          "Marriage history adds gradual comfort and persistent shyness.",
+          "Dhika↔John gains a reader-known preference asymmetry: John favors voluntary openness; Dhika remains shy."
+        ]
+      },
+      "cumulativeStateThroughPart": "Marriage warm/stable hai aur source gradual consent/comfort history preserve karta hai. Dhika shy baseline retain karti hai. John ka private show-off preference reader-known hai, lekin yeh outsider access ya blanket consent nahi. Part 2 history narration hai, current-time sexual event nahi."
     }
   }
 }

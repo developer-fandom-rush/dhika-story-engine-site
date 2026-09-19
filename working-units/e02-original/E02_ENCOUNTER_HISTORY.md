@@ -49,3 +49,18 @@
 **Current Part delta:** John returns; Dhika guilt hide karti hai; ordinary caring domestic behavior immediately resume hota hai; father-son reunion aur shoulder-sleep warmth shown.
 
 **Cumulative state through Part 1:** Dhika ke andar private Chotu-related layer aur family attachment simultaneously exist karte hain. John/Pappu secure family anchors hain. Source generic “bold Dhika” personality replacement establish nahi karta.
+
+---
+
+## Part 2 · L18–24
+**Previous verified state:** Part 1 mein John return karta hai; family warmth intact; Dhika ka Chotu-related guilt undisclosed.
+
+**Current Part delta:** `E003` orthodox upbringing + John first suitor/first partner + first-night restraint; `E004` gradual comfort timeline; `E005` John ka public openness/show-off preference aur “voluntary change” preference.
+
+**Knowledge split:** Reader John ka third-party-admiration/show-off framing jaanta hai. Dhika ke knowledge ko source har private framing point par explicitly establish nahi karta.
+
+**Boundary state:** Marriage history gradual/non-force framing deta hai. Historical comfort, sex acts, clothing choices ya John ki arousal preference kisi outsider ko permission nahi dete.
+
+**Cumulative state through Part 2:** Warm marriage + slow comfort history + persistent Dhika shyness + John voluntary-openness preference. Yeh narrated history hai, current action nahi.
+
+**Evidence:** `E02-P02-E003` L18–20; `E004` L21–22; `E005` L23–24.
