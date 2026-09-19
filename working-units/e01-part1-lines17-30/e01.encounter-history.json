@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_PART_3_ONLY",
-  "asOfPart": "P03",
+  "phase": "PHASE_2_PART_4_ONLY",
+  "asOfPart": "P04",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,7 +11,7 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "processedThrough": "L65-L70",
+    "processedThrough": "L71-L107",
     "currentPart": "L65-L70",
     "nextUnprocessedRange": null
   },
