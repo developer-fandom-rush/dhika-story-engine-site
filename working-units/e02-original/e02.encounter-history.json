@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E02",
+  "branchId": "original-dhika",
+  "phase": "PHASE_2_PART_1_ONLY",
+  "asOfPart": "P01",
+  "sourceAuthority": {
+    "title": "98 — RAW SOURCE — EPISODE 02",
+    "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
+    "storyRange": "L9-L159",
+    "emptyTerminator": "L160"
+  },
+  "previousEpisodeTracker": {
+    "episode": "E01",
+    "path": "working-units/e01-part1-lines17-30/e01.encounter-history.json",
+    "branch": "audit/e01-encounter-history",
+    "status": "CUMULATIVE_CANON_REPAIRED_THROUGH_E01_END",
+    "lastEventId": "E01-P12-E042"
+  },
+  "inheritedRelationshipIds": [
+    "REL-DHIKA-JOHN",
+    "REL-DHIKA-PAPPU",
+    "REL-DHIKA-STUDENTS-GENERAL",
+    "REL-DHIKA-AUNTY",
+    "REL-DHIKA-UNCLE",
+    "REL-JOHN-AUNTY-UNCLE",
+    "REL-PAPPU-AUNTY-UNCLE",
+    "REL-AUNTY-UNCLE",
+    "REL-DHIKA-BANTU",
+    "REL-DHIKA-BOBBY",
+    "REL-BANTU-BOBBY",
+    "REL-DHIKA-SHARMI",
+    "REL-SHARMI-RAJ",
+    "REL-DHIKA-RAJ",
+    "REL-BANTU-FATHER",
+    "REL-DHIKA-MOTHER",
+    "REL-DHIKA-BINDU",
+    "REL-DHIKA-CHOTU",
+    "REL-CHOTU-PAPPU",
+    "REL-BINDU-CHOTU",
+    "REL-CHOTU-MOTHER"
+  ],
+  "inheritedCharacterIds": [
+    "CHAR-DHIKA",
+    "CHAR-JOHN",
+    "CHAR-PAPPU",
+    "CHAR-UNCLE",
+    "CHAR-AUNTY",
+    "CHAR-BANTU",
+    "CHAR-BOBBY",
+    "CHAR-SHARMI",
+    "CHAR-RAJ",
+    "CHAR-BANTU-FATHER",
+    "CHAR-DHIKA-MOTHER",
+    "CHAR-BINDU-MAAMI",
+    "CHAR-CHOTU",
+    "CHAR-CHOTU-MOTHER"
+  ],
+  "traversalRule": "Load E01 tracker first, then apply E02 events in chronologyOrder. E02 does not rewrite E01 facts.",
+  "events": [
+    {
+      "eventId": "E02-P01-E001",
+      "episode": "E02",
+      "part": "P01",
+      "sourceRange": "L9-L12",
+      "chronologyOrder": 1,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Doorbell rings immediately after the E01 endpoint.",
+        "Dhika rises in the same excited/cloud-nine state, then recognizes John at the peephole and feels a pinch of guilt.",
+        "John says he is exhausted and wants to sleep.",
+        "Dhika hides the guilt, shifts back into her shy/innocent domestic self, tells John he is stinking and pushes/directs him toward the bathroom."
+      ],
+      "derivedInterpretations": [
+        "The immediate continuity supports that the 'same cloud9' refers to Dhika's E01 private after-effect.",
+        "Guilt is real and concealed; John is not shown learning its cause."
+      ],
+      "actions": [
+        "Dhika checks peephole and recognizes John.",
+        "Dhika conceals guilt and directs/pushes John toward bath."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows her E01 Chotu-related test/gaze history and her own guilt.",
+        "John knows only the visible domestic interaction; he is not shown knowing the E01 Chotu test/gaze."
+      ],
+      "boundaryPermissionControl": [
+        "Only ordinary spouse/domestic touch is shown.",
+        "E01 visual-test permission remains act-specific and does not create general future permission for Chotu."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John: warm spouse surface resumes while a new private information gap is visible."
+      ],
+      "negativeCanon": [
+        "No confession of Chotu-related cause.",
+        "No marital rupture or suspicion is established."
+      ]
+    },
+    {
+      "eventId": "E02-P01-E002",
+      "episode": "E02",
+      "part": "P01",
+      "sourceRange": "L13-L17",
+      "chronologyOrder": 2,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "John returns bathed/fresh but tired at about 6 PM.",
+        "Pappu runs to John; John lifts, kisses and tickles him.",
+        "Dhika asks whether John ate in the afternoon; he says he did and is only tired.",
+        "The family moves to the hall; Pappu plays near them while Dhika and John watch TV.",
+        "John dozes off on Dhika's shoulder."
+      ],
+      "derivedInterpretations": [
+        "Family warmth and physical comfort are reaffirmed after John's work absence."
+      ],
+      "actions": [
+        "John shows affectionate father-son play with Pappu.",
+        "Dhika checks John's food/well-being.",
+        "John rests on Dhika's shoulder."
+      ],
+      "knowledgeAfter": [
+        "No one gains new knowledge about the E01 Chotu test."
+      ],
+      "boundaryPermissionControl": [
+        "All shown contact is ordinary family/spouse affection."
+      ],
+      "relationshipDelta": [
+        "John↔Pappu gets direct affectionate father-son evidence.",
+        "Dhika↔John and Dhika↔Pappu family bonds are reaffirmed."
+      ],
+      "negativeCanon": [
+        "No sexual act occurs in Part 1.",
+        "John's bath is off-page; no unsupported visibility is established."
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipId": "REL-DHIKA-JOHN",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P01-E001",
+        "E02-P01-E002"
+      ],
+      "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
+      "latestVerifiedState": "E02 P1: John returns; Dhika hides guilt; caring spouse routine and shoulder-sleeping warmth continue. Marriage intact; information asymmetry persists.",
+      "knowledgeSplit": "Dhika knows her Chotu-related cause/guilt; John does not.",
+      "boundaryState": "Ordinary spouse/domestic contact only."
+    },
+    {
+      "relationshipId": "REL-JOHN-PAPPU",
+      "inheritedFromE01": false,
+      "e02EventIds": [
+        "E02-P01-E002"
+      ],
+      "firstEvidence": {
+        "episode": "E02",
+        "part": "P01",
+        "sourceRange": "L13-L17"
+      },
+      "latestVerifiedState": "Affectionate active father-son bond: Pappu runs to John; John lifts, kisses and tickles him.",
+      "knowledgeSplit": "No secret-route knowledge is established for Pappu.",
+      "boundaryState": "Ordinary parent-child affection only."
+    },
+    {
+      "relationshipId": "REL-DHIKA-PAPPU",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P01-E002"
+      ],
+      "previousVerifiedState": "Stable hands-on mother-child caregiving.",
+      "latestVerifiedState": "Stable family routine reaffirmed.",
+      "knowledgeSplit": "Pappu has no Chotu-route knowledge.",
+      "boundaryState": "Ordinary caregiving/family context."
+    },
+    {
+      "relationshipId": "REL-DHIKA-CHOTU",
+      "inheritedFromE01": true,
+      "e02EventIds": [
+        "E02-P01-E001"
+      ],
+      "previousVerifiedState": "E01 end: one deliberate Dhika-side visual test + Chotu gaze + mutually noticed eye contact; no touch/confession/romance; full motives asymmetric.",
+      "latestVerifiedState": "No new contact in E02 P1; E01 history survives only as Dhika's private emotional antecedent.",
+      "knowledgeSplit": "Dhika knows she staged the test and Chotu looked; Chotu knows gaze was mutually noticed; John does not know.",
+      "boundaryState": "E01 act-specific visibility does not create future/general permission."
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "CHAR-DHIKA",
+      "eventIds": [
+        "E02-P01-E001",
+        "E02-P01-E002"
+      ],
+      "currentVerifiedState": "E01 Chotu-related excitement shifts to guilt when John returns; she conceals the cause and resumes caring wife/mother behavior.",
+      "activeSecrets": [
+        "E01 Chotu visual-test motive/after-effect remains undisclosed to John."
+      ]
+    },
+    {
+      "characterId": "CHAR-JOHN",
+      "eventIds": [
+        "E02-P01-E001",
+        "E02-P01-E002"
+      ],
+      "currentVerifiedState": "Returns exhausted from work, affectionate with Pappu, comfortable with Dhika; unaware of Chotu-related hidden context."
+    },
+    {
+      "characterId": "CHAR-PAPPU",
+      "eventIds": [
+        "E02-P01-E002"
+      ],
+      "currentVerifiedState": "Ordinary child/family role; warmly reunites with father; no adult-route knowledge."
+    },
+    {
+      "characterId": "CHAR-CHOTU",
+      "eventIds": [],
+      "currentVerifiedState": "Absent from E02 P1; E01 final gaze-awareness state carries forward."
+    }
+  ],
+  "partSnapshots": {
+    "E02-P01": {
+      "sourceRange": "L9-L17",
+      "previousVerifiedState": "E01 ends with Dhika privately excited/shy after one deliberate visual test with Chotu; shared gaze awareness exists but no touch/confession/romance. Marriage/family remain intact.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P01-E001",
+          "E02-P01-E002"
+        ],
+        "exactChanges": [
+          "John's return converts Dhika's immediate excitement into guilt/concealment.",
+          "Dhika resumes familiar caring spouse behavior without disclosure.",
+          "John↔Pappu direct affectionate father-son evidence appears.",
+          "Family TV/shoulder-sleep routine reaffirms warmth."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika's private Chotu-related layer and warm family attachment coexist. John/Pappu remain secure family anchors. No generic boldness/personality replacement is established.",
+      "negativeCanonIntroduced": [
+        "John does not learn the E01 Chotu test/gaze.",
+        "No marriage rupture.",
+        "No new Chotu contact.",
+        "No sexual act in L9-L17."
+      ]
+    }
+  }
+}
