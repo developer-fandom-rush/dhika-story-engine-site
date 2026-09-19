@@ -79,3 +79,18 @@
 **Cumulative state through Part 3:** Playful marriage + unequal knowledge. Chotu absent but Dhika ke mind mein briefly present. Lunch/wardrobe route next.
 
 **Evidence:** `E02-P03-E006` L25–32; `E007` L33; `E008` L34–36.
+
+---
+
+## Part 4 · L37–48
+**Previous verified state:** John Uncle-gaze pattern jaanta hai; Dhika nahi. Dhika historically John ke more-open visit outfits refuse karti rahi hai.
+
+**Current Part delta:** `E009` mein short skirt reject hoti hai; `E010` mein Dhika khud full skirt + sleeveless top choose karti hai. Chotu ka earlier compliment/test memory uske confidence ko influence karta hai; John ko yeh influence pata nahi.
+
+**Knowledge split:** Dhika knows Chotu memory mattered. John sees only surprising clothing choice. John ka Uncle-related private thought Dhika ko pata nahi.
+
+**Boundary state:** Final outfit Dhika ki own voluntary choice hai. Clothing choice ≠ gaze/touch permission.
+
+**Cumulative state through Part 4:** Limited clothing-comfort expansion, not generic boldness. Dhika↔John negotiation resolves in compromise; Dhika↔Chotu route remains private-memory only.
+
+**Evidence:** `E02-P04-E009` L37–44; `E010` L45–48.

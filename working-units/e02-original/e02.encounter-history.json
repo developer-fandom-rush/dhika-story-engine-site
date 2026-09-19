@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_3_ONLY",
-  "asOfPart": "P03",
+  "phase": "PHASE_2_PART_4_ONLY",
+  "asOfPart": "P04",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -277,6 +277,60 @@
       "negativeCanon": [
         "Teasing does not imply agreement with Uncle's conduct."
       ]
+    },
+    {
+      "eventId": "E02-P04-E009",
+      "episode": "E02",
+      "part": "P04",
+      "sourceRange": "L37-L44",
+      "chronologyOrder": 9,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Dhika and John prepare to go next door for lunch.",
+        "John jokes that Dhika is covered head-to-toe and proposes a skirt + sleeveless top.",
+        "Dhika rejects the shorter skirt because it shows legs/knees and says Uncle's presence makes that disrespectful.",
+        "John privately thinks Uncle definitely would not mind."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows her own clothing comfort/discomfort and does not know John's Uncle-related private thought."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika rejects the more exposing option; clothing choice remains hers."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John shows wardrobe negotiation, resistance and teasing; no coerced clothing choice."
+      ],
+      "negativeCanon": [
+        "Rejecting one outfit matters; do not rewrite as blanket agreement to revealing clothes."
+      ]
+    },
+    {
+      "eventId": "E02-P04-E010",
+      "episode": "E02",
+      "part": "P04",
+      "sourceRange": "L45-L48",
+      "chronologyOrder": 10,
+      "eventType": "LIVE_ENCOUNTER_AND_INTERNAL_THOUGHT",
+      "sourceSupportedFacts": [
+        "Dhika proposes a full skirt; John is surprised she agrees to a skirt for the first time.",
+        "Dhika also wears the sleeveless top, surprising John.",
+        "Dhika thinks sleeveless is acceptable because it is only Aunty/Uncle and because Chotu said she looked beautiful in it.",
+        "She smiles thinking of Chotu, remembers her E01 cleavage-display test, feels excitement/shyness, and rationalizes the change through John's repeated wish to show her off.",
+        "She does not consider whether John would like such behavior in his absence."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows Chotu influenced her confidence and knows her own rationalization. John sees the clothing choice but does not know Chotu influenced it."
+      ],
+      "boundaryPermissionControl": [
+        "Final outfit is Dhika's voluntary compromise. Clothing choice does not grant gaze/touch permission to Uncle, Chotu or anyone else."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John clothing negotiation ends in a Dhika-chosen compromise; Dhika↔Chotu remains privately influential without contact."
+      ],
+      "negativeCanon": [
+        "No generic boldness is established.",
+        "John does not know Chotu influenced the choice."
+      ]
     }
   ],
   "relationships": [
@@ -291,12 +345,14 @@
         "E02-P02-E005",
         "E02-P03-E006",
         "E02-P03-E007",
-        "E02-P03-E008"
+        "E02-P03-E008",
+        "E02-P04-E009",
+        "E02-P04-E010"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P3: playful Sunday marriage; John knows Uncle's gaze pattern while Dhika does not.",
-      "knowledgeSplit": "John knows Uncle gazes; Dhika does not; John also does not know her brief Chotu thought.",
-      "boundaryState": "Historical marital comfort is relationship-specific; no outsider permission."
+      "latestVerifiedState": "E02 P4: wardrobe negotiation ends in Dhika-chosen full skirt + sleeveless top; John accepts and is surprised.",
+      "knowledgeSplit": "Dhika knows Chotu's compliment influenced her; John does not.",
+      "boundaryState": "Dhika rejects the short-skirt option and chooses the final outfit herself."
     },
     {
       "relationshipId": "REL-JOHN-PAPPU",
@@ -328,11 +384,12 @@
       "relationshipId": "REL-DHIKA-CHOTU",
       "inheritedFromE01": true,
       "e02EventIds": [
-        "E02-P01-E001"
+        "E02-P01-E001",
+        "E02-P04-E010"
       ],
       "previousVerifiedState": "E01 end: one deliberate Dhika-side visual test + Chotu gaze + mutually noticed eye contact; no touch/confession/romance; full motives asymmetric.",
-      "latestVerifiedState": "No new contact in E02 P1; E01 history survives only as Dhika's private emotional antecedent.",
-      "knowledgeSplit": "Dhika knows she staged the test and Chotu looked; Chotu knows gaze was mutually noticed; John does not know.",
+      "latestVerifiedState": "No live E02 contact yet; Chotu's E01 compliment/test history privately influences Dhika's confidence and excitement.",
+      "knowledgeSplit": "Dhika knows this influence; Chotu has no new E02 knowledge.",
       "boundaryState": "E01 act-specific visibility does not create future/general permission."
     },
     {
@@ -361,9 +418,11 @@
         "E02-P02-E004",
         "E02-P02-E005",
         "E02-P03-E006",
-        "E02-P03-E008"
+        "E02-P03-E008",
+        "E02-P04-E009",
+        "E02-P04-E010"
       ],
-      "currentVerifiedState": "Routine caregiver/wife; briefly remembers Chotu; unaware of Uncle gaze and joke meaning.",
+      "currentVerifiedState": "Voluntarily chooses a more open but still self-selected outfit; Chotu memory contributes to confidence/excitement; John is unaware of that influence.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John."
       ]
@@ -378,9 +437,11 @@
         "E02-P02-E005",
         "E02-P03-E006",
         "E02-P03-E007",
-        "E02-P03-E008"
+        "E02-P03-E008",
+        "E02-P04-E009",
+        "E02-P04-E010"
       ],
-      "currentVerifiedState": "Playful husband who knowingly recognizes Uncle's gaze and carries double-meaning context."
+      "currentVerifiedState": "Pushes for more open clothing but accepts Dhika's compromise; privately links Uncle to his show-off framing."
     },
     {
       "characterId": "CHAR-PAPPU",
@@ -452,6 +513,22 @@
         ]
       },
       "cumulativeStateThroughPart": "John knows Uncle gazes and tolerates it within his own private preference; Dhika Uncle gaze aur joke meaning se unaware hai. Chotu physically absent hai. Marriage playful hai, but knowledge symmetry nahi."
+    },
+    "E02-P04": {
+      "sourceRange": "L37-L48",
+      "previousVerifiedState": "Part 3: John knows Uncle gaze; Dhika does not. John has a show-off preference; Dhika historically refused such outfits.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P04-E009",
+          "E02-P04-E010"
+        ],
+        "exactChanges": [
+          "Dhika rejects the short-skirt option.",
+          "Dhika chooses full skirt + sleeveless top.",
+          "Chotu compliment/memory privately influences her confidence; John does not know this."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika voluntarily expands clothing comfort in a limited next-door context. John accepts the compromise. Her choice is influenced by Chotu memory and John's preferences, but remains her own; no gaze/touch permission is created."
     }
   }
 }
