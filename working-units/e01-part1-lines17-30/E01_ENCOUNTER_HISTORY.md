@@ -817,3 +817,15 @@
 **Relationship ceiling:** one mutually noticed gaze event. No touch, no sexual dialogue, no confession, no declared romance, no affair, no blanket future consent.
 
 **Knowledge split:** Dhika knows test motive + result. Chotu knows gaze happened and Dhika saw him looking, but source does not establish he knows she staged the test. Dhika does not know full Chotu crush state.
+
+---
+
+## Part 3 · L65–70
+**Previous verified state:** Part 2 tak Uncle route = concealed attraction/habitual ogling; Dhika/John/Aunty unaware.
+
+**Current Part delta:** `E01-P03-E012` mein Uncle Dhika ki used bra handle/sniff karta hai aur separately private imagination karta hai; Dhika physically present nahi. `E01-P03-E013` mein Aunty sirf awaaz lagati hai, Uncle bra bathroom floor par chhodkar Pappu ka milk bottle lekar nikalta hai.
+
+**Cumulative state through Part 3:** Dhika↔Uncle public trust consciously unchanged, hidden layer mein first documented covert personal-garment incident add. Reader + Uncle know; Dhika/John/Aunty do not. Bra-floor trace future discovery hook. Childcare/milk access ≠ underwear permission. One incident ≠ normalized pattern.
+
+**Evidence:** `E012` L65–67; `E013` L68–70.
+

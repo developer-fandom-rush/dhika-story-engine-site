@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "branchId": "original-dhika",
   "episode": "E01",
-  "phase": "PHASE_2_EPISODE_01_COMPLETE",
-  "asOfPart": "P12",
+  "phase": "PHASE_2_PART_3_ONLY",
+  "asOfPart": "P03",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 01",
     "driveId": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
@@ -11,11 +11,11 @@
   },
   "sourceScope": {
     "baseline": "L1-L16",
-    "processedParts": "L17-L225",
-    "currentPart": "L208-L225",
+    "processedThrough": "L65-L70",
+    "currentPart": "L65-L70",
     "nextUnprocessedRange": null
   },
-  "cumulativeDefinition": "Episode 01 cumulative canon through final non-empty RAW line L225.",
+  "cumulativeDefinition": "Original DHIKA E01 verified through Part 3 (L65-L70) only.",
   "baselineState": {
     "sourceRange": "L1-L16",
     "sourceSupportedFacts": [
@@ -4103,8 +4103,8 @@
         "Fantasy about breasts is not physical contact with Dhika.",
         "One incident is not normalized repetition."
       ],
-      "latestVerifiedState": "CHANGED in knowledge consequence only: Dhika discovers trace but not cause; no second Uncle act.",
-      "lastChangedAt": "E01-P05-E021"
+      "latestVerifiedState": "CHANGED in Part 3: public Dhika-side trust unchanged; hidden Uncle-side state now includes one covert used-bra handling/sniffing incident and bra-floor trace.",
+      "lastChangedAt": "E01-P03-E013"
     },
     {
       "relationshipId": "REL-JOHN-AUNTY-UNCLE",
@@ -4215,7 +4215,7 @@
       "negativeCanon": [
         "Do not invent Aunty's suspicions or reactions."
       ],
-      "latestVerifiedState": "CHANGED in Part 3 by secrecy expansion only.",
+      "latestVerifiedState": "CHANGED only in secrecy burden: Aunty calls/interupts but is not shown witnessing the act; Uncle's Part 3 incident remains hidden.",
       "lastChangedAt": "E01-P03-E013"
     },
     {
@@ -4774,7 +4774,9 @@
         "E01-P11-E039",
         "E01-P12-E040",
         "E01-P12-E041",
-        "E01-P12-E042"
+        "E01-P12-E042",
+        "E01-P03-E012",
+        "E01-P03-E013"
       ],
       "relationshipIds": [
         "REL-DHIKA-JOHN",
@@ -4973,7 +4975,7 @@
           "delta": "Recognizes strong excitement/aftereffect after confirming gaze and is shocked by her own action."
         }
       ],
-      "currentVerifiedState": "Episode-end: affectionate wife/mother baseline remains; attention-aware/self-conscious history now includes one deliberate visual test toward Chotu and a strong private aftereffect, without touch/confession/declared romance.",
+      "currentVerifiedState": "Dhika ka conscious trust unchanged hai because woh absent/unaware hai. Reader + Uncle bra incident jaante hain; Aunty/John/Dhika nahi. Bra-floor trace active hook hai. Childcare/milk access underwear permission nahi. One incident repeat-pattern nahi.",
       "activeSecrets": [
         "Uncle's hidden attraction/ogling exists outside Dhika's knowledge.",
         "Her secret expectation of Bantu's daily compliment is not shown known to him.",
@@ -5124,7 +5126,7 @@
           "delta": "First documented covert physical personal-garment behavior."
         }
       ],
-      "currentVerifiedState": "Public trusted elder; private concealed attraction/habitual ogling + one covert used-bra incident.",
+      "currentVerifiedState": "Trusted elder/public neighbour surface + concealed attraction/habitual ogling + one covert used-bra handling/sniffing incident; Dhika/Aunty/John unaware.",
       "activeSecrets": [
         "Concealed attraction/ogling toward Dhika.",
         "Part 3 bra incident."
@@ -5139,7 +5141,8 @@
         "No specific current handoff stare is established.",
         "No intimate physical act with Dhika in Part 1.",
         "Fantasy is not physical contact with Dhika.",
-        "One incident is not normalized."
+        "One incident is not normalized.",
+        "One garment incident does not establish repetition."
       ]
     },
     {
@@ -5818,82 +5821,26 @@
     },
     "E01-P03": {
       "sourceRange": "L65-L70",
-      "previousVerifiedState": {
-        "characterState": "Through Part 2 Dhika trusts neighbours and does not know Uncle hidden state; Uncle route is hidden attraction/habitual ogling only.",
-        "relationshipState": [
-          "Dhika↔Uncle public trust + hidden attraction.",
-          "Aunty↔Uncle marriage with secret."
-        ],
-        "knowledgeState": "Uncle + reader know hidden attraction; Dhika/John/Aunty do not.",
-        "boundaryState": "Household access is purpose-limited."
-      },
+      "previousVerifiedState": "Part 2 tak Dhika ka trusted-neighbour surface state intact hai; Uncle ka hidden attraction/habitual ogling reader-known hai aur Dhika/John/Aunty se concealed hai.",
       "currentPartDelta": {
         "eventIds": [
           "E01-P03-E012",
           "E01-P03-E013"
         ],
         "exactChanges": [
-          "L65-L67 covert used-bra handle/fiddle + private breast fantasy + bra sniff.",
-          "L68-L70 Aunty calls; bra dropped on bathroom floor; milk taken; Uncle exits."
+          "Dhika↔Uncle hidden layer escalates from attraction/habitual ogling to one documented covert personal-garment incident.",
+          "A physical discovery hook is created while secrecy remains intact."
         ]
       },
-      "cumulativeStateThroughPart": {
-        "characterState": "Uncle hidden route now includes one covert personal-garment incident; Dhika trust unchanged because unaware.",
-        "relationshipState": "Dhika↔Uncle hidden layer deepens; Aunty↔Uncle secrecy expands; others HOLD.",
-        "knowledgeState": "Uncle + reader know incident/trace; Dhika/John/Aunty do not through L70.",
-        "boundaryState": "Household access ≠ underwear permission.",
-        "secrecyState": "Incident hidden; bra is physical trace.",
-        "sourceAmbiguities": [
-          "One incident cannot establish repetition.",
-          "Aunty call is interruption, not witness."
-        ]
-      },
-      "relationshipRowsChanged": [
-        "REL-DHIKA-UNCLE",
-        "REL-AUNTY-UNCLE"
-      ],
-      "relationshipRowsHeld": [
-        "REL-DHIKA-JOHN",
-        "REL-DHIKA-PAPPU",
-        "REL-DHIKA-STUDENTS-GENERAL",
-        "REL-DHIKA-AUNTY",
-        "REL-JOHN-AUNTY-UNCLE",
-        "REL-PAPPU-AUNTY-UNCLE",
-        "REL-DHIKA-BANTU",
-        "REL-DHIKA-BOBBY",
-        "REL-BANTU-BOBBY",
-        "REL-DHIKA-SHARMI",
-        "REL-SHARMI-RAJ",
-        "REL-DHIKA-RAJ"
-      ],
-      "characterChanges": [
-        "CHAR-UNCLE",
-        "CHAR-AUNTY"
-      ],
-      "knowledgeChanges": [
-        "E01-P03-E012",
-        "E01-P03-E013"
-      ],
-      "escalationChanges": [
-        "First documented covert garment behavior; one incident only."
-      ],
-      "hooksOpened": [
-        "Bra-floor trace.",
-        "Discovery/repetition questions."
-      ],
-      "hooksResolved": [],
-      "hooksCarried": [
-        "Prior knowledge gaps/hooks remain."
-      ],
+      "cumulativeStateThroughPart": "Dhika ka conscious trust unchanged hai because woh absent/unaware hai. Reader + Uncle bra incident jaante hain; Aunty/John/Dhika nahi. Bra-floor trace active hook hai. Childcare/milk access underwear permission nahi. One incident repeat-pattern nahi.",
       "negativeCanonIntroduced": [
-        "Fantasy ≠ physical contact.",
-        "Aunty not witness.",
-        "One incident ≠ normalized.",
-        "Dhika absent/unaware."
+        "Dhika is not present.",
+        "Fantasy ≠ physical touching of Dhika.",
+        "One incident ≠ normalized/repeated pattern.",
+        "Aunty is not confirmed as a witness.",
+        "Milk access does not retroactively authorize the bra incident."
       ],
-      "negativeCanonCarried": [
-        "All prior limits remain."
-      ]
+      "nextPart": "P04"
     },
     "E01-P04": {
       "sourceRange": "L71-L107",
