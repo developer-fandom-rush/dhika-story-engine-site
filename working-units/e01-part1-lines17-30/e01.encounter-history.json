@@ -6576,5 +6576,17 @@
         "User-author explicitly requested this ambiguity be resolved while withheld from readers."
       ]
     }
+  ],
+  "privateAuthorCanon": [
+    {
+      "canonId": "E01-PRIVATE-SHARMI-BIGGER",
+      "visibility": "MACHINE_ONLY_DO_NOT_RENDER_TO_READER",
+      "sourceType": "AUTHOR_CLARIFICATION",
+      "relatedEventId": "E01-P02-E011",
+      "relatedSourceRange": "L61-L64",
+      "fact": "Sharmi's playful 'something bigger' comparison refers to ass size.",
+      "renderingRule": "Do not expose this exact referent in reader-facing Part HTML or E01_ENCOUNTER_HISTORY.md unless RAW/source text later names it explicitly. Reader-facing text should preserve the joke as an unnamed shared-context comparison.",
+      "rawStatus": "The exact referent is not named in E01 RAW L61-L64; this resolution comes from author/user canon clarification, not RAW."
+    }
   ]
 }
