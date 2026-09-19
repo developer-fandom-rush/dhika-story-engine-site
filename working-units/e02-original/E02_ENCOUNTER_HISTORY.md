@@ -126,3 +126,18 @@
 **Cumulative state through Part 6:** Uncle secret ab Dhika-known hai but concealment asymmetry ulta ho gaya: Uncle thinks secret intact. No direct touch/confrontation.
 
 **Evidence:** `E02-P06-E013` L58; `E014` L59–64; `E015` L65–67.
+
+---
+
+## Part 7 · L68–76
+**Previous verified state:** Dhika ne Uncle ka act witness kar liya hai; Uncle ko nahi pata; John/Aunty unaware.
+
+**Current Part delta:** `E016` Dhika cover story deti hai aur Uncle ko believe karne deti hai ki woh ghar ke andar nahi gayi thi. `E017` woh incident ko rationalize/minimize karti hai, no anger feel karti hai, khud ko partly responsible samajh leti hai aur future milk logistics change karti hai. `E018` woh John ko kuch nahi batati because Uncle ka image spoil nahi karna chahti.
+
+**Knowledge split:** Dhika knows; Uncle thinks she doesn't; John/Aunty don't know.
+
+**Boundary state:** Rationalization/self-blame objective causation nahi. Non-disclosure/no anger permission nahi. Milk-bottle logistics change actual safeguard hai.
+
+**Cumulative state through Part 7:** Public trust consciously preserve hota hai through concealment, hidden breach still active. Marriage mein knowledge gap aur deepen hota hai.
+
+**Evidence:** `E02-P07-E016` L68–70; `E017` L71–74; `E018` L75–76.

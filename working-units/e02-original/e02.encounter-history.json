@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "episode": "E02",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_PART_6_ONLY",
-  "asOfPart": "P06",
+  "phase": "PHASE_2_PART_7_ONLY",
+  "asOfPart": "P07",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 02",
     "driveId": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
@@ -466,6 +466,83 @@
         "No anger ≠ consent.",
         "Excitement ≠ approval or future permission."
       ]
+    },
+    {
+      "eventId": "E02-P07-E016",
+      "episode": "E02",
+      "part": "P07",
+      "sourceRange": "L68-L70",
+      "chronologyOrder": 16,
+      "eventType": "LIVE_ENCOUNTER",
+      "sourceSupportedFacts": [
+        "Uncle finds Dhika outside and asks what she is doing there.",
+        "Dhika startles and says she came to help get the milk, deliberately letting him believe she has not entered the house.",
+        "They return to Uncle's house; Dhika feeds Pappu on sofa while Uncle rejoins John at dining table.",
+        "Dhika continues privately reimagining what she witnessed."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows the truth and actively hides that she witnessed it. Uncle believes she did not enter/see. John/Aunty remain unaware."
+      ],
+      "boundaryPermissionControl": [
+        "Cover story conceals knowledge; it does not grant permission for the prior garment act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle gains deliberate concealment from Dhika's side while public family-like behavior resumes."
+      ],
+      "negativeCanon": [
+        "Uncle does not learn he was seen."
+      ]
+    },
+    {
+      "eventId": "E02-P07-E017",
+      "episode": "E02",
+      "part": "P07",
+      "sourceRange": "L71-L74",
+      "chronologyOrder": 17,
+      "eventType": "INTERNAL_REASONING",
+      "sourceSupportedFacts": [
+        "Dhika feels no anger.",
+        "She rationalizes that Uncle may have gone to bathroom, taken the bra by mistake/curiosity, and may be missing something in his life.",
+        "She tells herself what he did may not have been wrong because he has never behaved inappropriately toward her.",
+        "She decides to leave Pappu's milk bottles with Aunty from the next day so she does not 'lead' Uncle into such situations and feels responsible."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows the actual act but constructs a minimizing explanation and self-blame narrative; no one else receives this reasoning."
+      ],
+      "boundaryPermissionControl": [
+        "Self-blame/minimization are internal beliefs, not objective causation or consent. Her milk-logistics change is a preventive safeguard."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Uncle conscious trust is preserved through rationalization while a new practical safeguard appears."
+      ],
+      "negativeCanon": [
+        "Dhika's self-blame is not objective causation.",
+        "No anger ≠ permission."
+      ]
+    },
+    {
+      "eventId": "E02-P07-E018",
+      "episode": "E02",
+      "part": "P07",
+      "sourceRange": "L75-L76",
+      "chronologyOrder": 18,
+      "eventType": "LIVE_ENCOUNTER_AND_CONCEALMENT",
+      "sourceSupportedFacts": [
+        "Dhika wants Pappu to sleep, so she and John say goodbye and return home.",
+        "Dhika does not tell John about Uncle because she does not want to spoil Uncle's image."
+      ],
+      "knowledgeAfter": [
+        "John remains unaware of the Uncle incident and Dhika's discovery/reaction. Dhika intentionally withholds it."
+      ],
+      "boundaryPermissionControl": [
+        "Non-disclosure does not approve the act or transfer permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John knowledge asymmetry expands; Dhika↔Uncle secret is protected by her silence."
+      ],
+      "negativeCanon": [
+        "No confrontation or disclosure occurs."
+      ]
     }
   ],
   "relationships": [
@@ -482,11 +559,12 @@
         "E02-P03-E007",
         "E02-P03-E008",
         "E02-P04-E009",
-        "E02-P04-E010"
+        "E02-P04-E010",
+        "E02-P07-E018"
       ],
       "previousVerifiedState": "E01 end: warm marriage retained; John does not know Dhika's Chotu visual-test motive/after-effect.",
-      "latestVerifiedState": "E02 P4: wardrobe negotiation ends in Dhika-chosen full skirt + sleeveless top; John accepts and is surprised.",
-      "knowledgeSplit": "Dhika knows Chotu's compliment influenced her; John does not.",
+      "latestVerifiedState": "E02 P7: marriage surface warm, but Dhika deliberately withholds Uncle incident to protect his image.",
+      "knowledgeSplit": "Dhika knows Uncle incident; John does not.",
       "boundaryState": "Dhika rejects the short-skirt option and chooses the final outfit herself."
     },
     {
@@ -552,11 +630,14 @@
         "E02-P05-E012",
         "E02-P06-E013",
         "E02-P06-E014",
-        "E02-P06-E015"
+        "E02-P06-E015",
+        "E02-P07-E016",
+        "E02-P07-E017",
+        "E02-P07-E018"
       ],
-      "latestVerifiedState": "E02 P6: Dhika secretly witnesses Uncle's unauthorized bra misuse and clothed arousal; she retreats without confrontation and has a mixed shock/blush/excitement response.",
-      "knowledgeSplit": "Dhika + reader know; Uncle thinks secret remains intact; John/Aunty do not know.",
-      "boundaryState": "No permission for garment act; observation/reaction do not authorize it."
+      "latestVerifiedState": "E02 P7: Dhika knows the breach but hides that knowledge, rationalizes/minimizes it, preserves public trust and changes milk logistics to reduce recurrence risk.",
+      "knowledgeSplit": "Dhika knows; Uncle thinks she does not; John/Aunty unaware.",
+      "boundaryState": "No retroactive permission; logistics change is safeguard."
     },
     {
       "relationshipId": "REL-DHIKA-AUNTY",
@@ -583,12 +664,16 @@
         "E02-P05-E011",
         "E02-P05-E012",
         "E02-P06-E014",
-        "E02-P06-E015"
+        "E02-P06-E015",
+        "E02-P07-E016",
+        "E02-P07-E017",
+        "E02-P07-E018"
       ],
-      "currentVerifiedState": "Now knows Uncle's secret act; mixed shock/blush/excitement and no anger, but recognizes he was doing wrong; keeps knowledge private so far.",
+      "currentVerifiedState": "Conceals Uncle discovery, rationalizes/minimizes it, feels self-blame and private excitement, and introduces a milk-logistics safeguard.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
-        "She has witnessed Uncle's bra act and clothed arousal without his knowledge."
+        "She has witnessed Uncle's bra act and clothed arousal without his knowledge.",
+        "Uncle incident remains withheld from John/Aunty and from Uncle's awareness that she knows."
       ]
     },
     {
@@ -736,6 +821,23 @@
         ]
       },
       "cumulativeStateThroughPart": "Knowledge flips: Dhika now knows Uncle's breach; Uncle does not know she knows; John/Aunty remain unaware. No direct body touch/confrontation/permission. Dhika's lack of anger/private excitement does not authorize the act."
+    },
+    "E02-P07": {
+      "sourceRange": "L68-L76",
+      "previousVerifiedState": "Part 6: Dhika witnessed Uncle's bra act and clothed arousal; Uncle does not know she saw; John/Aunty are unaware.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E02-P07-E016",
+          "E02-P07-E017",
+          "E02-P07-E018"
+        ],
+        "exactChanges": [
+          "Dhika gives cover story and resumes family lunch while privately reimagining event.",
+          "Dhika rationalizes/minimizes, feels self-blame, and changes future milk logistics.",
+          "Dhika deliberately withholds incident from John to protect Uncle's image."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika consciously preserves public trust through rationalization and secrecy, but adds a practical safeguard. Uncle thinks secret intact. John/Aunty remain unaware. Self-blame is not objective causation; no anger/non-disclosure do not equal consent."
     }
   }
 }
