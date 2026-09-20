@@ -106,3 +106,12 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - Kept the six existing CSS crop mappings unchanged.
 - Bumped the page cache key from `r1` to `r2`.
 - No story text or beat mapping changed.
+
+
+## L211–213 black-render repair r3
+
+- Replaced the canonical collage asset with a verified decodable WebP.
+- Changed the six crops from CSS background-image rendering to nested img elements with overflow cropping.
+- Cache key bumped to r3.
+- Removed the L208 and L208–209 continuity-board gallery blocks that created unnecessary empty vertical space.
+- No approved story text or beat mapping changed.
