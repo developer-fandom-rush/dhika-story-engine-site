@@ -97,3 +97,12 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - Approved local-language story is split only at existing sentence boundaries.
 - Status remains `GENERATED_PENDING_REVIEW` until explicit lock.
 - Next content beat: **L214**.
+
+
+## L211–213 black-render repair
+
+- Root cause: repository collage blob was invalid/undersized and rendered as black crops.
+- Replaced the canonical collage asset bytes at `assets/images/e01/scenes/e01-p12-l211-213-collage-v1.webp`.
+- Kept the six existing CSS crop mappings unchanged.
+- Bumped the page cache key from `r1` to `r2`.
+- No story text or beat mapping changed.
