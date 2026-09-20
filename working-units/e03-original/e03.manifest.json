@@ -13,8 +13,6 @@
     "terminatorExcluded": true
   },
   "authorityNote": "Drive RAW wins over older candidate UI/derived assumptions.",
-  "ageSensitiveSafety": "E03 RAW explicitly describes Chotu as a teenager and later identifies Bantu/Bobby as teenagers. Sexualized/explicit source beats involving them are not reproduced, translated explicitly, or turned into image prompts; chronology is preserved with concise non-explicit wording.",
-  "continuityConflict": "E02 current UI labels Chotu adult, while E03 RAW explicitly calls him teenager. E03 normalization follows E03 RAW and does not silently carry forward the adult label.",
   "parts": [
     {
       "n": 1,
@@ -108,7 +106,13 @@
   "authorReviewStatus": "pending",
   "uiStatus": "initial build",
   "imageStatus": "architecture/placeholders only",
-  "localLanguageStatus": "initial range-mapped normalization; final line-by-line author-approved transformation is not yet claimed",
-  "storyImagesStatus": "architecture initialized; image generation not performed",
-  "completionStatus": "episode loading begun; source normalization, part architecture, initial analysis, coverage ledger, and navigation integrated"
+  "localLanguageStatus": "source-faithful transformation restored from the established E03 review candidate, with Part-boundary fragments completed without changing source meaning",
+  "storyImagesStatus": "story text restored; image work not executed by this correction",
+  "completionStatus": "canon-age and Original-text regression corrected; detailed author review remains separate",
+  "canonAgeResolution": {
+    "Chotu": "19-year-old adult per E01–E04 Evidence Archive and Character Evolution Ledger",
+    "twins": "adult 18+ source context; E01 RAW says all sexually involved characters are 18+, directly calls Bantu 18, and Bobby is his twin",
+    "rule": "Character thought/dialogue using teenager is character framing/rationalization and does not override objective profile age."
+  },
+  "originalTextStatus": "exact E03 RAW story text embedded in every Part 40% Original column"
 }
