@@ -11,7 +11,8 @@ Asset folder: `assets/images/e01/scenes/`
 - L209 — **LOCKED_APPROVED_IMAGE** — `e01-p12-l209-bathroom-mirror-v2.webp`
 - Approved sequence board — **UPLOADED** — `e01-p12-l208-209-sequence-board-approved.webp`
 - Approved L208 continuity board — **UPLOADED** — `e01-p12-l208-sequence-board-approved.webp`
-- Next resumable beat: **L210**
+- L210 — **LOCKED_APPROVED_IMAGE** — reuses `e01-p12-l209-bathroom-mirror-v2.webp` with approved UI thought-cloud overlay
+- Next resumable beat: **L211-A**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
 ## Beat status
@@ -21,7 +22,7 @@ Asset folder: `assets/images/e01/scenes/`
 | 1 | L208-A — food spill noticed | LOCKED_APPROVED_IMAGE |
 | 2 | L208-B — bedroom/bathroom for cloth | LOCKED_APPROVED_IMAGE |
 | 3 | L209 — bathroom mirror | LOCKED_APPROVED_IMAGE |
-| 4 | L210 — beauty/self-image question | PENDING |
+| 4 | L210 — beauty/self-image question | LOCKED_APPROVED_IMAGE |
 | 5 | L211-A — yesterday/night thoughts return | PENDING |
 | 6 | L211-B — slowly removes dupatta | PENDING |
 | 7 | L212-A — studies body/cleavage in mirror | PENDING |
@@ -70,3 +71,13 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - Part 12 no longer uses alternating standalone story-card / image-card alignment.
 - Full approved L208–225 local-language text remains present.
 - Next resumable content beat remains **L210**.
+
+
+## L210 UI thought-cloud overlay
+
+- L210 intentionally reuses the exact locked L209 bathroom-mirror asset.
+- No new camera, pose, clothing, face, or location state is introduced.
+- Only the approved internal-thought cloud is added in the rendered UI.
+- Exact cloud text: `Chotu bhi mujhe beautiful samajhta hai… Ek bachcha hone ke baad bhi kya main sach mein beautiful hoon?`
+- Narrative state: **INTERNAL THOUGHT**, not spoken dialogue.
+- Next image beat: **L211-A**.
