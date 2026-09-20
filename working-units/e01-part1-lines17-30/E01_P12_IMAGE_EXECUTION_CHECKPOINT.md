@@ -8,7 +8,8 @@ Asset folder: `assets/images/e01/scenes/`
 
 - L208-A — **UPLOADED** — `e01-p12-l208-a-spill-noticed-v2.webp`
 - L208-B — **UPLOADED** — `e01-p12-l208-b-fetch-cloth-v2.webp`
-- Next resumable beat: **L209**
+- L209 — **UPLOADED** — `e01-p12-l209-bathroom-mirror-v2.webp`
+- Next resumable beat: **L210**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
 ## Beat status
@@ -17,7 +18,7 @@ Asset folder: `assets/images/e01/scenes/`
 |---:|---|---|
 | 1 | L208-A — food spill noticed | UPLOADED |
 | 2 | L208-B — bedroom/bathroom for cloth | UPLOADED |
-| 3 | L209 — bathroom mirror | PENDING |
+| 3 | L209 — bathroom mirror | UPLOADED |
 | 4 | L210 — beauty/self-image question | PENDING |
 | 5 | L211-A — yesterday/night thoughts return | PENDING |
 | 6 | L211-B — slowly removes dupatta | PENDING |
