@@ -9,6 +9,8 @@ Asset folder: `assets/images/e01/scenes/`
 - L208-A — **UPLOADED** — `e01-p12-l208-a-spill-noticed-v2.webp`
 - L208-B — **UPLOADED** — `e01-p12-l208-b-fetch-cloth-v2.webp`
 - L209 — **UPLOADED** — `e01-p12-l209-bathroom-mirror-v2.webp`
+- Approved sequence board — **UPLOADED** — `e01-p12-l208-209-sequence-board-approved.webp`
+- Approved L208 continuity board — **UPLOADED** — `e01-p12-l208-sequence-board-approved.webp`
 - Next resumable beat: **L210**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
@@ -43,3 +45,9 @@ Asset folder: `assets/images/e01/scenes/`
 | 25 | L225 — face covered / aftermath | PENDING |
 
 Do not restart completed L208 beats unless Dev explicitly requests replacement.
+
+
+## Approved sequence-reference assets
+
+- `e01-p12-l208-209-sequence-board-approved.webp` — L208-A → L208-B → L209 recap; does not replace individual beat assets.
+- `e01-p12-l208-sequence-board-approved.webp` — L208 continuity recap; does not replace individual beat assets.
