@@ -12,12 +12,12 @@ Asset folder: `assets/images/e01/scenes/`
 - Approved sequence board — **UPLOADED** — `e01-p12-l208-209-sequence-board-approved.webp`
 - Approved L208 continuity board — **UPLOADED** — `e01-p12-l208-sequence-board-approved.webp`
 - L210 — **LOCKED_APPROVED_IMAGE** — reuses `e01-p12-l209-bathroom-mirror-v2.webp` with approved UI thought-cloud overlay
-- L211-A — **GENERATED_PENDING_REVIEW** — collage crop c0/r0
-- L211-B — **GENERATED_PENDING_REVIEW** — collage crop c1/r0
-- L212-A — **GENERATED_PENDING_REVIEW** — collage crop c2/r0
-- L212-B — **GENERATED_PENDING_REVIEW** — collage crop c0/r1
-- L213-A — **GENERATED_PENDING_REVIEW** — collage crop c1/r1
-- L213-B — **GENERATED_PENDING_REVIEW** — collage crop c2/r1
+- L211-A — **GENERATED_PENDING_REVIEW** — `e01-p12-l211-a-thought-hit-v1.webp`
+- L211-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l211-b-dupatta-off-v1.webp`
+- L212-A — **GENERATED_PENDING_REVIEW** — `e01-p12-l212-a-body-look-v1.webp`
+- L212-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l212-b-reaction-v1.webp`
+- L213-A — **GENERATED_PENDING_REVIEW** — `e01-p12-l213-a-thought-urge-v1.webp`
+- L213-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l213-b-self-conflict-v1.webp`
 - Next resumable beat: **L214**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
@@ -115,3 +115,14 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - Cache key bumped to r3.
 - Removed the L208 and L208–209 continuity-board gallery blocks that created unnecessary empty vertical space.
 - No approved story text or beat mapping changed.
+
+
+## L211–213 direct-panel render repair
+
+- Root failure: the shared collage/CSS-crop rendering path produced black panels in the live page.
+- The original 3×2 collage was split into six valid individual WebP files.
+- L211-A, L211-B, L212-A, L212-B, L213-A and L213-B now render through ordinary `<img>` elements.
+- The shared collage is no longer used by these live image beats.
+- Approved story text, exact line mapping and reading order were not changed.
+- Status remains `GENERATED_PENDING_REVIEW` for all six.
+- Next resumable beat remains **L214**.
