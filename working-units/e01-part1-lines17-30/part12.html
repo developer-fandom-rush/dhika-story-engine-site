@@ -6,6 +6,17 @@
 .thought-cloud:before{width:25px;height:25px;left:-31px;bottom:17px}
 .thought-cloud:after{width:13px;height:13px;left:-50px;bottom:-1px}
 @media(max-width:700px){.thought-cloud{top:2%;right:2%;width:47%;padding:10px 12px;font-size:clamp(10px,2.35vw,13px);line-height:1.32}.thought-cloud:before{width:17px;height:17px;left:-21px;bottom:12px}.thought-cloud:after{width:9px;height:9px;left:-34px;bottom:0}}
+
+.image-pair-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:1180px;margin:12px auto}
+.motion-frame{position:relative;overflow:hidden;margin:0;border-radius:12px;background:#111;aspect-ratio:3/2;box-shadow:0 10px 28px rgba(0,0,0,.2);animation:pairFade .75s ease both}
+.motion-frame:nth-child(2){animation-delay:.16s}
+.motion-frame img{display:block;width:100%;height:100%;object-fit:cover;transform-origin:center;animation:cinematicDrift 11s ease-in-out infinite alternate}
+.motion-frame:nth-child(2) img{animation-delay:-5.5s}
+.motion-label{position:absolute;left:10px;bottom:10px;padding:6px 9px;border-radius:999px;background:rgba(12,12,12,.76);color:#fff;font-size:12px;font-weight:800;letter-spacing:.03em;backdrop-filter:blur(5px)}
+@keyframes pairFade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes cinematicDrift{from{transform:scale(1.015) translate3d(-.35%,0,0)}to{transform:scale(1.055) translate3d(.35%,-.35%,0)}}
+@media(max-width:760px){.image-pair-grid{grid-template-columns:1fr}.motion-frame{aspect-ratio:3/2}}
+@media(prefers-reduced-motion:reduce){.motion-frame,.motion-frame img{animation:none}}
 </style></head><body>
 <header><h1>DHIKA Story Engine · Episode 01 · Part 12</h1><p>Sequence: mirror choice → deliberate test → mutual eye contact → aftermath · L208–225.</p><div class="partbar"><a class="partchip" href="index.html">Episode map</a><a class="partchip" href="part11.html">Part 11 · L195–207</a><a class="partchip current" href="part12.html">Part 12 · L208–225</a><span class="partchip">Episode 01 end</span></div></header>
 <nav><button data-tab="40/40 Reading">40/40 Reading</button><button data-tab="Story + Images">Story + Images</button><button data-tab="Character Evolution">Character Evolution</button><button data-tab="Relationship Progression">Relationship Progression</button><button data-tab="Reader Analysis · Desire, Hooks & Possibilities">Reader Analysis · Desire, Hooks & Possibilities</button><button data-tab="Relationship History Ledger">Relationship History Ledger</button><button data-tab="Storytelling & Authoring Notes">Storytelling & Authoring Notes</button></nav><main>
@@ -140,9 +151,12 @@
 <article class="card">
 <div class="range">STORY PASSAGE · L218</div>
 <p style="font-size:15px;line-height:1.85;margin:0 0 14px">Chotu shock mein wide-eyed hokar saamne dikh rahe Dhika ke cream-coloured boobs ko dekh raha tha. Use unke lagbhag ek-third hissa dikh raha tha. Movies ke alawa usne pehle kabhi aisa kuch nahi dekha tha; woh us nazare mein poori tarah stunned aur lost ho gaya.</p>
-<div class="range"><b>IMAGE BEAT · L217-B → L218 · Chotu reaction</b></div>
-<div class="image-side"><img src="../../assets/images/e01/scenes/e01-p12-l217-b-chotu-reaction-v2.webp?v=20260920-p12-l217ab-r2" alt="L217-B to L218: Chotu reacts wide-eyed and stunned while Dhika continues wiping the spill" style="display:block;width:100%;max-width:980px;height:auto;margin:10px auto;border-radius:12px"></div>
-<div class="caption"><b>LOCKED_APPROVED_IMAGE</b> · L217-B continuation supports L218 reaction · supplied image · Chotu remains seated opposite</div>
+<div class="range"><b>IMAGE PAIR · L217-B → L218 · continued action + reaction</b></div>
+<div class="image-pair-grid" aria-label="L218 side-by-side animated continuity images">
+<figure class="motion-frame"><img src="../../assets/images/e01/scenes/e01-p12-l217-b-chotu-reaction-v2.webp?v=20260920-p12-l218-pair-r1" alt="L217-B to L218: Chotu reacts wide-eyed and stunned while Dhika continues wiping the spill"><figcaption class="motion-label">Existing · L217-B → L218</figcaption></figure>
+<figure class="motion-frame"><img src="../../assets/images/e01/scenes/e01-p12-l218-cleaning-reaction-v3.webp?v=20260920-p12-l218-pair-r1" alt="L218: wider living-room continuity while Dhika wipes the spill and Chotu remains seated opposite"><figcaption class="motion-label">Added · L218 continuity</figcaption></figure>
+</div>
+<div class="caption"><b>LOCKED_APPROVED_IMAGE PAIR</b> · original image retained + supplied L218 image added side by side · gentle cinematic motion · responsive stack on mobile</div>
 </article>
 
 <article class="card">
