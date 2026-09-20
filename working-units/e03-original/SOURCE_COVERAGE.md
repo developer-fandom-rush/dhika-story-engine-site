@@ -22,10 +22,14 @@ Actual story body starts after Drive navigation/header metadata. Deterministic m
 
 Validation: start L1, end L231, gaps = no, overlaps = no.
 
-## Age-sensitive source rule
 
-E03 RAW explicitly identifies Chotu as a teenager and later calls Bantu/Bobby teenagers. Any sexualized or explicit detail involving those teenage characters is represented in GitHub only through concise, non-explicit factual chronology. No sexualized image prompt is created for those beats.
+## Canon age resolution
 
-## Continuity conflict
+- Chotu/Babu is **19-year-old adult** in the E01–E04 Evidence Archive and Character Evolution Ledger.
+- E03's “just a teenager” wording is Dhika's own rationalization; project protocol explicitly says character rationalization does not become objective age fact.
+- E01 RAW states all sexually involved characters are **18 years and above** and directly calls Bantu **18 year old**; Bobby is Bantu's twin.
+- Therefore Episode 03 preserves the adult RAW meaning instead of suppressing it on a false minor classification.
 
-Current E02 UI contains an “adult Chotu” label, but E03 RAW explicitly calls Chotu a teenager. This build records the contradiction rather than silently repairing it and follows the fresher episode RAW for E03 handling.
+## Original-source import
+
+Every E03 Part now embeds the exact RAW source text in the left 40% Original column, matching the established E01/E02 implementation.
