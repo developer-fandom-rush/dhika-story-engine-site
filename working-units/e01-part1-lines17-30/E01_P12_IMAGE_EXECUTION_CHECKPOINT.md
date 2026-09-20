@@ -18,7 +18,11 @@ Asset folder: `assets/images/e01/scenes/`
 - L212-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l212-b-reaction-v1.webp`
 - L213-A — **GENERATED_PENDING_REVIEW** — `e01-p12-l213-a-thought-urge-v1.webp`
 - L213-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l213-b-self-conflict-v1.webp`
-- Next resumable beat: **L214**
+- L214 — **GENERATED_PENDING_REVIEW** — `e01-p12-l214-return-hall-v1.webp`
+- L215-A — **GENERATED_PENDING_REVIEW** — `e01-p12-l215-a-notice-v1.webp`
+- L215-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l215-b-opposite-v1.webp`
+- L216 — **GENERATED_PENDING_REVIEW** — `e01-p12-l216-nervous-excited-v1.webp`
+- Next resumable beat: **L217**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
 ## Beat status
@@ -34,10 +38,10 @@ Asset folder: `assets/images/e01/scenes/`
 | 7 | L212-A — studies body/cleavage in mirror | GENERATED_PENDING_REVIEW |
 | 8 | L212-B — lip bite, blush, private smile | GENERATED_PENDING_REVIEW |
 | 9 | L213-A/B — urge + self-conflict | GENERATED_PENDING_REVIEW |
-| 10 | L214 — returns to hall without dupatta | PENDING |
-| 11 | L215-A — Chotu notices missing dupatta | PENDING |
-| 12 | L215-B — opposite seating established | PENDING |
-| 13 | L216 — nervous + excited setup | PENDING |
+| 10 | L214 — returns to hall without dupatta | GENERATED_PENDING_REVIEW |
+| 11 | L215-A — Chotu notices missing dupatta | GENERATED_PENDING_REVIEW |
+| 12 | L215-B — opposite seating established | GENERATED_PENDING_REVIEW |
+| 13 | L216 — nervous + excited setup | GENERATED_PENDING_REVIEW |
 | 14 | L217 — bends/all fours/wiping begins | PENDING |
 | 15 | L218-A — source visibility beat | PENDING |
 | 16 | L218-B — Chotu shocked/wide-eyed | PENDING |
@@ -96,7 +100,7 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - CSS crop map: L211-A c0/r0; L211-B c1/r0; L212-A c2/r0; L212-B c0/r1; L213-A c1/r1; L213-B c2/r1.
 - Approved local-language story is split only at existing sentence boundaries.
 - Status remains `GENERATED_PENDING_REVIEW` until explicit lock.
-- Next content beat: **L214**.
+- Next content beat: **L217**.
 
 
 ## L211–213 black-render repair
@@ -125,4 +129,14 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - The shared collage is no longer used by these live image beats.
 - Approved story text, exact line mapping and reading order were not changed.
 - Status remains `GENERATED_PENDING_REVIEW` for all six.
-- Next resumable beat remains **L214**.
+- Next resumable beat is now **L217**.
+
+
+## L214–216 insertion review notes
+
+- L214, L215-A, L215-B and L216 are now inserted in Story + Images at their exact story clauses.
+- All four remain `GENERATED_PENDING_REVIEW`; none is silently promoted to approved.
+- L215-B needs Chotu wardrobe continuity review against the canonical maroon-polo/dark-jeans state.
+- L216 needs both Chotu wardrobe continuity review and a pre-L217 pose check so the wiping/action beat is not pulled forward.
+- Approved local-language story wording is unchanged.
+- Next resumable beat: **L217**.
