@@ -1,0 +1,111 @@
+{
+  "branchId": "original-dhika",
+  "episodeId": "E03",
+  "sourceRef": {
+    "driveDocumentId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
+    "title": "98 — RAW SOURCE — EPISODE 03"
+  },
+  "sourceStatus": "fresh-read-2026-09-20",
+  "sourceBody": {
+    "start": "E03-L001",
+    "end": "E03-L231",
+    "registeredLines": 231,
+    "terminatorExcluded": true
+  },
+  "authorityNote": "Drive RAW wins over older candidate UI/derived assumptions.",
+  "ageSensitiveSafety": "E03 RAW explicitly describes Chotu as a teenager and later identifies Bantu/Bobby as teenagers. Sexualized/explicit source beats involving them are not reproduced, translated explicitly, or turned into image prompts; chronology is preserved with concise non-explicit wording.",
+  "continuityConflict": "E02 current UI labels Chotu adult, while E03 RAW explicitly calls him teenager. E03 normalization follows E03 RAW and does not silently carry forward the adult label.",
+  "parts": [
+    {
+      "n": 1,
+      "s": 1,
+      "e": 8,
+      "label": "Wardrobe choice → doorbell"
+    },
+    {
+      "n": 2,
+      "s": 9,
+      "e": 31,
+      "label": "Chotu arrives → leave reason → attention becomes explicit"
+    },
+    {
+      "n": 3,
+      "s": 32,
+      "e": 42,
+      "label": "Forgotten ice creams → Chotu internal check → return"
+    },
+    {
+      "n": 4,
+      "s": 43,
+      "e": 72,
+      "label": "Chocobar conversation → accidental boundary beat"
+    },
+    {
+      "n": 5,
+      "s": 73,
+      "e": 94,
+      "label": "Kiss discussion → brief kiss → exit"
+    },
+    {
+      "n": 6,
+      "s": 95,
+      "e": 110,
+      "label": "Next-morning reflection → Wednesday tuition reset"
+    },
+    {
+      "n": 7,
+      "s": 111,
+      "e": 132,
+      "label": "Casual-wear deal → class continues"
+    },
+    {
+      "n": 8,
+      "s": 133,
+      "e": 147,
+      "label": "Evening with John → painting plan"
+    },
+    {
+      "n": 9,
+      "s": 148,
+      "e": 179,
+      "label": "Paint prep → Friday tuition accident → reassurance"
+    },
+    {
+      "n": 10,
+      "s": 180,
+      "e": 196,
+      "label": "Saturday reset → Sunday project setup → Maami call"
+    },
+    {
+      "n": 11,
+      "s": 197,
+      "e": 209,
+      "label": "Chotu returns → awkward reunion → wall scraping"
+    },
+    {
+      "n": 12,
+      "s": 210,
+      "e": 220,
+      "label": "Work break → deliberate attention-seeking outfit change"
+    },
+    {
+      "n": 13,
+      "s": 221,
+      "e": 231,
+      "label": "Lunch → deliberate visibility → unresolved ending"
+    }
+  ],
+  "tabs": [
+    "40 | 40 | 20",
+    "Story + Images",
+    "Character Evolution",
+    "Relationship Progression",
+    "Reader Analysis",
+    "Relationship History Ledger",
+    "Storytelling & Authoring Notes"
+  ],
+  "analysisStatus": "initial normalized build",
+  "authorReviewStatus": "pending",
+  "uiStatus": "initial build",
+  "imageStatus": "architecture/placeholders only"
+}
