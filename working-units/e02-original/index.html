@@ -2,15 +2,148 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DHIKA Story Engine · E02 Review</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#f5f2e9;color:#24302b;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}header{background:#1d332b;color:#fff;padding:20px 24px}h1{margin:0;font-size:22px}header p{margin:6px 0 0;color:#cbd8d2;font-size:13px}.parts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.parts button{border:1px solid #507166;background:#29473c;color:#fff;padding:8px 11px;border-radius:999px;font-size:11px;font-weight:800;cursor:pointer}.parts button.active{background:#fff;color:#1d332b}.parts button:disabled{opacity:.48;cursor:not-allowed}.status{padding:9px 24px;background:#ebe6da;border-bottom:1px solid #d9d2c4;font-size:12px;color:#59645f}.status b{color:#315b4c}iframe{display:block;width:100%;min-height:900px;border:0;background:#f5f2e9}</style>
+<title>DHIKA Story Engine · Original Episode 02</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f2e9;color:#24302b;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
+header{background:#1d332b;color:#fff;padding:18px 22px}h1{margin:0;font-size:22px}header p{margin:6px 0 0;color:#cbd8d2;font-size:13px;line-height:1.5}
+.episodes,.parts,.route-controls{display:flex;gap:8px;flex-wrap:wrap}.episodes{margin-top:13px}.parts{margin-top:12px}
+.episodes a,.parts button,.route-controls button,.route-controls a{border:1px solid #507166;background:#29473c;color:#fff;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:800;cursor:pointer;text-decoration:none}
+.episodes a.active,.parts button.active{background:#fff;color:#1d332b}
+.routebar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:9px 22px;background:#ebe6da;border-bottom:1px solid #d9d2c4;font-size:12px;color:#59645f}
+.routebar b{color:#315b4c}.route-controls{margin-left:auto}.route-controls button:disabled{opacity:.45;cursor:not-allowed}
+iframe{display:block;width:100%;min-height:900px;border:0;background:#f5f2e9}
+@media(max-width:760px){header{padding:14px 12px}.parts{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;max-width:100%}.parts button{flex:0 0 auto}.routebar{padding:9px 12px}.route-controls{width:100%;margin-left:0}}
+</style>
 </head>
 <body>
-<header><h1>DHIKA Story Engine · Original Episode 02</h1><p>Source-locked episode map: 14 approved scene-bounded Parts covering the complete episode.</p><div class="parts">
-<button class="active" data-file="part1.html">Part 1 · L9–17</button>
-<button data-file="part2.html">Part 2 · L18–24</button><button data-file="part3.html">Part 3 · L25–36</button><button data-file="part4.html">Part 4 · L37–48</button><button data-file="part5.html">Part 5 · L49–57</button><button data-file="part6.html">Part 6 · L58–67</button><button data-file="part7.html">Part 7 · L68–76</button><button data-file="part8.html">Part 8 · L77–82</button><button data-file="part9.html">Part 9 · L83–103</button><button data-file="part10.html">Part 10 · L104–113</button><button data-file="part11.html">Part 11 · L114–119</button><button data-file="part12.html">Part 12 · L120–139</button><button data-file="part13.html">Part 13 · L140–153</button><button data-file="part14.html">Part 14 · L154–159 · END</button>
-</div></header>
-<div class="status">Architecture: <b>index.html = router only</b> · 160 registered entries · wrapper L1–8 · story L9–159 · L160 empty terminator · images handled by separate asset handoff</div>
-<iframe id="partView" src="part1.html" title="Episode 02 Part 1 review"></iframe>
-<script>const buttons=[...document.querySelectorAll('.parts button')],frame=document.getElementById('partView');function openPart(button){buttons.forEach(b=>b.classList.toggle('active',b===button));if(frame.getAttribute('src')!==button.dataset.file)frame.src=button.dataset.file;history.replaceState(null,'','#'+button.dataset.file.replace('.html',''))}buttons.forEach(b=>b.addEventListener('click',()=>openPart(b)));frame.addEventListener('load',()=>{try{const doc=frame.contentDocument;const resize=()=>frame.style.height=Math.max(900,doc.documentElement.scrollHeight,doc.body.scrollHeight)+'px';resize();new ResizeObserver(resize).observe(doc.body);doc.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(a){const href=a.getAttribute('href');const button=buttons.find(b=>b.dataset.file===href);if(button){e.preventDefault();openPart(button);return}if(href==='index.html'){e.preventDefault();return}}setTimeout(resize,50)});}catch(e){}});const initial=buttons.find(b=>b.dataset.file===location.hash.slice(1)+'.html')||buttons[0];openPart(initial);</script>
-</body></html>
+<header>
+  <h1>DHIKA Story Engine · Original Episode 02</h1>
+  <p>Source-locked router · 14 approved Parts · one top-level shell; embedded Part headers are suppressed while direct Part pages keep compact navigation.</p>
+  <div class="episodes">
+    <a href="../e01-part1-lines17-30/index.html">Episode 01</a>
+    <a class="active" href="index.html">Episode 02</a>
+  </div>
+  <div class="parts" id="partTabs">
+    <button data-key="part1" data-file="part1.html">Part 1 · L9–17</button>
+    <button data-key="part2" data-file="part2.html">Part 2 · L18–24</button>
+    <button data-key="part3" data-file="part3.html">Part 3 · L25–36</button>
+    <button data-key="part4" data-file="part4.html">Part 4 · L37–48</button>
+    <button data-key="part5" data-file="part5.html">Part 5 · L49–57</button>
+    <button data-key="part6" data-file="part6.html">Part 6 · L58–67</button>
+    <button data-key="part7" data-file="part7.html">Part 7 · L68–76</button>
+    <button data-key="part8" data-file="part8.html">Part 8 · L77–82</button>
+    <button data-key="part9" data-file="part9.html">Part 9 · L83–103</button>
+    <button data-key="part10" data-file="part10.html">Part 10 · L104–113</button>
+    <button data-key="part11" data-file="part11.html">Part 11 · L114–119</button>
+    <button data-key="part12" data-file="part12.html">Part 12 · L120–139</button>
+    <button data-key="part13" data-file="part13.html">Part 13 · L140–153</button>
+    <button data-key="part14" data-file="part14.html">Part 14 · L154–159</button>
+  </div>
+</header>
+<div class="routebar">
+  <div id="routeStatus">Architecture: <b>index.html = Episode 02 router</b> · RAW L9–159 · 14 source-locked Parts</div>
+  <div class="route-controls">
+    <button id="prevPart" type="button">← Previous Part</button>
+    <button id="homePart" type="button">Episode map / Part 1</button>
+    <button id="nextPart" type="button">Next Part →</button>
+  </div>
+</div>
+<iframe id="partView" title="Episode 02 part view"></iframe>
+<script>
+const BUILD_REV='e02-normalized-20260920-r2';
+const buttons=[...document.querySelectorAll('#partTabs button')];
+const frame=document.getElementById('partView');
+const prevBtn=document.getElementById('prevPart'), nextBtn=document.getElementById('nextPart'), homeBtn=document.getElementById('homePart');
+const valid=new Set(buttons.map(b=>b.dataset.key));
+let pendingPanel=null;
+
+function currentIndex(){return buttons.findIndex(b=>b.classList.contains('active'))}
+function currentKey(){const i=currentIndex();return i>=0?buttons[i].dataset.key:'part1'}
+function updateControls(){
+  const i=currentIndex();
+  prevBtn.disabled=i<=0;
+  nextBtn.disabled=i<0||i>=buttons.length-1;
+}
+function partSrc(button,panel){
+  let src=button.dataset.file+'?embedded=1&v='+BUILD_REV;
+  if(panel) src+='#'+encodeURIComponent(panel);
+  return src;
+}
+function openPart(key,{panel=null,historyMode='push'}={}){
+  if(!valid.has(key)) key='part1';
+  const button=buttons.find(b=>b.dataset.key===key);
+  buttons.forEach(b=>b.classList.toggle('active',b===button));
+  updateControls();
+  pendingPanel=panel;
+  const src=partSrc(button,panel);
+  const current=frame.getAttribute('src');
+  if(current!==src){
+    frame.setAttribute('src',src);
+  }else if(panel){
+    try{frame.contentWindow.location.hash=encodeURIComponent(panel)}catch(e){}
+  }
+  const targetHash='#'+key;
+  if(historyMode==='push' && location.hash!==targetHash) history.pushState({part:key},'',targetHash);
+  if(historyMode==='replace') history.replaceState({part:key},'',targetHash);
+}
+function openFromLocation(mode='none'){
+  const key=location.hash.slice(1);
+  openPart(valid.has(key)?key:'part1',{historyMode:mode});
+}
+buttons.forEach(b=>b.addEventListener('click',()=>openPart(b.dataset.key,{historyMode:'push'})));
+prevBtn.addEventListener('click',()=>{const i=currentIndex();if(i>0)openPart(buttons[i-1].dataset.key,{historyMode:'push'})});
+nextBtn.addEventListener('click',()=>{const i=currentIndex();if(i>=0&&i<buttons.length-1)openPart(buttons[i+1].dataset.key,{historyMode:'push'})});
+homeBtn.addEventListener('click',()=>openPart('part1',{historyMode:'push'}));
+
+frame.addEventListener('load',()=>{
+  try{
+    const doc=frame.contentDocument;
+    if(!doc) return;
+    if(pendingPanel){
+      const tab=doc.querySelector('nav button[data-tab="'+CSS.escape(pendingPanel)+'"]');
+      if(tab) tab.click();
+      pendingPanel=null;
+    }
+    const resize=()=>{frame.style.height=Math.max(900,doc.documentElement.scrollHeight,doc.body?.scrollHeight||0)+'px'};
+    resize();
+    if(window.ResizeObserver && doc.body)new ResizeObserver(resize).observe(doc.body);
+    doc.querySelectorAll('img').forEach(img=>{img.addEventListener('load',resize,{once:true});img.addEventListener('error',resize,{once:true})});
+    if(doc.fonts?.ready)doc.fonts.ready.then(resize).catch(()=>{});
+    if(window.MutationObserver && doc.body)new MutationObserver(()=>requestAnimationFrame(resize)).observe(doc.body,{subtree:true,childList:true,attributes:true});
+    doc.addEventListener('click',e=>{
+      const a=e.target.closest('a[href]');
+      if(!a)return;
+      const href=a.getAttribute('href');
+      if(!href||href.startsWith('javascript:'))return;
+      const url=new URL(href,doc.location.href);
+      const file=url.pathname.split('/').pop();
+      const match=file.match(/^part(\d+)\.html$/);
+      if(match && url.pathname.includes('/e02-original/')){
+        const key='part'+match[1];
+        if(valid.has(key)){
+          e.preventDefault();
+          const panel=url.hash?decodeURIComponent(url.hash.slice(1)):null;
+          openPart(key,{panel,historyMode:'push'});
+          return;
+        }
+      }
+      if(file==='index.html' && url.pathname.includes('/e02-original/')){
+        e.preventDefault();
+        const key=valid.has(url.hash.slice(1))?url.hash.slice(1):'part1';
+        openPart(key,{historyMode:'push'});
+        return;
+      }
+      if(url.pathname.includes('/e01-part1-lines17-30/')){
+        e.preventDefault();
+        window.top.location.href=url.href;
+      }
+    });
+    setTimeout(resize,80);
+  }catch(e){}
+});
+window.addEventListener('popstate',()=>openFromLocation('none'));
+window.addEventListener('hashchange',()=>{const key=location.hash.slice(1);if(valid.has(key)&&key!==currentKey())openFromLocation('none')});
+openFromLocation('replace');
+</script>
+</body>
+</html>
