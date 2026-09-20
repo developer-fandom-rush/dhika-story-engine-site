@@ -22,7 +22,9 @@ Asset folder: `assets/images/e01/scenes/`
 - L215-A — **GENERATED_PENDING_REVIEW** — `e01-p12-l215-a-notice-v1.webp`
 - L215-B — **GENERATED_PENDING_REVIEW** — `e01-p12-l215-b-opposite-v1.webp`
 - L216 — **GENERATED_PENDING_REVIEW** — `e01-p12-l216-nervous-excited-v1.webp`
-- Next resumable beat: **L217**
+- L217 — **GENERATED_PENDING_REVIEW** — `e01-p12-l217-wiping-start-v1.webp`
+- L218 — **GENERATED_PENDING_REVIEW** — `e01-p12-l218-chotu-reaction-v1.webp`
+- Next resumable beat: **L219**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
 ## Beat status
@@ -42,18 +44,17 @@ Asset folder: `assets/images/e01/scenes/`
 | 11 | L215-A — Chotu notices missing dupatta | GENERATED_PENDING_REVIEW |
 | 12 | L215-B — opposite seating established | GENERATED_PENDING_REVIEW |
 | 13 | L216 — nervous + excited setup | GENERATED_PENDING_REVIEW |
-| 14 | L217 — bends/all fours/wiping begins | PENDING |
-| 15 | L218-A — source visibility beat | PENDING |
-| 16 | L218-B — Chotu shocked/wide-eyed | PENDING |
-| 17 | L219 — one-minute continuation | PENDING |
-| 18 | L220 — Dhika looks toward Chotu | PENDING |
-| 19 | L221 — eyes meet | PENDING |
-| 20 | L222-A — Chotu remains wide-eyed | PENDING |
-| 21 | L222-B — Dhika nervous/excited lip bite | PENDING |
-| 22 | L223 — Chotu takes money and leaves | PENDING |
-| 23 | L224-A — cloth dropped / flips from all fours | PENDING |
-| 24 | L224-B — lies on back, overwhelmed | PENDING |
-| 25 | L225 — face covered / aftermath | PENDING |
+| 14 | L217 — bends/all fours/wiping begins | GENERATED_PENDING_REVIEW |
+| 15 | L218 — Chotu shocked/wide-eyed reaction | GENERATED_PENDING_REVIEW |
+| 16 | L219 — one-minute continuation | PENDING |
+| 17 | L220 — Dhika looks toward Chotu | PENDING |
+| 18 | L221 — eyes meet | PENDING |
+| 19 | L222-A — Chotu remains wide-eyed | PENDING |
+| 20 | L222-B — Dhika nervous/excited lip bite | PENDING |
+| 21 | L223 — Chotu takes money and leaves | PENDING |
+| 22 | L224-A — cloth dropped / flips from all fours | PENDING |
+| 23 | L224-B — lies on back, overwhelmed | PENDING |
+| 24 | L225 — face covered / aftermath | PENDING |
 
 Do not restart completed L208 beats unless Dev explicitly requests replacement.
 
@@ -140,3 +141,15 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - L216 needs both Chotu wardrobe continuity review and a pre-L217 pose check so the wiping/action beat is not pulled forward.
 - Approved local-language story wording is unchanged.
 - Next resumable beat: **L217**.
+
+
+## L214–218 binary repair and exact mapping
+
+- L214, L215-A, L215-B and L216 canonical asset paths were retained but their corrupt/invalid binary blobs were replaced with valid WebP files.
+- The L214–L216 cache key was bumped to `r2`.
+- L217 and L218 are now separate exact Story + Images beats instead of one grouped L217–218 image claim.
+- L217 asset: `e01-p12-l217-wiping-start-v1.webp`.
+- L218 asset: `e01-p12-l218-chotu-reaction-v1.webp`.
+- All six L214–L218 images remain `GENERATED_PENDING_REVIEW`.
+- Chotu wardrobe mismatch in some generated frames remains explicitly pending review; no image is silently locked.
+- Next resumable beat: **L219**.
