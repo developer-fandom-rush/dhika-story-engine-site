@@ -107,5 +107,8 @@
   "analysisStatus": "initial normalized build",
   "authorReviewStatus": "pending",
   "uiStatus": "initial build",
-  "imageStatus": "architecture/placeholders only"
+  "imageStatus": "architecture/placeholders only",
+  "localLanguageStatus": "initial range-mapped normalization; final line-by-line author-approved transformation is not yet claimed",
+  "storyImagesStatus": "architecture initialized; image generation not performed",
+  "completionStatus": "episode loading begun; source normalization, part architecture, initial analysis, coverage ledger, and navigation integrated"
 }
