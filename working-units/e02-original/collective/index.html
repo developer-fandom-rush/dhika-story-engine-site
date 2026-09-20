@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DHIKA Story Engine · Episode 02 · Collective Review</title>
+<link rel="stylesheet" href="../../../assets/styles/e01-part.css">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f5f2e9;color:#24302b;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+header{background:#1d332b;color:#fff;padding:22px 24px;position:relative}header h1{margin:0;font-size:24px}header p{margin:7px 0 0;color:#cbd8d2;font-size:13px;line-height:1.5}
+.toplinks,.jump{display:flex;gap:8px;flex-wrap:wrap}
+.module-nav{display:flex;gap:10px;flex-wrap:wrap;padding:12px 18px;background:#132a22;border-bottom:1px solid #36594c;position:sticky;top:0;z-index:30}
+.module-nav button{appearance:none;font:inherit;color:#dce9e3;background:transparent;border:1px solid #527567;border-radius:999px;padding:9px 13px;font-size:12px;font-weight:900;cursor:pointer}
+.module-nav button.active{background:#fff;color:#1d332b}
+.module-nav button:hover{border-color:#88aa9c}
+.section-shell{display:none;scroll-margin-top:72px}
+.section-shell.active{display:block}
+
+.section-banner{max-width:1500px;margin:18px auto 0;padding:18px 20px;background:#315b4c;color:#fff;border-radius:16px 16px 0 0}
+.section-banner .section-kicker{font-size:11px;letter-spacing:.14em;font-weight:900;color:#d4e2dc}
+.section-banner h2{margin:5px 0 6px;font-size:25px}
+.section-banner p{margin:0;color:#e4eee9;font-size:13px;line-height:1.5}.toplinks{margin-top:14px}.toplinks a,.jump a,.part-meta a{border:1px solid #507166;background:#29473c;color:#fff;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:800;text-decoration:none}
+.jump-wrap{position:sticky;top:0;z-index:20;background:#ebe6da;border-bottom:1px solid #d9d2c4;padding:10px 16px;box-shadow:0 2px 8px rgba(0,0,0,.05)}.jump{max-width:1500px;margin:auto}.jump a{background:#fff;color:#315b4c;border-color:#cfc7b7}
+main{max-width:1500px;margin:0 auto;padding:18px}.part-block{scroll-margin-top:92px;margin:0 0 28px}.part-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#dfe9e4;border:1px solid #c9d8d0;border-radius:14px 14px 0 0;padding:10px 14px;font-size:12px}.part-meta span{color:#6a756f}.part-meta a{background:#315b4c}
+.panel{display:block!important}.hero{background:#fff;border:1px solid #ded8ca;border-top:0;padding:16px 18px}.hero .eyebrow{font-size:10px;letter-spacing:.12em;font-weight:900;color:#5d746a}.hero h1{margin:5px 0 0;font-size:18px}
+.card{background:#fff;border:1px solid #ded8ca;border-top:0;border-radius:0 0 14px 14px;overflow:hidden}.parallel-card{overflow:hidden}.parallel-4040{display:block}.parallel-headings,.parallel-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.parallel-headings{background:#f1eee6;border-bottom:1px solid #d7d1c5}.parallel-headings>.label{padding:11px 14px;font-size:11px;font-weight:900;letter-spacing:.04em}.parallel-headings>.label:first-child,.parallel-source{border-right:1px solid #d7d1c5}.parallel-row{border-bottom:1px solid #e5e0d7}.parallel-source,.parallel-local{padding:10px 14px;min-width:0}
+.source-line,.local-line{display:grid;grid-template-columns:42px minmax(0,1fr);gap:10px;line-height:1.56;font-size:13px}.source-line .ln,.local-line .ln{font-weight:900;color:#6d766f}.parallel-source{background:#fbfaf6}.parallel-local{background:#fff}
+.module-stack,.character-stack{max-width:1500px;margin:0 auto;padding:18px}.module-part{scroll-margin-top:90px;margin:0 0 28px}.module-part>.panel{display:block!important}.module-part .hero{border:1px solid #ded8ca;border-top:0;background:#fff;padding:16px 18px}.module-part .hero p{margin:8px 0 0;line-height:1.55;font-size:13px;color:#53615b}.module-part .card{border:1px solid #ded8ca;border-radius:12px;background:#fff;margin:10px 0 0;padding:16px 18px;overflow:visible}.module-part .card h3{margin:0 0 10px;font-size:17px}.module-part .card p{line-height:1.6;font-size:13px}.module-part img{max-width:980px;width:100%;height:auto;display:block;margin:14px auto;border-radius:12px}.module-part .relationship-history{overflow:visible}.character-stack{max-width:1500px;margin:0 auto;padding:18px}.character-part{scroll-margin-top:90px;margin:0 0 28px}.character-part>.panel{display:block!important}.character-part .hero{border:1px solid #ded8ca;border-top:0;background:#fff;padding:16px 18px}.character-part .hero p{margin:8px 0 0;line-height:1.55;font-size:13px;color:#53615b}.character-part .card{border:1px solid #ded8ca;border-radius:12px;background:#fff;margin:10px 0 0;padding:16px 18px;overflow:visible}.character-part .card h3{margin:0 0 10px;font-size:17px}.character-part .card p{margin:0 0 10px;line-height:1.6;font-size:13px}.character-part .card p:last-child{margin-bottom:0}
+.character-tab-wrap{position:sticky;top:58px;z-index:22;background:#ebe6da;border-bottom:1px solid #d8d0c2;padding:10px 16px}
+.character-tabs{max-width:1500px;margin:auto;display:flex;gap:8px;flex-wrap:wrap}
+.character-tab{appearance:none;border:1px solid #bcb3a3;background:#fff;color:#315b4c;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;cursor:pointer}
+.character-tab.active{background:#315b4c;color:#fff;border-color:#315b4c}
+.character-dossier-stack{max-width:1500px;margin:0 auto;padding:18px}
+.character-dossier{display:none}
+.character-dossier.active{display:block}
+.character-title{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin-bottom:12px}
+.character-kicker{font-size:10px;font-weight:900;letter-spacing:.12em;color:#6b776f}
+.character-title h3{font-size:27px;margin:5px 0 0}
+.character-state-chip{font-size:10px;font-weight:900;letter-spacing:.04em;border:1px solid #9fb6aa;background:#e9f1ed;color:#315b4c;padding:7px 9px;border-radius:999px}
+.evo-block{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin:0 0 14px}
+.evo-block-num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#315b4c;color:#fff;font-weight:900}
+.evo-block h4{margin:2px 0 10px;font-size:19px}
+.evo-block p{margin:0;line-height:1.68;font-size:14px}
+.evo-intro{color:#59655f;margin-bottom:12px!important}
+.evo-step{border-left:3px solid #a9bcae;padding:4px 0 4px 14px;margin:12px 0 0}
+.evo-step-head{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.evo-step-no{display:inline-grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#e8eee9;color:#315b4c;font-size:11px;font-weight:900}
+.evo-step p{font-size:13px}.evo-source{margin-top:7px;font-size:11px;font-weight:900;color:#718078;letter-spacing:.02em}
+.final-block{border-color:#9fb6aa;background:#f5faf7}
+.relationship-tab-wrap{position:sticky;top:58px;z-index:22;background:#ebe6da;border-bottom:1px solid #d8d0c2;padding:10px 16px}
+.relationship-tabs{max-width:1500px;margin:auto;display:flex;gap:8px;flex-wrap:wrap}
+.relationship-tab{appearance:none;border:1px solid #bcb3a3;background:#fff;color:#315b4c;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;cursor:pointer}
+.relationship-tab.active{background:#315b4c;color:#fff;border-color:#315b4c}
+.relationship-dossier-stack{max-width:1500px;margin:0 auto;padding:18px}
+.relationship-dossier{display:none}
+.relationship-dossier.active{display:block}
+.relationship-title{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin-bottom:12px}
+.relationship-kicker{font-size:10px;font-weight:900;letter-spacing:.12em;color:#6b776f}
+.relationship-title h3{font-size:27px;margin:5px 0 0}
+.relationship-state-chip{font-size:10px;font-weight:900;letter-spacing:.04em;border:1px solid #9fb6aa;background:#e9f1ed;color:#315b4c;padding:7px 9px;border-radius:999px}
+.rel-block{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin:0 0 14px}
+.rel-block-num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#315b4c;color:#fff;font-weight:900}
+.rel-block h4{margin:2px 0 10px;font-size:19px}
+.rel-block h5{margin:0 0 8px;font-size:14px}
+.rel-block p{margin:0;line-height:1.68;font-size:14px}
+.rel-action{border-left:3px solid #a9bcae;padding:4px 0 4px 14px;margin:12px 0 0}
+.rel-action:first-child{margin-top:0}
+.rel-action-head{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.rel-action-head span{display:inline-grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#e8eee9;color:#315b4c;font-size:11px;font-weight:900}
+.rel-action p{font-size:13px}
+.thought-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.thought-grid>div{background:#f7f5ef;border:1px solid #e2dccf;border-radius:11px;padding:14px}
+.rel-final-block{border-color:#9fb6aa;background:#f5faf7}
+.rel-negative-block{border-color:#cfb9b9;background:#fffafa}
+.reader-episode-stack{max-width:1500px;margin:0 auto;padding:18px}
+.reader-episode-title{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin-bottom:12px}
+.reader-kicker{font-size:10px;font-weight:900;letter-spacing:.12em;color:#6b776f}
+.reader-episode-title h3{font-size:27px;margin:5px 0 0}
+.reader-episode-title>span{font-size:10px;font-weight:900;letter-spacing:.04em;border:1px solid #9fb6aa;background:#e9f1ed;color:#315b4c;padding:7px 9px;border-radius:999px}
+.reader-block{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin:0 0 14px}
+.reader-block-num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#315b4c;color:#fff;font-weight:900}
+.reader-block h4{margin:2px 0 12px;font-size:19px}
+.reader-block h5{margin:0 0 6px;font-size:14px}
+.reader-block p{margin:0;line-height:1.66;font-size:13px}
+.reader-timeline{display:grid;gap:12px}
+.reader-step{display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;border-left:3px solid #a9bcae;padding:3px 0 3px 12px}
+.reader-step-dot{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#e8eee9;color:#315b4c;font-size:11px;font-weight:900}
+.reader-secret-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.reader-secret{background:#f7f5ef;border:1px solid #e2dccf;border-radius:11px;padding:14px}
+.reader-hooks{display:grid;gap:10px}
+.reader-hook{border:1px solid #ddd5c7;border-radius:11px;padding:13px;background:#fff}
+.reader-hook-top{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:6px}
+.reader-hook-top span{font-size:10px;font-weight:900;letter-spacing:.05em;color:#315b4c;background:#e9f1ed;border:1px solid #aac0b5;border-radius:999px;padding:4px 7px}
+.possibility-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.possibility-grid>div{border:1px solid #e2dccf;border-radius:11px;padding:14px;background:#fff}
+.reader-list{margin:0;padding-left:20px;display:grid;gap:8px}
+.reader-list li{line-height:1.58;font-size:13px}
+.reader-noncanon-block{border-color:#cfb9b9;background:#fffafa}
+.reader-carry-block{border-color:#9fb6aa;background:#f5faf7}
+.ledger-tab-wrap{position:sticky;top:58px;z-index:22;background:#ebe6da;border-bottom:1px solid #d8d0c2;padding:10px 16px}
+.ledger-rel-tabs{max-width:1500px;margin:auto;display:flex;gap:8px;flex-wrap:wrap}
+.ledger-rel-tab{appearance:none;border:1px solid #bcb3a3;background:#fff;color:#315b4c;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;cursor:pointer}
+.ledger-rel-tab.active{background:#315b4c;color:#fff;border-color:#315b4c}
+.ledger-episode-stack{max-width:1500px;margin:0 auto;padding:18px}
+.ledger-pair{display:none}
+.ledger-pair.active{display:block}
+.ledger-title{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin-bottom:14px}
+.ledger-kicker{font-size:10px;font-weight:900;letter-spacing:.12em;color:#6b776f}
+.ledger-title h3{font-size:27px;margin:5px 0 0}
+.ledger-title>span{font-size:10px;font-weight:900;letter-spacing:.04em;border:1px solid #9fb6aa;background:#e9f1ed;color:#315b4c;padding:7px 9px;border-radius:999px}
+.ledger-timeline{position:relative;padding:4px 0 4px 10px}
+.ledger-timeline:before{content:"";position:absolute;left:25px;top:18px;bottom:18px;width:3px;background:#b9c9c1;border-radius:3px}
+.ledger-node{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr);gap:14px;margin:0 0 14px}
+.ledger-dot{position:relative;z-index:2;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#315b4c;color:#fff;font-size:11px;font-weight:900}
+.ledger-node-card{background:#fff;border:1px solid #ded8ca;border-radius:12px;padding:14px}
+.ledger-node-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap;margin-bottom:7px}
+.ledger-node-top a{font-size:11px;font-weight:800;color:#315b4c;text-decoration:none}
+.ledger-node-card p{margin:0;line-height:1.62;font-size:13px}
+.ledger-end .ledger-node-card{background:#f5faf7;border-color:#9fb6aa}
+.author-episode-stack{max-width:1500px;margin:0 auto;padding:18px}
+.author-episode-title{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin-bottom:14px}
+.author-kicker{font-size:10px;font-weight:900;letter-spacing:.12em;color:#6b776f}
+.author-episode-title h3{font-size:27px;margin:5px 0 0}
+.author-episode-title>span{font-size:10px;font-weight:900;letter-spacing:.04em;border:1px solid #9fb6aa;background:#e9f1ed;color:#315b4c;padding:7px 9px;border-radius:999px}
+.author-episode-block{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;background:#fff;border:1px solid #ded8ca;border-radius:14px;padding:18px;margin:0 0 14px}
+.author-block-num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#315b4c;color:#fff;font-weight:900}
+.author-episode-block h4{margin:2px 0 12px;font-size:19px}
+.author-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.author-card{background:#f7f5ef;border:1px solid #e2dccf;border-radius:11px;padding:14px}
+.author-card h5{margin:0 0 7px;font-size:14px}
+.author-card p{margin:0;line-height:1.65;font-size:13px}
+.author-list{margin:0;padding-left:20px;display:grid;gap:9px}
+.author-list li{font-size:13px;line-height:1.62}
+.author-route-table{display:grid;border:1px solid #ddd5c7;border-radius:11px;overflow:hidden}
+.author-route-row{display:grid;grid-template-columns:.8fr 1.2fr 1.5fr 1.3fr}
+.author-route-row>*{padding:10px 11px;border-right:1px solid #e1dbcf;border-bottom:1px solid #e1dbcf;font-size:12px;line-height:1.5}
+.author-route-row>*:last-child{border-right:0}
+.author-route-row:last-child>*{border-bottom:0}
+.author-route-head{background:#eef2ee}
+.author-ambiguity-block{border-color:#cabf9d;background:#fffdf7}
+.author-guard-block{border-color:#9fb6aa;background:#f5faf7}
+.author-obligation-block{border-color:#c5b6cb;background:#fdfaff}
+@media(max-width:760px){.author-episode-block{grid-template-columns:38px minmax(0,1fr);padding:14px}.author-block-num{width:32px;height:32px}.author-card-grid{grid-template-columns:1fr}.author-route-table{overflow-x:auto}.author-route-row{min-width:760px}.author-episode-title h3{font-size:23px}}
+@media(max-width:760px){.ledger-tab-wrap{position:relative;top:auto}.ledger-rel-tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.ledger-rel-tab{white-space:nowrap}.ledger-title h3{font-size:23px}.ledger-node-top{display:block}.ledger-node-top a{display:inline-block;margin-top:5px}}
+@media(max-width:760px){.reader-block{grid-template-columns:38px minmax(0,1fr);padding:14px}.reader-block-num{width:32px;height:32px}.reader-secret-grid,.possibility-grid{grid-template-columns:1fr}.reader-episode-title h3{font-size:23px}}
+@media(max-width:760px){.relationship-tab-wrap{position:relative;top:auto}.relationship-tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.relationship-tab{white-space:nowrap}.rel-block{grid-template-columns:38px minmax(0,1fr);padding:14px}.rel-block-num{width:32px;height:32px}.relationship-title h3{font-size:23px}.thought-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.character-tab-wrap{position:relative;top:auto}.character-tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.character-tab{white-space:nowrap}.evo-block{grid-template-columns:38px minmax(0,1fr);padding:14px}.evo-block-num{width:32px;height:32px}.character-title h3{font-size:23px}}.footer{padding:24px;text-align:center;color:#6c756f;font-size:12px}
+@media(max-width:760px){header{padding:18px 15px}.jump-wrap{position:relative}.parallel-headings{display:none}.parallel-row{grid-template-columns:1fr}.parallel-source{border-right:0;border-bottom:1px dashed #ddd6c8}.parallel-source:before{content:"40% · Original";display:block;font-size:10px;font-weight:900;margin-bottom:7px;color:#59645f}.parallel-local:before{content:"40% · Complete local language";display:block;font-size:10px;font-weight:900;margin-bottom:7px;color:#59645f}.part-meta{border-radius:12px 12px 0 0}}
+</style>
+</head>
+<body>
+<header><h1>DHIKA Story Engine · Episode 02 · Collective Review Hub</h1><p>Episode 02 ka Episode View · complete RAW L9–159 + approved Part 1–14 state se consolidated intelligence. Story + Images current image-generation pass ke dauran protected hai; Part files aur image assets untouched hain.</p><div class="toplinks"><a href="../index.html">← Episode 02 Map</a><a href="../../e01-part1-lines17-30/collective/index.html">← Episode 01 View</a><a href="../../e03-original/index.html">Episode 03 →</a></div></header>
+
+<nav class="module-nav" aria-label="Episode 02 modules">
+<button class="active" type="button" data-module="section-story-images">Story + Images</button>
+<button type="button" data-module="section-character">Character Evolution</button>
+<button type="button" data-module="section-relationships">Relationship Progression</button>
+<button type="button" data-module="section-reader">Reader Analysis · Desire, Hooks & Possibilities</button>
+<button type="button" data-module="section-ledger">Relationship History Ledger</button>
+<button type="button" data-module="section-author">Storytelling & Authoring Notes</button>
+</nav>
+
+<section class="section-shell active" id="section-story-images">
+<div class="section-banner"><div class="section-kicker">EPISODE 02 · SECTION 1</div><h2>STORY + IMAGES</h2><p>Protected during the current image-generation workflow. Is pass mein existing Story + Images text, assets, prompts, mappings ya statuses ko compile/rewrite/replace nahi kiya gaya.</p></div>
+<main class="author-episode-stack">
+<div class="author-episode-title"><div><div class="author-kicker">CURRENT WORKING STATE</div><h3>Story + Images · intentionally left untouched</h3></div><span>IMAGE WORK IN PROGRESS</span></div>
+<section class="author-episode-block author-guard-block"><div class="author-block-num">1</div><div><h4>Protected scope</h4><ul class="author-list">
+<li>Part 1–14 ke current Story + Images sections, image files, IMAGE_PROMPTS.md, missing-image prompt handoff aur existing mappings mein is combined-view commit se koi change nahi.</li>
+<li>Part 1 ki locked image state preserve hai; pending image states ko false “complete” nahi mark kiya gaya.</li>
+<li>Jab image-generation pass complete/approved hoga, isi first Episode tab mein approved local-language story + exact beat-mapped images E01 architecture ke same reading order mein compile kiye ja sakte hain.</li>
+<li>Abhi Part-wise source/review pages current working image surface remain karte hain: <a href="../index.html">open Episode 02 Part View ↗</a>.</li>
+</ul></div></section>
+</main></section>
+
+<section class="section-shell" id="section-character">
+<div class="section-banner"><div class="section-kicker">EPISODE 02 · SECTION 2</div><h2>CHARACTER EVOLUTION</h2><p>Character-centric Episode dossier. Har character ke liye exactly: Baseline → What Changed & How → Final State. Later reveal ko false “new personality” nahi banaya gaya.</p></div>
+<div class="character-tab-wrap"><div class="character-tabs">
+<button class="character-tab active" data-character-target="dhika">Dhika</button><button class="character-tab" data-character-target="john">John</button><button class="character-tab" data-character-target="uncle">Uncle</button><button class="character-tab" data-character-target="aunty">Aunty</button><button class="character-tab" data-character-target="chotu">Chotu / Babu</button><button class="character-tab" data-character-target="bantu">Bantu</button><button class="character-tab" data-character-target="bobby">Bobby</button><button class="character-tab" data-character-target="pappu">Pappu</button><button class="character-tab" data-character-target="bindu">Bindu Maami</button>
+</div></div>
+<main class="character-dossier-stack">
+<article class="character-dossier active" data-character="dhika">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Dhika</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>Dhika ka E02 baseline E01 ke final state ko carry karta hai: 29-year-old Physics teacher, John ki wife, Pappu ki mother, caring/helpful, shy, modest aur orthodox upbringing se shaped. E01 ke end tak Chotu/Babu ke saath ek deliberate visual test ho chuka tha; Chotu ne dekha aur eye contact hua, lekin no touch, no confession, no affair aur no blanket future permission.</p>
+<p>E02 khud marriage history ko deepen karta hai: John uska first suitor/partner tha; physical comfort gradually build hui; Dhika ab bhi sexual aur clothing openness mein naturally shy hai. Uski normal identity “suddenly bold” nahi hoti. Episode ka core change yeh hai ki alag-alag people ke saath uski comfort, embarrassment, secrecy aur curiosity person-specific tareeke se diverge karti hai.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>John ke return par guilt hide hota hai</b></div><p>E01 Chotu moment ke turant baad John aata hai. Dhika guilt feel karti hai, lekin visibly normal caring-wife/family mode resume karti hai. Isse marriage rejection nahi, balki private information gap establish hota hai.</p><div class="evo-source">P1 · L9–17 · E001–E002</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Clothing comfort mein limited voluntary expansion</b></div><p>John ka short-skirt suggestion reject hota hai, lekin Dhika khud full skirt + sleeveless top choose karti hai. Chotu ka earlier compliment aur E01 test memory us confidence mein factor bante hain; John ko yeh internal influence pata nahi.</p><div class="evo-source">P4 · L37–48 · E009–E010</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">3</span><b>Uncle ka hidden breach discover hota hai</b></div><p>Dhika Uncle ko apni bra ke saath covert sexual misuse karte hue witness karti hai aur uski clothed arousal bhi accidentally notice hoti hai. Shock/blush ke baad woh wrongdoing recognize karti hai, phir bhi anger feel nahi karti aur kuch excitement note karti hai. Yeh reaction permission nahi hai.</p><div class="evo-source">P6 · L58–67 · E013–E015</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">4</span><b>Discovery ko conceal + rationalize karti hai</b></div><p>Dhika Uncle ko believe karne deti hai ki usne kuch nahi dekha. Woh incident minimize/rationalize karti hai, partly self-blame leti hai, milk logistics change karke recurrence risk reduce karti hai, aur John ko nahi batati.</p><div class="evo-source">P7 · L68–76 · E016–E018</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">5</span><b>Marriage mein initiative ka new delta</b></div><p>Consensual marital sex mein Dhika khud top position initiate karti hai. Position historical relationship mein new nahi, lekin initiative uske liye new hai; John less-shy expression notice karta hai. Source exact external trigger/fantasy ko name nahi karta.</p><div class="evo-source">P8 · L77–80 · E019</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">6</span><b>Students ke accidental exposure par opposite reaction</b></div><p>Bantu/Bobby ke saamne saree-pallu accident unwanted visibility create karta hai. Dhika horrified, embarrassed aur reputation ko lekar afraid hoti hai. Is incident ko Chotu-specific excitement ke saath merge nahi kiya ja sakta.</p><div class="evo-source">P12–P13 · L120–153 · E027–E033</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">7</span><b>Selective disclosure strengthen hota hai</b></div><p>Dhika complete accidental student incident John ko batati hai. John joke ke baad reassure karta hai. Is disclosure ke bawajood Uncle discovery aur Chotu-related private layer John se hidden rehti hai.</p><div class="evo-source">P13 · L140–153 · E031–E033</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">8</span><b>Chotu route passive memory se deliberate opportunity tak</b></div><p>College avoid karte hue Dhika mind divert karne ke liye Chotu ke baare mein sochti hai, delivery intentionally arrange karti hai aur usse meet/talk karne ka opportunity create karti hai. Bath mein woh explicitly recognize karti hai ki Chotu ke saath comfort/excitement twins incident se different hai.</p><div class="evo-source">P14 · L154–159 · E034–E037</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>Episode end par Dhika ab bhi shy/modest family-and-teacher identity retain karti hai, lekin uske andar stronger person-specific adult curiosity aur self-awareness active hai. Marriage intact hai; twins accident John ko disclosed hai; Uncle breach John/Aunty se hidden hai; Chotu ko woh deliberately meet/talk karna chahti hai, lekin Chotu arrive nahi karta. Final outfit bhi unresolved hai.</p></div></section>
+</article>
+<article class="character-dossier" data-character="john">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>John</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>John 31-year-old husband/father hai: caring, workaholic but work-life balance conscious, charming, sexually open aur Dhika se less shy. E02 history explicitly establish karti hai ki uska sex drive high hai, lekin woh Dhika ko force nahi karta; comfort aur voluntary change uske liye important hai.</p><p>Uska ek separate preference bhi clear hai: Dhika jab voluntarily more open/revealing dress ya behavior choose karti hai aur doosre adults uski beauty notice karte hain, John ko show-off/admiration aspect exciting lag sakta hai. Yeh preference kisi third person ko automatic permission nahi deta.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Family anchor reaffirm hota hai</b></div><p>Return ke baad Pappu ke saath affectionate reunion aur Dhika ke shoulder par sleep secure family baseline reinforce karte hain.</p><div class="evo-source">P1 · L13–17 · E002</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Uncle-gaze knowledge explicit hota hai</b></div><p>John repeatedly Uncle ko Dhika par gaze karte notice kar chuka hai. Dhika unaware hai. John ise confront nahi karta aur apni show-off preference ki wajah se internally angry bhi nahi hota.</p><div class="evo-source">P3–P5 · L33–57 · E007–E012</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">3</span><b>Dhika ka voluntary outfit change notice karta hai</b></div><p>Full skirt + sleeveless top choose karna John ko surprise karta hai. Woh change ka actual Chotu-memory influence nahi jaanta.</p><div class="evo-source">P4 · L37–48 · E009–E010</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">4</span><b>New marital initiative observe karta hai</b></div><p>Dhika consensual sex mein initiative leti hai; John difference notice karta hai, lekin source usse exact hidden cause ka knowledge nahi deta.</p><div class="evo-source">P8 · L77–80 · E019</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">5</span><b>Academic tuition ko overt frame mein support karta hai</b></div><p>Dhika twins ki extra Physics tuition ka plan batati hai; John stated academic arrangement ko support karta hai. Hidden personal motives ya later accident us point par unknown hain.</p><div class="evo-source">P10 · L113 · E025</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">6</span><b>Accident disclosure receive karke reassure karta hai</b></div><p>Dhika student exposure accident fully disclose karti hai. John pehle laughs/jokes, phir accident frame karke reassure karta hai. Narrator uska private arousal bhi record karta hai, but that does not create future permission.</p><div class="evo-source">P13 · L140–153 · E031–E033</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par John affectionate/caring husband aur father hai. Woh student accident jaanta hai, Uncle ke repeated gaze pattern ko jaanta hai, lekin Uncle ka bra breach aur Dhika ka witness-state nahi jaanta. Chotu visual-test motive/after-effect aur P14 deliberate Chotu meeting setup bhi usse disclosed nahi hai.</p></div></section>
+</article>
+<article class="character-dossier" data-character="uncle">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Uncle</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>Uncle trusted next-door elder / second-guardian surface carry karta hai. E01 se reader ko uska hidden attraction aur covert bra-related breach known tha, jabki Dhika unaware thi. E02 mein John ka separate knowledge bhi clear hota hai: usne Uncle ko Dhika ko gaze karte multiple times notice kiya hai.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Public gaze pattern live scene mein continue hota hai</b></div><p>Dhika ke skirt + tight sleeveless top par Uncle visibly mesmerized hota hai, compliment blurts out karta hai aur lunch ke dauran quick glances leta hai. John notice karta hai; Dhika nahi.</p><div class="evo-source">P5 · L49–57 · E011–E012</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Practical access covert breach mein convert hota hai</b></div><p>Pappu ke milk ke liye Dhika ke ghar jaana practical errand tha. Uncle bathroom mein Dhika ki white bra uthakar sniff/lick karta hai, private sexual imagination mein chala jata hai aur visibly aroused hota hai. Yeh Dhika ki permission ke bina covert boundary violation hai.</p><div class="evo-source">P6 · L58 · E013</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">3</span><b>Dhika witness karti hai — Uncle unaware rehta hai</b></div><p>Dhika curiosity se bathroom peek karke act dekh leti hai aur phir silently bahar aa jaati hai. Uncle ko pata nahi ki uska secret discover ho chuka hai.</p><div class="evo-source">P6 · L59–67 · E014–E015</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">4</span><b>Public trusted surface survive karta hai</b></div><p>Dhika cover story deti hai, disclosure nahi karti aur milk logistics change karti hai. P14 tak Uncle/Aunty Pappu ko temple le jaane wale trusted caregivers ki public role mein hi dikhte hain.</p><div class="evo-source">P7 + P14 · E016–E018, E034</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02: Uncle ka hidden adult fixation/garment breach reader aur Dhika ko known hai; Uncle thinks secret intact; John/Aunty ko specific breach ka knowledge nahi. Public elder/caregiver surface intact hai, but Dhika-side awareness and safeguard E01 se major change hai.</p></div></section>
+</article>
+<article class="character-dossier" data-character="aunty">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Aunty</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>Aunty trusted neighbour/family-like elder aur Uncle ki spouse hai. Dhika-John-Pappu ke saath household familiarity aur childcare trust established hai. E02 source usse Uncle ke deeper covert behavior ka informed participant nahi banata.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Compliment par stern reaction</b></div><p>Uncle Dhika ko unusually emphatic compliment deta hai; Aunty stern look deti hai. Source yeh establish nahi karta ki usse Uncle ke full gaze pattern ya bathroom breach ka knowledge hai.</p><div class="evo-source">P5 · L49–55 · E011</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Childcare/family trust continue hota hai</b></div><p>Episode end ke din Aunty/Uncle Pappu ko temple le jaate hain, jo established caregiver routine ka continuation hai.</p><div class="evo-source">P14 · L154–155 · E034</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par Aunty ka Dhika-family bond trusted aur functional hai. Uncle ke bra act, Dhika ke witness-state, ya concealment ka knowledge source establish nahi karta.</p></div></section>
+</article>
+<article class="character-dossier" data-character="chotu">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Chotu / Babu</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>E01 approved state ke mutabik Chotu/Babu 19-year-old adult delivery worker hai. Dhika use almost ek saal se jaanti hai; trusted didi/younger-brother-like familiarity, family-problem confiding aur Pappu familiarity baseline hai. E01 end tak Chotu little crush develop kar chuka tha; Dhika ne deliberate visual test kiya, Chotu ne partial breast view dekha, eye contact hua, but no touch/confession/romance.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Physical absence itself becomes story information</b></div><p>E02 mein Chotu live scene mein appear nahi karta. Dhika Sunday morning briefly usse yaad karti hai aur later sleeveless choice ko uske prior compliment/test memory se connect karti hai.</p><div class="evo-source">P3–P4 · L27, L45–48 · E006, E010</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Sudden leave unresolved hook banta hai</b></div><p>Store par Dhika specifically Chotu se grocery delivery karwana chahti hai; Maami sudden leave batati hai. Dhika wonder karti hai ki kya E01 event ne use frighten kiya, but this remains speculation.</p><div class="evo-source">P11 · L114–119 · E026</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">3</span><b>Check-in desire deliberate meeting setup mein advance hota hai</b></div><p>P14 mein Dhika intentionally delivery order place karti hai before confirming availability; Maami response par smile karti hai aur treats add karti hai. Source supports deliberate meet/talk opportunity, not an already-agreed sexual encounter.</p><div class="evo-source">P14 · L154–157 · E034–E035</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">4</span><b>Dhika person-specific comfort explicitly name karti hai</b></div><p>Bath mein woh E01 memory aur twins accident compare karke sochti hai ki Chotu ke saath excitement/comfort kyun different hai; trusted confiding familiarity ko reason maanती hai.</p><div class="evo-source">P14 · L158 · E036</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par Chotu expected hai but arrives nahi. Uska sudden leave reason, E01 ke baad uski internal reaction aur P14 delivery par actual response unknown hain. Relationship opportunity level par advance hoti hai; physical/sexual encounter E02 mein occur nahi karta.</p></div></section>
+</article>
+<article class="character-dossier" data-character="bantu">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Bantu</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>E01 approved state Bantu ko age 18 par verify karta hai; woh Bobby ka twin aur Dhika ka favourite adult student hai. Studious, charming, talkative aur recurring compliment routine wala baseline carry hota hai. E02 mein uska genuine Theoretical Physics ambition bhi source-established hai.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Compliment familiarity continue hoti hai</b></div><p>Staff room mein Bantu Dhika ko beautiful bolta hai; Dhika public-volume boundary lagati hai but interaction familiar/playful hai.</p><div class="evo-source">P9 · L83–88 · E020</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Academic request ke peeche extra-proximity plan reader-known hai</b></div><p>Bantu twins ki higher Physics interest explain karta hai aur extra tuition route open karta hai. Narrator separately batata hai ki usne Dhika ke saath more time/access ka plan banaya tha. Genuine academic ambition aur hidden proximity motive simultaneously exist karte hain.</p><div class="evo-source">P9–P10 · L89–109 · E021–E023</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">3</span><b>Accidental exposure par gaze avert karta hai</b></div><p>Dhika ke ghar saree-pallu accident ke waqt Bantu awkward feel karke eyes avert karta hai; baad mein rapid exit manage karta hai aur Bobby ke run-out ko cover explanation deta hai.</p><div class="evo-source">P12 · L126–137 · E028–E029</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par Bantu ka overt relationship favourite teacher + scheduled academic tuition hai. Woh accidental exposure jaanta hai, Bobby ka abrupt exit jaanta hai, aur Dhika usse trouble create na karne wale “sweet” student ke roop mein trust karti hai. No new physical sexual contact in E02.</p></div></section>
+</article>
+<article class="character-dossier" data-character="bobby">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Bobby</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>Bobby Bantu ka twin hai; E01 adult-age continuity Bantu ke verified 18-year-old twin status se carry hoti hai. Dhika use shy/introvert favourite student ke roop mein treat karti hai aur tease karke comfortable zone se bahar laane ki tendency rakhti hai. E01 mein ride/proximity history already existed.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Prior closeness Dhika ke memory mein active hai</b></div><p>Tuition conversation ke dauran Dhika previous ride/contact yaad karke Bobby ko tease karti hai. Bobby startled hota hai aur current scene mein hidden hip glimpse try karta hai.</p><div class="evo-source">P9 · L89–97 · E021</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Academic tuition route Bantu ke saath open hota hai</b></div><p>Bobby extra tuition request ko bluntly verbalize karta hai; Dhika twins ki ambition se genuinely impressed hokar help agree karti hai.</p><div class="evo-source">P9–P10 · L98–112 · E022–E024</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">3</span><b>Home key retrieval + accidental exposure se awkward rupture</b></div><p>Door key handbag se nikalte waqt Bobby close proximity mein baby-powder scent privately notices. Later saree-pallu accident par woh stares; Dhika horrified hoti hai; Bobby discussion se pehle ghar se abruptly nikal jata hai.</p><div class="evo-source">P12 · L120–137 · E027–E029</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par Bobby ka teacher-student route awkward unresolved state mein hai. Woh accidental exposure witness kar chuka hai aur run out karta hai; Dhika uski reaction se embarrassed/afraid hai but expects twins not to spread it. No new body touch or permission in E02.</p></div></section>
+</article>
+<article class="character-dossier" data-character="pappu">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Pappu</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>Pappu Dhika-John ka young child hai aur strictly family/caregiving context ka character hai. Adult relationship or erotic analysis se bahar hai.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Father-son warmth reaffirm hoti hai</b></div><p>John return par Pappu uske paas bhaagta hai; John lift, kiss aur tickle karta hai. Family unit ka secure everyday surface establish hota hai.</p><div class="evo-source">P1 · L13–17 · E002</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>Household logistics mein caregiver routine continue</b></div><p>Lunch ke time milk need aur P14 temple outing adult plot timing ko affect karte hain, but Pappu khud adult routes ka participant/observer nahi banaya gaya.</p><div class="evo-source">P5 + P14 · E012, E034</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par Pappu ordinary protected child/family node hai. No adult-route knowledge is established.</p></div></section>
+</article>
+<article class="character-dossier" data-character="bindu">
+  <div class="character-title"><div><div class="character-kicker">EPISODE 02 · CHARACTER DOSSIER</div><h3>Bindu Maami</h3></div><span class="character-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="evo-block baseline-block"><div class="evo-block-num">1</div><div><h4>Character Setup / Baseline</h4><p>Bindu Maami store/customer-service link hai aur Chotu ke work schedule ki practical information source hai. Dhika ke saath everyday familiar transaction baseline carry hota hai.</p></div></section>
+  <section class="evo-block change-block"><div class="evo-block-num">2</div><div><h4>What Changed & How</h4><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">1</span><b>Chotu absence ki factual source banti hai</b></div><p>Dhika groceries ke saath specifically Chotu delivery maangti hai; Maami batati hai ki Chotu sudden leave par hai. Exact reason nahi diya jata.</p><div class="evo-source">P11 · L114–119 · E026</div></div><div class="evo-step"><div class="evo-step-head"><span class="evo-step-no">2</span><b>P14 delivery setup enable karti hai</b></div><p>Dhika deliberately items order karti hai; Maami ka response Dhika ko smile deta hai, after which treats add kiye jaate hain. Exact Maami response wording RAW mein quoted nahi hai, isliye stronger inference nahi.</p><div class="evo-source">P14 · L156–157 · E035</div></div></div></section>
+  <section class="evo-block final-block"><div class="evo-block-num">3</div><div><h4>Final State — End of Episode 02</h4><p>End E02 par Bindu Maami operational bridge hai. Chotu leave ka fact source-supported hai; leave reason aur Maami ka deeper knowledge not established.</p></div></section>
+</article></main>
+</section>
+
+<section class="section-shell" id="section-relationships">
+<div class="section-banner"><div class="section-kicker">EPISODE 02 · SECTION 3</div><h2>RELATIONSHIP PROGRESSION</h2><p>Pair-centric adult relationship intelligence. Bantu ka age E01 approved source-state mein 18 verified hai; Bobby uska twin hai. Har pair mein action, thought, knowledge, permission aur final state separate rakhe gaye hain.</p></div>
+<div class="relationship-tab-wrap"><div class="relationship-tabs">
+<button class="relationship-tab active" data-relationship-target="john">Dhika ↔ John</button><button class="relationship-tab" data-relationship-target="uncle">Dhika ↔ Uncle</button><button class="relationship-tab" data-relationship-target="bantu">Dhika ↔ Bantu</button><button class="relationship-tab" data-relationship-target="bobby">Dhika ↔ Bobby</button><button class="relationship-tab" data-relationship-target="chotu">Dhika ↔ Chotu / Babu</button>
+</div></div>
+<main class="relationship-dossier-stack">
+<article class="relationship-dossier active" data-relationship="john">
+  <div class="relationship-title"><div><div class="relationship-kicker">EPISODE 02 · DHIKA-CENTERED RELATIONSHIP</div><h3>Dhika ↔ John</h3></div><span class="relationship-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="rel-block "><div class="rel-block-num">1</div><div><h4>Relationship Setup / Baseline</h4><p>Warm established marriage E01 se carry hoti hai. E02 history clarify karti hai ki John Dhika ka first suitor/partner hai; early marital intimacy slowly, gently aur Dhika ke comfort ke saath build hui. John sexually open hai, Dhika naturally shy. John voluntary openness/show-off ko like karta hai, force ko nahi.</p></div></section>
+  <section class="rel-block actions-rel-block"><div class="rel-block-num">2</div><div><h4>Adult / Sexual Action History</h4><div class="rel-action"><div class="rel-action-head"><span>1</span><b>P1 · L9–17</b></div><p>John returns exhausted; Dhika private guilt hide karke ordinary care resume karti hai. Shoulder-sleep aur family interaction intimate domestic continuity dikhate hain, sexual act nahi.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>2</span><b>P2 · L18–24 · narrated marital history</b></div><p>Source first-night restraint, week-long gradual physical comfort, later consensual sex-life expansion aur John ke voluntary-change preference ko establish karta hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>3</span><b>P8 · L77–80</b></div><p>Consensual marital sex mein Dhika top position khud initiate karti hai. Position pehle relationship mein exist karti thi; new element Dhika ka initiative aur less-shy expression hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>4</span><b>P13 · L140–153</b></div><p>Dhika adult students ke accidental exposure incident ko fully disclose karti hai. John jokes/laughs, then reassures; narrator private arousal record karta hai, but no future third-party permission is created.</p></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">3</div><div><h4>Thoughts / Desire / Attraction — Both Sides</h4><div class="thought-grid"><div><h5>Dhika → John</h5><p>John ko caring husband, comfort source aur family anchor ke roop mein retain karti hai. P1 guilt usse hide karti hai; P13 embarrassment eventually disclose karti hai. Uncle breach aur Chotu motive still hidden rehte hain.</p></div><div><h5>John → Dhika</h5><p>John Dhika ki beauty/openness ko admire karta hai aur voluntary change ko exciting maanta hai. Uncle gaze se aware hai. P8 initiative notice karta hai; P13 accident ko less catastrophic frame mein dekhkar reassure karta hai.</p></div></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">4</div><div><h4>What Changed & How</h4><p>Pair break nahi hota; intimacy aur disclosure channel actually strengthen hota hai. Main E02 change selective transparency hai: twins accident disclose hota hai, lekin Chotu/Uncle secrets remain. Dhika sexual initiative marriage ke andar expand karti hai without general personality rewrite.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">5</div><div><h4>Knowledge / Secrecy</h4><p>John knows: Uncle ka recurring gaze pattern, academic tuition arrangement, P13 student accident. John does not know: E01 Chotu test motive/after-effect, E02 sleeveless choice par Chotu-memory influence, Uncle bathroom/bra breach, Dhika witnessing/rationalization, P14 deliberate Chotu meet/talk setup. Dhika bhi John ki every private narrator-stated arousal framing necessarily nahi jaanti.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">6</div><div><h4>Permission / Boundary</h4><p>Marriage = established consensual adult intimacy. John ka show-off preference, laughter, private arousal, ya academic approval kisi outsider ko body access, gaze, touch, future exposure ya sexual permission nahi deta. Dhika ka own person-specific choice separately track hota hai.</p></div></section>
+  <section class="rel-block rel-final-block"><div class="rel-block-num">7</div><div><h4>Final Relationship State — End of Episode 02</h4><p>Secure affectionate marriage + stronger accident disclosure + still-significant knowledge asymmetry. No breakup, no open-marriage agreement, no confrontation about Uncle/Chotu.</p></div></section>
+  <section class="rel-block rel-negative-block"><div class="rel-block-num">8</div><div><h4>Not Established</h4><p>No affair confession, no John approval of Uncle/Chotu/Bantu/Bobby sexual access, no evidence John knows Uncle's bra act, no proof P8 initiative kisi single external fantasy se caused thi.</p></div></section>
+</article>
+<article class="relationship-dossier" data-relationship="uncle">
+  <div class="relationship-title"><div><div class="relationship-kicker">EPISODE 02 · DHIKA-CENTERED RELATIONSHIP</div><h3>Dhika ↔ Uncle</h3></div><span class="relationship-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="rel-block "><div class="rel-block-num">1</div><div><h4>Relationship Setup / Baseline</h4><p>Public surface trusted elder/second-guardian jaisa hai. E01 reader-known layer mein Uncle ka covert attraction, ogling aur secret bra misuse established tha while Dhika unaware thi. E02 start tak John gaze pattern jaanta hai, Dhika specific hidden behavior nahi.</p></div></section>
+  <section class="rel-block actions-rel-block"><div class="rel-block-num">2</div><div><h4>Adult / Sexual Action History</h4><div class="rel-action"><div class="rel-action-head"><span>1</span><b>P5 · L49–57</b></div><p>Uncle Dhika ke outfit par visibly mesmerized hota hai, compliment blurts out karta hai aur lunch mein quick breast-directed glances leta hai. John notice karta hai; Dhika unaware rehti hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>2</span><b>P6 · L58</b></div><p>Milk errand se Dhika ke ghar practical access milta hai. Uncle bathroom mein white bra ko sniff/lick karta hai, Dhika-in-bra imagination mein jata hai aur clothed arousal hoti hai. Yeh covert, unpermitted garment misuse hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>3</span><b>P6 · L59–67</b></div><p>Dhika follow karke act witness karti hai. Uncle ko observer ka knowledge nahi. Dhika silently withdraw karti hai.</p></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">3</div><div><h4>Thoughts / Desire / Attraction — Both Sides</h4><div class="thought-grid"><div><h5>Dhika → Uncle</h5><p>Discovery par shock, blush aur heavy processing hota hai. Woh wrongdoing recognize karti hai, phir bhi anger report nahi karti aur kuch excitement compare karti hai Chotu feeling se. Later rationalize/minimize karti hai. Reaction ≠ consent.</p></div><div><h5>Uncle → Dhika</h5><p>Attraction covert gaze se garment fetishization/private sexual imagination tak clear hai. Source future direct-contact plan establish nahi karta.</p></div></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">4</div><div><h4>What Changed & How</h4><p>E01 end: Dhika unaware. E02 P6 ke baad: Dhika knows. Biggest change mutual behavior nahi, knowledge asymmetry ka reversal hai—Uncle thinks secret intact while Dhika actually knows and actively manages it.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">5</div><div><h4>Knowledge / Secrecy</h4><p>Dhika + reader know bra act and arousal. Uncle thinks Dhika did not enter/see. John knows gaze pattern but not P6 breach. Aunty is not shown knowing the breach. Dhika intentionally John ko nahi batati.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">6</div><div><h4>Permission / Boundary</h4><p>Neighbour/family trust, milk errand, outfit, compliment acceptance, no anger, curiosity, excitement, concealment aur rationalization—none retroactively authorize garment misuse. Dhika ka milk-bottle logistics change actual safeguard hai.</p></div></section>
+  <section class="rel-block rel-final-block"><div class="rel-block-num">7</div><div><h4>Final Relationship State — End of Episode 02</h4><p>Public trusted-elder surface preserved, private breach now Dhika-known, Uncle-unaware. No confrontation; safeguard introduced; secrecy remains structurally active.</p></div></section>
+  <section class="rel-block rel-negative-block"><div class="rel-block-num">8</div><div><h4>Not Established</h4><p>No mutual sexual agreement, no direct sexual body touch, no confession, no Dhika permission, no evidence Aunty knows the bathroom act, no evidence John knows Dhika witnessed it.</p></div></section>
+</article>
+<article class="relationship-dossier" data-relationship="bantu">
+  <div class="relationship-title"><div><div class="relationship-kicker">EPISODE 02 · DHIKA-CENTERED RELATIONSHIP</div><h3>Dhika ↔ Bantu</h3></div><span class="relationship-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="rel-block "><div class="rel-block-num">1</div><div><h4>Relationship Setup / Baseline</h4><p>E01 approved state Bantu ko verified adult age 18 establish karta hai. Favourite-student surface, recurring compliments, Dhika ka private blush/enjoyment aur Bantu ka proximity-seeking history already exist. E02 adds genuine Theoretical Physics ambition alongside reader-known extra-access motive.</p></div></section>
+  <section class="rel-block actions-rel-block"><div class="rel-block-num">2</div><div><h4>Adult / Sexual Action History</h4><div class="rel-action"><div class="rel-action-head"><span>1</span><b>P9 · L83–88</b></div><p>Bantu “very very beautiful” compliment repeat karta hai; Dhika shush/public-volume boundary lagati hai while remaining playful.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>2</span><b>P9–P10 · L89–112</b></div><p>Bantu/Bobby extra Physics tuition request karte hain. Narrator Bantu ka more-time/access plan reveal karta hai; Dhika academic motive sincerely accept karke alternate weekdays home tuition set karti hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>3</span><b>P12 · L126–137</b></div><p>Saree-pallu accident se unwanted breast visibility hoti hai. Bantu awkward feel karke gaze avert karta hai, then exit manage karta hai. No E02 sexual touch.</p></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">3</div><div><h4>Thoughts / Desire / Attraction — Both Sides</h4><div class="thought-grid"><div><h5>Dhika → Bantu</h5><p>Usse polite, studious favourite student maanti hai; compliments familiar hain. Ambition sun kar genuinely happy hoti hai. Accident ke baad Bantu ko trouble na create karne wala “sweet fellow” samajhkar trust karti hai.</p></div><div><h5>Bantu → Dhika</h5><p>Appearance attraction/compliment interest established hai; additionally more time/access plan reader-known hai. E02 source full sexual fantasy ya future act plan specify nahi karta.</p></div></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">4</div><div><h4>What Changed & How</h4><p>College compliment relationship se scheduled home-tuition access tak structural expansion hota hai. Accidental exposure ke baad Bantu ka immediate behavior boundary-aware gaze-aversion/exit management hai, creating awkward shared knowledge without consent or touch.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">5</div><div><h4>Knowledge / Secrecy</h4><p>Bantu knows accident occurred and Bobby abruptly ran. Dhika knows Bantu witnessed but averted. Dhika does not know Bantu ka full hidden proximity plan; John only overt academic arrangement jaanta hai.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">6</div><div><h4>Permission / Boundary</h4><p>Extra tuition, home address, teacher goodwill, compliments, or accidental visibility = sexual permission nahi. Accident immediately unwanted/horrifying for Dhika tha. Bantu's adult age is resolved from E01 canon; that does not change consent boundaries.</p></div></section>
+  <section class="rel-block rel-final-block"><div class="rel-block-num">7</div><div><h4>Final Relationship State — End of Episode 02</h4><p>Favourite adult student + approved academic home access + awkward accidental-exposure history. Wednesday tuition remains future-facing. No new physical sexual encounter in E02.</p></div></section>
+  <section class="rel-block rel-negative-block"><div class="rel-block-num">8</div><div><h4>Not Established</h4><p>No romance confession, no sexual consent, no deliberate exposure by Dhika, no evidence Dhika knows hidden access strategy, no proof future tuition will become sexual.</p></div></section>
+</article>
+<article class="relationship-dossier" data-relationship="bobby">
+  <div class="relationship-title"><div><div class="relationship-kicker">EPISODE 02 · DHIKA-CENTERED RELATIONSHIP</div><h3>Dhika ↔ Bobby</h3></div><span class="relationship-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="rel-block "><div class="rel-block-num">1</div><div><h4>Relationship Setup / Baseline</h4><p>Bobby is Bantu's twin; E01 canon resolves the twins' adult-age continuity from Bantu's verified 18-year-old status. Dhika has a soft spot for Bobby's introvert nature and often teases him to bring him out of his comfort zone. E01 already contains proximity/contact history, so E02 begins with more awkward familiarity than a neutral student baseline.</p></div></section>
+  <section class="rel-block actions-rel-block"><div class="rel-block-num">2</div><div><h4>Adult / Sexual Action History</h4><div class="rel-action"><div class="rel-action-head"><span>1</span><b>P9 · L89–97</b></div><p>Dhika previous ride/contact memory se Bobby ko tease karti hai. Bobby startled hota hai and privately tries to catch a hip glimpse. No touch in this scene.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>2</span><b>P9–P10 · L98–112</b></div><p>Bobby extra tuition request verbalize karta hai; Dhika genuine academic help agree karti hai. Home access overtly tuition/location orientation ke liye hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>3</span><b>P12 · L120–137</b></div><p>Door key nikalte waqt close proximity mein Bobby privately Dhika ka baby-powder scent notice karta hai. Later pallu accident par he stares; Dhika horrified hoti hai; Bobby abruptly runs out. No new touch.</p></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">3</div><div><h4>Thoughts / Desire / Attraction — Both Sides</h4><div class="thought-grid"><div><h5>Dhika → Bobby</h5><p>Favourite shy student + teasing familiarity. Academic ambition par proud/helpful. Accident ke baad embarrassment aur fear dominate; she interprets his run as possible fear and hopes twins will keep incident private.</p></div><div><h5>Bobby → Dhika</h5><p>Visual/proximity interest continues through hidden glance and scent notice; accident par stunned/staring reaction hota hai. Source E02 mein broader fantasy or planned sexual act establish nahi karta.</p></div></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">4</div><div><h4>What Changed & How</h4><p>Teacher/student familiarity → home orientation → close key retrieval → accidental exposure → abrupt exit. E02 change intentional intimacy nahi, shared awkward knowledge and unresolved aftermath hai.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">5</div><div><h4>Knowledge / Secrecy</h4><p>Bobby knows what he saw and his own reaction. Dhika sees him staring and later absent. Bantu knows Bobby ran; Dhika doubts cover explanation. John later learns the exposure accident generally, not every private thought.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">6</div><div><h4>Permission / Boundary</h4><p>Academic access, prior teasing, key retrieval proximity, scent, or accidental visibility do not create sexual permission. Dhika's horror is explicit. No E02 touch follows.</p></div></section>
+  <section class="rel-block rel-final-block"><div class="rel-block-num">7</div><div><h4>Final Relationship State — End of Episode 02</h4><p>Favourite adult student relationship remains, but now carries strong awkwardness after unwanted accident and Bobby's abrupt withdrawal. Future face-to-face tuition consequence remains open.</p></div></section>
+  <section class="rel-block rel-negative-block"><div class="rel-block-num">8</div><div><h4>Not Established</h4><p>No deliberate display by Dhika, no consent, no romantic agreement, no new physical sexual contact, no evidence Bobby's future behavior is already decided.</p></div></section>
+</article>
+<article class="relationship-dossier" data-relationship="chotu">
+  <div class="relationship-title"><div><div class="relationship-kicker">EPISODE 02 · DHIKA-CENTERED RELATIONSHIP</div><h3>Dhika ↔ Chotu / Babu</h3></div><span class="relationship-state-chip">END OF E02 VERIFIED</span></div>
+  <section class="rel-block "><div class="rel-block-num">1</div><div><h4>Relationship Setup / Baseline</h4><p>Chotu/Babu E01 approved state mein 19-year-old adult delivery worker hai. Didi/younger-brother-like trust, confiding familiarity and E01 sexualized gaze history coexist: Dhika deliberate visual test karti hai, Chotu partial breast view dekhta hai, eye contact occurs, and Dhika has sexual-arousal aftermath. No touch/confession/romance.</p></div></section>
+  <section class="rel-block actions-rel-block"><div class="rel-block-num">2</div><div><h4>Adult / Sexual Action History</h4><div class="rel-action"><div class="rel-action-head"><span>1</span><b>P1/P4 · memory carry</b></div><p>Chotu physically absent hai, but E01 event/memory Dhika ke guilt, clothing confidence and excitement thoughts mein active rehti hai.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>2</span><b>P11 · L114–119</b></div><p>Dhika specifically Chotu delivery maangti hai; sudden leave fact milta hai. She wonders whether E01 incident frightened him, but source does not confirm.</p></div>
+<div class="rel-action"><div class="rel-action-head"><span>3</span><b>P14 · L154–159</b></div><p>Dhika intentionally a delivery/conversation opportunity creates and treats add karti hai. Bath mein she explicitly contrasts Chotu-specific comfort/excitement with twins-related horror. Episode ends before Chotu arrives.</p></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">3</div><div><h4>Thoughts / Desire / Attraction — Both Sides</h4><div class="thought-grid"><div><h5>Dhika → Chotu</h5><p>Memory repeatedly returns with shyness/excitement, then concern about sudden leave, then active wish to meet/talk. She identifies trust/confiding familiarity as a reason she feels different around him.</p></div><div><h5>Chotu → Dhika</h5><p>E01 little crush and gaze history are established. E02 gives no live Chotu POV, no arrival and no leave explanation. Any claim about why he stayed away remains unverified.</p></div></div></div></section>
+  <section class="rel-block "><div class="rel-block-num">4</div><div><h4>What Changed & How</h4><p>Relationship moves from E01 immediate gaze-test aftermath → E02 absence/memory influence → concern/check-in → deliberate opportunity setup. This is a meaningful Dhika-side agency increase even though no shared E02 encounter happens.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">5</div><div><h4>Knowledge / Secrecy</h4><p>Dhika knows she wants the meeting opportunity and knows her person-specific comfort. Chotu's leave reason, whether he decoded E01 intent, and how he will respond remain unknown. John does not know Dhika's full Chotu route.</p></div></section>
+  <section class="rel-block "><div class="rel-block-num">6</div><div><h4>Permission / Boundary</h4><p>E01 specific visual test was moment-specific; P14 delivery/conversation invitation is also purpose-specific. Neither creates blanket permission for touch, future exposure, sex, romance or any unshown act.</p></div></section>
+  <section class="rel-block rel-final-block"><div class="rel-block-num">7</div><div><h4>Final Relationship State — End of Episode 02</h4><p>Trusted adult route + unresolved E01 gaze history + deliberate E02 meet/talk setup. Chotu still off-page at episode end; next interaction and final outfit are cliffhangers.</p></div></section>
+  <section class="rel-block rel-negative-block"><div class="rel-block-num">8</div><div><h4>Not Established</h4><p>No E02 arrival, no confirmed leave reason, no confession, no touch, no kiss, no sex, no established affair, no proof Chotu knows Dhika deliberately arranged the meeting.</p></div></section>
+</article></main>
+</section>
+
+<section class="section-shell" id="section-reader">
+<div class="section-banner"><div class="section-kicker">EPISODE 02 · SECTION 4</div><h2>READER ANALYSIS · DESIRE, HOOKS & POSSIBILITIES</h2><p>Episode-wide reader view only. Story retelling, character biographies aur full relationship ledgers yahan duplicate nahi kiye gaye.</p></div>
+<main class="reader-episode-stack">
+<div class="reader-episode-title"><div><div class="reader-kicker">EPISODE 02 · READER DOSSIER</div><h3>After the First Test: Secrets, Contrasts & Deliberate Opportunity</h3></div><span>POINTS 2–7 ONLY</span></div>
+
+<section class="reader-block"><div class="reader-block-num">2</div><div><h4>Erotic / Sexual Tension Progression</h4><div class="reader-timeline">
+<div class="reader-step"><div class="reader-step-dot">1</div><div><h5>E01 after-effect enters marriage space</h5><p>Episode John ke return aur Dhika ke hidden guilt se open hota hai. Outside-gaze curiosity erase nahi hoti, but family/marriage warmth bhi break nahi hoti.</p></div></div>
+<div class="reader-step"><div class="reader-step-dot">2</div><div><h5>John's preference + Dhika's voluntary clothing shift</h5><p>Marriage history John ka voluntary openness/show-off preference explain karti hai. Dhika full skirt + sleeveless top khud choose karti hai; Chotu memory internal factor hai, so desire/validation route marriage influence ke saath overlap karta hai without becoming John-directed permission.</p></div></div>
+<div class="reader-step"><div class="reader-step-dot">3</div><div><h5>Uncle route: hidden gaze → witnessed breach</h5><p>Reader-known covert adult fixation live gaze se bra misuse tak escalates, but biggest dramatic shift yeh hai ki Dhika finally secret witness ban jaati hai. Shock ke saath no-anger/some-excitement response uske own self-reading ko complicate karta hai.</p></div></div>
+<div class="reader-step"><div class="reader-step-dot">4</div><div><h5>Marriage absorbs a new initiative</h5><p>Dhika later consensual sex mein initiative leti hai. Source exact cause name nahi karta, so adult arousal/initiative fact ko Uncle/Chotu fantasy as canon mein collapse nahi karna chahiye.</p></div></div>
+<div class="reader-step"><div class="reader-step-dot">5</div><div><h5>Adult-student routes become contrast, not equivalence</h5><p>18-year-old twins ke accidental exposure par Dhika horror/reputation fear feel karti hai. Bantu averts gaze; Bobby stares/runs. Same body-visibility category ko Chotu route jaisa emotional meaning dena source ke against hoga.</p></div></div>
+<div class="reader-step"><div class="reader-step-dot">6</div><div><h5>Chotu route returns as chosen opportunity</h5><p>Sudden leave mystery concern create karta hai. Episode end par Dhika passive replay nahi—deliberately delivery/meeting opportunity create karti hai aur person-specific comfort/excitement consciously identify karti hai. Actual encounter deliberately deferred hai.</p></div></div>
+</div></div></section>
+
+<section class="reader-block"><div class="reader-block-num">3</div><div><h4>Reader-Known Secrets & Dramatic Irony</h4><div class="reader-secret-grid">
+<div class="reader-secret"><h5>Dhika ↔ John</h5><p>John student accident jaanta hai, but E01 Chotu test motive/after-effect, E02 Chotu-memory clothing influence, Uncle bra discovery and P14 deliberate Chotu setup nahi jaanta.</p></div>
+<div class="reader-secret"><h5>Dhika ↔ Uncle</h5><p>Dhika knows the breach; Uncle believes she does not. This reversed knowledge asymmetry is one of E02's strongest hidden engines.</p></div>
+<div class="reader-secret"><h5>John ↔ Uncle</h5><p>John repeated gaze pattern jaanta hai, Dhika ko yeh knowledge bhi directly disclosed nahi. John specific bathroom breach nahi jaanta.</p></div>
+<div class="reader-secret"><h5>Aunty ↔ Uncle</h5><p>Aunty stern compliment reaction deti hai, but deeper gaze/bra behavior ka knowledge not established.</p></div>
+<div class="reader-secret"><h5>Bantu hidden motive</h5><p>Dhika overt Physics ambition/tuition jaanti hai; reader Bantu ka extra-time/access plan bhi jaanta hai.</p></div>
+<div class="reader-secret"><h5>Chotu absence</h5><p>Dhika theory banati hai ki E01 event ne Chotu ko scare kiya ho sakta hai. Reader ke paas bhi confirmation nahi—mystery genuinely open hai.</p></div>
+</div></div></section>
+
+<section class="reader-block"><div class="reader-block-num">4</div><div><h4>Major Turning Points & Why They Matter</h4><ul class="reader-list">
+<li><b>P1 — guilt + normal family reset:</b> Outside curiosity aur secure marriage ek saath exist kar sakte hain; story immediately affair/breakup binary mein jump nahi karti.</li>
+<li><b>P4 — sleeveless choice:</b> Dhika first time external visit ke liye limited self-chosen openness accept karti hai; Chotu memory already behavior influence kar rahi hai.</li>
+<li><b>P6 — Uncle discovery:</b> E01 reader-only secret heroine knowledge mein convert hota hai. Relationship surface same dikhta hai, but internal reality permanently different hai.</li>
+<li><b>P7 — concealment instead of confrontation:</b> Dhika public trust preserve karti hai while practical safeguard adds; secrecy becomes an active choice.</li>
+<li><b>P8 — marital initiative:</b> Internal adult self-change marriage ke andar behavior delta produce karta hai without source naming one external cause.</li>
+<li><b>P10 — home tuition setup:</b> College-only twins routes future home-space access gain karte hain under legitimate academic frame.</li>
+<li><b>P12/P13 — accident → disclosure:</b> Dhika ka horror proves audience-specific response; John ko disclose karna marriage trust ko selective but real strength deta hai.</li>
+<li><b>P14 — deliberate Chotu opportunity:</b> Episode payoff encounter nahi, choice hai. Dhika actively opportunity create karti hai, then source cuts before outcome.</li>
+</ul></div></section>
+
+<section class="reader-block"><div class="reader-block-num">5</div><div><h4>Open Hooks / Unresolved Questions</h4><div class="reader-hooks">
+<div class="reader-hook"><div class="reader-hook-top"><b>Why did Chotu take sudden leave?</b><span>OPEN</span></div><p>Dhika fears E01 event may be reason; source does not confirm. Next interaction must resolve or meaningfully advance this without retroactive mind-reading.</p></div>
+<div class="reader-hook"><div class="reader-hook-top"><b>Will Chotu arrive, and how will both behave?</b><span>OPEN</span></div><p>P14 deliberately sets delivery/meeting opportunity but ends before arrival.</p></div>
+<div class="reader-hook"><div class="reader-hook-top"><b>What outfit does Dhika finally choose?</b><span>OPEN</span></div><p>Kurti was in hand, then another dress caught her eye. Final outfit is not shown and must not be invented.</p></div>
+<div class="reader-hook"><div class="reader-hook-top"><b>What happens at Wednesday tuition after the accident?</b><span>OPEN</span></div><p>Bantu/Bobby have future home tuition scheduled; embarrassment and knowledge are unresolved.</p></div>
+<div class="reader-hook"><div class="reader-hook-top"><b>Does Uncle's breach remain hidden?</b><span>OPEN</span></div><p>Dhika knows and conceals; Uncle thinks secret intact; John/Aunty lack specific knowledge.</p></div>
+<div class="reader-hook"><div class="reader-hook-top"><b>How long can selective secrecy inside marriage hold?</b><span>OPEN</span></div><p>Twins accident disclosed; Chotu and Uncle routes withheld. This is an information-architecture hook, not proof of impending breakup.</p></div>
+</div></div></section>
+
+<section class="reader-block reader-noncanon-block"><div class="reader-block-num">6</div><div><h4>Reader Possibilities — NON-CANON</h4><div class="possibility-grid">
+<div><h5>Strongly earned</h5><p>Chotu delivery arrival/absence ka direct consequence; E01 eye-contact history ki awkwardness or conversation; Dhika ka final clothing choice; twins ke next tuition interaction ka embarrassment management; Uncle secret ka continued concealment/safeguard pressure.</p></div>
+<div><h5>Possible, needs development</h5><p>John eventually noticing a broader pattern in Dhika's changing behavior; Dhika consciously reassessing why some adult attention excites her and other visibility horrifies her; Aunty gaining partial suspicion about Uncle.</p></div>
+<div><h5>Not yet earned</h5><p>Automatic affair, blanket exhibitionism, instant physical escalation with Chotu, John granting general third-party sexual permission, Uncle receiving consent retroactively, or treating accidental twins exposure as deliberate invitation.</p></div>
+</div></div></section>
+
+<section class="reader-block reader-carry-block"><div class="reader-block-num">7</div><div><h4>Episode-End Reader Carry-Forward</h4><p>E02 ka strongest carry-forward “what happened next sexually?” nahi, balki <b>who knows what, with whom Dhika feels what, and which opportunity she consciously chooses</b> hai. Dhika marriage ko retain karti hai, Uncle breach ko hide karti hai, adult students ke accident se genuinely horrified hoti hai, aur Chotu ke saath comfort/excitement ko person-specific recognize karke meeting opportunity create karti hai. Episode ends before payoff, so E03 ko consequences, knowledge and boundaries se start karna chahiye—not from an invented completed encounter.</p></div></section>
+</main></section>
+
+<section class="section-shell" id="section-ledger">
+<div class="section-banner"><div class="section-kicker">EPISODE 02 · SECTION 5</div><h2>RELATIONSHIP HISTORY LEDGER</h2><p>Episode-local qualifying change nodes only. HOLD-only Parts repeat nahi kiye gaye; detailed evidence Part Relationship Progression / canonical event history mein retained hai.</p></div>
+<div class="ledger-tab-wrap"><div class="ledger-rel-tabs">
+<button class="ledger-rel-tab active" data-ledger-target="john">Dhika ↔ John</button><button class="ledger-rel-tab" data-ledger-target="uncle">Dhika ↔ Uncle</button><button class="ledger-rel-tab" data-ledger-target="bantu">Dhika ↔ Bantu</button><button class="ledger-rel-tab" data-ledger-target="bobby">Dhika ↔ Bobby</button><button class="ledger-rel-tab" data-ledger-target="chotu">Dhika ↔ Chotu / Babu</button>
+</div></div>
+<main class="ledger-episode-stack">
+<article class="ledger-pair active" data-ledger-pair="john">
+<div class="ledger-title"><div><div class="ledger-kicker">EPISODE 02 · RELATIONSHIP HISTORY</div><h3>Dhika ↔ John</h3></div><span>QUALIFYING EVENTS ONLY</span></div>
+<div class="ledger-timeline"><div class="ledger-node"><div class="ledger-dot">1</div><div class="ledger-node-card"><div class="ledger-node-top"><b>Carry-in + P1 · L9–17</b><a href="../part1.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Warm E01 marriage continues. Dhika hides immediate Chotu-related guilt while resuming caring family behavior.</p></div></div><div class="ledger-node"><div class="ledger-dot">2</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P2 · L18–24</b><a href="../part2.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Narrated marriage history establishes gradual consent/comfort, Dhika's persistent shyness and John's voluntary-openness preference.</p></div></div><div class="ledger-node"><div class="ledger-dot">3</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P8 · L77–80</b><a href="../part8.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Dhika initiates a familiar marital position herself; John notices new initiative and less-shy expression.</p></div></div><div class="ledger-node"><div class="ledger-dot">4</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P13 · L140–153</b><a href="../part13.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Dhika fully discloses the accidental student exposure. John jokes, then reassures; selective disclosure strengthens while other secrets remain.</p></div></div><div class="ledger-node ledger-end"><div class="ledger-dot">✓</div><div class="ledger-node-card"><div class="ledger-node-top"><b>Episode 02 Final Relationship State</b></div><p>Secure marriage + stronger disclosure channel + hidden Chotu/Uncle layers still outside John's knowledge.</p></div></div></div></article>
+<article class="ledger-pair" data-ledger-pair="uncle">
+<div class="ledger-title"><div><div class="ledger-kicker">EPISODE 02 · RELATIONSHIP HISTORY</div><h3>Dhika ↔ Uncle</h3></div><span>QUALIFYING EVENTS ONLY</span></div>
+<div class="ledger-timeline"><div class="ledger-node"><div class="ledger-dot">1</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P3–P5 · L33–57</b><a href="../part5.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>John-noticed gaze pattern becomes live through outfit reaction and repeated quick glances; Dhika remains unaware.</p></div></div><div class="ledger-node"><div class="ledger-dot">2</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P6 · L58–67</b><a href="../part6.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Uncle's covert bra misuse occurs; Dhika witnesses it and his arousal without his knowledge.</p></div></div><div class="ledger-node"><div class="ledger-dot">3</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P7 · L68–76</b><a href="../part7.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Dhika hides discovery, rationalizes/minimizes, preserves public trust and changes milk logistics as safeguard.</p></div></div><div class="ledger-node"><div class="ledger-dot">4</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P14 · L154–155</b><a href="../part14.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Public caregiver surface persists when Aunty/Uncle take Pappu to temple; specific breach remains undisclosed.</p></div></div><div class="ledger-node ledger-end"><div class="ledger-dot">✓</div><div class="ledger-node-card"><div class="ledger-node-top"><b>Episode 02 Final Relationship State</b></div><p>Public trusted-elder surface intact; private breach is now Dhika-known but Uncle thinks it remains secret.</p></div></div></div></article>
+<article class="ledger-pair" data-ledger-pair="bantu">
+<div class="ledger-title"><div><div class="ledger-kicker">EPISODE 02 · RELATIONSHIP HISTORY</div><h3>Dhika ↔ Bantu</h3></div><span>QUALIFYING EVENTS ONLY</span></div>
+<div class="ledger-timeline"><div class="ledger-node"><div class="ledger-dot">1</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P9 · L83–103</b><a href="../part9.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Compliment familiarity continues; genuine Physics ambition + reader-known extra-proximity plan lead to tuition request.</p></div></div><div class="ledger-node"><div class="ledger-dot">2</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P10 · L104–112</b><a href="../part10.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Alternate-weekday home tuition and location access are set under explicit academic frame.</p></div></div><div class="ledger-node"><div class="ledger-dot">3</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P12 · L126–137</b><a href="../part12.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Accidental exposure occurs; Bantu averts gaze and manages exit/cover while Dhika is horrified.</p></div></div><div class="ledger-node ledger-end"><div class="ledger-dot">✓</div><div class="ledger-node-card"><div class="ledger-node-top"><b>Episode 02 Final Relationship State</b></div><p>Favourite adult student + future home tuition + awkward accidental-exposure history; no new physical sexual contact.</p></div></div></div></article>
+<article class="ledger-pair" data-ledger-pair="bobby">
+<div class="ledger-title"><div><div class="ledger-kicker">EPISODE 02 · RELATIONSHIP HISTORY</div><h3>Dhika ↔ Bobby</h3></div><span>QUALIFYING EVENTS ONLY</span></div>
+<div class="ledger-timeline"><div class="ledger-node"><div class="ledger-dot">1</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P9 · L89–103</b><a href="../part9.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Prior ride history is verbally recalled; Bobby is teased, shows hidden gaze interest and joins extra-tuition request.</p></div></div><div class="ledger-node"><div class="ledger-dot">2</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P10 · L104–112</b><a href="../part10.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Home tuition/location access is established under academic frame.</p></div></div><div class="ledger-node"><div class="ledger-dot">3</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P12 · L120–137</b><a href="../part12.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Close key retrieval/scent notice precede accidental exposure; Bobby stares and abruptly leaves.</p></div></div><div class="ledger-node ledger-end"><div class="ledger-dot">✓</div><div class="ledger-node-card"><div class="ledger-node-top"><b>Episode 02 Final Relationship State</b></div><p>Favourite adult student relationship now carries unresolved awkwardness after accidental exposure; no E02 touch or permission.</p></div></div></div></article>
+<article class="ledger-pair" data-ledger-pair="chotu">
+<div class="ledger-title"><div><div class="ledger-kicker">EPISODE 02 · RELATIONSHIP HISTORY</div><h3>Dhika ↔ Chotu / Babu</h3></div><span>QUALIFYING EVENTS ONLY</span></div>
+<div class="ledger-timeline"><div class="ledger-node"><div class="ledger-dot">1</div><div class="ledger-node-card"><div class="ledger-node-top"><b>E01 carry-in → P4 · L45–48</b><a href="../part4.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>E01 gaze-test/eye-contact history remains active in Dhika's memory and influences her voluntary sleeveless choice.</p></div></div><div class="ledger-node"><div class="ledger-dot">2</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P11 · L114–119</b><a href="../part11.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Dhika actively asks for Chotu delivery, learns of sudden leave and privately wonders about E01 consequence.</p></div></div><div class="ledger-node"><div class="ledger-dot">3</div><div class="ledger-node-card"><div class="ledger-node-top"><b>P14 · L154–159</b><a href="../part14.html#Relationship%20Progression">Relationship Progression ↗</a></div><p>Dhika deliberately creates a meet/talk delivery opportunity and explicitly recognizes Chotu-specific comfort/excitement; episode ends before arrival.</p></div></div><div class="ledger-node ledger-end"><div class="ledger-dot">✓</div><div class="ledger-node-card"><div class="ledger-node-top"><b>Episode 02 Final Relationship State</b></div><p>Trusted adult route + unresolved E01 sexualized awareness + deliberate E02 opportunity setup; Chotu response/leave reason still unknown.</p></div></div></div></article></main>
+</section>
+
+<section class="section-shell" id="section-author">
+<div class="section-banner"><div class="section-kicker">EPISODE 02 · SECTION 6</div><h2>STORYTELLING & AUTHORING NOTES</h2><p>One combined Episode writer view. Part-by-Part notes repeat nahi; construction, pacing, knowledge control, route differentiation and continuation obligations preserve kiye gaye hain.</p></div>
+<main class="author-episode-stack">
+<div class="author-episode-title"><div><div class="author-kicker">EPISODE 02 · WRITER VIEW</div><h3>ARC 01 — The First Awakening · Continuation</h3></div><span>COMBINED EPISODE NOTES</span></div>
+
+<section class="author-episode-block"><div class="author-block-num">1</div><div><h4>Episode Structure / Narrative Architecture</h4><div class="author-card-grid">
+<div class="author-card"><h5>Direct E01 aftermath</h5><p>Episode new status quo se start nahi hota; Chotu gaze-test ke immediately baad John ke return par guilt/private split se continuation establish hota hai.</p></div>
+<div class="author-card"><h5>Marriage backstory as control context</h5><p>P2 long narrated history Dhika ki shyness, John ka patience aur voluntary-openness preference explain karti hai. Later changes ko “random boldness” se bachane ka baseline yahi hai.</p></div>
+<div class="author-card"><h5>Neighbour route becomes discovered secret</h5><p>John-ke-known gaze → lunch glances → milk access → covert bra act → Dhika witness → concealment. E01 reader-only Uncle threat E02 mein heroine-known hidden history ban jata hai.</p></div>
+<div class="author-card"><h5>Internal change returns to marriage</h5><p>After Uncle discovery, Dhika's new marital initiative adult self-change ko home relationship ke andar manifest karta hai, but source one-to-one causal fantasy specify nahi karta.</p></div>
+<div class="author-card"><h5>College/home-access route creates contrast</h5><p>Twins ka academic plan legitimate structure deta hai; later accidental exposure Dhika ke Chotu-specific excitement ka opposite emotional comparator ban jata hai.</p></div>
+<div class="author-card"><h5>Ending = preparation, not encounter</h5><p>P14 household timing, deliberate order, treats, bath-thought and wardrobe interruption use karke next Chotu interaction stage karta hai, then arrival se pehle cut karta hai.</p></div>
+</div></div></section>
+
+<section class="author-episode-block"><div class="author-block-num">2</div><div><h4>Escalation & Pacing Design</h4><div class="author-card-grid">
+<div class="author-card"><h5>Cooldown before new escalation</h5><p>E01 high-tension ending ke baad family warmth aur marriage history tempo slow karte hain, allowing reader to understand stakes rather than immediately repeating exposure.</p></div>
+<div class="author-card"><h5>Clothing bridge</h5><p>Sleeveless full-skirt choice is small voluntary shift: enough to show E01 after-effect, not enough to erase modesty.</p></div>
+<div class="author-card"><h5>Uncle spike is secrecy-driven</h5><p>Intensity visual display se nahi, private violation + discovery se aati hai. Dhika reaction and later concealment are as important as act itself.</p></div>
+<div class="author-card"><h5>Marriage beat prevents one-route monotony</h5><p>P8 keeps John relationship sexually alive and shows Dhika's evolution is not simply replacement of spouse desire.</p></div>
+<div class="author-card"><h5>Accident deliberately de-romanticizes body visibility</h5><p>Twins incident exposes the same broad “being seen” domain but produces horror, proving context/person/intent matter.</p></div>
+<div class="author-card"><h5>Final escalation is agency</h5><p>Chotu does not need to arrive for E02 to move route forward: Dhika choosing to create opportunity is itself the endpoint change.</p></div>
+</div></div></section>
+
+<section class="author-episode-block"><div class="author-block-num">3</div><div><h4>POV, Knowledge & Dramatic-Irony Handling</h4><div class="author-card-grid">
+<div class="author-card"><h5>John > Dhika on Uncle gaze</h5><p>John repeatedly notices Uncle's gaze before Dhika discovers deeper behavior. Do not flatten these into identical knowledge.</p></div>
+<div class="author-card"><h5>Dhika > Uncle after P6</h5><p>Uncle believes secret intact; Dhika actually witnessed it. This asymmetry should influence future interaction even if dialogue remains normal.</p></div>
+<div class="author-card"><h5>Reader > Dhika/John on Bantu plan</h5><p>Reader knows extra-proximity motive; Dhika and John operate on stated academic frame.</p></div>
+<div class="author-card"><h5>Dhika + John share one secret, not all</h5><p>P13 closes the student-accident disclosure gap while leaving Chotu and Uncle gaps intact. Disclosure is selective, not global honesty switch.</p></div>
+<div class="author-card"><h5>Dhika theory ≠ Chotu fact</h5><p>“Maybe he got afraid” is speculation. E03 cannot present it as leave reason unless new source confirms.</p></div>
+<div class="author-card"><h5>Reader knows deliberate P14 setup</h5><p>Dhika intent to create meeting/talking opportunity is clear; Chotu has no on-page knowledge/reaction yet.</p></div>
+</div></div></section>
+
+<section class="author-episode-block author-guard-block"><div class="author-block-num">4</div><div><h4>Character Consistency Rules</h4><ul class="author-list">
+<li>Dhika ko E02 end ke baad generic fearless/bold/exhibitionist mat rewrite karo. P12 twins accident par intense horror proves shyness and audience-specific boundaries remain active.</li>
+<li>Dhika ka no-anger/excitement after Uncle discovery ≠ permission. Her later concealment and safeguard must both carry forward.</li>
+<li>John caring/patient husband hai, with show-off preference; us preference ko automatic cuckold/open-marriage/third-party-consent rule mat banao.</li>
+<li>Uncle trusted public surface aur covert boundary-breach reality dono simultaneous rakho. He does not know Dhika knows.</li>
+<li>Bantu aur Bobby adult twins hain but interchangeable nahi: Bantu overt/charming/planning + gaze-aversion in accident; Bobby quieter visual/proximity route + stare/run reaction.</li>
+<li>Chotu adult trusted didi/Babu familiarity route hai. P14 deliberate opportunity still touch/sex permission nahi.</li>
+<li>Pappu ko strictly child/family/logistics node rakho; adult erotic route se completely separate.</li>
+<li>Bindu Maami ko omniscient plot-device mat banao; she supplies leave fact/delivery logistics, not Chotu's internal reason unless future source establishes.</li>
+</ul></div></section>
+
+<section class="author-episode-block"><div class="author-block-num">5</div><div><h4>Relationship Route Differentiation</h4><div class="author-route-table">
+<div class="author-route-row author-route-head"><b>Route</b><b>Story role</b><b>E02 movement</b><b>Ceiling / caution</b></div>
+<div class="author-route-row"><span>John</span><span>Marriage / consensual adult intimacy</span><span>History clarified → new Dhika initiative → accident disclosure/reassurance</span><span>Other secrets remain; no blanket outsider permission</span></div>
+<div class="author-route-row"><span>Uncle</span><span>Trusted elder surface / covert breach underneath</span><span>Gaze → bra misuse → Dhika discovery → concealment/safeguard</span><span>No consent; Uncle unaware he was seen</span></div>
+<div class="author-route-row"><span>Bantu</span><span>Favourite adult student / verbal + planning route</span><span>Compliments → tuition plan → home access → accidental exposure with gaze-aversion</span><span>Academic access ≠ sexual access</span></div>
+<div class="author-route-row"><span>Bobby</span><span>Favourite shy adult student / visual-proximity route</span><span>Prior-contact recall → hidden glance → key/scent proximity → accidental exposure → abrupt exit</span><span>No E02 touch; embarrassment unresolved</span></div>
+<div class="author-route-row"><span>Chotu / Babu</span><span>Trusted adult didi/younger-brother-like route + E01 sexualized awareness</span><span>Memory influence → sudden-leave mystery → active check-in → deliberate meeting setup</span><span>No E02 arrival or new physical act</span></div>
+</div></div></section>
+
+<section class="author-episode-block author-ambiguity-block"><div class="author-block-num">6</div><div><h4>Ambiguity That Must Stay Preserved</h4><div class="author-card-grid">
+<div class="author-card"><h5>Chotu leave reason</h5><p>Unknown. Dhika's “maybe E01 scared him” is a theory only.</p></div>
+<div class="author-card"><h5>P8 marital initiative cause</h5><p>Behavior change is fact; exact Uncle/Chotu fantasy or direct cause not source-stated.</p></div>
+<div class="author-card"><h5>Aunty's knowledge</h5><p>Stern look at compliment does not prove knowledge of habitual gaze or bra behavior.</p></div>
+<div class="author-card"><h5>John's tolerance boundary</h5><p>He likes admiration/show-off and tolerates observed gaze; this does not prove he would approve any covert violation or future act.</p></div>
+<div class="author-card"><h5>P14 final outfit</h5><p>Kurti selected, another dress catches eye. Final outerwear is unknown.</p></div>
+<div class="author-card"><h5>Chotu's future interpretation</h5><p>Dhika deliberate meeting opportunity creates; source does not show whether Chotu recognizes her motive, accepts, arrives, or how he reacts.</p></div>
+</div></div></section>
+
+<section class="author-episode-block"><div class="author-block-num">7</div><div><h4>Setup → Payoff / Scene Function Notes</h4><div class="author-card-grid">
+<div class="author-card"><h5>E01 deliberate gaze-test → E02 guilt</h5><p>Opening guilt confirms E01 ending has immediate psychological continuity instead of reset.</p></div>
+<div class="author-card"><h5>John voluntary-openness preference → lunch outfit</h5><p>Marriage backstory makes full-skirt/sleeveless compromise and John's surprise meaningful.</p></div>
+<div class="author-card"><h5>John noticing Uncle gaze → P5 lunch glances</h5><p>Earlier knowledge becomes visible dramatic irony when John sees exactly what Dhika still misses.</p></div>
+<div class="author-card"><h5>Milk need → private-house breach</h5><p>Ordinary Pappu logistics creates practical access; the breach is therefore grounded in household routine rather than random coincidence.</p></div>
+<div class="author-card"><h5>Uncle discovery → milk safeguard</h5><p>Dhika doesn't confront but behavior changes: future milk bottles are meant to avoid repeating access setup.</p></div>
+<div class="author-card"><h5>Tuition ambition → home access → accident</h5><p>Academic setup legitimately brings twins home, where bag/pallu accident creates later embarrassment/disclosure hook.</p></div>
+<div class="author-card"><h5>Accident horror → Chotu comparison</h5><p>P14 explicitly uses twins experience to define why Chotu feels different to Dhika, turning contrast into self-knowledge.</p></div>
+<div class="author-card"><h5>Chotu absence → deliberate order</h5><p>P11 failed check-in becomes P14 active logistics; final wardrobe interruption holds payoff for next episode.</p></div>
+</div></div></section>
+
+<section class="author-episode-block author-guard-block"><div class="author-block-num">8</div><div><h4>Continuity / Next-Episode Author Guardrails</h4><ul class="author-list">
+<li>E03 start par E02 end state reset mat karo: Chotu expected but not arrived; Pappu away until evening; Dhika bathed/wet hair; final outfit unresolved.</li>
+<li>Chotu leave reason ko guess se canon mat banao. First new evidence must decide whether Dhika's fear was correct, wrong or still unresolved.</li>
+<li>P14 meeting opportunity ko completed sexual plan mat rewrite karo. Source supports deliberate meeting/talking setup and excitement, not a pre-agreed act.</li>
+<li>Uncle thinks Dhika does not know; future dialogue/body language must respect that asymmetry until discovery/confrontation occurs.</li>
+<li>John knows twins accident but not Uncle breach/Chotu private route. Do not grant omniscience.</li>
+<li>Bantu/Bobby Wednesday tuition remains scheduled. Their adult ages are already resolved, but accidental exposure remains unwanted and cannot become retroactive consent.</li>
+<li>Dhika's audience-specific reactions must stay distinct: Chotu comfort/excitement, twins horror, Uncle shock + unusual no-anger/excitement mixture, John consensual marital intimacy.</li>
+<li>Any next escalation should separately track actor, intent, action, observation, knowledge, permission, secrecy and aftermath.</li>
+<li>Pappu remains strictly nonsexual family/logistics context.</li>
+</ul></div></section>
+
+<section class="author-episode-block author-obligation-block"><div class="author-block-num">9</div><div><h4>Open Craft Obligations</h4><div class="author-card-grid">
+<div class="author-card"><h5>Chotu consequence</h5><p>Two-episode build now requires meaningful response to E01 eye contact + E02 absence/setup; a simple reset would waste the strongest carry-forward.</p></div>
+<div class="author-card"><h5>Dhika's person-specific self-understanding</h5><p>P14 names the contrast. Future writing should develop how she interprets that difference rather than flattening all male attention into one desire.</p></div>
+<div class="author-card"><h5>Uncle secret lifecycle</h5><p>Dhika's concealment and safeguard need continuity even if payoff is delayed. The secret cannot disappear because public behavior looks normal.</p></div>
+<div class="author-card"><h5>Twins aftermath</h5><p>Wednesday tuition has emotional residue. Bantu/Bobby's differing reactions provide distinct future behavior possibilities without pre-deciding escalation.</p></div>
+<div class="author-card"><h5>Marriage selective secrecy</h5><p>P13 proves Dhika can disclose embarrassing events to John, making the decision not to disclose Uncle/Chotu more narratively meaningful.</p></div>
+<div class="author-card"><h5>Arc 01 continuity</h5><p>E02 continues “The First Awakening”: the central movement is not completed affair/relationship swap but expanding self-awareness, differentiated desire, secrecy and deliberate choice.</p></div>
+</div></div></section>
+</main></section>
+
+<div class="footer">Episode 02 · Episode View · complete intelligence through L159 · Story + Images protected during current image-generation pass</div>
+
+<script>
+(function(){
+  const buttons=[...document.querySelectorAll('.module-nav button[data-module]')];
+  const sections=[...document.querySelectorAll('.section-shell[id]')];
+  function showModule(id, resetScroll){
+    const target=document.getElementById(id);
+    if(!target) return;
+    sections.forEach(s=>s.classList.toggle('active',s.id===id));
+    buttons.forEach(b=>b.classList.toggle('active',b.dataset.module===id));
+    if(resetScroll){
+      const nav=document.querySelector('.module-nav');
+      window.scrollTo({top:nav.offsetTop,behavior:'instant'});
+    }
+  }
+  buttons.forEach(b=>b.addEventListener('click',()=>showModule(b.dataset.module,true)));
+  showModule('section-story-images',false);
+})();
+</script>
+<script>
+(function(){
+ const buttons=[...document.querySelectorAll('.character-tab[data-character-target]')];
+ const cards=[...document.querySelectorAll('.character-dossier[data-character]')];
+ function showCharacter(id){
+   cards.forEach(x=>x.classList.toggle('active',x.dataset.character===id));
+   buttons.forEach(x=>x.classList.toggle('active',x.dataset.characterTarget===id));
+ }
+ buttons.forEach(b=>b.addEventListener('click',()=>showCharacter(b.dataset.characterTarget)));
+ showCharacter('dhika');
+})();
+</script>
+<script>
+(function(){
+ const buttons=[...document.querySelectorAll('.relationship-tab[data-relationship-target]')];
+ const cards=[...document.querySelectorAll('.relationship-dossier[data-relationship]')];
+ function showRelationship(id){
+   cards.forEach(x=>x.classList.toggle('active',x.dataset.relationship===id));
+   buttons.forEach(x=>x.classList.toggle('active',x.dataset.relationshipTarget===id));
+ }
+ buttons.forEach(b=>b.addEventListener('click',()=>showRelationship(b.dataset.relationshipTarget)));
+ showRelationship('john');
+})();
+</script>
+<script>
+(function(){
+ const buttons=[...document.querySelectorAll('.ledger-rel-tab[data-ledger-target]')];
+ const cards=[...document.querySelectorAll('.ledger-pair[data-ledger-pair]')];
+ function showLedgerPair(id){
+   cards.forEach(x=>x.classList.toggle('active',x.dataset.ledgerPair===id));
+   buttons.forEach(x=>x.classList.toggle('active',x.dataset.ledgerTarget===id));
+ }
+ buttons.forEach(b=>b.addEventListener('click',()=>showLedgerPair(b.dataset.ledgerTarget)));
+ showLedgerPair('john');
+})();
+</script>
+</body></html>
