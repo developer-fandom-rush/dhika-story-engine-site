@@ -53,7 +53,7 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - `e01-p12-l208-sequence-board-approved.webp` — L208 continuity recap; does not replace individual beat assets.
 
 
-## Story + Images reading-layer migration
+## Story + Images reading-layer migration · Part 11-aligned Story + Images layout
 
 - Primary content: approved 40/40/20 local-language story text, reused verbatim.
 - Images are inserted after exact represented story beats.
@@ -61,3 +61,12 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - Older grouped Part 12 images remain `GENERATED_PENDING_REVIEW` and are now mapped only to the narrower beats they visibly claim.
 - Full L208–225 local-language story remains present even where no image exists.
 - Next image task remains **L210**.
+
+
+## Layout/render repair
+
+- Story + Images now follows the Part 11 card rhythm: story passage first, mapped image inside the same card, centered image width with `max-width:980px`.
+- L209 approved mirror asset bytes were repaired at the existing canonical path and cache-busted in HTML.
+- Part 12 no longer uses alternating standalone story-card / image-card alignment.
+- Full approved L208–225 local-language text remains present.
+- Next resumable content beat remains **L210**.
