@@ -6,9 +6,9 @@ Asset folder: `assets/images/e01/scenes/`
 
 ## Current resumable state
 
-- L208-A — **UPLOADED** — `e01-p12-l208-a-spill-noticed-v2.webp`
-- L208-B — **UPLOADED** — `e01-p12-l208-b-fetch-cloth-v2.webp`
-- L209 — **UPLOADED** — `e01-p12-l209-bathroom-mirror-v2.webp`
+- L208-A — **LOCKED_APPROVED_IMAGE** — `e01-p12-l208-a-spill-noticed-v2.webp`
+- L208-B — **LOCKED_APPROVED_IMAGE** — `e01-p12-l208-b-fetch-cloth-v2.webp`
+- L209 — **LOCKED_APPROVED_IMAGE** — `e01-p12-l209-bathroom-mirror-v2.webp`
 - Approved sequence board — **UPLOADED** — `e01-p12-l208-209-sequence-board-approved.webp`
 - Approved L208 continuity board — **UPLOADED** — `e01-p12-l208-sequence-board-approved.webp`
 - Next resumable beat: **L210**
@@ -18,9 +18,9 @@ Asset folder: `assets/images/e01/scenes/`
 
 | # | Beat | Status |
 |---:|---|---|
-| 1 | L208-A — food spill noticed | UPLOADED |
-| 2 | L208-B — bedroom/bathroom for cloth | UPLOADED |
-| 3 | L209 — bathroom mirror | UPLOADED |
+| 1 | L208-A — food spill noticed | LOCKED_APPROVED_IMAGE |
+| 2 | L208-B — bedroom/bathroom for cloth | LOCKED_APPROVED_IMAGE |
+| 3 | L209 — bathroom mirror | LOCKED_APPROVED_IMAGE |
 | 4 | L210 — beauty/self-image question | PENDING |
 | 5 | L211-A — yesterday/night thoughts return | PENDING |
 | 6 | L211-B — slowly removes dupatta | PENDING |
@@ -51,3 +51,13 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 
 - `e01-p12-l208-209-sequence-board-approved.webp` — L208-A → L208-B → L209 recap; does not replace individual beat assets.
 - `e01-p12-l208-sequence-board-approved.webp` — L208 continuity recap; does not replace individual beat assets.
+
+
+## Story + Images reading-layer migration
+
+- Primary content: approved 40/40/20 local-language story text, reused verbatim.
+- Images are inserted after exact represented story beats.
+- L208 two-clause images and L208/L209 approved boards remain locked.
+- Older grouped Part 12 images remain `GENERATED_PENDING_REVIEW` and are now mapped only to the narrower beats they visibly claim.
+- Full L208–225 local-language story remains present even where no image exists.
+- Next image task remains **L210**.
