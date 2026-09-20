@@ -12,7 +12,13 @@ Asset folder: `assets/images/e01/scenes/`
 - Approved sequence board — **UPLOADED** — `e01-p12-l208-209-sequence-board-approved.webp`
 - Approved L208 continuity board — **UPLOADED** — `e01-p12-l208-sequence-board-approved.webp`
 - L210 — **LOCKED_APPROVED_IMAGE** — reuses `e01-p12-l209-bathroom-mirror-v2.webp` with approved UI thought-cloud overlay
-- Next resumable beat: **L211-A**
+- L211-A — **GENERATED_PENDING_REVIEW** — collage crop c0/r0
+- L211-B — **GENERATED_PENDING_REVIEW** — collage crop c1/r0
+- L212-A — **GENERATED_PENDING_REVIEW** — collage crop c2/r0
+- L212-B — **GENERATED_PENDING_REVIEW** — collage crop c0/r1
+- L213-A — **GENERATED_PENDING_REVIEW** — collage crop c1/r1
+- L213-B — **GENERATED_PENDING_REVIEW** — collage crop c2/r1
+- Next resumable beat: **L214**
 - Visual continuity for L208: Dhika is kitchen-side at the start; Chotu is already waiting on the hall sofa from L207; Dhika still wears the black sleeveless home outfit with dupatta ON.
 
 ## Beat status
@@ -23,11 +29,11 @@ Asset folder: `assets/images/e01/scenes/`
 | 2 | L208-B — bedroom/bathroom for cloth | LOCKED_APPROVED_IMAGE |
 | 3 | L209 — bathroom mirror | LOCKED_APPROVED_IMAGE |
 | 4 | L210 — beauty/self-image question | LOCKED_APPROVED_IMAGE |
-| 5 | L211-A — yesterday/night thoughts return | PENDING |
-| 6 | L211-B — slowly removes dupatta | PENDING |
-| 7 | L212-A — studies body/cleavage in mirror | PENDING |
-| 8 | L212-B — lip bite, blush, private smile | PENDING |
-| 9 | L213 — urge/conflict | PENDING |
+| 5 | L211-A — yesterday/night thoughts return | GENERATED_PENDING_REVIEW |
+| 6 | L211-B — slowly removes dupatta | GENERATED_PENDING_REVIEW |
+| 7 | L212-A — studies body/cleavage in mirror | GENERATED_PENDING_REVIEW |
+| 8 | L212-B — lip bite, blush, private smile | GENERATED_PENDING_REVIEW |
+| 9 | L213-A/B — urge + self-conflict | GENERATED_PENDING_REVIEW |
 | 10 | L214 — returns to hall without dupatta | PENDING |
 | 11 | L215-A — Chotu notices missing dupatta | PENDING |
 | 12 | L215-B — opposite seating established | PENDING |
@@ -81,3 +87,13 @@ Do not restart completed L208 beats unless Dev explicitly requests replacement.
 - Exact cloud text: `Chotu bhi mujhe beautiful samajhta hai… Ek bachcha hone ke baad bhi kya main sach mein beautiful hoon?`
 - Narrative state: **INTERNAL THOUGHT**, not spoken dialogue.
 - Next image beat: **L211-A**.
+
+
+## L211–213 six-panel crop placement
+
+- Source asset: `assets/images/e01/scenes/e01-p12-l211-213-collage-v1.webp`
+- The page renders six crops instead of displaying the collage as one image.
+- CSS crop map: L211-A c0/r0; L211-B c1/r0; L212-A c2/r0; L212-B c0/r1; L213-A c1/r1; L213-B c2/r1.
+- Approved local-language story is split only at existing sentence boundaries.
+- Status remains `GENERATED_PENDING_REVIEW` until explicit lock.
+- Next content beat: **L214**.
