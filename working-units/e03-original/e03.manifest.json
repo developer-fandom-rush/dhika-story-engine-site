@@ -108,7 +108,7 @@
   "imageStatus": "architecture/placeholders only",
   "localLanguageStatus": "source-faithful transformation restored from the established E03 review candidate, with Part-boundary fragments completed without changing source meaning",
   "storyImagesStatus": "story text restored; image work not executed by this correction",
-  "completionStatus": "E03 canonical analysis/tracker complete through Part 3 / L42 with RULE-017 cumulative Interaction / Perception continuity; Part 4+ not modified.",
+  "completionStatus": "E03 Parts 1–3 author-review continuity complete through L42 with visible Interaction / Perception Tracker through P3; P4+ preserved untouched by this review.",
   "canonAgeResolution": {
     "Chotu": "19-year-old adult per E01–E04 Evidence Archive and Character Evolution Ledger",
     "twins": "adult 18+ source context; E01 RAW says all sexually involved characters are 18+, directly calls Bantu 18, and Bobby is his twin",
@@ -132,7 +132,7 @@
     "status": "VISIBLE_AND_BACKEND_COMPLETE_THROUGH_P03",
     "p1": "CUMULATIVE_BACKFILL_VISIBLE",
     "p2": "CONTINUITY_APPENDED_VISIBLE",
-    "p3": "CONTINUITY_APPENDED_VISIBLE",
+    "p3": "CUMULATIVE_CONTINUITY_VISIBLE",
     "placement": "Relationship Progression",
     "topLevelTabAdded": false,
     "backendField": "interactionPerceptionLedger"
