@@ -1,10 +1,10 @@
 # E03 Encounter History — Canonical Human Review View
 
-**Scope:** Original DHIKA · Episode 03 · processed through **Part 2 (L9–31)**  
+**Scope:** Original DHIKA · Episode 03 · processed through **Part 3 (L32–42)**  
 **Machine authority:** `e03.encounter-history.json`  
 **RAW authority:** `RAW_SOURCE_EPISODE_03.txt` / Drive `98 — RAW SOURCE — EPISODE 03`  
 **Previous canon:** E02 final tracker on `audit/e02-encounter-history`  
-**Rule:** Part 3 facts backward-import nahi karne. Part 2 hard-stop L31 hai; L32+ future rahega.
+**Rule:** Part 4 facts backward-import nahi karne. Part 3 hard-stop L42 hai; L43+ future rahega.
 
 ## Previous verified state — E02 end
 
@@ -211,3 +211,52 @@ E01 gaze awareness aur E03 P1 private anticipation ab current-time openly teased
 - L22 navel visibility stays **ACCIDENTAL / UNREALIZED** from Dhika's side.
 - L28 teasing stays **DELIBERATE**.
 - Through P2: no source-confirmed sexual touch or kiss.
+
+
+---
+
+# Part 3 · L32–42
+
+## E03-P03-E008 — L32–34 — FORGOTTEN ICE CREAMS / BRIEF SEPARATION
+Dhika familiar tone mein Chotu ko yaad dilati hai ki woh phir kuch bhool gaya. Chotu ice creams remember karta hai, 10 minutes bolkar store ke liye run karta hai. This is normal/practical interaction; erotic significance is only that the separation opens a private-thought window.
+
+## E03-P03-E009 — L35 — CHOTU PRIVATE BODY-MEMORY
+- Chotu wonders why Dhika suddenly looks different.
+- He rebukes himself for looking at her stomach.
+- He explicitly remembers seeing her breasts/boobs during the earlier floor-cleaning scene and remembers them looking white.
+- This confirms Chotu's subjective E01 visual memory, but does not show he knows Dhika deliberately staged that earlier test.
+
+## E03-P03-E010 — L36–38 — SELF-RESTRAINT / COMFORT INTERPRETATION
+- Chotu tries to clear the thoughts.
+- He tells himself “it was accidental” and that such thinking is bad.
+- He interprets Dhika's shorter dress as her feeling comfortable with him.
+- He decides: **I should not spoil it.**
+- “Comfort” is Chotu's interpretation, not consent or objective knowledge of Dhika's motives.
+
+## E03-P03-E011 — L39 — DHIKA PRIVATE MIXED STATE
+- Dhika is **very excited**.
+- She is **a little afraid**.
+- She is **not sure what she may do next**.
+No specific next act may be invented.
+
+## E03-P03-E012 — L40–42 — RETURN / NORMAL SURFACE
+Chotu returns with ice creams, Dhika thanks him and asks for freezer + Chocobars handling, Chotu complies, and Dhika takes one Chocobar. No new body touch or erotic visibility is stated before the Part hard-stop.
+
+# Part 3 cumulative snapshot
+**PREVIOUS:** P2 = caught gaze + deliberate teasing + Dhika profound eagerness; Chotu awkward/denying.  
+**DELTA:** Chotu's body-memory becomes explicit, then explicit restraint/comfort-protection appears; Dhika independently remains excited but gains fear/uncertainty.  
+**CUMULATIVE:** both are privately preoccupied, but their internal models diverge: Dhika may move toward more experimentation; Chotu actively restrains because he thinks she trusts/is comfortable with him. Neither knows the other's full state.
+
+## Interaction / Perception Tracker
+RULE-017 continuity preserved. P1/P2 rows remain; P3 appends:
+- normal forgetfulness banter / ice-cream errand / return;
+- Chotu private stomach + E01 breast memory;
+- Chotu self-restraint and comfort interpretation;
+- Dhika very-excited + little-afraid emotional state;
+- Dhika uncertainty about what she may do next.
+
+## Negative canon
+- No new live sexual touch/visibility in P3.
+- Chotu does not know Dhika's deliberate E01/P1 motives.
+- “Dhika comfortable hai” is Chotu's interpretation, not permission.
+- Dhika's next act remains unknown.

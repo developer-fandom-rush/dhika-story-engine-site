@@ -3,12 +3,12 @@
   "episode": "E03",
   "branchId": "original-dhika",
   "phase": "PHASE_2_EPISODE_03_IN_PROGRESS",
-  "asOfPart": "P02",
+  "asOfPart": "P03",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 03",
     "driveId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
     "repoPath": "working-units/e03-original/RAW_SOURCE_EPISODE_03.txt",
-    "processedRange": "L1-L31"
+    "processedRange": "L1-L42"
   },
   "previousEpisodeTracker": {
     "episode": "E02",
@@ -764,6 +764,426 @@
         "No proof Chotu knows Dhika's internal eagerness."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P03-E008",
+      "episode": "E03",
+      "part": "P03",
+      "sourceRange": "L32-L34",
+      "chronologyOrder": 8,
+      "eventType": "NORMAL_INTERRUPTION_AND_BRIEF_SEPARATION",
+      "sceneTime": "Immediate continuation from P2",
+      "location": "Dhika's home → store route",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika tells Chotu that, as usual, he forgot something.",
+        "Chotu remembers the ice creams, says he left them in the freezer to take when leaving, asks for 10 minutes, stands and runs to the store and back.",
+        "While running to the store and back, narrator says he is thinking about only one thing."
+      ],
+      "derivedInterpretations": [
+        "The forgotten ice creams create a brief ordinary interruption that opens a private-thought window for Chotu."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "reminds_forgotten_ice_creams",
+          "intentionality": "familiar practical reminder",
+          "physicality": "none"
+        },
+        {
+          "actor": "Chotu",
+          "target": "store",
+          "actionType": "runs_to_retrieve_ice_creams",
+          "intentionality": "intentional practical errand",
+          "physicality": "movement"
+        }
+      ],
+      "dialogueMeaning": [
+        "Familiar teasing/forgetfulness pattern is reaffirmed; Chotu promises a quick return."
+      ],
+      "emotionalStateBefore": [
+        "P2: Dhika newly eager/excited; Chotu awkward/denying after caught gaze."
+      ],
+      "emotionalStateAfter": [
+        "They are temporarily separated; Chotu becomes privately preoccupied."
+      ],
+      "visibilityAndObservers": [
+        "No erotic visibility event occurs in L32–34."
+      ],
+      "knowledgeBefore": [
+        "Neither knows the other's full P2 internal state."
+      ],
+      "knowledgeDelta": [
+        "No new relationship knowledge transferred between them before Chotu leaves."
+      ],
+      "knowledgeAfter": [
+        "Physical separation enables private thoughts that remain undisclosed."
+      ],
+      "boundaryPermissionControl": [
+        "Ordinary errand only; no new permission."
+      ],
+      "relationshipDelta": [
+        "Normal familiar interaction continues; no live erotic escalation yet."
+      ],
+      "secrecyState": [
+        "Both deeper states remain private."
+      ],
+      "escalationOrNormalization": [
+        "Pause/interruption after P2 escalation."
+      ],
+      "hooksOpened": [
+        "What Chotu is thinking about during the run."
+      ],
+      "hooksAdvanced": [
+        "Dhika's P2 new eagerness remains active off-screen."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No new touch/visibility/sexual act in L32–34."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P03-E009",
+      "episode": "E03",
+      "part": "P03",
+      "sourceRange": "L35",
+      "chronologyOrder": 9,
+      "eventType": "PRIVATE_EROTIC_MEMORY_AND_SELF_QUESTIONING",
+      "sceneTime": "During Chotu's run",
+      "location": "route between store and Dhika's home",
+      "presentCharacters": [
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu privately wonders why Dhika suddenly looks different.",
+        "He rebukes himself for looking at her stomach.",
+        "He explicitly remembers that the other day, while Dhika was cleaning the floor, he saw her breasts/boobs.",
+        "He remembers them as looking very white."
+      ],
+      "derivedInterpretations": [
+        "P3 gives Chotu's own subjective confirmation that he retained the E01 floor-cleaning breast-view memory.",
+        "The thought confirms active attraction/body-memory; it does not establish that he knows Dhika deliberately staged the E01 test."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "privately_replays_body_visibility_memories",
+          "intentionality": "internal thought/memory",
+          "physicality": "none"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Caught-gaze embarrassment/denial from P2."
+      ],
+      "emotionalStateAfter": [
+        "Attraction/body memory is consciously active and self-questioned."
+      ],
+      "visibilityAndObservers": [
+        "Dhika is absent; only Chotu/reader receive this private memory."
+      ],
+      "knowledgeBefore": [
+        "Reader knew E01 exposure was visible to Chotu; Chotu's current remembered wording was not yet on-page."
+      ],
+      "knowledgeDelta": [
+        "Reader now knows Chotu explicitly remembers seeing Dhika's breasts in the E01 floor-cleaning scene and remembers their white appearance."
+      ],
+      "knowledgeAfter": [
+        "Chotu carries both E01 breast memory and P2 stomach-look memory."
+      ],
+      "boundaryPermissionControl": [
+        "Memory/attraction creates no permission."
+      ],
+      "relationshipDelta": [
+        "Chotu-side attraction history becomes explicitly self-remembered rather than only narrator-described."
+      ],
+      "secrecyState": [
+        "Dhika does not know Chotu is replaying these details."
+      ],
+      "escalationOrNormalization": [
+        "Internal intensity clarified; no live action."
+      ],
+      "hooksOpened": [
+        "How Chotu will manage these thoughts."
+      ],
+      "hooksAdvanced": [],
+      "hooksResolved": [
+        "Chotu's subjective memory of what he saw in E01 floor-cleaning is explicitly confirmed."
+      ],
+      "negativeCanon": [
+        "Do not infer Chotu knows E01 exposure was deliberately staged.",
+        "No live erotic act occurs."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P03-E010",
+      "episode": "E03",
+      "part": "P03",
+      "sourceRange": "L36-L38",
+      "chronologyOrder": 10,
+      "eventType": "PRIVATE_SELF_RESTRAINT_AND_COMFORT_INTERPRETATION",
+      "sceneTime": "Continuing run",
+      "location": "route returning to Dhika's home",
+      "presentCharacters": [
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu shakes his head and tries to clear his thoughts.",
+        "He thinks 'it was accidental' and that it was bad to think about them; narrator parenthetically frames him as a nice guy.",
+        "He wonders why Dhika started wearing a short dress.",
+        "He thinks she is feeling comfortable with him and decides he should not spoil it.",
+        "He continues running these thoughts in his mind until he reaches her house."
+      ],
+      "derivedInterpretations": [
+        "Chotu's attraction is paired with explicit self-restraint.",
+        "His belief that Dhika's clothing reflects comfort is his private interpretation, not objective knowledge of her motives.",
+        "The wording 'it was accidental' is preserved without over-resolving its exact grammatical referent."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "self",
+          "actionType": "tries_to_clear_erotic_thoughts_and_sets_restraint_rule",
+          "intentionality": "deliberate self-regulation",
+          "physicality": "head shake/running"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Active body-focused memory."
+      ],
+      "emotionalStateAfter": [
+        "Attraction remains, but Chotu actively prioritizes not spoiling what he interprets as Dhika's comfort/trust."
+      ],
+      "visibilityAndObservers": [
+        "Private thought; Dhika absent."
+      ],
+      "knowledgeBefore": [
+        "Chotu does not know Dhika's deliberate outfit/test motives."
+      ],
+      "knowledgeDelta": [
+        "Reader learns Chotu currently interprets the situation as accidental/comfort and intends restraint."
+      ],
+      "knowledgeAfter": [
+        "Knowledge asymmetry is sharper: Chotu sees comfort/accident where reader knows some Dhika behavior was deliberate."
+      ],
+      "boundaryPermissionControl": [
+        "Chotu explicitly creates a self-restraint boundary: do not spoil her comfort. His comfort interpretation is not consent."
+      ],
+      "relationshipDelta": [
+        "Chotu-side attraction now includes a source-stated restraint/trust-preservation motive."
+      ],
+      "secrecyState": [
+        "Dhika does not know this restraint rule."
+      ],
+      "escalationOrNormalization": [
+        "Internal de-escalation/control after attraction memory."
+      ],
+      "hooksOpened": [
+        "Will Chotu maintain this self-restraint when back with Dhika?"
+      ],
+      "hooksAdvanced": [
+        "Whether Chotu realizes Dhika enjoys his gaze: current evidence shows he interprets clothing as comfort instead."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Comfort ≠ sexual permission.",
+        "Do not claim Chotu knows Dhika's deliberate visual-test history.",
+        "Do not claim attraction disappeared."
+      ],
+      "qaAmbiguities": [
+        "Exact referent of 'it was accidental' is not over-specified beyond Chotu's source wording."
+      ]
+    },
+    {
+      "eventId": "E03-P03-E011",
+      "episode": "E03",
+      "part": "P03",
+      "sourceRange": "L39",
+      "chronologyOrder": 11,
+      "eventType": "DHIKA_PRIVATE_EXCITEMENT_FEAR_AND_UNCERTAINTY",
+      "sceneTime": "Meanwhile during Chotu's absence",
+      "location": "Dhika's home",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika feels very excited and a little afraid.",
+        "She is not sure what she may do next."
+      ],
+      "derivedInterpretations": [
+        "P2's new profound eagerness remains active but is now paired with apprehension/self-uncertainty.",
+        "The source does not specify any planned next act."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "self",
+          "actionType": "privately_processes_excitement_and_fear",
+          "intentionality": "internal state",
+          "physicality": "none"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "P2: very excited with new profound eagerness to show/tease Chotu."
+      ],
+      "emotionalStateAfter": [
+        "Very excited + little afraid + uncertain about her own next action."
+      ],
+      "visibilityAndObservers": [
+        "Dhika is alone; Chotu does not know this state."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows she enjoys Chotu's gaze/teasing dynamic."
+      ],
+      "knowledgeDelta": [
+        "Dhika/reader recognize she herself cannot predict her next action."
+      ],
+      "knowledgeAfter": [
+        "No specific next act is decided."
+      ],
+      "boundaryPermissionControl": [
+        "Uncertainty/excitement is not permission or a plan for any unnamed physical/sexual act."
+      ],
+      "relationshipDelta": [
+        "Dhika-side eagerness becomes emotionally mixed with fear/uncertainty."
+      ],
+      "secrecyState": [
+        "Chotu does not know her excitement/fear/eagerness."
+      ],
+      "escalationOrNormalization": [
+        "Internal tension increases; no live act."
+      ],
+      "hooksOpened": [
+        "What Dhika may actually do next."
+      ],
+      "hooksAdvanced": [
+        "P2 Dhika-new-eagerness hook"
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "No specific next sexual/physical action established.",
+        "Fear does not equal rejection; excitement remains explicitly 'very'."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P03-E012",
+      "episode": "E03",
+      "part": "P03",
+      "sourceRange": "L40-L42",
+      "chronologyOrder": 12,
+      "eventType": "NORMAL_RETURN_AND_OBJECT_HANDOFF",
+      "sceneTime": "About ten minutes later per Chotu's dialogue",
+      "location": "Dhika's home",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu calls from outside that he brought the ice creams.",
+        "Dhika opens the door, thanks him, asks him to put the cup in the freezer and bring the Chocobars, then sits on the sofa.",
+        "Chotu puts the cup in the freezer, brings the Chocobars to Dhika and says 'here didi'.",
+        "Dhika takes only one from him."
+      ],
+      "derivedInterpretations": [
+        "The live reunion is deliberately ordinary after the private parallel monologues; no new erotic act is stated before the hard stop."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "returns_and_completes_ice_cream_task",
+          "intentionality": "intentional practical help",
+          "physicality": "object handling"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "gives_freezer_chocobar_instruction_and_takes_one",
+          "intentionality": "intentional household interaction",
+          "physicality": "object handoff only"
+        }
+      ],
+      "dialogueMeaning": [
+        "Normal practical exchange resumes."
+      ],
+      "emotionalStateBefore": [
+        "Dhika privately excited/afraid; Chotu privately self-restraining."
+      ],
+      "emotionalStateAfter": [
+        "Their deeper private states remain undisclosed as ordinary interaction resumes."
+      ],
+      "visibilityAndObservers": [
+        "Both live; no specific body-focused gaze or touch is stated."
+      ],
+      "knowledgeBefore": [
+        "Neither knows the other's P3 private monologue."
+      ],
+      "knowledgeDelta": [
+        "No disclosure of private attraction/restraint occurs."
+      ],
+      "knowledgeAfter": [
+        "Knowledge asymmetry remains intact at L42."
+      ],
+      "boundaryPermissionControl": [
+        "Object handoff does not establish body touch or sexual permission."
+      ],
+      "relationshipDelta": [
+        "Ordinary familiar surface resumes over deeper hidden tension."
+      ],
+      "secrecyState": [
+        "Both private states remain hidden from each other."
+      ],
+      "escalationOrNormalization": [
+        "Live interaction temporarily normalizes after internal tension."
+      ],
+      "hooksOpened": [
+        "Why Dhika takes only one Chocobar / what follows next cannot be interpreted until L43+."
+      ],
+      "hooksAdvanced": [],
+      "hooksResolved": [
+        "Forgotten ice-cream errand is completed."
+      ],
+      "negativeCanon": [
+        "No source-confirmed body touch in L40–42.",
+        "Do not import L43+ meaning into the one-Chocobar choice."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -777,12 +1197,17 @@
         "E03-P02-E004",
         "E03-P02-E005",
         "E03-P02-E006",
-        "E03-P02-E007"
+        "E03-P02-E007",
+        "E03-P03-E008",
+        "E03-P03-E009",
+        "E03-P03-E010",
+        "E03-P03-E011",
+        "E03-P03-E012"
       ],
-      "previousVerifiedState": "E03 P1: Dhika consciously chose outfit/makeup with Chotu's possible reaction in mind; doorbell created butterflies; visitor/Chotu reaction remained unconfirmed.",
-      "latestVerifiedState": "E03 P2: Chotu arrives; familiar affection and care resume; he repeatedly looks at Dhika's appearance/body, including sustained navel gaze; Dhika catches and deliberately teases him, then explicitly recognizes a new profound Chotu-specific eagerness to show/tease him.",
-      "knowledgeSplit": "Dhika knows Chotu looked and concludes he likes looking at her body; she knows her own excitement/eagerness. Chotu knows Dhika caught and teased his gaze, but source does not establish that he knows she selected the outfit for him or how strongly she enjoys the dynamic.",
-      "boundaryState": "Initial L22 navel visibility is accidental/unrealized; later teasing is deliberate. Gaze/teasing and ordinary proximity do not create touch/kiss/sexual permission."
+      "previousVerifiedState": "E03 P2: Chotu's repeated body-focused attention is caught and teased; Dhika explicitly recognizes new profound eagerness to show/tease him; Chotu remains awkward/denying.",
+      "latestVerifiedState": "E03 P3: Chotu privately replays P2 stomach gaze and E01 breast visibility, then deliberately self-corrects and decides not to spoil what he interprets as Dhika's comfort. Separately Dhika remains very excited, becomes a little afraid and is unsure what she may do next. They reunite without disclosing these private states.",
+      "knowledgeSplit": "Reader knows both private narratives. Chotu does not know Dhika's deliberate prior motives/current eagerness; Dhika does not know Chotu's explicit attraction-memory/self-restraint or comfort interpretation.",
+      "boundaryState": "Chotu creates a private 'do not spoil her comfort' restraint rule; Dhika has no specific next act decided. No new live sexual touch/visibility in P3."
     },
     {
       "relationshipId": "REL-DHIKA-UNCLE",
@@ -865,9 +1290,12 @@
         "E03-P02-E004",
         "E03-P02-E005",
         "E03-P02-E006",
-        "E03-P02-E007"
+        "E03-P02-E007",
+        "E03-P03-E008",
+        "E03-P03-E011",
+        "E03-P03-E012"
       ],
-      "currentVerifiedState": "E03 P2: Chotu-specific anticipation becomes live, consciously enjoyed gaze/teasing. Dhika catches repeated body-focused attention, feels excitement, deliberately teases the stomach gaze, concludes Chotu likes looking at her body, and recognizes a new profound eagerness to show/tease him; no touch/romance/blanket consent.",
+      "currentVerifiedState": "E03 P3: P2 profound Chotu-specific eagerness persists but becomes mixed with slight fear and uncertainty about what she may do next; she does not know Chotu's private self-restraint interpretation.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She knows Uncle's breach and has not disclosed it to John/Aunty; Uncle does not know she witnessed it."
@@ -881,9 +1309,13 @@
         "E03-P02-E004",
         "E03-P02-E005",
         "E03-P02-E006",
-        "E03-P02-E007"
+        "E03-P02-E007",
+        "E03-P03-E008",
+        "E03-P03-E009",
+        "E03-P03-E010",
+        "E03-P03-E012"
       ],
-      "currentVerifiedState": "E03 P2: returns happily, reports grandmother bereavement as leave reason, resumes familiar care, repeatedly looks at Dhika's appearance/body, is caught looking at her navel, lies/denies when challenged, and remains awkward about openly admitting the gaze."
+      "currentVerifiedState": "E03 P3: explicitly remembers E01 breast visibility and P2 stomach gaze, remains attracted, tries to clear those thoughts, interprets Dhika's shorter dress as comfort and decides not to spoil that comfort; he still does not know her deliberate prior motives."
     },
     {
       "characterId": "CHAR-UNCLE",
@@ -1015,16 +1447,49 @@
     {
       "hookId": "HOOK-E03-P02-DHIKA-NEW-EAGERNESS",
       "origin": "E03-P02-E007",
-      "status": "OPEN",
-      "statusChanges": [],
+      "status": "ADVANCED",
+      "statusChanges": [
+        {
+          "at": "E03-P03-E011",
+          "status": "ADVANCED",
+          "evidence": "L39: Dhika remains very excited, is a little afraid and is unsure what she may do next."
+        }
+      ],
       "note": "L31: new/profound eagerness to show and tease Chotu."
     },
     {
       "hookId": "HOOK-E03-P02-CHOTU-AWARENESS-OF-DHIKA-ENJOYMENT",
       "origin": "E03-P02-E007",
+      "status": "ADVANCED",
+      "statusChanges": [
+        {
+          "at": "E03-P03-E010",
+          "status": "ADVANCED",
+          "evidence": "L37: Chotu interprets Dhika's dress as comfort and decides not to spoil it; he is not shown understanding her P2 enjoyment/eagerness."
+        }
+      ],
+      "note": "Chotu knows he was caught/teased; source does not establish that he knows Dhika enjoys it or selected outfit for him."
+    },
+    {
+      "hookId": "HOOK-E03-P03-CHOTU-SELF-RESTRAINT",
+      "origin": "E03-P03-E010",
       "status": "OPEN",
       "statusChanges": [],
-      "note": "Chotu knows he was caught/teased; source does not establish that he knows Dhika enjoys it or selected outfit for him."
+      "note": "Will Chotu maintain his 'do not spoil her comfort' restraint when interaction continues?"
+    },
+    {
+      "hookId": "HOOK-E03-P03-DHIKA-UNSURE-NEXT",
+      "origin": "E03-P03-E011",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "Dhika is very excited + little afraid and does not know what she may do next."
+    },
+    {
+      "hookId": "HOOK-E03-P03-PRIVATE-INTENT-MISALIGNMENT",
+      "origin": "E03-P03-E010/E011",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "Chotu interprets comfort and chooses restraint while Dhika privately carries eagerness/uncertainty; neither knows the other's full state."
     }
   ],
   "partSnapshots": {
@@ -1149,18 +1614,82 @@
         "cumulativeThrough": "E03-P02",
         "rule": "RULE-017"
       }
+    },
+    "E03-P03": {
+      "sourceRange": "L32-L42",
+      "previousVerifiedState": "E03 P2: Dhika knows Chotu likes looking at her body and has new profound eagerness to show/tease him; Chotu has been caught looking and verbally denies it.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P03-E008",
+          "E03-P03-E009",
+          "E03-P03-E010",
+          "E03-P03-E011",
+          "E03-P03-E012"
+        ],
+        "exactChanges": [
+          "Forgotten ice creams create a short separation.",
+          "Chotu explicitly remembers P2 stomach gaze and E01 breast visibility, including the remembered white appearance.",
+          "Chotu tries to clear the thoughts, frames the situation as accidental/bad to dwell on, interprets Dhika's short dress as comfort and decides not to spoil it.",
+          "Dhika separately remains very excited, becomes a little afraid and is unsure what she may do next.",
+          "Chotu returns and the live surface resumes as an ordinary freezer/Chocobar interaction with no disclosure of either private state."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika↔Chotu now contains explicit two-sided attraction/attention plus explicit two-sided secrecy. Dhika is moving through excitement/eagerness/fear toward an unknown next choice, while Chotu is attracted but consciously self-restraining because he interprets her presentation as comfort/trust. The reader knows the mismatch; the characters do not.",
+      "knowledgeState": "Chotu remembers seeing Dhika's breasts in E01 and her stomach/navel in P2 but does not know her deliberate test/outfit motives. Dhika knows he likes looking but does not know his self-restraint/comfort interpretation.",
+      "boundaryState": "No new live erotic contact in P3. Chotu's private boundary is 'do not spoil her comfort'; Dhika's next action remains unknown.",
+      "hooksOpened": [
+        "Chotu self-restraint durability",
+        "Dhika's unknown next action",
+        "Private-intent misalignment"
+      ],
+      "hooksAdvanced": [
+        "Dhika's profound eagerness",
+        "Whether Chotu realizes Dhika enjoys his gaze"
+      ],
+      "hooksResolved": [
+        "Forgotten ice-cream errand",
+        "Chotu's subjective E01 breast-view memory is explicitly confirmed"
+      ],
+      "negativeCanonIntroduced": [
+        "No new body touch or live erotic visibility in P3.",
+        "Do not infer Chotu knows E01 deliberate-test motive.",
+        "Do not convert Chotu's 'comfortable' interpretation into consent.",
+        "Do not invent Dhika's next act from L39.",
+        "Fear does not cancel excitement; both are source-stated."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "VISIBLE_AND_BACKEND_CONTINUED",
+        "inheritedFrom": "E03-P02",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU"
+        ],
+        "currentPartAddedIds": [
+          "IP-DHC-011",
+          "IP-DHC-012",
+          "IP-DHC-013",
+          "IP-DHC-014",
+          "IP-DHC-124",
+          "IP-DHC-125",
+          "IP-DHC-126",
+          "IP-DHC-127",
+          "IP-DHC-128",
+          "IP-DHC-129"
+        ],
+        "cumulativeThrough": "E03-P03",
+        "rule": "RULE-017"
+      }
     }
   },
-  "episodeStatus": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P02",
-  "nextUnprocessedPart": "P03",
-  "nextUnprocessedRange": "L32-L42",
+  "episodeStatus": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P03",
+  "nextUnprocessedPart": "P04",
+  "nextUnprocessedRange": "L43-L72",
   "newRelationshipIds": [
     "REL-CHOTU-GRANDMOTHER"
   ],
   "interactionPerceptionLedger": {
     "schemaVersion": "1.0",
     "rule": "RULE-017",
-    "cumulativeThrough": "E03-P02",
+    "cumulativeThrough": "E03-P03",
     "queryDimensions": [
       "SEEN / OBSERVED",
       "TOUCHED / PHYSICAL CONTACT",
@@ -1764,6 +2293,504 @@
             "kissThroughP2": "NONE",
             "l22VisibilityIntent": "ACCIDENTAL / UNREALIZED FROM DHIKA SIDE",
             "l28TeasingIntent": "DELIBERATE"
+          }
+        },
+        "throughP3": {
+          "normalNonSexual": [
+            {
+              "id": "IP-DHC-001",
+              "direction": "Dhika → Chotu",
+              "modality": "ACTION / DID",
+              "detail": "Over months Dhika invited him inside for tea/coffee, gave tips, listened to family problems and advised him; she came to think of him like a brother.",
+              "category": "NORMAL",
+              "intentionality": "HABITUAL",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P6 · L118–120",
+              "part": "P6"
+            },
+            {
+              "id": "IP-DHC-002",
+              "direction": "Chotu → Dhika",
+              "modality": "HEARD / TOLD",
+              "detail": "Chotu shared family problems/worries with Dhika and sought her advice over the established acquaintance.",
+              "category": "NORMAL",
+              "intentionality": "HABITUAL",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P6 · L118–120",
+              "part": "P6"
+            },
+            {
+              "id": "IP-DHC-003",
+              "direction": "Dhika → Chotu",
+              "modality": "ACTION / DID",
+              "detail": "Dhika repeatedly persuaded Chotu to eat with her, sat on the floor with him when he refused the table, and they talked about family/many things.",
+              "category": "NORMAL",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P10 · L183–194",
+              "part": "P10"
+            },
+            {
+              "id": "IP-DHC-004",
+              "direction": "Chotu → Dhika",
+              "modality": "HEARD / TOLD",
+              "detail": "Chotu called her sleeveless home dress nice and told Dhika she looked beautiful; this was the first time she registered him calling her beautiful.",
+              "category": "NORMAL / APPEARANCE COMPLIMENT",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P11 · L195–200",
+              "part": "P11"
+            },
+            {
+              "id": "IP-DHC-005",
+              "direction": "Dhika → Chotu",
+              "modality": "HEARD / TOLD",
+              "detail": "Dhika explicitly told Chotu she knew/trusted him and called him her innocent Chotu Babu.",
+              "category": "NORMAL / TRUST",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P11 · L201–205",
+              "part": "P11"
+            },
+            {
+              "id": "IP-DHC-006",
+              "direction": "Dhika → Chotu",
+              "modality": "LEARNED / KNOWLEDGE",
+              "detail": "Through Maami, Dhika learned Chotu was on sudden leave; the reason remained unknown through E03 P1.",
+              "category": "NORMAL / THIRD-PARTY INFORMATION",
+              "intentionality": "N/A",
+              "certainty": "SOURCE FACT",
+              "evidence": "E02 · P11 · L114–119",
+              "part": "P11"
+            },
+            {
+              "id": "IP-DHC-007",
+              "direction": "Dhika → Chotu",
+              "modality": "TOUCHED / PHYSICAL CONTACT",
+              "detail": "Dhika lovingly tapped Chotu's cheeks on opening the door; narrator states she does this often and Chotu likes it.",
+              "category": "NORMAL / AFFECTIONATE TOUCH",
+              "intentionality": "HABITUAL",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L10–11",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-008",
+              "direction": "Chotu → Dhika",
+              "modality": "HEARD / TOLD",
+              "detail": "Chotu told Dhika his grandmother had been sick for a long time, died, and he went to his village because of the death.",
+              "category": "NORMAL / FAMILY DISCLOSURE",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT · REPORTED HISTORY",
+              "evidence": "E03 · P2 · L18",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-009",
+              "direction": "Dhika → Chotu",
+              "modality": "ACTION / DID",
+              "detail": "Dhika gave condolences after hearing about his grandmother; Chotu thanked her.",
+              "category": "NORMAL / CARE",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L19",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-010",
+              "direction": "Chotu → Dhika",
+              "modality": "HEARD / TOLD",
+              "detail": "Chotu noticed her wet hair and warned that she might catch cold.",
+              "category": "NORMAL / CARE",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L20",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-011",
+              "direction": "Dhika → Chotu",
+              "modality": "HEARD / TOLD",
+              "detail": "Dhika tells Chotu, in familiar teasing, that as usual he has forgotten something; the forgotten item is the ice creams.",
+              "category": "NORMAL / FAMILIAR BANTER",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L32–33",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-012",
+              "direction": "Chotu → Dhika",
+              "modality": "ACTION / DID + HEARD / TOLD",
+              "detail": "Chotu realizes he forgot the ice creams, says he left them in the freezer and asks for 10 minutes, then runs to the store and back.",
+              "category": "NORMAL / PRACTICAL ERRAND",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L33–34",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-013",
+              "direction": "Chotu → Dhika",
+              "modality": "ACTION / DID",
+              "detail": "Chotu returns with the ice creams, puts the cup in the freezer and brings the Chocobars to Dhika as asked.",
+              "category": "NORMAL / PRACTICAL HELP",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L40–42",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-014",
+              "direction": "Dhika → Chotu",
+              "modality": "HEARD / TOLD + ACTION / DID",
+              "detail": "Dhika thanks Chotu, asks him to put the cup in the freezer and bring the Chocobars, then takes one Chocobar from the offered items.",
+              "category": "NORMAL / HOUSEHOLD INTERACTION",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L41–42",
+              "part": "P3"
+            }
+          ],
+          "physicalEroticSexual": [
+            {
+              "id": "IP-DHC-101",
+              "direction": "Dhika → Chotu",
+              "modality": "SEEN / OBSERVED",
+              "detail": "After Dhika bent without dupatta to hand juice, she saw Chotu's laugh disappear and his expression become deep/thoughtful; afterward she saw him still dream-like/stunned.",
+              "category": "PHYSICAL / ATTENTION PERCEPTION",
+              "intentionality": "OBSERVED AFTER ACCIDENTAL VISIBILITY",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P8 · L142–151",
+              "part": "P8"
+            },
+            {
+              "id": "IP-DHC-102",
+              "direction": "Dhika → Chotu",
+              "modality": "IMAGINED / THOUGHT",
+              "detail": "Dhika wondered whether Chotu had seen cleavage, bra, or something more; the exact thing he saw in that earlier bend remained unresolved.",
+              "category": "EROTIC THOUGHT",
+              "intentionality": "PRIVATE THOUGHT",
+              "certainty": "UNKNOWN / AMBIGUOUS",
+              "evidence": "E01 · P8 · L152–158",
+              "part": "P8"
+            },
+            {
+              "id": "IP-DHC-103",
+              "direction": "Dhika → Chotu",
+              "modality": "EMOTIONAL / SEXUAL BODY RESPONSE",
+              "detail": "Later Dhika imagined the possibility that Chotu saw parts of her breast, felt excitement/tingle and smiled before pushing the thought away.",
+              "category": "EROTIC",
+              "intentionality": "INVOLUNTARY RESPONSE + PRIVATE THOUGHT",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P9 · L166–170",
+              "part": "P9"
+            },
+            {
+              "id": "IP-DHC-104",
+              "direction": "Chotu → Dhika",
+              "modality": "IMAGINED / THOUGHT + FELT",
+              "detail": "Narrator reveals Chotu thought Dhika looked very beautiful, noticed her skin as white/soft and felt a little crush on her.",
+              "category": "EROTIC / ATTRACTION",
+              "intentionality": "PRIVATE INTERNAL STATE",
+              "certainty": "SOURCE FACT · READER-KNOWN",
+              "evidence": "E01 · P11 · L206–207",
+              "part": "P11"
+            },
+            {
+              "id": "IP-DHC-105",
+              "direction": "Dhika → Chotu",
+              "modality": "ACTION / DID",
+              "detail": "Dhika deliberately removed her dupatta and returned to the hall to test whether Chotu would look; the motive was private to Dhika/reader.",
+              "category": "EROTIC / VISUAL TEST",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P12 · L208–214",
+              "part": "P12"
+            },
+            {
+              "id": "IP-DHC-106",
+              "direction": "Chotu → Dhika",
+              "modality": "SEEN / OBSERVED",
+              "detail": "During Dhika's deliberate visual test, source says Chotu could see approximately one-third of her breasts/cleavage area and remained wide-eyed/stunned looking.",
+              "category": "EROTIC / VISIBILITY",
+              "intentionality": "DHIKA DELIBERATE TEST; CHOTU LOOKING",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P12 · L215–219",
+              "part": "P12"
+            },
+            {
+              "id": "IP-DHC-107",
+              "direction": "Dhika → Chotu",
+              "modality": "SEEN / OBSERVED",
+              "detail": "Dhika finally looked up and directly saw Chotu wide-eyed looking; their eyes met, confirming the gaze to her.",
+              "category": "EROTIC / GAZE CONFIRMATION",
+              "intentionality": "DELIBERATE CONFIRMATION",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P12 · L220–225",
+              "part": "P12"
+            },
+            {
+              "id": "IP-DHC-108",
+              "direction": "Dhika → Chotu",
+              "modality": "EMOTIONAL / SEXUAL BODY RESPONSE",
+              "detail": "After the mutual gaze, Dhika remained very excited, blushed/felt shy and experienced a stronger genital-area tingle.",
+              "category": "SEXUAL / EROTIC RESPONSE",
+              "intentionality": "INVOLUNTARY RESPONSE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E01 · P12 · L220–225",
+              "part": "P12"
+            },
+            {
+              "id": "IP-DHC-109",
+              "direction": "Dhika → Chotu",
+              "modality": "IMAGINED / THOUGHT + FELT",
+              "detail": "While dressing for Aunty/Uncle, Dhika remembered Chotu's compliment and the E01 visual test, smiled and felt excitement/shyness.",
+              "category": "EROTIC / MEMORY",
+              "intentionality": "PRIVATE THOUGHT",
+              "certainty": "SOURCE FACT",
+              "evidence": "E02 · P4 · L45–48",
+              "part": "P4"
+            },
+            {
+              "id": "IP-DHC-110",
+              "direction": "Dhika → Chotu",
+              "modality": "LEARNED / KNOWLEDGE + FELT",
+              "detail": "Dhika explicitly recognized that Chotu makes her feel a person-specific comfort/excitement unlike the horror she felt with the twins; she still did not know his leave reason.",
+              "category": "EROTIC / EMOTIONAL SELF-KNOWLEDGE",
+              "intentionality": "PRIVATE REFLECTION",
+              "certainty": "SOURCE FACT",
+              "evidence": "E02 · P14 · L158",
+              "part": "P14"
+            },
+            {
+              "id": "IP-DHC-111",
+              "direction": "Dhika → Chotu",
+              "modality": "IMAGINED / THOUGHT + ACTION / DID",
+              "detail": "Dhika wondered whether Chotu would like the knee-length skirt and think she looked beautiful, then deliberately chose the skirt/top and light makeup with his possible reaction in mind while keeping cleavage as a no-show boundary.",
+              "category": "EROTIC / ATTRACTION + SELF-PRESENTATION",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P1 · L3–6",
+              "part": "P1"
+            },
+            {
+              "id": "IP-DHC-112",
+              "direction": "Dhika → Chotu",
+              "modality": "SEEN / OBSERVED",
+              "detail": "Dhika directly saw Chotu absentmindedly looking from her wet hair down to her slender legs and she liked it.",
+              "category": "EROTIC / GAZE PERCEPTION",
+              "intentionality": "OBSERVED",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L15–16",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-113",
+              "direction": "Chotu → Dhika",
+              "modality": "SEEN / OBSERVED",
+              "detail": "Chotu looked over Dhika's appearance from wet hair to slender legs after raising his head and noticing what she wore.",
+              "category": "EROTIC / BODY-FOCUSED GAZE",
+              "intentionality": "DESCRIBED AS ABSENTMINDED",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L15–16",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-114",
+              "direction": "Dhika → Chotu",
+              "modality": "SEEN / OBSERVED",
+              "detail": "Dhika noticed Chotu repeatedly stealing glances at her legs while he unpacked.",
+              "category": "EROTIC / REPEATED GAZE",
+              "intentionality": "OBSERVED",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L19",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-115",
+              "direction": "Chotu → Dhika",
+              "modality": "SEEN / OBSERVED",
+              "detail": "Chotu repeatedly stole glances at Dhika's legs while unpacking.",
+              "category": "EROTIC / BODY-FOCUSED GAZE",
+              "intentionality": "REPEATED LOOKING",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L19",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-116",
+              "direction": "Chotu → Dhika",
+              "modality": "SEEN / OBSERVED",
+              "detail": "When Dhika raised her hands for the top shelf, her top unintentionally rode up and Chotu kept looking at her visible navel/midriff.",
+              "category": "PHYSICAL / EROTIC VISIBILITY",
+              "intentionality": "VISIBILITY ACCIDENTAL / UNREALIZED; GAZE CONTINUES",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L22–23",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-117",
+              "direction": "Dhika → Chotu",
+              "modality": "SEEN / OBSERVED",
+              "detail": "Dhika noticed Chotu looking at her mid-area, checked her own top, then turned and directly saw that he was still looking at her navel.",
+              "category": "EROTIC / GAZE CONFIRMATION",
+              "intentionality": "OBSERVATION AFTER ACCIDENTAL VISIBILITY",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L22–23",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-118",
+              "direction": "Dhika → Chotu",
+              "modality": "EMOTIONAL / SEXUAL BODY RESPONSE",
+              "detail": "Dhika felt a bit of excitement while seeing Chotu still looking at her navel.",
+              "category": "EROTIC RESPONSE",
+              "intentionality": "INVOLUNTARY RESPONSE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L23",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-119",
+              "direction": "Dhika → Chotu",
+              "modality": "HEARD / TOLD + LEARNED / KNOWLEDGE",
+              "detail": "Dhika heard Chotu claim he was only worried she might fall; RAW explicitly states this explanation was a lie, so reader knows the cover story is false.",
+              "category": "EROTIC / KNOWLEDGE",
+              "intentionality": "CHOTU DELIBERATE LIE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L24–25",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-120",
+              "direction": "Dhika → Chotu",
+              "modality": "ACTION / DID",
+              "detail": "Dhika explicitly decided to tease him a little more and told him she thought he had been looking at her stomach.",
+              "category": "EROTIC / TEASING",
+              "intentionality": "DELIBERATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L28",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-121",
+              "direction": "Dhika → Chotu",
+              "modality": "SEEN / OBSERVED + HEARD / TOLD",
+              "detail": "Dhika saw Chotu's awkward smile and heard him stammer/deny that he had seen anything.",
+              "category": "EROTIC / CAUGHT-GAZE REACTION",
+              "intentionality": "OBSERVED / HEARD",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L27–29",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-122",
+              "direction": "Dhika → Chotu",
+              "modality": "LEARNED / KNOWLEDGE",
+              "detail": "Narrator states Dhika came to know that Chotu liked looking at her body.",
+              "category": "EROTIC / KNOWLEDGE",
+              "intentionality": "SELF-RECOGNIZED CONCLUSION",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L30",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-123",
+              "direction": "Dhika → Chotu",
+              "modality": "EMOTIONAL / SEXUAL BODY RESPONSE",
+              "detail": "Dhika felt very excited to show and tease Chotu; narrator says this was new to her and she developed a profound eagerness toward it.",
+              "category": "EROTIC / SEXUAL EXCITEMENT",
+              "intentionality": "SELF-RECOGNIZED FEELING",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P2 · L31",
+              "part": "P2"
+            },
+            {
+              "id": "IP-DHC-124",
+              "direction": "Chotu → Dhika",
+              "modality": "IMAGINED / THOUGHT",
+              "detail": "While running, Chotu privately wonders why Dhika suddenly looks different and rebukes himself for looking at her stomach.",
+              "category": "EROTIC / ATTRACTION SELF-CHECK",
+              "intentionality": "PRIVATE THOUGHT",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L34–35",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-125",
+              "direction": "Chotu → Dhika",
+              "modality": "IMAGINED / THOUGHT + SEEN / OBSERVED (MEMORY)",
+              "detail": "Chotu explicitly remembers that during the earlier floor-cleaning scene he saw Dhika's breasts/boobs and remembers them as looking white.",
+              "category": "EROTIC / BODY-VISIBILITY MEMORY",
+              "intentionality": "PRIVATE MEMORY",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L35",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-126",
+              "direction": "Chotu → Dhika",
+              "modality": "IMAGINED / THOUGHT",
+              "detail": "Chotu shakes his head and tries to clear the erotic thoughts, telling himself that 'it was accidental' and that thinking about them this way is bad.",
+              "category": "EROTIC / SELF-RESTRAINT",
+              "intentionality": "DELIBERATE SELF-CORRECTION",
+              "certainty": "SOURCE FACT; 'IT' REFERENT KEPT SOURCE-AMBIGUOUS",
+              "evidence": "E03 · P3 · L36",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-127",
+              "direction": "Chotu → Dhika",
+              "modality": "IMAGINED / THOUGHT + LEARNED / KNOWLEDGE",
+              "detail": "Chotu interprets Dhika's shorter dress as a sign that she feels comfortable with him and decides he should not spoil that comfort.",
+              "category": "EROTIC / BOUNDARY INTERPRETATION",
+              "intentionality": "PRIVATE INTERPRETATION + DELIBERATE RESTRAINT",
+              "certainty": "SOURCE FACT OF CHOTU'S THOUGHT; DHIKA-COMFORT CAUSE NOT OBJECTIVELY PROVEN",
+              "evidence": "E03 · P3 · L37–38",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-128",
+              "direction": "Dhika → Chotu",
+              "modality": "FELT / EMOTIONAL STATE",
+              "detail": "While Chotu is away, Dhika feels very excited and a little afraid after the P2 gaze/teasing progression.",
+              "category": "EROTIC / EMOTIONAL RESPONSE",
+              "intentionality": "INVOLUNTARY / INTERNAL STATE",
+              "certainty": "SOURCE FACT",
+              "evidence": "E03 · P3 · L39",
+              "part": "P3"
+            },
+            {
+              "id": "IP-DHC-129",
+              "direction": "Dhika → Chotu",
+              "modality": "IMAGINED / THOUGHT",
+              "detail": "Dhika is not sure what she may do next; the source preserves uncertainty and does not name a specific next act.",
+              "category": "EROTIC / UNCERTAINTY",
+              "intentionality": "PRIVATE THOUGHT",
+              "certainty": "SOURCE FACT; FUTURE ACT UNKNOWN",
+              "evidence": "E03 · P3 · L39",
+              "part": "P3"
+            }
+          ],
+          "currentPartAddedIds": [
+            "IP-DHC-011",
+            "IP-DHC-012",
+            "IP-DHC-013",
+            "IP-DHC-014",
+            "IP-DHC-124",
+            "IP-DHC-125",
+            "IP-DHC-126",
+            "IP-DHC-127",
+            "IP-DHC-128",
+            "IP-DHC-129"
+          ],
+          "negativeCanon": {
+            "sexualTouchThroughP3": "NONE SOURCE-CONFIRMED",
+            "newLiveEroticVisibilityThroughP3": "NONE IN P3",
+            "chotuKnowledgeOfDeliberateE01Test": "NOT ESTABLISHED; P3 supports accidental/comfort interpretation",
+            "dhikaSpecificNextAct": "UNKNOWN",
+            "p3KnowledgeSplit": "BOTH PRIVATE STATES UNDISCLOSED"
           }
         }
       },
