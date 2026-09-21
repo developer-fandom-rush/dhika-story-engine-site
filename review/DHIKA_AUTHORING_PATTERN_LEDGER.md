@@ -421,3 +421,29 @@ Earlier accidental visibility becomes remembered precedent, then a normalization
 
 ### Hard-stop discipline
 E04 ends on an unresolved presentation-related question/request. The next episode RAW determines the answer; do not import the next episode backward.
+
+
+## E06 case study — route convergence, separation and boundary-state tracking
+
+Episode 06 adds three useful future-writing rules.
+
+### 1. Expected route can be delayed without disappearing
+Dhika prepares for Chotu, but store logistics delay him. Bobby then receives a solo route. Chotu later returns and the episode converges both men into one painting scene before Bobby exits.
+
+**Rule:** episode pacing may go expected Route A -> Route B solo -> A+B convergence -> B exit -> A solo escalation.
+
+### 2. Shared scene does not merge relationship grammar
+Bobby and Chotu observe the same environment, but their histories remain different. Bobby's route is about independent rapport/comfort; Chotu's route carries prior kiss, repeated gaze, clothing assistance and stronger attraction.
+
+### 3. Physical ceiling and boundary quality are separate axes
+E06 raises the Dhika–Chotu physical ceiling substantially, but also creates explicit stop-request history during the same progression.
+
+**Rule:** never summarize a relationship only by its highest physical act. Track:
+- what happened,
+- who initiated,
+- whether a stop/check occurred,
+- whether it was respected,
+- emotional aftermath,
+- what each person knew.
+
+E06 also strengthens the rule that earlier visibility should return with changed meaning rather than fake first-time framing.
