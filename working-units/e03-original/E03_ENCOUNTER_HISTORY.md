@@ -1015,3 +1015,19 @@
 - John does not know the Chotu kiss/visual route.
 - Twins route remains separate: teacher/student role + repeated accidental visibility + later reassurance/confidentiality.
 - E03 hard-stops at L231. No post-E03 action is canon.
+
+
+---
+
+# Part 4 review lock · L43–72
+
+- Normal touch and erotic/physical contact are separated under RULE-017.
+- L45 hand-hold/pull = NORMAL deliberate seating guidance.
+- L52 knee hit = NORMAL playful touch.
+- L54 palm drop sweep = NORMAL/source-framed innocent food contact.
+- L60 knee-to-knee contact = PHYSICAL PROXIMITY; exact touch is source fact, deliberate sexual intent not established.
+- L65 direct stomach contact = REFLEXIVE / UNPLANNED / “without thinking.”
+- Chotu immediately realizes, tenses and repeatedly apologizes.
+- Dhika laughs, does not take the event in a bad way, reassures him and teases.
+- No actual kiss in Part 4.
+- Dhika's event-specific reassurance does not create standing future touch permission.
