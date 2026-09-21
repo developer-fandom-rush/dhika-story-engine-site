@@ -604,3 +604,44 @@ For any future Dhika↔Chotu continuation, the writer must start knowing:
 - no post-E03 action is yet canon.
 
 The next writer must progress from **this** state, not from an artificially reset modesty/first-look state.
+
+
+---
+
+# 16. Mandatory pre-writing traversal evidence
+
+A future chat must not merely say “I read the rules.” Before drafting/planning a new episode, it must be able to produce this compact traversal receipt internally or in review notes:
+
+- rules read: PROJECT_RULES / EPISODE_REVIEW_PLAYBOOK / EXECUTION_FAILURES_AND_GUARDRAILS / combined-view playbook when applicable,
+- previous episode hard-stop,
+- canonical encounter-history processed-through marker,
+- involved relationship IDs,
+- ordered prior event IDs actually traversed,
+- visual-access state,
+- touch/contact state,
+- knowledge/secrecy split,
+- unresolved hooks,
+- pacing/repetition pattern being continued,
+- exact “do not reset / do not repeat as first-time” items.
+
+If any required tracker is stale or stops before the latest approved Part, **repair the tracker before writing**. Do not write around the missing data from chat memory.
+
+## Verified audit status · 2026-09-21
+
+- E01 Dhika↔Chotu Part 6–12 relationship/writer history: traversed and usable.
+- E02 canonical encounter tracker on `audit/e02-encounter-history`: complete through P14 / E02 end; REL-DHIKA-CHOTU contains prior/latest state, event IDs, knowledge split and boundary state.
+- E03 canonical encounter tracker had stopped at P3; repaired on 2026-09-21 to P13 / L231 with 34 canonical events and 13 Part snapshots.
+- E03 human encounter-history view is now also complete through P13.
+- Pointer-only Relationship History Ledger remains navigation-only. It is **not sufficient input for future writing by itself**.
+- The Writer Continuity Engine + canonical encounter history + RAW together form the required future-writing input.
+
+## Quality rule
+
+Do not claim continuity confidence merely because a summary exists. Confidence is earned only after:
+1. source traversal,
+2. event-history traversal,
+3. relationship-state traversal,
+4. writer-pattern traversal,
+5. hard-stop check.
+
+If these are not done, the writer should treat itself as **not continuity-ready**.
