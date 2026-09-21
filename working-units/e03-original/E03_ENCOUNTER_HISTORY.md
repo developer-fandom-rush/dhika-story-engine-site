@@ -1,10 +1,10 @@
 # E03 Encounter History — Canonical Human Review View
 
-**Scope:** Original DHIKA · Episode 03 · processed through **Part 1 (L1–8)** only  
+**Scope:** Original DHIKA · Episode 03 · processed through **Part 2 (L9–31)**  
 **Machine authority:** `e03.encounter-history.json`  
 **RAW authority:** `RAW_SOURCE_EPISODE_03.txt` / Drive `98 — RAW SOURCE — EPISODE 03`  
 **Previous canon:** E02 final tracker on `audit/e02-encounter-history`  
-**Rule:** Part 2 facts backward-import nahi karne. L8 par visitor identity unconfirmed rahegi.
+**Rule:** Part 3 facts backward-import nahi karne. Part 2 hard-stop L31 hai; L32+ future rahega.
 
 ## Previous verified state — E02 end
 
@@ -82,3 +82,111 @@ Dhika↔Chotu anticipation intensifies, but no confirmed live encounter has happ
 - No intentional cleavage exposure.
 - No reciprocal Dhika↔Uncle attraction.
 - No generic “Dhika is now bold with everyone” personality rewrite.
+
+
+---
+
+# Part 2 · L9–31
+
+## E03-P02-E003 — L9–14 — LIVE REUNION + HISTORICAL FAMILIARITY
+
+**RAW facts**
+- Chotu khushi se bahar se Dhika ko door open karne bolta hai.
+- Dhika “my dear Chotu babuuu” bolkar lovingly cheeks tap karti hai.
+- Narrator explicitly bolta hai Dhika yeh aksar karti hai aur Chotu ko yeh pasand hai.
+- Chotu unpack karte hue Pappu ko poochta hai; abhi outfit notice nahi kiya.
+- Dhika batati hai Pappu Aunty ke saath gaya hai aur almost immediately sudden leave ka reason poochti hai; source says she could not wait.
+
+**Critical distinction:** recurring cheek-tap = old normal familiarity revealed, not first-time erotic escalation.
+
+**Relationship delta:** live contact resumes after E02 absence; leave hook directly addressed.
+
+---
+
+## E03-P02-E004 — L15–18 — OUTFIT REACTION + REPORTED LEAVE REASON
+
+**RAW facts**
+- Answer dene ke liye Chotu head raise karta hai aur outfit notice karta hai.
+- Dhika dekhti hai ki woh wet hair se slender legs tak absentmindedly dekh raha hai; use yeh achha lagta hai.
+- Dhika “earth to Chotu babuuu” karke uska attention wapas laati hai.
+- Chotu reports grandmother ki death hui, woh long time sick thi, aur isi wajah se use village jaana pada.
+
+**Knowledge change:** Dhika finally receives Chotu's stated leave reason.
+
+**QA distinction:** Source L18 explanation ko lie mark nahi karta. Isse narrative hook resolve hota hai, lekin grandmother history Chotu ka reported account hai, independent flashback nahi.
+
+---
+
+## E03-P02-E005 — L19–21 — CONDOLENCES + REPEATED GLANCES + ORDINARY CARE
+
+**RAW facts**
+- Dhika condolences deti hai; Chotu thanks karta hai.
+- Chotu unpacking ke beech Dhika ki milky legs par repeatedly stolen glances leta hai; Dhika notice karti hai.
+- Chotu wet hair dekhkar cold ka concern bolta hai.
+- Dhika “just bathed” bolkar head shake karti hai; water droplets scatter hote hain.
+
+**Important:** ordinary care/condolence aur attraction-attention ek hi scene mein hain, but categories separate rahengi.
+
+---
+
+## E03-P02-E006 — L22–25 — ACCIDENTAL NAVEL VISIBILITY → CAUGHT GAZE → LIE
+
+**RAW facts**
+- Upper shelf item rakhne ke liye Dhika hands head se kaafi upar raise karti hai.
+- Woh Chotu ko mid-area dekhte notice karti hai; neeche dekhne par top raised aur navel visible milta hai.
+- Chotu still navel dekh raha hota hai; Dhika ko thodi excitement hoti hai.
+- Dhika softly poochti hai: “what are you looking at?”
+- Chotu startled hoke “fall” concern explanation deta hai; RAW explicitly: **he lied**.
+
+**Critical intent split**
+- Navel visibility = accidental/unrealized P1 clothing-mechanic payoff.
+- Gaze catch ke baad questioning = intentional.
+- Later teasing = separate intentional behavior.
+In teenon ko ek “deliberate exposure” mein merge nahi karna.
+
+---
+
+## E03-P02-E007 — L26–31 — DELIBERATE TEASING + NEW SELF-RECOGNIZED EAGERNESS
+
+**RAW facts**
+- Dhika false concern ko playfully “my Chotu babu is so caring” bolti hai.
+- Chotu awkwardly smiles.
+- Dhika explicitly **decides to tease him a little more** and says she thought he was looking at her stomach.
+- Chotu stammers/denies seeing anything.
+- Dhika turn away karke giggle karti hai; narrator says she came to know Chotu liked looking at her body.
+- Narrator contrasts: men always looked at Dhika, but she never gave them a chance to look at her skin.
+- Chotu ko show/tease karne mein she felt **very excited**; this was **new to her**; she found a **profound eagerness** toward it.
+- She comes back and stands next to him while he finishes packing.
+
+**Major Character Delta — Dhika**
+Anticipation → enjoys gaze → catches gaze → knowingly teases → recognizes Chotu likes looking → recognizes her own strong Chotu-specific urge to continue the show/tease dynamic.
+
+**Major Relationship Delta**
+E01 gaze awareness aur E03 P1 private anticipation ab current-time openly teased gaze interaction ban jaata hai. Still no touch/kiss/confession/romance agreement.
+
+---
+
+# Part 2 cumulative snapshot
+
+**PREVIOUS VERIFIED STATE:** P1 = Chotu-focused appearance preparation + cleavage boundary + butterflies + visitor unconfirmed.
+
+**CURRENT PART DELTA:** Chotu arrives; normal familiarity resumes; leave reason gets a grandmother-bereavement answer; current attraction/gaze becomes repeatedly observable; P1 clothing setup pays off as accidental navel visibility; Chotu lies/denies; Dhika deliberately teases and discovers strong new eagerness.
+
+**CUMULATIVE STATE THROUGH E03 P2:** Dhika's Chotu-specific route is now consciously interactive. She is not merely wondering what he saw—she knows he looks, enjoys it, verbally plays with that knowledge, and explicitly wants more of the show/tease feeling. Chotu's gaze is current and repeated, but he still hides it verbally. Normal trust/care remains present.
+
+## Hooks
+- **RESOLVED:** visitor identity = Chotu.
+- **RESOLVED:** next Chotu meeting.
+- **RESOLVED (reported explanation):** sudden leave = grandmother death/village travel per Chotu.
+- **RESOLVED/PAYOFF:** P1 raised-hands → top rises → navel visible.
+- **RESOLVED:** Chotu notices Dhika's appearance.
+- **OPEN:** what Dhika does with “profound eagerness.”
+- **OPEN:** whether Chotu realizes Dhika enjoys his gaze.
+- **OPEN:** whether Chotu later stops denying/admits attraction.
+
+## Negative canon
+- L22 navel visibility was not deliberately staged by Dhika.
+- Chotu-specific eagerness ≠ generic openness toward all men.
+- No proof Chotu knows Dhika's P1 outfit motive or internal excitement.
+- No touch, kiss, affair, confession or blanket consent in Part 2.
+- Grandmother name/illness/village/date not supplied.

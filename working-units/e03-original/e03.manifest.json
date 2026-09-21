@@ -94,21 +94,21 @@
     }
   ],
   "tabs": [
-    "40 | 40 | 20",
+    "40/40 Reading",
     "Story + Images",
     "Character Evolution",
     "Relationship Progression",
-    "Reader Analysis",
+    "Reader Analysis Section",
     "Relationship History Ledger",
     "Storytelling & Authoring Notes"
   ],
-  "analysisStatus": "Part 1 continuity analysis complete; Parts 2–13 remain initial normalized build pending part-wise author review",
-  "authorReviewStatus": "Part 1 ready for author review; Parts 2–13 pending",
+  "analysisStatus": "Parts 1–2 continuity analysis complete; Parts 3–13 remain initial normalized build pending part-wise author review",
+  "authorReviewStatus": "Parts 1–2 ready for author review; Parts 3–13 pending",
   "uiStatus": "initial build",
   "imageStatus": "architecture/placeholders only",
   "localLanguageStatus": "source-faithful transformation restored from the established E03 review candidate, with Part-boundary fragments completed without changing source meaning",
   "storyImagesStatus": "story text restored; image work not executed by this correction",
-  "completionStatus": "E03 Part 1 analyzed and canonical backend tracker initialized through L1–8; no Part 2+ analytical migration performed",
+  "completionStatus": "E03 canonical analysis/tracker complete through Part 2 / L31; Part 3+ analytical migration not performed",
   "canonAgeResolution": {
     "Chotu": "19-year-old adult per E01–E04 Evidence Archive and Character Evolution Ledger",
     "twins": "adult 18+ source context; E01 RAW says all sexually involved characters are 18+, directly calls Bantu 18, and Bobby is his twin",
@@ -118,11 +118,12 @@
   "tracker": {
     "machine": "e03.encounter-history.json",
     "human": "E03_ENCOUNTER_HISTORY.md",
-    "status": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P01",
-    "processedThrough": "E03-P01 / L1-L8",
-    "nextPart": "P02 / L9-L31"
+    "status": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P02",
+    "processedThrough": "E03-P02 / L9-L31",
+    "nextPart": "P03 / L32-L42"
   },
   "partReviewStatus": {
-    "P01": "ANALYZED_PENDING_AUTHOR_REVIEW"
+    "P01": "ANALYZED_PENDING_AUTHOR_REVIEW",
+    "P02": "ANALYZED_PENDING_AUTHOR_REVIEW"
   }
 }

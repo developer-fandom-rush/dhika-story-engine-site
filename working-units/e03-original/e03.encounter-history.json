@@ -3,12 +3,12 @@
   "episode": "E03",
   "branchId": "original-dhika",
   "phase": "PHASE_2_EPISODE_03_IN_PROGRESS",
-  "asOfPart": "P01",
+  "asOfPart": "P02",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 03",
     "driveId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
     "repoPath": "working-units/e03-original/RAW_SOURCE_EPISODE_03.txt",
-    "processedRange": "L1-L8"
+    "processedRange": "L1-L31"
   },
   "previousEpisodeTracker": {
     "episode": "E02",
@@ -236,6 +236,534 @@
       "qaAmbiguities": [
         "Visitor identity is UNKNOWN / NOT YET CONFIRMED at L8."
       ]
+    },
+    {
+      "eventId": "E03-P02-E003",
+      "episode": "E03",
+      "part": "P02",
+      "sourceRange": "L9-L14",
+      "chronologyOrder": 3,
+      "eventType": "LIVE_REUNION_WITH_HISTORICAL_FAMILIARITY",
+      "sceneTime": "Immediate continuation from P1 doorbell.",
+      "location": "Dhika's home",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-PAPPU",
+        "CHAR-AUNTY"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-PAPPU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu calls happily from outside asking Dhika to open the door.",
+        "Dhika opens the door, calls him 'my dear Chotu babuuu' and lovingly taps his cheeks.",
+        "Narrator states Dhika does this to Chotu often and Chotu likes it.",
+        "Chotu sits and unpacks, asks where Pappu is, and has not yet noticed Dhika's new dress.",
+        "Dhika says Pappu went out with Aunty and immediately asks why Chotu went on sudden leave; narrator says she could not wait to ask."
+      ],
+      "derivedInterpretations": [
+        "The cheek-tap is recurring historical familiarity, not a first-time escalation.",
+        "Dhika's urgency to ask about the leave carries forward E02's unresolved concern."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "happy_arrival_call",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "habitual_loving_cheek_tap",
+          "intentionality": "intentional familiar affection",
+          "physicality": "cheek tap"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Pappu",
+          "actionType": "asks_where_pappu_is",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "asks_sudden_leave_reason",
+          "intentionality": "intentional",
+          "physicality": "none"
+        }
+      ],
+      "dialogueMeaning": [
+        "Familiar Didi/Chotu warmth resumes.",
+        "Dhika prioritizes resolving the sudden-leave question."
+      ],
+      "emotionalStateBefore": [
+        "Dhika anticipatory/butterflies; Chotu's arrival mood not yet known at P1 hard stop."
+      ],
+      "emotionalStateAfter": [
+        "Chotu sounds happy; Dhika is affectionate and eager for an explanation."
+      ],
+      "visibilityAndObservers": [
+        "Dhika and Chotu are live; Pappu/Aunty are referenced and absent."
+      ],
+      "knowledgeBefore": [
+        "Dhika does not know Chotu's leave reason; Chotu has not yet noticed the outfit."
+      ],
+      "knowledgeDelta": [
+        "Visitor identity becomes Chotu; habitual cheek-tap history is revealed; Pappu is established as out with Aunty."
+      ],
+      "knowledgeAfter": [
+        "Leave reason still unanswered at L14; Chotu still has not noticed outfit through L13."
+      ],
+      "boundaryPermissionControl": [
+        "Habitual cheek tap is specific established familiar affection and does not imply broader physical or sexual permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu live contact resumes after E02 absence; old affectionate familiarity is reaffirmed, not newly created.",
+        "Chotu↔Pappu ordinary friendly familiarity is reaffirmed by his immediate question; no state change."
+      ],
+      "secrecyState": [
+        "Dhika's deeper Chotu-related excitement remains private."
+      ],
+      "escalationOrNormalization": [
+        "Normal/familial familiarity is re-established before erotic attention resumes."
+      ],
+      "hooksOpened": [],
+      "hooksAdvanced": [
+        "Chotu sudden-leave reason is directly asked."
+      ],
+      "hooksResolved": [
+        "P1 visitor identity",
+        "E02/P1 next Chotu meeting"
+      ],
+      "negativeCanon": [
+        "Habitual cheek tap ≠ new romantic/sexual touch.",
+        "Pappu/Aunty are absent from the live scene."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P02-E004",
+      "episode": "E03",
+      "part": "P02",
+      "sourceRange": "L15-L18",
+      "chronologyOrder": 4,
+      "eventType": "LIVE_GAZE_PLUS_REPORTED_FAMILY_HISTORY",
+      "sceneTime": "Same visit",
+      "location": "Dhika's home",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU-GRANDMOTHER"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-CHOTU-GRANDMOTHER"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu raises his head to answer and now sees what Dhika is wearing.",
+        "Dhika sees him absentmindedly looking from her wet hair to her slender legs and likes it for a reason she does not know.",
+        "Dhika playfully calls 'earth to Chotu babuuu' and counts 1, 2, 3.",
+        "Chotu says his grandmother died, he had to go to his village, she had been sick for a long time, and then passed away."
+      ],
+      "derivedInterpretations": [
+        "Dhika's P1 wish for Chotu to notice her appearance receives an observable reaction.",
+        "The grandmother explanation is Chotu's reported reason; the narration does not independently flash back or corroborate it, but unlike L25 it is not labeled a lie."
+      ],
+      "actions": [
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "full_appearance_look",
+          "intentionality": "described as absentminded",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "playfully_calls_attention_back",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "reports_leave_reason",
+          "intentionality": "intentional",
+          "physicality": "none"
+        }
+      ],
+      "dialogueMeaning": [
+        "Chotu gives grandmother bereavement/village travel as the explanation for his sudden absence."
+      ],
+      "emotionalStateBefore": [
+        "Dhika eager for leave answer and anticipatory about outfit reaction."
+      ],
+      "emotionalStateAfter": [
+        "Dhika likes his distracted look; scene then shifts to bereavement explanation."
+      ],
+      "visibilityAndObservers": [
+        "Dhika directly observes Chotu's head-to-legs look; no third live observer."
+      ],
+      "knowledgeBefore": [
+        "Dhika does not know leave reason; Chotu has not yet noticed outfit."
+      ],
+      "knowledgeDelta": [
+        "Dhika sees the outfit reaction; receives Chotu's grandmother-death explanation."
+      ],
+      "knowledgeAfter": [
+        "Dhika/reader know Chotu's stated leave reason; Chotu's grandmother relationship/history becomes known."
+      ],
+      "boundaryPermissionControl": [
+        "Being looked at and liking it does not establish touch permission or blanket consent."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: P1 appearance anticipation receives live gaze feedback that Dhika enjoys.",
+        "Chotu↔Grandmother: new reference-only family relationship/history established."
+      ],
+      "secrecyState": [
+        "Dhika does not tell Chotu that she chose the outfit thinking about his reaction."
+      ],
+      "escalationOrNormalization": [
+        "Chotu's current body/appearance attention becomes directly observed by Dhika again."
+      ],
+      "hooksOpened": [],
+      "hooksAdvanced": [
+        "Will Chotu keep looking / will Dhika respond?"
+      ],
+      "hooksResolved": [
+        "Chotu sudden-leave reason is narratively answered by his grandmother-bereavement report.",
+        "Will Chotu notice Dhika's appearance? Yes."
+      ],
+      "negativeCanon": [
+        "Do not treat Dhika's E02 speculation that Chotu fled because of E01 as the cause once the source gives a different stated reason.",
+        "Do not invent grandmother name, illness, village, date, or additional history.",
+        "No romance/confession is established."
+      ],
+      "qaAmbiguities": [
+        "Leave reason is Chotu's uncontradicted report, not independently shown historical footage."
+      ]
+    },
+    {
+      "eventId": "E03-P02-E005",
+      "episode": "E03",
+      "part": "P02",
+      "sourceRange": "L19-L21",
+      "chronologyOrder": 5,
+      "eventType": "LIVE_CARE_AND_REPEATED_GLANCES",
+      "sceneTime": "Same visit",
+      "location": "Dhika's home / unpacking area",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika gives condolences and Chotu thanks her.",
+        "While unpacking Chotu keeps stealing glances at Dhika's milky legs; Dhika notices.",
+        "Chotu asks why her hair is wet and warns she may get cold.",
+        "Dhika says she just bathed, shakes her head, and small water droplets scatter."
+      ],
+      "derivedInterpretations": [
+        "Ordinary care/condolence and body-focused attention coexist in the same relationship without becoming the same category.",
+        "Repeated stolen glances strengthen current attraction evidence beyond one absent-minded look."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "offers_condolences",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika's legs",
+          "actionType": "repeated_stolen_glances",
+          "intentionality": "repeated looking",
+          "physicality": "none"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "expresses_wet_hair_health_concern",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "target": "scene",
+          "actionType": "shakes_wet_hair",
+          "intentionality": "intentional playful response",
+          "physicality": "movement"
+        }
+      ],
+      "dialogueMeaning": [
+        "Chotu expresses ordinary concern that wet hair may make Dhika catch cold."
+      ],
+      "emotionalStateBefore": [
+        "Bereavement explanation just given; Dhika also liked prior outfit-focused look."
+      ],
+      "emotionalStateAfter": [
+        "Normal care continues while Dhika is aware Chotu repeatedly glances at her legs."
+      ],
+      "visibilityAndObservers": [
+        "Dhika notices the repeated leg glances."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows Chotu looked at her outfit/appearance."
+      ],
+      "knowledgeDelta": [
+        "Dhika sees that the attention repeats during unpacking."
+      ],
+      "knowledgeAfter": [
+        "Dhika has multiple current observations of Chotu's body-focused attention."
+      ],
+      "boundaryPermissionControl": [
+        "Condolences, concern and wet-hair play do not create unrelated physical/sexual permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu maintains normal care while attraction/gaze evidence becomes repeated and harder to dismiss."
+      ],
+      "secrecyState": [
+        "Chotu does not verbally admit the glances."
+      ],
+      "escalationOrNormalization": [
+        "Current gaze shifts from one distracted scan to repeated stolen glances."
+      ],
+      "hooksOpened": [],
+      "hooksAdvanced": [
+        "How openly will the gaze be acknowledged?"
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not sexualize bereavement/condolences or ordinary health concern."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P02-E006",
+      "episode": "E03",
+      "part": "P02",
+      "sourceRange": "L22-L25",
+      "chronologyOrder": 6,
+      "eventType": "ACCIDENTAL_VISIBILITY_CAUGHT_GAZE_AND_LIE",
+      "sceneTime": "Same visit",
+      "location": "Dhika's kitchen",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika carries items to the kitchen and raises her hands well above her head to put one item on a top shelf.",
+        "She notices Chotu looking at her mid-area, looks down, and sees her top has risen and her navel is visible.",
+        "She turns and sees Chotu still looking at her navel; she feels a bit of excitement.",
+        "Dhika softly asks 'Chotuuuu... what are you looking at?'",
+        "Chotu is startled and says he was watching what she was doing because he worried she might fall; RAW explicitly states he lied."
+      ],
+      "derivedInterpretations": [
+        "P1's reader-known raised-hands clothing mechanic pays off exactly here.",
+        "The initial navel visibility is accidental/unrealized from Dhika's perspective; her later choice to engage/tease the gaze is a separate intentional action.",
+        "Chotu's false explanation shows he is concealing the true reason for the gaze."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "upper shelf",
+          "actionType": "raises_hands_to_store_item",
+          "intentionality": "intentional practical action",
+          "physicality": "movement"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika's navel/midriff",
+          "actionType": "sustained_gaze",
+          "intentionality": "continues looking",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "softly_questions_gaze",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "gives_false_fall_concern_explanation",
+          "intentionality": "intentional lie per RAW",
+          "physicality": "none"
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika openly verbalizes that she has noticed Chotu looking; Chotu does not admit it."
+      ],
+      "emotionalStateBefore": [
+        "Dhika already knows Chotu has been looking repeatedly."
+      ],
+      "emotionalStateAfter": [
+        "Dhika feels some excitement; Chotu is startled and defensive/covering."
+      ],
+      "visibilityAndObservers": [
+        "Both are present. Dhika confirms with her own eyes that Chotu is still looking at the visible navel."
+      ],
+      "knowledgeBefore": [
+        "Reader knew the hands-up effect; Dhika did not."
+      ],
+      "knowledgeDelta": [
+        "Dhika learns top has risen/navel is visible and directly confirms Chotu's gaze; Chotu learns Dhika caught him."
+      ],
+      "knowledgeAfter": [
+        "Shared knowledge now includes that Dhika noticed the navel gaze; Chotu still does not truthfully admit it."
+      ],
+      "boundaryPermissionControl": [
+        "Initial navel visibility is not deliberately created by Dhika in this event.",
+        "Her excitement/questioning does not create touch permission or blanket future exposure consent."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu gaze dynamic becomes verbally acknowledged in current time rather than remaining only silently observed."
+      ],
+      "secrecyState": [
+        "Chotu actively conceals gaze motive with a lie."
+      ],
+      "escalationOrNormalization": [
+        "Repeated gaze → caught sustained navel gaze → direct verbal challenge."
+      ],
+      "hooksOpened": [
+        "Will Dhika accept the cover explanation or tease him further?"
+      ],
+      "hooksAdvanced": [],
+      "hooksResolved": [
+        "P1 raised-hands visibility setup pays off."
+      ],
+      "negativeCanon": [
+        "Do not rewrite L22 as deliberate navel exposure.",
+        "No touch occurs.",
+        "Chotu's fall explanation is explicitly false."
+      ],
+      "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P02-E007",
+      "episode": "E03",
+      "part": "P02",
+      "sourceRange": "L26-L31",
+      "chronologyOrder": 7,
+      "eventType": "DELIBERATE_TEASING_AND_SELF_RECOGNIZED_EAGERNESS",
+      "sceneTime": "Immediately after caught gaze",
+      "location": "Dhika's home / kitchen-unpacking area",
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika affectionately says her Chotu babu is so caring toward her after his false explanation.",
+        "Chotu smiles awkwardly.",
+        "Dhika decides to tease him a little more and says she thought he was looking at her stomach.",
+        "Chotu stammers and denies seeing anything.",
+        "Dhika turns away giggling and narrator states she came to know Chotu liked looking at her body.",
+        "Narrator states men have always looked at Dhika but she never gave them any chance to look at her skin.",
+        "Narrator states she felt very excited to show and tease Chotu; this was new to her and she found a profound eagerness toward it.",
+        "Dhika comes back and stands next to Chotu while he finishes packing."
+      ],
+      "derivedInterpretations": [
+        "This is a genuine Dhika state transition from enjoying/observing Chotu's gaze to intentionally teasing him about it and recognizing a person-specific urge to continue the show/tease dynamic.",
+        "The source explicitly contrasts Chotu with men in general, so the change must not be generalized into universal boldness/exhibitionism.",
+        "Chotu knows Dhika caught him and teased the possibility of stomach-looking, but source does not establish that he knows she enjoys it or how strong her eagerness is."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "deliberately_teases_about_stomach_gaze",
+          "intentionality": "explicitly deliberate",
+          "physicality": "none"
+        },
+        {
+          "actor": "Chotu",
+          "target": "Dhika",
+          "actionType": "denies_seeing_anything",
+          "intentionality": "intentional verbal denial",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "target": "Chotu",
+          "actionType": "returns_to_stand_next_to_him",
+          "intentionality": "intentional proximity",
+          "physicality": "ordinary standing proximity"
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika knowingly tests/teases Chotu's denial without explicitly confessing her own excitement."
+      ],
+      "emotionalStateBefore": [
+        "Dhika has caught gaze and feels a bit of excitement; Chotu is startled."
+      ],
+      "emotionalStateAfter": [
+        "Dhika giggles, feels very excited, recognizes the experience as new, and develops profound eagerness to show/tease Chotu; Chotu remains awkward/denying."
+      ],
+      "visibilityAndObservers": [
+        "No third observer. Chotu can see Dhika teasing; her deeper internal excitement/eagerness is narrator/reader-known and not explicitly disclosed to him."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows Chotu looked; Chotu knows she noticed."
+      ],
+      "knowledgeDelta": [
+        "Dhika forms source-stated conclusion that Chotu likes looking at her body and recognizes her own strong Chotu-specific eagerness."
+      ],
+      "knowledgeAfter": [
+        "Dhika knows/holds the new eagerness; Chotu knows only that she caught and teased him, not necessarily her internal enjoyment."
+      ],
+      "boundaryPermissionControl": [
+        "Deliberate verbal teasing is established.",
+        "Standing beside Chotu and enjoying gaze do not imply touch, kiss, sex, or blanket future permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu becomes an openly teased gaze relationship in current time.",
+        "Dhika's side changes from anticipation/curiosity to consciously enjoyed, self-recognized eagerness to show/tease Chotu."
+      ],
+      "secrecyState": [
+        "Dhika's strength of excitement/eagerness remains internal; Chotu continues verbal denial."
+      ],
+      "escalationOrNormalization": [
+        "Caught gaze → deliberate teasing → explicit self-recognition of a new Chotu-specific urge."
+      ],
+      "hooksOpened": [
+        "What Dhika does with her new profound eagerness.",
+        "Whether Chotu realizes Dhika enjoys his attention.",
+        "Whether Chotu keeps denying or later acknowledges attraction."
+      ],
+      "hooksAdvanced": [],
+      "hooksResolved": [
+        "Whether Dhika will actively engage the gaze in this Part: yes, through teasing."
+      ],
+      "negativeCanon": [
+        "No sexual touch/kiss/confession/affair in L26-L31.",
+        "Do not generalize Chotu-specific eagerness to all men.",
+        "No proof Chotu knows Dhika's internal eagerness."
+      ],
+      "qaAmbiguities": []
     }
   ],
   "relationships": [
@@ -244,12 +772,17 @@
       "inheritedFromPriorEpisodes": true,
       "e03EventIds": [
         "E03-P01-E001",
-        "E03-P01-E002"
+        "E03-P01-E002",
+        "E03-P02-E003",
+        "E03-P02-E004",
+        "E03-P02-E005",
+        "E03-P02-E006",
+        "E03-P02-E007"
       ],
-      "previousVerifiedState": "E02 end: Dhika deliberately creates a delivery/conversation opportunity and explicitly recognizes Chotu-specific comfort/excitement; Chotu has not arrived and his sudden leave reason remains unknown.",
-      "latestVerifiedState": "E03 P1: Dhika consciously chooses outfit/makeup while thinking about whether Chotu will like it/find her beautiful; doorbell produces butterflies, but visitor and Chotu reaction remain unconfirmed.",
-      "knowledgeSplit": "Dhika knows her own intent/anticipation but not Chotu's current feelings or leave reason. Chotu receives no new on-page knowledge in Part 1.",
-      "boundaryState": "Dhika wants to look attractive but explicitly avoids cleavage; no future touch/exposure/sexual permission is created."
+      "previousVerifiedState": "E03 P1: Dhika consciously chose outfit/makeup with Chotu's possible reaction in mind; doorbell created butterflies; visitor/Chotu reaction remained unconfirmed.",
+      "latestVerifiedState": "E03 P2: Chotu arrives; familiar affection and care resume; he repeatedly looks at Dhika's appearance/body, including sustained navel gaze; Dhika catches and deliberately teases him, then explicitly recognizes a new profound Chotu-specific eagerness to show/tease him.",
+      "knowledgeSplit": "Dhika knows Chotu looked and concludes he likes looking at her body; she knows her own excitement/eagerness. Chotu knows Dhika caught and teased his gaze, but source does not establish that he knows she selected the outfit for him or how strongly she enjoys the dynamic.",
+      "boundaryState": "Initial L22 navel visibility is accidental/unrealized; later teasing is deliberate. Gaze/teasing and ordinary proximity do not create touch/kiss/sexual permission."
     },
     {
       "relationshipId": "REL-DHIKA-UNCLE",
@@ -272,6 +805,33 @@
       "latestVerifiedState": "HOLD / REFERENCE-ONLY in E03 P1: John's earlier skirt suggestion is recalled; no current relationship progression.",
       "knowledgeSplit": "No new knowledge transfer.",
       "boundaryState": "No new boundary state."
+    },
+    {
+      "relationshipId": "REL-CHOTU-PAPPU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P02-E003"
+      ],
+      "previousVerifiedState": "E01 ordinary friendly delivery-visit familiarity.",
+      "latestVerifiedState": "HOLD / REAFFIRMED in E03 P2: Chotu asks where Pappu is immediately after sitting down; Pappu is absent.",
+      "knowledgeSplit": "Chotu learns from Dhika that Pappu went out with Aunty.",
+      "boundaryState": "Ordinary family/friendly reference only."
+    },
+    {
+      "relationshipId": "REL-CHOTU-GRANDMOTHER",
+      "inheritedFromPriorEpisodes": false,
+      "e03EventIds": [
+        "E03-P02-E004"
+      ],
+      "firstEvidence": {
+        "episode": "E03",
+        "part": "P02",
+        "sourceRange": "L18"
+      },
+      "relationshipType": "grandson-grandmother family relationship (reported/reference-only)",
+      "latestVerifiedState": "NEW in E03 P2: Chotu reports grandmother had been sick for a long time, died, and he went to his village because of her death.",
+      "knowledgeSplit": "Chotu reports the history to Dhika; source gives no independent flashback/corroboration.",
+      "boundaryState": "Normal family history; nonsexual."
     }
   ],
   "heldRelationshipIds": [
@@ -290,7 +850,6 @@
     "REL-BANTU-FATHER",
     "REL-DHIKA-MOTHER",
     "REL-DHIKA-BINDU",
-    "REL-CHOTU-PAPPU",
     "REL-BINDU-CHOTU",
     "REL-CHOTU-MOTHER",
     "REL-JOHN-PAPPU",
@@ -301,9 +860,14 @@
       "characterId": "CHAR-DHIKA",
       "eventIds": [
         "E03-P01-E001",
-        "E03-P01-E002"
+        "E03-P01-E002",
+        "E03-P02-E003",
+        "E03-P02-E004",
+        "E03-P02-E005",
+        "E03-P02-E006",
+        "E03-P02-E007"
       ],
-      "currentVerifiedState": "E03 P1: consciously prepares appearance with Chotu's possible reaction in mind, while preserving a clear cleavage boundary; becomes shy/anticipatory and feels butterflies at the doorbell.",
+      "currentVerifiedState": "E03 P2: Chotu-specific anticipation becomes live, consciously enjoyed gaze/teasing. Dhika catches repeated body-focused attention, feels excitement, deliberately teases the stomach gaze, concludes Chotu likes looking at her body, and recognizes a new profound eagerness to show/tease him; no touch/romance/blanket consent.",
       "activeSecrets": [
         "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
         "She knows Uncle's breach and has not disclosed it to John/Aunty; Uncle does not know she witnessed it."
@@ -312,9 +876,14 @@
     {
       "characterId": "CHAR-CHOTU",
       "eventIds": [
-        "E03-P01-E001"
+        "E03-P01-E001",
+        "E03-P02-E003",
+        "E03-P02-E004",
+        "E03-P02-E005",
+        "E03-P02-E006",
+        "E03-P02-E007"
       ],
-      "currentVerifiedState": "Inherited E02 state only: 19-year-old adult, expected by Dhika via delivery setup; sudden leave reason and current reaction remain unknown. Referenced in Dhika's thoughts, not physically present in E03 P1."
+      "currentVerifiedState": "E03 P2: returns happily, reports grandmother bereavement as leave reason, resumes familiar care, repeatedly looks at Dhika's appearance/body, is caught looking at her navel, lies/denies when challenged, and remains awkward about openly admitting the gaze."
     },
     {
       "characterId": "CHAR-UNCLE",
@@ -329,6 +898,32 @@
         "E03-P01-E001"
       ],
       "currentVerifiedState": "No current state change; only his earlier skirt suggestion is recalled."
+    },
+    {
+      "characterId": "CHAR-PAPPU",
+      "eventIds": [
+        "E03-P02-E003"
+      ],
+      "currentVerifiedState": "Absent in E03 P2; Chotu asks where he is and Dhika says he went out with Aunty. No state change."
+    },
+    {
+      "characterId": "CHAR-AUNTY",
+      "eventIds": [
+        "E03-P02-E003"
+      ],
+      "currentVerifiedState": "Referenced only: out with Pappu. No state change."
+    },
+    {
+      "characterId": "CHAR-CHOTU-GRANDMOTHER",
+      "canonicalName": "Chotu's grandmother",
+      "eventIds": [
+        "E03-P02-E004"
+      ],
+      "sourceConfirmedCharacterFacts": [
+        "Chotu reports she had been sick for a long time.",
+        "Chotu reports she passed away and her death required him to go to his village."
+      ],
+      "currentVerifiedState": "Deceased before/during the reported absence; reference-only family history. Name, illness and exact chronology are not supplied."
     }
   ],
   "hooks": [
@@ -347,14 +942,20 @@
     {
       "hookId": "HOOK-E02-CHOTU-LEAVE-REASON",
       "origin": "E02-P11-E026",
-      "status": "OPEN",
-      "statusChanges": [],
-      "note": "E03 P1 provides no answer."
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P02-E004",
+          "status": "RESOLVED",
+          "evidence": "L18: Chotu states grandmother died after long illness and he had to go to village."
+        }
+      ],
+      "note": "Narratively resolved by Chotu's uncontradicted report; not independently shown."
     },
     {
       "hookId": "HOOK-E02-CHOTU-NEXT-MEETING",
       "origin": "E02-P14-E035",
-      "status": "ADVANCED",
+      "status": "RESOLVED",
       "statusChanges": [
         {
           "at": "E03-P01-E001",
@@ -365,22 +966,65 @@
           "at": "E03-P01-E002",
           "status": "ADVANCED",
           "evidence": "Doorbell rings; visitor not yet confirmed."
+        },
+        {
+          "at": "E03-P02-E003",
+          "status": "RESOLVED",
+          "evidence": "L9–10: Chotu is the visitor and Dhika opens the door to him."
         }
       ]
     },
     {
       "hookId": "HOOK-E03-P01-VISITOR-IDENTITY",
       "origin": "E03-P01-E002",
-      "status": "OPEN",
-      "statusChanges": [],
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P02-E003",
+          "status": "RESOLVED",
+          "evidence": "L9 identifies the visitor by Chotu's voice/dialogue."
+        }
+      ],
       "note": "Hard stop at L8. Do not import L9."
     },
     {
       "hookId": "HOOK-E03-P01-RAISED-HANDS-VISIBILITY",
       "origin": "E03-P01-E001",
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P02-E006",
+          "status": "RESOLVED",
+          "evidence": "L22: Dhika raises hands for top shelf; top rises and navel is visible."
+        }
+      ],
+      "note": "Reader knows raising hands would reveal more stomach; Dhika does not realize this in Part 1."
+    },
+    {
+      "hookId": "HOOK-E03-P01-CHOTU-OUTFIT-REACTION",
+      "origin": "E03-P01-E001",
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P02-E004",
+          "status": "RESOLVED",
+          "evidence": "L15–16: Chotu notices outfit and looks from wet hair to slender legs; Dhika observes and likes it."
+        }
+      ]
+    },
+    {
+      "hookId": "HOOK-E03-P02-DHIKA-NEW-EAGERNESS",
+      "origin": "E03-P02-E007",
       "status": "OPEN",
       "statusChanges": [],
-      "note": "Reader knows raising hands would reveal more stomach; Dhika does not realize this in Part 1."
+      "note": "L31: new/profound eagerness to show and tease Chotu."
+    },
+    {
+      "hookId": "HOOK-E03-P02-CHOTU-AWARENESS-OF-DHIKA-ENJOYMENT",
+      "origin": "E03-P02-E007",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "Chotu knows he was caught/teased; source does not establish that he knows Dhika enjoys it or selected outfit for him."
     }
   ],
   "partSnapshots": {
@@ -420,9 +1064,57 @@
         "No reciprocal Dhika↔Uncle attraction.",
         "No generic boldness personality rewrite."
       ]
+    },
+    "E03-P02": {
+      "sourceRange": "L9-L31",
+      "previousVerifiedState": "E03 P1: Dhika prepared her appearance with Chotu's reaction in mind, intentionally avoided cleavage, did not know the hands-up visibility effect, and felt butterflies at an unconfirmed doorbell.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P02-E003",
+          "E03-P02-E004",
+          "E03-P02-E005",
+          "E03-P02-E006",
+          "E03-P02-E007"
+        ],
+        "exactChanges": [
+          "Visitor is confirmed as Chotu; familiar happy Didi/Chotu reunion resumes and recurring cheek-tap history is revealed.",
+          "Dhika immediately asks about the sudden leave; Chotu states grandmother died after long illness and he went to village.",
+          "Chotu notices/scans Dhika's appearance; Dhika likes the attention and later catches repeated leg glances.",
+          "P1 hands-up clothing mechanic pays off accidentally at L22: top rises, navel becomes visible, and Dhika catches Chotu still looking.",
+          "Chotu gives a false fall-concern explanation and later denies looking.",
+          "Dhika deliberately teases the stomach gaze, concludes Chotu likes looking at her body, and explicitly recognizes new very strong/profound eagerness to show/tease him."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika↔Chotu moves from private anticipation into live, verbally acknowledged gaze/teasing. Dhika's Chotu-specific exception is now conscious and self-recognized; Chotu's current attraction is repeatedly visible but verbally concealed. Normal affectionate/caring familiarity remains intact alongside this new layer.",
+      "knowledgeState": "Dhika knows Chotu looked and knows her own enjoyment/eagerness. Chotu knows Dhika caught and teased his gaze, but not necessarily her private excitement or outfit motive. Grandmother-death/village travel is Chotu's stated leave explanation.",
+      "boundaryState": "Initial L22 navel visibility is accidental/unrealized; later teasing is intentional. No sexual touch/kiss/romance/blanket future permission in L9–31.",
+      "hooksOpened": [
+        "What Dhika does with profound eagerness",
+        "Whether Chotu realizes she enjoys his gaze",
+        "Whether Chotu later admits attraction"
+      ],
+      "hooksAdvanced": [],
+      "hooksResolved": [
+        "Visitor identity",
+        "Chotu next meeting",
+        "Stated leave reason",
+        "P1 raised-hands visibility payoff",
+        "Chotu notices outfit",
+        "Dhika actively engages gaze through teasing"
+      ],
+      "negativeCanonIntroduced": [
+        "Do not rewrite accidental L22 navel visibility as deliberate exposure.",
+        "Do not generalize Chotu-specific show/tease eagerness to all men.",
+        "No proof Chotu knows Dhika's internal eagerness or P1 outfit motive.",
+        "No touch/kiss/confession/affair in Part 2.",
+        "Do not invent grandmother details beyond Chotu's report."
+      ]
     }
   },
-  "episodeStatus": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P01",
-  "nextUnprocessedPart": "P02",
-  "nextUnprocessedRange": "L9-L31"
+  "episodeStatus": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P02",
+  "nextUnprocessedPart": "P03",
+  "nextUnprocessedRange": "L32-L42",
+  "newRelationshipIds": [
+    "REL-CHOTU-GRANDMOTHER"
+  ]
 }
