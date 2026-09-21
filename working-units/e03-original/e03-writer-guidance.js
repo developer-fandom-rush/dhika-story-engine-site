@@ -55,6 +55,7 @@ window.E03_WRITER_GUIDANCE={
       "Large event gets a private processing beat before story moves elsewhere.",
       "Dhika likes the kiss, feels shy/guilty, questions cheating and withholds it from John.",
       "Then the story switches to twins tuition; this is rhythm, not de-escalation of the Chotu route.",
+      "Cross-route weave: Chotu route is paused with kiss history intact while twins become foreground; future writing must resume Chotu from the exact accumulated state, not reset him.",
       "Writer lesson: an unresolved erotic route can remain active while another relationship route takes the foreground.",
       "Do not convert Dhika's 'teenager' rationalization into objective age; Chotu is canonically 19."
     ]
@@ -66,7 +67,8 @@ window.E03_WRITER_GUIDANCE={
       "Bantu strategically pushes the 'feel free' logic; Dhika responds to the surface argument, not his hidden motive.",
       "Bobby compliment → Dhika honors the deal immediately → skirt/sleeveless homewear appears in the same Part.",
       "Teacher boundary is explicitly voiced even while Dhika blushes/accepts the compliment.",
-      "Future mistake to avoid: slowing this into several scenes or flattening it as generic comfort."
+      "Future mistake to avoid: slowing this into several scenes or flattening it as generic comfort.",
+      "Relationship-nature rule: twins physical-access grammar is not Chotu's grammar — here teacher-role, clothing negotiation, compliments and hidden motive shape the tension."
     ]
   },
   "part8": {
@@ -86,7 +88,8 @@ window.E03_WRITER_GUIDANCE={
       "Repetition is therefore progression, not redundancy.",
       "Escalation axis here is trust/confidentiality and social boldness, not deliberate exposure.",
       "Duration, reactions and who looks/comforts matter more than a generic 'another accident' summary.",
-      "Future mistake to avoid: treating repeated visibility as automatically consensual or narratively wasted."
+      "Future mistake to avoid: treating repeated visibility as automatically consensual or narratively wasted.",
+      "Cross-route learning: similar body/visibility access can carry a different meaning by relationship — twins route turns recurrence into embarrassment → care → secrecy → trust, not Chotu-style mutual teasing."
     ]
   },
   "part10": {
@@ -96,7 +99,8 @@ window.E03_WRITER_GUIDANCE={
       "Chotu help request is practically legitimate, while kiss memory/shyness still travels underneath it.",
       "Pacing lesson: ordinary time can separate charged beats without resetting relationship state.",
       "Access engine: Maami + 15-minute arrival window gives concrete timing and anticipation.",
-      "Future mistake to avoid: reading practical re-contact as either purely innocent or purely sexual; both practical purpose and private carry-over coexist."
+      "Future mistake to avoid: reading practical re-contact as either purely innocent or purely sexual; both practical purpose and private carry-over coexist.",
+      "Weaving function: family reset + painting logistics reconnect the paused Chotu route after twins progression without losing the earlier kiss state."
     ]
   },
   "part11": {
@@ -126,7 +130,8 @@ window.E03_WRITER_GUIDANCE={
       "Escalation axis: deliberate setup → sustained scan → Dhika watches him looking → she notices visible clothed arousal.",
       "This works because earlier legs/navel/partial-cleavage access already exists; tension comes from duration, intent and mutual awareness.",
       "Episode hard-stop matters: the next physical act is completely unwritten.",
-      "Future mistake to avoid: either resetting modesty or inventing an immediate post-L231 escalation."
+      "Future mistake to avoid: either resetting modesty or inventing an immediate post-L231 escalation.",
+      "Episode-level synthesis: E03 proves progression is relationship-specific but pacing is episode-wide; Chotu, twins, John/family and practical bridges alternate while each route preserves its own accumulated access/knowledge/emotion state."
     ]
   }
 };
