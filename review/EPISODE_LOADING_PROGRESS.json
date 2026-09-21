@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-21T15:17:00+05:30",
+  "updatedAt": "2026-09-21T20:46:00+05:30",
   "episodes": {
     "4": {
       "status": "CORRECTED_COMPLETE",
@@ -34,9 +34,12 @@
       "canonicalEventCount": 24,
       "imageGeneration": "NOT_RUN",
       "storyImageSlots": "LINE_LEVEL_MISSING_PLACEHOLDERS",
-      "completionCommitSha": "6bc965a249249c5a88b9c7d53abea5e122fb9e2e",
+      "completionCommitSha": "443e0ff51a42c9ced338e67cc2899bd5e5b8227c",
       "authorReviewStatus": "pending",
-      "releaseGate": "PENDING_FINAL_READBACK"
+      "releaseGate": "PASS_REPO_READBACK",
+      "sourceRows": 223,
+      "localRows": 223,
+      "narrativeImageSlots": 223
     }
   },
   "nextTargetEpisode": 5,
