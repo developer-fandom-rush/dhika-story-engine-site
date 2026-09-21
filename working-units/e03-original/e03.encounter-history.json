@@ -2,13 +2,13 @@
   "schemaVersion": "1.0",
   "episode": "E03",
   "branchId": "original-dhika",
-  "phase": "PHASE_2_EPISODE_03_IN_PROGRESS",
-  "asOfPart": "P03",
+  "phase": "PHASE_2_EPISODE_03_COMPLETE_REVIEWED",
+  "asOfPart": "P13",
   "sourceAuthority": {
     "title": "98 — RAW SOURCE — EPISODE 03",
     "driveId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
     "repoPath": "working-units/e03-original/RAW_SOURCE_EPISODE_03.txt",
-    "processedRange": "L1-L42"
+    "processedRange": "L1-L231"
   },
   "previousEpisodeTracker": {
     "episode": "E02",
@@ -1184,6 +1184,712 @@
         "Do not import L43+ meaning into the one-Chocobar choice."
       ],
       "qaAmbiguities": []
+    },
+    {
+      "eventId": "E03-P04-E013",
+      "episode": "E03",
+      "part": "P04",
+      "sourceRange": "L43-L56",
+      "chronologyOrder": 13,
+      "eventType": "SHARED_CHOCOLATE_AND_PLAYFUL_PROXIMITY",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika gives Chotu the second Chocobar and pulls him from floor seating onto the sofa facing her.",
+        "Girlfriend teasing and casual food/palm interaction keep the scene playful.",
+        "Dhika's movement brings their knees into repeated contact."
+      ],
+      "derivedInterpretations": [
+        "The erotic layer grows inside ordinary joking/hospitality rather than replacing it."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: social familiarity becomes more physically close and playful."
+      ],
+      "boundaryPermissionControl": [
+        "Closer seating and casual contact do not establish blanket physical permission."
+      ],
+      "escalationOrNormalization": [
+        "gaze/teasing route -> playful proximity"
+      ],
+      "negativeCanon": [
+        "Do not rewrite ordinary food-sharing as a preplanned sexual encounter."
+      ]
+    },
+    {
+      "eventId": "E03-P04-E014",
+      "episode": "E03",
+      "part": "P04",
+      "sourceRange": "L57-L64",
+      "chronologyOrder": 14,
+      "eventType": "KISS_BANTER_AND_MUTUAL_PLAY",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika asks about girlfriends/kissing and Chotu playfully claims ten girlfriends.",
+        "Both laugh and continue eating while seated opposite each other."
+      ],
+      "derivedInterpretations": [
+        "The kiss topic is introduced verbally before any kiss event exists."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: teasing broadens from looking/body attention to kiss-related banter."
+      ],
+      "boundaryPermissionControl": [
+        "Verbal teasing is not consent to a kiss."
+      ],
+      "escalationOrNormalization": [
+        "visual tension -> verbal erotic/romantic topic"
+      ],
+      "negativeCanon": [
+        "No actual kiss occurs in L57-L64."
+      ]
+    },
+    {
+      "eventId": "E03-P04-E015",
+      "episode": "E03",
+      "part": "P04",
+      "sourceRange": "L65-L72",
+      "chronologyOrder": 15,
+      "eventType": "REFLEXIVE_STOMACH_CONTACT_AND_REASSURANCE",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "An ice-cream drop lands near Dhika's navel.",
+        "Chotu reflexively wipes the drop directly from her stomach and licks his finger, then immediately realizes what he did and becomes tense.",
+        "He repeatedly apologizes; Dhika laughs, reassures him and teases him about the ice cream."
+      ],
+      "derivedInterpretations": [
+        "The contact is source-framed as immediate/reflexive and then processed through apology + reassurance."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: first direct stomach-contact event enters history, followed by explicit reassurance."
+      ],
+      "boundaryPermissionControl": [
+        "This accidental/reflexive contact does not create standing future touch permission."
+      ],
+      "escalationOrNormalization": [
+        "playful proximity -> unexpected direct contact -> repair/reassurance"
+      ],
+      "negativeCanon": [
+        "Do not rewrite the initial contact as planned by either character."
+      ]
+    },
+    {
+      "eventId": "E03-P05-E016",
+      "episode": "E03",
+      "part": "P05",
+      "sourceRange": "L73-L85",
+      "chronologyOrder": 16,
+      "eventType": "KISS_TOPIC_AND_MUTUAL_LIP_ATTENTION",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika again asks whether Chotu has ever kissed a girl.",
+        "Chotu admits he has not and worries a girl might not like his kiss.",
+        "Dhika gives a playful flying kiss; later both privately look at each other's lips and separately wonder about a possible kiss.",
+        "They eventually notice the mutual lip-looking."
+      ],
+      "derivedInterpretations": [
+        "Several micro-beats convert joking into mutual kiss-awareness without a long explanatory pause."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: kiss curiosity becomes two-sided and mutually noticed."
+      ],
+      "boundaryPermissionControl": [
+        "Mutual lip-looking/flying kiss is not itself agreement to physical kissing."
+      ],
+      "escalationOrNormalization": [
+        "verbal kiss topic -> private imagination -> mutual visual awareness"
+      ],
+      "negativeCanon": [
+        "Do not collapse this chain into 'they suddenly wanted to kiss'."
+      ]
+    },
+    {
+      "eventId": "E03-P05-E017",
+      "episode": "E03",
+      "part": "P05",
+      "sourceRange": "L86-L94",
+      "chronologyOrder": 17,
+      "eventType": "FIRST_QUICK_KISS_AND_RUPTURE",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika reclines dreamily; Chotu looks at her and gives a quick kiss on the lips.",
+        "Dhika kisses back, then immediately opens her eyes, stands abruptly and Chotu retreats in fear/confusion.",
+        "Dhika says 'I liked it' and runs to her bedroom; Chotu takes the money and leaves."
+      ],
+      "derivedInterpretations": [
+        "Approval, surprise, shyness and rupture coexist; none should erase the others."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: first actual kiss becomes canonical history; relationship remains unlabelled/unresolved."
+      ],
+      "boundaryPermissionControl": [
+        "No explicit spoken pre-kiss agreement or blanket future permission is established."
+      ],
+      "escalationOrNormalization": [
+        "kiss curiosity -> quick physical event -> startled separation"
+      ],
+      "negativeCanon": [
+        "Do not rewrite this as either full rejection or settled romance."
+      ]
+    },
+    {
+      "eventId": "E03-P06-E018",
+      "episode": "E03",
+      "part": "P06",
+      "sourceRange": "L95-L96",
+      "chronologyOrder": 18,
+      "eventType": "NEXT_MORNING_KISS_REFLECTION_AND_SECRECY",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika recalls the kiss while bathing, likes what happened, feels shy and wonders whether it was cheating.",
+        "She rationalizes it as an innocent quick kiss and uses 'just a teenager' in her own thought; objective project canon remains Chotu age 19.",
+        "She does not fully acknowledge her own kiss-back and tells John nothing."
+      ],
+      "derivedInterpretations": [
+        "The story gives an aftermath/moral-processing beat before changing routes."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: liking + guilt/secrecy are added to kiss history.",
+        "Dhika↔John: selective non-disclosure expands."
+      ],
+      "boundaryPermissionControl": [
+        "Character rationalization does not change objective age or create future permission."
+      ],
+      "escalationOrNormalization": [
+        "major event -> private aftermath -> secrecy"
+      ],
+      "negativeCanon": [
+        "Do not treat Dhika's rationalization as narrator verdict."
+      ]
+    },
+    {
+      "eventId": "E03-P06-E019",
+      "episode": "E03",
+      "part": "P06",
+      "sourceRange": "L97-L110",
+      "chronologyOrder": 19,
+      "eventType": "TWINS_TUITION_RESET_AND_DUPATTA_REMOVAL",
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika returns to Wednesday tuition nervous about the prior twins incident.",
+        "Initial silence fades into normal study; Bantu compliments her kurti and Bobby remains shy.",
+        "Dhika removes her dupatta because it repeatedly pulls at her neck and she feels familiar/comfortable with the twins; both notice."
+      ],
+      "derivedInterpretations": [
+        "A charged route can pause while another relationship route resumes ordinary life."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu/Bobby: surface normality returns; practical clothing comfort becomes a new setup."
+      ],
+      "boundaryPermissionControl": [
+        "Practical dupatta removal is not blanket permission for comments, gaze or exposure."
+      ],
+      "escalationOrNormalization": [
+        "Chotu aftermath -> route switch -> twins normalization"
+      ],
+      "negativeCanon": [
+        "Do not import later clothing challenge backward into L97-L110."
+      ]
+    },
+    {
+      "eventId": "E03-P07-E020",
+      "episode": "E03",
+      "part": "P07",
+      "sourceRange": "L111-L124",
+      "chronologyOrder": 20,
+      "eventType": "HOMEWEAR_CHALLENGE_AND_BOBBY_COMPLIMENT",
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Bantu asks about Dhika's usual homewear and uses her own 'feel free' logic to push the conversation.",
+        "Narrator reveals Bantu is strategically trying to see more casual clothing while Dhika accepts only the surface argument.",
+        "Dhika challenges Bobby to say something he always wanted to say; Bobby compliments her beauty/smile.",
+        "Dhika immediately honors the deal by changing into a knee-length skirt and sleeveless high-neck top, then playfully swirls."
+      ],
+      "derivedInterpretations": [
+        "Fast clothing escalation is earned through dialogue and micro-beats, not a multi-episode delay requirement."
+      ],
+      "relationshipDelta": [
+        "Dhika↔twins: familiarity becomes more informal; Bobby's direct compliment and Bantu's strategic motive become explicit."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika does not know Bantu's hidden strategy; clothing change does not erase teacher role."
+      ],
+      "escalationOrNormalization": [
+        "practical clothing beat -> dialogue challenge -> immediate clothing payoff"
+      ],
+      "negativeCanon": [
+        "Do not flatten Bantu's hidden motive and Dhika's surface interpretation into the same knowledge state."
+      ]
+    },
+    {
+      "eventId": "E03-P07-E021",
+      "episode": "E03",
+      "part": "P07",
+      "sourceRange": "L125-L132",
+      "chronologyOrder": 21,
+      "eventType": "HOT_COMMENT_AND_TEACHER_BOUNDARY",
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Bantu says Dhika looks hot.",
+        "Dhika blushes but explicitly says he cannot say that because she is his teacher.",
+        "Bantu uses her earlier 'express feelings' lesson; Dhika says her feelings were not hurt, and he repeats the compliment.",
+        "Bobby scans/blushes; Dhika playfully pinches his cheeks; class then continues normally."
+      ],
+      "derivedInterpretations": [
+        "Comfort and role-boundary coexist in the same scene."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu/Bobby: verbal boldness rises while teacher/student boundary remains explicitly named."
+      ],
+      "boundaryPermissionControl": [
+        "Acceptance of a compliment does not remove the teacher/student relationship."
+      ],
+      "escalationOrNormalization": [
+        "informality -> boundary test -> shy acceptance -> ordinary class"
+      ],
+      "negativeCanon": [
+        "Do not summarize as 'everyone became comfortable'."
+      ]
+    },
+    {
+      "eventId": "E03-P08-E022",
+      "episode": "E03",
+      "part": "P08",
+      "sourceRange": "L133-L141",
+      "chronologyOrder": 22,
+      "eventType": "JOHN_TWINS_CLOTHING_DISCUSSION",
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika tells John about the twins/homewear incident.",
+        "John jokes that the twins achieved what he could not by getting her into modern clothing.",
+        "Dhika calls the boys innocent teenagers in dialogue; objective project canon keeps them adult 18+.",
+        "John jokes about Bantu calling her hot; Dhika frames it as an innocent gesture."
+      ],
+      "derivedInterpretations": [
+        "Character framing and objective canon must remain distinct."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John: she shares this twins-related event while Chotu kiss remains withheld."
+      ],
+      "boundaryPermissionControl": [
+        "John's joking does not create permission for future exposure/comments."
+      ],
+      "escalationOrNormalization": [
+        "selective disclosure continues"
+      ],
+      "negativeCanon": [
+        "Do not use 'teenagers' dialogue to overwrite objective adult canon."
+      ]
+    },
+    {
+      "eventId": "E03-P08-E023",
+      "episode": "E03",
+      "part": "P08",
+      "sourceRange": "L142-L147",
+      "chronologyOrder": 23,
+      "eventType": "PAINTING_PROJECT_AND_CHOTU_HELP_PLAN",
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika proposes repainting Pappu's room herself because she is bored.",
+        "She says she will take Chotu's help if needed.",
+        "John says 'Chotu... I see'; Dhika subtly blushes/smiles and John notices."
+      ],
+      "derivedInterpretations": [
+        "A mundane household project becomes the next story engine and future access route."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: recent private history is carried into a practical future-help plan.",
+        "Dhika↔John: John notices a Chotu-name reaction but source does not state his conclusion."
+      ],
+      "boundaryPermissionControl": [
+        "Practical help request alone does not prove hidden sexual motive."
+      ],
+      "escalationOrNormalization": [
+        "domestic boredom -> project -> future Chotu access"
+      ],
+      "negativeCanon": [
+        "Do not invent John's interpretation of the blush."
+      ]
+    },
+    {
+      "eventId": "E03-P09-E024",
+      "episode": "E03",
+      "part": "P09",
+      "sourceRange": "L148-L154",
+      "chronologyOrder": 24,
+      "eventType": "SECOND_PALLU_ACCIDENT",
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika buys paint supplies, then later begins Friday tuition in saree because twins arrive as she reaches home.",
+        "Fan + leaning posture gradually slides the pallu and creates a second accidental cleavage/breast visibility event.",
+        "Dhika notices only after the pallu drops and fixes herself within seconds; both twins have seen."
+      ],
+      "derivedInterpretations": [
+        "The story repeats accidental visibility but changes the emotional aftermath, so repetition is not redundant."
+      ],
+      "relationshipDelta": [
+        "Dhika↔twins: second accidental exposure history is added."
+      ],
+      "boundaryPermissionControl": [
+        "The exposure is accidental; do not convert it into invitation."
+      ],
+      "escalationOrNormalization": [
+        "repeat accident -> different consequence"
+      ],
+      "negativeCanon": [
+        "Do not infer more anatomy/visibility than source establishes."
+      ]
+    },
+    {
+      "eventId": "E03-P09-E025",
+      "episode": "E03",
+      "part": "P09",
+      "sourceRange": "L155-L167",
+      "chronologyOrder": 25,
+      "eventType": "DISTRESS_CONFIDENTIALITY_AND_BOBBY_CARE",
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika becomes tearful and fears someone learning about the incident.",
+        "Bantu promises secrecy; Bobby calls it an accident, wipes her tears and gives unusually long reassurance about keeping the secret and caring about her.",
+        "Dhika is stunned by Bobby's care and says she trusts both boys."
+      ],
+      "derivedInterpretations": [
+        "The payoff of the repeated accident is trust/confidentiality rather than merely another exposure."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bobby: unusually direct care deepens trust.",
+        "Dhika↔Bantu/Bobby: confidentiality becomes explicit."
+      ],
+      "boundaryPermissionControl": [
+        "Reassurance after an accident does not retroactively make exposure consensual."
+      ],
+      "escalationOrNormalization": [
+        "distress -> reassurance -> trust"
+      ],
+      "negativeCanon": [
+        "Do not eroticize the distress itself."
+      ]
+    },
+    {
+      "eventId": "E03-P09-E026",
+      "episode": "E03",
+      "part": "P09",
+      "sourceRange": "L168-L179",
+      "chronologyOrder": 26,
+      "eventType": "BODY_IMAGE_REASSURANCE_AND_NEW_SECRECY",
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika calls her body old; Bantu reassures her and gives increasingly bold appearance compliments.",
+        "His unfinished 'so does your...' remains incomplete in source.",
+        "Dhika recovers some joviality and later does not tell John about the incident or Bantu's comments."
+      ],
+      "derivedInterpretations": [
+        "Self-image insecurity, reassurance and selective secrecy all become future state."
+      ],
+      "relationshipDelta": [
+        "Dhika↔twins: trust plus bolder compliment history accumulates.",
+        "Dhika↔John: another event is withheld."
+      ],
+      "boundaryPermissionControl": [
+        "Incomplete source wording must remain incomplete."
+      ],
+      "escalationOrNormalization": [
+        "accident aftermath -> confidence repair -> selective secrecy"
+      ],
+      "negativeCanon": [
+        "Do not invent the missing body part in Bantu's unfinished sentence."
+      ]
+    },
+    {
+      "eventId": "E03-P10-E027",
+      "episode": "E03",
+      "part": "P10",
+      "sourceRange": "L180-L188",
+      "chronologyOrder": 27,
+      "eventType": "FAMILY_RESET_AND_PAINTING_START",
+      "relationshipIds": [
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Saturday family time/movies help Dhika return to a happy state.",
+        "Sunday she asks John to take Pappu while she starts painting so he will not get hurt.",
+        "She cleans the room in a grey T-shirt and knee-length skirt and becomes sweaty/tired."
+      ],
+      "derivedInterpretations": [
+        "Ordinary family reset lets the charged routes breathe before reactivation."
+      ],
+      "relationshipDelta": [
+        "Dhika↔John: ordinary family logistics remain stable."
+      ],
+      "boundaryPermissionControl": [
+        "Pappu/childcare logistics are strictly ordinary family context."
+      ],
+      "escalationOrNormalization": [
+        "charged event -> ordinary reset -> project execution"
+      ],
+      "negativeCanon": [
+        "Do not assign erotic intent to Pappu leaving with John."
+      ]
+    },
+    {
+      "eventId": "E03-P10-E028",
+      "episode": "E03",
+      "part": "P10",
+      "sourceRange": "L189-L196",
+      "chronologyOrder": 28,
+      "eventType": "DELIBERATE_PRACTICAL_RECONTACT_WITH_CHOTU",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-BINDU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika wants help, thinks of Chotu, remembers the quick kiss and feels shy/blush.",
+        "She calls Maami and directly asks whether Chotu can help paint.",
+        "Maami confirms Chotu can come in about 15 minutes; Dhika blushes again and returns to work."
+      ],
+      "derivedInterpretations": [
+        "Legitimate practical access and private erotic/emotional carry-over coexist."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: she deliberately reopens contact after the kiss via painting help."
+      ],
+      "boundaryPermissionControl": [
+        "The stated request is practical help; blush does not by itself redefine the request."
+      ],
+      "escalationOrNormalization": [
+        "unresolved kiss -> practical recontact setup"
+      ],
+      "negativeCanon": [
+        "Do not rewrite the help request as a purely sexual invitation."
+      ]
+    },
+    {
+      "eventId": "E03-P11-E029",
+      "episode": "E03",
+      "part": "P11",
+      "sourceRange": "L197-L206",
+      "chronologyOrder": 29,
+      "eventType": "AWKWARD_REUNION_AND_UNSPOKEN_APOLOGY",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu's usual shout is absent; he arrives quieter/nervous.",
+        "On the way he has been thinking about apologizing for the prior kiss and feels bad about it.",
+        "Dhika notices/understands the nervousness and deliberately avoids raising the kiss because she does not want to make him uncomfortable.",
+        "She still smiles then feels guilt when thinking about her own kiss-back."
+      ],
+      "derivedInterpretations": [
+        "Changed emotion is shown through a missing familiar behavior rather than long exposition."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: both remember the kiss, but no actual apology/resolution conversation occurs."
+      ],
+      "boundaryPermissionControl": [
+        "Silence is not formal resolution or blanket permission."
+      ],
+      "escalationOrNormalization": [
+        "kiss aftermath -> awkward surface normalization"
+      ],
+      "negativeCanon": [
+        "Do not later claim they discussed/resolved the kiss in this Part."
+      ]
+    },
+    {
+      "eventId": "E03-P11-E030",
+      "episode": "E03",
+      "part": "P11",
+      "sourceRange": "L207-L209",
+      "chronologyOrder": 30,
+      "eventType": "PAINTING_COOPERATION",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika asks Chotu to help paint over time; Chotu agrees 'anything for you'.",
+        "They work for about an hour scraping different wall sections."
+      ],
+      "derivedInterpretations": [
+        "Ordinary cooperative labor stabilizes the surface relationship while private history remains active."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: practical teamwork resumes."
+      ],
+      "boundaryPermissionControl": [
+        "Work cooperation is not sexual permission."
+      ],
+      "escalationOrNormalization": [
+        "awkward reunion -> ordinary task rhythm"
+      ],
+      "negativeCanon": [
+        "No new erotic touch/visual event in L207-L209."
+      ]
+    },
+    {
+      "eventId": "E03-P12-E031",
+      "episode": "E03",
+      "part": "P12",
+      "sourceRange": "L210-L217",
+      "chronologyOrder": 31,
+      "eventType": "MIRROR_MEMORY_TO_DELIBERATE_SHIRT_KNOT",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU",
+        "REL-DHIKA-JOHN"
+      ],
+      "sourceSupportedFacts": [
+        "Sweaty Dhika notices her drenched/clinging grey T-shirt in the mirror.",
+        "She remembers an actress image John had viewed and the earlier Chotu stomach ice-cream moment.",
+        "Source explicitly says she decides to tease Chotu.",
+        "She knots the T-shirt, exposing a larger stomach/navel area and some cleavage, then imagines Chotu looking and feels shy/blush."
+      ],
+      "derivedInterpretations": [
+        "This is a clear intentionality escalation: remembered visual imagery becomes deliberate self-presentation."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: deliberate visual teasing returns in a stronger form."
+      ],
+      "boundaryPermissionControl": [
+        "Deliberate visual teasing does not itself create touch/kiss permission."
+      ],
+      "escalationOrNormalization": [
+        "memory association -> intentional clothing change -> anticipation"
+      ],
+      "negativeCanon": [
+        "Do not over-explain motive beyond the source's associative chain."
+      ]
+    },
+    {
+      "eventId": "E03-P12-E032",
+      "episode": "E03",
+      "part": "P12",
+      "sourceRange": "L218-L220",
+      "chronologyOrder": 32,
+      "eventType": "REPEATED_CAUGHT_CLEAVAGE_GAZE",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika returns to the room; Chotu initially does not notice because he is on the stool.",
+        "From the higher angle he later gets a substantial cleavage view and repeatedly steals glances.",
+        "Dhika catches him multiple times and responds with shyness/blushing."
+      ],
+      "derivedInterpretations": [
+        "Visual access is no longer a first-time reveal; escalation comes from deliberate setup + repeated caught gaze."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: repeated cleavage-gaze becomes mutually known."
+      ],
+      "boundaryPermissionControl": [
+        "Gaze history is established; no new touch occurs."
+      ],
+      "escalationOrNormalization": [
+        "deliberate presentation -> repeated caught visual access"
+      ],
+      "negativeCanon": [
+        "Future writing must not reset cleavage access as unseen/first-time."
+      ]
+    },
+    {
+      "eventId": "E03-P13-E033",
+      "episode": "E03",
+      "part": "P13",
+      "sourceRange": "L221-L224",
+      "chronologyOrder": 33,
+      "eventType": "LUNCH_AND_DELIBERATE_HIGH_SHELF_GAZE_SETUP",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika insists Chotu stay for lunch while both are sweaty.",
+        "She intentionally keeps the shared sweaty state rather than fully cleaning.",
+        "Source explicitly says she wants Chotu to look at her while she reaches for high-shelf plates.",
+        "Raising her hands lifts the knotted T-shirt much higher."
+      ],
+      "derivedInterpretations": [
+        "The same practical shelf mechanic now changes meaning: earlier navel visibility was accidental; here the look is deliberately staged."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: visual teasing advances from deliberate clothing setup to deliberate action staging."
+      ],
+      "boundaryPermissionControl": [
+        "Wanting him to look does not automatically authorize touch or any next act."
+      ],
+      "escalationOrNormalization": [
+        "accidental mechanic from P2 -> deliberate reuse in P13"
+      ],
+      "negativeCanon": [
+        "Do not call this a first stomach/navel reveal."
+      ]
+    },
+    {
+      "eventId": "E03-P13-E034",
+      "episode": "E03",
+      "part": "P13",
+      "sourceRange": "L225-L231",
+      "chronologyOrder": 34,
+      "eventType": "SUSTAINED_EROTIC_SCAN_AND_CLOTHED_AROUSAL_OBSERVED",
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Chotu performs a sustained head-to-toe erotic scan while Dhika is reaching.",
+        "Source describes his strong erotic attention and a visible clothed physiological reaction.",
+        "Dhika sees his eyes scanning, becomes intensely shy, then notices the clothed bulge/twitching and feels shy/excited.",
+        "Episode ends on Dhika's private perception of the reaction."
+      ],
+      "derivedInterpretations": [
+        "By episode end, visual attraction is strongly mutual in knowledge: Dhika deliberately creates the look and directly observes Chotu's arousal response.",
+        "The escalation is in sustained duration, deliberate staging, mutual awareness and visible reaction—not a new 'first reveal'."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: deliberate visual teasing + sustained gaze + observed clothed arousal become canonical episode-end state."
+      ],
+      "boundaryPermissionControl": [
+        "No post-L231 action, touch, sex, measured anatomy or future permission is established."
+      ],
+      "escalationOrNormalization": [
+        "repeated visual history -> deliberate staging -> sustained scan -> observed arousal cliffhanger"
+      ],
+      "negativeCanon": [
+        "Hard stop at L231; do not invent the next act."
+      ]
     }
   ],
   "relationships": [
@@ -1202,12 +1908,26 @@
         "E03-P03-E009",
         "E03-P03-E010",
         "E03-P03-E011",
-        "E03-P03-E012"
+        "E03-P03-E012",
+        "E03-P04-E013",
+        "E03-P04-E014",
+        "E03-P04-E015",
+        "E03-P05-E016",
+        "E03-P05-E017",
+        "E03-P06-E018",
+        "E03-P08-E023",
+        "E03-P10-E028",
+        "E03-P11-E029",
+        "E03-P11-E030",
+        "E03-P12-E031",
+        "E03-P12-E032",
+        "E03-P13-E033",
+        "E03-P13-E034"
       ],
-      "previousVerifiedState": "E03 P2: Chotu's repeated body-focused attention is caught and teased; Dhika explicitly recognizes new profound eagerness to show/tease him; Chotu remains awkward/denying.",
-      "latestVerifiedState": "E03 P3: Chotu privately replays P2 stomach gaze and E01 breast visibility, then deliberately self-corrects and decides not to spoil what he interprets as Dhika's comfort. Separately Dhika remains very excited, becomes a little afraid and is unsure what she may do next. They reunite without disclosing these private states.",
-      "knowledgeSplit": "Reader knows both private narratives. Chotu does not know Dhika's deliberate prior motives/current eagerness; Dhika does not know Chotu's explicit attraction-memory/self-restraint or comfort interpretation.",
-      "boundaryState": "Chotu creates a private 'do not spoil her comfort' restraint rule; Dhika has no specific next act decided. No new live sexual touch/visibility in P3."
+      "previousVerifiedState": "E03 P3: attraction/body-memory + Chotu self-restraint + Dhika excitement/fear/uncertainty.",
+      "latestVerifiedState": "E03 end: Dhika has repeatedly and deliberately teased Chotu's gaze, one reflexive stomach-contact and one quick kiss are in history, awkwardness remains partly unspoken, and during painting/lunch she deliberately stages stronger visual access; Chotu repeatedly looks and Dhika directly observes his clothed arousal response at L230-L231.",
+      "knowledgeSplit": "Both know the gaze dynamic is real. Dhika knows she deliberately staged later looks and sees Chotu's clothed arousal; Chotu still does not know every earlier Dhika motive/internal state. John does not know the Chotu kiss/visual route.",
+      "boundaryState": "Visual teasing/gaze is established; one quick kiss and one reflexive stomach-contact are historical facts. No blanket touch/sex/future permission; E03 hard-stops at L231."
     },
     {
       "relationshipId": "REL-DHIKA-UNCLE",
@@ -1224,12 +1944,18 @@
       "relationshipId": "REL-DHIKA-JOHN",
       "inheritedFromPriorEpisodes": true,
       "e03EventIds": [
-        "E03-P01-E001"
+        "E03-P01-E001",
+        "E03-P06-E018",
+        "E03-P08-E022",
+        "E03-P08-E023",
+        "E03-P09-E026",
+        "E03-P10-E027",
+        "E03-P12-E031"
       ],
-      "previousVerifiedState": "Warm/stable marriage through E02; John knows twins accident but not Dhika's Chotu test/private route or Uncle discovery.",
-      "latestVerifiedState": "HOLD / REFERENCE-ONLY in E03 P1: John's earlier skirt suggestion is recalled; no current relationship progression.",
-      "knowledgeSplit": "No new knowledge transfer.",
-      "boundaryState": "No new boundary state."
+      "previousVerifiedState": "E02 end / early E03: stable marriage with selective secrecy about Chotu and Uncle.",
+      "latestVerifiedState": "E03 end: Dhika shares some twins events but withholds Chotu kiss and later twins incident/comments; John notices her subtle Chotu-name reaction but source does not state a conclusion.",
+      "knowledgeSplit": "John knows selected twins events and painting plan; he does not know the Chotu kiss/visual progression or Uncle secret.",
+      "boundaryState": "Marriage remains active; selective disclosure is a knowledge-state fact, not proof of rupture."
     },
     {
       "relationshipId": "REL-CHOTU-PAPPU",
@@ -1257,6 +1983,51 @@
       "latestVerifiedState": "NEW in E03 P2: Chotu reports grandmother had been sick for a long time, died, and he went to his village because of her death.",
       "knowledgeSplit": "Chotu reports the history to Dhika; source gives no independent flashback/corroboration.",
       "boundaryState": "Normal family history; nonsexual."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BANTU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P06-E019",
+        "E03-P07-E020",
+        "E03-P07-E021",
+        "E03-P08-E022",
+        "E03-P09-E024",
+        "E03-P09-E025",
+        "E03-P09-E026"
+      ],
+      "previousVerifiedState": "E02 end: teacher/student familiarity plus prior accidental exposure history.",
+      "latestVerifiedState": "E03 end: homewear conversation, bold 'hot' comments, second accidental pallu incident, secrecy promise and appearance reassurance are added; teacher role remains explicit.",
+      "knowledgeSplit": "Dhika does not initially know Bantu's strategic clothing motive; later she knows his direct comments but does not disclose the Friday incident/comments to John.",
+      "boundaryState": "Adult 18+ project canon; teacher/student role remains. Accidental exposures are not invitations."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BOBBY",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P06-E019",
+        "E03-P07-E020",
+        "E03-P07-E021",
+        "E03-P08-E022",
+        "E03-P09-E024",
+        "E03-P09-E025",
+        "E03-P09-E026"
+      ],
+      "previousVerifiedState": "E02 end: teacher/student familiarity plus prior accidental exposure history.",
+      "latestVerifiedState": "E03 end: Bobby gives a direct beauty/smile compliment, later provides unusually long caring reassurance and wipes Dhika's tears after second accident; Dhika explicitly trusts both twins.",
+      "knowledgeSplit": "Bobby's internal gaze/reaction is not fully known to Dhika; his reassurance/secret promise is spoken and known.",
+      "boundaryState": "Adult 18+ project canon; teacher/student role remains. Care/reassurance does not retroactively change accidental exposure."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BINDU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P10-E028"
+      ],
+      "previousVerifiedState": "Practical store/customer bridge from prior episodes.",
+      "latestVerifiedState": "E03 P10: Dhika asks Maami whether Chotu can help paint; Maami confirms he can come in about 15 minutes.",
+      "knowledgeSplit": "Maami knows only the stated practical painting-help request.",
+      "boundaryState": "Practical intermediary role only."
     }
   ],
   "heldRelationshipIds": [
@@ -1678,9 +2449,350 @@
         "cumulativeThrough": "E03-P03",
         "rule": "RULE-017"
       }
+    },
+    "E03-P04": {
+      "sourceRange": "L43-L72",
+      "previousVerifiedState": "P3: both privately preoccupied; Dhika excited/uncertain, Chotu self-restraining.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P04-E013",
+          "E03-P04-E014",
+          "E03-P04-E015"
+        ],
+        "exactChanges": [
+          "Shared Chocobars create playful sofa proximity and kiss banter; reflexive stomach ice-cream contact triggers apology/reassurance."
+        ]
+      },
+      "cumulativeStateThroughPart": "Playful closeness and first direct stomach-contact history are added without creating standing permission.",
+      "knowledgeState": "P3 private asymmetry remains; both now also share a repaired unexpected-contact event.",
+      "boundaryState": "Closer seating and casual contact do not establish blanket physical permission. Verbal teasing is not consent to a kiss. This accidental/reflexive contact does not create standing future touch permission.",
+      "negativeCanonIntroduced": [
+        "Do not rewrite ordinary food-sharing as a preplanned sexual encounter.",
+        "No actual kiss occurs in L57-L64.",
+        "Do not rewrite the initial contact as planned by either character."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU"
+        ],
+        "cumulativeThrough": "E03-P04",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P05": {
+      "sourceRange": "L73-L94",
+      "previousVerifiedState": "P4: kiss topic is live after playful closeness/contact.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P05-E016",
+          "E03-P05-E017"
+        ],
+        "exactChanges": [
+          "Flying kiss + mutual lip attention + private kiss questions lead to a quick actual kiss; Dhika kisses back, startles, says she liked it, then both separate."
+        ]
+      },
+      "cumulativeStateThroughPart": "First kiss becomes canonical; approval, surprise, shyness and unresolved status coexist.",
+      "knowledgeState": "No explicit pre-kiss verbal agreement or romantic label.",
+      "boundaryState": "Mutual lip-looking/flying kiss is not itself agreement to physical kissing. No explicit spoken pre-kiss agreement or blanket future permission is established.",
+      "negativeCanonIntroduced": [
+        "Do not collapse this chain into 'they suddenly wanted to kiss'.",
+        "Do not rewrite this as either full rejection or settled romance."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU"
+        ],
+        "cumulativeThrough": "E03-P05",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P06": {
+      "sourceRange": "L95-L110",
+      "previousVerifiedState": "P5: first kiss ended in abrupt separation.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P06-E018",
+          "E03-P06-E019"
+        ],
+        "exactChanges": [
+          "Dhika privately processes liking/shyness/cheating question, withholds from John; story then switches to twins tuition and practical dupatta removal."
+        ]
+      },
+      "cumulativeStateThroughPart": "Chotu route gains secrecy/guilt; twins route regains surface normality.",
+      "knowledgeState": "John remains uninformed about kiss.",
+      "boundaryState": "Character rationalization does not change objective age or create future permission. Practical dupatta removal is not blanket permission for comments, gaze or exposure.",
+      "negativeCanonIntroduced": [
+        "Do not treat Dhika's rationalization as narrator verdict.",
+        "Do not import later clothing challenge backward into L97-L110."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU",
+          "REL-DHIKA-JOHN",
+          "REL-DHIKA-BANTU",
+          "REL-DHIKA-BOBBY"
+        ],
+        "cumulativeThrough": "E03-P06",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P07": {
+      "sourceRange": "L111-L132",
+      "previousVerifiedState": "P6: twins tuition normalized and dupatta removal is noticed.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P07-E020",
+          "E03-P07-E021"
+        ],
+        "exactChanges": [
+          "Bantu steers homewear discussion; Bobby compliments; Dhika immediately changes clothes and Bantu tests verbal teacher boundary."
+        ]
+      },
+      "cumulativeStateThroughPart": "Twins route becomes more informal while teacher/student role remains explicit.",
+      "knowledgeState": "Bantu's strategy is reader-known, not Dhika-known.",
+      "boundaryState": "Dhika does not know Bantu's hidden strategy; clothing change does not erase teacher role. Acceptance of a compliment does not remove the teacher/student relationship.",
+      "negativeCanonIntroduced": [
+        "Do not flatten Bantu's hidden motive and Dhika's surface interpretation into the same knowledge state.",
+        "Do not summarize as 'everyone became comfortable'."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-BANTU",
+          "REL-DHIKA-BOBBY"
+        ],
+        "cumulativeThrough": "E03-P07",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P08": {
+      "sourceRange": "L133-L147",
+      "previousVerifiedState": "P7: homewear/compliment route ended with class normal.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P08-E022",
+          "E03-P08-E023"
+        ],
+        "exactChanges": [
+          "Dhika tells John some twins story; mundane dirty-room problem launches painting project; she names Chotu as helper and blushes subtly."
+        ]
+      },
+      "cumulativeStateThroughPart": "Painting becomes new practical access engine; selective disclosure to John remains.",
+      "knowledgeState": "John notices blush but his interpretation is unknown.",
+      "boundaryState": "John's joking does not create permission for future exposure/comments. Practical help request alone does not prove hidden sexual motive.",
+      "negativeCanonIntroduced": [
+        "Do not use 'teenagers' dialogue to overwrite objective adult canon.",
+        "Do not invent John's interpretation of the blush."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-JOHN",
+          "REL-DHIKA-BANTU",
+          "REL-DHIKA-BOBBY",
+          "REL-DHIKA-CHOTU"
+        ],
+        "cumulativeThrough": "E03-P08",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P09": {
+      "sourceRange": "L148-L179",
+      "previousVerifiedState": "P8: painting planned; twins tuition continues.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P09-E024",
+          "E03-P09-E025",
+          "E03-P09-E026"
+        ],
+        "exactChanges": [
+          "Second accidental pallu exposure causes distress; secrecy promises/Bobby care/Bantu compliments restore some confidence; Dhika later withholds incident/comments from John."
+        ]
+      },
+      "cumulativeStateThroughPart": "Twins trust/confidentiality deepen; John secrecy expands.",
+      "knowledgeState": "Exposure remains accidental; incomplete compliment stays incomplete.",
+      "boundaryState": "The exposure is accidental; do not convert it into invitation. Reassurance after an accident does not retroactively make exposure consensual. Incomplete source wording must remain incomplete.",
+      "negativeCanonIntroduced": [
+        "Do not infer more anatomy/visibility than source establishes.",
+        "Do not eroticize the distress itself.",
+        "Do not invent the missing body part in Bantu's unfinished sentence."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-BANTU",
+          "REL-DHIKA-BOBBY",
+          "REL-DHIKA-JOHN"
+        ],
+        "cumulativeThrough": "E03-P09",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P10": {
+      "sourceRange": "L180-L196",
+      "previousVerifiedState": "P9: distress partly repaired; painting still pending.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P10-E027",
+          "E03-P10-E028"
+        ],
+        "exactChanges": [
+          "Family reset, Sunday painting setup, then Dhika deliberately asks Maami for Chotu's practical help while carrying kiss shyness."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika reopens Chotu contact via legitimate task route.",
+      "knowledgeState": "Pappu/John logistics remain ordinary family context.",
+      "boundaryState": "Pappu/childcare logistics are strictly ordinary family context. The stated request is practical help; blush does not by itself redefine the request.",
+      "negativeCanonIntroduced": [
+        "Do not assign erotic intent to Pappu leaving with John.",
+        "Do not rewrite the help request as a purely sexual invitation."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-JOHN",
+          "REL-DHIKA-CHOTU",
+          "REL-DHIKA-BINDU"
+        ],
+        "cumulativeThrough": "E03-P10",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P11": {
+      "sourceRange": "L197-L209",
+      "previousVerifiedState": "P10: Chotu arrival confirmed; prior kiss unresolved.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P11-E029",
+          "E03-P11-E030"
+        ],
+        "exactChanges": [
+          "Chotu arrives unusually quiet after considering apology; Dhika understands but avoids topic; both work together."
+        ]
+      },
+      "cumulativeStateThroughPart": "Surface normality returns while kiss remains unspoken/unresolved.",
+      "knowledgeState": "No actual apology conversation occurred.",
+      "boundaryState": "Silence is not formal resolution or blanket permission. Work cooperation is not sexual permission.",
+      "negativeCanonIntroduced": [
+        "Do not later claim they discussed/resolved the kiss in this Part.",
+        "No new erotic touch/visual event in L207-L209."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU"
+        ],
+        "cumulativeThrough": "E03-P11",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P12": {
+      "sourceRange": "L210-L220",
+      "previousVerifiedState": "P11: cooperative work + unresolved private history.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P12-E031",
+          "E03-P12-E032"
+        ],
+        "exactChanges": [
+          "Sweat/mirror/actress/earlier-contact memory chain leads Dhika to explicitly decide to tease Chotu by knotting shirt; repeated cleavage glances are caught."
+        ]
+      },
+      "cumulativeStateThroughPart": "Deliberate visual teasing becomes stronger; prior visual access is not reset.",
+      "knowledgeState": "No new touch; intent is visual teasing only.",
+      "boundaryState": "Deliberate visual teasing does not itself create touch/kiss permission. Gaze history is established; no new touch occurs.",
+      "negativeCanonIntroduced": [
+        "Do not over-explain motive beyond the source's associative chain.",
+        "Future writing must not reset cleavage access as unseen/first-time."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU",
+          "REL-DHIKA-JOHN"
+        ],
+        "cumulativeThrough": "E03-P12",
+        "rule": "RULE-017"
+      }
+    },
+    "E03-P13": {
+      "sourceRange": "L221-L231",
+      "previousVerifiedState": "P12: deliberate shirt-knot tease + repeated caught gaze.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P13-E033",
+          "E03-P13-E034"
+        ],
+        "exactChanges": [
+          "Dhika deliberately stages high-shelf look; Chotu sustains erotic scan and shows clothed arousal; Dhika observes it with shyness/excitement."
+        ]
+      },
+      "cumulativeStateThroughPart": "Episode ends with strong mutually known visual/attraction state but no next act.",
+      "knowledgeState": "Hard stop L231; no post-episode action or blanket permission.",
+      "boundaryState": "Wanting him to look does not automatically authorize touch or any next act. No post-L231 action, touch, sex, measured anatomy or future permission is established.",
+      "negativeCanonIntroduced": [
+        "Do not call this a first stomach/navel reveal.",
+        "Hard stop at L231; do not invent the next act."
+      ],
+      "interactionPerceptionTracker": {
+        "status": "BACKEND_CONTINUED",
+        "relationshipIds": [
+          "REL-DHIKA-CHOTU"
+        ],
+        "cumulativeThrough": "E03-P13",
+        "rule": "RULE-017"
+      }
     }
   },
-  "episodeStatus": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P03",
+  "episodeStatus": {
+    "0": "C",
+    "1": "U",
+    "2": "M",
+    "3": "U",
+    "4": "L",
+    "5": "A",
+    "6": "T",
+    "7": "I",
+    "8": "V",
+    "9": "E",
+    "10": "_",
+    "11": "C",
+    "12": "A",
+    "13": "N",
+    "14": "O",
+    "15": "N",
+    "16": "_",
+    "17": "T",
+    "18": "R",
+    "19": "A",
+    "20": "C",
+    "21": "K",
+    "22": "E",
+    "23": "D",
+    "24": "_",
+    "25": "T",
+    "26": "H",
+    "27": "R",
+    "28": "O",
+    "29": "U",
+    "30": "G",
+    "31": "H",
+    "32": "_",
+    "33": "E",
+    "34": "0",
+    "35": "3",
+    "36": "_",
+    "37": "P",
+    "38": "0",
+    "39": "3",
+    "processedThrough": "E03-P13",
+    "sourceRange": "L1-L231",
+    "status": "COMPLETE_THROUGH_EPISODE_END",
+    "hardStop": "L231"
+  },
   "nextUnprocessedPart": "P04",
   "nextUnprocessedRange": "L43-L72",
   "newRelationshipIds": [
