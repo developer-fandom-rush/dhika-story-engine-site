@@ -14,8 +14,12 @@
       "canonicalEventCount": 20,
       "imageGeneration": "NOT_RUN",
       "storyImageSlots": "LINE_LEVEL_MISSING_PLACEHOLDERS",
-      "completionCommitSha": "19a0ba9053cbc53e4a693534ff54852149be1241",
-      "authorReviewStatus": "pending"
+      "completionCommitSha": "5f10d7e8055d0f6bc19ca3cc809ec95f8e84d96a",
+      "authorReviewStatus": "pending",
+      "releaseGate": "PASS_REPO_READBACK",
+      "sourceRows": 199,
+      "localRows": 199,
+      "narrativeImageSlots": 196
     }
   },
   "nextTargetEpisode": 5,
