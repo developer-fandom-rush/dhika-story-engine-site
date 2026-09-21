@@ -711,3 +711,35 @@ Actual E03 proves:
 - Chotu can later return without losing the kiss/gaze history.
 
 Future writing must use this deeper model.
+
+
+---
+
+# 18. Episode 04 continuity — mandatory handoff
+
+## Route architecture
+- **Part 1:** completes the immediate E03 Chotu aftereffect and then pauses the Chotu route.
+- **Parts 2–3:** twins tuition resumes with stronger affection/trust; heat and clothing comfort become access engines.
+- **Parts 4–5:** an earlier outfit incident is deliberately revisited through a current request, followed by a considered reduction in covering.
+- **Part 6:** visual comfort, hand contact and increasingly direct compliments all advance on separate axes.
+- **Part 7:** a private accessory becomes a curiosity hook; Dhika sets a clear present limit and a narrower future promise.
+- **Part 8:** conversational intimacy grows while some questions remain explicitly off-limits.
+- **Part 9:** confidentiality becomes explicit and Bobby states he expects to be more comfortable next time.
+- **Part 10:** episode ends on an unresolved stronger-presentation question that belongs to E05 for resolution.
+
+## E04 end-state route matrix
+
+| Route | Current state | Knowledge / secrecy | Open hook |
+|---|---|---|---|
+| Dhika↔Chotu | stronger mutual awareness from E03 carried into a private E04 aftereffect; route then pauses | Chotu does not know Dhika's private shower reaction | resume later without reset |
+| Dhika↔Bantu | deliberate visibility choices, hand contact, direct compliments and increasingly candid questions | current tuition interaction is intended to stay private | E04 final request awaits E05 response |
+| Dhika↔Bobby | repeated gaze awareness, outfit request, accessory curiosity, direct questions, confidentiality reassurance | explicit secrecy promise | future increased comfort + accessory hook |
+| Dhika↔John | no live E04 scene; marriage/object context remains active | John is not shown knowing the detailed E04 tuition interaction | cross-route object/knowledge context |
+
+## Future writer constraints
+- Do not restart Chotu from a first-attraction baseline.
+- Do not restart twins from accidental-only visibility.
+- Do not treat trust as blanket permission.
+- Preserve Bantu/Bobby behavioral differences.
+- Preserve question-specific yes/no boundaries.
+- E05 must resolve the E04 endpoint from RAW, not prediction.
