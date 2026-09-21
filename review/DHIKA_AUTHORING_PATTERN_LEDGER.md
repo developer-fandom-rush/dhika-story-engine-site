@@ -294,3 +294,79 @@ Then weave scenes so that:
 - side routes can progress while the main route is paused,
 - ordinary logistics can transfer the story from one route to another.
 
+
+
+## E04 case study — route switch + access-axis separation
+
+Episode 04 is a stronger demonstration of the multi-route rule.
+
+### Prediction/evolution lesson
+
+E03 ends at a strong Dhika↔Chotu visual/arousal state. E04 does **not** simply continue escalating Chotu for the whole episode.
+
+Instead:
+- P1 pays off Chotu immediately through verbal mutual knowledge + Dhika's private first self-erotic touch + guilt,
+- then Chotu is paused,
+- P2–P10 foregrounds Bantu/Bobby and grows a separate access route.
+
+**New rule:** a route can deepen psychologically and then leave the foreground while another route receives the physical-access screen time. Do not confuse "off-screen" with "reset."
+
+### E04 twins physical-access grammar
+
+The twins route uses:
+- precedent from earlier accidental exposure,
+- heat/comfort,
+- explicit requests,
+- Dhika's own reasoning,
+- trust language,
+- repeated joking/pinching,
+- selective refusals,
+- confidentiality.
+
+This differs from Chotu's gaze/teasing/awkward-attraction grammar.
+
+### Access is not one ladder
+
+Track at least these separate axes:
+- visual visibility,
+- deliberate clothing choice,
+- observer acknowledgement,
+- verbal body vocabulary,
+- question-answer intimacy,
+- touch,
+- object knowledge,
+- secrecy,
+- future promise/hook.
+
+E04 proves an axis can advance while another hits a ceiling.
+
+Examples:
+- dupatta can be removed while saree removal is refused,
+- breast compliment can be accepted while breast-size question is refused,
+- waist-chain can be promised for another day while full view is denied now,
+- hand rubbing can be liked while gaze still causes shyness.
+
+### Twin differentiation
+
+Bantu:
+strategic, wording-sensitive, bold, argumentative, verbal driver.
+
+Bobby:
+shy, gaze-heavy, quieter requests, curiosity, reassurance, confidentiality, gradual verbal opening.
+
+Never collapse them into one "twins" personality merely because both are present.
+
+### Repetition meaning
+
+Earlier accidental exposure becomes:
+accident -> remembered precedent -> normalization argument -> deliberate chosen visibility.
+
+Therefore count both:
+1. how many times a type of access occurred,
+2. what each occurrence meant.
+
+### Hard handoff discipline
+
+E04 ends on Bantu's bra-specific motive/question. No bra reveal occurs before the hard stop.
+
+Future prediction may identify the pending response, but E05 RAW alone decides the payoff.
