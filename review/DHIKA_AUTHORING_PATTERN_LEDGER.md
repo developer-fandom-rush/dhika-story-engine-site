@@ -370,3 +370,54 @@ Therefore count both:
 E04 ends on Bantu's bra-specific motive/question. No bra reveal occurs before the hard stop.
 
 Future prediction may identify the pending response, but E05 RAW alone decides the payoff.
+
+
+## E04 case study — route switching and access-axis separation
+
+Episode 04 strengthens the multi-route model.
+
+### Route-switch lesson
+- The episode pays off the Dhika–Chotu E03 endpoint in Part 1 through direct mutual awareness and a private emotional/physical aftereffect.
+- It then pauses that route rather than resolving or resetting it.
+- Parts 2–10 foreground the twins and develop a separate relationship grammar.
+
+**Rule:** off-screen or paused does not mean reset. The paused relationship must return from its exact accumulated state.
+
+### Twins route grammar
+The twins route advances through:
+- earlier-event precedent,
+- heat/comfort logistics,
+- explicit requests,
+- Dhika's own decisions,
+- trust language,
+- playful conversation,
+- selective refusals,
+- confidentiality.
+
+This is structurally different from the Chotu route and must remain different.
+
+### Access is multi-axis
+Track separately:
+- visibility,
+- deliberate clothing choices,
+- observer acknowledgement,
+- direct body-language vocabulary,
+- question/answer intimacy,
+- nonsexual/affectionate touch and hand contact,
+- object knowledge,
+- secrecy,
+- future promises/hooks.
+
+One axis may advance while another stops.
+
+### Bantu and Bobby
+Bantu is generally the strategic, wording-sensitive, bold verbal driver.
+Bobby is generally shyer, gaze-led, quieter in requests, more reassurance-oriented, and opens up gradually.
+
+Do not collapse them into one identical "twins" personality.
+
+### Repetition changes meaning
+Earlier accidental visibility becomes remembered precedent, then a normalization argument, then a deliberate choice. Track frequency and changing meaning separately.
+
+### Hard-stop discipline
+E04 ends on an unresolved presentation-related question/request. The next episode RAW determines the answer; do not import the next episode backward.
