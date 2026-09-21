@@ -190,3 +190,24 @@ E01 gaze awareness aur E03 P1 private anticipation ab current-time openly teased
 - No proof Chotu knows Dhika's P1 outfit motive or internal excitement.
 - No touch, kiss, affair, confession or blanket consent in Part 2.
 - Grandmother name/illness/village/date not supplied.
+
+
+---
+
+# Interaction / Perception Tracker activation
+
+**Rule:** RULE-017  
+**Visible placement:** inside each materially active pair's `Relationship Progression`; no eighth top-level tab.
+
+## E03 Part 1
+- Dhika↔Chotu tracker is cumulatively backfilled from E01 → E02 → E03 P1.
+- Normal/non-sexual history is separated from physical/erotic/sexual perception history.
+- Dhika↔Uncle receives the same separation because E03 P1 directly carries Uncle-related clothing/boundary knowledge.
+- Through P1: no source-confirmed direct Dhika↔Chotu body touch; no source-confirmed smell/scent interaction.
+
+## E03 Part 2 continuity
+- P1 tracker rows are preserved.
+- P2 appends only new rows: habitual cheek tap (NORMAL TOUCH), grandmother disclosure/condolences/wet-hair concern (NORMAL), repeated gaze/navel observation (EROTIC/PERCEPTION), false cover explanation, deliberate teasing, and Dhika's source-stated new profound eagerness.
+- L22 navel visibility stays **ACCIDENTAL / UNREALIZED** from Dhika's side.
+- L28 teasing stays **DELIBERATE**.
+- Through P2: no source-confirmed sexual touch or kiss.
