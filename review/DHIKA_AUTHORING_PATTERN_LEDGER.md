@@ -183,3 +183,114 @@ Lesson:
 - a remembered visual event can retroactively confirm earlier access,
 - restraint can deepen tension instead of reducing it,
 - erotic motion can come from misaligned private interpretations rather than a new physical act.
+
+
+## E03 prediction failure — single-route continuation bias
+
+Earlier prediction over-weighted the immediately active Dhika↔Chotu route and under-weighted the author's habit of switching to another relationship route while keeping the first route unresolved in the background.
+
+Actual E03 teaches:
+- a major Chotu beat can be followed by twins tuition rather than immediate Chotu continuation,
+- the Chotu route does not reset while twins are foregrounded,
+- a side route can itself gain new physical-access, trust, clothing, secrecy, or observer-state progression,
+- ordinary family/domestic beats can sit between charged routes and later reconnect them.
+
+**Learning:** future prediction must model the episode as a multi-route weave, not a single escalating lane.
+
+Before predicting the next range, ask:
+1. Which relationship is foreground now?
+2. Which unresolved route may be intentionally paused rather than resolved?
+3. Which secondary route already has a planted access/logistics hook?
+4. Is the author likely to use a route-switch to avoid monotony while preserving accumulated tension?
+5. What relationship-specific grammar must remain distinct if another pair comes forward?
+
+Prediction must still remain local and non-canon. This rule improves prediction, but its larger purpose is future episode construction.
+
+## Multi-route physical-access weaving — core evolution rule
+
+DHIKA does not use one universal escalation ladder for every relationship.
+
+A future episode may weave several relationship routes in parallel, but each route must preserve its own:
+- normal relationship baseline,
+- physical/visual access history,
+- emotional meaning,
+- knowledge asymmetry,
+- secrecy,
+- role/boundary context,
+- recurrence pattern,
+- escalation rhythm.
+
+### Dhika ↔ Chotu grammar
+Core texture:
+- trust/familiarity,
+- being seen,
+- caught gaze,
+- visual teasing,
+- private curiosity,
+- mutual awareness,
+- shy excitement,
+- awkward restraint,
+- deliberate attention-seeking.
+
+Progression often changes the **meaning** of already-established access:
+accidental → deliberate, brief → sustained, unseen → caught, caught → teased, private → mutually known.
+
+### Dhika ↔ Bantu/Bobby grammar
+Core texture:
+- teacher/student familiarity,
+- compliments,
+- clothing/homewear negotiation,
+- accidental visibility,
+- different twin reactions,
+- embarrassment,
+- reassurance,
+- secrecy/confidentiality,
+- growing informal trust.
+
+Do not copy the Chotu grammar onto the twins. A similar visual/body-access event may have a completely different emotional function.
+
+### Dhika ↔ Uncle grammar
+Core texture:
+- concealed one-sided behavior,
+- observer secrecy,
+- breach/trace/discovery,
+- Dhika's interpretation/rationalization,
+- access-management and non-disclosure.
+
+Do not turn this route into playful mutual teasing merely because another route uses teasing.
+
+### Dhika ↔ John grammar
+Core texture:
+- marital baseline,
+- ordinary affection/family logistics,
+- selective disclosure,
+- contrast with hidden routes,
+- occasional observer role.
+
+### Cross-route weaving rule
+
+Physical-access progression should be tracked **per relationship**, while episode pacing should be tracked **across relationships**.
+
+A strong episode can:
+- escalate Route A,
+- pause Route A without resetting it,
+- foreground Route B with a different access mechanic,
+- use Route C as contrast/secrecy pressure,
+- return to Route A from the exact accumulated state.
+
+This is not filler. It is how the story avoids one-note escalation while still increasing total narrative pressure.
+
+### Future-writer requirement
+
+Before writing a new episode, build a route matrix:
+
+| Route | Current access state | Current emotion | What each side knows | Open hook | Natural next escalation axis |
+|---|---|---|---|---|---|
+
+Then weave scenes so that:
+- no route resets,
+- no pair copies another pair's nature,
+- similar physical beats have relationship-specific meanings,
+- side routes can progress while the main route is paused,
+- ordinary logistics can transfer the story from one route to another.
+
