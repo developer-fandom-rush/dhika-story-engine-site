@@ -645,3 +645,69 @@ Do not claim continuity confidence merely because a summary exists. Confidence i
 5. hard-stop check.
 
 If these are not done, the writer should treat itself as **not continuity-ready**.
+
+
+---
+
+# 17. Multi-relationship episode weaving — mandatory future-evolution model
+
+This is a core writing requirement, not only a prediction aid.
+
+Episode 03 demonstrates that relationship evolution is not written as one uninterrupted Dhika↔Chotu escalation line.
+
+The episode instead weaves:
+- **Dhika↔Chotu:** gaze → teasing → private restraint → playful proximity → kiss → guilt/secrecy → practical re-contact → deliberate visual teasing → sustained mutual awareness.
+- **Dhika↔Bantu/Bobby:** tuition reset → clothing/homewear negotiation → compliment/boundary testing → second accidental exposure → reassurance/confidentiality → body-confidence repair.
+- **Dhika↔John:** stable marriage/family baseline + selective disclosure + observer/contrast function.
+- **Dhika↔Uncle:** prior-route knowledge continues influencing Dhika's presentation choices even without a live Uncle scene.
+- **Bindu/Pappu/Aunty/family logistics:** practical bridges that move characters between routes without requiring explicit erotic setup.
+
+## The rule
+
+**Progression is relationship-specific; pacing is episode-wide.**
+
+A scene may pause one route and progress another. The paused route keeps its exact accumulated access/knowledge/emotion state.
+
+Do not:
+- reset Route A because Route B took several Parts,
+- copy Route A's erotic grammar onto Route B,
+- assume every physical-access event means the same thing,
+- force every episode to escalate the same pair continuously,
+- predict only the currently hottest route.
+
+## Relationship-nature preservation
+
+When similar physical/visual access occurs across different pairs, preserve different meanings.
+
+Example:
+- Chotu route: gaze can become playful/mutually noticed and later deliberately invited.
+- Twins route: accidental exposure can produce embarrassment, teacher-role tension, reassurance and confidentiality.
+- Uncle route: visibility/breach is tied to secrecy, hidden observation, discovery and rationalization.
+- John route: physical familiarity belongs to marriage baseline and often functions as contrast or knowledge context.
+
+The same body area or clothing state is **not** the same story beat across relationships.
+
+## Route-switch test before writing
+
+For every planned Part:
+1. foreground relationship,
+2. background unresolved relationships,
+3. current physical/visual access state for each,
+4. emotional state for each,
+5. who knows what,
+6. what is being repeated and how its meaning changes,
+7. whether the switch creates contrast, breathing room, secrecy pressure, or setup,
+8. exact return-state when the prior route comes back.
+
+## E03-specific lesson
+
+The earlier prediction mistake was to over-model Chotu as a single continuous escalation lane.
+
+Actual E03 proves:
+- Chotu can reach a kiss,
+- story can immediately foreground twins,
+- twins can independently progress,
+- family/John/painting can bridge scenes,
+- Chotu can later return without losing the kiss/gaze history.
+
+Future writing must use this deeper model.
