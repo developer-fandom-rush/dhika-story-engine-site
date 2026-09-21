@@ -1,0 +1,1931 @@
+{
+  "schemaVersion": "1.0",
+  "generatedOn": "2026-09-21",
+  "sourceRepository": {
+    "name": "developer-fandom-rush/dhika-story-engine",
+    "head": "e02cd1fb620eea0c21c095bc174affafbcb75a64"
+  },
+  "targetRepository": {
+    "name": "developer-fandom-rush/dhika-story-engine-site",
+    "inventoryBaseHead": "12085e2b36c6cee74e494edf6418248eb690d26b"
+  },
+  "authority": "Current prompt > current repo rulebooks > schemas/templates/registries > approved E01 > approved episodes > no memory assumptions",
+  "sourceDiscovery": {
+    "expectedEpisodes": 69,
+    "fullAuthoritativeRawEpisodes": 65,
+    "missingFullRaw": [
+      "E27",
+      "E41",
+      "E48",
+      "E69"
+    ],
+    "note": "Google Drive remains the authoritative RAW layer. Source GitHub contains only E01 normalized project data, not the complete manuscript archive."
+  },
+  "targetInventory": {
+    "existingEpisodeDirectories": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06"
+    ],
+    "missingEpisodeDirectories": "E07-E69",
+    "combinedViewsPresent": [
+      "E01",
+      "E02"
+    ],
+    "combinedViewsMissingForExisting": [
+      "E03",
+      "E04",
+      "E05",
+      "E06"
+    ],
+    "workingUnitsIndexCurrentlyLists": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "existingImageAssetCounts": {
+      "E01": 118,
+      "E02": 78,
+      "E03": 24,
+      "E04": 0,
+      "E05": 0,
+      "E06": 0
+    }
+  },
+  "blockers": [
+    {
+      "type": "MISSING_FULL_RAW",
+      "episodes": [
+        "E27",
+        "E41",
+        "E48",
+        "E69"
+      ],
+      "impact": "Cannot fabricate or mark these episodes complete."
+    },
+    {
+      "type": "SEQUENTIAL_CANON_GAP",
+      "fromEpisode": "E28",
+      "cause": "E27 full RAW missing",
+      "impact": "E28+ source can be inventoried independently, but cumulative character/relationship completion cannot be safely certified across the missing E27 gap."
+    },
+    {
+      "type": "ARC_PHASE_REGISTRY",
+      "impact": "Only initial E01 arc name is documented. Current rules require complete episode read before assigning arcs; no authoritative global phase-name taxonomy was found, so phase tags must remain review-pending rather than guessed."
+    }
+  ],
+  "writeIncidentAudit": {
+    "accidentalTreeCommit": "1639a48da341ca96e6dd1e512660945f447db6c9",
+    "cause": "create_tree was called without the intended base tree because the normalized commit wrapper was parsed incorrectly.",
+    "repairCommit": "12085e2b36c6cee74e494edf6418248eb690d26b",
+    "repairMethod": "Fast-forward commit rebuilt from intact prior tree db5afe68c821e7f4fba0543d6b21904b444cfa08 plus the two intended E05 metadata blobs; no force push or history rewrite.",
+    "verifiedRestoredPathCount": 397
+  },
+  "episodes": [
+    {
+      "episode": "E01",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "10EXZCa1k7qzGUnOBg-Z18t20-sBnnP8whNl3s3pStaM",
+        "title": "98 — RAW SOURCE — EPISODE 01",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 221
+      },
+      "target": {
+        "directory": "working-units/e01-part1-lines17-30",
+        "partCount": 12,
+        "combinedView": true,
+        "imageAssetCountDetected": 118,
+        "workingUnitsIndexListed": true,
+        "coverage": "Prologue L1-L16; Parts L17-L225; manifest registered_source_lines=226; L226 empty terminator"
+      },
+      "arcPhase": {
+        "arc": "ARC 01 — The First Awakening (initial working arc name from current combined-view playbook)",
+        "phase": null,
+        "status": "ARC_NAME_ONLY_PHASE_TAXONOMY_NOT_FOUND",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "EXISTING_APPROVED_REFERENCE",
+      "discrepancies": [
+        "Drive structured body between separators has 221 paragraphs, while approved E01 manifest registers 226 source lines / last nonempty L225. Preserve approved numbering; requires source-line-model reconciliation, not silent renumber."
+      ]
+    },
+    {
+      "episode": "E02",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1rUpEz7DSjwMznIF1SmMbz4ZM8pOXl45CClysaPj8FCk",
+        "title": "98 — RAW SOURCE — EPISODE 02",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 152
+      },
+      "target": {
+        "directory": "working-units/e02-original",
+        "partCount": 14,
+        "combinedView": true,
+        "imageAssetCountDetected": 78,
+        "workingUnitsIndexListed": true,
+        "coverage": "Parts L9-L159; wrapper/context L1-L8 uses older numbering convention"
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "EXISTING_APPROVED",
+      "discrepancies": [
+        "Older E02 Part coverage uses original document numbering L9-L159 instead of E03+ renumbered-body convention."
+      ]
+    },
+    {
+      "episode": "E03",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
+        "title": "98 — RAW SOURCE — EPISODE 03",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 232
+      },
+      "target": {
+        "directory": "working-units/e03-original",
+        "partCount": 13,
+        "combinedView": false,
+        "imageAssetCountDetected": 24,
+        "workingUnitsIndexListed": true,
+        "coverage": "Renumbered source body L1-L231; terminator excluded"
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "EXISTING_NORMALIZED_COMBINED_VIEW_MISSING",
+      "discrepancies": [
+        "Drive structured block includes a terminal zero-width paragraph (232 paragraphs); target manifest registers L1-L231 with terminatorExcluded=true."
+      ]
+    },
+    {
+      "episode": "E04",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1owTpGa1qlRr4-2n8phV0JLtygy_ZqZxJiKE6AlMGLHI",
+        "title": "RAW E04 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 199
+      },
+      "target": {
+        "directory": "working-units/e04-original",
+        "partCount": 10,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": "L1-L199 per manifest"
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "CORRECTED_COMPLETE_COMBINED_VIEW_MISSING_INDEX_MISSING",
+      "discrepancies": [
+        "Manifest says registeredLines=199 and terminatorExcluded=true; project progress separately records narrativeHardStop=L198. Keep both until reconciled."
+      ]
+    },
+    {
+      "episode": "E05",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1-HHtQrGt3HhOW1mdy14BXQVPmuSTcZ_Lo1Psazxf1WQ",
+        "title": "RAW E05 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 225
+      },
+      "target": {
+        "directory": "working-units/e05-original",
+        "partCount": 12,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": "L1-L225"
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "CORRECTED_COMPLETE_COMBINED_VIEW_MISSING_INDEX_MISSING",
+      "discrepancies": []
+    },
+    {
+      "episode": "E06",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 6 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 224
+      },
+      "target": {
+        "directory": "working-units/e06-original",
+        "partCount": 12,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": "L1-L223 per manifest"
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "COMPLETE_COMBINED_VIEW_MISSING_INDEX_MISSING",
+      "discrepancies": [
+        "Drive structured block measures 224 paragraphs including terminal/non-narrative row; target manifest registers L1-L223 after trailing exclusion."
+      ]
+    },
+    {
+      "episode": "E07",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 7 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 235
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E08",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 8 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 211
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E09",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 9 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 229
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E10",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 10 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 134
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E11",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 11 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 157
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E12",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 12 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 154
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E13",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 13 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 157
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E14",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 14 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 140
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E15",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 15 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 185
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E16",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 16 block to next full episode separator",
+        "structuredParagraphCountBetweenSeparators": 128
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E17",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1aNMojDx6no-4UfjTeCE90TodQ5tmnwO7TyOC6xR6IHg",
+        "title": "RAW E17 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 158
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E18",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1fnKLLFFlux-V4DbLQAOLDe1vtzAmlJiC2EYHTCjtF1s",
+        "title": "RAW E18 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 144
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E19",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1ClvJUDnYE2ax23F0B3sS_C80oXp8vYqcloWJSPE6Z3E",
+        "title": "RAW E19 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 176
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E20",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1QlKQEtNEy4y67xSXDB_R4RHSrWbPmigszbA5aajYipM",
+        "title": "RAW E20 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 136
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E21",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "10X75noPWvBCVzyM5eRTY-dH8lwql1NWS6zRULlp_UPM",
+        "title": "RAW E21 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 145
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E22",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1NpaKQeqR5Mw5E2IMiK7KoUz8cKevMbN-7d89dzZCf8Q",
+        "title": "RAW E22 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 156
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E23",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qHyOcSCKapCyc2zpWOfnXHzfD-3yFaunE4G-Q8qmSDU",
+        "title": "RAW E23 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 185
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E24",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1dG5cs8vlLDWTby0eUnc_QZqfI4mr0OdHvynkQmBVBWI",
+        "title": "RAW E24 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 159
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E25",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1m5slIq5zY2RYgPdKZAftFeN_uH4BIkIXEhgReKNiTLQ",
+        "title": "RAW E25 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 259
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E26",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1ZyA5PZdLRdP80IHGNxXQdr_KNBTCxdu9zwNWDGwDHuM",
+        "title": "RAW E26 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "dedicated_exact",
+        "structuredParagraphCountBetweenSeparators": 201
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_TARGET_NOT_LOADED",
+      "discrepancies": []
+    },
+    {
+      "episode": "E27",
+      "rawSourceAvailable": false,
+      "source": null,
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "BLOCKED_MISSING_FULL_AUTHORITATIVE_RAW",
+      "discrepancies": [
+        "No full authoritative RAW located after GitHub + Drive exact-source search for E27. Derived ledgers/context windows are not substitutes."
+      ]
+    },
+    {
+      "episode": "E28",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 28 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 151
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E29",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 29 block",
+        "structuredParagraphCountBetweenSeparators": 161
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E30",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 30 block",
+        "structuredParagraphCountBetweenSeparators": 194
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E31",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 31 block",
+        "structuredParagraphCountBetweenSeparators": 163
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E32",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 32 block",
+        "structuredParagraphCountBetweenSeparators": 164
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E33",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 33 block",
+        "structuredParagraphCountBetweenSeparators": 172
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E34",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 34 block",
+        "structuredParagraphCountBetweenSeparators": 193
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E35",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 35 block",
+        "structuredParagraphCountBetweenSeparators": 215
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E36",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 36 block",
+        "structuredParagraphCountBetweenSeparators": 230
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E37",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 37 block",
+        "structuredParagraphCountBetweenSeparators": 198
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E38",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1iQJbHm3iSlXi8qru1v7200eYbH2uYbKl1yBObby-Y5w",
+        "title": "RAW E29–E38 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 38 block",
+        "structuredParagraphCountBetweenSeparators": 246
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E39",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 39 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 163
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E40",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 40 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 206
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E41",
+      "rawSourceAvailable": false,
+      "source": null,
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "BLOCKED_MISSING_FULL_AUTHORITATIVE_RAW",
+      "discrepancies": [
+        "No full authoritative RAW located after GitHub + Drive exact-source search for E41. Derived ledgers/context windows are not substitutes."
+      ]
+    },
+    {
+      "episode": "E42",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 42 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 205
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E43",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 43 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 155
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E44",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 44 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 195
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E45",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 45 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 299
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E46",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 46 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 147
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E47",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+        "title": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+        "kind": "master_full_episode_block",
+        "boundary": "EPISODE 47 full block before audit/context-window material",
+        "structuredParagraphCountBetweenSeparators": 233
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E48",
+      "rawSourceAvailable": false,
+      "source": null,
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "BLOCKED_MISSING_FULL_AUTHORITATIVE_RAW",
+      "discrepancies": [
+        "No full authoritative RAW located after GitHub + Drive exact-source search for E48. Derived ledgers/context windows are not substitutes."
+      ]
+    },
+    {
+      "episode": "E49",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 49 block",
+        "structuredParagraphCountBetweenSeparators": 154
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E50",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 50 block",
+        "structuredParagraphCountBetweenSeparators": 187
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E51",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 51 block",
+        "structuredParagraphCountBetweenSeparators": 199
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E52",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 52 block",
+        "structuredParagraphCountBetweenSeparators": 172
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E53",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 53 block",
+        "structuredParagraphCountBetweenSeparators": 197
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E54",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 54 block",
+        "structuredParagraphCountBetweenSeparators": 145
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E55",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 55 block",
+        "structuredParagraphCountBetweenSeparators": 173
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E56",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 56 block",
+        "structuredParagraphCountBetweenSeparators": 215
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E57",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 57 block",
+        "structuredParagraphCountBetweenSeparators": 265
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E58",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1l7sV2XmOJBkSDweECcTnYfurAT2tl6bx72R6FibfSr4",
+        "title": "RAW E49–E58 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 58 block",
+        "structuredParagraphCountBetweenSeparators": 274
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E59",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 59 block",
+        "structuredParagraphCountBetweenSeparators": 224
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E60",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 60 block",
+        "structuredParagraphCountBetweenSeparators": 235
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E61",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 61 block",
+        "structuredParagraphCountBetweenSeparators": 228
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E62",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 62 block",
+        "structuredParagraphCountBetweenSeparators": 276
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E63",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 63 block",
+        "structuredParagraphCountBetweenSeparators": 122
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E64",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 64 block",
+        "structuredParagraphCountBetweenSeparators": 211
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E65",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 65 block",
+        "structuredParagraphCountBetweenSeparators": 184
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E66",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 66 block",
+        "structuredParagraphCountBetweenSeparators": 283
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E67",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 67 block",
+        "structuredParagraphCountBetweenSeparators": 301
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E68",
+      "rawSourceAvailable": true,
+      "source": {
+        "id": "1n2KGJ-vT4yrBfD5090_8bhBpqKz07KUsmt6DFRPU2nc",
+        "title": "RAW E59–E68 — EXACT SOURCE — DO NOT EDIT",
+        "kind": "range_exact",
+        "boundary": "EPISODE 68 block",
+        "structuredParagraphCountBetweenSeparators": 203
+      },
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "SOURCE_READY_BUT_SEQUENTIAL_CANON_BLOCKED_BY_MISSING_E27",
+      "discrepancies": []
+    },
+    {
+      "episode": "E69",
+      "rawSourceAvailable": false,
+      "source": null,
+      "target": {
+        "directory": null,
+        "partCount": 0,
+        "combinedView": false,
+        "imageAssetCountDetected": 0,
+        "workingUnitsIndexListed": false,
+        "coverage": null
+      },
+      "arcPhase": {
+        "arc": null,
+        "phase": null,
+        "status": "UNASSIGNED_PENDING_COMPLETE_EPISODE_READ",
+        "note": "Current repository rule says arc assignment is decided only after complete episode read; no fixed episode-count rule. No authoritative project-wide phase taxonomy/name registry was found in the searched GitHub/Drive sources."
+      },
+      "loadingStatus": "BLOCKED_MISSING_FULL_AUTHORITATIVE_RAW",
+      "discrepancies": [
+        "No full authoritative RAW located after GitHub + Drive exact-source search for E69. Derived ledgers/context windows are not substitutes."
+      ]
+    }
+  ]
+}
