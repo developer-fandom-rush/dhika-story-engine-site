@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-09-21T15:17:00+05:30",
+  "episodes": {
+    "4": {
+      "status": "CORRECTED_COMPLETE",
+      "executionMode": "manual-current-turn",
+      "driveSourceId": "1owTpGa1qlRr4-2n8phV0JLtygy_ZqZxJiKE6AlMGLHI",
+      "driveSourceTitle": "RAW E04 — EXACT SOURCE — DO NOT EDIT",
+      "sourceRange": "L1-L199",
+      "narrativeHardStop": "L198",
+      "partCount": 10,
+      "canonicalTracker": "working-units/e04-original/e04.encounter-history.json",
+      "canonicalEventCount": 20,
+      "imageGeneration": "NOT_RUN",
+      "storyImageSlots": "LINE_LEVEL_MISSING_PLACEHOLDERS",
+      "completionCommitSha": "19a0ba9053cbc53e4a693534ff54852149be1241",
+      "authorReviewStatus": "pending"
+    }
+  },
+  "nextTargetEpisode": 5,
+  "schedulerRule": "E05 is next. After E05 CORRECTED_COMPLETE, process the lowest incomplete episode >= E06, exactly one episode per scheduled run."
+}
