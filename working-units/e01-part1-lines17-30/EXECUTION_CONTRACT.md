@@ -73,3 +73,64 @@ Before each future update:
 - Part 2 missing visuals: prompt-only rule.
 
 The purpose of this contract is simple: **a new correction must improve one layer without silently damaging a layer that was already correct.**
+
+
+## 9. Mandatory writer-continuity preflight
+
+Before reviewing, planning, predicting, or writing any future DHIKA part/episode, fresh-read:
+
+1. this `EXECUTION_CONTRACT.md`,
+2. `review/DHIKA_WRITER_CONTINUITY_ENGINE.md`,
+3. `review/DHIKA_AUTHORING_PATTERN_LEDGER.md`,
+4. the latest approved Relationship Progression / History state for the active characters,
+5. the immediately previous approved Part hard-stop,
+6. the target RAW range when RAW exists.
+
+Do not rely on conversational memory when these repository sources exist.
+
+## 10. Future-writer continuity fields
+
+Every qualifying Part's **Storytelling & Authoring Notes** must preserve these five fields when relevant:
+
+- **Pacing / escalation function** — what actually changed and how quickly.
+- **Visual / physical access delta** — what was seen, touched, heard, felt, or mutually noticed.
+- **Repetition / recurrence** — whether this is first-time, repeated, habitual, or a callback.
+- **Knowledge asymmetry** — who knows the event/motive and who does not.
+- **Do-not-reset instruction** — what a future writer must not falsely re-introduce as a first-time beat.
+
+These fields are descriptive continuity, not restrictions on story intensity.
+
+## 11. Analysis must not become pacing suppression
+
+Analysis exists to describe the RAW accurately and help the future writer preserve its speed, rhythm and escalation.
+
+Do **not**:
+- turn factual caution/QA language into a slower story-writing rule,
+- artificially delay an escalation only because it feels early,
+- re-hide body/visual access that RAW already established,
+- repeatedly justify every gaze, outfit, tease or reaction inside prose,
+- convert `not established yet` into `must not happen soon`.
+
+When RAW escalates quickly through earned micro-beats, the analysis must record that speed as an author pattern.
+
+## 12. Story prose vs review prose
+
+**Story prose** should preserve the source's rhythm: action, visual detail, dialogue, gaze, micro-reaction, pause, teasing, implication.
+
+**Review prose** may separately document intent, consent state, knowledge state, source certainty, negative canon and QA.
+
+Never inject review-language into narrative prose merely because the review requires precision.
+
+## 13. Relationship-history verification rule
+
+A pointer-only ledger is not enough for future writing. For every major relationship, the current cumulative state must allow a new reviewer/writer to recover:
+
+- normal bond/history,
+- visual access already established,
+- touch/contact history,
+- attraction/thought history,
+- what each side knows,
+- repeated patterns,
+- latest unresolved state.
+
+The canonical cross-episode writer summary is `review/DHIKA_WRITER_CONTINUITY_ENGINE.md`. Relationship pointers remain navigation aids, not the sole continuity source.
