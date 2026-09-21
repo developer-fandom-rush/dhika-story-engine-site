@@ -19,10 +19,15 @@ Actual story body starts after episode title / URL / separator metadata. Determi
 
 Validation: start L1, end L199, gaps = no, overlaps = no.
 
-## Age-sensitive source rule
+## Adult-canon / fidelity rule
 
-Continuity from E03 identifies Chotu and Bantu/Bobby as teenage / age-sensitive characters. Sexualized or explicit detail involving them is represented in GitHub only through concise, non-explicit factual chronology with exact range preservation. No sexualized image prompt is created for those beats.
+Current project canon used by the corrected UI:
+- Chotu = 19.
+- Bantu = 18+.
+- Bobby = 18+.
+
+The older E04 loader incorrectly treated these routes as age-sensitive teenage content and compressed the local-language reading. That normalization is retired. The corrected build preserves RAW meaning, intensity, action category, visibility, thought/dialogue, knowledge, ambiguity and boundaries without strengthening beyond source.
 
 ## Image status
 
-This episode-loading pass does not generate images. `Story + Images` is present in every Part, but image state remains truthful as `MISSING / NOT GENERATED IN EPISODE-LOADING PASS` until a separate reviewed image workflow is run.
+This correction pass does not generate images. Story + Images is rebuilt line-by-line from the same local-language reading. Every narrative line has a truthful MISSING image slot for later reviewed insertion; no placeholder is claimed as an image.
