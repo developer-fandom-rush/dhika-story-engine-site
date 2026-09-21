@@ -1,0 +1,428 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E03",
+  "branchId": "original-dhika",
+  "phase": "PHASE_2_EPISODE_03_IN_PROGRESS",
+  "asOfPart": "P01",
+  "sourceAuthority": {
+    "title": "98 — RAW SOURCE — EPISODE 03",
+    "driveId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
+    "repoPath": "working-units/e03-original/RAW_SOURCE_EPISODE_03.txt",
+    "processedRange": "L1-L8"
+  },
+  "previousEpisodeTracker": {
+    "episode": "E02",
+    "path": "working-units/e02-original/e02.encounter-history.json",
+    "branch": "audit/e02-encounter-history",
+    "status": "CUMULATIVE_CANON_REPAIRED_THROUGH_E02_END",
+    "lastEventId": "E02-P14-E037"
+  },
+  "inheritedRelationshipIds": [
+    "REL-DHIKA-JOHN",
+    "REL-DHIKA-PAPPU",
+    "REL-DHIKA-STUDENTS-GENERAL",
+    "REL-DHIKA-AUNTY",
+    "REL-DHIKA-UNCLE",
+    "REL-JOHN-AUNTY-UNCLE",
+    "REL-PAPPU-AUNTY-UNCLE",
+    "REL-AUNTY-UNCLE",
+    "REL-DHIKA-BANTU",
+    "REL-DHIKA-BOBBY",
+    "REL-BANTU-BOBBY",
+    "REL-DHIKA-SHARMI",
+    "REL-SHARMI-RAJ",
+    "REL-DHIKA-RAJ",
+    "REL-BANTU-FATHER",
+    "REL-DHIKA-MOTHER",
+    "REL-DHIKA-BINDU",
+    "REL-DHIKA-CHOTU",
+    "REL-CHOTU-PAPPU",
+    "REL-BINDU-CHOTU",
+    "REL-CHOTU-MOTHER",
+    "REL-JOHN-PAPPU",
+    "REL-JOHN-UNCLE"
+  ],
+  "events": [
+    {
+      "eventId": "E03-P01-E001",
+      "episode": "E03",
+      "part": "P01",
+      "sourceRange": "L1-L6",
+      "chronologyOrder": 1,
+      "eventType": "INTERNAL_PREPARATION_AND_WARDROBE_CHOICE",
+      "sceneTime": "Continuation after E02 P14; exact clock time not stated in L1-L8.",
+      "location": "Dhika's home; continuity-supported from E02 ending, exact room not restated in L1-L8.",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN",
+        "CHAR-UNCLE",
+        "CHAR-CHOTU"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-UNCLE",
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "Dhika sees the knee-length skirt John had previously asked her to wear to Aunty's house.",
+        "She recalls that she had avoided it there because it felt disrespectful in front of Uncle and now thinks it might unknowingly have given Uncle thoughts about her.",
+        "Today she wants to wear the skirt and wonders whether Chotu would like it and think she looks beautiful; she feels shy.",
+        "After second thoughts she wears the skirt with a sleeveless, non-deep-cut top leaving a slight gap between skirt and top.",
+        "She explicitly does not want cleavage visible because she is unsure herself and unsure how Chotu feels.",
+        "She notices a very small amount of stomach visible and does not mind it.",
+        "She does not realize that raising her hands would lift the top and reveal more stomach.",
+        "She applies a little mascara and rose lipstick and is described as looking stunning."
+      ],
+      "derivedInterpretations": [
+        "The immediate Uncle-versus-Chotu contrast supports person-specific presentation boundaries rather than generic openness.",
+        "E02's Chotu-specific comfort/excitement is now expressed through a concrete appearance choice, but this does not establish romance or future permission."
+      ],
+      "actions": [
+        {
+          "actor": "Dhika",
+          "actionType": "selects_and_wears_outfit",
+          "intentionality": "intentional",
+          "physicality": "self-presentation"
+        },
+        {
+          "actor": "Dhika",
+          "actionType": "applies_light_makeup",
+          "intentionality": "intentional",
+          "physicality": "self-presentation"
+        }
+      ],
+      "dialogueMeaning": [
+        "Dhika privately wants to know whether Chotu likes how she looks and whether he finds her beautiful."
+      ],
+      "emotionalStateBefore": [
+        "E02 end: embarrassment about twins remains, while Dhika deliberately seeks a Chotu meeting and recognizes Chotu-specific comfort/excitement."
+      ],
+      "emotionalStateAfter": [
+        "Shy, appearance-conscious anticipation focused on Chotu; still uncertain about his feelings."
+      ],
+      "visibilityAndObservers": [
+        "Only Dhika is present in L1-L6. John, Uncle and Chotu are referenced, not present.",
+        "Dhika knows a little stomach is visible; she does not know the raised-hands clothing effect."
+      ],
+      "knowledgeBefore": [
+        "Dhika knows E02 Uncle breach and has kept it secret.",
+        "Dhika knows her own E01 Chotu visual-test history and E02 Chotu-specific excitement; she does not know Chotu's current feelings or leave reason."
+      ],
+      "knowledgeDelta": [
+        "No new external information is learned; Dhika clarifies her own outfit choice and consciously frames it around Chotu's possible reaction."
+      ],
+      "knowledgeAfter": [
+        "Dhika remains unsure how Chotu feels and does not know the hands-up visibility effect."
+      ],
+      "boundaryPermissionControl": [
+        "Dhika intentionally chooses the outfit but explicitly does not want cleavage visible.",
+        "Wanting Chotu to find her beautiful does not establish consent to touch, exposure, sexual activity or blanket future permission."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu: E02 meeting-opportunity creation advances into conscious appearance-directed anticipation.",
+        "Dhika↔Uncle: E02 knowledge now informs her retrospective clothing/boundary judgment; no new Uncle action occurs.",
+        "Dhika↔John: prior outfit suggestion is only recalled; HOLD / REFERENCE-ONLY."
+      ],
+      "secrecyState": [
+        "Dhika's Chotu-related private motives remain undisclosed to John.",
+        "Her knowledge of Uncle's breach remains hidden from Uncle, John and Aunty."
+      ],
+      "escalationOrNormalization": [
+        "Dhika↔Chotu internal route advances from deliberate meeting opportunity to deliberate self-presentation for his possible attention; no new encounter has happened yet."
+      ],
+      "hooksOpened": [
+        "Whether Chotu will see/notice the outfit and how he will react.",
+        "Whether the unrecognized raised-hands visibility mechanic matters later."
+      ],
+      "hooksAdvanced": [
+        "E02 unresolved outfit-choice hook advances and resolves in this event.",
+        "E02 Chotu-next-meeting hook advances toward the expected visit."
+      ],
+      "hooksResolved": [
+        "E02 final outfit-choice cliffhanger: knee-length skirt + sleeveless non-deep-cut top with light makeup."
+      ],
+      "negativeCanon": [
+        "No Chotu reaction is established in L1-L6.",
+        "No romance/affair declaration.",
+        "No cleavage is intentionally exposed; Dhika explicitly wants it not visible.",
+        "No reciprocal Dhika↔Uncle attraction is established.",
+        "No generic personality change from shy/conservative to universally bold is established."
+      ],
+      "qaAmbiguities": [
+        "Exact room and exact clock time are not restated in L1-L8."
+      ]
+    },
+    {
+      "eventId": "E03-P01-E002",
+      "episode": "E03",
+      "part": "P01",
+      "sourceRange": "L7-L8",
+      "chronologyOrder": 2,
+      "eventType": "DOORBELL_ANTICIPATION_HARD_STOP",
+      "sceneTime": "Same immediate sequence as E03-P01-E001.",
+      "location": "Dhika's home.",
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "sourceSupportedFacts": [
+        "The doorbell rings.",
+        "Dhika suspects who it is and feels a little butterflies in her stomach."
+      ],
+      "derivedInterpretations": [
+        "Given E02's arranged delivery opportunity and E03 L3 Chotu-focused anticipation, the reader may expect Chotu, but L1-L8 does not confirm the visitor's identity."
+      ],
+      "actions": [
+        {
+          "actor": "Unknown visitor",
+          "actionType": "rings_doorbell",
+          "intentionality": "intentional",
+          "physicality": "none"
+        },
+        {
+          "actor": "Dhika",
+          "actionType": "anticipates_identity",
+          "intentionality": "internal response",
+          "physicality": "none"
+        }
+      ],
+      "dialogueMeaning": [],
+      "emotionalStateBefore": [
+        "Shy Chotu-focused appearance anticipation."
+      ],
+      "emotionalStateAfter": [
+        "Anticipation intensifies into butterflies when the bell rings."
+      ],
+      "visibilityAndObservers": [
+        "Visitor remains off-screen/unconfirmed within Part 1."
+      ],
+      "knowledgeBefore": [
+        "Dhika expects a likely visitor but source has not yet named them in this Part."
+      ],
+      "knowledgeDelta": [
+        "She hears the doorbell only."
+      ],
+      "knowledgeAfter": [
+        "Visitor identity remains unconfirmed at the L8 hard stop."
+      ],
+      "boundaryPermissionControl": [
+        "Doorbell/anticipation creates no permission for any future physical or sexual act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu anticipation intensifies, but no confirmed live encounter occurs in Part 1."
+      ],
+      "secrecyState": [
+        "Dhika's internal anticipation remains private."
+      ],
+      "escalationOrNormalization": [
+        "Emotional anticipation increases; no physical/relational encounter escalation yet."
+      ],
+      "hooksOpened": [
+        "Who is at the door?"
+      ],
+      "hooksAdvanced": [
+        "Whether the expected Chotu meeting will occur."
+      ],
+      "hooksResolved": [],
+      "negativeCanon": [
+        "Do not import L9 identity/voice into Part 1.",
+        "Butterflies do not by themselves establish romance or consent."
+      ],
+      "qaAmbiguities": [
+        "Visitor identity is UNKNOWN / NOT YET CONFIRMED at L8."
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipId": "REL-DHIKA-CHOTU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P01-E001",
+        "E03-P01-E002"
+      ],
+      "previousVerifiedState": "E02 end: Dhika deliberately creates a delivery/conversation opportunity and explicitly recognizes Chotu-specific comfort/excitement; Chotu has not arrived and his sudden leave reason remains unknown.",
+      "latestVerifiedState": "E03 P1: Dhika consciously chooses outfit/makeup while thinking about whether Chotu will like it/find her beautiful; doorbell produces butterflies, but visitor and Chotu reaction remain unconfirmed.",
+      "knowledgeSplit": "Dhika knows her own intent/anticipation but not Chotu's current feelings or leave reason. Chotu receives no new on-page knowledge in Part 1.",
+      "boundaryState": "Dhika wants to look attractive but explicitly avoids cleavage; no future touch/exposure/sexual permission is created."
+    },
+    {
+      "relationshipId": "REL-DHIKA-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P01-E001"
+      ],
+      "previousVerifiedState": "E02 P7: Dhika knows Uncle's breach, hides that knowledge, preserves public trust and adds a practical safeguard; Uncle thinks she does not know.",
+      "latestVerifiedState": "E03 P1: Dhika retrospectively applies that awareness to her prior skirt decision and is glad she did not wear it around Uncle. No current Uncle interaction occurs.",
+      "knowledgeSplit": "Dhika knows enough to interpret possible Uncle thoughts; Uncle remains unaware that she knows about his prior breach.",
+      "boundaryState": "Current beat reinforces Dhika-side clothing/presentation caution around Uncle; it does not authorize prior or future Uncle conduct."
+    },
+    {
+      "relationshipId": "REL-DHIKA-JOHN",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [
+        "E03-P01-E001"
+      ],
+      "previousVerifiedState": "Warm/stable marriage through E02; John knows twins accident but not Dhika's Chotu test/private route or Uncle discovery.",
+      "latestVerifiedState": "HOLD / REFERENCE-ONLY in E03 P1: John's earlier skirt suggestion is recalled; no current relationship progression.",
+      "knowledgeSplit": "No new knowledge transfer.",
+      "boundaryState": "No new boundary state."
+    }
+  ],
+  "heldRelationshipIds": [
+    "REL-DHIKA-PAPPU",
+    "REL-DHIKA-STUDENTS-GENERAL",
+    "REL-DHIKA-AUNTY",
+    "REL-JOHN-AUNTY-UNCLE",
+    "REL-PAPPU-AUNTY-UNCLE",
+    "REL-AUNTY-UNCLE",
+    "REL-DHIKA-BANTU",
+    "REL-DHIKA-BOBBY",
+    "REL-BANTU-BOBBY",
+    "REL-DHIKA-SHARMI",
+    "REL-SHARMI-RAJ",
+    "REL-DHIKA-RAJ",
+    "REL-BANTU-FATHER",
+    "REL-DHIKA-MOTHER",
+    "REL-DHIKA-BINDU",
+    "REL-CHOTU-PAPPU",
+    "REL-BINDU-CHOTU",
+    "REL-CHOTU-MOTHER",
+    "REL-JOHN-PAPPU",
+    "REL-JOHN-UNCLE"
+  ],
+  "characters": [
+    {
+      "characterId": "CHAR-DHIKA",
+      "eventIds": [
+        "E03-P01-E001",
+        "E03-P01-E002"
+      ],
+      "currentVerifiedState": "E03 P1: consciously prepares appearance with Chotu's possible reaction in mind, while preserving a clear cleavage boundary; becomes shy/anticipatory and feels butterflies at the doorbell.",
+      "activeSecrets": [
+        "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
+        "She knows Uncle's breach and has not disclosed it to John/Aunty; Uncle does not know she witnessed it."
+      ]
+    },
+    {
+      "characterId": "CHAR-CHOTU",
+      "eventIds": [
+        "E03-P01-E001"
+      ],
+      "currentVerifiedState": "Inherited E02 state only: 19-year-old adult, expected by Dhika via delivery setup; sudden leave reason and current reaction remain unknown. Referenced in Dhika's thoughts, not physically present in E03 P1."
+    },
+    {
+      "characterId": "CHAR-UNCLE",
+      "eventIds": [
+        "E03-P01-E001"
+      ],
+      "currentVerifiedState": "No new Uncle-side action/state change in E03 P1; he is referenced through Dhika's retrospective clothing judgment."
+    },
+    {
+      "characterId": "CHAR-JOHN",
+      "eventIds": [
+        "E03-P01-E001"
+      ],
+      "currentVerifiedState": "No current state change; only his earlier skirt suggestion is recalled."
+    }
+  ],
+  "hooks": [
+    {
+      "hookId": "HOOK-E02-OUTFIT-CHOICE",
+      "origin": "E02-P14-E037",
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P01-E001",
+          "status": "RESOLVED",
+          "evidence": "E03 L1-L6: knee-length skirt + sleeveless non-deep-cut top + light makeup chosen."
+        }
+      ]
+    },
+    {
+      "hookId": "HOOK-E02-CHOTU-LEAVE-REASON",
+      "origin": "E02-P11-E026",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "E03 P1 provides no answer."
+    },
+    {
+      "hookId": "HOOK-E02-CHOTU-NEXT-MEETING",
+      "origin": "E02-P14-E035",
+      "status": "ADVANCED",
+      "statusChanges": [
+        {
+          "at": "E03-P01-E001",
+          "status": "ADVANCED",
+          "evidence": "Dhika prepares appearance with Chotu in mind."
+        },
+        {
+          "at": "E03-P01-E002",
+          "status": "ADVANCED",
+          "evidence": "Doorbell rings; visitor not yet confirmed."
+        }
+      ]
+    },
+    {
+      "hookId": "HOOK-E03-P01-VISITOR-IDENTITY",
+      "origin": "E03-P01-E002",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "Hard stop at L8. Do not import L9."
+    },
+    {
+      "hookId": "HOOK-E03-P01-RAISED-HANDS-VISIBILITY",
+      "origin": "E03-P01-E001",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "Reader knows raising hands would reveal more stomach; Dhika does not realize this in Part 1."
+    }
+  ],
+  "partSnapshots": {
+    "E03-P01": {
+      "sourceRange": "L1-L8",
+      "previousVerifiedState": "E02 ends with Dhika avoiding twins, deliberately creating a Chotu delivery/conversation opportunity, explicitly recognizing Chotu-specific comfort/excitement, and pausing before final outfit choice.",
+      "currentPartDelta": {
+        "eventIds": [
+          "E03-P01-E001",
+          "E03-P01-E002"
+        ],
+        "exactChanges": [
+          "E02 outfit cliffhanger resolves: Dhika chooses knee-length skirt + sleeveless non-deep-cut top and light makeup.",
+          "Dhika explicitly wonders whether Chotu will like the outfit and think she looks beautiful; she feels shy.",
+          "She intentionally avoids visible cleavage but accepts a small amount of stomach visibility.",
+          "Reader receives an unrecognized clothing mechanic: raising her hands would reveal more stomach.",
+          "Doorbell rings and Dhika feels butterflies; visitor identity remains unconfirmed at L8."
+        ]
+      },
+      "cumulativeStateThroughPart": "Dhika's Chotu route advances from deliberate opportunity creation to conscious appearance-directed anticipation while preserving explicit visibility limits. Uncle-related knowledge now informs her own clothing judgment. No confirmed visitor interaction occurs before the Part 1 hard stop.",
+      "knowledgeState": "Dhika knows her own Chotu-focused outfit intent but not Chotu's current feelings/leave reason; she does not know the hands-up visibility effect. Visitor identity is unconfirmed.",
+      "boundaryState": "Outfit and makeup are voluntary self-presentation; cleavage is explicitly not intended to be visible; no future physical/sexual permission.",
+      "hooksOpened": [
+        "Visitor identity",
+        "Possible later raised-hands visibility payoff"
+      ],
+      "hooksAdvanced": [
+        "Chotu next meeting"
+      ],
+      "hooksResolved": [
+        "E02 final outfit choice"
+      ],
+      "negativeCanonIntroduced": [
+        "No Chotu reaction in Part 1.",
+        "No romance/affair declaration.",
+        "No intentional cleavage display.",
+        "No reciprocal Dhika↔Uncle attraction.",
+        "No generic boldness personality rewrite."
+      ]
+    }
+  },
+  "episodeStatus": "CUMULATIVE_CANON_TRACKED_THROUGH_E03_P01",
+  "nextUnprocessedPart": "P02",
+  "nextUnprocessedRange": "L9-L31"
+}
