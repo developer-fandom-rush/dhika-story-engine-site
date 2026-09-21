@@ -743,3 +743,22 @@ Future writing must use this deeper model.
 - Preserve Bantu/Bobby behavioral differences.
 - Preserve question-specific yes/no boundaries.
 - E05 must resolve the E04 endpoint from RAW, not prediction.
+
+
+---
+
+# 19. Episode 06 continuity — mandatory handoff
+
+## Episode route map
+- **P1:** Dhika protects a Saturday Chotu window; Chotu is delayed.
+- **P2–P3:** Bobby develops independently without Bantu through academic pretext, one-on-one rapport and reciprocal comfort.
+- **P4–P6:** Chotu arrives; Bobby stays; painting creates a shared observer/access route; Dhika deliberately reaches a bra-only state; an accident creates care/contact; Bobby exits.
+- **P7–P10:** Chotu becomes sole foreground route; practical clothing cleanup turns into sexual-knowledge conversation, direct attraction confirmation and a major tactile threshold.
+- **P11–P12:** distress/abrupt exit -> Dhika private arousal -> John-linked guilt -> hard stop.
+
+## Mandatory carry-forward
+- Bobby must not reset to “silent twin”; E06 proves he can seek solo time and build independent rapport.
+- Chotu must not reset to first attraction or first body-response awareness.
+- E06's strongest Dhika↔Chotu physical event and Chotu's explicit stop requests must both remain in canonical history.
+- John remains unaware of E06.
+- E07 starts from unresolved aftermath, not a neutral reset.
