@@ -5321,5 +5321,26 @@
     "holdRelationshipsExplicit": true,
     "participantBackfillThrough": "P13",
     "verifiedOn": "2026-09-21"
+  },
+  "episodeWeavingAnalysis": {
+    "classification": "DERIVED_INTERPRETATION",
+    "purpose": "Future evolution and planning; not RAW canon and not a prediction outcome.",
+    "coreRule": "Progression is relationship-specific; pacing is episode-wide. A foreground route may pause while another route advances, and the paused route must later resume from its exact accumulated access/knowledge/emotion state.",
+    "routeNature": {
+      "REL-DHIKA-CHOTU": "Trust/familiarity -> gaze -> caught gaze -> visual teasing -> private restraint -> playful proximity -> kiss -> guilt/secrecy -> practical re-contact -> deliberate visual teasing -> sustained mutual awareness.",
+      "REL-DHIKA-BANTU / REL-DHIKA-BOBBY": "Teacher/student familiarity -> clothing/homewear negotiation -> compliments/boundary testing -> accidental visibility -> embarrassment -> reassurance/confidentiality -> informal trust/body-confidence repair.",
+      "REL-DHIKA-JOHN": "Marriage/family baseline -> selective disclosure -> observer/contrast role -> practical family bridge.",
+      "REL-DHIKA-UNCLE": "Prior concealed-breach knowledge -> presentation caution/reference; no live E03 mutual route.",
+      "REL-DHIKA-BINDU / family logistics": "Practical bridge that reopens or transfers relationship routes without requiring explicit erotic setup."
+    },
+    "predictionLearning": "Earlier prediction over-weighted a single continuous Chotu lane and under-weighted route-switching. Future prediction and writing must model unresolved background routes plus secondary-route setup.",
+    "futureWriterChecks": [
+      "Track physical/visual access separately per relationship.",
+      "Track emotional meaning separately per relationship.",
+      "Track who knows what and what remains hidden.",
+      "Do not copy Chotu-style mutual teasing onto twins or Uncle routes.",
+      "Do not reset a paused route when it returns.",
+      "Treat repeated access as progression only after checking how its meaning changed."
+    ]
   }
 }
