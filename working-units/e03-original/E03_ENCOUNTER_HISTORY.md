@@ -1031,3 +1031,12 @@
 - Dhika laughs, does not take the event in a bad way, reassures him and teases.
 - No actual kiss in Part 4.
 - Dhika's event-specific reassurance does not create standing future touch permission.
+
+
+---
+
+# Episode 03 full analysis lock · Parts 1–13
+
+Processed through **E03 P13 / L231**. RULE-017 machine continuity now covers the full episode. Normal/non-sexual interaction, physical contact, erotic/sexual perception, thought, feeling, knowledge and intentionality remain separately queryable. Episode hard-stops at L231; no post-L231 action is Episode 03 canon.
+
+Major lock: Dhika↔Chotu progresses from gaze/tease history → reflexive stomach contact → mutual lip curiosity → quick kiss + kiss-back → secrecy/awkwardness → painting cooperation → deliberate visual teasing → sustained scan + Dhika observing a clothed arousal response at episode end. Dhika↔Bantu/Bobby and Dhika↔John/Bindu are also machine-tracked through their active E03 Parts.
