@@ -21,9 +21,14 @@ Actual story body starts after episode title / URL / separator metadata. Determi
 
 Validation: start L1, end L225, gaps = no, overlaps = no.
 
-## Age-sensitive source rule
+## Adult-canon / fidelity rule
 
-Continuity from E03 identifies Chotu and Bantu/Bobby as teenage / age-sensitive characters. Sexualized or explicit detail involving them is represented in GitHub only through concise, non-explicit factual chronology with exact range preservation. No sexualized image prompt is created for those beats.
+Current project canon used by the corrected E05 Part files:
+- Chotu / Babu = 19-year-old adult.
+- Bantu = 18-year-old adult.
+- Bobby = 18-year-old adult.
+
+Source wording such as “teen” / “teenager” remains source wording and does not override the verified objective ages above. The corrected E05 build preserves the RAW action, thought, visibility, knowledge, boundary and emotional meaning without weakening or strengthening it. No new image generation is performed by this episode-loading validation pass.
 
 ## Image status
 
