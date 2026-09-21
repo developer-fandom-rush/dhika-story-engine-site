@@ -28,8 +28,17 @@
         "REL-DHIKA-JOHN",
         "REL-DHIKA-PAPPU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN",
+        "CHAR-PAPPU",
+        "CHAR-AUNTY",
+        "CHAR-CHOTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-BINDU"
+      ],
       "liveAction": "Dhika stays home for painting and specifically looks forward to doing it with Chotu; John/Pappu/Aunty leave for temple function and Dhika dresses for the planned Chotu visit.",
       "dialogueMeaning": "Dhika stays home for painting and specifically looks forward to doing it with Chotu; John/Pappu/Aunty leave for temple function and Dhika dresses for the planned Chotu visit.",
       "internalThought": "",
@@ -55,8 +64,17 @@
         "REL-DHIKA-BINDU",
         "REL-DHIKA-BOBBY"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN",
+        "CHAR-PAPPU",
+        "CHAR-AUNTY",
+        "CHAR-CHOTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-BINDU"
+      ],
       "liveAction": "Maami delays Chotu until about 3 PM; Bobby unexpectedly appears around 1 PM.",
       "dialogueMeaning": "Maami delays Chotu until about 3 PM; Bobby unexpectedly appears around 1 PM.",
       "internalThought": "",
@@ -79,8 +97,13 @@
         "REL-DHIKA-BOBBY",
         "REL-BANTU-BOBBY"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
       "liveAction": "Bobby visits alone, states real Physics competition/LHC goal and asks Dhika for help; narrator says he also deliberately wanted time alone with Dhika because Bantu is away.",
       "dialogueMeaning": "Bobby visits alone, states real Physics competition/LHC goal and asks Dhika for help; narrator says he also deliberately wanted time alone with Dhika because Bantu is away.",
       "internalThought": "",
@@ -102,8 +125,13 @@
       "relationshipIds": [
         "REL-DHIKA-BOBBY"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
       "liveAction": "Dhika decides to work on Bobby's introversion, teases his prior cleavage staring, invites one-on-one study, and deliberately chooses a side-folded leg posture to avoid panty exposure.",
       "dialogueMeaning": "Dhika decides to work on Bobby's introversion, teases his prior cleavage staring, invites one-on-one study, and deliberately chooses a side-folded leg posture to avoid panty exposure.",
       "internalThought": "",
@@ -125,7 +153,10 @@
       "relationshipIds": [
         "REL-DHIKA-BOBBY"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY"
+      ],
       "referencedCharacters": [],
       "liveAction": "During heat, Dhika proposes reciprocal comfort: if Bobby becomes comfortable, she may too. She knots her T-shirt to reveal navel/tighten fit; Bobby then removes shirt.",
       "dialogueMeaning": "During heat, Dhika proposes reciprocal comfort: if Bobby becomes comfortable, she may too. She knots her T-shirt to reveal navel/tighten fit; Bobby then removes shirt.",
@@ -148,7 +179,10 @@
       "relationshipIds": [
         "REL-DHIKA-BOBBY"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY"
+      ],
       "referencedCharacters": [],
       "liveAction": "Sweat makes Dhika's T-shirt semi-transparent and blue bra/deep cleavage visible; Dhika notices Bobby's clothed arousal; cross-legged posture accidentally raises skirt and exposes blue panties to Bobby.",
       "dialogueMeaning": "Sweat makes Dhika's T-shirt semi-transparent and blue bra/deep cleavage visible; Dhika notices Bobby's clothed arousal; cross-legged posture accidentally raises skirt and exposes blue panties to Bobby.",
@@ -174,8 +208,14 @@
         "REL-DHIKA-CHOTU",
         "REL-DHIKA-BOBBY"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-PAPPU"
+      ],
       "liveAction": "Chotu arrives; Dhika immediately adjusts skirt/unties shirt knot, opens door and initiates a hug with Chotu; Bobby puts shirt back.",
       "dialogueMeaning": "Chotu arrives; Dhika immediately adjusts skirt/unties shirt knot, opens door and initiates a hug with Chotu; Bobby puts shirt back.",
       "internalThought": "",
@@ -198,8 +238,14 @@
         "REL-DHIKA-BOBBY",
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-PAPPU"
+      ],
       "liveAction": "Bobby initially plans to leave but asks to stay and help paint; Dhika agrees, creating a three-person painting task.",
       "dialogueMeaning": "Bobby initially plans to leave but asks to stay and help paint; Dhika agrees, creating a three-person painting task.",
       "internalThought": "",
@@ -222,7 +268,11 @@
         "REL-DHIKA-BOBBY",
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Three-person painting in heat produces repeated gaze at Dhika's cleavage/thighs, Dhika noticing both men's clothed bulges, and mixed excitement/shyness/guilt.",
       "dialogueMeaning": "Three-person painting in heat produces repeated gaze at Dhika's cleavage/thighs, Dhika noticing both men's clothed bulges, and mixed excitement/shyness/guilt.",
@@ -246,7 +296,11 @@
         "REL-DHIKA-BOBBY",
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Dhika orders both men to remove shirt/vest for paint practicality, privately gets a naughty idea, and returns wearing only blue bra + black skirt after removing her own wet T-shirt for 'fairness/comfort'.",
       "dialogueMeaning": "Dhika orders both men to remove shirt/vest for paint practicality, privately gets a naughty idea, and returns wearing only blue bra + black skirt after removing her own wet T-shirt for 'fairness/comfort'.",
@@ -272,8 +326,14 @@
         "REL-DHIKA-CHOTU",
         "REL-DHIKA-BOBBY"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
       "liveAction": "Dhika slips on wet paint, skirt rides high above panties; Chotu gives bare-waist support while Bobby/Chotu provide pain care and continue visual attention.",
       "dialogueMeaning": "Dhika slips on wet paint, skirt rides high above panties; Chotu gives bare-waist support while Bobby/Chotu provide pain care and continue visual attention.",
       "internalThought": "",
@@ -298,8 +358,14 @@
         "REL-DHIKA-BOBBY",
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BOBBY",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU"
+      ],
       "liveAction": "Bobby leaves after a hug from bra-only Dhika; source states chest contact during hug. Bobby privately plans to tell Bantu about the experience.",
       "dialogueMeaning": "Bobby leaves after a hug from bra-only Dhika; source states chest contact during hug. Bobby privately plans to tell Bantu about the experience.",
       "internalThought": "",
@@ -321,8 +387,13 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
       "liveAction": "Alone with Chotu, Dhika openly acknowledges his erection, teases him, notices paint on her bum and his clothed tent, and offers to clean the paint.",
       "dialogueMeaning": "Alone with Chotu, Dhika openly acknowledges his erection, teases him, notices paint on her bum and his clothed tent, and offers to clean the paint.",
       "internalThought": "",
@@ -344,8 +415,13 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
       "liveAction": "Dhika links arms with shirtless Chotu into bedroom, experiences close bare-chest heat/incidental elbow-breast contact, then asks him to remove shorts so she can clean them; he remains in boxers.",
       "dialogueMeaning": "Dhika links arms with shirtless Chotu into bedroom, experiences close bare-chest heat/incidental elbow-breast contact, then asks him to remove shorts so she can clean them; he remains in boxers.",
       "internalThought": "",
@@ -369,8 +445,13 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
       "liveAction": "While Dhika kneels cleaning Chotu's shorts, his erection visibly grows inside boxers directly in front of her; she watches, reassures him and frames it as normal/healthy.",
       "dialogueMeaning": "While Dhika kneels cleaning Chotu's shorts, his erection visibly grows inside boxers directly in front of her; she watches, reassures him and frames it as normal/healthy.",
       "internalThought": "",
@@ -392,8 +473,13 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
       "liveAction": "Dhika suggests he could relieve himself privately; Chotu reveals he does not know how and has never masturbated; they discuss masturbation and Dhika says she does not do it.",
       "dialogueMeaning": "Dhika suggests he could relieve himself privately; Chotu reveals he does not know how and has never masturbated; they discuss masturbation and Dhika says she does not do it.",
       "internalThought": "",
@@ -415,7 +501,10 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Dropped shorts bring Dhika close to Chotu's boxers-covered erection; while bending, her palm grazes the tip area, framed as accidental with possible subconscious ambiguity; she apologizes.",
       "dialogueMeaning": "Dropped shorts bring Dhika close to Chotu's boxers-covered erection; while bending, her palm grazes the tip area, framed as accidental with possible subconscious ambiguity; she apologizes.",
@@ -438,7 +527,10 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Dhika asks whether his arousal is because of her; Chotu says yes and explicitly praises her breasts. Dhika covers herself, then knowingly lowers the cover and lets him see her bra-covered breasts again.",
       "dialogueMeaning": "Dhika asks whether his arousal is because of her; Chotu says yes and explicitly praises her breasts. Dhika covers herself, then knowingly lowers the cover and lets him see her bra-covered breasts again.",
@@ -461,7 +553,10 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Dhika deliberately taps/grazes Chotu's boxers-covered erection multiple times as playful teasing. Chotu explicitly asks her not to do it, says 'please no', and says not one more time; source then shows Dhika repeats and escalates the contact.",
       "dialogueMeaning": "Dhika deliberately taps/grazes Chotu's boxers-covered erection multiple times as playful teasing. Chotu explicitly asks her not to do it, says 'please no', and says not one more time; source then shows Dhika repeats and escalates the contact.",
@@ -487,7 +582,10 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "The repeated stimulation triggers Chotu's first ejaculation; semen passes through boxers onto Dhika's hand while her palm remains at the tip area. Chotu becomes upset/apologetic and Dhika immediately reassures him.",
       "dialogueMeaning": "The repeated stimulation triggers Chotu's first ejaculation; semen passes through boxers onto Dhika's hand while her palm remains at the tip area. Chotu becomes upset/apologetic and Dhika immediately reassures him.",
@@ -513,7 +611,10 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Chotu looks at the result, feels he did something wrong, asks to use bathroom; Dhika tells him he did nothing wrong and gives him shorts.",
       "dialogueMeaning": "Chotu looks at the result, feels he did something wrong, asks to use bathroom; Dhika tells him he did nothing wrong and gives him shorts.",
@@ -536,7 +637,10 @@
       "relationshipIds": [
         "REL-DHIKA-CHOTU"
       ],
-      "presentCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
       "referencedCharacters": [],
       "liveAction": "Dhika remains dreamily at mirror; Chotu exits bathroom and quickly leaves with a shouted goodbye.",
       "dialogueMeaning": "Dhika remains dreamily at mirror; Chotu exits bathroom and quickly leaves with a shouted goodbye.",
@@ -560,8 +664,13 @@
         "REL-DHIKA-CHOTU",
         "REL-DHIKA-JOHN"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
       "liveAction": "Dhika sees semen on her hands in mirror and remains highly aroused; seeing John's photo abruptly triggers guilt and she washes her hands.",
       "dialogueMeaning": "Dhika sees semen on her hands in mirror and remains highly aroused; seeing John's photo abruptly triggers guilt and she washes her hands.",
       "internalThought": "",
@@ -584,8 +693,13 @@
         "REL-DHIKA-CHOTU",
         "REL-DHIKA-JOHN"
       ],
-      "presentCharacters": [],
-      "referencedCharacters": [],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
+      ],
       "liveAction": "Dhika prepares for a cooling shower, removes bra/skirt and discovers her panties are drenched/soaked to the point of dripping.",
       "dialogueMeaning": "Dhika prepares for a cooling shower, removes bra/skirt and discovers her panties are drenched/soaked to the point of dripping.",
       "internalThought": "",
@@ -935,21 +1049,36 @@
       "currentVerifiedState": "E06 end: actively orchestrates reciprocal comfort with Bobby and shared painting visibility, then becomes much bolder with Chotu. She crosses into deliberate genital teasing, continues after explicit stop requests, witnesses Chotu's first ejaculation, then experiences strong arousal followed by John-triggered guilt. She retains relationship-specific behavior rather than a general 'bold' state."
     },
     {
-      "characterId": "CHAR-BOBBY",
+      "characterId": "CHAR-JOHN",
       "e06EventIds": [
+        "E06-P01-E001",
         "E06-P01-E002",
-        "E06-P02-E003",
-        "E06-P02-E004",
-        "E06-P03-E005",
-        "E06-P03-E006",
-        "E06-P04-E007",
-        "E06-P04-E008",
-        "E06-P05-E009",
-        "E06-P05-E010",
-        "E06-P06-E011",
-        "E06-P06-E012"
+        "E06-P07-E013",
+        "E06-P07-E014",
+        "E06-P08-E015",
+        "E06-P08-E016",
+        "E06-P12-E023",
+        "E06-P12-E024"
       ],
-      "currentVerifiedState": "E06: independently seeks Dhika, becomes more talkative without Bantu, reciprocates comfort by removing shirt, receives accidental panty visibility, joins painting, sees bra-only Dhika, helps after fall, receives bra-only hug, and plans to tell Bantu."
+      "currentVerifiedState": "Off-screen after leaving; photo becomes Dhika's guilt trigger. No knowledge of E06 events."
+    },
+    {
+      "characterId": "CHAR-PAPPU",
+      "e06EventIds": [
+        "E06-P01-E001",
+        "E06-P01-E002",
+        "E06-P04-E007",
+        "E06-P04-E008"
+      ],
+      "currentVerifiedState": "Nonsexual logistics only; leaves for temple function with John/Aunty."
+    },
+    {
+      "characterId": "CHAR-AUNTY",
+      "e06EventIds": [
+        "E06-P01-E001",
+        "E06-P01-E002"
+      ],
+      "currentVerifiedState": "Nonsexual logistics only; part of temple outing."
     },
     {
       "characterId": "CHAR-CHOTU",
@@ -978,32 +1107,40 @@
       "currentVerifiedState": "E06: adult 19, still sexually inexperienced; shared painting and one-on-one cleanup lead to explicit attraction dialogue, first genital stimulation by another person, repeated stop requests, first ejaculation, distress and abrupt departure."
     },
     {
-      "characterId": "CHAR-JOHN",
+      "characterId": "CHAR-BOBBY",
       "e06EventIds": [
         "E06-P01-E001",
-        "E06-P12-E023",
-        "E06-P12-E024"
+        "E06-P01-E002",
+        "E06-P02-E003",
+        "E06-P02-E004",
+        "E06-P03-E005",
+        "E06-P03-E006",
+        "E06-P04-E007",
+        "E06-P04-E008",
+        "E06-P05-E009",
+        "E06-P05-E010",
+        "E06-P06-E011",
+        "E06-P06-E012"
       ],
-      "currentVerifiedState": "Off-screen after leaving; photo becomes Dhika's guilt trigger. No knowledge of E06 events."
-    },
-    {
-      "characterId": "CHAR-PAPPU",
-      "e06EventIds": [
-        "E06-P01-E001"
-      ],
-      "currentVerifiedState": "Nonsexual logistics only; leaves for temple function with John/Aunty."
-    },
-    {
-      "characterId": "CHAR-AUNTY",
-      "e06EventIds": [],
-      "currentVerifiedState": "Nonsexual logistics only; part of temple outing."
+      "currentVerifiedState": "E06: independently seeks Dhika, becomes more talkative without Bantu, reciprocates comfort by removing shirt, receives accidental panty visibility, joins painting, sees bra-only Dhika, helps after fall, receives bra-only hug, and plans to tell Bantu."
     },
     {
       "characterId": "CHAR-BINDU",
       "e06EventIds": [
+        "E06-P01-E001",
         "E06-P01-E002"
       ],
       "currentVerifiedState": "Maami/store intermediary delays Chotu to 3 PM."
+    },
+    {
+      "characterId": "CHAR-BANTU",
+      "e06EventIds": [
+        "E06-P02-E003",
+        "E06-P02-E004",
+        "E06-P06-E011",
+        "E06-P06-E012"
+      ],
+      "currentVerifiedState": "Reference-only / no material E06 state change."
     }
   ],
   "partSnapshots": {
@@ -1165,5 +1302,12 @@
     "chotuRoute": "Anticipated arrival -> Dhika-initiated hug -> shared observer scene -> bra-only parity -> accident/care -> one-on-one erection teasing -> boxers-only cleanup -> masturbation knowledge -> accidental genital graze -> explicit attraction -> repeated deliberate stimulation despite stop requests -> first ejaculation -> distress/exit -> Dhika guilt.",
     "boundaryLearning": "E06 proves physical escalation and consent/boundary state must be tracked independently. A route can reach a higher physical ceiling while also creating a serious stop-request history.",
     "repetitionLearning": "Prior visual access is not replayed as first-time; it becomes joking precedent, parity logic and deliberate re-visibility."
+  },
+  "traversalIntegrity": {
+    "characterIndexThrough": "P12",
+    "relationshipIndexThrough": "P12",
+    "partIndexThrough": "P12",
+    "holdRelationshipsExplicit": true,
+    "verifiedOn": "2026-09-21"
   }
 }
