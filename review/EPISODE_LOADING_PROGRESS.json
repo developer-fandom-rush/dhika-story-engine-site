@@ -20,8 +20,25 @@
       "sourceRows": 199,
       "localRows": 199,
       "narrativeImageSlots": 196
+    },
+    "6": {
+      "status": "COMPLETE",
+      "executionMode": "manual-user-request",
+      "driveSourceId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+      "driveSourceTitle": "00 — HIGH PRIORITY — DHIKA 2 EXACT RAW RELATIONSHIP HISTORY — READ BEFORE EVERY NEW SCENE",
+      "sourceBoundary": "EPISODE 6 block through before EPISODE 7",
+      "sourceRange": "L1-L223",
+      "narrativeHardStop": "L223",
+      "partCount": 12,
+      "canonicalTracker": "working-units/e06-original/e06.encounter-history.json",
+      "canonicalEventCount": 24,
+      "imageGeneration": "NOT_RUN",
+      "storyImageSlots": "LINE_LEVEL_MISSING_PLACEHOLDERS",
+      "completionCommitSha": "6bc965a249249c5a88b9c7d53abea5e122fb9e2e",
+      "authorReviewStatus": "pending",
+      "releaseGate": "PENDING_FINAL_READBACK"
     }
   },
   "nextTargetEpisode": 5,
-  "schedulerRule": "E05 is next. After E05 CORRECTED_COMPLETE, process the lowest incomplete episode >= E06, exactly one episode per scheduled run."
+  "schedulerRule": "Scheduler still repairs E05 first. After E05 CORRECTED_COMPLETE, skip any episode already marked COMPLETE; E06 is already complete."
 }
