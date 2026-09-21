@@ -1,0 +1,100 @@
+{
+  "branchId": "original-dhika",
+  "episodeId": "E04",
+  "sourceRef": {
+    "driveDocumentId": "1owTpGa1qlRr4-2n8phV0JLtygy_ZqZxJiKE6AlMGLHI",
+    "title": "RAW E04 — EXACT SOURCE — DO NOT EDIT"
+  },
+  "sourceStatus": "fresh-read-and-corrected-2026-09-21",
+  "sourceBody": {
+    "start": "E04-L001",
+    "end": "E04-L199",
+    "registeredLines": 199,
+    "terminatorExcluded": true
+  },
+  "authorityNote": "Drive RAW Tab 1 wins over the supporting decode/tagging tab, older candidate UI, and derived assumptions.",
+  "parts": [
+    {
+      "n": 1,
+      "s": 1,
+      "e": 25,
+      "label": "Monday shower → E03 callback → guilt recoil"
+    },
+    {
+      "n": 2,
+      "s": 26,
+      "e": 46,
+      "label": "Audit-day transition → twins arrive → heat / outer-shirt beat"
+    },
+    {
+      "n": 3,
+      "s": 47,
+      "e": 73,
+      "label": "Comfort negotiation → dupatta off → gaze acknowledged"
+    },
+    {
+      "n": 4,
+      "s": 74,
+      "e": 96,
+      "label": "Pink-saree callback → current-wear request → wardrobe change"
+    },
+    {
+      "n": 5,
+      "s": 97,
+      "e": 119,
+      "label": "Saree return → heat → pallu negotiation"
+    },
+    {
+      "n": 6,
+      "s": 120,
+      "e": 136,
+      "label": "Trust display → hand contact → compliments intensify"
+    },
+    {
+      "n": 7,
+      "s": 137,
+      "e": 152,
+      "label": "Waist-chain curiosity → future-limit boundary"
+    },
+    {
+      "n": 8,
+      "s": 153,
+      "e": 176,
+      "label": "Personal/body questions → shy answers → clear limits"
+    },
+    {
+      "n": 9,
+      "s": 177,
+      "e": 190,
+      "label": "Awkward joke/slip → trust → secrecy agreement"
+    },
+    {
+      "n": 10,
+      "s": 191,
+      "e": 199,
+      "label": "Tuition ending → one last request → bra cliffhanger"
+    }
+  ],
+  "tabs": [
+    "40/40 Reading",
+    "Story + Images",
+    "Character Evolution",
+    "Relationship Progression",
+    "Reader Analysis Section",
+    "Relationship History Ledger",
+    "Storytelling & Authoring Notes",
+    "QA / Negative Canon"
+  ],
+  "analysisStatus": "corrected source-faithful build with canonical encounter history and deep authoring analysis",
+  "authorReviewStatus": "pending",
+  "uiStatus": "corrected complete pending author review",
+  "imageStatus": "no images generated; line-level MISSING slots preserved for later image workflow",
+  "adultCanon": {
+    "chotu": 19,
+    "bantu": "18+",
+    "bobby": "18+"
+  },
+  "canonicalTracker": "e04.encounter-history.json",
+  "humanTracker": "E04_ENCOUNTER_HISTORY.md",
+  "authoringAnalysis": "E04_AUTHORING_ANALYSIS.md"
+}

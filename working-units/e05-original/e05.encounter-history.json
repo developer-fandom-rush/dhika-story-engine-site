@@ -1,0 +1,3027 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E05",
+  "branchId": "original-dhika",
+  "sourceAuthority": {
+    "driveDocumentId": "1-HHtQrGt3HhOW1mdy14BXQVPmuSTcZ_Lo1Psazxf1WQ",
+    "title": "RAW E05 — EXACT SOURCE — DO NOT EDIT",
+    "driveStableRange": "L1-L229",
+    "wrapperMetadata": "Drive L1-L4 are episode wrapper metadata.",
+    "processedNarrativeRange": "Drive L5-L229 -> UI L1-L225",
+    "narrativeHardStop": "Drive L229 / UI L225",
+    "sourceHash": "27156c6cf6053f19e056dedfc71d616afdc0c4290af4b977c485965e5d0089c5",
+    "note": "Current E05 Part UI intentionally numbers narrative lines only; exact text audit matched all 225 narrative lines."
+  },
+  "asOfPart": "P12",
+  "adultCanon": {
+    "dhika": 29,
+    "chotu": 19,
+    "bantu": 18,
+    "bobby": 18
+  },
+  "traversalRule": "Read ordered E05 events plus E04 canonical state. Preserve relationship-specific access grammar, knowledge asymmetry, exact boundaries and HOLD relationships.",
+  "events": [
+    {
+      "eventId": "E05-P01-E001",
+      "sourceEventId": "E05-L005-009",
+      "part": "P01",
+      "sourceRange": "UI L1-L5",
+      "driveStableRange": "L5-L9",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Bantu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Bantu"
+      ],
+      "observers": [
+        "Bobby"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "“Crossing lines” verbal protest hai, lekin scene immediate rupture par nahi jata; Dhika teasing punishment + laughter ke zone mein rehti hai. Isko blanket permission bhi mat banao.",
+      "sourceScene": "E04 bra cliffhanger resumes",
+      "location": "Dhika home / tuition",
+      "time": "E04 immediate continuation",
+      "observerVisibility": [
+        "Twins continue seeing Dhika’s partially exposed breast area in the E04 carryover; she sometimes crosses her arms but does not fully cover throughout the laughter."
+      ],
+      "knowledgeDelta": [],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent."
+      ],
+      "boundaryControl": [
+        "Bantu’s E04-end bra line is met with an explicit ‘crossing lines’ correction and ear-pulling, even though Dhika remains smiling/laughing. Playful continuation does not erase the stated boundary."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [],
+      "negativeCanon": [
+        "E05 does not show Dhika removing/revealing her bra to the twins in response to E04’s final question.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P01-E002",
+      "sourceEventId": "E05-L010-020",
+      "part": "P01",
+      "sourceRange": "UI L6-L16",
+      "driveStableRange": "L10-L20",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Dhika",
+        "Bobby"
+      ],
+      "targets": [
+        "Bantu",
+        "Bobby",
+        "Dhika"
+      ],
+      "observers": [
+        "Bantu"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-BOBBY",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "E04 mein Bantu ke saath “kiss” sirf verbal slip tha. E05 mein Dhika khud twins ke saath first actual cheek kisses initiate karti hai; Bobby same category ka cheek peck reciprocate karta hai.",
+      "sourceScene": "Twins first cheek-kiss threshold",
+      "location": "Dhika home / exit",
+      "time": "End of tuition",
+      "observerVisibility": [
+        "Twins continue seeing Dhika’s partially exposed breast area in the E04 carryover; she sometimes crosses her arms but does not fully cover throughout the laughter.",
+        "Dhika gives both twins cheek kisses; Bobby later gives Dhika a cheek peck. No lip kiss occurs in this twins sequence."
+      ],
+      "knowledgeDelta": [],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "Bobby receives Dhika’s first cheek kiss and independently returns a sweet cheek peck before leaving. He has no extended mall route in E05."
+      ],
+      "boundaryControl": [
+        "Dhika herself initiates cheek kisses to both twins as thanks for caring; Bobby’s return cheek peck is a separate reciprocal affectionate act."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Dhika↔Bobby gains first mutual cheek affection: Dhika kisses his cheek; Bobby returns a cheek peck. No new extended one-on-one access after departure.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [],
+      "negativeCanon": [
+        "E05 does not show Dhika removing/revealing her bra to the twins in response to E04’s final question.",
+        "Twins kisses are cheek kisses only; no Bantu/Bobby lip kiss.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P02-E003",
+      "sourceEventId": "E05-L021-028",
+      "part": "P02",
+      "sourceRange": "UI L17-L24",
+      "driveStableRange": "L21-L28",
+      "presentCharacters": [
+        "Dhika",
+        "Pappu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "John"
+      ],
+      "actors": [
+        "Dhika",
+        "John"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Twins exposure/kisses memory → guilt → John call → affection/domestic role foreground → guest clothing reset.",
+      "sourceScene": "Post-twins guilt → John call",
+      "location": "Living room / home",
+      "time": "About 6 PM",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "Dhika knows twins saw her E04 exposure and feels guilt; John still does not know the afternoon twins details when he calls."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "Dhika’s guilt is recurrent but not a permanent reset: twins guilt is interrupted by domestic affection; Chotu guilt is later reframed through his innocence/kindness before re-approach."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "Dhika knows twins saw her E04 exposure and feels guilt; John still does not know the afternoon twins details when he calls."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P03-E004",
+      "sourceEventId": "E05-L029-044",
+      "part": "P03",
+      "sourceRange": "UI L25-L40",
+      "driveStableRange": "L29-L44",
+      "presentCharacters": [
+        "Dhika",
+        "John",
+        "Leo",
+        "Pappu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "John",
+        "Leo"
+      ],
+      "actors": [
+        "Leo",
+        "John",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Leo"
+      ],
+      "observers": [
+        "John"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-LEO",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Leo ka gaze stated hai; Dhika ko is specific gaze ka awareness yahan stated nahi.",
+      "sourceScene": "Leo dinner introduction",
+      "location": "Dhika home / dining",
+      "time": "Evening dinner",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John notices Leo stealing glances at Dhika. Dhika-specific awareness of Leo’s gaze is not stated in E05 dinner."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Leo is introduced as John’s adult assistant/protege, is immediately attracted to Dhika, steals glances, and may move into the same flat/building context next month.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Leo begins at ordinary dinner/social introduction. Leo is attracted and steals glances; possible same-building move creates future access. Dhika’s specific awareness/reciprocal attraction is not stated.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu."
+      ],
+      "hooks": [
+        "H3",
+        "H5"
+      ],
+      "secrecy": [
+        "John notices Leo stealing glances at Dhika. Dhika-specific awareness of Leo’s gaze is not stated in E05 dinner."
+      ],
+      "negativeCanon": [
+        "Leo has no physical contact with Dhika in E05 and Dhika’s awareness of his gaze is not stated.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Source dialogue once labels Leo as ‘Ron’ despite surrounding introduction/continuation identifying Leo. Preserve as source-name inconsistency; do not invent a separate Ron character.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P03-E005",
+      "sourceEventId": "E05-L045-051",
+      "part": "P03",
+      "sourceRange": "UI L41-L46",
+      "driveStableRange": "L45-L50",
+      "presentCharacters": [
+        "Dhika",
+        "John"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "John"
+      ],
+      "actors": [
+        "Dhika",
+        "John"
+      ],
+      "targets": [
+        "John",
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Sex act stated hai but detailed mechanics/position not stated here. Extra choreography invent nahi karna.",
+      "sourceScene": "Birthday code + John misattributes cause",
+      "location": "Dhika home",
+      "time": "That night / Tuesday setup",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John correctly notices Dhika is unusually sexually active that night but guesses Leo may be the cause; he does not know the twins afternoon context.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John correctly notices Dhika is unusually sexually active that night but guesses Leo may be the cause; he does not know the twins afternoon context.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "John-night sexual mechanics are source-compressed; do not import positions or fantasies.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P04-E006",
+      "sourceEventId": "E05-L045-051",
+      "part": "P04",
+      "sourceRange": "UI L47-L47",
+      "driveStableRange": "L51-L51",
+      "presentCharacters": [
+        "Dhika",
+        "John"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "John"
+      ],
+      "actors": [
+        "Dhika",
+        "John"
+      ],
+      "targets": [
+        "John",
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Sex act stated hai but detailed mechanics/position not stated here. Extra choreography invent nahi karna.",
+      "sourceScene": "Birthday code + John misattributes cause",
+      "location": "Dhika home",
+      "time": "That night / Tuesday setup",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John correctly notices Dhika is unusually sexually active that night but guesses Leo may be the cause; he does not know the twins afternoon context.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John correctly notices Dhika is unusually sexually active that night but guesses Leo may be the cause; he does not know the twins afternoon context.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "John-night sexual mechanics are source-compressed; do not import positions or fantasies.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P04-E007",
+      "sourceEventId": "E05-L052-066",
+      "part": "P04",
+      "sourceRange": "UI L48-L62",
+      "driveStableRange": "L52-L66",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Bantu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Bantu"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Husband ke liye shopping ek private marital goal hai; writer Bantu ko chance encounter ke through us process ka evaluator bana deta hai. Yeh “marital object → outside male gaze” bridge hai.",
+      "sourceScene": "Mall: Bantu joins birthday shopping",
+      "location": "Mall",
+      "time": "Tuesday ~12 PM",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [
+        "Dhika permits Bantu to join shopping and later specifically agrees to private fitting-room evaluation because her stated objection is others seeing her."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P04-E008",
+      "sourceEventId": "E05-L067-072",
+      "part": "P04",
+      "sourceRange": "UI L63-L68",
+      "driveStableRange": "L67-L72",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Bantu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Bantu public-vs-private distinction read karta hai aur private fitting-room access pa leta hai.",
+      "sourceScene": "Privacy objection → fitting-room access",
+      "location": "Mall / changing area",
+      "time": "Tuesday noon",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [
+        "Dhika permits Bantu to join shopping and later specifically agrees to private fitting-room evaluation because her stated objection is others seeing her."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P05-E009",
+      "sourceEventId": "E05-L073-077",
+      "part": "P05",
+      "sourceRange": "UI L69-L73",
+      "driveStableRange": "L73-L77",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Dhika",
+        "Bantu"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Bantu"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Is point par blouse still ON hai. Saree/petticoat off, shorts on. Underwear visibility source state nahi karta.",
+      "sourceScene": "First shorts fitting",
+      "location": "Mall fitting room",
+      "time": "Tuesday noon",
+      "observerVisibility": [
+        "At the mall Bantu sees Dhika in mid-thigh shorts with blouse still on; later T-shirt changes happen while Bantu is outside the changing room."
+      ],
+      "knowledgeDelta": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P05-E010",
+      "sourceEventId": "E05-L078-084",
+      "part": "P05",
+      "sourceRange": "UI L74-L80",
+      "driveStableRange": "L78-L84",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Bantu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Blouse removal happens off-view while Bantu is outside; source direct Bantu view of Dhika changing/naked torso yahan establish nahi karta.",
+      "sourceScene": "Blouse-removal request → T-shirt solution",
+      "location": "Mall fitting room",
+      "time": "Tuesday noon",
+      "observerVisibility": [
+        "At the mall Bantu sees Dhika in mid-thigh shorts with blouse still on; later T-shirt changes happen while Bantu is outside the changing room."
+      ],
+      "knowledgeDelta": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Bantu does not see Dhika changing topless during mall T-shirt changes; he is outside when she changes.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P06-E011",
+      "sourceEventId": "E05-L085-090",
+      "part": "P06",
+      "sourceRange": "UI L81-L86",
+      "driveStableRange": "L85-L90",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Bantu"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "E04 hand-holding/rubbing se E05 exposed-thigh graze tak contact ceiling moves.",
+      "sourceScene": "First Bantu thigh graze",
+      "location": "Mall fitting room",
+      "time": "Tuesday noon",
+      "observerVisibility": [
+        "Bantu grazes the back of his fingers over Dhika’s exposed thigh. This is the stated touch; no breast/genital contact by Bantu is shown."
+      ],
+      "knowledgeDelta": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [
+        "Bantu’s thigh graze is not asked for. Dhika immediately calls it out and labels him naughty. Continuing the scene does not retroactively make the graze pre-consented."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Bantu has no breast or genital touch in E05; the new touch is an exposed-thigh graze.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Bantu thigh graze is unasked and immediately called out. Scene continuation cannot be used to rewrite prior consent.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P06-E012",
+      "sourceEventId": "E05-L091-101",
+      "part": "P06",
+      "sourceRange": "UI L87-L97",
+      "driveStableRange": "L91-L101",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Bantu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Bantu"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Turn-around agreed; physical bum touch by Bantu yahan nahi.",
+      "sourceScene": "Turn-around request + bum compliment",
+      "location": "Mall fitting room",
+      "time": "Tuesday noon",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [
+        "Dhika agrees to turn around for fit evaluation; that agreement is visual access only and does not include bum touching."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "Bantu repeatedly reads Dhika’s exact wording—public strangers versus him, and what she says other girls would do—as strategy input. His interpretation is not equal to unlimited permission.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Bantu has no breast or genital touch in E05; the new touch is an exposed-thigh graze.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P06-E013",
+      "sourceEventId": "E05-L102-118",
+      "part": "P06",
+      "sourceRange": "UI L98-L114",
+      "driveStableRange": "L102-L118",
+      "presentCharacters": [
+        "Dhika",
+        "Bantu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "actors": [
+        "Dhika",
+        "Bantu"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Bantu"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-BANTU",
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-BANTU-BOBBY"
+      ],
+      "liveAction": "Red bra visible THROUGH translucent shirt. Cleavage explicitly not available in this mall look. Bra itself direct bare-torso exposure nahi.",
+      "sourceScene": "Translucent top + red-bra visibility",
+      "location": "Mall fitting room",
+      "time": "Tuesday noon",
+      "observerVisibility": [
+        "With the later translucent/light top, Bantu can see the red bra through the shirt; the source specifically ends the mall sequence saying he had no cleavage view."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route."
+      ],
+      "escalationNormalization": [
+        "E04 verbal/body visibility with twins does not jump straight to bra reveal; E05 first converts it into cheek affection and later one-on-one clothing evaluation with Bantu.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5",
+        "H6"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Bantu has no breast or genital touch in E05; the new touch is an exposed-thigh graze.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Mall translucent top shows red bra; source explicitly says no cleavage at the end of that look.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P07-E014",
+      "sourceEventId": "E05-L119-126",
+      "part": "P07",
+      "sourceRange": "UI L115-L122",
+      "driveStableRange": "L119-L126",
+      "presentCharacters": [
+        "Dhika",
+        "Pappu"
+      ],
+      "conversationParticipants": [
+        "Dhika"
+      ],
+      "actors": [
+        "Pappu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-UNCLE"
+      ],
+      "liveAction": "Pappu adult scene ka participant/observer nahi.",
+      "sourceScene": "Pappu exit leaves door open",
+      "location": "Dhika home",
+      "time": "Tuesday evening",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only."
+      ],
+      "boundaryControl": [
+        "Uncle’s initial bra-state view is accidental because the main door was left open during Pappu logistics; Dhika immediately covers herself."
+      ],
+      "relationshipDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat."
+      ],
+      "escalationNormalization": [
+        "Uncle route moves from secret object violation → accidental live view → explicit knowledge confrontation → repair boundary → separate controlled exit gesture.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P07-E015",
+      "sourceEventId": "E05-L127-134",
+      "part": "P07",
+      "sourceRange": "UI L123-L130",
+      "driveStableRange": "L127-L134",
+      "presentCharacters": [
+        "Dhika",
+        "Uncle"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Uncle"
+      ],
+      "actors": [
+        "Uncle",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Uncle"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-UNCLE"
+      ],
+      "liveAction": "Before towel, Dhika white shorts + red bra mein hai. Source does not say she is nude. Uncle ka first direct bra-wearing view established.",
+      "sourceScene": "Uncle accidentally sees bra state",
+      "location": "Dhika bedroom doorway",
+      "time": "Tuesday evening",
+      "observerVisibility": [
+        "Uncle accidentally sees Dhika in white shorts + red bra before she covers with a towel. She is not nude."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Uncle moves from secret-holder to confronted/apologetic participant in a mutually known history. He promises not to repeat the bra act, later tells Dhika she looked hot, and leaves for Delhi."
+      ],
+      "boundaryControl": [
+        "Uncle’s initial bra-state view is accidental because the main door was left open during Pappu logistics; Dhika immediately covers herself."
+      ],
+      "relationshipDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat."
+      ],
+      "escalationNormalization": [
+        "Uncle route moves from secret object violation → accidental live view → explicit knowledge confrontation → repair boundary → separate controlled exit gesture.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Uncle’s accidental view is white shorts + red bra, not nudity.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P07-E016",
+      "sourceEventId": "E05-L135-145",
+      "part": "P07",
+      "sourceRange": "UI L131-L141",
+      "driveStableRange": "L135-L145",
+      "presentCharacters": [
+        "Dhika",
+        "Uncle"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Uncle"
+      ],
+      "actors": [
+        "Dhika",
+        "Uncle"
+      ],
+      "targets": [
+        "Uncle",
+        "Dhika"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-UNCLE"
+      ],
+      "liveAction": "E2 se Dhika secretly knew; E5 mein knowledge asymmetry breaks—Uncle now knows Dhika witnessed his bra act.",
+      "sourceScene": "Dhika invites Uncle + reveals she knew",
+      "location": "Dhika bedroom",
+      "time": "Tuesday evening",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "E02 knowledge asymmetry with Uncle ends in E05: Dhika tells him directly that she saw him with her bra; Uncle now knows she knew.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Uncle moves from secret-holder to confronted/apologetic participant in a mutually known history. He promises not to repeat the bra act, later tells Dhika she looked hot, and leaves for Delhi."
+      ],
+      "boundaryControl": [
+        "Dhika explicitly tells Uncle not to repeat the prior bra misuse. Forgiveness/empathy is not permission for the earlier object violation."
+      ],
+      "relationshipDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat."
+      ],
+      "escalationNormalization": [
+        "Uncle route moves from secret object violation → accidental live view → explicit knowledge confrontation → repair boundary → separate controlled exit gesture.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "E02 knowledge asymmetry with Uncle ends in E05: Dhika tells him directly that she saw him with her bra; Uncle now knows she knew.",
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P07-E017",
+      "sourceEventId": "E05-L146-150",
+      "part": "P07",
+      "sourceRange": "UI L142-L146",
+      "driveStableRange": "L146-L150",
+      "presentCharacters": [
+        "Dhika",
+        "Uncle"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Uncle"
+      ],
+      "actors": [
+        "Uncle",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Uncle"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-UNCLE"
+      ],
+      "liveAction": "Forgiveness ≠ approval of bra act. Dhika explicitly says do not repeat it.",
+      "sourceScene": "Uncle confession + Dhika repair boundary",
+      "location": "Dhika bedroom",
+      "time": "Tuesday evening",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Uncle moves from secret-holder to confronted/apologetic participant in a mutually known history. He promises not to repeat the bra act, later tells Dhika she looked hot, and leaves for Delhi."
+      ],
+      "boundaryControl": [
+        "Dhika explicitly tells Uncle not to repeat the prior bra misuse. Forgiveness/empathy is not permission for the earlier object violation."
+      ],
+      "relationshipDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat."
+      ],
+      "escalationNormalization": [
+        "Uncle route moves from secret object violation → accidental live view → explicit knowledge confrontation → repair boundary → separate controlled exit gesture.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H4",
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Dhika’s forgiveness of Uncle does not approve repeat bra misuse; she explicitly says do not do it again.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P07-E018",
+      "sourceEventId": "E05-L151-155",
+      "part": "P07",
+      "sourceRange": "UI L147-L151",
+      "driveStableRange": "L151-L155",
+      "presentCharacters": [
+        "Dhika",
+        "Uncle"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Uncle"
+      ],
+      "actors": [
+        "Uncle",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Uncle"
+      ],
+      "observers": [
+        "Uncle"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN",
+        "REL-DHIKA-UNCLE"
+      ],
+      "liveAction": "Towel drop deliberate hai, but raw sentence exact second-by-second Uncle visibility quantify nahi karta. Dhika underneath white shorts + red bra state mein thi; nude state invent nahi karna.",
+      "sourceScene": "‘You looked hot’ + towel-drop exit beat",
+      "location": "Bedroom doorway",
+      "time": "Tuesday evening",
+      "observerVisibility": [
+        "Dhika deliberately drops the towel while facing away and disappears inside; exact Uncle visibility created by that brief action is not quantified."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Uncle moves from secret-holder to confronted/apologetic participant in a mutually known history. He promises not to repeat the bra act, later tells Dhika she looked hot, and leaves for Delhi."
+      ],
+      "boundaryControl": [
+        "The later towel drop is a separate deliberate action under Dhika’s control and cannot be used to rewrite the earlier bra-object boundary."
+      ],
+      "relationshipDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat."
+      ],
+      "escalationNormalization": [
+        "Uncle route moves from secret object violation → accidental live view → explicit knowledge confrontation → repair boundary → separate controlled exit gesture.",
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H4",
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Towel drop does not establish quantified nude exposure; underneath state had been white shorts + red bra.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Uncle towel-drop outcome is visibility-ambiguous; exact body exposure after towel leaves is not quantified.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P07-E019",
+      "sourceEventId": "E05-L156-158",
+      "part": "P07",
+      "sourceRange": "UI L152-L154",
+      "driveStableRange": "L156-L158",
+      "presentCharacters": [
+        "Dhika",
+        "John",
+        "Aunty"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "John"
+      ],
+      "actors": [
+        "John",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "John"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-JOHN"
+      ],
+      "liveAction": "Sex occurs, but exact sexual mechanics/positions/body sequence raw mein nahi. Extra graphical sequence invent nahi karna.",
+      "sourceScene": "John birthday-night compressed payoff",
+      "location": "Dhika home / family logistics",
+      "time": "Tuesday night → Thu",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+        "Uncle moves from secret-holder to confronted/apologetic participant in a mutually known history. He promises not to repeat the bra act, later tells Dhika she looked hot, and leaves for Delhi."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen."
+      ],
+      "escalationNormalization": [
+        "John sexual scenes remain compressed when no new mechanical threshold matters, while route-specific boundary changes with Bantu/Uncle/Chotu receive granular narration."
+      ],
+      "hooks": [
+        "H4",
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P08-E020",
+      "sourceEventId": "E05-L159-163",
+      "part": "P08",
+      "sourceRange": "UI L155-L159",
+      "driveStableRange": "L159-L163",
+      "presentCharacters": [
+        "Dhika"
+      ],
+      "conversationParticipants": [],
+      "actors": [
+        "Dhika"
+      ],
+      "targets": [
+        "Chotu"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "“Dhika decided something” is unspecified. Exact hidden plan invent nahi karna. Outfit choice stated; intent beyond that remains unknown.",
+      "sourceScene": "Friday: Dhika chooses Chotu/painting",
+      "location": "Dhika home",
+      "time": "Friday off",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [],
+      "hooks": [
+        "H5",
+        "H7"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P08-E021",
+      "sourceEventId": "E05-L164-173",
+      "part": "P08",
+      "sourceRange": "UI L160-L169",
+      "driveStableRange": "L164-L173",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Chotu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Chotu"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "First Chotu→Dhika hug added; Dhika handholding/access remains warm and deliberate.",
+      "sourceScene": "Chotu first hug + red bra through top",
+      "location": "Dhika home / Pappu room",
+      "time": "Friday",
+      "observerVisibility": [
+        "Friday Chotu sees Dhika’s red bra through the white/translucent and later sweat-drenched top; exact nipple visibility is not stated."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P09-E022",
+      "sourceEventId": "E05-L174-184",
+      "part": "P09",
+      "sourceRange": "UI L170-L180",
+      "driveStableRange": "L174-L184",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Dhika",
+        "Chotu"
+      ],
+      "targets": [
+        "Chotu",
+        "Dhika"
+      ],
+      "observers": [
+        "Dhika",
+        "Chotu"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Chotu shirt remove nahi karta. Dhika ka shirt wet/transparent hai but still ON. Exact nipple visibility stated nahi.",
+      "sourceScene": "Painting gaze + Dhika imagines Chotu shirtless",
+      "location": "Pappu room",
+      "time": "Friday painting",
+      "observerVisibility": [
+        "Friday Chotu sees Dhika’s red bra through the white/translucent and later sweat-drenched top; exact nipple visibility is not stated."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "Chotu never becomes shirtless in E05 despite Dhika suggesting it; he refuses because he has no vest.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P09-E023",
+      "sourceEventId": "E05-L185-192",
+      "part": "P09",
+      "sourceRange": "UI L181-L188",
+      "driveStableRange": "L185-L192",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Chotu"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Contact shorts/cloth ke through bum rubbing/pressing tak stated hai. Dhika stop bolti hai and Chotu immediately stops.",
+      "sourceScene": "Paint accident → bum rubbing → stop",
+      "location": "Pappu room",
+      "time": "Friday painting",
+      "observerVisibility": [
+        "Paint accident causes Chotu to press/rub Dhika’s bum through shorts/cloth; Dhika says stop and Chotu stops immediately."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [
+        "Chotu’s paint-cleaning bum rubbing begins impulsively as accident response. Dhika says ‘stop rubbing my bum’; he immediately stops."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu bum rubbing is stopped explicitly and stop is immediately respected.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P10-E024",
+      "sourceEventId": "E05-L193-200",
+      "part": "P10",
+      "sourceRange": "UI L189-L196",
+      "driveStableRange": "L193-L200",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Dhika"
+      ],
+      "targets": [
+        "Chotu"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Abhi bhi nanga penis visible nahi—painted clothed bulge only. Bedroom access + change-clothes instruction does not equal invitation to undress in front of Dhika.",
+      "sourceScene": "Paint on clothed erection → help offered",
+      "location": "Pappu room → Dhika bedroom",
+      "time": "Friday",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P10-E025",
+      "sourceEventId": "E05-L201-206",
+      "part": "P10",
+      "sourceRange": "UI L197-L202",
+      "driveStableRange": "L201-L206",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Chotu",
+        "Dhika"
+      ],
+      "targets": [
+        "Chotu"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Dhika intentional genital view avoid karti hai by turning away. Exact state during initial shorts removal visible to her nahi.",
+      "sourceScene": "Chotu starts changing there; Dhika turns away",
+      "location": "Dhika bedroom",
+      "time": "Friday",
+      "observerVisibility": [],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [
+        "Dhika expects Chotu to change in the bathroom; when he starts changing in the bedroom, she turns away to avoid intentional view."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P11-E026",
+      "sourceEventId": "E05-L207-213",
+      "part": "P11",
+      "sourceRange": "UI L203-L209",
+      "driveStableRange": "L207-L213",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Chotu"
+      ],
+      "targets": [
+        "Dhika"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Dhika first time Chotu ko outer shorts ke bina, boxers + semi-erection state mein dekhti hai.",
+      "sourceScene": "Baggy shorts drop → boxers/semi-erection view",
+      "location": "Dhika bedroom",
+      "time": "Friday",
+      "observerVisibility": [
+        "Dhika later sees Chotu in tight boxers with a semi-erection after oversized shorts fall. Naked penis/testicles are not visible."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P11-E027",
+      "sourceEventId": "E05-L214-215",
+      "part": "P11",
+      "sourceRange": "UI L210-L211",
+      "driveStableRange": "L214-L215",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [],
+      "actors": [
+        "Dhika"
+      ],
+      "targets": [
+        "Chotu"
+      ],
+      "observers": [
+        "Chotu"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Red bra remains ON. “Breasts spilling out of red bra” narrator/Chotu POV description hai; nipple exposure explicitly stated nahi. Dhika eyes closed hai while pulling shorts.",
+      "sourceScene": "Dhika kneels to pull shorts up",
+      "location": "Dhika bedroom",
+      "time": "Friday",
+      "observerVisibility": [
+        "While helping with shorts, Dhika’s hand accidentally grazes Chotu’s boxers-covered erection/bulge. She wants to repeat internally but does not intentionally do so."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [
+        "Hand-to-bulge contact is accidental. Dhika’s later desire to repeat remains internal and is not acted on."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P12-E028",
+      "sourceEventId": "E05-L216-222",
+      "part": "P12",
+      "sourceRange": "UI L212-L218",
+      "driveStableRange": "L216-L222",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Chotu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Chotu"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "E4 self-touch memory caused by his clothed erection; E5 she accidentally contacts that clothed erection and consciously wants a repeat, but stops herself.",
+      "sourceScene": "Clothed erection grazes Dhika’s hand",
+      "location": "Dhika bedroom",
+      "time": "Friday",
+      "observerVisibility": [
+        "While helping with shorts, Dhika’s hand accidentally grazes Chotu’s boxers-covered erection/bulge. She wants to repeat internally but does not intentionally do so."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [
+        "Hand-to-bulge contact is accidental. Dhika’s later desire to repeat remains internal and is not acted on."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Dhika wants to graze Chotu’s clothed erection again but does not perform the deliberate repeat in E05.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P12-E029",
+      "sourceEventId": "E05-L223-226",
+      "part": "P12",
+      "sourceRange": "UI L219-L222",
+      "driveStableRange": "L223-L226",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Dhika"
+      ],
+      "targets": [
+        "Chotu"
+      ],
+      "observers": [
+        "Dhika"
+      ],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "Assistance clothing/waist/closure task tak. Raw direct genital skin touch add nahi karta.",
+      "sourceScene": "Buttoning/tying oversized shorts",
+      "location": "Dhika bedroom",
+      "time": "Friday",
+      "observerVisibility": [
+        "While helping with shorts, Dhika’s hand accidentally grazes Chotu’s boxers-covered erection/bulge. She wants to repeat internally but does not intentionally do so."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    },
+    {
+      "eventId": "E05-P12-E030",
+      "sourceEventId": "E05-L227-229",
+      "part": "P12",
+      "sourceRange": "UI L223-L225",
+      "driveStableRange": "L227-L229",
+      "presentCharacters": [
+        "Dhika",
+        "Chotu"
+      ],
+      "conversationParticipants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "actors": [
+        "Chotu",
+        "Dhika"
+      ],
+      "targets": [
+        "Dhika",
+        "Chotu"
+      ],
+      "observers": [],
+      "relationshipIds": [
+        "REL-DHIKA-CHOTU"
+      ],
+      "liveAction": "E5 begins with first ordinary Chotu hug and ends with second hug where Dhika knowingly feels his clothed erection against her torso and still lightly reciprocates.",
+      "sourceScene": "Second hug endpoint",
+      "location": "Dhika home",
+      "time": "Friday / E05 end",
+      "observerVisibility": [
+        "Final hug carries clothed erection contact against Dhika’s torso/below navel. No naked genital contact."
+      ],
+      "knowledgeDelta": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "emotionCharacterDelta": [
+        "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+        "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact."
+      ],
+      "boundaryControl": [
+        "During final hug Dhika knows/feels the clothed erection against her and lightly reciprocates the hug; this supports acceptance of that hug, not blanket genital access."
+      ],
+      "relationshipDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation."
+      ],
+      "escalationNormalization": [
+        "Chotu route uses an accident ladder: gaze distraction → paint spill → bum cleaning/stop → clothing problem → boxers view → accidental bulge graze → caretaking → final hug."
+      ],
+      "hooks": [
+        "H1",
+        "H2",
+        "H5"
+      ],
+      "secrecy": [
+        "John remains outside several hidden threads: he is not shown learning the twins kisses/mall route, Uncle confrontation/towel beat, or Chotu Friday developments.",
+        "Chotu knows Dhika is comfortable enough to continue painting/helping after prior erection acknowledgement; he does not know every internal desire/thought Dhika has."
+      ],
+      "negativeCanon": [
+        "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+        "Sharmi has no E05 progression."
+      ],
+      "qa": [
+        "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+        "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+        "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+        "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+        "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules."
+      ],
+      "truthDiscipline": "RAW facts remain authority; derived module text is supporting analysis, not replacement."
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipId": "REL-DHIKA-BANTU",
+      "previousVerifiedState": "E04 end: teacher/student familiarity has progressed through heat-driven comfort negotiation, deliberate dupatta/pallu reduction, direct breast/body compliments, enjoyable hand rubbing, increasingly candid questions, secrecy, and a final bra-specific request. Dhika still sets topic-specific limits and E04 stops before response to the final motive.",
+      "e05EventIds": [
+        "E05-P01-E001",
+        "E05-P01-E002",
+        "E05-P02-E003",
+        "E05-P03-E004",
+        "E05-P03-E005",
+        "E05-P04-E006",
+        "E05-P04-E007",
+        "E05-P04-E008",
+        "E05-P05-E009",
+        "E05-P05-E010",
+        "E05-P06-E011",
+        "E05-P06-E012",
+        "E05-P06-E013"
+      ],
+      "currentEpisodeDelta": "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+      "latestVerifiedState": "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+      "knowledgeSplit": "E05 ceiling: cheek kiss from Dhika; private clothing evaluation; thigh graze; translucent-shirt red-bra visibility; hug",
+      "boundaryState": "cheek kiss from Dhika; private clothing evaluation; thigh graze; translucent-shirt red-bra visibility; hug",
+      "sourceStableRange": "Drive L5-L118",
+      "uiNarrativeRange": "UI L1-L114"
+    },
+    {
+      "relationshipId": "REL-DHIKA-BOBBY",
+      "previousVerifiedState": "E04 end: Bobby's route progresses from shy observer to repeated caught cleavage gaze, pink-saree request, waist-chain curiosity/pull, direct breast-size question (refused), confidentiality reassurance, and stated intent to be more comfortable next time. His quieter/caring grammar remains distinct from Bantu's strategic boldness.",
+      "e05EventIds": [
+        "E05-P01-E002"
+      ],
+      "currentEpisodeDelta": "Dhika↔Bobby gains first mutual cheek affection: Dhika kisses his cheek; Bobby returns a cheek peck. No new extended one-on-one access after departure.",
+      "latestVerifiedState": "Dhika↔Bobby gains first mutual cheek affection: Dhika kisses his cheek; Bobby returns a cheek peck. No new extended one-on-one access after departure.",
+      "knowledgeSplit": "E05 ceiling: mutual cheek-kiss/peck; prior E04 visibility/secrecy remains",
+      "boundaryState": "mutual cheek-kiss/peck; prior E04 visibility/secrecy remains",
+      "sourceStableRange": "Drive L10-L20",
+      "uiNarrativeRange": "UI L6-L16"
+    },
+    {
+      "relationshipId": "REL-DHIKA-JOHN",
+      "previousVerifiedState": "E04: no live John scene. His private gold waist-chain gift enters the twins route as an object reference; Dhika states only husband had previously seen her topless/naked. No evidence John knows current tuition details.",
+      "e05EventIds": [
+        "E05-P02-E003",
+        "E05-P03-E004",
+        "E05-P03-E005",
+        "E05-P04-E006",
+        "E05-P04-E007",
+        "E05-P04-E008",
+        "E05-P05-E009",
+        "E05-P05-E010",
+        "E05-P06-E011",
+        "E05-P06-E012",
+        "E05-P06-E013",
+        "E05-P07-E014",
+        "E05-P07-E015",
+        "E05-P07-E016",
+        "E05-P07-E017",
+        "E05-P07-E018",
+        "E05-P07-E019"
+      ],
+      "currentEpisodeDelta": "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+      "latestVerifiedState": "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+      "knowledgeSplit": "E05 ceiling: established marriage/sex; birthday clothing intimacy; selective secrecy outside marriage",
+      "boundaryState": "established marriage/sex; birthday clothing intimacy; selective secrecy outside marriage",
+      "sourceStableRange": "Drive L21-L158",
+      "uiNarrativeRange": "UI L17-L154"
+    },
+    {
+      "relationshipId": "REL-DHIKA-LEO",
+      "previousVerifiedState": "NEW in E05; no prior verified pair state.",
+      "e05EventIds": [
+        "E05-P03-E004"
+      ],
+      "currentEpisodeDelta": "Dhika↔Leo begins at ordinary dinner/social introduction. Leo is attracted and steals glances; possible same-building move creates future access. Dhika’s specific awareness/reciprocal attraction is not stated.",
+      "latestVerifiedState": "Dhika↔Leo begins at ordinary dinner/social introduction. Leo is attracted and steals glances; possible same-building move creates future access. Dhika’s specific awareness/reciprocal attraction is not stated.",
+      "knowledgeSplit": "E05 ceiling: social dinner + Leo gaze only",
+      "boundaryState": "social dinner + Leo gaze only",
+      "sourceStableRange": "Drive L29-L44",
+      "uiNarrativeRange": "UI L25-L40"
+    },
+    {
+      "relationshipId": "REL-DHIKA-UNCLE",
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [
+        "E05-P07-E014",
+        "E05-P07-E015",
+        "E05-P07-E016",
+        "E05-P07-E017",
+        "E05-P07-E018"
+      ],
+      "currentEpisodeDelta": "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat.",
+      "latestVerifiedState": "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat.",
+      "knowledgeSplit": "E05 ceiling: mutually known past violation + repair boundary + controlled compliment/display ambiguity; no sexual body touch",
+      "boundaryState": "mutually known past violation + repair boundary + controlled compliment/display ambiguity; no sexual body touch",
+      "sourceStableRange": "Drive L119-L155",
+      "uiNarrativeRange": "UI L115-L151"
+    },
+    {
+      "relationshipId": "REL-DHIKA-CHOTU",
+      "previousVerifiedState": "E04 end: no further live Chotu scene after P1. E03 visual/kiss history is preserved; P1 adds direct mutual recognition of his clothed bulge/body response and Dhika's private Chotu-triggered first self-erotic touch + guilt. Chotu does not know her shower reaction.",
+      "e05EventIds": [
+        "E05-P08-E020",
+        "E05-P08-E021",
+        "E05-P09-E022",
+        "E05-P09-E023",
+        "E05-P10-E024",
+        "E05-P10-E025",
+        "E05-P11-E026",
+        "E05-P11-E027",
+        "E05-P12-E028",
+        "E05-P12-E029",
+        "E05-P12-E030"
+      ],
+      "currentEpisodeDelta": "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+      "latestVerifiedState": "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+      "knowledgeSplit": "E05 ceiling: boxers-covered erection seen; accidental hand graze through boxers; clothed erection contact in reciprocal hug; no naked penis contact/view",
+      "boundaryState": "boxers-covered erection seen; accidental hand graze through boxers; clothed erection contact in reciprocal hug; no naked penis contact/view",
+      "sourceStableRange": "Drive L159-L229",
+      "uiNarrativeRange": "UI L155-L225"
+    },
+    {
+      "relationshipId": "REL-DHIKA-BANTU-BOBBY",
+      "previousVerifiedState": "E04 end: group tuition relationship has moved from post-accident trust into deliberate home-clothing comfort, negotiated visibility, candid body conversation and an explicit secrecy pact; however every access/answer remains act- and topic-specific.",
+      "e05EventIds": [
+        "E05-P01-E001",
+        "E05-P01-E002",
+        "E05-P02-E003",
+        "E05-P03-E004",
+        "E05-P03-E005",
+        "E05-P04-E006",
+        "E05-P04-E007",
+        "E05-P04-E008",
+        "E05-P05-E009",
+        "E05-P05-E010",
+        "E05-P06-E011",
+        "E05-P06-E012",
+        "E05-P06-E013"
+      ],
+      "currentEpisodeDelta": "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+      "latestVerifiedState": "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+      "knowledgeSplit": "E05 ceiling: group cheek affection + prior deliberate visibility; individual routes remain distinct",
+      "boundaryState": "group cheek affection + prior deliberate visibility; individual routes remain distinct",
+      "sourceStableRange": "Drive L5-L118",
+      "uiNarrativeRange": "UI L1-L114"
+    },
+    {
+      "relationshipId": "REL-DHIKA-PAPPU",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "E04: ordinary childcare at P2 plus breastfeeding fact referenced in P9. Pappu remains strictly nonsexual causal/family context.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "E04: ordinary childcare at P2 plus breastfeeding fact referenced in P9. Pappu remains strictly nonsexual causal/family context.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-AUNTY",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-JOHN-AUNTY-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-PAPPU-AUNTY-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-AUNTY-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-BANTU-BOBBY",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-SHARMI",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-SHARMI-RAJ",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-RAJ",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-BANTU-FATHER",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-MOTHER",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-DHIKA-BINDU",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-CHOTU-PAPPU",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-BINDU-CHOTU",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-CHOTU-MOTHER",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "Updated through E04 ordered events.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "Updated through E04 ordered events.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-JOHN-PAPPU",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-JOHN-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    },
+    {
+      "relationshipId": "REL-CHOTU-GRANDMOTHER",
+      "inheritedFromPriorEpisodes": true,
+      "previousVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "e05EventIds": [],
+      "currentEpisodeDelta": "HOLD / UNCHANGED in E05 unless an E05 source event explicitly updates this relationship.",
+      "latestVerifiedState": "HOLD / UNCHANGED in E04 — no material relationship-state delta recorded.",
+      "knowledgeSplit": "No E05 knowledge-state change recorded in this tracker.",
+      "boundaryState": "Carry prior verified state; absence does not reset or create permission."
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "CHAR-DHIKA",
+      "e05EventIds": [
+        "E05-P01-E001",
+        "E05-P01-E002",
+        "E05-P02-E003",
+        "E05-P03-E004",
+        "E05-P03-E005",
+        "E05-P04-E006",
+        "E05-P04-E007",
+        "E05-P04-E008",
+        "E05-P05-E009",
+        "E05-P05-E010",
+        "E05-P06-E011",
+        "E05-P06-E012",
+        "E05-P06-E013",
+        "E05-P07-E014",
+        "E05-P07-E015",
+        "E05-P07-E016",
+        "E05-P07-E017",
+        "E05-P07-E018",
+        "E05-P07-E019",
+        "E05-P08-E020",
+        "E05-P08-E021",
+        "E05-P09-E022",
+        "E05-P09-E023",
+        "E05-P10-E024",
+        "E05-P10-E025",
+        "E05-P11-E026",
+        "E05-P11-E027",
+        "E05-P12-E028",
+        "E05-P12-E029",
+        "E05-P12-E030"
+      ],
+      "currentVerifiedState": "E05 shows stronger route-specific agency without erasing shyness/guilt. She initiates twin cheek kisses, accepts Bantu as a private clothing evaluator, seeks beauty reassurance, confronts Uncle with empathy plus a clear limit, deliberately re-summons Chotu, imagines Chotu shirtless, and experiences/acknowledges stronger attraction while still stopping, turning away, covering, or withholding deliberate repetition at specific boundaries.",
+      "natureContinuity": "Kind/caring wife, mother and teacher identity; embarrassment, modesty, guilt and concern about secrecy remain active. She is not globally uninhibited.",
+      "sourceStableRange": "Drive L5-L229"
+    },
+    {
+      "characterId": "CHAR-BANTU",
+      "e05EventIds": [
+        "E05-P01-E001",
+        "E05-P01-E002",
+        "E05-P04-E007",
+        "E05-P04-E008",
+        "E05-P05-E009",
+        "E05-P05-E010",
+        "E05-P06-E011",
+        "E05-P06-E012",
+        "E05-P06-E013"
+      ],
+      "currentVerifiedState": "Bantu becomes more strategic and personally bold: he reads micro-boundaries, gains one-on-one fitting-room access, makes direct body compliments and performs an unasked thigh graze. He remains distinct from Bobby; his interpretations sometimes overread openings and must not be treated as Dhika’s unlimited consent.",
+      "natureContinuity": "Playful/charming, verbally active, boundary-testing strategist.",
+      "sourceStableRange": "Drive L5-L118"
+    },
+    {
+      "characterId": "CHAR-BOBBY",
+      "e05EventIds": [
+        "E05-P01-E001",
+        "E05-P01-E002"
+      ],
+      "currentVerifiedState": "Bobby receives Dhika’s first cheek kiss and independently returns a sweet cheek peck before leaving. He has no extended mall route in E05.",
+      "natureContinuity": "Quieter/shyer than Bantu but increasingly capable of independent action.",
+      "sourceStableRange": "Drive L10-L20"
+    },
+    {
+      "characterId": "CHAR-JOHN",
+      "e05EventIds": [
+        "E05-P02-E003",
+        "E05-P03-E004",
+        "E05-P03-E005",
+        "E05-P04-E006",
+        "E05-P07-E019"
+      ],
+      "currentVerifiedState": "John remains the affectionate marital baseline and birthday focus. He notices Leo’s gaze and Dhika’s active sexual mood but assigns a speculative cause because he lacks hidden context.",
+      "natureContinuity": "Secure, playful husband; no evidence of sudden knowledge of hidden routes.",
+      "sourceStableRange": "Drive L24-L158"
+    },
+    {
+      "characterId": "CHAR-LEO",
+      "e05EventIds": [
+        "E05-P03-E004"
+      ],
+      "currentVerifiedState": "Leo is introduced as John’s adult assistant/protege, is immediately attracted to Dhika, steals glances, and may move into the same flat/building context next month.",
+      "natureContinuity": "Only an introduction/seed in E05; no Dhika–Leo physical progression.",
+      "sourceStableRange": "Drive L29-L44"
+    },
+    {
+      "characterId": "CHAR-UNCLE",
+      "e05EventIds": [
+        "E05-P07-E015",
+        "E05-P07-E016",
+        "E05-P07-E017",
+        "E05-P07-E018"
+      ],
+      "currentVerifiedState": "Uncle moves from secret-holder to confronted/apologetic participant in a mutually known history. He promises not to repeat the bra act, later tells Dhika she looked hot, and leaves for Delhi.",
+      "natureContinuity": "Older trusted-neighbour/family-respect relationship remains relevant despite the boundary incident.",
+      "sourceStableRange": "Drive L127-L158"
+    },
+    {
+      "characterId": "CHAR-CHOTU",
+      "e05EventIds": [
+        "E05-P08-E020",
+        "E05-P08-E021",
+        "E05-P09-E022",
+        "E05-P09-E023",
+        "E05-P10-E024",
+        "E05-P10-E025",
+        "E05-P11-E026",
+        "E05-P11-E027",
+        "E05-P12-E028",
+        "E05-P12-E029",
+        "E05-P12-E030"
+      ],
+      "currentVerifiedState": "Adult Chotu (19 in canonical graph) initiates his first hug with Dhika, continues shy visual attraction, stops bum rubbing immediately when told, becomes embarrassed around erection/clothing mishaps, and ends with a second hug carrying clothed erection contact.",
+      "natureContinuity": "Inexperienced, hardworking, shy/innocent framing persists; he is not recast as a calculated seducer.",
+      "sourceStableRange": "Drive L159-L229"
+    },
+    {
+      "characterId": "CHAR-PAPPU",
+      "e05EventIds": [
+        "E05-P02-E003",
+        "E05-P03-E004",
+        "E05-P07-E014"
+      ],
+      "currentVerifiedState": "Pappu remains strictly nonsexual household causality: TV, birthday/family routine and park exit create timing/access effects only.",
+      "natureContinuity": "Child/family node only; never sexualize.",
+      "sourceStableRange": "Drive L21-L126"
+    }
+  ],
+  "partSnapshots": {
+    "E05-P01": {
+      "sourceRange": "UI L1-L16",
+      "driveStableRange": "Drive L5-L20",
+      "eventIds": [
+        "E05-P01-E001",
+        "E05-P01-E002"
+      ],
+      "previousVerifiedState": "E04 final canonical snapshot",
+      "currentPartDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+        "Dhika↔Bobby gains first mutual cheek affection: Dhika kisses his cheek; Bobby returns a cheek peck. No new extended one-on-one access after departure.",
+        "“Crossing lines” verbal protest hai, lekin scene immediate rupture par nahi jata; Dhika teasing punishment + laughter ke zone mein rehti hai. Isko blanket permission bhi mat banao.",
+        "E04 mein Bantu ke saath “kiss” sirf verbal slip tha. E05 mein Dhika khud twins ke saath first actual cheek kisses initiate karti hai; Bobby same category ka cheek peck reciprocate karta hai."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P02": {
+      "sourceRange": "UI L17-L24",
+      "driveStableRange": "Drive L21-L28",
+      "eventIds": [
+        "E05-P02-E003"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+        "Twins exposure/kisses memory → guilt → John call → affection/domestic role foreground → guest clothing reset."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P03": {
+      "sourceRange": "UI L25-L46",
+      "driveStableRange": "Drive L29-L50",
+      "eventIds": [
+        "E05-P03-E004",
+        "E05-P03-E005"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Leo begins at ordinary dinner/social introduction. Leo is attracted and steals glances; possible same-building move creates future access. Dhika’s specific awareness/reciprocal attraction is not stated.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+        "Leo ka gaze stated hai; Dhika ko is specific gaze ka awareness yahan stated nahi.",
+        "Sex act stated hai but detailed mechanics/position not stated here. Extra choreography invent nahi karna."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P04": {
+      "sourceRange": "UI L47-L68",
+      "driveStableRange": "Drive L51-L72",
+      "eventIds": [
+        "E05-P04-E006",
+        "E05-P04-E007",
+        "E05-P04-E008"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+        "Sex act stated hai but detailed mechanics/position not stated here. Extra choreography invent nahi karna.",
+        "Husband ke liye shopping ek private marital goal hai; writer Bantu ko chance encounter ke through us process ka evaluator bana deta hai. Yeh “marital object → outside male gaze” bridge hai.",
+        "Bantu public-vs-private distinction read karta hai aur private fitting-room access pa leta hai."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P05": {
+      "sourceRange": "UI L69-L80",
+      "driveStableRange": "Drive L73-L84",
+      "eventIds": [
+        "E05-P05-E009",
+        "E05-P05-E010"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+        "Is point par blouse still ON hai. Saree/petticoat off, shorts on. Underwear visibility source state nahi karta.",
+        "Blouse removal happens off-view while Bantu is outside; source direct Bantu view of Dhika changing/naked torso yahan establish nahi karta."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P06": {
+      "sourceRange": "UI L81-L114",
+      "driveStableRange": "Drive L85-L118",
+      "eventIds": [
+        "E05-P06-E011",
+        "E05-P06-E012",
+        "E05-P06-E013"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Bantu moves from E04 shared secrecy/body-talk into first actual cheek kiss from Dhika, one-on-one mall shopping, private fitting-room visual access, first exposed-thigh graze, rear-view/body compliments, translucent-top/red-bra visibility and a hug. Current ceiling does not include breast/genital touching.",
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Group route has explicit secrecy/trust inherited from E04 and now first affectionate cheek kisses. After that, E05 splits into Bantu one-on-one progression while Bobby is absent from the mall route.",
+        "E04 hand-holding/rubbing se E05 exposed-thigh graze tak contact ceiling moves.",
+        "Turn-around agreed; physical bum touch by Bantu yahan nahi.",
+        "Red bra visible THROUGH translucent shirt. Cleavage explicitly not available in this mall look. Bra itself direct bare-torso exposure nahi."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P07": {
+      "sourceRange": "UI L115-L154",
+      "driveStableRange": "Drive L119-L158",
+      "eventIds": [
+        "E05-P07-E014",
+        "E05-P07-E015",
+        "E05-P07-E016",
+        "E05-P07-E017",
+        "E05-P07-E018",
+        "E05-P07-E019"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Marriage remains emotionally and sexually active. John’s birthday wish motivates new clothing; he notices outside male gaze and Dhika’s changed energy but hidden-route knowledge gaps widen.",
+        "Dhika↔Uncle moves from E02 secret bra misuse known only to Dhika into E05 direct bra-state visibility, knowledge disclosure, apology, forgiveness with explicit non-repeat boundary, then a separate compliment/towel-drop exit beat.",
+        "Pappu adult scene ka participant/observer nahi.",
+        "Before towel, Dhika white shorts + red bra mein hai. Source does not say she is nude. Uncle ka first direct bra-wearing view established.",
+        "E2 se Dhika secretly knew; E5 mein knowledge asymmetry breaks—Uncle now knows Dhika witnessed his bra act.",
+        "Forgiveness ≠ approval of bra act. Dhika explicitly says do not repeat it.",
+        "Towel drop deliberate hai, but raw sentence exact second-by-second Uncle visibility quantify nahi karta. Dhika underneath white shorts + red bra state mein thi; nude state invent nahi karna.",
+        "Sex occurs, but exact sexual mechanics/positions/body sequence raw mein nahi. Extra graphical sequence invent nahi karna."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P08": {
+      "sourceRange": "UI L155-L169",
+      "driveStableRange": "Drive L159-L173",
+      "eventIds": [
+        "E05-P08-E020",
+        "E05-P08-E021"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+        "“Dhika decided something” is unspecified. Exact hidden plan invent nahi karna. Outfit choice stated; intent beyond that remains unknown.",
+        "First Chotu→Dhika hug added; Dhika handholding/access remains warm and deliberate."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P09": {
+      "sourceRange": "UI L170-L188",
+      "driveStableRange": "Drive L174-L192",
+      "eventIds": [
+        "E05-P09-E022",
+        "E05-P09-E023"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+        "Chotu shirt remove nahi karta. Dhika ka shirt wet/transparent hai but still ON. Exact nipple visibility stated nahi.",
+        "Contact shorts/cloth ke through bum rubbing/pressing tak stated hai. Dhika stop bolti hai and Chotu immediately stops."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P10": {
+      "sourceRange": "UI L189-L202",
+      "driveStableRange": "Drive L193-L206",
+      "eventIds": [
+        "E05-P10-E024",
+        "E05-P10-E025"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+        "Abhi bhi nanga penis visible nahi—painted clothed bulge only. Bedroom access + change-clothes instruction does not equal invitation to undress in front of Dhika.",
+        "Dhika intentional genital view avoid karti hai by turning away. Exact state during initial shorts removal visible to her nahi."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P11": {
+      "sourceRange": "UI L203-L211",
+      "driveStableRange": "Drive L207-L215",
+      "eventIds": [
+        "E05-P11-E026",
+        "E05-P11-E027"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+        "Dhika first time Chotu ko outer shorts ke bina, boxers + semi-erection state mein dekhti hai.",
+        "Red bra remains ON. “Breasts spilling out of red bra” narrator/Chotu POV description hai; nipple exposure explicitly stated nahi. Dhika eyes closed hai while pulling shorts."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    },
+    "E05-P12": {
+      "sourceRange": "UI L212-L225",
+      "driveStableRange": "Drive L216-L229",
+      "eventIds": [
+        "E05-P12-E028",
+        "E05-P12-E029",
+        "E05-P12-E030"
+      ],
+      "previousVerifiedState": "E05 cumulative state through previous Part",
+      "currentPartDelta": [
+        "Dhika↔Chotu moves sharply: Dhika misses/summons him; first Chotu-initiated hug; reciprocal gaze; accidental bum rubbing stopped on request; outer-shorts-off boxers view; accidental boxers-covered erection hand graze; clothing assistance; second hug with clothed erection against torso and light reciprocation.",
+        "E4 self-touch memory caused by his clothed erection; E5 she accidentally contacts that clothed erection and consciously wants a repeat, but stops herself.",
+        "Assistance clothing/waist/closure task tak. Raw direct genital skin touch add nahi karta.",
+        "E5 begins with first ordinary Chotu hug and ends with second hug where Dhika knowingly feels his clothed erection against her torso and still lightly reciprocates."
+      ],
+      "cumulativeRule": "PREVIOUS VERIFIED STATE -> CURRENT PART DELTA -> CUMULATIVE STATE. Unchanged relationships remain HOLD / UNCHANGED."
+    }
+  },
+  "hookLedger": [
+    {
+      "id": "H1",
+      "text": "Chotu is explicitly invited to return next day around noon to continue painting.",
+      "status": "OPEN AS OF E05 END",
+      "sourceStableRange": "Drive L227-L229"
+    },
+    {
+      "id": "H2",
+      "text": "Final Chotu hug establishes a new clothed-erection-contact ceiling that successor material may process; it is not permission for naked genital contact.",
+      "status": "OPEN",
+      "sourceStableRange": "Drive L227-L229"
+    },
+    {
+      "id": "H3",
+      "text": "Leo may move into the same flat/building next month; future proximity remains unresolved.",
+      "status": "OPEN",
+      "sourceStableRange": "Drive L29-L44"
+    },
+    {
+      "id": "H4",
+      "text": "Uncle leaves for Delhi because his sister is ill; Aunty remains locally connected to Dhika/John.",
+      "status": "TEMPORARILY DORMANT",
+      "sourceStableRange": "Drive L146-L158"
+    },
+    {
+      "id": "H5",
+      "text": "Waist-chain ‘some other day’ hook from E04 is not paid off in E05.",
+      "status": "DELAYED / UNRESOLVED",
+      "sourceStableRange": "Drive L1-L229"
+    },
+    {
+      "id": "H6",
+      "text": "Bantu’s one-on-one mall access and Dhika’s beauty reassurance-seeking create future pair questions, but E05 grants no blanket physical permission.",
+      "status": "OPEN",
+      "sourceStableRange": "Drive L52-L118"
+    },
+    {
+      "id": "H7",
+      "text": "Twins tuition is skipped Friday; their shared secrecy and cheek-affection remain active history.",
+      "status": "OPEN / DELAYED",
+      "sourceStableRange": "Drive L159-L163"
+    }
+  ],
+  "qa": [
+    {
+      "id": "QA1",
+      "text": "Authority lock: raw E05 Tab 1 is authority. Existing bottom-up decode/tagging tab is cross-check only and cannot override raw wording.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L1-L229"
+    },
+    {
+      "id": "QA2",
+      "text": "Canonical graph verifies Chotu=19, Bantu=18, Bobby=18 adults. Source repeatedly uses ‘teen’ wording, but analysis must not infer minors from that colloquial label.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L1-L229"
+    },
+    {
+      "id": "QA3",
+      "text": "Source dialogue once labels Leo as ‘Ron’ despite surrounding introduction/continuation identifying Leo. Preserve as source-name inconsistency; do not invent a separate Ron character.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L29-L44"
+    },
+    {
+      "id": "QA4",
+      "text": "Uncle towel-drop outcome is visibility-ambiguous; exact body exposure after towel leaves is not quantified.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L151-L155"
+    },
+    {
+      "id": "QA5",
+      "text": "Mall translucent top shows red bra; source explicitly says no cleavage at the end of that look.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L102-L118"
+    },
+    {
+      "id": "QA6",
+      "text": "Chotu’s naked penis is never established visible/touched in E05; boxers/shorts remain the contact/visibility layer.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L193-L229"
+    },
+    {
+      "id": "QA7",
+      "text": "Bantu thigh graze is unasked and immediately called out. Scene continuation cannot be used to rewrite prior consent.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L85-L90"
+    },
+    {
+      "id": "QA8",
+      "text": "Chotu bum rubbing is stopped explicitly and stop is immediately respected.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L185-L192"
+    },
+    {
+      "id": "QA9",
+      "text": "John-night sexual mechanics are source-compressed; do not import positions or fantasies.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L45-L51"
+    },
+    {
+      "id": "QA10",
+      "text": "E05 candidate remains AUTHOR-REVIEW-PENDING. Structural coverage is not author approval.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L1-L229"
+    },
+    {
+      "id": "QA11-LOCAL-LANGUAGE-NO-SUMMARY",
+      "text": "Owner correction: middle/local column must not summarize raw prose. It must preserve scene order, dialogue beats, pauses, embarrassment, attraction, guilt, teasing, inner thought and cause→reaction texture. Analytical compression belongs only in [Samajh]/right modules.",
+      "status": "LOCKED_OWNER_CORRECTION",
+      "sourceStableRange": "Drive L1-L229"
+    }
+  ],
+  "negativeCanon": [
+    {
+      "id": "N1",
+      "text": "E05 does not show Dhika removing/revealing her bra to the twins in response to E04’s final question.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L5-L20"
+    },
+    {
+      "id": "N2",
+      "text": "Twins kisses are cheek kisses only; no Bantu/Bobby lip kiss.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L16-L20"
+    },
+    {
+      "id": "N3",
+      "text": "Leo has no physical contact with Dhika in E05 and Dhika’s awareness of his gaze is not stated.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L29-L44"
+    },
+    {
+      "id": "N4",
+      "text": "Bantu does not see Dhika changing topless during mall T-shirt changes; he is outside when she changes.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L78-L84"
+    },
+    {
+      "id": "N5",
+      "text": "Bantu has no breast or genital touch in E05; the new touch is an exposed-thigh graze.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L85-L118"
+    },
+    {
+      "id": "N6",
+      "text": "Uncle’s accidental view is white shorts + red bra, not nudity.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L127-L134"
+    },
+    {
+      "id": "N7",
+      "text": "Dhika’s forgiveness of Uncle does not approve repeat bra misuse; she explicitly says do not do it again.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L146-L150"
+    },
+    {
+      "id": "N8",
+      "text": "Towel drop does not establish quantified nude exposure; underneath state had been white shorts + red bra.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L151-L155"
+    },
+    {
+      "id": "N9",
+      "text": "Chotu never becomes shirtless in E05 despite Dhika suggesting it; he refuses because he has no vest.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L174-L184"
+    },
+    {
+      "id": "N10",
+      "text": "No naked Chotu penis/testicles view or direct skin-genital contact; boxers/shorts remain on at all relevant thresholds.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L193-L229"
+    },
+    {
+      "id": "N11",
+      "text": "Dhika wants to graze Chotu’s clothed erection again but does not perform the deliberate repeat in E05.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L216-L222"
+    },
+    {
+      "id": "N12",
+      "text": "Sharmi has no E05 progression.",
+      "status": "AUTHOR_REVIEW_PENDING",
+      "sourceStableRange": "Drive L1-L229"
+    }
+  ],
+  "episodeStatus": {
+    "processedThrough": "E05-P12",
+    "driveStableRange": "L1-L229",
+    "uiNarrativeRange": "L1-L225",
+    "status": "CORRECTED_COMPLETE_PENDING_AUTHOR_APPROVAL",
+    "sourceIntegrity": "225/225 UI narrative lines exact-match Drive stable L5-L229",
+    "localCoverage": "225/225 sequential",
+    "storyImagesTextCoverage": "225/225 sequential; image generation NOT_RUN"
+  },
+  "episodeWeavingAnalysis": {
+    "classification": "DERIVED_INTERPRETATION",
+    "coreRule": "E05 weaves the twins/Bantu route, marriage/Leo seed, Uncle repair-boundary route, then Chotu foreground. Earlier routes remain active history rather than resetting.",
+    "patterns": [
+      "E04 bra cliffhanger → playful correction → group laughter → cheek affection: escalation is relayed through a softer new threshold rather than direct reveal.",
+      "John birthday goal → mall shopping → Bantu evaluator: an established marital desire creates non-marital access without changing the original goal.",
+      "Pappu hurry → open door → accidental Uncle view → old bra secret surfaces → repair boundary → controlled exit beat.",
+      "Chotu guilt/replay → moral reframe (‘not his fault / deserves kindness’) → summon → deliberate outfit → gaze → paint accident → clothing assistance → accidental bulge contact → final hug.",
+      "Specificity follows narrative function: marriage sex is compressed, but Chotu clothing/contact mechanics are granular because exact visibility/consent ceilings change."
+    ],
+    "relationshipSpecificity": "Progression is pair-specific; E05 advances different visual, verbal, knowledge, touch and secrecy axes at different rates.",
+    "ambiguityRule": "Preserve source inconsistencies and visibility ambiguity; do not silently harmonize Ron/Leo or quantify the towel-drop outcome."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "episode": "E01",
+  "router": "index.html",
+  "components": {
+    "prologue": {
+      "path": "prologue.html",
+      "range": "L1-L16",
+      "status": "FINAL_FROZEN",
+      "frozen_blob_sha": "6b8edf8b31ddccf2a5ad2bc4a9dcf7d596be4bf8"
+    },
+    "part1": {
+      "path": "part1.html",
+      "range": "L17-L30",
+      "status": "FINAL_FROZEN",
+      "frozen_blob_sha": "a1ad250e63776ebe5622b7470492be6021237bae"
+    },
+    "part2": {
+      "path": "part2.html",
+      "range": "L31-L64",
+      "status": "COMPLETE"
+    },
+    "part3": {
+      "path": "part3.html",
+      "range": "L65-L70",
+      "status": "COMPLETE"
+    },
+    "part4": {
+      "path": "part4.html",
+      "range": "L71-L107",
+      "status": "COMPLETE"
+    },
+    "part5": {
+      "path": "part5.html",
+      "range": "L108-L117",
+      "status": "COMPLETE"
+    },
+    "part6": {
+      "path": "part6.html",
+      "range": "L118-L128",
+      "status": "COMPLETE"
+    },
+    "part7": {
+      "path": "part7.html",
+      "range": "L129-L141",
+      "status": "COMPLETE"
+    },
+    "part8": {
+      "path": "part8.html",
+      "range": "L142-L158",
+      "status": "COMPLETE"
+    },
+    "part9": {
+      "path": "part9.html",
+      "range": "L159-L170",
+      "status": "COMPLETE"
+    },
+    "part10": {
+      "path": "part10.html",
+      "range": "L171-L194",
+      "status": "COMPLETE"
+    },
+    "part11": {
+      "path": "part11.html",
+      "range": "L195-L207",
+      "status": "COMPLETE"
+    },
+    "part12": {
+      "path": "part12.html",
+      "range": "L208-L225",
+      "status": "COMPLETE_EPISODE_END"
+    }
+  },
+  "write_policy": {
+    "default_edit_target": null,
+    "frozen_components_require_explicit_reopen": true,
+    "router_contains_story_content": false,
+    "future_parts_get_separate_files": true,
+    "registered_source_lines": 226,
+    "last_nonempty_source_line": 225
+  }
+}
