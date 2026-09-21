@@ -1214,7 +1214,12 @@
       ],
       "negativeCanon": [
         "Do not rewrite ordinary food-sharing as a preplanned sexual encounter."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P04-E014",
@@ -1244,7 +1249,12 @@
       ],
       "negativeCanon": [
         "No actual kiss occurs in L57-L64."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P04-E015",
@@ -1275,7 +1285,12 @@
       ],
       "negativeCanon": [
         "Do not rewrite the initial contact as planned by either character."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P05-E016",
@@ -1307,7 +1322,12 @@
       ],
       "negativeCanon": [
         "Do not collapse this chain into 'they suddenly wanted to kiss'."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P05-E017",
@@ -1338,7 +1358,12 @@
       ],
       "negativeCanon": [
         "Do not rewrite this as either full rejection or settled romance."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P06-E018",
@@ -1371,6 +1396,13 @@
       ],
       "negativeCanon": [
         "Do not treat Dhika's rationalization as narrator verdict."
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU",
+        "CHAR-JOHN"
       ]
     },
     {
@@ -1403,7 +1435,13 @@
       ],
       "negativeCanon": [
         "Do not import later clothing challenge backward into L97-L110."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P07-E020",
@@ -1436,7 +1474,13 @@
       ],
       "negativeCanon": [
         "Do not flatten Bantu's hidden motive and Dhika's surface interpretation into the same knowledge state."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P07-E021",
@@ -1469,7 +1513,13 @@
       ],
       "negativeCanon": [
         "Do not summarize as 'everyone became comfortable'."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P08-E022",
@@ -1503,6 +1553,14 @@
       ],
       "negativeCanon": [
         "Do not use 'teenagers' dialogue to overwrite objective adult canon."
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN"
+      ],
+      "referencedCharacters": [
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
       ]
     },
     {
@@ -1536,6 +1594,14 @@
       ],
       "negativeCanon": [
         "Do not invent John's interpretation of the blush."
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU",
+        "CHAR-PAPPU"
       ]
     },
     {
@@ -1568,7 +1634,13 @@
       ],
       "negativeCanon": [
         "Do not infer more anatomy/visibility than source establishes."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P09-E025",
@@ -1601,7 +1673,13 @@
       ],
       "negativeCanon": [
         "Do not eroticize the distress itself."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P09-E026",
@@ -1635,6 +1713,14 @@
       ],
       "negativeCanon": [
         "Do not invent the missing body part in Bantu's unfinished sentence."
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-BANTU",
+        "CHAR-BOBBY"
+      ],
+      "referencedCharacters": [
+        "CHAR-JOHN"
       ]
     },
     {
@@ -1666,7 +1752,13 @@
       ],
       "negativeCanon": [
         "Do not assign erotic intent to Pappu leaving with John."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-JOHN",
+        "CHAR-PAPPU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P10-E028",
@@ -1698,6 +1790,13 @@
       ],
       "negativeCanon": [
         "Do not rewrite the help request as a purely sexual invitation."
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU",
+        "CHAR-BINDU"
       ]
     },
     {
@@ -1730,7 +1829,12 @@
       ],
       "negativeCanon": [
         "Do not later claim they discussed/resolved the kiss in this Part."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P11-E030",
@@ -1760,7 +1864,12 @@
       ],
       "negativeCanon": [
         "No new erotic touch/visual event in L207-L209."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P12-E031",
@@ -1793,6 +1902,13 @@
       ],
       "negativeCanon": [
         "Do not over-explain motive beyond the source's associative chain."
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA"
+      ],
+      "referencedCharacters": [
+        "CHAR-CHOTU",
+        "CHAR-JOHN"
       ]
     },
     {
@@ -1824,7 +1940,12 @@
       ],
       "negativeCanon": [
         "Future writing must not reset cleavage access as unseen/first-time."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P13-E033",
@@ -1856,7 +1977,12 @@
       ],
       "negativeCanon": [
         "Do not call this a first stomach/navel reveal."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     },
     {
       "eventId": "E03-P13-E034",
@@ -1889,7 +2015,12 @@
       ],
       "negativeCanon": [
         "Hard stop at L231; do not invent the next act."
-      ]
+      ],
+      "presentCharacters": [
+        "CHAR-DHIKA",
+        "CHAR-CHOTU"
+      ],
+      "referencedCharacters": []
     }
   ],
   "relationships": [
@@ -2028,6 +2159,134 @@
       "latestVerifiedState": "E03 P10: Dhika asks Maami whether Chotu can help paint; Maami confirms he can come in about 15 minutes.",
       "knowledgeSplit": "Maami knows only the stated practical painting-help request.",
       "boundaryState": "Practical intermediary role only."
+    },
+    {
+      "relationshipId": "REL-DHIKA-PAPPU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-DHIKA-STUDENTS-GENERAL",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-DHIKA-AUNTY",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-JOHN-AUNTY-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-PAPPU-AUNTY-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-AUNTY-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-BANTU-BOBBY",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-DHIKA-SHARMI",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-SHARMI-RAJ",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-DHIKA-RAJ",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-BANTU-FATHER",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-DHIKA-MOTHER",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-BINDU-CHOTU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-CHOTU-MOTHER",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-JOHN-PAPPU",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
+    },
+    {
+      "relationshipId": "REL-JOHN-UNCLE",
+      "inheritedFromPriorEpisodes": true,
+      "e03EventIds": [],
+      "latestVerifiedState": "HOLD / UNCHANGED in E03 — no material relationship-state delta recorded in Episode 03.",
+      "knowledgeSplit": "No new E03 knowledge-state change recorded for this relationship.",
+      "boundaryState": "Carry forward prior verified boundary/state; do not infer a reset or new permission from absence."
     }
   ],
   "heldRelationshipIds": [
@@ -2063,13 +2322,38 @@
         "E03-P02-E006",
         "E03-P02-E007",
         "E03-P03-E008",
+        "E03-P03-E009",
+        "E03-P03-E010",
         "E03-P03-E011",
-        "E03-P03-E012"
+        "E03-P03-E012",
+        "E03-P04-E013",
+        "E03-P04-E014",
+        "E03-P04-E015",
+        "E03-P05-E016",
+        "E03-P05-E017",
+        "E03-P06-E018",
+        "E03-P06-E019",
+        "E03-P07-E020",
+        "E03-P07-E021",
+        "E03-P08-E022",
+        "E03-P08-E023",
+        "E03-P09-E024",
+        "E03-P09-E025",
+        "E03-P09-E026",
+        "E03-P10-E027",
+        "E03-P10-E028",
+        "E03-P11-E029",
+        "E03-P11-E030",
+        "E03-P12-E031",
+        "E03-P12-E032",
+        "E03-P13-E033",
+        "E03-P13-E034"
       ],
-      "currentVerifiedState": "E03 P3: P2 profound Chotu-specific eagerness persists but becomes mixed with slight fear and uncertainty about what she may do next; she does not know Chotu's private self-restraint interpretation.",
+      "currentVerifiedState": "E03 end: Chotu-specific curiosity has advanced through deliberate gaze-teasing, one quick kiss, kiss-related guilt/secrecy, practical re-contact, stronger deliberate visual staging, and direct observation of Chotu's clothed arousal at L230-L231. Twins route separately gains informal clothing talk, a second accidental exposure, reassurance/confidentiality and selective non-disclosure to John.",
       "activeSecrets": [
-        "E01 Chotu visual-test motive/after-effect remains undisclosed to John.",
-        "She knows Uncle's breach and has not disclosed it to John/Aunty; Uncle does not know she witnessed it."
+        "Chotu kiss/visual route remains undisclosed to John.",
+        "Uncle breach knowledge remains undisclosed to John/Aunty; Uncle does not know she knows.",
+        "Later twins Friday incident/comments are withheld from John."
       ]
     },
     {
@@ -2084,37 +2368,60 @@
         "E03-P03-E008",
         "E03-P03-E009",
         "E03-P03-E010",
-        "E03-P03-E012"
+        "E03-P03-E011",
+        "E03-P03-E012",
+        "E03-P04-E013",
+        "E03-P04-E014",
+        "E03-P04-E015",
+        "E03-P05-E016",
+        "E03-P05-E017",
+        "E03-P06-E018",
+        "E03-P08-E023",
+        "E03-P10-E028",
+        "E03-P11-E029",
+        "E03-P11-E030",
+        "E03-P12-E031",
+        "E03-P12-E032",
+        "E03-P13-E033",
+        "E03-P13-E034"
       ],
-      "currentVerifiedState": "E03 P3: explicitly remembers E01 breast visibility and P2 stomach gaze, remains attracted, tries to clear those thoughts, interprets Dhika's shorter dress as comfort and decides not to spoil that comfort; he still does not know her deliberate prior motives."
+      "currentVerifiedState": "E03 end: attracted and visually attentive, with earlier self-restraint/trust-protection still part of his characterization; one reflexive stomach-contact and one quick kiss are in history; later painting/lunch route contains repeated gaze and visible clothed arousal. He still does not know every Dhika motive/internal state."
     },
     {
       "characterId": "CHAR-UNCLE",
       "eventIds": [
         "E03-P01-E001"
       ],
-      "currentVerifiedState": "No new Uncle-side action/state change in E03 P1; he is referenced through Dhika's retrospective clothing judgment."
+      "currentVerifiedState": "E03: no live action. Dhika's prior knowledge influences her P1 clothing judgment; Uncle remains unaware she knows about the prior breach."
     },
     {
       "characterId": "CHAR-JOHN",
       "eventIds": [
-        "E03-P01-E001"
+        "E03-P01-E001",
+        "E03-P06-E018",
+        "E03-P08-E022",
+        "E03-P08-E023",
+        "E03-P09-E026",
+        "E03-P10-E027",
+        "E03-P12-E031"
       ],
-      "currentVerifiedState": "No current state change; only his earlier skirt suggestion is recalled."
+      "currentVerifiedState": "E03 end: marriage/family baseline remains active. John hears selected twins stories and painting plan, notices Dhika's subtle Chotu-name reaction, but does not know the Chotu kiss/visual progression or Uncle secret."
     },
     {
       "characterId": "CHAR-PAPPU",
       "eventIds": [
-        "E03-P02-E003"
+        "E03-P02-E003",
+        "E03-P08-E023",
+        "E03-P10-E027"
       ],
-      "currentVerifiedState": "Absent in E03 P2; Chotu asks where he is and Dhika says he went out with Aunty. No state change."
+      "currentVerifiedState": "E03: ordinary child/family role only. Referenced with Aunty in P2 and present in family/painting logistics; no sexualized route."
     },
     {
       "characterId": "CHAR-AUNTY",
       "eventIds": [
         "E03-P02-E003"
       ],
-      "currentVerifiedState": "Referenced only: out with Pappu. No state change."
+      "currentVerifiedState": "E03: referenced as being out with Pappu in P2; no material relationship-state change."
     },
     {
       "characterId": "CHAR-CHOTU-GRANDMOTHER",
@@ -2126,7 +2433,40 @@
         "Chotu reports she had been sick for a long time.",
         "Chotu reports she passed away and her death required him to go to his village."
       ],
-      "currentVerifiedState": "Deceased before/during the reported absence; reference-only family history. Name, illness and exact chronology are not supplied."
+      "currentVerifiedState": "Reference-only family history: Chotu reports she had been sick for a long time and died, causing his village trip. Name/illness/exact chronology not supplied."
+    },
+    {
+      "characterId": "CHAR-BANTU",
+      "eventIds": [
+        "E03-P06-E019",
+        "E03-P07-E020",
+        "E03-P07-E021",
+        "E03-P08-E022",
+        "E03-P09-E024",
+        "E03-P09-E025",
+        "E03-P09-E026"
+      ],
+      "currentVerifiedState": "E03 end: adult 18+ student route gains strategic homewear conversation, direct 'hot' comments, second accidental pallu-exposure history, secrecy promise and appearance reassurance; teacher/student relation remains explicit."
+    },
+    {
+      "characterId": "CHAR-BOBBY",
+      "eventIds": [
+        "E03-P06-E019",
+        "E03-P07-E020",
+        "E03-P07-E021",
+        "E03-P08-E022",
+        "E03-P09-E024",
+        "E03-P09-E025",
+        "E03-P09-E026"
+      ],
+      "currentVerifiedState": "E03 end: adult 18+ student route gains direct beauty/smile compliment and unusually caring reassurance after the second accidental exposure; he wipes Dhika's tears and shares the secrecy promise."
+    },
+    {
+      "characterId": "CHAR-BINDU",
+      "eventIds": [
+        "E03-P10-E028"
+      ],
+      "currentVerifiedState": "E03 P10: practical intermediary; confirms Chotu can come help paint in about 15 minutes. No deeper live state change."
     }
   ],
   "hooks": [
@@ -4046,5 +4386,12 @@
         }
       }
     ]
+  },
+  "traversalIntegrity": {
+    "characterIndexThrough": "P13",
+    "relationshipIndexThrough": "P13",
+    "holdRelationshipsExplicit": true,
+    "participantBackfillThrough": "P13",
+    "verifiedOn": "2026-09-21"
   }
 }
