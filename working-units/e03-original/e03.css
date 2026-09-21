@@ -22,3 +22,17 @@
   font-size:13px;
 }
 .local-block:last-child{border-bottom:0}
+
+/* True line-by-line paired reading alignment · shared by E03 Parts 1–13 */
+.reading-head,.reading-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.reading-head>div,.reading-cell{padding:12px 14px;min-width:0}
+.reading-head>div:first-child,.reading-cell:first-child{border-right:1px solid var(--line)}
+.reading-head{background:var(--tint);border:1px solid var(--line);border-radius:10px 10px 0 0}
+.reading-row{background:var(--card);border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px dotted #d8d0c1;align-items:stretch}
+.reading-row:last-of-type{border-bottom:1px solid var(--line);border-radius:0 0 10px 10px}
+.line-wrap{display:grid;grid-template-columns:38px minmax(0,1fr);gap:8px;font-size:13px;line-height:1.65}
+.line-wrap .ln{color:#9a8f7d;font-variant-numeric:tabular-nums}
+@media(max-width:800px){
+  .reading-head,.reading-row{grid-template-columns:1fr}
+  .reading-head>div:first-child,.reading-cell:first-child{border-right:0;border-bottom:1px solid var(--line)}
+}
