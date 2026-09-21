@@ -10,6 +10,23 @@ Generate every listed asset as a separate single-scene image and upload it to th
 4. Dhika and all romantic/sexual-context characters are adults. Pappu is a young child and may appear only in ordinary, nonsexual family context.
 5. Emotion and spatial storytelling take priority over glamour. No text, watermark, collage or unsupported action.
 
+## Dialogue, inner-thought, safe-proxy and reference-image rules — mandatory
+
+1. **Conversation must remain readable in the visual layer.** When a beat depends on a spoken exchange, preserve the correct speaker, listener, emotion and conversational order. Do not merge two speakers into narrator text.
+2. **Spoken dialogue = speech bubble.** Use a normal speech bubble with a clear tail pointing to the speaking character. Keep wording short enough to remain readable.
+3. **Internal thought = thought cloud.** Use a cloud/thought bubble with no normal speech tail. Thought text must sound like the character thinking, not like a narrator explaining the character.
+4. **Short inner reaction = small thought bubble.** Very brief reactions may use a compact thought bubble close to the character's face.
+5. **Memory / remembered dialogue = visually separate memory inset.** Use a faded/soft-edged inset or memory cloud so remembered material can never be mistaken for a person physically present in the current scene.
+6. **Physical reality, spoken dialogue, thought and memory are separate layers.** Never make an imagined or remembered character look physically present in the live scene.
+7. **Prefer UI text overlays when exact wording matters.** Generate the clean scene first and render speech/thought/memory text in the page/UI layer when possible, so identity, pose and continuity are not regenerated just to add text and AI text errors are avoided.
+8. **Explicit RAW beat -> safe proxy visual.** If the source beat contains explicit sexual detail that should not be depicted, generate a neutral/non-explicit version using only safe visual information: location, clothing, positions, objects, facial reaction, distance, doorway, aftermath or other nonsexual context. Do not include the explicit sexual mechanics in the image-generation prompt. The approved story text remains responsible for carrying the omitted source detail.
+9. **Do not announce the omission inside the image.** The image should simply be a coherent safe scene; the story text beside it supplies the exact narrative detail.
+10. **Never invent safer replacement facts.** A safe proxy may omit explicit detail, but it must not change who is present, what room they are in, the clothing state, the sequence, the observer knowledge or the emotional consequence.
+11. **User-provided approved reference image = identity lock.** When Dev supplies a reference image for an established character, use that supplied image as the face/identity reference for subsequent image work. Preserve facial identity, age impression, hairstyle and established body proportions unless Dev explicitly requests a change.
+12. **Reference image takes priority over generative face drift.** Do not redesign the face merely because a new scene, pose, camera or clothing is requested. If the reference is present, sync the new image to that identity.
+13. **Reference-image use does not authorize unrelated changes.** Only adapt what the target beat requires; preserve the rest of the established continuity.
+14. **Line-by-line image review remains authoritative.** A grouped image may stay only when it genuinely represents every included line without skipping a required visual transition. Otherwise split it into narrower beats and keep text-only beats where an image would be inaccurate or unnecessary.
+
 ## Part 1 — John returns and the family resets
 
 ### Part 1 Asset 1 — doorway emotional pivot
