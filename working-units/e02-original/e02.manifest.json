@@ -90,5 +90,11 @@
     "routerContainsStoryContent": false,
     "futurePartsGetSeparateFiles": true,
     "part1ContentMustNotBeRewrittenByImageHandoff": true
+  },
+  "storyArc": {
+    "id": "ARC 01",
+    "name": "The First Awakening",
+    "assignment": "CONTINUATION",
+    "decisionBasis": "Complete Episode 02 read; central story engine, active E01 hooks, and emotional/relationship phase continue."
   }
 }
