@@ -628,12 +628,12 @@ If any required tracker is stale or stops before the latest approved Part, **rep
 
 ## Verified audit status · 2026-09-21
 
-- E01 Dhika↔Chotu Part 6–12 relationship/writer history: traversed and usable.
-- E02 canonical encounter tracker on `audit/e02-encounter-history`: complete through P14 / E02 end; REL-DHIKA-CHOTU contains prior/latest state, event IDs, knowledge split and boundary state.
-- E03 canonical encounter tracker had stopped at P3; repaired on 2026-09-21 to P13 / L231 with 34 canonical events and 13 Part snapshots.
-- E03 human encounter-history view is now also complete through P13.
+- E01 now has a canonical main-branch encounter tracker at `working-units/e01-part1-lines17-30/e01.encounter-history.json`, complete through P12 / L225, plus a human review view. It is normalized at Part-event level; exact micro-beats remain in the source-locked Part pages.
+- E02 canonical encounter tracker was already complete through P14 / episode end on `audit/e02-encounter-history`; it is now also published on `main` with its human review companion so future chats do not need branch-specific discovery.
+- E03 canonical encounter tracker is complete through P13 / L231 with 34 canonical events and 13 Part snapshots.
 - Pointer-only Relationship History Ledger remains navigation-only. It is **not sufficient input for future writing by itself**.
-- The Writer Continuity Engine + canonical encounter history + RAW together form the required future-writing input.
+- The required continuity stack is: RAW/source-locked Part → canonical encounter history → Relationship Progression/current state → Writer Continuity Engine.
+
 
 ## Quality rule
 
