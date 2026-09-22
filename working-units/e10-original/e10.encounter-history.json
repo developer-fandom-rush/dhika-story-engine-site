@@ -1,0 +1,778 @@
+{
+  "schemaVersion": "1.2",
+  "episode": "E10",
+  "arc": "ARC 01 — The First Awakening",
+  "authority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "episodeMarker": "EPISODE 10",
+    "lineCount": 133
+  },
+  "inheritedHistory": [
+    "E06_ENCOUNTER_HISTORY.md",
+    "E07_ENCOUNTER_HISTORY.md",
+    "E08_ENCOUNTER_HISTORY.md",
+    "E09_ENCOUNTER_HISTORY.md"
+  ],
+  "authorReview": "pending",
+  "events": [
+    {
+      "id": "E10-P01-E001",
+      "part": 1,
+      "evidence": "E10 P1 L1–4",
+      "participants": [
+        "Dhika",
+        "John",
+        "Pappu"
+      ],
+      "description": "John and Pappu depart for paternal grandparents; Dhika plans painting, does housework and starts cold shower.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P01-E002",
+      "part": 1,
+      "evidence": "E10 P1 L5–19",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Chotu rings repeatedly; Dhika brings him inside hurriedly in towel, scolds interruption, changes to loose T-shirt and short skirt.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P01-E003",
+      "part": 1,
+      "evidence": "E10 P1 L20–25",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Chotu voluntarily offers painting help; his mother is away; Dhika invites lunch.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P02-E001",
+      "part": 2,
+      "evidence": "E10 P2 L26–41",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Dhika directly asks whether her E09 kiss hurt Chotu; he explains he smiled/left from personal embarrassment, believing she kissed better.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P02-E002",
+      "part": 2,
+      "evidence": "E10 P2 L42–43",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Dhika provides previously gifted painting clothes; she takes higher stool position due to Chotu's paint spills.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P03-E001",
+      "part": 3,
+      "evidence": "E10 P3 L44–53",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Tonight's horror film prompts Chotu's admission of cinema isolation; Dhika promises a separate film of his choice after room completed.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P03-E002",
+      "part": 3,
+      "evidence": "E10 P3 L54–60",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Hour of painting produces Dhika's stool-related pain and slow work; narrator reports Chotu's covert gaze/arousal while Dhika catches some glances.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P04-E001",
+      "part": 4,
+      "evidence": "E10 P4 L61–78",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Sink leak investigation leads to unintentional head-to-breasts collision while Chotu stands without knowing Dhika bent behind him; she suffers pain and scolds him.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P04-E002",
+      "part": 4,
+      "evidence": "E10 P4 L79–86",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Chotu privately remembers tactile sensation but feels bad; after ~10 minutes she serves meal, he apologizes and both eat silently.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P05-E001",
+      "part": 5,
+      "evidence": "E10 P5 L87–92",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Dhika independently reinterprets collision as accident, calls out Chotu's quiet tactic and restores conversational ease.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P05-E002",
+      "part": 5,
+      "evidence": "E10 P5 L93–100",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Dhika privately reopens kissing-ability question; he acknowledges inexperience and says practice could help.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P06-E001",
+      "part": 6,
+      "evidence": "E10 P6 L101–113",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Chotu begins to leave; Dhika invites him to practice kissing, he confirms offer, and she initiates the first lip kiss which he reciprocates.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P06-E002",
+      "part": 6,
+      "evidence": "E10 P6 L114–119",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "description": "Chotu independently initiates the second lip kiss; Dhika reciprocates and offers playful future help before saying goodbye.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P07-E001",
+      "part": 7,
+      "evidence": "E10 P7 L120–123",
+      "participants": [
+        "Dhika",
+        "John",
+        "Pappu",
+        "Sharmi"
+      ],
+      "description": "Dhika leaves Pappu asleep at Aunty and joins John for E09-promised Sunday cinema outing after Sharmi's phone call.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P07-E002",
+      "part": 7,
+      "evidence": "E10 P7 L124–130",
+      "participants": [
+        "Sharmi",
+        "John",
+        "Dhika"
+      ],
+      "description": "Sharmi spontaneously hugs John from behind at theatre foyer; John looks at her distinctive outfit, Dhika notices and playfully nudges him.",
+      "certainty": "SOURCE_FACT"
+    },
+    {
+      "id": "E10-P07-E003",
+      "part": 7,
+      "evidence": "E10 P7 L131–133",
+      "participants": [
+        "Sharmi",
+        "John",
+        "Dhika",
+        "Raj"
+      ],
+      "description": "Sharmi attributes to Raj a preference for contrasting sarees; John/Sharmi grin while Dhika realizes she wears exactly that outfit; film has not started.",
+      "certainty": "ATTRIBUTED_CLAIM_AND_SOURCE_FACT"
+    }
+  ],
+  "interactionPerceptionLedger": [
+    {
+      "id": "E10-IP-001",
+      "relationship": "Dhika-Chotu",
+      "part": 1,
+      "evidence": "E10 P1 L13–18",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "SEEN",
+      "detail": "Dhika dripping from interrupted shower and briefly visible chest edge inside towel",
+      "intentionality": "unplanned_door_interruption",
+      "certainty": "SOURCE_FACT",
+      "permission": "not_display_permission"
+    },
+    {
+      "id": "E10-IP-002",
+      "relationship": "Dhika-Chotu",
+      "part": 1,
+      "evidence": "E10 P1 L13–16",
+      "from": "Dhika",
+      "to": "Chotu",
+      "modality": "TOUCHED",
+      "detail": "Grabs his hands to pull him indoors to stop doorbell/shouts",
+      "intentionality": "deliberate_practical",
+      "certainty": "SOURCE_FACT",
+      "permission": "entry_only"
+    },
+    {
+      "id": "E10-IP-003",
+      "relationship": "Dhika-Chotu",
+      "part": 1,
+      "evidence": "E10 P1 L20–25",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Painting and shared lunch invitation",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "meal_and_work_only"
+    },
+    {
+      "id": "E10-IP-004",
+      "relationship": "Dhika-Chotu",
+      "part": 2,
+      "evidence": "E10 P2 L29–35",
+      "from": "Dhika",
+      "to": "Chotu",
+      "modality": "HEARD",
+      "detail": "He denies injury from E09 kiss and explains embarrassment over his own technique",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "previous_scene_consent_not_retroactive"
+    },
+    {
+      "id": "E10-IP-005",
+      "relationship": "Dhika-Chotu",
+      "part": 2,
+      "evidence": "E10 P2 L38",
+      "from": "Dhika",
+      "to": "John",
+      "modality": "REMEMBERED",
+      "detail": "Dhika's private comparison to her kissing experience with John",
+      "intentionality": "narrator_internal",
+      "certainty": "SOURCE_FACT",
+      "permission": "not_Chotu_knowledge"
+    },
+    {
+      "id": "E10-IP-006",
+      "relationship": "Dhika-Chotu",
+      "part": 3,
+      "evidence": "E10 P3 L45–53",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Movie invitation conditional on completion of room painting",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "no_scheduled_date"
+    },
+    {
+      "id": "E10-IP-007",
+      "relationship": "Dhika-Chotu",
+      "part": 3,
+      "evidence": "E10 P3 L55–56",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "SEEN",
+      "detail": "Repeated covert glances toward Dhika's exposed thighs while painting",
+      "intentionality": "deliberate_look",
+      "certainty": "SOURCE_FACT",
+      "permission": "no_touch_permission"
+    },
+    {
+      "id": "E10-IP-008",
+      "relationship": "Dhika-Chotu",
+      "part": 3,
+      "evidence": "E10 P3 L55",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "FELT",
+      "detail": "Narrator-described clothed arousal while painting",
+      "intentionality": "internal_response",
+      "certainty": "SOURCE_FACT",
+      "permission": "Dhika_does_not_know_from_source"
+    },
+    {
+      "id": "E10-IP-009",
+      "relationship": "Dhika-Chotu",
+      "part": 3,
+      "evidence": "E10 P3 L56",
+      "from": "Dhika",
+      "to": "Chotu",
+      "modality": "SEEN",
+      "detail": "Catches Chotu stealing a few glances",
+      "intentionality": "observed",
+      "certainty": "SOURCE_FACT",
+      "permission": "gaze_not_consent"
+    },
+    {
+      "id": "E10-IP-010",
+      "relationship": "Dhika-Chotu",
+      "part": 4,
+      "evidence": "E10 P4 L67–69",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "TOUCHED",
+      "detail": "Unintentional head-to-breasts collision after standing without knowing she bent behind him",
+      "intentionality": "accidental",
+      "certainty": "SOURCE_FACT",
+      "permission": "accident"
+    },
+    {
+      "id": "E10-IP-011",
+      "relationship": "Dhika-Chotu",
+      "part": 4,
+      "evidence": "E10 P4 L70–78",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Dhika repeatedly cries out from pain and scolds him",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "pain_and_objection"
+    },
+    {
+      "id": "E10-IP-012",
+      "relationship": "Dhika-Chotu",
+      "part": 4,
+      "evidence": "E10 P4 L77–80",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "IMAGINED",
+      "detail": "Privately recalls soft feel of collision and looks at her chest after realizing contact",
+      "intentionality": "internal_reaction",
+      "certainty": "SOURCE_FACT",
+      "permission": "not_transferable_to_Dhika"
+    },
+    {
+      "id": "E10-IP-013",
+      "relationship": "Dhika-Chotu",
+      "part": 5,
+      "evidence": "E10 P5 L87–91",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Dhika says she forgives the kitchen accident and asks him to resume talking",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "accident_repair_only"
+    },
+    {
+      "id": "E10-IP-014",
+      "relationship": "Dhika-Chotu",
+      "part": 5,
+      "evidence": "E10 P5 L94–99",
+      "from": "Dhika",
+      "to": "Chotu",
+      "modality": "HEARD",
+      "detail": "Chotu states he thought her kiss better and has no prior practice",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "not_offer"
+    },
+    {
+      "id": "E10-IP-015",
+      "relationship": "Dhika-Chotu",
+      "part": 6,
+      "evidence": "E10 P6 L101–108",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Dhika conditionally offers kissing practice, he asks if serious and she confirms",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "specific_kissing_offer"
+    },
+    {
+      "id": "E10-IP-016",
+      "relationship": "Dhika-Chotu",
+      "part": 6,
+      "evidence": "E10 P6 L109–113",
+      "from": "Dhika",
+      "to": "Chotu",
+      "modality": "TOUCHED",
+      "detail": "Dhika initiates first lip kiss, Chotu reciprocates after surprise",
+      "intentionality": "chosen_initiation_then_return",
+      "certainty": "SOURCE_FACT",
+      "permission": "first_kiss_only"
+    },
+    {
+      "id": "E10-IP-017",
+      "relationship": "Dhika-Chotu",
+      "part": 6,
+      "evidence": "E10 P6 L114–116",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "TOUCHED",
+      "detail": "Chotu initiates second lip kiss by holding chin; Dhika actively reciprocates",
+      "intentionality": "chosen_initiation_then_return",
+      "certainty": "SOURCE_FACT",
+      "permission": "second_kiss_only"
+    },
+    {
+      "id": "E10-IP-018",
+      "relationship": "Dhika-John",
+      "part": 7,
+      "evidence": "E10 P7 L120–123",
+      "from": "John",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Sharmi calling; Sunday movie group underway, Pappu at Aunty house",
+      "intentionality": "spoken",
+      "certainty": "SOURCE_FACT",
+      "permission": "social_outing"
+    },
+    {
+      "id": "E10-IP-019",
+      "relationship": "John-Sharmi",
+      "part": 7,
+      "evidence": "E10 P7 L124–125",
+      "from": "Sharmi",
+      "to": "John",
+      "modality": "TOUCHED",
+      "detail": "Surprise hug from behind at theatre approach",
+      "intentionality": "spontaneous",
+      "certainty": "SOURCE_FACT",
+      "permission": "single_hug_only"
+    },
+    {
+      "id": "E10-IP-020",
+      "relationship": "John-Sharmi",
+      "part": 7,
+      "evidence": "E10 P7 L125–129",
+      "from": "John",
+      "to": "Sharmi",
+      "modality": "SEEN",
+      "detail": "John looks closely at her outfit while Dhika notices",
+      "intentionality": "observed",
+      "certainty": "SOURCE_FACT",
+      "permission": "looking_not_affair"
+    },
+    {
+      "id": "E10-IP-021",
+      "relationship": "Dhika-John",
+      "part": 7,
+      "evidence": "E10 P7 L128–130",
+      "from": "Dhika",
+      "to": "John",
+      "modality": "TOUCHED",
+      "detail": "Playful light knock on his stomach for looking at Sharmi",
+      "intentionality": "deliberate_playful",
+      "certainty": "SOURCE_FACT",
+      "permission": "single_nudge"
+    },
+    {
+      "id": "E10-IP-022",
+      "relationship": "Dhika-Sharmi",
+      "part": 7,
+      "evidence": "E10 P7 L130–133",
+      "from": "Dhika",
+      "to": "Sharmi",
+      "modality": "HEARD",
+      "detail": "Sharmi says Raj likes contrast-colored sarees, and she and John grin at Dhika wearing one",
+      "intentionality": "spoken_attributed_to_Raj",
+      "certainty": "ATTRIBUTED_CLAIM",
+      "permission": "Raj_not_present_to_confirm"
+    }
+  ],
+  "partSnapshots": [
+    {
+      "part": 1,
+      "sourceRange": "L1–25",
+      "inheritedSnapshot": "E09 complete verified state",
+      "currentEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003"
+      ],
+      "boundary": "Dhika chooses to pull Chotu indoors to stop the shouting and then explicitly changes clothes. No broader body-display permission or invite to enter the bathroom is established."
+    },
+    {
+      "part": 2,
+      "sourceRange": "L26–43",
+      "inheritedSnapshot": "E09 state plus E10 P1–P1",
+      "currentEventIds": [
+        "E10-P02-E001",
+        "E10-P02-E002"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003",
+        "E10-P02-E001",
+        "E10-P02-E002"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003",
+        "E10-IP-004",
+        "E10-IP-005"
+      ],
+      "boundary": "Dhika explicitly asks if kiss hurt him; Chotu denies hurt and explains embarrassment. Prior E06 ignored stop requests still recorded independently; E09 affection cannot retroactively authorize prior behavior."
+    },
+    {
+      "part": 3,
+      "sourceRange": "L44–60",
+      "inheritedSnapshot": "E09 state plus E10 P1–P2",
+      "currentEventIds": [
+        "E10-P03-E001",
+        "E10-P03-E002"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003",
+        "E10-P02-E001",
+        "E10-P02-E002",
+        "E10-P03-E001",
+        "E10-P03-E002"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003",
+        "E10-IP-004",
+        "E10-IP-005",
+        "E10-IP-006",
+        "E10-IP-007",
+        "E10-IP-008",
+        "E10-IP-009"
+      ],
+      "boundary": "A visible short skirt and reciprocal affection do not authorize touches or exposure. Work promise does not guarantee movie date or romantic intent."
+    },
+    {
+      "part": 4,
+      "sourceRange": "L61–86",
+      "inheritedSnapshot": "E09 state plus E10 P1–P3",
+      "currentEventIds": [
+        "E10-P04-E001",
+        "E10-P04-E002"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003",
+        "E10-P02-E001",
+        "E10-P02-E002",
+        "E10-P03-E001",
+        "E10-P03-E002",
+        "E10-P04-E001",
+        "E10-P04-E002"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003",
+        "E10-IP-004",
+        "E10-IP-005",
+        "E10-IP-006",
+        "E10-IP-007",
+        "E10-IP-008",
+        "E10-IP-009",
+        "E10-IP-010",
+        "E10-IP-011",
+        "E10-IP-012"
+      ],
+      "boundary": "Pain, shock and angry scolding are explicit. 'It was an accident' is Chotu's statement and supported by described mechanics; do not reframe as intentional groping. Her anger does not automatically extend to future actions beyond current episode."
+    },
+    {
+      "part": 5,
+      "sourceRange": "L87–100",
+      "inheritedSnapshot": "E09 state plus E10 P1–P4",
+      "currentEventIds": [
+        "E10-P05-E001",
+        "E10-P05-E002"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003",
+        "E10-P02-E001",
+        "E10-P02-E002",
+        "E10-P03-E001",
+        "E10-P03-E002",
+        "E10-P04-E001",
+        "E10-P04-E002",
+        "E10-P05-E001",
+        "E10-P05-E002"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003",
+        "E10-IP-004",
+        "E10-IP-005",
+        "E10-IP-006",
+        "E10-IP-007",
+        "E10-IP-008",
+        "E10-IP-009",
+        "E10-IP-010",
+        "E10-IP-011",
+        "E10-IP-012",
+        "E10-IP-013",
+        "E10-IP-014"
+      ],
+      "boundary": "Forgiveness of accident is not retroactive permission for sexualized contact; voluntary future offer, if any, begins only at P6 L103."
+    },
+    {
+      "part": 6,
+      "sourceRange": "L101–119",
+      "inheritedSnapshot": "E09 state plus E10 P1–P5",
+      "currentEventIds": [
+        "E10-P06-E001",
+        "E10-P06-E002"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003",
+        "E10-P02-E001",
+        "E10-P02-E002",
+        "E10-P03-E001",
+        "E10-P03-E002",
+        "E10-P04-E001",
+        "E10-P04-E002",
+        "E10-P05-E001",
+        "E10-P05-E002",
+        "E10-P06-E001",
+        "E10-P06-E002"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003",
+        "E10-IP-004",
+        "E10-IP-005",
+        "E10-IP-006",
+        "E10-IP-007",
+        "E10-IP-008",
+        "E10-IP-009",
+        "E10-IP-010",
+        "E10-IP-011",
+        "E10-IP-012",
+        "E10-IP-013",
+        "E10-IP-014",
+        "E10-IP-015",
+        "E10-IP-016",
+        "E10-IP-017"
+      ],
+      "boundary": "Present-scene verbal offer and checking precede kisses; two specific mutual lip kisses are source-supported. 'I'll help master it' is playful future-oriented talk, not unlimited future consent. E06 Chotu stop-request history remains stored unchanged."
+    },
+    {
+      "part": 7,
+      "sourceRange": "L120–133",
+      "inheritedSnapshot": "E09 state plus E10 P1–P6",
+      "currentEventIds": [
+        "E10-P07-E001",
+        "E10-P07-E002",
+        "E10-P07-E003"
+      ],
+      "cumulativeEventIds": [
+        "E10-P01-E001",
+        "E10-P01-E002",
+        "E10-P01-E003",
+        "E10-P02-E001",
+        "E10-P02-E002",
+        "E10-P03-E001",
+        "E10-P03-E002",
+        "E10-P04-E001",
+        "E10-P04-E002",
+        "E10-P05-E001",
+        "E10-P05-E002",
+        "E10-P06-E001",
+        "E10-P06-E002",
+        "E10-P07-E001",
+        "E10-P07-E002",
+        "E10-P07-E003"
+      ],
+      "cumulativePerceptionIds": [
+        "E10-IP-001",
+        "E10-IP-002",
+        "E10-IP-003",
+        "E10-IP-004",
+        "E10-IP-005",
+        "E10-IP-006",
+        "E10-IP-007",
+        "E10-IP-008",
+        "E10-IP-009",
+        "E10-IP-010",
+        "E10-IP-011",
+        "E10-IP-012",
+        "E10-IP-013",
+        "E10-IP-014",
+        "E10-IP-015",
+        "E10-IP-016",
+        "E10-IP-017",
+        "E10-IP-018",
+        "E10-IP-019",
+        "E10-IP-020",
+        "E10-IP-021",
+        "E10-IP-022"
+      ],
+      "boundary": "Sharmi's spontaneous hug and joke do not prove an affair or grant broad partner permissions. Raj's tolerance for flirting is Sharmi's claim; John and Dhika's teasing is not a confession. No future movie scene yet."
+    }
+  ],
+  "negativeCanon": [
+    "E09 kiss recollection and Chotu's self-assessment do not erase E06 ignored stop requests and distress",
+    "Kitchen head-to-breasts impact is source-described accidental, not deliberate touch",
+    "Dhika catches thigh glances but source does not show she knows Chotu's physical arousal",
+    "E10 invitation to a Chotu movie is contingent on painting completion and is separate from Sunday's John/Sharmi/Raj film",
+    "Two E10 P6 lip kisses are distinct specific mutual acts, not general future authorization",
+    "E10 ends before Sunday group movie starts and before Raj responds to Dhika's contrasting saree"
+  ],
+  "hooks": [
+    {
+      "id": "E10-H001",
+      "status": "OPEN",
+      "description": "Paint Pappu room; promised Chotu-choice film after completion",
+      "source": "P3 L44–57"
+    },
+    {
+      "id": "E10-H002",
+      "status": "OPEN",
+      "description": "Sunday horror movie group arrives; film has not started",
+      "source": "P7 L120–133"
+    },
+    {
+      "id": "E10-H003",
+      "status": "OPEN",
+      "description": "Dhika's contrast saree matches Sharmi's claimed Raj preference; his reaction unknown",
+      "source": "P7 L131–133"
+    },
+    {
+      "id": "E10-H004",
+      "status": "OPEN",
+      "description": "Swiss academic mentor and physics competition predecessor hook",
+      "source": "E07–E09 carry-forward"
+    },
+    {
+      "id": "E10-H005",
+      "status": "CARRY",
+      "description": "E06 Chotu ignored stop requests remain distinct from later consensual kisses",
+      "source": "E06 → E09 P3–5 → E10 P2/P6"
+    }
+  ]
+}
