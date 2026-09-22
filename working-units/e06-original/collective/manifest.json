@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E06",
+  "uiRange": "L1-L223",
+  "partCount": 12,
+  "architecture": "lazy-section-episode-view",
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "episodeMarker": "EPISODE 6",
+    "rawCopiedIntoCollectiveView": false
+  },
+  "partView": {
+    "router": "../index.html",
+    "role": "40|40 source/local plus preserved Part modules"
+  },
+  "episodeView": {
+    "router": "index.html",
+    "sections": {
+      "story": "sections/story/index.html",
+      "characterEvolution": "sections/character/index.html",
+      "relationshipProgression": "sections/relationships/index.html",
+      "readerAnalysis": "sections/reader/index.html",
+      "relationshipHistoryLedger": "sections/ledger/index.html",
+      "storytellingAuthoringNotes": "sections/author/index.html"
+    }
+  },
+  "images": {
+    "execution": "deferred-by-user",
+    "generatedInThisPass": false,
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "sourceRowCount": 223,
+    "sourceRowMatchAgainstDrive": "verified",
+    "lineLabelAlignment": "verified",
+    "localMappingRepairs": [
+      "P01 L1/L4 fidelity",
+      "P06 L112-L128",
+      "P07 L129-L148",
+      "P10 L191-L208"
+    ]
+  }
+}
