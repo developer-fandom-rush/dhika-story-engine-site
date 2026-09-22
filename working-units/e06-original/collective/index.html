@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DHIKA Story Engine · Episode 06 · Episode View</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f5f2e9;color:#24302b;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}header{background:#1d332b;color:#fff;padding:20px 22px}h1{margin:0;font-size:23px}header p{margin:7px 0 0;color:#cbd8d2;font-size:13px;line-height:1.5}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.links a{border:1px solid #507166;background:#29473c;color:#fff;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:800;text-decoration:none}.links a.active{background:#fff;color:#1d332b}.modules{display:flex;gap:8px;flex-wrap:wrap;padding:11px 16px;background:#132a22;border-bottom:1px solid #36594c;position:sticky;top:0;z-index:20}.modules button{border:1px solid #527567;background:transparent;color:#dce9e3;border-radius:999px;padding:9px 12px;font-weight:900;font-size:11px;cursor:pointer}.modules button.active{background:#fff;color:#1d332b}.status{padding:9px 16px;background:#ebe6da;border-bottom:1px solid #d9d2c4;font-size:12px;color:#59645f}.status b{color:#315b4c}iframe{display:block;width:100%;min-height:900px;border:0;background:#f5f2e9}@media(max-width:760px){header{padding:16px 12px}.modules{position:relative;flex-wrap:nowrap;overflow-x:auto;padding:9px 10px}.modules button{white-space:nowrap}.status{padding:8px 12px}}</style></head><body>
+<header><h1>DHIKA Story Engine · Episode 06 · Episode View</h1><p>Drive RAW remains source authority. This UI stores derived/transformed episode content and lazy-loads one section at a time. Images are deferred for this pass.</p><div class="links"><a href="../index.html">← Episode 06 Part View</a><a class="active" href="index.html">Episode View</a><a href="../../e05-original/index.html">Episode 05</a></div></header>
+<nav class="modules" id="modules">
+<button class="active" data-k="story" data-f="sections/story/index.html">Story + Images</button>
+<button data-k="character" data-f="sections/character/index.html">Character Evolution</button>
+<button data-k="relationships" data-f="sections/relationships/index.html">Relationship Progression</button>
+<button data-k="reader" data-f="sections/reader/index.html">Reader Analysis</button>
+<button data-k="ledger" data-f="sections/ledger/index.html">Relationship History Ledger</button>
+<button data-k="author" data-f="sections/author/index.html">Storytelling & Authoring Notes</button>
+</nav>
+<div class="status">Architecture: <b>Part View = 40|40 source/local + preserved Part modules</b> · <b>Episode View = consolidated six-module intelligence</b> · section files load only when selected · E06 L1–223</div>
+<iframe id="view" title="Episode 06 episode-wise section"></iframe>
+<script>
+const bs=[...document.querySelectorAll('#modules button')],frame=document.getElementById('view'),valid=new Set(bs.map(b=>b.dataset.k)),loaded={};
+function resize(){try{const d=frame.contentDocument;if(d)frame.style.height=Math.max(900,d.documentElement.scrollHeight,d.body?.scrollHeight||0)+'px'}catch(e){}}
+function open(k,push=true){if(!valid.has(k))k='story';const b=bs.find(x=>x.dataset.k===k);bs.forEach(x=>x.classList.toggle('active',x===b));if(frame.dataset.k!==k){frame.dataset.k=k;frame.src=b.dataset.f+'?v=e06-episode-view-r2';}if(push)history.replaceState(null,'','#'+k);setTimeout(resize,100)}
+bs.forEach(b=>b.onclick=()=>open(b.dataset.k));
+frame.onload=()=>{resize();try{const d=frame.contentDocument;new ResizeObserver(resize).observe(d.body);d.addEventListener('click',()=>setTimeout(resize,80));}catch(e){}};
+window.addEventListener('resize',resize);open(location.hash.slice(1)||'story',false);
+</script></body></html>
