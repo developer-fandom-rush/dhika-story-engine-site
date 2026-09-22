@@ -1,0 +1,205 @@
+{
+  "episode": "E10",
+  "coverage": "P1–P7 L1–133",
+  "schemaVersion": "1.1",
+  "pairModuleBlocks": 8,
+  "authorReview": "pending",
+  "dossiers": [
+    {
+      "key": "dhika-bobby",
+      "name": "Dhika ↔ Bobby",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: The remote Friday Bobby episode closes with increased shared understanding of attraction and deliberate but controlled camera demonstration; no further Bobby action occurs after P1 in E09.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "Dhika → Bobby",
+          "text": "Deliberately tests his reaction with back-only turn/handheld bra, then anticipates what his towel preference implies and confirms his clothed response. Still ends session on her own timeline."
+        },
+        {
+          "direction": "Bobby → Dhika",
+          "text": "Privately prefers towel because of shape impression but does not say full reason L14; visible blushing and restlessness. His silent thought is reader knowledge, not full spoken disclosure."
+        }
+      ],
+      "changes": "No E10 qualifying direct pair event; inherited E09 state unchanged.",
+      "knowledge": "Bobby sees back, handheld bra/towel state, and knows his own unspoken preference. Dhika infers meaning from partial statement, sees his covered reaction. John and Bantu not shown learning this scene.",
+      "permission": "Dhika orchestrates limited camera viewpoints; seeing uncovered back does not authorize unclothed front view, recording or further access. She ends call for Friday errands. Do not turn Bobby's standing into a physical interaction.",
+      "final": "No new E10 contact. E09 remote route persists as prior history, not a current E10 encounter.",
+      "negative": "No verified naked front-breast view, no physical touch, no Monday lesson yet, no automatic Bantu knowledge."
+    },
+    {
+      "key": "dhika-chotu",
+      "name": "Dhika ↔ Chotu / Babu",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: Chotu explains why he avoided Dhika, receives verbal comfort/gifts, voluntarily hugs and receives a new lip kiss; by L127 he is surprised but lightly smiling. Previous consent history still needs honest carry-forward and no assumption of unqualified resolution.",
+      "actions": [
+        {
+          "evidence": "E10 P1 L1–25",
+          "text": "Their E09 repaired rapport carries forward into unsolicited Sunday visit and lunch invitation. A hurried towel-door visibility event does not equal a deliberate further display or permission. Chotu reports mother away; no one else home at the time."
+        },
+        {
+          "evidence": "E10 P2 L26–43",
+          "text": "E09 kiss follow-up closes Dhika's question about his smiling exit. Comparative experience with John is narrator/private knowledge only; it should not be presented as spoken disclosure to Chotu. Painting clothes from E09 are a carried gift."
+        },
+        {
+          "evidence": "E10 P3 L44–60",
+          "text": "Movie promise is conditional on finishing room; tonight's planned film remains the E09 Raj/Sharmi/John social outing. Chotu's glances are noticed, but Dhika's knowing his thoughts or arousal is not established."
+        },
+        {
+          "evidence": "E10 P4 L61–86",
+          "text": "The kitchen collision is **accidental** according to chronology and Chotu's lack of knowledge; the impact makes Dhika hurt and short-lived angry. No deliberate breast contact or kiss occurs here."
+        },
+        {
+          "evidence": "E10 P5 L87–100",
+          "text": "Accidental kitchen hurt de-escalates and kiss-history question reopens. The two remain mutually comfortable enough to banter; no newly offered kiss until next Part."
+        },
+        {
+          "evidence": "E10 P6 L101–119",
+          "text": "Two distinct source-described kisses: (1) Dhika-initiated with Chotu responding after surprise; (2) Chotu-initiated, Dhika reciprocates. This is a new E10 relational event after E09 kiss, not a repetition of an earlier scene."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Chotu",
+          "text": "Dhika L26–35 wonders if E09 kiss hurt Chotu, then feels concern about his loneliness L45–53 and offers post-paint movie. P5–P6 she actively chooses a specific kissing practice offer."
+        },
+        {
+          "direction": "Chotu → Dhika",
+          "text": "He reports embarrassment over his prior kiss, feels happy about future film, looks at her thighs when painting and feels sexually aroused; apologizes after an accidental painful collision and agrees to practice L103–115."
+        }
+      ],
+      "changes": "E09 baseline carried forward; E10 material new beats: P1 Their E09 repaired rapport carries forward into unsolicited Sunday visit and lunch invitation. A hurried towel-door visibility event does not equal a deliberate further display or permission. Chotu reports mother away; no one else home at the time. P2 E09 kiss follow-up closes Dhika's question about his smiling exit. Comparative experience with John is narrator/private knowledge only; it should not be presented as spoken disclosure to Chotu. Painting clothes from E09 are a carried gift. P3 Movie promise is conditional on finishing room; tonight's planned film remains the E09 Raj/Sharmi/John social outing. Chotu's glances are noticed, but Dhika's knowing his thoughts or arousal is not established. P4 The kitchen collision is **accidental** according to chronology and Chotu's lack of knowledge; the impact makes Dhika hurt and short-lived angry. No deliberate breast contact or kiss occurs here. P5 Accidental kitchen hurt de-escalates and kiss-history question reopens. The two remain mutually comfortable enough to banter; no newly offered kiss until next Part. P6 Two distinct source-described kisses: (1) Dhika-initiated with Chotu responding after surprise; (2) Chotu-initiated, Dhika reciprocates. This is a new E10 relational event after E09 kiss, not a repetition of an earlier scene.",
+      "knowledge": "They verbally discuss E09 kiss and current embarrassment, later accident and specific new offer. Chotu knows Dhika offered the practice. John is not shown receiving this information. Exact E06 history persists.",
+      "permission": "P1 surprise towel door opening is not broad consent to view. P4 collision is accidental and painful; Chotu apologizes and Dhika reassesses. P6 L103–115 a specific voluntary offer and two reciprocal kisses occur in the present, not permission for other acts or past E06 conduct.",
+      "final": "Two volunteers agree to a present-time kissing-practice exchange P6 and then end Chotu's visit L119. E06 boundary violations remain recorded historically; affectionate current behavior does not rewrite earlier stop requests. Movie reward after painting remains an unresolved promise.",
+      "negative": "No consent to any older E06 ignored stop actions; specific present-time kisses do not create blanket future permission. Painting-work movie is promised but not yet attended."
+    },
+    {
+      "key": "dhika-john",
+      "name": "Dhika ↔ John",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: Couple returns home laughing and teasing; verbal loyalty and Dhika kiss are explicit. The Sunday night horror trip is only planned.",
+      "actions": [
+        {
+          "evidence": "E10 P1 L1–25",
+          "text": "Their E09 repaired rapport carries forward into unsolicited Sunday visit and lunch invitation. A hurried towel-door visibility event does not equal a deliberate further display or permission. Chotu reports mother away; no one else home at the time."
+        },
+        {
+          "evidence": "E10 P7 L120–133",
+          "text": "John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → John",
+          "text": "Defends independent greeting style, upset by saree joke then chooses outfit, mock-jealous about Sharmi publicly flirting, appreciates 'come back to you' reassurance. No Chotu/Bobby disclosure."
+        },
+        {
+          "direction": "John → Dhika",
+          "text": "Teasing tone about her reluctance to hug strangers and later Raj friendship, delight at her change of clothes; he says he'll always return to her. No private evidence of secret knowledge."
+        }
+      ],
+      "changes": "E09 baseline carried forward; E10 material new beats: P1 Their E09 repaired rapport carries forward into unsolicited Sunday visit and lunch invitation. A hurried towel-door visibility event does not equal a deliberate further display or permission. Chotu reports mother away; no one else home at the time. P7 John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end.",
+      "knowledge": "John observes Dhika's Raj handshake, new white dress, tea laughter, final hug. He is not present for private Bobby video or Saturday morning Chotu talk/kiss and is not shown learning their details.",
+      "permission": "Social hugging/flirting jokes do not equal partnership-rule change. John teasing Dhika about dress doesn't determine what she must wear. Dhika's choice of Raj hug is her own, not a confession of sexual intent.",
+      "final": "Sunday night John and Dhika arrive together at the movie outing after John/Pappu's daytime grandparents visit. Sharmi greets John with surprise back-hug, Dhika nudges him on seeing his gaze, and their teasing contrasts saree attention; no admission or discussion of Dhika's daytime Chotu visit.",
+      "negative": "No E10 confession, discovery of Chotu daytime activity, marital separation or documented permission for those interactions."
+    },
+    {
+      "key": "dhika-raj",
+      "name": "Dhika ↔ Raj",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: Meaningful friendly social comfort increases; film plan for Sunday 10 p.m. is pending.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "Dhika → Raj",
+          "text": "Initially feels peer-pressure and awkwardness, later impressed by his hosting/cooking, feels increasingly comfortable; her voluntary goodbye hug is a source action, not proof of romance."
+        },
+        {
+          "direction": "Raj → Dhika",
+          "text": "Source supports noticing dress, complimenting her, hospitality and humour. E07 gaze is prior public observer fact. No independently narrated confession of romantic love or affair intent."
+        }
+      ],
+      "changes": "No E10 qualifying direct pair event; inherited E09 state unchanged.",
+      "knowledge": "Both know group dinner/movie plan; John hears Dhika kitchen giggles but not entire conversation and sees later sitting. Raj does not know Dhika's private Chotu/Bobby history.",
+      "permission": "Friday handshake is explicitly Dhika's choice amid pressure; Saturday hug newly initiated by Dhika and only a light farewell hug. No permission for intimate touch extrapolated.",
+      "final": "E09 friendly state carries forward. E10 establishes group outing and Sharmi attributes contrasting-saree preference to Raj; Raj not yet seen reacting or present in E10 L1–133.",
+      "negative": "Raj's actual E10 gaze, approval, embrace or film encounter not yet narrated."
+    },
+    {
+      "key": "john-sharmi",
+      "name": "John ↔ Sharmi",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: Friendly/flirtatious social familiarity continues; group Sunday film planned.",
+      "actions": [
+        {
+          "evidence": "E10 P7 L120–133",
+          "text": "John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "John → Sharmi",
+          "text": "The narrator shows John looking at Sharmi's outfit at L128; no independently verified commitment beyond playful banter."
+        },
+        {
+          "direction": "Sharmi → John",
+          "text": "She deliberately surprise-hugs John at L124 and jokes she is used to flirting with others; her account of Raj's tolerance is a claim."
+        }
+      ],
+      "changes": "E09 baseline carried forward; E10 material new beats: P7 John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end.",
+      "knowledge": "John and Sharmi directly witness public cinema greeting and playful statements; Dhika also witnesses John's gaze and joins the joke. Raj not yet directly present by E10 L133.",
+      "permission": "Mutual social embraces are observed, not marriage-boundary renegotiation. Winks, drinks and jokes are not evidence of future physical access.",
+      "final": "At cinema entrance Sharmi back-hugs John in public, presents her outfit and jokes about his looking; John responds by asking about Raj's contrasting-saree preference. Social/flirtatious banter is documented, affair is not.",
+      "negative": "No E10 kiss, affair or private meeting; public hug and playful gaze banter only."
+    },
+    {
+      "key": "sharmi-raj",
+      "name": "Sharmi ↔ Raj",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: Married hosts complete dinner, agree to next-night horror movie outing.",
+      "actions": [
+        {
+          "evidence": "E10 P7 L120–133",
+          "text": "John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Sharmi → Raj",
+          "text": "Public joking that he overspends/show-offs and movie-room plan; source gives no marriage dissatisfaction confession."
+        },
+        {
+          "direction": "Raj → Sharmi",
+          "text": "Defends enthusiasm for home upgrades and movie hobby, jokes about men's appreciation; no private nonmonogamy statement."
+        }
+      ],
+      "changes": "E09 baseline carried forward; E10 material new beats: P7 John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end.",
+      "knowledge": "Both know group invitation, family visit and movie plan. Sharmi observes Dhika's light Raj hug; Raj witnesses John goodbye hugs in shared departure scene.",
+      "permission": "Marital status stays established; public flirt exchanges with guests do not authorize affair narratives.",
+      "final": "Married pair planned for horror outing, but only Sharmi appears by the E10 L133 cutoff; her statement about Raj's tolerance and preferences is attributed, not a new directly observed Raj event.",
+      "negative": "Raj's actual E10 response to flirtation/dress is not directly narrated by L133."
+    },
+    {
+      "key": "dhika-sharmi",
+      "name": "Dhika ↔ Sharmi",
+      "setup": "E09 final baseline, see full E09 dossier for detailed prior action list: Friendship and playful teasing intact; Sunday film planned for group.",
+      "actions": [
+        {
+          "evidence": "E10 P7 L120–133",
+          "text": "John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Sharmi",
+          "text": "Affectionate 'darling' greeting; sometimes annoyed by teasing, participates in joke about Sharmi trying to steal John."
+        },
+        {
+          "direction": "Sharmi → Dhika",
+          "text": "Playfully challenges socially reserved friend and enjoys surprise of her modern dress and Raj hug; no secret hostile plan confirmed."
+        }
+      ],
+      "changes": "E09 baseline carried forward; E10 material new beats: P7 John↔Sharmi surprising hug + overt friendly teasing is observed by Dhika. Dhika↔John nudging and banter occurs publicly; group movie is not yet watched. Dhika↔Raj only gets Sharmi's claimed taste, not a direct interaction in E10 end.",
+      "knowledge": "Sharmi knows Friday handshake and Saturday chosen hug and sees new dress; not shown learning Dhika's private Bobby/Chotu interactions.",
+      "permission": "Friendship jokes do not mean Sharmi speaks for Dhika regarding embraces or spouse access.",
+      "final": "Friendly Sunday movie plan activates; Sharmi's playful hug and banter with John draws Dhika's joking nudge and comment. They share a laugh as Dhika notices her own contrasting saree.",
+      "negative": "No confrontation or romantic/sexual act shown between these two."
+    }
+  ]
+}
