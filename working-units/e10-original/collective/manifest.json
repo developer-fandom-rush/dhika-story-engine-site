@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E10",
+  "arc": "ARC 01 — The First Awakening",
+  "uiRange": "L1–L133",
+  "partCount": 7,
+  "partRanges": [
+    [
+      1,
+      25
+    ],
+    [
+      26,
+      43
+    ],
+    [
+      44,
+      60
+    ],
+    [
+      61,
+      86
+    ],
+    [
+      87,
+      100
+    ],
+    [
+      101,
+      119
+    ],
+    [
+      120,
+      133
+    ]
+  ],
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "marker": "EPISODE 10",
+    "rawStandaloneFile": false
+  },
+  "partView": {
+    "router": "index.html",
+    "renderer": "part.html",
+    "sourceLocalData": "data/partN.json",
+    "partNotes": "data/part-notes.json",
+    "partLedger": "data/ledger.json"
+  },
+  "episodeView": {
+    "router": "collective/index.html",
+    "architecture": "six lazy section modules",
+    "sections": {
+      "story": "collective/sections/story/index.html",
+      "character": "collective/sections/character/index.html",
+      "relationships": "collective/sections/relationships/index.html",
+      "reader": "collective/sections/reader/index.html",
+      "ledger": "collective/sections/ledger/index.html",
+      "author": "collective/sections/author/index.html"
+    }
+  },
+  "backend": {
+    "encounterHistory": "E10_ENCOUNTER_HISTORY.md",
+    "machineEventStore": "e10.encounter-history.json",
+    "authorAnalysis": "E10_AUTHORING_ANALYSIS.md",
+    "characterDossiers": "collective/data/character-dossiers.json",
+    "relationshipDossiers": "collective/data/relationship-dossiers.json",
+    "readerAnalysis": "collective/data/reader-analysis.json",
+    "authorNotes": "collective/data/author-notes.json"
+  },
+  "images": {
+    "generatedInThisPass": false,
+    "execution": "deferred by author",
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "sourceRows": 133,
+    "originalRowMatchAgainstDrive": "verified exact per line after trim",
+    "sourceLineLabels": "verified 1..133",
+    "localLines": "133/133 nonempty; separate semantic audit awaiting author review",
+    "hardStop": "E10 L133",
+    "visualPagesRender": "not independently confirmed",
+    "authorApproval": "pending"
+  }
+}
