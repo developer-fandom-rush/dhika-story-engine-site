@@ -6,6 +6,8 @@ This is the canonical entrypoint for future DHIKA work.
 
 Before editing/reviewing/planning/writing:
 
+**For any image generation, Story + Images mapping, Drive image work, image replacement, or image publishing, also fresh-read `docs/IMAGE_ASSET_WORKFLOW.md` and `docs/IMAGE_RUNNER_PROMPT.md` before execution.**
+
 1. `working-units/e01-part1-lines17-30/EXECUTION_CONTRACT.md`
 2. `review/DHIKA_WRITER_CONTINUITY_ENGINE.md`
 3. `review/DHIKA_AUTHORING_PATTERN_LEDGER.md`
