@@ -1,0 +1,57 @@
+# E10 — Combined Storytelling & Authoring Analysis
+
+**Source:** Drive E10 L1–133; **Parts:** 7; **history:** E06–E09 inherited; **images:** deferred; **author review:** pending.
+
+## 1. Episode Structure / Narrative Architecture
+
+Seven source-scene Parts, 133 lines: Sunday morning family departs and painting helper arrives (P1 L1–25); older kiss insecurity and outfit prep (P2 L26–43); painting and movie invitation (P3 L44–60); cramped kitchen collision and uncomfortable meal (P4 L61–86); apology/reassessment and kissing skill talk (P5 L87–100); specific kissing-practice offer and two kisses (P6 L101–119); 9 PM cinema foyer social/clothing hook (P7 L120–133). The actual horror screening belongs to a later scene.
+
+Evidence: P1–P7
+
+## 2. Escalation & Pacing Design
+
+A quiet domestic solo-Sunday work plan is interrupted by repeated doorbells and wet-towel annoyance. After Chotu's voluntary painting arrival, an intimate but dialogue-led reflection on E09 kiss pivots to shared labour and economic loneliness; the tiny kitchen and poor sightline stage an unintentional painful collision rather than contrived intent. Anger/quiet meal slows the pace before mood repair and an explicit fresh offer. A hard cut at L120 re-anchors 9 PM and moves to public couple banter.
+
+Evidence: P1–P7
+
+## 3. POV, Knowledge & Dramatic-Irony Handling
+
+Chotu's subjective feeling about previous kiss at L32–34 corrects Dhika's earlier fear but does not replace narrator facts about E06. Both see the practical painting setting; Chotu's distractions are privately narrated and Dhika notices some glances. Collision mechanics L67–69 prove unintentional standing-up contact; Chotu understands after the fact. Dhika is shown reassessing blame L87; John does not share daytime knowledge. Sharmi's Raj-clothing preferences are attributed her speech, not Raj-confirmed E10 fact.
+
+Evidence: P2–P5, P7
+
+## 4. Character Consistency Rules
+
+Dhika remains a mother and active household worker, jokes with a trusted helper, but shows pain/anger at unexpected contact and subsequently recognizes fault. Chotu's renewed warmth can coexist with E06 historical boundary harm; P6 active mutual choice must be recorded separately and narrowly. John is present for public night outing but absent during daytime private interactions. Sharmi continues teasing/playful public hugs; Raj is not on-screen through L133. Pappu remains childcare logistics only.
+
+Evidence: E06–E09 carry-forward; E10 P1–P7
+
+## 5. Relationship Route Differentiation
+
+Dhika↔Chotu: Sunday household painting, public promise of future film, painful accidental kitchen contact, lunchtime repair and two mutual lip kisses, all separate event types. Dhika↔John: ordinary family separation and reunification for group film. John↔Sharmi: public cinema back-hug and teasing. Sharmi↔Raj: wife reports his preferences but he is not shown in current E10 scene. Dhika↔Raj: future group interaction possible, no new confirmed E10 direct Raj gaze by L133.
+
+Evidence: P1–P7
+
+## 6. Ambiguity That Must Stay Preserved
+
+Source describes the kitchen strike mechanically as accidental, even while Chotu later privately thinks of softness; do not reclassify accident as deliberate. Future movie with Chotu depends on room painting and is unscheduled; horror film screening not started at L133. Sharmi's stated Raj saree preference and flirt tolerance are attributed assertions, not independent observations. John is not shown knowing Chotu events. E06 consent issues remain factual despite current affectionate interaction.
+
+Evidence: P3–P7; E06 predecessor
+
+## 7. Setup → Payoff / Scene Function Notes
+
+E09 planned Sunday horror trip pays off only to arrival at cinema P7. E09 Chotu regained comfort becomes volunteer painting helper P1, and his prior kiss embarrassment directly voiced P2, prompting Dhika's later invitation P6. E09 painting-garment gift is worn P2–P3. Room's incomplete paint layers create a conditional future Chotu movie plan P3. Under-sink leak plus narrow kitchen and bad visibility explain P4 collision; ensuing lunch silence sets up P5 mood repair. John's visual interest in Sharmi outfit supports final saree joke.
+
+Evidence: P1–P7, E09 carry-forward
+
+## 8. Continuity / Next-Episode Author Guardrails
+
+End E10 only at L133 before film and before direct E10 Raj reaction. Day outfit: Dhika loose T-shirt and short skirt for painting; Chotu E09 paint clothes. Sunday 9 PM attire Dhika contrasting saree; Sharmi thigh-high short trousers, semi-sheer stomach-front shirt with covered chest and red lipstick. John/Pappu spend day at grandparents; Pappu asleep at Aunty by 9 PM. E06 Chotu ignored stop requests and distress must remain historical, not erased by E09 and E10 affection. Images deferred pending approvals.
+
+Evidence: P1–P7; E06/E09 predecessor
+
+## 9. Open Craft Obligations
+
+Keep all 133 RAW lines exact and their local-language counterparts 1:1. Validate that P7 is L120–L133 with no E11 imported. Each Part retains 40/40/20 dotted-row review, seven canonical tabs and cumulative directional relationship tracker; Episode View has six independent lazy modules with qualifying pointer-only ledger and child-free adult pair analysis. Live GitHub Pages check and all-lines semantic translation audit still require independent verification.
+
+Evidence: QA and release gate
