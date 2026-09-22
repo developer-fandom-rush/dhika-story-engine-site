@@ -2822,6 +2822,154 @@
       "status": "OPEN",
       "statusChanges": [],
       "note": "Chotu interprets comfort and chooses restraint while Dhika privately carries eagerness/uncertainty; neither knows the other's full state."
+    },
+    {
+      "hookId": "HOOK-E03-P04-KISS-TOPIC",
+      "origin": "E03-P04-E014",
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P05-E016",
+          "status": "ADVANCED",
+          "evidence": "P5 L73-L85 returns to the kiss question and makes the topic mutually focused."
+        },
+        {
+          "at": "E03-P05-E017",
+          "status": "RESOLVED",
+          "evidence": "P5 L86-L94 crosses from kiss-topic discussion into the first quick kiss; later meaning is tracked separately."
+        }
+      ],
+      "note": "Topic/payoff is resolved; relationship meaning after the event remains a separate open hook."
+    },
+    {
+      "hookId": "HOOK-E03-P05-KISS-MEANING",
+      "origin": "E03-P05-E017",
+      "status": "OPEN",
+      "statusChanges": [
+        {
+          "at": "E03-P06-E018",
+          "status": "ADVANCED",
+          "evidence": "P6 L95-L96 adds liking, shyness, cheating uncertainty and non-disclosure."
+        },
+        {
+          "at": "E03-P10-E028",
+          "status": "ADVANCED",
+          "evidence": "P10 L189-L196 reopens contact through a practical help request while prior-event shyness remains."
+        },
+        {
+          "at": "E03-P11-E029",
+          "status": "ADVANCED",
+          "evidence": "P11 L197-L206 shows both carry the event, but no apology or relationship-definition conversation is completed."
+        },
+        {
+          "at": "E03-P13-E034",
+          "status": "OPEN",
+          "evidence": "Episode ends at L231 without verbal resolution of what the P5 kiss means."
+        }
+      ],
+      "note": "Do not collapse positive liking, startle, guilt, fear and later normal interaction into a settled relationship label."
+    },
+    {
+      "hookId": "HOOK-E03-P06-JOHN-NONDISCLOSURE-CHOTU-KISS",
+      "origin": "E03-P06-E018",
+      "status": "OPEN",
+      "statusChanges": [
+        {
+          "at": "E03-P08-E023",
+          "status": "ADVANCED",
+          "evidence": "John notices Dhika's subtle reaction to the Chotu mention, but source does not establish knowledge of the kiss."
+        },
+        {
+          "at": "E03-P13-E034",
+          "status": "OPEN",
+          "evidence": "No E03 source line shows disclosure of the Chotu kiss to John by episode end."
+        }
+      ],
+      "note": "Selective secrecy is knowledge state, not consent or approval."
+    },
+    {
+      "hookId": "HOOK-E03-P08-PAINTING-CHOTU-HELP",
+      "origin": "E03-P08-E023",
+      "status": "RESOLVED",
+      "statusChanges": [
+        {
+          "at": "E03-P10-E028",
+          "status": "ADVANCED",
+          "evidence": "Dhika asks Maami whether Chotu is available to help with painting."
+        },
+        {
+          "at": "E03-P11-E030",
+          "status": "RESOLVED",
+          "evidence": "P11 L207-L209: Chotu agrees and they work together scraping the wall."
+        }
+      ],
+      "note": "Practical help route pays off without changing the stated task into a hidden motive."
+    },
+    {
+      "hookId": "HOOK-E03-P09-TWINS-CONFIDENTIALITY",
+      "origin": "E03-P09-E025",
+      "status": "OPEN",
+      "statusChanges": [
+        {
+          "at": "E03-P09-E026",
+          "status": "ADVANCED",
+          "evidence": "Dhika trusts the twins' promise and later does not tell John about the second incident/comments."
+        },
+        {
+          "at": "E03-P13-E034",
+          "status": "OPEN",
+          "evidence": "No later E03 event contradicts or publicly resolves the confidentiality state."
+        }
+      ],
+      "note": "Promise remains part of ongoing knowledge/secrecy state."
+    },
+    {
+      "hookId": "HOOK-E03-P11-UNSPOKEN-APOLOGY",
+      "origin": "E03-P11-E029",
+      "status": "OPEN",
+      "statusChanges": [
+        {
+          "at": "E03-P11-E029",
+          "status": "OPEN",
+          "evidence": "Chotu had planned an apology, but the live conversation does not complete one."
+        },
+        {
+          "at": "E03-P13-E034",
+          "status": "OPEN",
+          "evidence": "No later E03 line contains the missing apology/resolution conversation."
+        }
+      ],
+      "note": "Do not rewrite surface normality as a completed apology."
+    },
+    {
+      "hookId": "HOOK-E03-P12-DELIBERATE-GAZE-ROUTE",
+      "origin": "E03-P12-E031",
+      "status": "ADVANCED",
+      "statusChanges": [
+        {
+          "at": "E03-P12-E032",
+          "status": "ADVANCED",
+          "evidence": "Repeated glances are caught, making the gaze dynamic mutually observable."
+        },
+        {
+          "at": "E03-P13-E033",
+          "status": "ADVANCED",
+          "evidence": "Dhika explicitly wants Chotu to look while reusing the high-shelf mechanic."
+        },
+        {
+          "at": "E03-P13-E034",
+          "status": "ADVANCED",
+          "evidence": "Sustained scanning and an observable clothed reaction deepen mutual awareness; no next action is established."
+        }
+      ],
+      "note": "Progression is deliberate staging/duration/knowledge, not a reset to first visual access."
+    },
+    {
+      "hookId": "HOOK-E03-P13-POST-CLIFFHANGER",
+      "origin": "E03-P13-E034",
+      "status": "OPEN",
+      "statusChanges": [],
+      "note": "Episode hard-stops at L231. What either character does or says next belongs to later RAW and must not be invented."
     }
   ],
   "partSnapshots": {
@@ -16557,7 +16705,8 @@
     "relationshipIndexThrough": "P13",
     "holdRelationshipsExplicit": true,
     "participantBackfillThrough": "P13",
-    "verifiedOn": "2026-09-21"
+    "verifiedOn": "2026-09-22",
+    "hookIndexThrough": "P13"
   },
   "episodeWeavingAnalysis": {
     "classification": "DERIVED_INTERPRETATION",
