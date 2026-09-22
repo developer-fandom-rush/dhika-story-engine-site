@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>E06 · Story + Images</title><link rel="stylesheet" href="../../section.css"></head><body><main>
+<div class="banner"><div class="k">EPISODE 06 · SECTION 1</div><h1>Story + Images</h1><p>Complete Episode reading layer from the approved/current local-language Part text. Image generation is intentionally deferred in this pass; no placeholder is treated as an image.</p></div>
+<div class="notice"><b>IMAGE EXECUTION DEFERRED BY DEV.</b> This view loads only story text. Existing/approved images are not changed, generated, deleted, or relabelled here.</div>
+<div class="links"><a href="../../../index.html#part1" target="_parent">← Part View</a><span class="status">E06 · L1–L223 · 12 Parts</span></div>
+<div id="story"></div>
+<script>
+const ranges=[[1,'L1–12'],[2,'L13–39'],[3,'L40–67'],[4,'L68–82'],[5,'L83–108'],[6,'L109–128'],[7,'L129–148'],[8,'L149–176'],[9,'L177–190'],[10,'L191–208'],[11,'L209–215'],[12,'L216–223']];
+const root=document.getElementById('story');
+async function loadPart(n,range){
+ const box=document.createElement('section');box.className='story-part';
+ box.innerHTML='<div class="story-head">Part '+n+' · '+range+' · loading…</div>';
+ root.appendChild(box);
+ try{
+   const html=await fetch('../../../part'+n+'.html?v=e06-episode-view-r2',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text()});
+   const doc=new DOMParser().parseFromString(html,'text/html');
+   const rows=[...doc.querySelectorAll('.pair-row')];
+   box.innerHTML='<div class="story-head">Part '+n+' · '+range+'</div>';
+   for(const row of rows){
+      const line=row.querySelector('.pair-local .ln')?.textContent?.trim()||'';
+      const spans=row.querySelectorAll('.pair-local span');
+      const text=spans.length>1?spans[1].textContent.trim():row.querySelector('.pair-local')?.textContent.trim()||'';
+      const d=document.createElement('div');d.className='story-line';
+      d.innerHTML='<div class="ln"></div><div></div>';
+      d.children[0].textContent=line;d.children[1].textContent=text;box.appendChild(d);
+   }
+   const foot=document.createElement('div');foot.className='story-line';
+   foot.innerHTML='<div class="ln">IMG</div><div><b>Images deferred.</b> Future image pass must follow exact line mapping and approved-asset locks.</div>';
+   box.appendChild(foot);
+ }catch(e){box.innerHTML+='<div class="error">Part '+n+' could not be loaded: '+e.message+'</div>'}
+}
+(async()=>{for(const [n,r] of ranges)await loadPart(n,r)})();
+</script></main></body></html>
