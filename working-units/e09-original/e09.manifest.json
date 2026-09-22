@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E09",
+  "arc": "ARC 01 — The First Awakening",
+  "uiRange": "L1-L228",
+  "partCount": 11,
+  "partRanges": [
+    [
+      1,
+      26
+    ],
+    [
+      27,
+      53
+    ],
+    [
+      54,
+      75
+    ],
+    [
+      76,
+      104
+    ],
+    [
+      105,
+      127
+    ],
+    [
+      128,
+      143
+    ],
+    [
+      144,
+      168
+    ],
+    [
+      169,
+      186
+    ],
+    [
+      187,
+      200
+    ],
+    [
+      201,
+      216
+    ],
+    [
+      217,
+      228
+    ]
+  ],
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "episodeMarker": "EPISODE 9",
+    "rawCopiedAsStandaloneFile": false
+  },
+  "partView": {
+    "router": "index.html",
+    "renderer": "part.html",
+    "sourceLocalData": "data/partN.json",
+    "partNotes": "data/part-notes.json",
+    "partLedger": "data/ledger.json"
+  },
+  "episodeView": {
+    "router": "collective/index.html",
+    "architecture": "lazy-section-episode-view",
+    "sections": {
+      "story": "collective/sections/story/index.html",
+      "character": "collective/sections/character/index.html",
+      "relationships": "collective/sections/relationships/index.html",
+      "reader": "collective/sections/reader/index.html",
+      "ledger": "collective/sections/ledger/index.html",
+      "author": "collective/sections/author/index.html"
+    }
+  },
+  "backend": {
+    "encounterHistory": "E09_ENCOUNTER_HISTORY.md",
+    "machineEventStore": "e09.encounter-history.json",
+    "authorAnalysis": "E09_AUTHORING_ANALYSIS.md",
+    "characterDossiers": "collective/data/character-dossiers.json",
+    "relationshipDossiers": "collective/data/relationship-dossiers.json",
+    "readerAnalysis": "collective/data/reader-analysis.json",
+    "authorNotes": "collective/data/author-notes.json"
+  },
+  "images": {
+    "execution": "deferred-by-user",
+    "generatedInThisPass": false,
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "sourceRowCount": 228,
+    "originalRowMatchAgainstDrive": "verified exact per source line after trim",
+    "lineLabelAlignment": "verified",
+    "localLineCoverage": "228/228 nonempty; separate semantic fidelity audit awaiting author review",
+    "hardStop": "E09 L228",
+    "visualPagesRender": "not independently confirmed",
+    "authorApproval": "pending"
+  }
+}
