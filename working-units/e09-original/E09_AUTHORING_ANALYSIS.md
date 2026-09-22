@@ -1,0 +1,57 @@
+# E09 — Combined Storytelling & Authoring Analysis
+
+**Source:** Drive E09 L1–228; **structure:** 11 Parts; **prior state:** E06–E08; **images:** intentionally deferred; **author review:** pending.
+
+## 1. Episode Structure / Narrative Architecture
+
+E08 final Bobby-only online cliffhanger gets source-resolved first (P1 L1–26). Friday John outing and unplanned mall meeting invite Saturday dinner (P2 L27–53). Saturday home Chotu reconciliation and past-kiss discussion (P3–P5 L54–127); late afternoon preparation and evening visit to Raj–Sharmi house (P6–P10 L128–216); married couple's car teasing closes E09 P11 L217–228.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 2. Escalation & Pacing Design
+
+Cold open repeats E08 last two lines, then resolves withheld chair/towel/loose bra action in P1. Friday mall invitation acts as logistical setup. Saturday early domestic calm → Chotu's crying admission → reassurance and gift → kiss pivot, followed by later-night dress preparation and social party sequence. P10 Sunday horror invite plants a next-episode social hook; P11 closes with marriage banter, not a new intimacy claim.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 3. POV, Knowledge & Dramatic-Irony Handling
+
+Bobby's preference for towel is partly internal thought and not fully spoken; Dhika's deduction is her interpretation (P1). Chotu explains his guilt in source dialogue P3–P4; preserve both his statements and E06 objective stop history. Raj's reaction to Dhika's dress is shown at P7; do not attribute every private thought to John or Sharmi. Sharmi/John and Raj/Dhika social observations can be visible without implying secret physical contact.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 4. Character Consistency Rules
+
+Dhika remains socially self-conscious about unfamiliar dress and stranger hugs while capable of independent choices in individual prior routes. Bobby's shy behavior and increasing confidence remain distinct from Bantu. Chotu's distress and possible reconciliation are route-specific; E06 boundaries continue to matter. Raj's politeness and household-hosting actions must be separated from inferred intent. John keeps warm, teasing marital interaction; Sharmi's playful flirt does not reset friendship or marriage.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 5. Relationship Route Differentiation
+
+P1 Dhika↔Bobby Skype only; P3–P5 Dhika↔Chotu in person at home while John is out, P2/P6–P11 two married couples social outing. John↔Dhika affection active at start/end; Sharmi↔John teasing and Raj↔Dhika warm conversation are distinct public social tracks. Childcare and sleeping Pappu support logistics but no child appears in adult pair analysis.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 6. Ambiguity That Must Stay Preserved
+
+Bobby's unspoken thought remains unspoken; no automatic transfer of this fact to Dhika. An affectionate physical action does not erase any prior nonconsensual action history. Attraction inferred from gazes or an impressed pause is not a confirmed romantic commitment. Sunday film was agreed, but actual attendance belongs to a later episode. Preserve actor-specific knowledge and exact moment of hugs, kiss and outfit.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 7. Setup → Payoff / Scene Function Notes
+
+E08 L209–210 payoff P1 L1–6. Sharmi–Raj reintroduction P2 seeds Saturday P6–P10 visit. Chotu distance E07 gets explanation through P3–P4 talk; earlier gift/painting clothes continue Chotu familiarity in P4. John critiques Dhika's usual outside presentation P6, she selects new attire; Raj surprised P7. Host dinner and backyard tour establish social comfort, then Sunday horror invitation P10. P11 interprets Raj hug through John's teasing.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 8. Continuity / Next-Episode Author Guardrails
+
+E09 ends after couple returns and jokes in car at L228; Sunday 10 PM plan is future, not completed. Preserve new white sleeveless fitted shift dress, curls, dark-rose lipstick for party, and earlier saree outfit change P6. Keep Pappu asleep in downstairs guest room during party and John/Dhika parent logistics consistent. E06 Chotu stop requests remain available to any future context despite E09 reconciliation. Images remain deferred unless approved prompts and character references supplied.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
+
+## 9. Open Craft Obligations
+
+Audit line-by-line local translations against Drive after publication, including repeated E08 E09 boundary L1–2; preserve 40|40 source equality. Check E01 seven-tab Part contract and six lazy-loaded Episode sections. Visual QA must verify dotted per-line borders, mobile/desktop and 20% map below reading. Relationship History Ledger requires qualifying Part pointers only; backend should retain directionality, certainty and explicit permission separately.
+
+Evidence: E09 P1–P11 · L1–228; E06–E08 carry-forward
