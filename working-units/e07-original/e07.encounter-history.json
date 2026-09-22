@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1",
+  "episode": "E07",
+  "authority": {
+    "provider": "Google Drive",
+    "docId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "marker": "EPISODE 7"
+  },
+  "coverage": {
+    "parts": 12,
+    "lines": 234
+  },
+  "authorReview": "pending",
+  "entryState": "E06_ENCOUNTER_HISTORY.md",
+  "events": [
+    {
+      "id": "E07-P01-E001",
+      "part": 1,
+      "sourceRange": "L1–28",
+      "scene": "Saturday · family hall",
+      "participants": "Dhika, John, Pappu",
+      "event": "E06 ke Chotu incident ka guilt Dhika ko John se nazrein milane nahi deta. John unusual sadness notice karta, pressure nahi daalta. Dhika shaadi ke baad ki fidelity poochti, John past relationships par purani openness aur present par mazaak se jawab deta. Hug aur Pappu ke family interruption par scene end.",
+      "characterDelta": "Dhika guilt ko direct confession se nahi, hypotheticals se probe karti hai. John patient aur teasing rehta hai.",
+      "relationshipDelta": "Marriage warmth intact; John ko E06 Chotu incident disclose nahi hua.",
+      "readerInference": "John ka 'knowing something' smile exact suspicion/knowledge prove nahi karta.",
+      "boundary": "Affair ke baare mein jokes permission/disclosure nahi hain.",
+      "authorNote": "Guilt → indirect question → humour → family reassurance.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P02-E001",
+      "part": 2,
+      "sourceRange": "L29–48",
+      "scene": "Sunday · restaurant",
+      "participants": "Dhika, John, Sharmi, Raj",
+      "event": "Dhika ko shak hai Chotu phir milega bhi ya nahi. John ke saath dinner date par Sharmi aur uske husband Raj milte. Sharmi John ke saamne baithti. John Sharmi ko dekhta, Raj Dhika ko, Dhika sirf pehla gaze dekhti hai.",
+      "characterDelta": "Dhika socially normal aur playful dikh rahi hai; John ko Sharmi ke naughty nature ka prior knowledge hai.",
+      "relationshipDelta": "Sharmi-Raj husband-wife, Dhika-John couple; additional gazes but no established affair.",
+      "readerInference": "John→Sharmi aur Raj→Dhika gaze ka knowledge asymmetrical hai.",
+      "boundary": "Accidental angle se cleavage visibility ko intentional invitation na banao.",
+      "authorNote": "Seating geography aur asymmetric observer state carry karna.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P03-E001",
+      "part": 3,
+      "sourceRange": "L49–68",
+      "scene": "Sunday · shared dinner and car",
+      "participants": "Dhika, John, Sharmi, Raj",
+      "event": "Sharmi double-meaning joke mein John ko 'bite' kehti, Dhika spoon se playfully hit karti. Raj quiet. Car mein John Sharmi ko hot kehta, Dhika teasing complain karti; John reveal karta Raj bhi Dhika ko dekh raha tha.",
+      "characterDelta": "Dhika playful/mock-jealous but genuinely surprised about Raj's gaze.",
+      "relationshipDelta": "Married couple's easy teasing remains; stranger gaze is not reciprocal romantic attachment.",
+      "readerInference": "Dhika ka missed Raj gaze car dialogue mein pay off hota hai.",
+      "boundary": "Sharmi joke ≠ actual intimacy, touch ya permission.",
+      "authorNote": "Reader pehle Raj ko notice karta, Dhika baad mein jaanti hai.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P04-E001",
+      "part": 4,
+      "sourceRange": "L69–88",
+      "scene": "Monday · Bantu solo tuition visit",
+      "participants": "Dhika, Bantu; Bobby absent, Pappu asleep",
+      "event": "Hometown function ki wajah se twins absence; Bantu online tuition maangta, Dhika webcam khud offer karti. Bantu privately video opportunity chahta although screen-share/notepad enough. Bantu solo meeting mein Dhika ke normal outfit par disappointment dikhata.",
+      "characterDelta": "Bantu academics + extra video motive; Dhika video ko study access samajhti hai.",
+      "relationshipDelta": "Solo Bantu route after E06 Bobby/Chotu history; Bobby present nahi.",
+      "readerInference": "Reader Bantu ka unspoken visual aim jaanta hai.",
+      "boundary": "Online class consent ≠ sexual exposure agreement.",
+      "authorNote": "Genuine competition stake aur parallel hidden agenda.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P05-E001",
+      "part": 5,
+      "sourceRange": "L89–106",
+      "scene": "Monday · reciprocal teasing",
+      "participants": "Dhika, Bantu",
+      "event": "Pichhle blouse encounter ka reference; Dhika galti se 'enough boobs' bol deti. Uske 'I cannot see anything on you' tease par Bantu turant shirt utaarta; shocked Dhika pehle involuntary reaching stop karti, phir quick chest touch.",
+      "characterDelta": "Dhika Bantu ki directness se surprised aur curious, lekin still shy.",
+      "relationshipDelta": "Solo route first deliberate Bantu shirtless display and Dhika chest touch.",
+      "readerInference": "Aborted touch aur later quick actual touch separate; no body reveal by Dhika yet.",
+      "boundary": "Quick touch ka matlab further unlimited access nahi.",
+      "authorNote": "L100 sudden reversal is scene pivot.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P06-E001",
+      "part": 6,
+      "sourceRange": "L107–123",
+      "scene": "Monday · Bantu shirtless sofa",
+      "participants": "Dhika, Bantu",
+      "event": "Bantu girlfriends ko hug example banaakar half-naked hug offer karta, Dhika repeatedly 'no' kehti. Private curiosity ke baad apna gaal uski chest se lagaati aur dono biceps graze karti; Bantu breasts par innuendo karta toh turant withdraw.",
+      "characterDelta": "Desire aur overt no alag, later restricted cheek-contact her own choice.",
+      "relationshipDelta": "Contact increases but full hug request refused.",
+      "readerInference": "Limited consent ko full-body hug mein upgrade na karo.",
+      "boundary": "Repeated no valid; cheek-to-chest act narrowly chosen.",
+      "authorNote": "No → inner debate → partial action → innuendo → recoil.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P07-E001",
+      "part": 7,
+      "sourceRange": "L124–142",
+      "scene": "Monday · pillow banter and sexual history",
+      "participants": "Dhika, Bantu; Bobby mentioned",
+      "event": "Bantu Dhika ke body par observational compliment karta, many girlfriends aur own non-virgin status claim; Bobby virgin hai aisa bolta. Dhika not-yet-21 remark; Bantu marriage se pehle virgin hone par reciprocal question poochta, Dhika sir hilaakar yes kehti.",
+      "characterDelta": "Dhika bold questions poochkar khud blush; Bantu jaanboojhkar next comment rokta.",
+      "relationshipDelta": "Private sex-history exchange; Bantu claims Bobby facts, not verified direct Bobby report.",
+      "readerInference": "Bantu girlfriends count and Bobby status self-/second-hand report only.",
+      "boundary": "Sex talk no physical authorization.",
+      "authorNote": "Claims and witnessed facts separate rakhna.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P08-E001",
+      "part": 8,
+      "sourceRange": "L143–165",
+      "scene": "Monday · gift and private deliberation",
+      "participants": "Dhika, Bantu; mother/Bobby referenced",
+      "event": "Golden waist chain gift, Bantu claims mother made as tuition thanks. Dhika declines repeatedly, Bantu tuition-stop condition lagata; she reluctantly accepts, changes old chain in bedroom and lifts T-shirt to navel to show. Full shirt-removal request par she questions him, kitchen mein privately thinks Bobby saw bra before Bantu.",
+      "characterDelta": "Teacher/friend role aur pressure clash; she considers unilateral reveal later.",
+      "relationshipDelta": "Gift acceptance coerced/pressured, not an uncomplicated trust gift.",
+      "readerInference": "Mother origin is Bantu statement, not confirmed external evidence.",
+      "boundary": "Navel-level showing does not grant full shirt-removal demand.",
+      "authorNote": "Track old→new chain and kitchen transition.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P09-E001",
+      "part": 9,
+      "sourceRange": "L166–188",
+      "scene": "Monday · pink full-bra reveal",
+      "participants": "Dhika, Bantu",
+      "event": "Dhika deliberately removes T-shirt and stands in pink full bra + skirt. Bantu catches hands when she offers to redress; goes behind to view back, touches near waist chain on bare hip. Dhika shivers but asks what and says enough, come sit. She then notices his clothed erection; he stares at bra.",
+      "characterDelta": "Dhika playful display + reciprocal curiosity; explicit redirect after waist touch.",
+      "relationshipDelta": "Bantu first standalone pink-bra viewing and bare-hip chain touch; no naked breast exposure.",
+      "readerInference": "Arousal/glee do not erase verbal stop or new touch's initiator.",
+      "boundary": "'Enough' ends chain inspection; caught hands don't establish consent.",
+      "authorNote": "Pink full bra distinct from Wednesday rose lace bra.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P10-E001",
+      "part": 10,
+      "sourceRange": "L189–200",
+      "scene": "Monday · leave and lace suggestion",
+      "participants": "Dhika, Bantu; John referenced",
+      "event": "Dhika repeatedly grazes Bantu chest with deliberate linger, withdraws, asks him to go. At door he suggests lace bra; Dhika says maybe someday. John bought unused lace bras earlier.",
+      "characterDelta": "Dhika curious but self-limits; wardrobe hook planted.",
+      "relationshipDelta": "Bantu solo visit ends; no further act or promise of visual display.",
+      "readerInference": "'Someday' is open possibility not scheduled demonstration.",
+      "boundary": "Leave instruction accepted.",
+      "authorNote": "Prop planted for Wednesday.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P11-E001",
+      "part": 11,
+      "sourceRange": "L201–220",
+      "scene": "Wednesday · store, wardrobe, online tuition",
+      "participants": "Dhika, Chotu, Bantu, Bobby",
+      "event": "Chotu only waves, keeps distance; Dhika guesses E06 shame but cannot confirm. At home she tries lace bra Bantu mentioned (already owned from John), prepares extra-short skirt, initially plans John surprise. Skype with twins begins; Bobby explains Swiss/LHC competition ~20 selected pairs, 5-day trip with mentor. After 30min Bantu asks about chain.",
+      "characterDelta": "Dhika doesn't force Chotu disclosure; wardrobe experiment self-directed.",
+      "relationshipDelta": "Chotu avoidance unresolved, remote twins teacher-pupil interaction starts.",
+      "readerInference": "Chotu motive is Dhika's hypothesis. Competition details are Bobby's explanation.",
+      "boundary": "Online lesson doesn't license visual intimacy.",
+      "authorNote": "Exact sequence store → wardrobe → class → chain.",
+      "reviewStatus": "working_author_review_pending"
+    },
+    {
+      "id": "E07-P12-E001",
+      "part": 12,
+      "sourceRange": "L221–234",
+      "scene": "Wednesday · video reveal and hard stop",
+      "participants": "Dhika, Bobby, Bantu",
+      "event": "Bobby says he did want to see chain. Dhika intentionally removes entire T-shirt on video: rose lace bra partly see-through upper material. Both twins stare at an unspecified precise point. Dhika asks them to stop, then worries something extra visible and maximizes self-video at L234.",
+      "characterDelta": "Dhika plans reveal but does not yet understand twin gaze target.",
+      "relationshipDelta": "Twins gain remote bra visibility; exact extra visible detail unconfirmed.",
+      "readerInference": "Open cliffhanger is mismatch between assumed and possibly actual visibility.",
+      "boundary": "She verbally says stop staring; uncovered state is not unlimited permission.",
+      "authorNote": "Hard stop: do not read E08 backwards and claim E07 reveal outcome.",
+      "reviewStatus": "working_author_review_pending"
+    }
+  ],
+  "relationshipIndexes": {
+    "Dhika-John": [
+      1,
+      2,
+      3
+    ],
+    "Dhika-Bantu": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Dhika-Bobby": [
+      11,
+      12
+    ],
+    "Dhika-Chotu": [
+      11
+    ],
+    "Sharmi-Raj": [
+      2,
+      3
+    ],
+    "DinnerSocial": [
+      2,
+      3
+    ]
+  }
+}
