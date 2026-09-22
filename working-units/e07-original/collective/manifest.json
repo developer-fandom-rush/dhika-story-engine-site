@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E07",
+  "arc": "ARC 01 — The First Awakening",
+  "uiRange": "L1-L234",
+  "partCount": 12,
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "marker": "EPISODE 7",
+    "rawCopiedToGitHub": false
+  },
+  "partView": {
+    "router": "../index.html",
+    "renderer": "../part.html",
+    "data": "../data/partN.json",
+    "partNotes": "../data/part-notes.json"
+  },
+  "episodeView": {
+    "router": "index.html",
+    "architecture": "lazy-section-episode-view",
+    "sections": {
+      "story": "sections/story/index.html",
+      "character": "sections/character/index.html",
+      "relationships": "sections/relationships/index.html",
+      "reader": "sections/reader/index.html",
+      "ledger": "sections/ledger/index.html",
+      "author": "sections/author/index.html"
+    }
+  },
+  "backend": {
+    "encounterHistory": "../E07_ENCOUNTER_HISTORY.md",
+    "machineEventStore": "../e07.encounter-history.json",
+    "authorAnalysis": "../E07_AUTHORING_ANALYSIS.md"
+  },
+  "images": {
+    "generated": false,
+    "status": "deferred-by-author",
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "originalRowsMatchedDrive": 234,
+    "totalRows": 234,
+    "matchingMethod": "normalized whitespace per line, ordered sequential comparison",
+    "translationFidelity": "working draft, not separately certified across all 234 lines",
+    "visualPagesRender": "not independently confirmed",
+    "authorReview": "pending"
+  }
+}
