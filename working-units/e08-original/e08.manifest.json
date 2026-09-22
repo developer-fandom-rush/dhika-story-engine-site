@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E08",
+  "arc": "ARC 01 — The First Awakening",
+  "uiRange": "L1-L210",
+  "partCount": 12,
+  "partRanges": [
+    [
+      1,
+      20
+    ],
+    [
+      21,
+      39
+    ],
+    [
+      40,
+      60
+    ],
+    [
+      61,
+      80
+    ],
+    [
+      81,
+      101
+    ],
+    [
+      102,
+      120
+    ],
+    [
+      121,
+      139
+    ],
+    [
+      140,
+      153
+    ],
+    [
+      154,
+      170
+    ],
+    [
+      171,
+      185
+    ],
+    [
+      186,
+      196
+    ],
+    [
+      197,
+      210
+    ]
+  ],
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "episodeMarker": "EPISODE 8",
+    "rawCopiedAsStandaloneFile": false
+  },
+  "partView": {
+    "router": "index.html",
+    "renderer": "part.html",
+    "sourceLocalData": "data/partN.json",
+    "partNotes": "data/part-notes.json",
+    "partLedger": "data/ledger.json"
+  },
+  "episodeView": {
+    "router": "collective/index.html",
+    "architecture": "lazy-section-episode-view",
+    "sections": {
+      "story": "collective/sections/story/index.html",
+      "character": "collective/sections/character/index.html",
+      "relationships": "collective/sections/relationships/index.html",
+      "reader": "collective/sections/reader/index.html",
+      "ledger": "collective/sections/ledger/index.html",
+      "author": "collective/sections/author/index.html"
+    }
+  },
+  "backend": {
+    "encounterHistory": "E08_ENCOUNTER_HISTORY.md",
+    "machineEventStore": "e08.encounter-history.json",
+    "authorAnalysis": "E08_AUTHORING_ANALYSIS.md",
+    "characterDossiers": "collective/data/character-dossiers.json",
+    "relationshipDossiers": "collective/data/relationship-dossiers.json",
+    "readerAnalysis": "collective/data/reader-analysis.json",
+    "authorNotes": "collective/data/author-notes.json"
+  },
+  "images": {
+    "execution": "deferred-by-user",
+    "generatedInThisPass": false,
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "sourceRowCount": 210,
+    "originalRowMatchAgainstDrive": "verified exact after source-line trim",
+    "lineLabelAlignment": "verified",
+    "localLineCoverage": "210/210 drafted; semantic audit awaiting author review",
+    "knownSourceAmbiguities": [
+      "spectacles wording L159 versus inventory L184",
+      "later 11 AM scene day not explicitly named"
+    ],
+    "hardStop": "E08 L210",
+    "browserVisualVerification": "pending",
+    "authorApproval": "pending"
+  }
+}
