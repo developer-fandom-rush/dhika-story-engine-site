@@ -5,7 +5,7 @@
     "driveDocumentId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
     "title": "98 — RAW SOURCE — EPISODE 03"
   },
-  "sourceStatus": "fresh-read-2026-09-23 (Google Drive RAW document checked against P03 L32–42 and P09 L148–179)",
+  "sourceStatus": "fresh-read-2026-09-23",
   "sourceBody": {
     "start": "E03-L001",
     "end": "E03-L231",
@@ -104,10 +104,10 @@
   ],
   "analysisStatus": "Episode 03 Parts 1–13 continuity analysis complete through L231",
   "authorReviewStatus": "Episode 03 Parts 1–13 ready for author review",
-  "uiStatus": "P01–P13 Part router plus episode-wide combined view linked on main; public rendered-page check not yet verified",
-  "imageStatus": "MIXED_VERIFIED: P09 has 22 Drive-APPROVED mapped images; P03 has 10 mapped/generated pending author review (7 Drive INBOX, 3 repo images); other Parts retain their own per-beat approved/pending/missing statuses; P10 L187 unmapped",
+  "uiStatus": "P01–P13 Part router plus episode-wide combined view linked on main; GitHub repository readback verified",
+  "imageStatus": "AUTHOR_SYNCED_FOR_LISTED_QA: P03 has 10 author-approved mapped assets; P09 has 22 Drive-approved mapped assets; other per-Part states remain as recorded and are not silently upgraded",
   "localLanguageStatus": "source-faithful transformation restored from the established E03 review candidate, with Part-boundary fragments completed without changing source meaning",
-  "storyImagesStatus": "P03 L32–42 now exactly reuses Part 40/40 local text; P09 L148–179 exactly reuses Part 40/40 local text and retains 22 locked Drive-approved images; combined view synchronized; all other Part image states preserved, not silently upgraded",
+  "storyImagesStatus": "P03 L32–42 exactly reuses Part 40/40 local text and its 10 mapped assets are now LOCKED_APPROVED_IMAGE by explicit author direction; P09 L148–179 exactly reuses Part 40/40 local text with 22 locked Drive-approved images; combined view synchronized",
   "completionStatus": "Episode 03 fully normalized through Part 13 / L231 with canonical 7-tab Part UI, pointer-only Relationship History Ledger, and visible + backend RULE-017 Interaction / Perception tracking. Episode hard-stops at L231.",
   "canonAgeResolution": {
     "Chotu": "19-year-old adult per E01–E04 Evidence Archive and Character Evolution Ledger",
@@ -148,8 +148,8 @@
   "combinedView": {
     "path": "working-units/e03-original/collective/index.html",
     "gitHubMainReadback": "VERIFIED_AFTER_SYNC",
-    "publicPagesRenderedQA": "UNVERIFIED_NETWORK_AND_ACCESS_LIMIT",
-    "authorReview": "PENDING",
+    "publicPagesRenderedQA": "ATTEMPTED_BUT_NOT_VERIFIABLE_FROM_CURRENT_ENVIRONMENT",
+    "authorReview": "CURRENT AUTHOR DIRECTION APPLIED TO LISTED QA ITEMS",
     "contains40x40": false,
     "storyP03andP09Synced": true,
     "predictionTab": "RETROSPECTIVE_SETUP_ACTUAL_COMPARISONS_NOT_INDEPENDENT_PRIOR_FORECASTS"
@@ -186,7 +186,7 @@
         "mediaReferences": 10,
         "driveMapped": 7,
         "githubImages": 3,
-        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "state": "AUTHOR_APPROVED_LOCKED",
         "visibleStateLabels": [
           "DRIVE_MAPPED_PENDING_REVIEW",
           "GENERATED_PENDING_REVIEW"
@@ -195,7 +195,8 @@
         "driveInboxMapped": 7,
         "driveApprovedFolderCount": 0,
         "pendingAuthorReview": 10,
-        "localTranslationSynchronizedL32toL42": true
+        "localTranslationSynchronizedL32toL42": true,
+        "review": "10/10 Story + Images mappings locked by explicit author direction in current QA pass"
       },
       {
         "part": 4,
@@ -260,13 +261,14 @@
         "mediaReferences": 22,
         "driveMapped": 22,
         "githubImages": 0,
-        "state": "LOCKED_APPROVED_DRIVE_VERIFIED",
+        "state": "DRIVE_APPROVED_LOCKED",
         "visibleStateLabels": [
           "LOCKED_APPROVED_IMAGE"
         ],
         "sourcePanelSha": "38fb7c66f688d7c9f8954b1ea1212df9fe206f87",
         "driveApprovedFolderCount": 22,
-        "localStoryLinesRestored": 32
+        "localStoryLinesRestored": 32,
+        "review": "22/22 mapped Drive assets locked; stale empty-panel QA superseded"
       },
       {
         "part": 10,
@@ -329,5 +331,12 @@
     "independentlyTimestampedPreE03PredictionCountVerified": 0,
     "accuracyScore": "NOT_CALCULATED_WITHOUT_PRIOR_PREDICTION_RECORD",
     "sourceOfPriorCue": "Current E02 P14 and E03 preceding Parts; later-edited documents cannot prove contemporaneous forecasts"
-  }
+  },
+  "auditNotes": [
+    "P03 RAW numbering verified against 8-line source header; E03-L32 maps to physical RAW file line 40.",
+    "P03 L35 local-language fidelity repaired and retained with concrete memory detail.",
+    "P09 stale 'empty Story + Images' finding superseded by current populated/locked state.",
+    "Prediction comparisons are retrospective setup-vs-actual diagnostics, not proof of timestamped pre-E03 forecasting.",
+    "Public Pages pixel verification was attempted but the current environment could not resolve/access the GitHub Pages host; no false live-render claim is made."
+  ]
 }
