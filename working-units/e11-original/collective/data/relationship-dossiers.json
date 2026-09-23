@@ -1,0 +1,230 @@
+{
+  "episode": "E11",
+  "schemaVersion": "1.1",
+  "coverage": "P1–P8 L1–157",
+  "pairModuleBlocks": 8,
+  "authorReview": "pending",
+  "dossiers": [
+    {
+      "key": "dhika-bobby",
+      "name": "Dhika ↔ Bobby",
+      "setup": "E10 final baseline: No new E10 contact. E09 remote route persists as prior history, not a current E10 encounter.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "Dhika → Bobby",
+          "text": "Deliberately tests his reaction with back-only turn/handheld bra, then anticipates what his towel preference implies and confirms his clothed response. Still ends session on her own timeline."
+        },
+        {
+          "direction": "Bobby → Dhika",
+          "text": "Privately prefers towel because of shape impression but does not say full reason L14; visible blushing and restlessness. His silent thought is reader knowledge, not full spoken disclosure."
+        }
+      ],
+      "changes": "No E11 qualifying direct pair event.",
+      "knowledge": "Bobby sees back, handheld bra/towel state, and knows his own unspoken preference. Dhika infers meaning from partial statement, sees his covered reaction. John and Bantu not shown learning this scene.",
+      "permission": "Dhika orchestrates limited camera viewpoints; seeing uncovered back does not authorize unclothed front view, recording or further access. She ends call for Friday errands. Do not turn Bobby's standing into a physical interaction.",
+      "final": "No E11 direct contact; E09 remote route remains inherited only.",
+      "negative": "No verified naked front-breast view, no physical touch, no Monday lesson yet, no automatic Bantu knowledge. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    },
+    {
+      "key": "dhika-chotu",
+      "name": "Dhika ↔ Chotu / Babu",
+      "setup": "E10 final baseline: Two volunteers agree to a present-time kissing-practice exchange P6 and then end Chotu's visit L119. E06 boundary violations remain recorded historically; affectionate current behavior does not rewrite earlier stop requests. Movie reward after painting remains an unresolved promise.",
+      "actions": [
+        {
+          "evidence": "E11 P3 L50–69",
+          "text": "Dhika–Raj remains thought-level friendship carry-forward only in this Part. Dhika–Chotu moves into another planned evening painting session. John is absent due work; no evidence he knows the detailed evening arrangement."
+        },
+        {
+          "evidence": "E11 P4 L70–91",
+          "text": "Dhika–Chotu visual/sexual tension increases inside a practical work scene, but no touch permission has yet been granted beyond ordinary painting help."
+        },
+        {
+          "evidence": "E11 P5 L92–113",
+          "text": "Practical cleaning contact evolves into a direct request for non-cleaning touch. Crucially, the new request has not yet been answered until P6 L114."
+        },
+        {
+          "evidence": "E11 P6 L114–129",
+          "text": "This Part contains both consent and boundary crossing: specific hip/waist skin touch was permitted; below-skirt butt touch was not separately authorized. Later teasing does not retroactively authorize it."
+        },
+        {
+          "evidence": "E11 P7 L130–145",
+          "text": "Mutual kissing becomes more explicit and reciprocal than E10. New permission is specific to resumed kissing and Dhika's reassurance about the immediate clothed contact; it does not erase P6 boundary crossing or grant unrestricted touching."
+        },
+        {
+          "evidence": "E11 P8 L146–157",
+          "text": "Their present encounter reaches its most physically intense consensual phase in E11, but the episode ends before aftermath, interpretation or next action. Nothing from E12 may be imported."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Chotu",
+          "text": "Dhika notices Chotu's interest/arousal, grants a specific exposed-skin touch, later re-initiates kissing practice and pulls him closer; she freezes at her own moan L157."
+        },
+        {
+          "direction": "Chotu → Dhika",
+          "text": "Chotu becomes increasingly aroused, verbally asks to feel skin, crosses below-skirt boundary then apologizes, and later participates in specifically invited kissing practice."
+        }
+      ],
+      "changes": "P3: Dhika–Raj remains thought-level friendship carry-forward only in this Part. Dhika–Chotu moves into another planned evening painting session. John is absent due work; no evidence he knows the detailed evening arrangement. P4: Dhika–Chotu visual/sexual tension increases inside a practical work scene, but no touch permission has yet been granted beyond ordinary painting help. P5: Practical cleaning contact evolves into a direct request for non-cleaning touch. Crucially, the new request has not yet been answered until P6 L114. P6: This Part contains both consent and boundary crossing: specific hip/waist skin touch was permitted; below-skirt butt touch was not separately authorized. Later teasing does not retroactively authorize it. P7: Mutual kissing becomes more explicit and reciprocal than E10. New permission is specific to resumed kissing and Dhika's reassurance about the immediate clothed contact; it does not erase P6 boundary crossing or grant unrestricted touching. P8: Their present encounter reaches its most physically intense consensual phase in E11, but the episode ends before aftermath, interpretation or next action. Nothing from E12 may be imported.",
+      "knowledge": "Only Dhika and Chotu are present for P3–P8 adult route; John is not shown learning it. Both directly know P6 boundary reaction/apology and P7–P8 resumed kissing.",
+      "permission": "Task contact P5 is limited to paint removal. P6 L114 grants exposed-skin touch; L125 below-skirt touch exceeds that scope and triggers reaction/apology. P7 kissing practice is explicitly invited and reciprocated; P8 current closeness is actively guided by Dhika, not future blanket permission.",
+      "final": "E11 closes at L157 during a mutually intensified kissing/contact sequence initiated/re-initiated by Dhika after an earlier P6 boundary crossing and apology. Current mutuality does not retroactively authorize P6 or E06 conduct; aftermath is unresolved.",
+      "negative": "No consent to any older E06 ignored stop actions; specific present-time kisses do not create blanket future permission. Painting-work movie is promised but not yet attended. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    },
+    {
+      "key": "dhika-john",
+      "name": "Dhika ↔ John",
+      "setup": "E10 final baseline: Sunday night John and Dhika arrive together at the movie outing after John/Pappu's daytime grandparents visit. Sharmi greets John with surprise back-hug, Dhika nudges him on seeing his gaze, and their teasing contrasts saree attention; no admission or discussion of Dhika's daytime Chotu visit.",
+      "actions": [
+        {
+          "evidence": "E11 P1 L1–27",
+          "text": "John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement."
+        },
+        {
+          "evidence": "E11 P2 L28–49",
+          "text": "Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → John",
+          "text": "Defends independent greeting style, upset by saree joke then chooses outfit, mock-jealous about Sharmi publicly flirting, appreciates 'come back to you' reassurance. No Chotu/Bobby disclosure."
+        },
+        {
+          "direction": "John → Dhika",
+          "text": "Teasing tone about her reluctance to hug strangers and later Raj friendship, delight at her change of clothes; he says he'll always return to her. No private evidence of secret knowledge."
+        }
+      ],
+      "changes": "P1: John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement. P2: Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11.",
+      "knowledge": "John observes Dhika's Raj handshake, new white dress, tea laughter, final hug. He is not present for private Bobby video or Saturday morning Chotu talk/kiss and is not shown learning their details.",
+      "permission": "Social hugging/flirting jokes do not equal partnership-rule change. John teasing Dhika about dress doesn't determine what she must wear. Dhika's choice of Raj hug is her own, not a confession of sexual intent.",
+      "final": "Cinema route shows both spouses observing cross-pair playful/fear reactions without an E11 confrontation. John is absent from next-day Chotu encounter and has no sourced knowledge of it.",
+      "negative": "No E10 confession, discovery of Chotu daytime activity, marital separation or documented permission for those interactions. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    },
+    {
+      "key": "dhika-raj",
+      "name": "Dhika ↔ Raj",
+      "setup": "E10 final baseline: E09 friendly state carries forward. E10 establishes group outing and Sharmi attributes contrasting-saree preference to Raj; Raj not yet seen reacting or present in E10 L1–133.",
+      "actions": [
+        {
+          "evidence": "E11 P1 L1–27",
+          "text": "John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement."
+        },
+        {
+          "evidence": "E11 P2 L28–49",
+          "text": "Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11."
+        },
+        {
+          "evidence": "E11 P3 L50–69",
+          "text": "Dhika–Raj remains thought-level friendship carry-forward only in this Part. Dhika–Chotu moves into another planned evening painting session. John is absent due work; no evidence he knows the detailed evening arrangement."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Raj",
+          "text": "Dhika privately remembers film interactions next morning and frames increased closeness as friendship/respect."
+        },
+        {
+          "direction": "Raj → Dhika",
+          "text": "Raj gives attention while preserving space, reassures after fear-grip, and shields shifted saree for privacy."
+        }
+      ],
+      "changes": "P1: John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement. P2: Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11. P3: Dhika–Raj remains thought-level friendship carry-forward only in this Part. Dhika–Chotu moves into another planned evening painting session. John is absent due work; no evidence he knows the detailed evening arrangement.",
+      "knowledge": "Both know group dinner/movie plan; John hears Dhika kitchen giggles but not entire conversation and sees later sitting. Raj does not know Dhika's private Chotu/Bobby history.",
+      "permission": "Friday handshake is explicitly Dhika's choice amid pressure; Saturday hug newly initiated by Dhika and only a light farewell hug. No permission for intimate touch extrapolated.",
+      "final": "Friendship deepens through cinema conversation, involuntary fear-hand grip, Raj's privacy shield for shifted saree and Dhika's next-day positive recollection. No affair/confession established.",
+      "negative": "Raj's actual E10 gaze, approval, embrace or film encounter not yet narrated. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    },
+    {
+      "key": "john-sharmi",
+      "name": "John ↔ Sharmi",
+      "setup": "E10 final baseline: At cinema entrance Sharmi back-hugs John in public, presents her outfit and jokes about his looking; John responds by asking about Raj's contrasting-saree preference. Social/flirtatious banter is documented, affair is not.",
+      "actions": [
+        {
+          "evidence": "E11 P1 L1–27",
+          "text": "John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement."
+        },
+        {
+          "evidence": "E11 P2 L28–49",
+          "text": "Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "John → Sharmi",
+          "text": "The narrator shows John looking at Sharmi's outfit at L128; no independently verified commitment beyond playful banter."
+        },
+        {
+          "direction": "Sharmi → John",
+          "text": "She deliberately surprise-hugs John at L124 and jokes she is used to flirting with others; her account of Raj's tolerance is a claim."
+        }
+      ],
+      "changes": "P1: John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement. P2: Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11.",
+      "knowledge": "Dhika and Raj are nearby during cinema; John directly experiences Sharmi's contacts. Sharmi's marital-understanding statement is heard by John but its scope is not clarified.",
+      "permission": "Mutual social embraces are observed, not marriage-boundary renegotiation. Winks, drinks and jokes are not evidence of future physical access.",
+      "final": "Public flirt/tactile dynamic becomes stronger at cinema, including deliberate lap contact and jump-scare chest hold. Sharmi says she/Raj have an understanding; exact scope is undefined. No independent affair label.",
+      "negative": "No E10 kiss, affair or private meeting; public hug and playful gaze banter only. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    },
+    {
+      "key": "sharmi-raj",
+      "name": "Sharmi ↔ Raj",
+      "setup": "E10 final baseline: Married pair planned for horror outing, but only Sharmi appears by the E10 L133 cutoff; her statement about Raj's tolerance and preferences is attributed, not a new directly observed Raj event.",
+      "actions": [
+        {
+          "evidence": "E11 P1 L1–27",
+          "text": "John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement."
+        },
+        {
+          "evidence": "E11 P2 L28–49",
+          "text": "Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Sharmi → Raj",
+          "text": "Public joking that he overspends/show-offs and movie-room plan; source gives no marriage dissatisfaction confession."
+        },
+        {
+          "direction": "Raj → Sharmi",
+          "text": "Defends enthusiasm for home upgrades and movie hobby, jokes about men's appreciation; no private nonmonogamy statement."
+        }
+      ],
+      "changes": "P1: John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement. P2: Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11.",
+      "knowledge": "Both know group invitation, family visit and movie plan. Sharmi observes Dhika's light Raj hug; Raj witnesses John goodbye hugs in shared departure scene.",
+      "permission": "Marital status stays established; public flirt exchanges with guests do not authorize affair narratives.",
+      "final": "Sharmi reports pre-arranged seating intent and says she/Raj have an understanding. Raj's subtle grin supports comfort with seating but does not define permission scope.",
+      "negative": "Raj's actual E10 response to flirtation/dress is not directly narrated by L133. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    },
+    {
+      "key": "dhika-sharmi",
+      "name": "Dhika ↔ Sharmi",
+      "setup": "E10 final baseline: Friendly Sunday movie plan activates; Sharmi's playful hug and banter with John draws Dhika's joking nudge and comment. They share a laugh as Dhika notices her own contrasting saree.",
+      "actions": [
+        {
+          "evidence": "E11 P1 L1–27",
+          "text": "John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement."
+        },
+        {
+          "evidence": "E11 P2 L28–49",
+          "text": "Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Sharmi",
+          "text": "Affectionate 'darling' greeting; sometimes annoyed by teasing, participates in joke about Sharmi trying to steal John."
+        },
+        {
+          "direction": "Sharmi → Dhika",
+          "text": "Playfully challenges socially reserved friend and enjoys surprise of her modern dress and Raj hug; no secret hostile plan confirmed."
+        }
+      ],
+      "changes": "P1: John–Sharmi public flirt dynamic escalates by deliberate lap/crotch contact; Dhika sees it. Dhika–Raj proximity is arranged socially rather than initiated by Dhika. Sharmi's statement about Raj's tolerance is still her claim, though Raj's grin indicates comfort with this seating arrangement. P2: Dhika–Raj friendship deepens through conversation, involuntary hand-grip and Raj's protective saree assist. John–Sharmi tactile contact increases in a public film setting. Dhika–John both witness each other's interactions, but neither frames them as betrayal in E11.",
+      "knowledge": "Sharmi knows Friday handshake and Saturday chosen hug and sees new dress; not shown learning Dhika's private Bobby/Chotu interactions.",
+      "permission": "Friendship jokes do not mean Sharmi speaks for Dhika regarding embraces or spouse access.",
+      "final": "Friendship remains playful; seat argument centers on John and Raj's reaction. No direct conflict or romantic act between women.",
+      "negative": "No confrontation or romantic/sexual act shown between these two. E11 evidence must remain action-specific; no blanket or retroactive consent."
+    }
+  ]
+}
