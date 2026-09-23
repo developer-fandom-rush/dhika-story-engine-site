@@ -1,0 +1,61 @@
+{
+  "episode": "E12",
+  "schemaVersion": "1",
+  "authorReview": "pending",
+  "blocks": [
+    {
+      "id": 1,
+      "title": "Episode Structure / Narrative Architecture",
+      "body": "Eight natural Parts across 153 lines: E11 moan freeze aftermath and Aunty childcare interruption, Tuesday private reflection (P1 L1–18); focused twin tuition and competition calendar (P2 L19–40); refused massage beginning and initial pain relief (P3 L41–61); narrow clothing glimpse and Bobby's accidental first foot slip (P4 L62–85); staged Bantu second slip, high-thigh massage and twice-refused clothing request (P5 L86–109); Dhika self-removes T-shirt, lactation visible, Bantu uninvited bra touch and milk taste (P6 L110–126); criticism/apology and Bobby's spoken wish (P7 L127–140); firm denial, jealousy and Dhika self-blame endpoint (P8 L141–153).",
+      "evidence": "P1–P8"
+    },
+    {
+      "id": 2,
+      "title": "Escalation & Pacing Design",
+      "body": "Open at the abrupt E11 cliffhanger and end it through an everyday caregiving call; Tuesday introduces reflective moral uncertainty. Then intentionally devote a full focused study segment to the legitimate student-teacher objective before physical contact. Massage begins after a stated refusal, branches into unequal private knowledge between twins and Dhika, and deliberately stages a second foot slip. Repeated 'no' to a new clothing request slows progression before Dhika makes her own later decision. Bantu's uninvited touch generates rupture, apologies and an unexpected Bobby comparison hook; no subsequent milk-sharing outcome occurs.",
+      "evidence": "P1–P8"
+    },
+    {
+      "id": 3,
+      "title": "POV, Knowledge & Dramatic-Irony Handling",
+      "body": "Dhika's Monday guilt and self-questioning are private; Chotu only hears moan and gets no explanation. Tuesday twins bring separate memory routes (Bantu in-person massage, Bobby remote call). Show Bobby's first foot slip objectively accidental, his later fear of discovery, Dhika's awareness and Bantu's initial ignorance; he later privately plans second staged slip. Bobby's first upper-thigh extension has an explicit 'knowingly or unknowingly' narrator qualification. Bantu privately misunderstands Dhika's small anger based on a prior promise, whereas narrator reports her own self-blame. L135 source assigns an implausible 'Bantu:' label to an apparent Dhika action; flag attribution, do not rewrite RAW.",
+      "evidence": "P1, P2, P4–P8"
+    },
+    {
+      "id": 4,
+      "title": "Character Consistency Rules",
+      "body": "Dhika remains committed to the twins' academic success and sets a Friday test despite her Tuesday emotional conflict. She can feel pleasure and later independently remove clothing without those facts authorizing an uninvited breast touch. Bantu is strategic in staging the second slip and persists after two shirt-removal refusals, then apologizes for the separate milk incident. Bobby is initially uncareful rather than staging the first slip, later follows Bantu's signal and feels disappointed at inequity; no equal access is owed. Chotu is 19-year-old adult in approved continuity (narrator's literal 'teenager' label remains in RAW). John, Aunty, and Pappu must not be granted knowledge of private tuition interactions without evidence.",
+      "evidence": "E06–E11 prior histories; E12 P1–P8"
+    },
+    {
+      "id": 5,
+      "title": "Relationship Route Differentiation",
+      "body": "Dhika↔Chotu: Monday unfinished emotional discussion ends with childcare phone call, Tuesday Dhika reflects alone. Dhika↔Bantu: earlier E08 foot-to-crotch history informs refusal; Tuesday he initiates despite refusal, stages contact, pressures clothing, and later takes milk without asking and apologizes. Dhika↔Bobby: remote-call prior history; Tuesday initial foot slip is accidental, then he requests equal milk experience and remains sad after express refusal. Bantu↔Bobby: coordinated silent gaze and massage cues, then milk-sampling asymmetry. Dhika↔John: only her private comparison/guilt; he never witnesses this episode's adult encounters.",
+      "evidence": "P1–P8"
+    },
+    {
+      "id": 6,
+      "title": "Ambiguity That Must Stay Preserved",
+      "body": "Do not flatten Bobby's accidental first foot slip into Bantu's staged second slip. Do not assume Bobby deliberately initiated first upper-thigh massage when RAW says knowingly or unknowingly; after Bantu signals him continuation is intentional. Do not call initial massage consented after Dhika says no repeatedly, nor turn independent clothing removal at L113 into breast-touch permission. Distinguish Dhika's mild public reaction from narrator's small real anger and private self-blame. Do not decide L135 speaker typo without author review. Do not import any L154/E13 action.",
+      "evidence": "P3–P8"
+    },
+    {
+      "id": 7,
+      "title": "Setup → Payoff / Scene Function Notes",
+      "body": "E11 freeze pays off with Chotu's question and childcare call, but moral reflection stays open. E08 Bantu deliberate foot incident informs P3's refusal, while E09 Bobby video memory supplies distinct awkwardness in P2. Tuition planning seeds upcoming Friday test/Saturday competition. P3 physical relief makes the later boundary questions narratively complicated without negating refusals. Bobby foot slip P4 creates Bantu's deliberate parallel P5. White shorts with maroon panty peek P4 align with matching bra shown P6; apparent wetness resolves as lactation. Bobby's observation of Bantu milk taste leads to P7–P8 inequity hook.",
+      "evidence": "P1–P8; E08–E11 carry-forward"
+    },
+    {
+      "id": 8,
+      "title": "Continuity / Next-Episode Author Guardrails",
+      "body": "E12 concludes L153 at Dhika's self-blame and pout, not at any Bobby milk tasting or reconciliation. E12 Tuesday attire is white short shorts and white half-sleeve T-shirt with no cleavage; undergarments maroon matching bra/panty. Bantu/Bobby remove own shirts earlier during massage (Bantu states so); Dhika independently removes her shirt L113 after twice refusing verbal request. Pappu remains with Aunty and goes to temple/park later; no child present. Friday test and Saturday competition not yet completed. E06–E11 boundaries/relationship histories remain independently authoritative.",
+      "evidence": "P1–P8"
+    },
+    {
+      "id": 9,
+      "title": "Open Craft Obligations",
+      "body": "Maintain exact 153 RAW lines in source order with one nonempty local draft per line and P1–P8 natural boundaries. Source L135 anomalous speaker attribution is preserved and flagged. Part View must render 40/40/20 dotted source/local line rows and exact seven visible canonical tabs; Episode View must expose six separately loaded modules. Ledger is pointer-only with persistent prior relationship DIVs; detailed contact/consent/knowledge facts belong in Relationship Progression and machine tracker. No images generated in loading pass, approved assets untouched. A separate author clause-level translation review and independent live browser render QA remain pending.",
+      "evidence": "QA and release gate"
+    }
+  ]
+}
