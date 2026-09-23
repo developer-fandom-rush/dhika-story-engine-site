@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E11",
+  "arc": "ARC 01 — The First Awakening",
+  "uiRange": "L1-L157",
+  "partCount": 8,
+  "partRanges": [
+    [
+      1,
+      27
+    ],
+    [
+      28,
+      49
+    ],
+    [
+      50,
+      69
+    ],
+    [
+      70,
+      91
+    ],
+    [
+      92,
+      113
+    ],
+    [
+      114,
+      129
+    ],
+    [
+      130,
+      145
+    ],
+    [
+      146,
+      157
+    ]
+  ],
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "marker": "EPISODE 11",
+    "rawStandaloneFile": false
+  },
+  "partView": {
+    "router": "index.html",
+    "renderer": "part.html",
+    "sourceLocalData": "data/partN.json",
+    "partNotes": "data/part-notes.json",
+    "partLedger": "data/ledger.json",
+    "visibleTabs": [
+      "40/40 Reading",
+      "Story + Images",
+      "Character Evolution",
+      "Relationship Progression",
+      "Reader Analysis Section",
+      "Relationship History Ledger",
+      "Storytelling & Authoring Notes"
+    ]
+  },
+  "episodeView": {
+    "router": "collective/index.html",
+    "architecture": "six lazy section modules",
+    "sections": {
+      "story": "collective/sections/story/index.html",
+      "character": "collective/sections/character/index.html",
+      "relationships": "collective/sections/relationships/index.html",
+      "reader": "collective/sections/reader/index.html",
+      "ledger": "collective/sections/ledger/index.html",
+      "author": "collective/sections/author/index.html"
+    }
+  },
+  "backend": {
+    "encounterHistory": "E11_ENCOUNTER_HISTORY.md",
+    "machineEventStore": "e11.encounter-history.json",
+    "authorAnalysis": "E11_AUTHORING_ANALYSIS.md",
+    "characterDossiers": "collective/data/character-dossiers.json",
+    "relationshipDossiers": "collective/data/relationship-dossiers.json",
+    "readerAnalysis": "collective/data/reader-analysis.json",
+    "authorNotes": "collective/data/author-notes.json"
+  },
+  "images": {
+    "generatedInThisPass": false,
+    "execution": "deferred by author",
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "sourceRows": 157,
+    "originalRowMatchAgainstDrive": "verified exact per line after trim",
+    "sourceLineLabels": "verified 1..157",
+    "localLines": "157/157 nonempty; semantic author review pending",
+    "hardStop": "E11 L157",
+    "visualPagesRender": "not independently confirmed",
+    "authorApproval": "pending"
+  }
+}
