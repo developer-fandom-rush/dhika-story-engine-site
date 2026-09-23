@@ -1,0 +1,492 @@
+{
+  "episode": "E11",
+  "schemaVersion": "1",
+  "readOnlyPointerIndex": true,
+  "groups": [
+    {
+      "key": "Dhika–Bantu",
+      "nodes": [
+        {
+          "episode": "E07",
+          "part": 4
+        },
+        {
+          "episode": "E07",
+          "part": 5
+        },
+        {
+          "episode": "E07",
+          "part": 6
+        },
+        {
+          "episode": "E07",
+          "part": 7
+        },
+        {
+          "episode": "E07",
+          "part": 8
+        },
+        {
+          "episode": "E07",
+          "part": 9
+        },
+        {
+          "episode": "E07",
+          "part": 10
+        },
+        {
+          "episode": "E07",
+          "part": 12
+        },
+        {
+          "episode": "E08",
+          "part": 1
+        },
+        {
+          "episode": "E08",
+          "part": 2
+        },
+        {
+          "episode": "E08",
+          "part": 3
+        },
+        {
+          "episode": "E08",
+          "part": 4
+        },
+        {
+          "episode": "E08",
+          "part": 5
+        },
+        {
+          "episode": "E08",
+          "part": 6
+        },
+        {
+          "episode": "E08",
+          "part": 7
+        },
+        {
+          "episode": "E08",
+          "part": 8
+        }
+      ]
+    },
+    {
+      "key": "Dhika–Bobby",
+      "nodes": [
+        {
+          "episode": "E06",
+          "part": 2
+        },
+        {
+          "episode": "E06",
+          "part": 3
+        },
+        {
+          "episode": "E06",
+          "part": 4
+        },
+        {
+          "episode": "E06",
+          "part": 5
+        },
+        {
+          "episode": "E06",
+          "part": 6
+        },
+        {
+          "episode": "E07",
+          "part": 11
+        },
+        {
+          "episode": "E07",
+          "part": 12
+        },
+        {
+          "episode": "E08",
+          "part": 1
+        },
+        {
+          "episode": "E08",
+          "part": 8
+        },
+        {
+          "episode": "E08",
+          "part": 9
+        },
+        {
+          "episode": "E08",
+          "part": 10
+        },
+        {
+          "episode": "E08",
+          "part": 11
+        },
+        {
+          "episode": "E08",
+          "part": 12
+        },
+        {
+          "episode": "E09",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "key": "Dhika–Chotu / Babu",
+      "nodes": [
+        {
+          "episode": "E06",
+          "part": 4
+        },
+        {
+          "episode": "E06",
+          "part": 5
+        },
+        {
+          "episode": "E06",
+          "part": 6
+        },
+        {
+          "episode": "E06",
+          "part": 7
+        },
+        {
+          "episode": "E06",
+          "part": 8
+        },
+        {
+          "episode": "E06",
+          "part": 9
+        },
+        {
+          "episode": "E06",
+          "part": 10
+        },
+        {
+          "episode": "E06",
+          "part": 11
+        },
+        {
+          "episode": "E07",
+          "part": 11
+        },
+        {
+          "episode": "E09",
+          "part": 3
+        },
+        {
+          "episode": "E09",
+          "part": 4
+        },
+        {
+          "episode": "E09",
+          "part": 5
+        },
+        {
+          "episode": "E10",
+          "part": 1
+        },
+        {
+          "episode": "E10",
+          "part": 2
+        },
+        {
+          "episode": "E10",
+          "part": 3
+        },
+        {
+          "episode": "E10",
+          "part": 4
+        },
+        {
+          "episode": "E10",
+          "part": 5
+        },
+        {
+          "episode": "E10",
+          "part": 6
+        },
+        {
+          "episode": "E11",
+          "part": 3
+        },
+        {
+          "episode": "E11",
+          "part": 4
+        },
+        {
+          "episode": "E11",
+          "part": 5
+        },
+        {
+          "episode": "E11",
+          "part": 6
+        },
+        {
+          "episode": "E11",
+          "part": 7
+        },
+        {
+          "episode": "E11",
+          "part": 8
+        }
+      ]
+    },
+    {
+      "key": "Dhika–John",
+      "nodes": [
+        {
+          "episode": "E06",
+          "part": 12
+        },
+        {
+          "episode": "E07",
+          "part": 1
+        },
+        {
+          "episode": "E07",
+          "part": 2
+        },
+        {
+          "episode": "E07",
+          "part": 3
+        },
+        {
+          "episode": "E09",
+          "part": 2
+        },
+        {
+          "episode": "E09",
+          "part": 6
+        },
+        {
+          "episode": "E09",
+          "part": 10
+        },
+        {
+          "episode": "E09",
+          "part": 11
+        },
+        {
+          "episode": "E10",
+          "part": 1
+        },
+        {
+          "episode": "E10",
+          "part": 7
+        },
+        {
+          "episode": "E11",
+          "part": 1
+        },
+        {
+          "episode": "E11",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "key": "Sharmi–Raj",
+      "nodes": [
+        {
+          "episode": "E07",
+          "part": 2
+        },
+        {
+          "episode": "E07",
+          "part": 3
+        },
+        {
+          "episode": "E09",
+          "part": 2
+        },
+        {
+          "episode": "E09",
+          "part": 7
+        },
+        {
+          "episode": "E09",
+          "part": 8
+        },
+        {
+          "episode": "E09",
+          "part": 9
+        },
+        {
+          "episode": "E09",
+          "part": 10
+        },
+        {
+          "episode": "E10",
+          "part": 7
+        },
+        {
+          "episode": "E11",
+          "part": 1
+        },
+        {
+          "episode": "E11",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "key": "Dhika–Sharmi / Raj dinner social",
+      "nodes": [
+        {
+          "episode": "E07",
+          "part": 2
+        },
+        {
+          "episode": "E07",
+          "part": 3
+        },
+        {
+          "episode": "E09",
+          "part": 2
+        },
+        {
+          "episode": "E09",
+          "part": 7
+        },
+        {
+          "episode": "E09",
+          "part": 8
+        },
+        {
+          "episode": "E09",
+          "part": 9
+        },
+        {
+          "episode": "E09",
+          "part": 10
+        },
+        {
+          "episode": "E10",
+          "part": 7
+        },
+        {
+          "episode": "E11",
+          "part": 1
+        },
+        {
+          "episode": "E11",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "key": "Bantu–Bobby twin academic",
+      "nodes": [
+        {
+          "episode": "E07",
+          "part": 11
+        },
+        {
+          "episode": "E07",
+          "part": 12
+        },
+        {
+          "episode": "E08",
+          "part": 1
+        },
+        {
+          "episode": "E08",
+          "part": 3
+        },
+        {
+          "episode": "E08",
+          "part": 8
+        }
+      ]
+    },
+    {
+      "key": "Dhika–Raj",
+      "nodes": [
+        {
+          "episode": "E07",
+          "part": 2
+        },
+        {
+          "episode": "E07",
+          "part": 3
+        },
+        {
+          "episode": "E09",
+          "part": 2
+        },
+        {
+          "episode": "E09",
+          "part": 7
+        },
+        {
+          "episode": "E09",
+          "part": 8
+        },
+        {
+          "episode": "E09",
+          "part": 9
+        },
+        {
+          "episode": "E09",
+          "part": 10
+        },
+        {
+          "episode": "E11",
+          "part": 1
+        },
+        {
+          "episode": "E11",
+          "part": 2
+        },
+        {
+          "episode": "E11",
+          "part": 3
+        }
+      ]
+    },
+    {
+      "key": "Sharmi–John",
+      "nodes": [
+        {
+          "episode": "E07",
+          "part": 2
+        },
+        {
+          "episode": "E07",
+          "part": 3
+        },
+        {
+          "episode": "E09",
+          "part": 2
+        },
+        {
+          "episode": "E09",
+          "part": 7
+        },
+        {
+          "episode": "E09",
+          "part": 9
+        },
+        {
+          "episode": "E09",
+          "part": 10
+        },
+        {
+          "episode": "E10",
+          "part": 7
+        },
+        {
+          "episode": "E11",
+          "part": 1
+        },
+        {
+          "episode": "E11",
+          "part": 2
+        }
+      ]
+    }
+  ]
+}
