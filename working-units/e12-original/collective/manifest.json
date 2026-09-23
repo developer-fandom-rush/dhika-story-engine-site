@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0",
+  "episode": "E12",
+  "arc": "ARC 01 — The First Awakening",
+  "sourceAuthority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "marker": "EPISODE 12",
+    "lineCount": 153,
+    "rawStandaloneFile": false
+  },
+  "uiRange": "L1–L153",
+  "partCount": 8,
+  "partRanges": [
+    [
+      1,
+      18
+    ],
+    [
+      19,
+      40
+    ],
+    [
+      41,
+      61
+    ],
+    [
+      62,
+      85
+    ],
+    [
+      86,
+      109
+    ],
+    [
+      110,
+      126
+    ],
+    [
+      127,
+      140
+    ],
+    [
+      141,
+      153
+    ]
+  ],
+  "partView": {
+    "router": "index.html",
+    "renderer": "part.html",
+    "sourceLocalData": "data/partN.json",
+    "partNotes": "data/part-notes.json",
+    "partLedger": "data/ledger.json",
+    "visibleTabs": [
+      "40/40 Reading",
+      "Story + Images",
+      "Character Evolution",
+      "Relationship Progression",
+      "Reader Analysis Section",
+      "Relationship History Ledger",
+      "Storytelling & Authoring Notes"
+    ]
+  },
+  "episodeView": {
+    "router": "collective/index.html",
+    "architecture": "six separately lazy-loaded modules",
+    "sections": {
+      "story": "collective/sections/story/index.html",
+      "character": "collective/sections/character/index.html",
+      "relationships": "collective/sections/relationships/index.html",
+      "reader": "collective/sections/reader/index.html",
+      "ledger": "collective/sections/ledger/index.html",
+      "author": "collective/sections/author/index.html"
+    }
+  },
+  "backend": {
+    "encounterHistory": "E12_ENCOUNTER_HISTORY.md",
+    "machineEventStore": "e12.encounter-history.json",
+    "authorAnalysis": "E12_AUTHORING_ANALYSIS.md",
+    "characterDossiers": "collective/data/character-dossiers.json",
+    "relationshipDossiers": "collective/data/relationship-dossiers.json",
+    "readerAnalysis": "collective/data/reader-analysis.json",
+    "authorNotes": "collective/data/author-notes.json"
+  },
+  "images": {
+    "generatedInThisPass": false,
+    "execution": "deferred by user",
+    "approvedAssetsModified": false
+  },
+  "qa": {
+    "sourceRows": 153,
+    "sourceRowsMatchDriveExactlyAfterTrim": true,
+    "sourceLabelsSequential": true,
+    "localLinesNonempty": 153,
+    "localStatus": "complete draft; manual semantic and author review pending",
+    "hardStop": "E12 L153",
+    "sourceAmbiguities": [
+      "E12 L135 source speaker Bantu conflicts with apparent Dhika-like action/dialogue; RAW unchanged, author review pending"
+    ],
+    "priorEpisodesInherited": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11"
+    ],
+    "visibleLedger": "nine persistent groups, pointer-only; only qualifying E12 Part nodes appended",
+    "liveRenderedBrowserCheck": "pending",
+    "authorApproval": "pending"
+  }
+}
