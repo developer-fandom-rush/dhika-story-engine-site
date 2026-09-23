@@ -1,0 +1,112 @@
+{
+  "episode": "E03",
+  "part": "P10",
+  "sourceLines": "L180–L196",
+  "assetSource": "DHIKA Story Engine — Image Asset Vault/E03/P10/00_INBOX_UNREVIEWED",
+  "storyFile": "working-units/e03-original/part10.html",
+  "reviewState": "DRIVE_MAPPED_PENDING_REVIEW",
+  "workflow": "Drive-first; pending Dev on-page review; previous approved assets left unchanged",
+  "images": [
+    {
+      "sourceRange": "L180",
+      "canonicalFilename": "e03-p10-l180.png",
+      "driveFileId": "1at-e1C8oBp9Bhb0_e2582YUe0Dx_xSDw",
+      "driveViewUrl": "https://drive.google.com/file/d/1at-e1C8oBp9Bhb0_e2582YUe0Dx_xSDw/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Saturday's family movie outing; Dhika's happier state returns."
+    },
+    {
+      "sourceRange": "L181",
+      "canonicalFilename": "e03-p10-l181.png",
+      "driveFileId": "1dQy4gXfHzzmnBVVtH1lql1ciuD_7aULY",
+      "driveViewUrl": "https://drive.google.com/file/d/1dQy4gXfHzzmnBVVtH1lql1ciuD_7aULY/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Sunday around noon: John prepares to leave for errands."
+    },
+    {
+      "sourceRange": "L182",
+      "canonicalFilename": "e03-p10-l182.png",
+      "driveFileId": "1TKvcdxdg4lw-l9iF3788w9q39r7D9Z0o",
+      "driveViewUrl": "https://drive.google.com/file/d/1TKvcdxdg4lw-l9iF3788w9q39r7D9Z0o/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Dhika asks John to take Pappu along."
+    },
+    {
+      "sourceRange": "L188",
+      "canonicalFilename": "e03-p10-l188.png",
+      "driveFileId": "1xzNeshLztxCdNn_7c8MoDrq32gcJwVfL",
+      "driveViewUrl": "https://drive.google.com/file/d/1xzNeshLztxCdNn_7c8MoDrq32gcJwVfL/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Dhika, tired after cleaning, begins scraping old paint."
+    },
+    {
+      "sourceRange": "L189",
+      "canonicalFilename": "e03-p10-l189.png",
+      "driveFileId": "1fKm_FedRzsL1pxcR_gc0f9rRUu5Kbh_6",
+      "driveViewUrl": "https://drive.google.com/file/d/1fKm_FedRzsL1pxcR_gc0f9rRUu5Kbh_6/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Dhika pauses over the painting work and recalls the earlier quick kiss with Chotu; shy hesitation."
+    },
+    {
+      "sourceRange": "L183-186",
+      "canonicalFilename": "e03-p10-l183-186.png",
+      "driveFileId": "1XUOsHO5kMJ83SQ9CVH0ok90dAh0UUfkt",
+      "driveViewUrl": "https://drive.google.com/file/d/1XUOsHO5kMJ83SQ9CVH0ok90dAh0UUfkt/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "John and Dhika discuss Pappu's routine and her painting-safety request."
+    },
+    {
+      "sourceRange": "L190-193",
+      "canonicalFilename": "e03-p10-l190-193.png",
+      "driveFileId": "1X56G9DgIpSu6MQcLj3qr83foYDLAkOKc",
+      "driveViewUrl": "https://drive.google.com/file/d/1X56G9DgIpSu6MQcLj3qr83foYDLAkOKc/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Phone call: Dhika checks whether Chotu is available to help paint."
+    },
+    {
+      "sourceRange": "L194-196",
+      "canonicalFilename": "e03-p10-l194-196.png",
+      "driveFileId": "1G8yv8DOtNkGO3tUUHOUoSGFjwiozz3vJ",
+      "driveViewUrl": "https://drive.google.com/file/d/1G8yv8DOtNkGO3tUUHOUoSGFjwiozz3vJ/view?usp=drivesdk",
+      "status": "DRIVE_MAPPED_PENDING_REVIEW",
+      "reviewStatus": "PENDING_DEV_REVIEW",
+      "scene": "Maami checks availability and confirms Chotu can arrive in about fifteen minutes; Dhika thanks her."
+    }
+  ],
+  "missing": [
+    {
+      "sourceRange": "L187",
+      "status": "MISSING",
+      "reason": "No candidate image found in Drive; do not substitute L183-L186 image for the departure.",
+      "prompt": "One realistic Sunday-noon departure frame: John takes Pappu with him so Dhika can paint safely; Dhika remains at home. Preserve established family visual continuity. Single scene."
+    }
+  ],
+  "notMappedAlternate": [
+    {
+      "sourceRange": "L195–L196",
+      "filename": "e03-p10-l195-196.png",
+      "driveFileId": "1UYHKviOVj0BnoJ5Z7YBkic9G3O2Btbge",
+      "reason": "Overlaps L194-L196 candidate; retained untouched in inbox rather than showing duplicate frame."
+    }
+  ],
+  "continuity": {
+    "l189Recall": "Earlier quick kiss and unresolved response are documented in E03 P5 L88–L94 and E03 P6 L95–L96; visual memory bubble is a recall of that event, not a new kiss."
+  },
+  "pageRendering": {
+    "mode": "Google Drive iframe preview",
+    "anonymousVisibility": "not verified; Drive metadata currently reports not_shared"
+  },
+  "sourceIntegrity": {
+    "localLanguageLines": 17,
+    "sourceRangeStart": 180,
+    "sourceRangeEnd": 196,
+    "originalReadingSectionUnmodified": true
+  }
+}
