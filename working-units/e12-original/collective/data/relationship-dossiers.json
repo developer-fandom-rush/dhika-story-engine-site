@@ -1,0 +1,292 @@
+{
+  "episode": "E12",
+  "schemaVersion": "1.2",
+  "coverage": "P1–P8 · L1–153",
+  "pairModuleBlocks": 8,
+  "priorAuthority": "E11 pair dossiers + E06–E11 canonical histories",
+  "authorReview": "pending",
+  "dossiers": [
+    {
+      "key": "dhika-bobby",
+      "name": "Dhika ↔ Bobby",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): No E11 direct contact; E09 remote route remains inherited only.",
+      "actions": [
+        {
+          "evidence": "E12 P2 L19–40",
+          "text": "Teacher–twins academic relationship advances toward competition. Bantu and Bobby differ in what earlier encounters they privately recall. Tuesday quick hugs are greetings and not permission for later massage, clothing demands or intimate contact."
+        },
+        {
+          "evidence": "E12 P3 L41–61",
+          "text": "The previous E08 Bantu deliberate incident informs Dhika's refusal. Both twins proceed with massage despite initial refusal, so subsequent pleasurable response must not be rewritten as consent to starting. Bobby's higher knee massage is source described as casual while Dhika interprets helpful intent."
+        },
+        {
+          "evidence": "E12 P4 L62–85",
+          "text": "Three actor knowledge states diverge: Dhika knows her left foot touches Bobby; Bobby fears she may not know; Bantu is initially unaware until L81 and then plans. No explicit conversational agreement is obtained."
+        },
+        {
+          "evidence": "E12 P5 L86–109",
+          "text": "Twin joint massage shifts into intimacy with unverified permissions. Bantu's apparently accidental second slip is narrated as manufactured. Explicit no to T-shirt removal is a separate boundary even amid Dhika's physical arousal."
+        },
+        {
+          "evidence": "E12 P6 L110–126",
+          "text": "Dhika–Bantu relationship crosses a new bodily boundary through unrequested direct breast touch and tasting her expressed milk. Dhika–Bobby visual awareness occurs but Bobby did not perform this act. No permission follows simply from removing T-shirt or earlier bra-view history."
+        },
+        {
+          "evidence": "E12 P7 L127–140",
+          "text": "Bantu's apologized boundary action creates tension and jealousy/inequality in Bobby. This is a newly introduced Bobby request; Dhika does not agree. All three hear Bobby's statement at L140."
+        },
+        {
+          "evidence": "E12 P8 L141–153",
+          "text": "The milk incident causes distinct pair states: Dhika–Bantu apology and continued refusal; Dhika–Bobby unfulfilled request plus emotional reassurance attempt. Twin rivalry/inequality is now a visible interpersonal hook. No milk is given to Bobby."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Bobby",
+          "text": "Dhika initially interprets Bobby's knee massage as practical relief; recognizes accidental foot contact and later makes one deliberate small foot movement while debating removal; feels physical pleasure, then becomes aware of Bobby's disappointment after Bantu alone tastes milk. She explicitly decides giving Bobby milk crosses limits."
+        },
+        {
+          "direction": "Bobby → Dhika",
+          "text": "Bobby privately remembers their E09 remote call on arrival, fears Dhika has noticed foot slip, follows Bantu's signal, and later requests milk after seeing Bantu taste a drop. He remains disappointed despite verbal reassurance."
+        }
+      ],
+      "changes": "E12 P2: Teacher–twins academic relationship advances toward competition. Bantu and Bobby differ in what earlier encounters they privately recall. Tuesday quick hugs are greetings and not permission for later massage, clothing demands or intimate contact. E12 P3: The previous E08 Bantu deliberate incident informs Dhika's refusal. Both twins proceed with massage despite initial refusal, so subsequent pleasurable response must not be rewritten as consent to starting. Bobby's higher knee massage is source described as casual while Dhika interprets helpful intent. E12 P4: Three actor knowledge states diverge: Dhika knows her left foot touches Bobby; Bobby fears she may not know; Bantu is initially unaware until L81 and then plans. No explicit conversational agreement is obtained. E12 P5: Twin joint massage shifts into intimacy with unverified permissions. Bantu's apparently accidental second slip is narrated as manufactured. Explicit no to T-shirt removal is a separate boundary even amid Dhika's physical arousal. E12 P6: Dhika–Bantu relationship crosses a new bodily boundary through unrequested direct breast touch and tasting her expressed milk. Dhika–Bobby visual awareness occurs but Bobby did not perform this act. No permission follows simply from removing T-shirt or earlier bra-view history. E12 P7: Bantu's apologized boundary action creates tension and jealousy/inequality in Bobby. This is a newly introduced Bobby request; Dhika does not agree. All three hear Bobby's statement at L140. E12 P8: The milk incident causes distinct pair states: Dhika–Bantu apology and continued refusal; Dhika–Bobby unfulfilled request plus emotional reassurance attempt. Twin rivalry/inequality is now a visible interpersonal hook. No milk is given to Bobby.",
+      "knowledge": "Dhika privately knows foot contact and her one small movement; Bobby hopes she is unaware and does not learn her full thoughts. Bantu first lacks awareness then sees movement; Bobby directly witnesses Bantu milk tasting and hears Dhika refuse both.",
+      "permission": "Dhika first refuses leg massage (L51, L55, L57); Bobby insists, participates and later moves higher without a fresh check. His initial foot slip was accidental and subsequent continuation deliberate inaction. Her later self-movement is a distinct action. At L144 she explicitly tells Bobby milk is not for him; no tasting permission.",
+      "final": "Tuesday tuition academic goals are met, but Bobby follows Bantu into initially refused leg massage, then experiences an accidental first foot slip and privately worries Dhika has noticed. She makes a later small deliberate foot move; Bobby follows Bantu's quiet cue into higher massage. He sees Bantu's uninvited milk act, asks why he did not taste milk, receives Dhika's express refusal and remains sad by L153. She does not offer milk to him.",
+      "negative": "No E12 direct permission to begin massage after Dhika's no. First foot contact is accidental; later deliberate movements are distinct. Bobby's upper-thigh first intent is explicitly unresolved. Dhika never grants or provides Bobby milk. His sadness does not create entitlement."
+    },
+    {
+      "key": "dhika-chotu",
+      "name": "Dhika ↔ Chotu / Babu",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): E11 closes at L157 during a mutually intensified kissing/contact sequence initiated/re-initiated by Dhika after an earlier P6 boundary crossing and apology. Current mutuality does not retroactively authorize P6 or E06 conduct; aftermath is unresolved.",
+      "actions": [
+        {
+          "evidence": "E12 P1 L1–18",
+          "text": "Dhika–Chotu mutual E11 intensity is interrupted without a full reconciliation, consent discussion or afterward explanation; their existing earlier history stays intact. John has no sourced knowledge of this private encounter."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Chotu",
+          "text": "Dhika is embarrassed that she moaned, cannot explain it and next day privately feels shyness, guilt and sadness about someone other than John."
+        },
+        {
+          "direction": "Chotu → Dhika",
+          "text": "Chotu hears the sound, asks what happened and what it means but receives no explanation before childcare call ends encounter."
+        }
+      ],
+      "changes": "E12 P1: Dhika–Chotu mutual E11 intensity is interrupted without a full reconciliation, consent discussion or afterward explanation; their existing earlier history stays intact. John has no sourced knowledge of this private encounter.",
+      "knowledge": "Chotu hears her moan and question goes unanswered. On Tuesday Dhika thinks of it alone; no John disclosure verified.",
+      "permission": "Monday encounter stops due to Aunty's call. Earlier E06 ignored stop history and E11 boundary facts remain separately documented; no E12 grant or retroactive consent.",
+      "final": "Monday scene ends after Aunty childcare call. Chotu asks about E11 moan but Dhika does not explain. Tuesday she privately remembers contact with guilt/uncertainty. There is no E12 repeat meeting, reconciliation conversation or new physical act.",
+      "negative": "No E12 further physical act beyond E11 cutoff; no explanation of the moan to Chotu; no disclosure to John. Childcare interruption is not aftercare confirmation."
+    },
+    {
+      "key": "dhika-john",
+      "name": "Dhika ↔ John",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): Cinema route shows both spouses observing cross-pair playful/fear reactions without an E11 confrontation. John is absent from next-day Chotu encounter and has no sourced knowledge of it.",
+      "actions": [
+        {
+          "evidence": "E12 P1 L1–18",
+          "text": "Dhika–Chotu mutual E11 intensity is interrupted without a full reconciliation, consent discussion or afterward explanation; their existing earlier history stays intact. John has no sourced knowledge of this private encounter."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → John",
+          "text": "John is her comparison in Tuesday's private reflection; she does not report the Chotu experience to him in E12."
+        },
+        {
+          "direction": "John → Dhika",
+          "text": "No E12 John interior state is narrated or directly shown."
+        }
+      ],
+      "changes": "E12 P1: Dhika–Chotu mutual E11 intensity is interrupted without a full reconciliation, consent discussion or afterward explanation; their existing earlier history stays intact. John has no sourced knowledge of this private encounter.",
+      "knowledge": "John observes Dhika's Raj handshake, new white dress, tea laughter, final hug. He is not present for private Bobby video or Saturday morning Chotu talk/kiss and is not shown learning their details.",
+      "permission": "Social hugging/flirting jokes do not equal partnership-rule change. John teasing Dhika about dress doesn't determine what she must wear. Dhika's choice of Raj hug is her own, not a confession of sexual intent.",
+      "final": "Marriage remains existing context; Tuesday Dhika privately reflects on physical contact with someone other than John and cannot decide how to evaluate it. John has no verified E12 knowledge and appears in no E12 direct scene.",
+      "negative": "No John witness, confession, knowledge transfer or marital decision occurs in E12."
+    },
+    {
+      "key": "dhika-raj",
+      "name": "Dhika ↔ Raj",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): Friendship deepens through cinema conversation, involuntary fear-hand grip, Raj's privacy shield for shifted saree and Dhika's next-day positive recollection. No affair/confession established.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "Dhika → Raj",
+          "text": "Dhika privately remembers film interactions next morning and frames increased closeness as friendship/respect."
+        },
+        {
+          "direction": "Raj → Dhika",
+          "text": "Raj gives attention while preserving space, reassures after fear-grip, and shields shifted saree for privacy."
+        }
+      ],
+      "changes": "No qualifying E12 direct relationship event; inherit E11 state unchanged.",
+      "knowledge": "Both know group dinner/movie plan; John hears Dhika kitchen giggles but not entire conversation and sees later sitting. Raj does not know Dhika's private Chotu/Bobby history.",
+      "permission": "Friday handshake is explicitly Dhika's choice amid pressure; Saturday hug newly initiated by Dhika and only a light farewell hug. No permission for intimate touch extrapolated.",
+      "final": "No E12 contact. E11 friendship/respect remains historical; nothing further verified.",
+      "negative": "No new E12 encounter or changed friendship state."
+    },
+    {
+      "key": "john-sharmi",
+      "name": "John ↔ Sharmi",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): Public flirt/tactile dynamic becomes stronger at cinema, including deliberate lap contact and jump-scare chest hold. Sharmi says she/Raj have an understanding; exact scope is undefined. No independent affair label.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "John → Sharmi",
+          "text": "The narrator shows John looking at Sharmi's outfit at L128; no independently verified commitment beyond playful banter."
+        },
+        {
+          "direction": "Sharmi → John",
+          "text": "She deliberately surprise-hugs John at L124 and jokes she is used to flirting with others; her account of Raj's tolerance is a claim."
+        }
+      ],
+      "changes": "No qualifying E12 direct relationship event; inherit E11 state unchanged.",
+      "knowledge": "Dhika and Raj are nearby during cinema; John directly experiences Sharmi's contacts. Sharmi's marital-understanding statement is heard by John but its scope is not clarified.",
+      "permission": "Mutual social embraces are observed, not marriage-boundary renegotiation. Winks, drinks and jokes are not evidence of future physical access.",
+      "final": "No E12 contact. E11 cinema dynamic remains historical.",
+      "negative": "No E12 scene or newly granted marriage permission."
+    },
+    {
+      "key": "sharmi-raj",
+      "name": "Sharmi ↔ Raj",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): Sharmi reports pre-arranged seating intent and says she/Raj have an understanding. Raj's subtle grin supports comfort with seating but does not define permission scope.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "Sharmi → Raj",
+          "text": "Public joking that he overspends/show-offs and movie-room plan; source gives no marriage dissatisfaction confession."
+        },
+        {
+          "direction": "Raj → Sharmi",
+          "text": "Defends enthusiasm for home upgrades and movie hobby, jokes about men's appreciation; no private nonmonogamy statement."
+        }
+      ],
+      "changes": "No qualifying E12 direct relationship event; inherit E11 state unchanged.",
+      "knowledge": "Both know group invitation, family visit and movie plan. Sharmi observes Dhika's light Raj hug; Raj witnesses John goodbye hugs in shared departure scene.",
+      "permission": "Marital status stays established; public flirt exchanges with guests do not authorize affair narratives.",
+      "final": "No E12 contact or new information about Sharmi's claim of understanding.",
+      "negative": "No new E12 statement about their understanding."
+    },
+    {
+      "key": "dhika-sharmi",
+      "name": "Dhika ↔ Sharmi",
+      "setup": "E11 final baseline (read complete prior dossier for exact past events): Friendship remains playful; seat argument centers on John and Raj's reaction. No direct conflict or romantic act between women.",
+      "actions": [],
+      "thoughts": [
+        {
+          "direction": "Dhika → Sharmi",
+          "text": "Affectionate 'darling' greeting; sometimes annoyed by teasing, participates in joke about Sharmi trying to steal John."
+        },
+        {
+          "direction": "Sharmi → Dhika",
+          "text": "Playfully challenges socially reserved friend and enjoys surprise of her modern dress and Raj hug; no secret hostile plan confirmed."
+        }
+      ],
+      "changes": "No qualifying E12 direct relationship event; inherit E11 state unchanged.",
+      "knowledge": "Sharmi knows Friday handshake and Saturday chosen hug and sees new dress; not shown learning Dhika's private Bobby/Chotu interactions.",
+      "permission": "Friendship jokes do not mean Sharmi speaks for Dhika regarding embraces or spouse access.",
+      "final": "No E12 contact; earlier friendship and social dynamics remain historical.",
+      "negative": "No E12 scene."
+    },
+    {
+      "key": "dhika-bantu",
+      "name": "Dhika ↔ Bantu",
+      "setup": "E11 active Bantu route absent. E08 prior in-person massage encounter included his deliberate foot-to-clothed-crotch contact, which caused Dhika to end it; E12 begins at Tuesday pre-competition tuition.",
+      "actions": [
+        {
+          "evidence": "E12 P2 L19–40",
+          "text": "Teacher–twins academic relationship advances toward competition. Bantu and Bobby differ in what earlier encounters they privately recall. Tuesday quick hugs are greetings and not permission for later massage, clothing demands or intimate contact."
+        },
+        {
+          "evidence": "E12 P3 L41–61",
+          "text": "The previous E08 Bantu deliberate incident informs Dhika's refusal. Both twins proceed with massage despite initial refusal, so subsequent pleasurable response must not be rewritten as consent to starting. Bobby's higher knee massage is source described as casual while Dhika interprets helpful intent."
+        },
+        {
+          "evidence": "E12 P4 L62–85",
+          "text": "Three actor knowledge states diverge: Dhika knows her left foot touches Bobby; Bobby fears she may not know; Bantu is initially unaware until L81 and then plans. No explicit conversational agreement is obtained."
+        },
+        {
+          "evidence": "E12 P5 L86–109",
+          "text": "Twin joint massage shifts into intimacy with unverified permissions. Bantu's apparently accidental second slip is narrated as manufactured. Explicit no to T-shirt removal is a separate boundary even amid Dhika's physical arousal."
+        },
+        {
+          "evidence": "E12 P6 L110–126",
+          "text": "Dhika–Bantu relationship crosses a new bodily boundary through unrequested direct breast touch and tasting her expressed milk. Dhika–Bobby visual awareness occurs but Bobby did not perform this act. No permission follows simply from removing T-shirt or earlier bra-view history."
+        },
+        {
+          "evidence": "E12 P7 L127–140",
+          "text": "Bantu's apologized boundary action creates tension and jealousy/inequality in Bobby. This is a newly introduced Bobby request; Dhika does not agree. All three hear Bobby's statement at L140."
+        },
+        {
+          "evidence": "E12 P8 L141–153",
+          "text": "The milk incident causes distinct pair states: Dhika–Bantu apology and continued refusal; Dhika–Bobby unfulfilled request plus emotional reassurance attempt. Twin rivalry/inequality is now a visible interpersonal hook. No milk is given to Bobby."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Dhika → Bantu",
+          "text": "Dhika recalls E08's deliberate prior contact and explicitly declines a new massage, later enjoys relief and recognizes high-thigh/foot sensations. She refuses shirt removal twice, then independently takes it off. She startles and covers breasts when Bantu touches bra and tastes milk without asking, calls it bad, refuses further milk and privately blames herself at endpoint."
+        },
+        {
+          "direction": "Bantu → Dhika",
+          "text": "Bantu plans and stages a second foot-to-crotch slip, cues Bobby into continued massage, repeatedly asks for shirt removal despite no, then impulsively touches/tastes milk. He apologizes but privately interprets her relatively mild reaction via an earlier promise; this differs from her narrated reason."
+        }
+      ],
+      "changes": "Tuition completes but Bantu repeatedly pushes contact boundaries: starts refused massage, stages a contact as accidental, persists after two clothing refusals, touches breast without asking, receives apology-demand and explicit milk refusal. Different phases and permissions must remain separate.",
+      "knowledge": "Bantu knows he staged the second slip and tasted milk; Dhika is not shown learning the staged nature. Bobby witnesses Bantu's milk act. Bantu privately believes an earlier promise explains Dhika's reaction, while narrator gives Dhika's own different self-attribution.",
+      "permission": "L51/L55/L57 massage refusals stand; L106/L108 clothing refusals stand; L113 self-removal only. L124 breast/milk touch has no prior asking or permission and triggers L125–126 startling/crossed arms. L133 verbal criticism; L144–146 subsequent milk request explicitly denied.",
+      "final": "Bantu tasted one drop without asking and apologizes; Dhika refuses any second drop and says milk is not for either twin. His act becomes Bobby's jealousy/disappointment hook; no further consent or milk shared by L153.",
+      "negative": "Dhika's self-removal or playful later reaction does not grant Bantu retroactive permission. His staged foot-slip must not be represented as accidental. No repeat milk drop or E13 continuation occurs."
+    },
+    {
+      "key": "bantu-bobby",
+      "name": "Bantu ↔ Bobby — twin coordination / inequity",
+      "setup": "E08–E11 academic twin bond and distinct contact histories. E12 Tuesday pre-competition tuition together; they do not share all private memories of separate Dhika interactions.",
+      "actions": [
+        {
+          "evidence": "E12 P2 L19–40",
+          "text": "Teacher–twins academic relationship advances toward competition. Bantu and Bobby differ in what earlier encounters they privately recall. Tuesday quick hugs are greetings and not permission for later massage, clothing demands or intimate contact."
+        },
+        {
+          "evidence": "E12 P4 L62–85",
+          "text": "Three actor knowledge states diverge: Dhika knows her left foot touches Bobby; Bobby fears she may not know; Bantu is initially unaware until L81 and then plans. No explicit conversational agreement is obtained."
+        },
+        {
+          "evidence": "E12 P5 L86–109",
+          "text": "Twin joint massage shifts into intimacy with unverified permissions. Bantu's apparently accidental second slip is narrated as manufactured. Explicit no to T-shirt removal is a separate boundary even amid Dhika's physical arousal."
+        },
+        {
+          "evidence": "E12 P6 L110–126",
+          "text": "Dhika–Bantu relationship crosses a new bodily boundary through unrequested direct breast touch and tasting her expressed milk. Dhika–Bobby visual awareness occurs but Bobby did not perform this act. No permission follows simply from removing T-shirt or earlier bra-view history."
+        },
+        {
+          "evidence": "E12 P7 L127–140",
+          "text": "Bantu's apologized boundary action creates tension and jealousy/inequality in Bobby. This is a newly introduced Bobby request; Dhika does not agree. All three hear Bobby's statement at L140."
+        },
+        {
+          "evidence": "E12 P8 L141–153",
+          "text": "The milk incident causes distinct pair states: Dhika–Bantu apology and continued refusal; Dhika–Bobby unfulfilled request plus emotional reassurance attempt. Twin rivalry/inequality is now a visible interpersonal hook. No milk is given to Bobby."
+        }
+      ],
+      "thoughts": [
+        {
+          "direction": "Bantu → Bobby",
+          "text": "Bantu actively signals Bobby to see the clothing gap, then watches Bobby's foot situation and stages matching contact. He signals Bobby to continue higher thigh massage and later tastes milk without a prior agreement."
+        },
+        {
+          "direction": "Bobby → Bantu",
+          "text": "Bobby follows several nonverbal cues; he alone experiences initial accidental foot-slip. After watching Bantu taste milk, he says he could not taste it too and remains disappointed despite Dhika reassurance."
+        }
+      ],
+      "changes": "Academic partners become coordinated massage participants; Bantu directs Bobby's visual attention and later physical continuation. Milk incident creates unequal experience and overt Bobby disappointment; no evidence of formal shared plan covering every act.",
+      "knowledge": "Bantu initially does not know Bobby's foot placement; later infers it from Dhika's small move. Bobby may not know Bantu deliberately staged the second slip. Both know Bantu sampled milk; only Bobby explicitly speaks disappointment by P7.",
+      "permission": "Their mutual signaling cannot substitute for Dhika's specific permission. Bobby's wish for equal milk experience does not create entitlement, particularly after Dhika refuses both twins.",
+      "final": "E12 stops while Bobby remains sad over Bantu-only milk tasting and Dhika privately rejects giving him a drop. Both still face planned Friday test and Saturday competition; no E13 resolution imported.",
+      "negative": "Not a sexual sibling relationship: coordination and rivalry concern separate adult interactions with Dhika. Neither brother has blanket permission from the other's actions."
+    }
+  ]
+}
