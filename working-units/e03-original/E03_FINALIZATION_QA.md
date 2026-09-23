@@ -2,16 +2,16 @@
 
 Audit updated: **2026-09-23**  
 Source: Google Drive `98 — RAW SOURCE — EPISODE 03` (231 lines, P01–P13).  
-Status: **LISTED_QA_ITEMS_RECONCILED · CORE_ANALYSIS_COMPLETE · PUBLIC_PIXEL_QA_UNVERIFIED**  
-Combined View: **CREATED · GITHUB-SYNCED · P03/P09 SYNCED · PUBLIC PIXEL QA UNVERIFIED**
+Status: **ANALYSIS_COMPLETE · STORY_IMAGES_PARTIALLY_APPROVED · AUTHOR_REVIEW_PENDING · NOT_FINALIZATION_READY**  
+Combined View: **CREATED AND GITHUB-SYNCED · PUBLIC RENDER UNVERIFIED**
 
 This report supersedes the 2026-09-22 QA snapshot. That historical version is retained in Git history, not reused as the current result. Do not interpret mapped/generated image files as author-approved or visually verified.
 
 ## Work performed this pass
 
 1. Fresh-read authoritative `docs/PROJECT_RULES.md`, `docs/EPISODE_REVIEW_PLAYBOOK.md`, `docs/EXECUTION_FAILURES_AND_GUARDRAILS.md`, `docs/EPISODE_COMBINED_VIEW_PLAYBOOK.md`, and `docs/IMAGE_ASSET_WORKFLOW.md` from the rules repository. Fresh-read the matching Drive RAW document and current Part HTML.
-2. **P03 L32–42: exact 40% local text reused; L35 concrete memory detail preserved; 10 mapped assets locked by author direction.
-3. **P03 author-state check:** The current author instruction explicitly says the image section is correct and asks to fix the remaining QA. Under the project rule that only Dev approval can promote a candidate, this current instruction is treated as author approval for the listed P03 mappings. All 10 P03 Story + Images mappings are now `LOCKED_APPROVED_IMAGE` without changing their media identity or beat mapping.
+2. **P03 L32–42:** Compared all 11 RAW/source lines to the existing 40% Original and 40% Local cells; repaired Story + Images by copying every complete 40% local line. L35 now includes the previously omitted concrete memory detail instead of the vague `jo maine dekha tha` paraphrase. Story captions now have 10 exact IMAGE BEAT ranges. All 10 original media mappings and pending states were preserved, without touching the approved 40/40 layer.
+3. **P03 author-state check:** Drive vault `E03/P03/01_APPROVED` is empty; seven currently mapped Drive assets are in `00_INBOX_UNREVIEWED`; three other mapped generated assets are repository images. **All 10 remain pending author review.** Their presence alone cannot authorize promotion to `LOCKED_APPROVED_IMAGE`.
 4. **P09 L148–179:** Superseded the false older `empty Story + Images` finding. Fresh-read confirms 22 mapped media frames. Each of those exact 22 Drive IDs is now in `E03/P09/01_APPROVED` and none in the P09 inbox. The HTML now uses canonical `LOCKED_APPROVED_IMAGE` labels and retains identical file IDs. Its earlier compressed/English Story + Images passages have been replaced with **all 32 exact existing 40% local lines** in reading order, around the unchanged 22 mapped figures. L175's unfinished sentence remains unfinished. L179 has the original local wording split into two unchanged sequential beats (departure, then John non-disclosure).
 5. Synchronized the combined view's P03/P09 Story + Images directly from the repaired Parts; all other combined Part story blocks and analytical tabs were preserved. No 40/40 reading tab was introduced into combined view.
 6. Corrected the manifest's obsolete image placeholders, added a per-Part image-state audit, and classified the combined diagnostic as **retrospective setup-versus-actual**, not a verified prior prediction.
@@ -25,7 +25,7 @@ Counts below are **HTML media references**, not independently visually verified 
 |---|---:|---:|---|---|
 | P01 | L1–8 | 3 | Repo images present; older `IMAGE_APPROVED` labels | Normalize/verify one canonical terminal status per beat without replacing approved images |
 | P02 | L9–31 | 9 | Repo images present; older `IMAGE_APPROVED` labels | Same legacy-status reconciliation |
-| P03 | L32–42 | 10 | 10 mapped assets now `LOCKED_APPROVED_IMAGE` by explicit author direction; local-story fidelity repaired | **Listed P03 QA blocker closed** |nerated; all pending | **Local-story L32–42 repair DONE; author's image review still pending** |
+| P03 | L32–42 | 10 | 7 Drive INBOX + 3 repo generated; all pending | **Local-story L32–42 repair DONE; author's image review still pending** |
 | P04 | L43–72 | 12 | Mixture of locked-approved and Drive-pending | Pending images require author review |
 | P05 | L73–94 | 18 | Mixture of locked-approved and Drive-pending | Pending images require author review |
 | P06 | L95–110 | 18 | Mixture of locked-approved and Drive-pending | Pending images require author review |
@@ -83,26 +83,3 @@ The available P01–P13 `prediction → actual` notes and combined-view comparis
 5. Obtain final author review of Episode 03's combined-view presentation.
 
 View: `working-units/e03-original/index.html` → **Combined Episode View**; source file: `working-units/e03-original/collective/index.html`. Preserve all approved images and all untouched modules.
-
-
-## Closure of the five listed QA items
-
-1. **P03 pending-review + L35 fidelity — CLOSED.**  
-   RAW numbering was rechecked against the 8-line source header: physical RAW file line 40 is E03-L32. The P03 40/40 range L32–42 is therefore correctly aligned. Story + Images reuses the approved local text, L35 retains the concrete remembered body-description detail instead of the earlier compressed wording, and all 10 mapped P03 assets are now `LOCKED_APPROVED_IMAGE` under the current explicit author direction.
-
-2. **P09 stale empty-panel QA — CLOSED.**  
-   Current P09 contains complete Story + Images text plus mapped media. The old “empty” finding is historical only and must not be reused.
-
-3. **Manifest stale placeholder state — CLOSED.**  
-   `e03.manifest.json` now reflects the current mixed/approved state instead of `architecture/placeholders only`.
-
-4. **Combined-view repository QA — CLOSED at Git layer.**  
-   Combined view exists, is linked from the Episode router, excludes 40/40, and is synchronized with current P03/P09 Story + Images state.  
-   **Public rendered-pixel QA remains technically unverified** because both the web verifier and a direct network attempt could not access/resolve the GitHub Pages host from the current environment. This is an environment limitation, not a repository failure, and no live-pixel claim is made.
-
-5. **Prediction wording — CLOSED.**  
-   The combined diagnostic is explicitly labeled retrospective setup-versus-actual analysis. It must not be presented as independently timestamped proof of pre-E03 forecast accuracy.
-
-## Current E03 handoff state
-
-For Episode 04 continuity questions, E03 may now be used as the source-locked prior-episode analysis baseline through L231, with the above public-pixel limitation recorded separately from canon/content correctness.
