@@ -1,0 +1,43 @@
+{
+  "episode": "E11",
+  "authorReview": "pending",
+  "blocks": [
+    {
+      "id": 2,
+      "title": "Erotic / Sexual Tension Progression",
+      "body": "Cinema route P1–P2 develops two cross-pair dynamics in parallel: Sharmi deliberately engineers seating beside John and touches across his lap; later the horror scare creates reactive physical contact. Dhika's fear-grip on Raj is involuntary and followed by apology, while Raj's later saree assistance is privacy-protective. The next-day route is separate: Dhika–Chotu painting begins as practical help, evolves into paint-cleaning contact, a specific exposed-skin touch permission, then a below-skirt boundary crossing/apology, followed by explicitly re-invited kissing practice and increasingly mutual contact through L157.",
+      "evidence": "P1–P8 L1–157"
+    },
+    {
+      "id": 3,
+      "title": "Reader-Known Secrets & Dramatic Irony",
+      "body": "John hears Sharmi claim that she and Raj have an understanding, but neither John nor reader receives an exact rulebook for it. Dhika privately remembers Raj the next morning and blushes; this is not shared with John or Raj. During painting, reader gets Chotu's private arousal and Dhika's private excitement, including a near-touch she stops before contact; neither character knows every internal thought of the other. John is absent from the evening Chotu interaction.",
+      "evidence": "P1 L22–27; P3 L50–52; P4–P8"
+    },
+    {
+      "id": 4,
+      "title": "Major Turning Points & Why They Matter",
+      "body": "P1 resolves E10 cinema-arrival setup into an intentionally mixed seating arrangement. P2 gives Dhika a concrete reason to respect Raj more: he protects her privacy after noticing her shifted saree. P3 carries that respect into next-day private memory and separately sets the evening painting session with Chotu. P5 turns practical paint cleanup into a verbal desire request. P6 clearly separates permitted exposed-skin touch from an unrequested under-skirt touch and immediate apology. P7 creates a fresh, explicit kissing-practice invitation. P8 intensifies mutuality but ends before aftermath.",
+      "evidence": "P1–P8"
+    },
+    {
+      "id": 5,
+      "title": "Open Hooks / Unresolved Questions",
+      "body": "Sharmi and Raj's 'understanding' remains undefined. Dhika's increased friendship/respect toward Raj is established but no affair or confession exists. The E11 Dhika–Chotu scene stops abruptly at L157 after Dhika hears herself moan; no emotional processing, boundary reset or next action is available inside E11. E06 boundary history therefore remains relevant despite current mutual affection.",
+      "evidence": "P1–P3; P6–P8; E06 carry-forward"
+    },
+    {
+      "id": 6,
+      "title": "Reader Possibilities — NON-CANON",
+      "body": "Future jealousy, spouse disclosure, Raj's interpretation of Dhika, or continuation of the Chotu encounter belong only to speculation until later source provides them. Sharmi's claim of marital understanding might explain some public flirt tolerance, but its exact scope cannot be invented. Current mutual kissing cannot be generalized into future blanket permission.",
+      "evidence": "P1–P8",
+      "nonCanon": true
+    },
+    {
+      "id": 7,
+      "title": "Episode-End Reader Carry-Forward",
+      "body": "Hard stop is E11 L157: only Dhika and adult Chotu are present; the encounter is in an intensified mutual kissing/contact phase, Dhika hears her own light moan and freezes. No E12 reaction may be imported. Parallel cinema thread earlier leaves Dhika with increased respect/friendship toward Raj and leaves Sharmi's marital-understanding claim unresolved.",
+      "evidence": "P8 L146–157"
+    }
+  ]
+}
