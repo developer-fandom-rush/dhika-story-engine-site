@@ -141,7 +141,8 @@
       "modality": "SEEN",
       "detail": "Dhika watches Sharmi claim John's seat and sees Sharmi place a hand across his lap/crotch.",
       "certainty": "direct observation",
-      "permission": "no blanket partner permission"
+      "permission": "no blanket partner permission",
+      "intentionality": "observed_deliberate_action"
     },
     {
       "id": "E11-IP-002",
@@ -153,7 +154,8 @@
       "modality": "ACTION",
       "detail": "Sharmi deliberately places hand across John's lap/crotch while stopping him from moving seats.",
       "certainty": "source narrated",
-      "permission": "John does not explicitly invite"
+      "permission": "John does not explicitly invite",
+      "intentionality": "deliberate_by_sharmi"
     },
     {
       "id": "E11-IP-003",
@@ -165,7 +167,8 @@
       "modality": "HEARD",
       "detail": "Sharmi says she and Raj are very close and have an understanding.",
       "certainty": "attributed claim",
-      "permission": "scope unspecified"
+      "permission": "scope unspecified",
+      "intentionality": "attributed_statement"
     },
     {
       "id": "E11-IP-004",
@@ -177,7 +180,8 @@
       "modality": "HEARD",
       "detail": "John reassures Dhika that Raj would like her company; Raj later sits beside her.",
       "certainty": "direct dialogue/action",
-      "permission": "social seating only"
+      "permission": "social seating only",
+      "intentionality": "social_seating_reassurance"
     },
     {
       "id": "E11-IP-005",
@@ -189,7 +193,8 @@
       "modality": "SEEN",
       "detail": "Raj gives Dhika attention while preserving armrest and personal space.",
       "certainty": "source narrated",
-      "permission": "gentlemanly behavior"
+      "permission": "gentlemanly behavior",
+      "intentionality": "deliberate_gentlemanly_space"
     },
     {
       "id": "E11-IP-006",
@@ -201,7 +206,8 @@
       "modality": "ACTION",
       "detail": "Repeated movement causes John's elbow to contact side of Sharmi's chest; after his apology she says it is okay.",
       "certainty": "source narrated",
-      "permission": "immediate context only"
+      "permission": "immediate context only",
+      "intentionality": "accidental_contact_then_contextual_acceptance"
     },
     {
       "id": "E11-IP-007",
@@ -213,7 +219,8 @@
       "modality": "ACTION",
       "detail": "Jump scare causes Sharmi to hold John's palm tightly to her chest; later John relaxes into sensation before film ends.",
       "certainty": "source narrated",
-      "permission": "fear reaction then later tolerance"
+      "permission": "fear reaction then later tolerance",
+      "intentionality": "jump_scare_reaction_then_later_tolerance"
     },
     {
       "id": "E11-IP-008",
@@ -225,7 +232,8 @@
       "modality": "ACTION",
       "detail": "Dhika involuntarily death-grips Raj's hand during jump scare, then apologizes; Raj reassures/jokes.",
       "certainty": "source narrated",
-      "permission": "involuntary then acknowledged"
+      "permission": "involuntary then acknowledged",
+      "intentionality": "involuntary_fear_grip"
     },
     {
       "id": "E11-IP-009",
@@ -237,7 +245,8 @@
       "modality": "ACTION",
       "detail": "Raj notices shifted saree/navel and shields Dhika while she fixes it.",
       "certainty": "source narrated",
-      "permission": "privacy assistance"
+      "permission": "privacy assistance",
+      "intentionality": "deliberate_privacy_assistance"
     },
     {
       "id": "E11-IP-010",
@@ -249,7 +258,8 @@
       "modality": "IMAGINED",
       "detail": "Dhika privately recalls prior movie interactions and blushes, framing increased closeness as friendship.",
       "certainty": "private thought",
-      "permission": "not shared knowledge"
+      "permission": "not shared knowledge",
+      "intentionality": "private_recollection"
     },
     {
       "id": "E11-IP-011",
@@ -261,7 +271,8 @@
       "modality": "ACTION",
       "detail": "Dhika invites Chotu to evening painting; he agrees if Maami has no work.",
       "certainty": "direct dialogue",
-      "permission": "painting invitation only"
+      "permission": "painting invitation only",
+      "intentionality": "deliberate_invitation"
     },
     {
       "id": "E11-IP-012",
@@ -273,7 +284,8 @@
       "modality": "SEEN",
       "detail": "Chotu scans Dhika's cropped old T-shirt/bare stomach and feels arousal; Dhika notices scanning.",
       "certainty": "mixed observation/private thought",
-      "permission": "clothing not permission"
+      "permission": "clothing not permission",
+      "intentionality": "visual_attention_private_arousal"
     },
     {
       "id": "E11-IP-013",
@@ -285,7 +297,8 @@
       "modality": "ACTION",
       "detail": "Chotu helps remove paint, has task-specific contact, compliments skin and explicitly asks/describes wanting to touch.",
       "certainty": "source narrated/dialogue",
-      "permission": "new permission not yet given"
+      "permission": "new permission not yet given",
+      "intentionality": "task_help_then_verbal_desire"
     },
     {
       "id": "E11-IP-014",
@@ -297,7 +310,8 @@
       "modality": "HEARD",
       "detail": "Dhika explicitly says okay to touch/feel exposed skin; Chotu traces hip/waist.",
       "certainty": "direct dialogue/action",
-      "permission": "specific exposed-skin scope"
+      "permission": "specific exposed-skin scope",
+      "intentionality": "explicit_permission_and_deliberate_touch"
     },
     {
       "id": "E11-IP-015",
@@ -309,7 +323,8 @@
       "modality": "ACTION",
       "detail": "Chotu drops finger below skirt waistline and touches top of butt; Dhika reacts sharply, Chotu stops and apologizes.",
       "certainty": "source narrated",
-      "permission": "outside prior stated scope"
+      "permission": "outside prior stated scope",
+      "intentionality": "deliberate_boundary_crossing_followed_by_stop"
     },
     {
       "id": "E11-IP-016",
@@ -321,7 +336,8 @@
       "modality": "ACTION",
       "detail": "Dhika pecks him, asks to continue kissing practice, and both reciprocate kisses; after clothed erection contact Chotu backs away/apologizes and Dhika reassures/re-initiates.",
       "certainty": "source narrated/dialogue",
-      "permission": "specific present kissing/reassurance"
+      "permission": "specific present kissing/reassurance",
+      "intentionality": "explicit_reinvitation_and_reciprocal_kissing"
     },
     {
       "id": "E11-IP-017",
@@ -333,7 +349,8 @@
       "modality": "ACTION",
       "detail": "Dhika pulls him closer, guides his hands to hips and deepens kiss; sustained mutual contact continues until her light moan and freeze.",
       "certainty": "source narrated",
-      "permission": "present encounter only; hard stop"
+      "permission": "present encounter only; hard stop",
+      "intentionality": "mutual_escalation_with_dhika_guiding_closeness"
     }
   ],
   "partSnapshots": [
