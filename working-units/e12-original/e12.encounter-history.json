@@ -1,0 +1,762 @@
+{
+  "schemaVersion": "1.2",
+  "episode": "E12",
+  "arc": "ARC 01 — The First Awakening",
+  "authority": {
+    "provider": "Google Drive",
+    "documentId": "1qBnwiT-o193-TWJJRRFivxn5OGxd7syD4jQdIauwKZg",
+    "marker": "EPISODE 12",
+    "lineCount": 153
+  },
+  "inheritedHistory": [
+    "E06_ENCOUNTER_HISTORY.md",
+    "E07_ENCOUNTER_HISTORY.md",
+    "E08_ENCOUNTER_HISTORY.md",
+    "E09_ENCOUNTER_HISTORY.md",
+    "E10_ENCOUNTER_HISTORY.md",
+    "E11_ENCOUNTER_HISTORY.md"
+  ],
+  "authorReview": "pending",
+  "events": [
+    {
+      "id": "E12-P01-E001",
+      "part": 1,
+      "sourceRange": "L1–18",
+      "scene": "Monday evening E11 cliffhanger resolves into interruption; Tuesday afternoon reflective reset and upcoming twins' tuition",
+      "participants": "Dhika and adult Chotu at Monday ending; Aunty by phone; Pappu offscene; Dhika solo Tuesday",
+      "event": "E11 L157 freeze continues: Dhika sits back blushing; Chotu kneels and asks what sound she made. She is embarrassed and cannot explain her moan. Aunty calls because Pappu is crying for Dhika; she promises arrival, goes bedroom, and Chotu dresses and leaves. Tuesday returning from college she privately reflects that physical contact with another male besides John, though clothed, elicited her moan; experiences shyness, guilt and sadness together and explicitly cannot decide right/wrong. She defers judgment to prepare for twins' requested tuition.",
+      "characterDelta": "Dhika's private emotional conflict remains unresolved at Tuesday reset. Chotu notices sound but receives no explicit explanation, and leaves on childcare interruption. Aunty requests ordinary parenting help, not an adult-interaction report.",
+      "relationshipDelta": "Dhika–Chotu mutual E11 intensity is interrupted without a full reconciliation, consent discussion or afterward explanation; their existing earlier history stays intact. John has no sourced knowledge of this private encounter.",
+      "readerKnowledge": "Reader knows Dhika's multiple private emotions and the physical reason she associates with the moan. Chotu directly heard the moan but she does not explain; John and Aunty do not receive a disclosure.",
+      "boundary": "No further touch after the freeze is documented. The phone interruption ends the encounter. Narrator calls Chotu a 'teenager', while approved continuity records Chotu as 19 and adult; preserve exact RAW label while flagging the apparent terminology issue rather than inventing a changed age.",
+      "authoring": "E11→E12 direct line continuity must be preserved; avoid importing any additional act from the E11 endpoint. Tuesday tuition is a time jump from Monday evening. E12 note source RAW L7 calls him 'teenager', but author-locked character age is 19.",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P02-E001",
+      "part": 2,
+      "sourceRange": "L19–40",
+      "scene": "Tuesday warm afternoon, home tuition for twins just before Saturday competition",
+      "participants": "Dhika, adult Bantu and Bobby; Pappu at Aunty's",
+      "event": "Dhika deliberately chooses short white shorts with high-neckline white half-sleeve V-neck T-shirt to limit distractions; Pappu is asleep at Aunty's and is scheduled to go with Aunty to temple/park. Both twins arrive, Bantu winks and references last in-person encounter with visual attention; Bobby privately remembers his E09 camera encounter and Dhika notices his thoughtfulness but does not know its contents. Each hugs teacher and unpacks notes. Competition is upcoming Saturday, only a few topics left. Twins ask for Wednesday/Thursday, but Dhika must work late at college those days. She offers 2–3 hours now and demands a Friday test before they leave. All three study undistracted for about two hours.",
+      "characterDelta": "Dhika prioritizes their academic preparation, sets an explicit Friday test and limited tuition availability. Bantu is openly teasing; Bobby is quieter with private prior-video memory. Both academically work without disruption for the core session.",
+      "relationshipDelta": "Teacher–twins academic relationship advances toward competition. Bantu and Bobby differ in what earlier encounters they privately recall. Tuesday quick hugs are greetings and not permission for later massage, clothing demands or intimate contact.",
+      "readerKnowledge": "Bantu knows his in-person E08 history; Bobby remembers E09 remote call. Dhika only infers Bobby might be remembering something, not definitive direct access to his thoughts. Pappu is absent from the adult study/interactions.",
+      "boundary": "No student request is consent to massage or exposure. Dhika's clothing is a practical choice and does not change contact boundaries. Do not turn Friday proposed test into one already held.",
+      "authoring": "Keep calendar: Tuesday tuition, Wednesday/Thursday late college, Friday mandatory test, Saturday competition/departure. Study lasts about two hours to two-and-a-half hours as narrated around the later time marker. Twin routes must be distinct.",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P03-E001",
+      "part": 3,
+      "sourceRange": "L41–61",
+      "scene": "After 2.5 hours of tuition; twins propose leg massage and begin before Dhika agrees",
+      "participants": "Dhika, Bantu, Bobby",
+      "event": "After completing remaining study, Dhika stretches and reports leg pain. Twins exchange a look, sit on floor in front of her and offer leg massage. She explicitly remembers prior E08 deliberate Bantu foot-to-clothed-crotch interaction and declines, telling them to get up. Bobby insists; Bantu takes her leg and begins without waiting for answer or further protest. Dhika verbalizes another 'no' but experiences relief. Bobby takes the other leg and both massage; Dhika thanks them for relief while saying they should not do it. Without asking Bobby moves hand higher toward knee; Dhika considers stopping but privately assumes his motive is pain relief and remains still.",
+      "characterDelta": "Dhika expresses clear reluctance twice before relaxing into physical relief and private reassessment. Bantu initiates despite refusal. Bobby presses and later extends contact beyond originally discussed foot without checking.",
+      "relationshipDelta": "The previous E08 Bantu deliberate incident informs Dhika's refusal. Both twins proceed with massage despite initial refusal, so subsequent pleasurable response must not be rewritten as consent to starting. Bobby's higher knee massage is source described as casual while Dhika interprets helpful intent.",
+      "readerKnowledge": "Reader knows Dhika's reason for reluctance and later private interpretation of Bobby. Twins are not told that reason. A 'thank you' for physical relief does not erase earlier 'no' statements.",
+      "boundary": "At L51 Dhika refuses; L53 Bantu proceeds without waiting. L55 and L57 further no/should-not statements remain source facts. Bobby moves upward without a new check. Do not mark initial massage 'explicitly consented'.",
+      "authoring": "Separate Bantu initiator from Bobby follower; E08 foot-to-crotch history is purposeful then, not a present automatic repeat. Map each stated refusal exactly; no sanitizing or retrospective consent.",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P04-E001",
+      "part": 4,
+      "sourceRange": "L62–85",
+      "scene": "Thigh-adjacent foot massage, panty-color sighting and accidental Bobby foot slip; asymmetric private knowledge",
+      "participants": "Dhika, Bantu, Bobby",
+      "event": "Bantu follows Bobby's higher massage. Dhika relaxes and opens knees; her white shorts remain covering, but a small gap allows maroon underwear color to show. Bantu notices and signals Bobby; each is aroused privately. Bantu deliberately avoids earlier E08 foot-to-penis repeat to prevent another stop. Bobby's hands slip; Dhika's left foot accidentally drops from his thigh into the gap onto his clothed penis. He jerks but leaves it there, hoping she has not noticed. Dhika notices and debates moving her foot; Bantu initially has no idea. Dhika later makes one small deliberate foot movement, alerting Bantu. Bantu privately plans to stage a similar second contact. Dhika experiences further arousal.",
+      "characterDelta": "Bantu actively recruits Bobby's gaze and later plans deliberate manipulation; Bobby initially reaches accidental contact but knowingly leaves it in place out of fear. Dhika's single later movement is intentional, while her initial slip is not.",
+      "relationshipDelta": "Three actor knowledge states diverge: Dhika knows her left foot touches Bobby; Bobby fears she may not know; Bantu is initially unaware until L81 and then plans. No explicit conversational agreement is obtained.",
+      "readerKnowledge": "The reader knows foot-slip cause and all three inner states; Bantu initially incorrectly thinks Dhika may be asleep/dreaming. Bantu sees her deliberate single movement only later. Bobby does not know she has already noticed.",
+      "boundary": "Initial left-foot contact L72 accidental, but leaving foot there L73 is Bobby's deliberate continuation of an unverified/uncleared situation. Dhika makes later light move herself L80. Bantu's planned staged slip is not 'accidental'.",
+      "authoring": "Preserve first versus second foot mechanics and knowledge. White shorts, maroon panty color only through narrow gap; not full exposure. Distinguish observed movement from motivations.",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P05-E001",
+      "part": 5,
+      "sourceRange": "L86–109",
+      "scene": "Bobby advances thigh massage; Bantu stages second slip; Dhika says no to removing T-shirt",
+      "participants": "Dhika, Bantu, Bobby",
+      "event": "Bobby advances into thighs with narrator explicitly uncertain whether knowingly or unknowingly. Dhika briefly freezes but allows it to continue without speaking. Bantu uses that movement to stage an apparently accidental slip of her other foot onto his clothed penis. Both twins massage high thighs, and Dhika involuntarily squirms and later moves feet. Bobby pauses at her movement; Bantu signals him to continue. Dhika feels aroused and sweats. Bantu proposes she remove her T-shirt, framed as heat relief. Dhika twice says 'no' at L106 and L108, yet Bantu repeats request by referring to her having previously been seen in a bra. The actual clothing change occurs in next Part, not here.",
+      "characterDelta": "Bantu is calculating about second staged foot-slip and persisting with clothing request despite explicit no. Bobby's initial intent in raising hands is ambiguous in RAW; afterward he knowingly continues following Bantu's silent signal. Dhika chooses not to halt current touch but clearly refuses the clothing request.",
+      "relationshipDelta": "Twin joint massage shifts into intimacy with unverified permissions. Bantu's apparently accidental second slip is narrated as manufactured. Explicit no to T-shirt removal is a separate boundary even amid Dhika's physical arousal.",
+      "readerKnowledge": "Reader has Bantu's staging intent, Bobby's ambiguous hand-raising motive, and Dhika's private bodily response. Dhika may not know Bantu staged the second slip; Bobby receives Bantu silent cue.",
+      "boundary": "The two no responses at L106 and L108 must remain clear and not overwritten by later T-shirt removal. Silence during touch is not blanket permission. P5 does not include any authorized bra/breast touch.",
+      "authoring": "Track uncertainty for Bobby's first thigh move and deliberate continuation after signal; staged nature of Bantu second slip unambiguous. P6 separately records Dhika's later own clothing choice and Bantu's subsequent uninvited act.",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P06-E001",
+      "part": 6,
+      "sourceRange": "L110–126",
+      "scene": "Frustrated with pestering, Dhika removes T-shirt herself; twins observe lactation; Bantu touches breast and tastes milk without asking",
+      "participants": "Dhika, Bantu, Bobby",
+      "event": "Dhika dislikes Bantu's repeated verbal pressure but continues enjoying massage; frustrated, she leans forward. Bantu thinks she will stop session, but she pulls her T-shirt over her head and tosses it back without opening eyes. She is wearing maroon bra; breasts jiggle during action. Twins notice bottom of bra is wet, then white drops on upper stomach, revealing lactation. Both react with renewed arousal. Without asking, Bantu wipes a milk drop directly off her wet bra just beneath nipple and puts it in his mouth. Breast contact immediately startles Dhika fully awake; she jerks upright, removes both feet from their clothed crotches, covers breasts and asks Bantu what he did.",
+      "characterDelta": "Dhika actively makes her own clothing decision after prior refusals, but Bantu's pressured request is separate from her eventual choice. Her immediate surprised defensive posture marks that she did not authorize Bantu's breast touch/milk tasting. Bobby is witness to it, not the actor.",
+      "relationshipDelta": "Dhika–Bantu relationship crosses a new bodily boundary through unrequested direct breast touch and tasting her expressed milk. Dhika–Bobby visual awareness occurs but Bobby did not perform this act. No permission follows simply from removing T-shirt or earlier bra-view history.",
+      "readerKnowledge": "Source narrator tells us milk is from lactation. Boys see wet bra/drops and infer before Bantu acts. The reader knows Dhika still has eyes closed and is not shown consenting to his new contact.",
+      "boundary": "L106/L108 no preceded L113 voluntary self-removal. Self-removal ≠ permission for breast touch. L124 Bantu reaches below nipple and tastes milk without asking; L125–126 Dhika startles, removes feet and covers breasts. Avoid interpreting later playful anger as prior consent.",
+      "authoring": "Exact separation of clothing choice, visible lactation and uninvited milk contact is essential. Keep Pappu absent at Aunty's; no child witnesses this scene. Preserve maroon bra and white shorts continuity.",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P07-E001",
+      "part": 7,
+      "sourceRange": "L127–140",
+      "scene": "Dhika reacts with playful and slight real anger, Bantu apologizes, Bobby asks why he could not taste milk",
+      "participants": "Dhika, Bantu, Bobby",
+      "event": "Dhika is primarily surprised, with playful anger plus a smaller real-angry component at Bantu's act; she hits him with pillow, says he took too much liberty and Bantu repeatedly apologizes, acknowledging temptation. Bantu assumes a prior promise not to be angry explains her response; Dhika instead thinks she independently removed her T-shirt, although that is not consent to Bantu's separate touch. RAW L135 speaker tag is 'Bantu' but action of smiling, pushing him with pillow while covering breast and calling him naughty appears assigned to Dhika by scene mechanics; do not silently correct source attribution. Bobby sits quietly then stands and says he could not taste the milk.",
+      "characterDelta": "Dhika distinguishes surprise, playful frustration and a little real anger; her own responsibility interpretation is narrator-supplied but not a grant of permission. Bantu apologizes and privately cites earlier promise. Bobby expresses wanting an equivalent experience despite not taking milk himself.",
+      "relationshipDelta": "Bantu's apologized boundary action creates tension and jealousy/inequality in Bobby. This is a newly introduced Bobby request; Dhika does not agree. All three hear Bobby's statement at L140.",
+      "readerKnowledge": "Reader knows that Bantu's reason for thinking she's not angry differs from her actual self-attribution. L135 RAW speaker assignment is anomalous; flag for approval and preserve the exact English line rather than making canonical correction.",
+      "boundary": "P7 contains apology, direct 'that was bad' and defensive breast covering. Dhika not scolding harshly does not erase earlier uninvited contact. No offer to Bobby has been made at L140.",
+      "authoring": "P7 L135 speaker ambiguity must appear in QA as source conflict; never rewrite RAW. Track exactly who tasted milk (Bantu only), who observed (Bobby), and who asks for it (Bobby).",
+      "review": "pending"
+    },
+    {
+      "id": "E12-P08-E001",
+      "part": 8,
+      "sourceRange": "L141–153",
+      "scene": "Bobby's disappointment, Dhika explicitly denies milk entitlement and recognizes the limit; unresolved E12 endpoint",
+      "participants": "Dhika, Bantu, Bobby",
+      "event": "Dhika facepalms at Bobby's request and Bantu grins. She says her milk is not theirs to drink (neither Bobby nor Bantu), throwing a pillow at Bantu when he asks for another drop. Bobby looks sad and stays unhappy despite Dhika trying to reassure him that she has not favored Bantu. She privately thinks offering Bobby milk would cross a major limit. Her mental blame moves from Bantu who just took one drop to herself for allowing situation; the episode stops at her pout L153 with no later action or agreement.",
+      "characterDelta": "Dhika struggles with responsibility, boundaries and perceived unequal treatment. Bobby's disappointment remains unresolved and is not proof entitlement or permission. Bantu asks for another drop after apology but is refused.",
+      "relationshipDelta": "The milk incident causes distinct pair states: Dhika–Bantu apology and continued refusal; Dhika–Bobby unfulfilled request plus emotional reassurance attempt. Twin rivalry/inequality is now a visible interpersonal hook. No milk is given to Bobby.",
+      "readerKnowledge": "Only reader knows Dhika explicitly considers Bobby milk-sharing too far and privately blames herself; neither brother is shown receiving this internal reasoning. Do not import any E13 action.",
+      "boundary": "Explicit spoken 'not yours to drink' covers both twins; Bobby's sadness and Bantu's pleas do not reverse refusal. E12 ends at L153 without Bobby tasting milk or a new permitted act.",
+      "authoring": "Respect hard stop at L153. Attribute self-blame to Dhika, not moral narrator verdict. Previous E08/E09 differences between twins remain cumulative, not erased.",
+      "review": "pending"
+    }
+  ],
+  "interactionPerceptionLedger": [
+    {
+      "id": "E12-IP-001",
+      "relationship": "Dhika-Chotu",
+      "part": 1,
+      "evidence": "E12 P1 L1–7",
+      "from": "Chotu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Chotu hears moan and asks what sound it was; Dhika is embarrassed and declines explanation.",
+      "certainty": "direct speech and narration",
+      "permission": "no further touch after E11 freeze",
+      "intentionality": "unresolved_aftercare"
+    },
+    {
+      "id": "E12-IP-002",
+      "relationship": "Dhika-Chotu",
+      "part": 1,
+      "evidence": "E12 P1 L10–14",
+      "from": "Dhika",
+      "to": "Chotu",
+      "modality": "ACTION",
+      "detail": "Aunty phone call interrupts; Dhika goes bedroom; Chotu changes and leaves.",
+      "certainty": "narrated action",
+      "permission": "encounter ends with no further act",
+      "intentionality": "childcare_interruption"
+    },
+    {
+      "id": "E12-IP-003",
+      "relationship": "Dhika-John",
+      "part": 1,
+      "evidence": "E12 P1 L15–17",
+      "from": "Dhika",
+      "to": "John",
+      "modality": "IMAGINED",
+      "detail": "On Tuesday Dhika privately feels guilt/sadness about physical contact with someone other than her husband.",
+      "certainty": "private reflection only",
+      "permission": "John not shown informed",
+      "intentionality": "private_internal_conflict"
+    },
+    {
+      "id": "E12-IP-004",
+      "relationship": "Dhika-Bantu",
+      "part": 2,
+      "evidence": "E12 P2 L21–25",
+      "from": "Bantu",
+      "to": "Dhika",
+      "modality": "SEEN",
+      "detail": "Bantu openly winks and looks at teacher; each twin gives an ordinary brief greeting hug.",
+      "certainty": "observed",
+      "permission": "greeting not touch consent",
+      "intentionality": "social_greeting"
+    },
+    {
+      "id": "E12-IP-005",
+      "relationship": "Dhika-Bobby",
+      "part": 2,
+      "evidence": "E12 P2 L24–25",
+      "from": "Bobby",
+      "to": "Dhika",
+      "modality": "IMAGINED",
+      "detail": "Bobby privately remembers prior remote exposure; Dhika only suspects what he may be thinking.",
+      "certainty": "private memory/inference",
+      "permission": "thought not transmitted",
+      "intentionality": "distinct_bobby_memory"
+    },
+    {
+      "id": "E12-IP-006",
+      "relationship": "Bantu-Bobby",
+      "part": 2,
+      "evidence": "E12 P2 L26–40",
+      "from": "Bantu",
+      "to": "Bobby",
+      "modality": "LEARNED",
+      "detail": "Both twins study the remaining topics and learn Friday test is mandatory before Saturday contest.",
+      "certainty": "spoken shared facts",
+      "permission": "academic-only invitation",
+      "intentionality": "academic_agreement"
+    },
+    {
+      "id": "E12-IP-007",
+      "relationship": "Dhika-Bantu",
+      "part": 3,
+      "evidence": "E12 P3 L49–55",
+      "from": "Dhika",
+      "to": "Bantu",
+      "modality": "HEARD",
+      "detail": "Dhika declines massage, asks Bantu to get up; he takes leg and presses anyway; she asks again.",
+      "certainty": "direct dialogue and action",
+      "permission": "refusal precedes contact",
+      "intentionality": "initiated_without_acceptance"
+    },
+    {
+      "id": "E12-IP-008",
+      "relationship": "Dhika-Bobby",
+      "part": 3,
+      "evidence": "E12 P3 L52–61",
+      "from": "Bobby",
+      "to": "Dhika",
+      "modality": "ACTION",
+      "detail": "Bobby insists, massages her other leg then advances toward knee without asking.",
+      "certainty": "narrated actions",
+      "permission": "Dhika interprets knee move as casual help",
+      "intentionality": "extended_contact_without_check"
+    },
+    {
+      "id": "E12-IP-009",
+      "relationship": "Dhika-Bantu",
+      "part": 4,
+      "evidence": "E12 P4 L62–66",
+      "from": "Bantu",
+      "to": "Dhika",
+      "modality": "SEEN",
+      "detail": "Bantu sees maroon underwear color through narrow shorts gap and signals Bobby; avoids repeating E08 foot-crotch mistake.",
+      "certainty": "narrated observation and motive",
+      "permission": "clothing not permission",
+      "intentionality": "intentional_visual_signal"
+    },
+    {
+      "id": "E12-IP-010",
+      "relationship": "Bantu-Bobby",
+      "part": 4,
+      "evidence": "E12 P4 L64–65",
+      "from": "Bantu",
+      "to": "Bobby",
+      "modality": "SIGNAL",
+      "detail": "Bantu silently directs Bobby's gaze toward maroon-color glimpse.",
+      "certainty": "narrated signal",
+      "permission": "no agreement from Dhika",
+      "intentionality": "silent_coordination"
+    },
+    {
+      "id": "E12-IP-011",
+      "relationship": "Dhika-Bobby",
+      "part": 4,
+      "evidence": "E12 P4 L68–73",
+      "from": "Bobby",
+      "to": "Dhika",
+      "modality": "ACTION",
+      "detail": "Bobby accidentally drops Dhika's foot onto his clothed penis; jerks then knowingly leaves foot there.",
+      "certainty": "narrated mechanics",
+      "permission": "initial accident then unconfirmed continuation",
+      "intentionality": "accident_then_inaction"
+    },
+    {
+      "id": "E12-IP-012",
+      "relationship": "Dhika-Bobby",
+      "part": 4,
+      "evidence": "E12 P4 L69–80",
+      "from": "Dhika",
+      "to": "Bobby",
+      "modality": "ACTION",
+      "detail": "Dhika notices contact, privately weighs moving foot, then later makes one small deliberate motion herself.",
+      "certainty": "private mind and narrated action",
+      "permission": "no explicit spoken check",
+      "intentionality": "later_deliberate_foot_move"
+    },
+    {
+      "id": "E12-IP-013",
+      "relationship": "Dhika-Bantu",
+      "part": 4,
+      "evidence": "E12 P4 L79–83",
+      "from": "Bantu",
+      "to": "Dhika",
+      "modality": "IMAGINED",
+      "detail": "Bantu discovers Bobby-foot situation and plans staged contact with himself.",
+      "certainty": "private intent",
+      "permission": "not communicated to Dhika",
+      "intentionality": "deliberate_planning"
+    },
+    {
+      "id": "E12-IP-014",
+      "relationship": "Dhika-Bobby",
+      "part": 5,
+      "evidence": "E12 P5 L86–87",
+      "from": "Bobby",
+      "to": "Dhika",
+      "modality": "ACTION",
+      "detail": "Bobby moves into thigh massage, but source says knowingly or unknowingly, so initial intent unresolved.",
+      "certainty": "explicit source ambiguity",
+      "permission": "silence not blanket consent",
+      "intentionality": "initial_intent_uncertain"
+    },
+    {
+      "id": "E12-IP-015",
+      "relationship": "Dhika-Bantu",
+      "part": 5,
+      "evidence": "E12 P5 L88–89",
+      "from": "Bantu",
+      "to": "Dhika",
+      "modality": "ACTION",
+      "detail": "Bantu stages apparently accidental slip of other foot onto his clothed penis.",
+      "certainty": "narrator establishes staging",
+      "permission": "no informed permission to staged move",
+      "intentionality": "deliberate_misrepresented_accident"
+    },
+    {
+      "id": "E12-IP-016",
+      "relationship": "Bantu-Bobby",
+      "part": 5,
+      "evidence": "E12 P5 L94–96",
+      "from": "Bantu",
+      "to": "Bobby",
+      "modality": "SIGNAL",
+      "detail": "When Dhika's feet move and Bobby pauses, Bantu silently signals him to continue higher thigh massage.",
+      "certainty": "narrated nonverbal cue",
+      "permission": "no new direct consent",
+      "intentionality": "silent_continue_signal"
+    },
+    {
+      "id": "E12-IP-017",
+      "relationship": "Dhika-Bantu",
+      "part": 5,
+      "evidence": "E12 P5 L99–109",
+      "from": "Dhika",
+      "to": "Bantu",
+      "modality": "HEARD",
+      "detail": "Dhika twice says no to Bantu's requests that she remove T-shirt; he persists.",
+      "certainty": "direct speech",
+      "permission": "two explicit refusals",
+      "intentionality": "repeated_refusals"
+    },
+    {
+      "id": "E12-IP-018",
+      "relationship": "Dhika-Bantu",
+      "part": 6,
+      "evidence": "E12 P6 L110–114",
+      "from": "Dhika",
+      "to": "Bantu",
+      "modality": "ACTION",
+      "detail": "After verbal pestering, Dhika chooses to remove T-shirt herself and keeps eyes closed.",
+      "certainty": "narrated action",
+      "permission": "self-clothing choice only",
+      "intentionality": "self_removal_after_refusals"
+    },
+    {
+      "id": "E12-IP-019",
+      "relationship": "Dhika-Bobby",
+      "part": 6,
+      "evidence": "E12 P6 L116–123",
+      "from": "Bobby",
+      "to": "Dhika",
+      "modality": "SEEN",
+      "detail": "Both twins notice visible lactation/wet maroon bra while Dhika's eyes remain closed.",
+      "certainty": "narrated observation",
+      "permission": "visibility not breast-touch permission",
+      "intentionality": "observed_lactation"
+    },
+    {
+      "id": "E12-IP-020",
+      "relationship": "Dhika-Bantu",
+      "part": 6,
+      "evidence": "E12 P6 L124–126",
+      "from": "Bantu",
+      "to": "Dhika",
+      "modality": "ACTION",
+      "detail": "Bantu wipes a milk drop from below nipple on bra, tastes it without asking; Dhika jerks awake, removes feet and covers breasts.",
+      "certainty": "narrated action/reaction",
+      "permission": "uninvited breast touch; clear startled reaction",
+      "intentionality": "uninvited_touch_and_tasting"
+    },
+    {
+      "id": "E12-IP-021",
+      "relationship": "Dhika-Bantu",
+      "part": 7,
+      "evidence": "E12 P7 L127–135",
+      "from": "Dhika",
+      "to": "Bantu",
+      "modality": "HEARD",
+      "detail": "Dhika says Bantu acted badly/took too much liberty; pillow blows are playful with small real anger; he apologizes repeatedly.",
+      "certainty": "dialogue and narrator",
+      "permission": "later mild response does not retro-consent",
+      "intentionality": "apology_after_crossing"
+    },
+    {
+      "id": "E12-IP-022",
+      "relationship": "Dhika-Bobby",
+      "part": 7,
+      "evidence": "E12 P7 L136–140",
+      "from": "Bobby",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Bobby, who witnessed Bantu tasting milk, says he could not taste it too.",
+      "certainty": "direct speech",
+      "permission": "a request/grievance, not permission",
+      "intentionality": "uninvited_request"
+    },
+    {
+      "id": "E12-IP-023",
+      "relationship": "Dhika-Bobby",
+      "part": 8,
+      "evidence": "E12 P8 L141–151",
+      "from": "Dhika",
+      "to": "Bobby",
+      "modality": "HEARD",
+      "detail": "Dhika says milk is not for Bobby or Bantu and privately judges giving Bobby a drop would cross limits; Bobby remains sad.",
+      "certainty": "speech and private thought",
+      "permission": "explicit denial",
+      "intentionality": "denied_request"
+    },
+    {
+      "id": "E12-IP-024",
+      "relationship": "Dhika-Bantu",
+      "part": 8,
+      "evidence": "E12 P8 L144–146",
+      "from": "Bantu",
+      "to": "Dhika",
+      "modality": "HEARD",
+      "detail": "Bantu asks for an additional milk drop; Dhika rejects it and throws pillow.",
+      "certainty": "direct speech/action",
+      "permission": "repeat request refused",
+      "intentionality": "repeat_refusal"
+    },
+    {
+      "id": "E12-IP-025",
+      "relationship": "Bantu-Bobby",
+      "part": 8,
+      "evidence": "E12 P8 L147–150",
+      "from": "Bobby",
+      "to": "Bantu",
+      "modality": "SEEN",
+      "detail": "Bobby sees unequal milk incident and stays disappointed, while Bantu already tasted a drop.",
+      "certainty": "narrated relational contrast",
+      "permission": "no entitlement or promised equal sharing",
+      "intentionality": "perceived_inequity"
+    }
+  ],
+  "partSnapshots": [
+    {
+      "part": 1,
+      "range": "L1–18",
+      "previousVerifiedState": "E11 P8 endpoint",
+      "currentDeltaEventIds": [
+        "E12-P01-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003"
+      ],
+      "boundary": "No further touch after the freeze is documented. The phone interruption ends the encounter. Narrator calls Chotu a 'teenager', while approved continuity records Chotu as 19 and adult; preserve exact RAW label while flagging the apparent terminology issue rather than inventing a changed age."
+    },
+    {
+      "part": 2,
+      "range": "L19–40",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P02-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006"
+      ],
+      "boundary": "No student request is consent to massage or exposure. Dhika's clothing is a practical choice and does not change contact boundaries. Do not turn Friday proposed test into one already held."
+    },
+    {
+      "part": 3,
+      "range": "L41–61",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P03-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001",
+        "E12-P03-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006",
+        "E12-IP-007",
+        "E12-IP-008"
+      ],
+      "boundary": "At L51 Dhika refuses; L53 Bantu proceeds without waiting. L55 and L57 further no/should-not statements remain source facts. Bobby moves upward without a new check. Do not mark initial massage 'explicitly consented'."
+    },
+    {
+      "part": 4,
+      "range": "L62–85",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P04-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001",
+        "E12-P03-E001",
+        "E12-P04-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006",
+        "E12-IP-007",
+        "E12-IP-008",
+        "E12-IP-009",
+        "E12-IP-010",
+        "E12-IP-011",
+        "E12-IP-012",
+        "E12-IP-013"
+      ],
+      "boundary": "Initial left-foot contact L72 accidental, but leaving foot there L73 is Bobby's deliberate continuation of an unverified/uncleared situation. Dhika makes later light move herself L80. Bantu's planned staged slip is not 'accidental'."
+    },
+    {
+      "part": 5,
+      "range": "L86–109",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P05-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001",
+        "E12-P03-E001",
+        "E12-P04-E001",
+        "E12-P05-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006",
+        "E12-IP-007",
+        "E12-IP-008",
+        "E12-IP-009",
+        "E12-IP-010",
+        "E12-IP-011",
+        "E12-IP-012",
+        "E12-IP-013",
+        "E12-IP-014",
+        "E12-IP-015",
+        "E12-IP-016",
+        "E12-IP-017"
+      ],
+      "boundary": "The two no responses at L106 and L108 must remain clear and not overwritten by later T-shirt removal. Silence during touch is not blanket permission. P5 does not include any authorized bra/breast touch."
+    },
+    {
+      "part": 6,
+      "range": "L110–126",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P06-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001",
+        "E12-P03-E001",
+        "E12-P04-E001",
+        "E12-P05-E001",
+        "E12-P06-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006",
+        "E12-IP-007",
+        "E12-IP-008",
+        "E12-IP-009",
+        "E12-IP-010",
+        "E12-IP-011",
+        "E12-IP-012",
+        "E12-IP-013",
+        "E12-IP-014",
+        "E12-IP-015",
+        "E12-IP-016",
+        "E12-IP-017",
+        "E12-IP-018",
+        "E12-IP-019",
+        "E12-IP-020"
+      ],
+      "boundary": "L106/L108 no preceded L113 voluntary self-removal. Self-removal ≠ permission for breast touch. L124 Bantu reaches below nipple and tastes milk without asking; L125–126 Dhika startles, removes feet and covers breasts. Avoid interpreting later playful anger as prior consent."
+    },
+    {
+      "part": 7,
+      "range": "L127–140",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P07-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001",
+        "E12-P03-E001",
+        "E12-P04-E001",
+        "E12-P05-E001",
+        "E12-P06-E001",
+        "E12-P07-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006",
+        "E12-IP-007",
+        "E12-IP-008",
+        "E12-IP-009",
+        "E12-IP-010",
+        "E12-IP-011",
+        "E12-IP-012",
+        "E12-IP-013",
+        "E12-IP-014",
+        "E12-IP-015",
+        "E12-IP-016",
+        "E12-IP-017",
+        "E12-IP-018",
+        "E12-IP-019",
+        "E12-IP-020",
+        "E12-IP-021",
+        "E12-IP-022"
+      ],
+      "boundary": "P7 contains apology, direct 'that was bad' and defensive breast covering. Dhika not scolding harshly does not erase earlier uninvited contact. No offer to Bobby has been made at L140."
+    },
+    {
+      "part": 8,
+      "range": "L141–153",
+      "previousVerifiedState": "E11 end + prior E12 Parts",
+      "currentDeltaEventIds": [
+        "E12-P08-E001"
+      ],
+      "cumulativeEventIds": [
+        "E12-P01-E001",
+        "E12-P02-E001",
+        "E12-P03-E001",
+        "E12-P04-E001",
+        "E12-P05-E001",
+        "E12-P06-E001",
+        "E12-P07-E001",
+        "E12-P08-E001"
+      ],
+      "cumulativePerceptionIds": [
+        "E12-IP-001",
+        "E12-IP-002",
+        "E12-IP-003",
+        "E12-IP-004",
+        "E12-IP-005",
+        "E12-IP-006",
+        "E12-IP-007",
+        "E12-IP-008",
+        "E12-IP-009",
+        "E12-IP-010",
+        "E12-IP-011",
+        "E12-IP-012",
+        "E12-IP-013",
+        "E12-IP-014",
+        "E12-IP-015",
+        "E12-IP-016",
+        "E12-IP-017",
+        "E12-IP-018",
+        "E12-IP-019",
+        "E12-IP-020",
+        "E12-IP-021",
+        "E12-IP-022",
+        "E12-IP-023",
+        "E12-IP-024",
+        "E12-IP-025"
+      ],
+      "boundary": "Explicit spoken 'not yours to drink' covers both twins; Bobby's sadness and Bantu's pleas do not reverse refusal. E12 ends at L153 without Bobby tasting milk or a new permitted act."
+    }
+  ],
+  "negativeCanon": [
+    "E12 P1 does not continue E11 physical interaction beyond L157: Aunty's call ends the encounter",
+    "Chotu's narrator term 'teenager' at L7 does not change the author-locked age of 19",
+    "Tuesday twins competition is upcoming Saturday; Friday test only planned",
+    "P3 L51, L55 and L57 initial massage refusals remain source facts despite later relief",
+    "Bobby first foot slip is accidental; his subsequent inaction and Dhika later one move differ from Bantu's staged second slip",
+    "Bobby P5 initial move toward upper thighs explicitly says 'knowingly or unknowingly' — motive unresolved",
+    "Dhika says no twice to removing her shirt L106 and L108; later removes it herself L113, which is not permission to touch breasts or take milk",
+    "Bantu milk tasting L124 was uninvited; L127–135 playful reaction/small real anger do not retrospectively grant consent",
+    "E12 RAW L135 has an apparent speaker-attribution conflict ('Bantu' with Dhika-like actions); keep RAW exact, flag author review",
+    "Bobby never tastes milk by E12 L153 and Dhika explicitly says it is neither twin's to drink",
+    "E12 ends L153 with Dhika private self-blame; no E13 action or resolution imported"
+  ],
+  "hooks": [
+    {
+      "id": "E12-H001",
+      "status": "CLOSED",
+      "description": "E11 L157 moan/freezing encounter ends through Aunty childcare call",
+      "source": "P1 L1–14"
+    },
+    {
+      "id": "E12-H002",
+      "status": "OPEN",
+      "description": "Dhika emotionally unresolved about Chotu interaction",
+      "source": "P1 L15–18"
+    },
+    {
+      "id": "E12-H003",
+      "status": "OPEN",
+      "description": "Twins Friday test and Saturday contest",
+      "source": "P2 L26–39"
+    },
+    {
+      "id": "E12-H004",
+      "status": "OPEN",
+      "description": "Bobby disappointment about Bantu having tasted milk; Dhika refuses sharing with both",
+      "source": "P7–P8 L140–153"
+    },
+    {
+      "id": "E12-H005",
+      "status": "OPEN",
+      "description": "Bantu milk incident boundary aftermath and Dhika self-blame",
+      "source": "P6–P8 L124–153"
+    }
+  ]
+}
