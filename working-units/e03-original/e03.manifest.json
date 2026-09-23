@@ -5,7 +5,7 @@
     "driveDocumentId": "1z2FV-NPUazfFTc4vRBjwy_hHEPsXC1K1qvmj2XTlh0Y",
     "title": "98 — RAW SOURCE — EPISODE 03"
   },
-  "sourceStatus": "fresh-read-2026-09-20",
+  "sourceStatus": "fresh-read-2026-09-23 (Google Drive RAW document checked against P03 L32–42 and P09 L148–179)",
   "sourceBody": {
     "start": "E03-L001",
     "end": "E03-L231",
@@ -104,10 +104,10 @@
   ],
   "analysisStatus": "Episode 03 Parts 1–13 continuity analysis complete through L231",
   "authorReviewStatus": "Episode 03 Parts 1–13 ready for author review",
-  "uiStatus": "initial build",
-  "imageStatus": "architecture/placeholders only",
+  "uiStatus": "P01–P13 Part router plus episode-wide combined view linked on main; public rendered-page check not yet verified",
+  "imageStatus": "MIXED_VERIFIED: P09 has 22 Drive-APPROVED mapped images; P03 has 10 mapped/generated pending author review (7 Drive INBOX, 3 repo images); other Parts retain their own per-beat approved/pending/missing statuses; P10 L187 unmapped",
   "localLanguageStatus": "source-faithful transformation restored from the established E03 review candidate, with Part-boundary fragments completed without changing source meaning",
-  "storyImagesStatus": "story text restored; image work not executed by this correction",
+  "storyImagesStatus": "P03 L32–42 now exactly reuses Part 40/40 local text; P09 L148–179 exactly reuses Part 40/40 local text and retains 22 locked Drive-approved images; combined view synchronized; all other Part image states preserved, not silently upgraded",
   "completionStatus": "Episode 03 fully normalized through Part 13 / L231 with canonical 7-tab Part UI, pointer-only Relationship History Ledger, and visible + backend RULE-017 Interaction / Perception tracking. Episode hard-stops at L231.",
   "canonAgeResolution": {
     "Chotu": "19-year-old adult per E01–E04 Evidence Archive and Character Evolution Ledger",
@@ -144,5 +144,190 @@
     "topLevelTabAdded": false,
     "backendField": "interactionPerceptionLedger",
     "cumulativeThrough": "E03-P13"
+  },
+  "combinedView": {
+    "path": "working-units/e03-original/collective/index.html",
+    "gitHubMainReadback": "VERIFIED_AFTER_SYNC",
+    "publicPagesRenderedQA": "UNVERIFIED_NETWORK_AND_ACCESS_LIMIT",
+    "authorReview": "PENDING",
+    "contains40x40": false,
+    "storyP03andP09Synced": true,
+    "predictionTab": "RETROSPECTIVE_SETUP_ACTUAL_COMPARISONS_NOT_INDEPENDENT_PRIOR_FORECASTS"
+  },
+  "imageAudit": {
+    "auditedOn": "2026-09-23",
+    "method": "Current Part HTML state labels + direct P03/P09 Google Drive approval-folder listing; media counts are HTML embeds, not proof of rendered visual fidelity",
+    "totalMappedMediaReferences": 143,
+    "parts": [
+      {
+        "part": 1,
+        "mediaReferences": 3,
+        "driveMapped": 0,
+        "githubImages": 3,
+        "state": "LEGACY_APPROVED_LABEL_RECONCILIATION",
+        "visibleStateLabels": [
+          "IMAGE_APPROVED"
+        ],
+        "sourcePanelSha": "21198ef5238ab61ae4f2d59378a224ca74cff9a3"
+      },
+      {
+        "part": 2,
+        "mediaReferences": 9,
+        "driveMapped": 0,
+        "githubImages": 9,
+        "state": "LEGACY_APPROVED_LABEL_RECONCILIATION",
+        "visibleStateLabels": [
+          "IMAGE_APPROVED"
+        ],
+        "sourcePanelSha": "fa9ca3c1548effa878f8e7bb6df86139ef1f8582"
+      },
+      {
+        "part": 3,
+        "mediaReferences": 10,
+        "driveMapped": 7,
+        "githubImages": 3,
+        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW",
+          "GENERATED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "37b2ec8d37c8432de57e1118efc7c094ae8f8a9e",
+        "driveInboxMapped": 7,
+        "driveApprovedFolderCount": 0,
+        "pendingAuthorReview": 10,
+        "localTranslationSynchronizedL32toL42": true
+      },
+      {
+        "part": 4,
+        "mediaReferences": 12,
+        "driveMapped": 12,
+        "githubImages": 0,
+        "state": "MIXED_APPROVED_AND_PENDING",
+        "visibleStateLabels": [
+          "LOCKED_APPROVED_IMAGE",
+          "DRIVE_MAPPED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "746dea5d54acaf84a48ee045a46a053de04fcb4f"
+      },
+      {
+        "part": 5,
+        "mediaReferences": 18,
+        "driveMapped": 18,
+        "githubImages": 0,
+        "state": "MIXED_APPROVED_AND_PENDING",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW",
+          "LOCKED_APPROVED_IMAGE"
+        ],
+        "sourcePanelSha": "21b3088bdc76ce9f3b1db982099322cefbdcccde"
+      },
+      {
+        "part": 6,
+        "mediaReferences": 18,
+        "driveMapped": 18,
+        "githubImages": 0,
+        "state": "MIXED_APPROVED_AND_PENDING",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW",
+          "LOCKED_APPROVED_IMAGE"
+        ],
+        "sourcePanelSha": "a0fa7f4b321ae25eac59fef4ae06a25a5be0e036"
+      },
+      {
+        "part": 7,
+        "mediaReferences": 11,
+        "driveMapped": 11,
+        "githubImages": 0,
+        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "4b0a934e8f1db0c27fbffbd04a176969bc0660aa"
+      },
+      {
+        "part": 8,
+        "mediaReferences": 3,
+        "driveMapped": 3,
+        "githubImages": 0,
+        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "4e4a3a94095b1886ff796237c22d7a84971a79e9"
+      },
+      {
+        "part": 9,
+        "mediaReferences": 22,
+        "driveMapped": 22,
+        "githubImages": 0,
+        "state": "LOCKED_APPROVED_DRIVE_VERIFIED",
+        "visibleStateLabels": [
+          "LOCKED_APPROVED_IMAGE"
+        ],
+        "sourcePanelSha": "38fb7c66f688d7c9f8954b1ea1212df9fe206f87",
+        "driveApprovedFolderCount": 22,
+        "localStoryLinesRestored": 32
+      },
+      {
+        "part": 10,
+        "mediaReferences": 8,
+        "driveMapped": 8,
+        "githubImages": 0,
+        "state": "PENDING_WITH_ONE_UNMAPPED_SOURCE_BEAT",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW",
+          "MISSING"
+        ],
+        "sourcePanelSha": "ce949a012a0caea5fa3d68813a8bb427fb79684f",
+        "unmappedSourceBeat": "L187"
+      },
+      {
+        "part": 11,
+        "mediaReferences": 4,
+        "driveMapped": 4,
+        "githubImages": 0,
+        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "29846172729d6c2cd994c56933f899989db83ad1"
+      },
+      {
+        "part": 12,
+        "mediaReferences": 11,
+        "driveMapped": 11,
+        "githubImages": 0,
+        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "4b4cdbaf4d783b083f219ad4f35b4faa5703ddc2"
+      },
+      {
+        "part": 13,
+        "mediaReferences": 14,
+        "driveMapped": 14,
+        "githubImages": 0,
+        "state": "MAPPED_PENDING_AUTHOR_REVIEW",
+        "visibleStateLabels": [
+          "DRIVE_MAPPED_PENDING_REVIEW"
+        ],
+        "sourcePanelSha": "70ffb05d306d8d367cb8797f79b61f82cbf39a69"
+      }
+    ],
+    "knownOutstanding": [
+      "P03 ten mapped images still pending author review; Drive 01_APPROVED folder empty",
+      "P10 L187 image missing/unmapped in HTML and no matching Drive asset in current P10 inbox",
+      "P01/P02 legacy IMAGE_APPROVED statuses lack complete canonical per-image terminal labels",
+      "Other Parts retain pending states shown in their Part HTML; approval cannot be inferred from asset existence",
+      "GitHub Pages public rendered-pixel verification unavailable from current tool environment"
+    ]
+  },
+  "predictionAudit": {
+    "classification": "RETROSPECTIVE_PREDECESSOR_SETUP_VS_RAW",
+    "comparisons": 13,
+    "independentlyTimestampedPreE03PredictionCountVerified": 0,
+    "accuracyScore": "NOT_CALCULATED_WITHOUT_PRIOR_PREDICTION_RECORD",
+    "sourceOfPriorCue": "Current E02 P14 and E03 preceding Parts; later-edited documents cannot prove contemporaneous forecasts"
   }
 }
